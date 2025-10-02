@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Research & Academia</title>
+    <title>Your Name - Research Portfolio</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
         * {
             margin: 0;
@@ -14,28 +14,39 @@
         }
 
         :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #8b5cf6;
-            --accent: #ec4899;
-            --dark: #0f172a;
-            --gray: #64748b;
-            --light-gray: #f1f5f9;
-            --white: #ffffff;
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #111111;
+            --bg-card: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent: #00ff88;
+            --accent-purple: #a855f7;
+            --accent-blue: #3b82f6;
+            --gradient: linear-gradient(135deg, #00ff88, #00d4ff);
+            --shadow: 0 20px 60px rgba(0, 255, 136, 0.1);
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
             line-height: 1.6;
-            color: var(--dark);
-            background: linear-gradient(to bottom, #ffffff 0%, #f8fafc 100%);
             overflow-x: hidden;
         }
 
+        /* Custom Cursor */
+        body {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="8" fill="%2300ff88" opacity="0.3"/></svg>'), auto;
+        }
+
+        a, button {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><circle cx="12" cy="12" r="10" fill="%2300ff88" opacity="0.5"/></svg>'), pointer;
+        }
+
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 0 3rem;
         }
 
         /* Navigation */
@@ -43,64 +54,68 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
             z-index: 1000;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 1.5rem 0;
+            background: rgba(10, 10, 10, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
         }
 
         nav.scrolled {
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 1rem 0;
+            background: rgba(10, 10, 10, 0.95);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
         }
 
-        nav .container {
+        .nav-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1rem 2rem;
         }
 
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            letter-spacing: -1px;
         }
 
-        nav ul {
+        .nav-links {
             display: flex;
+            gap: 3rem;
             list-style: none;
-            gap: 2rem;
         }
 
-        nav a {
+        .nav-links a {
+            color: var(--text-secondary);
             text-decoration: none;
-            color: var(--dark);
             font-weight: 500;
             font-size: 0.95rem;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
             position: relative;
         }
 
-        nav a::after {
+        .nav-links a::before {
             content: '';
             position: absolute;
-            bottom: -4px;
+            bottom: -5px;
             left: 0;
             width: 0;
             height: 2px;
-            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            background: var(--gradient);
             transition: width 0.3s ease;
         }
 
-        nav a:hover {
-            color: var(--primary);
+        .nav-links a:hover {
+            color: var(--accent);
         }
 
-        nav a:hover::after {
+        .nav-links a:hover::before {
             width: 100%;
         }
 
@@ -109,100 +124,204 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            padding-top: 80px;
             position: relative;
+            padding-top: 100px;
             overflow: hidden;
         }
 
         .hero-background {
             position: absolute;
             top: 0;
-            right: 0;
-            width: 50%;
+            left: 0;
+            width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
-            clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
-            z-index: -1;
+            z-index: 0;
+        }
+
+        .grid-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .glow-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--accent);
+            top: 10%;
+            left: 10%;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--accent-purple);
+            bottom: 20%;
+            right: 10%;
+            animation-delay: 2s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(30px, -30px) scale(1.1); }
         }
 
         .hero-content {
+            position: relative;
+            z-index: 1;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+            gap: 5rem;
             align-items: center;
         }
 
         .hero-text h1 {
-            font-size: 3.5rem;
+            font-size: 5rem;
             font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 1rem;
-            color: var(--dark);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            letter-spacing: -2px;
         }
 
-        .hero-text .gradient-text {
-            background: linear-gradient(135deg, var(--primary), var(--secondary), var(--accent));
+        .gradient-text {
+            background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
-        .hero-text p {
-            font-size: 1.25rem;
-            color: var(--gray);
+        .hero-text .subtitle {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
             margin-bottom: 2rem;
-            line-height: 1.8;
+            font-weight: 300;
         }
 
-        .hero-buttons {
+        .typing-text {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            border-right: 2px solid var(--accent);
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+
+        .cta-buttons {
             display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
+            gap: 1.5rem;
+            margin-top: 3rem;
         }
 
         .btn {
-            padding: 0.875rem 2rem;
+            padding: 1rem 2.5rem;
             border-radius: 50px;
-            text-decoration: none;
             font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
             transition: all 0.3s ease;
             display: inline-block;
             border: none;
-            cursor: pointer;
+            position: relative;
+            overflow: hidden;
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+            background: var(--gradient);
+            color: var(--bg-primary);
+            box-shadow: 0 10px 40px rgba(0, 255, 136, 0.3);
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
         }
 
         .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 50px rgba(0, 255, 136, 0.5);
         }
 
         .btn-secondary {
-            background: white;
-            color: var(--primary);
-            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--accent);
+            border: 2px solid var(--accent);
         }
 
         .btn-secondary:hover {
-            background: var(--primary);
-            color: white;
+            background: var(--accent);
+            color: var(--bg-primary);
+            transform: translateY(-3px);
         }
 
-        .hero-image {
+        .hero-visual {
             position: relative;
+            height: 500px;
         }
 
-        .profile-card {
-            background: white;
-            border-radius: 20px;
-            padding: 2rem;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-            text-align: center;
+        .profile-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .profile-card-3d {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 500px;
+            background: var(--bg-card);
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card-3d:hover {
+            transform: translate(-50%, -50%) translateY(-10px);
+        }
+
+        .profile-img-container {
+            position: relative;
+            margin-bottom: 2rem;
         }
 
         .profile-img {
@@ -210,276 +329,336 @@
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 1.5rem;
-            border: 4px solid var(--light-gray);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 3px solid var(--accent);
+            box-shadow: 0 0 50px rgba(0, 255, 136, 0.3);
         }
 
-        .social-links {
+        .status-badge {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: var(--accent);
+            color: var(--bg-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            font-family: 'JetBrains Mono', monospace;
+            box-shadow: 0 5px 20px rgba(0, 255, 136, 0.4);
+        }
+
+        .profile-info {
+            text-align: center;
+        }
+
+        .profile-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-info p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .social-icons {
             display: flex;
-            justify-content: center;
             gap: 1rem;
-            margin-top: 1.5rem;
+            justify-content: center;
         }
 
         .social-icon {
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
-            background: var(--light-gray);
+            background: rgba(255, 255, 255, 0.05);
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            color: var(--dark);
+            color: var(--text-primary);
             transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .social-icon:hover {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            transform: translateY(-3px);
+            background: var(--accent);
+            color: var(--bg-primary);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
         }
 
-        /* Sections */
+        /* Section Styling */
         section {
-            padding: 6rem 0;
+            padding: 8rem 0;
+            position: relative;
         }
 
         .section-header {
             text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 5rem;
+        }
+
+        .section-number {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
         }
 
         .section-header h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
+            font-size: 3rem;
             margin-bottom: 1rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        .section-header h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary), var(--secondary));
-            border-radius: 2px;
+            letter-spacing: -1px;
         }
 
         .section-header p {
-            color: var(--gray);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 1.5rem auto 0;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
         }
 
-        /* Research Cards */
+        /* Research Grid */
         .research-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
         .research-card {
-            background: white;
-            border-radius: 16px;
-            padding: 2rem;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .research-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--gradient);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .research-card:hover::before {
+            transform: scaleX(1);
         }
 
         .research-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 40px rgba(99, 102, 241, 0.15);
+            transform: translateY(-10px);
+            box-shadow: var(--shadow);
+            border-color: rgba(0, 255, 136, 0.2);
         }
 
         .research-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 12px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            color: white;
+            font-size: 3rem;
             margin-bottom: 1.5rem;
         }
 
         .research-card h3 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            color: var(--dark);
+            color: var(--text-primary);
         }
 
         .research-card p {
-            color: var(--gray);
+            color: var(--text-secondary);
             line-height: 1.8;
         }
 
         /* Publications */
+        .publications-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
         .publication-item {
-            background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            margin-bottom: 1.5rem;
-            border-left: 4px solid var(--primary);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--accent);
             transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .publication-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transform: translateX(10px);
+            box-shadow: var(--shadow);
+            border-left-width: 8px;
+        }
+
+        .publication-year {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
         }
 
         .publication-item h3 {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-            color: var(--dark);
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
         }
 
         .publication-authors {
-            color: var(--gray);
+            color: var(--text-secondary);
             font-style: italic;
             margin-bottom: 0.5rem;
         }
 
         .publication-venue {
             display: inline-block;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
-            color: var(--primary);
-            padding: 0.25rem 1rem;
-            border-radius: 50px;
-            font-size: 0.9rem;
+            background: rgba(0, 255, 136, 0.1);
+            color: var(--accent);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
             font-weight: 600;
-            margin-top: 0.5rem;
+            margin-top: 1rem;
+            font-family: 'JetBrains Mono', monospace;
         }
 
-        /* Skills Tags */
+        /* Skills Section */
         .skills-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 1.5rem;
             justify-content: center;
-            margin-top: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .skill-tag {
-            background: white;
-            color: var(--primary);
-            padding: 0.75rem 1.5rem;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            padding: 1rem 2rem;
             border-radius: 50px;
             font-weight: 600;
-            border: 2px solid var(--primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
+            font-size: 0.95rem;
         }
 
         .skill-tag:hover {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+            background: var(--accent);
+            color: var(--bg-primary);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+            border-color: var(--accent);
         }
 
         /* Contact Section */
         .contact-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .contact-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 16px;
+            background: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: 20px;
             text-align: center;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow);
+            border-color: rgba(0, 255, 136, 0.2);
         }
 
         .contact-icon {
-            width: 60px;
-            height: 60px;
-            margin: 0 auto 1rem;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
         }
 
         .contact-card h3 {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
         }
 
         .contact-card p {
-            color: var(--gray);
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .contact-card a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
         }
 
         /* Footer */
         footer {
-            background: var(--dark);
-            color: white;
+            background: var(--bg-secondary);
             padding: 3rem 0;
             text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        footer a {
-            color: var(--primary);
-            text-decoration: none;
+        footer p {
+            color: var(--text-secondary);
         }
 
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
+        /* Responsive */
+        @media (max-width: 1024px) {
             .hero-content {
                 grid-template-columns: 1fr;
                 text-align: center;
             }
 
             .hero-text h1 {
-                font-size: 2.5rem;
+                font-size: 3.5rem;
             }
 
-            nav ul {
+            .research-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-buttons {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
                 display: none;
             }
 
-            .hero-buttons {
-                justify-content: center;
+            .hero-text h1 {
+                font-size: 2.5rem;
             }
 
-            .section-header h2 {
-                font-size: 2rem;
+            .research-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-card-3d {
+                width: 350px;
+                height: 450px;
             }
         }
 
-        /* Smooth Scroll */
         html {
             scroll-behavior: smooth;
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .fade-in {
-            animation: fadeInUp 0.6s ease-out;
         }
     </style>
 </head>
@@ -487,40 +666,61 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
-            <div class="logo">YN</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="nav-content">
+                <div class="logo">&lt;YN/&gt;</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-background"></div>
+        <div class="hero-background">
+            <div class="grid-background"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Hi, I'm <span class="gradient-text">Your Name</span></h1>
-                    <p>Assistant Professor specializing in Machine Learning and Artificial Intelligence. Passionate about building intelligent systems that make a difference.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <h1>
+                        Hi, I'm <span class="gradient-text">Your Name</span>
+                    </h1>
+                    <p class="subtitle">
+                        <span class="typing-text">AI Researcher | Machine Learning Expert</span>
+                    </p>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">
+                        Assistant Professor specializing in cutting-edge artificial intelligence and deep learning research. 
+                        Passionate about pushing the boundaries of what's possible with AI.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Let's Collaborate</a>
                         <a href="#publications" class="btn btn-secondary">View Research</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <div class="profile-card">
-                        <img src="https://via.placeholder.com/200" alt="Profile" class="profile-img">
-                        <h3>Dr. Your Name</h3>
-                        <p style="color: var(--gray); margin-top: 0.5rem;">Computer Science Department<br>University Name</p>
-                        <div class="social-links">
-                            <a href="#" class="social-icon" title="Google Scholar">📚</a>
-                            <a href="#" class="social-icon" title="GitHub">💻</a>
-                            <a href="#" class="social-icon" title="LinkedIn">💼</a>
-                            <a href="#" class="social-icon" title="Twitter">🐦</a>
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <div class="profile-card-3d">
+                            <div class="profile-img-container">
+                                <img src="https://via.placeholder.com/200" alt="Profile" class="profile-img">
+                                <div class="status-badge">● Available</div>
+                            </div>
+                            <div class="profile-info">
+                                <h3>Dr. Your Name</h3>
+                                <p>Computer Science<br>University Name</p>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon">📚</a>
+                                    <a href="#" class="social-icon">💻</a>
+                                    <a href="#" class="social-icon">💼</a>
+                                    <a href="#" class="social-icon">🐦</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -532,78 +732,85 @@
     <section id="research">
         <div class="container">
             <div class="section-header">
-                <h2>Research Areas</h2>
-                <p>Exploring the frontiers of artificial intelligence and machine learning</p>
+                <div class="section-number">// 01</div>
+                <h2>Research <span class="gradient-text">Focus</span></h2>
+                <p>Pioneering innovations at the intersection of AI and real-world applications</p>
             </div>
             <div class="research-grid">
                 <div class="research-card">
                     <div class="research-icon">🧠</div>
                     <h3>Deep Learning</h3>
-                    <p>Developing novel neural network architectures for complex pattern recognition and decision-making tasks.</p>
+                    <p>Advancing neural architectures for complex reasoning and decision-making with state-of-the-art performance.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">👁️</div>
                     <h3>Computer Vision</h3>
-                    <p>Creating advanced vision systems for image analysis, object detection, and scene understanding.</p>
+                    <p>Developing vision systems that understand visual context with human-like perception and accuracy.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">💬</div>
-                    <h3>NLP</h3>
-                    <p>Building language models that understand and generate human-like text with contextual awareness.</p>
+                    <h3>NLP & LLMs</h3>
+                    <p>Building language models that comprehend and generate nuanced, contextually aware text.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">🔍</div>
                     <h3>Explainable AI</h3>
-                    <p>Making AI systems more transparent and interpretable for better human understanding and trust.</p>
+                    <p>Creating transparent AI systems that humans can understand, trust, and effectively collaborate with.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-icon">🛡️</div>
                     <h3>Robust AI</h3>
-                    <p>Ensuring AI systems are resilient to adversarial attacks and distribution shifts.</p>
+                    <p>Ensuring AI resilience against adversarial attacks and unpredictable real-world conditions.</p>
                 </div>
                 <div class="research-card">
-                    <div class="research-icon">🔬</div>
-                    <h3>AI for Science</h3>
-                    <p>Applying machine learning to solve complex problems in biology, chemistry, and physics.</p>
+                    <div class="research-icon">⚡</div>
+                    <h3>Efficient ML</h3>
+                    <p>Optimizing models for deployment on edge devices without sacrificing performance.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Publications Section -->
-    <section id="publications" style="background: var(--light-gray);">
+    <section id="publications" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header">
-                <h2>Selected Publications</h2>
+                <div class="section-number">// 02</div>
+                <h2>Featured <span class="gradient-text">Publications</span></h2>
                 <p>Recent contributions to top-tier conferences and journals</p>
             </div>
-            
-            <div class="publication-item">
-                <h3>Advanced Techniques in Deep Learning Interpretability</h3>
-                <p class="publication-authors">Your Name, A. Researcher, B. Scientist</p>
-                <p style="color: var(--gray); margin-top: 0.5rem;">This paper introduces a novel framework for understanding deep neural network decisions through layer-wise analysis and visualization techniques.</p>
-                <span class="publication-venue">NeurIPS 2024</span>
-            </div>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="publication-year">2024</div>
+                    <h3>Advanced Techniques in Deep Learning Interpretability</h3>
+                    <p class="publication-authors">Your Name, A. Researcher, B. Scientist</p>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">Novel framework for understanding neural network decisions through advanced visualization and layer-wise relevance propagation techniques.</p>
+                    <span class="publication-venue">NeurIPS 2024</span>
+                </div>
 
-            <div class="publication-item">
-                <h3>Robust Training Methods for Neural Networks</h3>
-                <p class="publication-authors">Your Name, C. Collaborator</p>
-                <p style="color: var(--gray); margin-top: 0.5rem;">We present a comprehensive training strategy that significantly improves model robustness against various types of adversarial perturbations.</p>
-                <span class="publication-venue">ICML 2024</span>
-            </div>
+                <div class="publication-item">
+                    <div class="publication-year">2024</div>
+                    <h3>Robust Training Strategies for Modern Neural Architectures</h3>
+                    <p class="publication-authors">Your Name, C. Collaborator</p>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">Comprehensive training framework achieving significant improvements in model robustness against adversarial perturbations.</p>
+                    <span class="publication-venue">ICML 2024</span>
+                </div>
 
-            <div class="publication-item">
-                <h3>Multimodal Learning with Attention Mechanisms</h3>
-                <p class="publication-authors">D. Author, Your Name, E. Researcher</p>
-                <p style="color: var(--gray); margin-top: 0.5rem;">An in-depth study of attention-based approaches for effectively combining information from multiple data modalities.</p>
-                <span class="publication-venue">IEEE TPAMI 2023</span>
-            </div>
+                <div class="publication-item">
+                    <div class="publication-year">2023</div>
+                    <h3>Multimodal Fusion with Cross-Attention Mechanisms</h3>
+                    <p class="publication-authors">D. Author, Your Name, E. Researcher</p>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">In-depth analysis of attention-based approaches for combining information across diverse data modalities.</p>
+                    <span class="publication-venue">IEEE TPAMI 2023</span>
+                </div>
 
-            <div class="publication-item">
-                <h3>A Comprehensive Survey on Explainable AI</h3>
-                <p class="publication-authors">Your Name</p>
-                <p style="color: var(--gray); margin-top: 0.5rem;">A thorough review of state-of-the-art methods in explainable artificial intelligence with insights on future research directions.</p>
-                <span class="publication-venue">ACM Computing Surveys 2023</span>
+                <div class="publication-item">
+                    <div class="publication-year">2023</div>
+                    <h3>Explainable AI: A Comprehensive Survey</h3>
+                    <p class="publication-authors">Your Name</p>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">Thorough review of state-of-the-art explainability methods with future research directions in interpretable AI.</p>
+                    <span class="publication-venue">ACM Computing Surveys 2023</span>
+                </div>
             </div>
         </div>
     </section>
@@ -612,53 +819,55 @@
     <section id="skills">
         <div class="container">
             <div class="section-header">
-                <h2>Expertise & Skills</h2>
-                <p>Technical competencies and research interests</p>
+                <div class="section-number">// 03</div>
+                <h2>Technical <span class="gradient-text">Expertise</span></h2>
+                <p>Core competencies and research tools</p>
             </div>
             <div class="skills-container">
-                <span class="skill-tag">Machine Learning</span>
-                <span class="skill-tag">Deep Learning</span>
+                <span class="skill-tag">Python</span>
                 <span class="skill-tag">PyTorch</span>
                 <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Deep Learning</span>
                 <span class="skill-tag">Computer Vision</span>
                 <span class="skill-tag">NLP</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Research</span>
-                <span class="skill-tag">Data Science</span>
-                <span class="skill-tag">Neural Networks</span>
+                <span class="skill-tag">Transformers</span>
+                <span class="skill-tag">GANs</span>
                 <span class="skill-tag">Reinforcement Learning</span>
-                <span class="skill-tag">Statistical Analysis</span>
+                <span class="skill-tag">MLOps</span>
+                <span class="skill-tag">CUDA</span>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" style="background: var(--light-gray);">
+    <section id="contact" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Feel free to reach out for collaborations or opportunities</p>
+                <div class="section-number">// 04</div>
+                <h2>Get <span class="gradient-text">In Touch</span></h2>
+                <p>Open for collaborations, research opportunities, and consultations</p>
             </div>
             <div class="contact-grid">
                 <div class="contact-card">
                     <div class="contact-icon">📧</div>
                     <h3>Email</h3>
-                    <p>yourname@university.edu</p>
+                    <p><a href="mailto:yourname@university.edu">yourname@university.edu</a></p>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📍</div>
                     <h3>Office</h3>
-                    <p>Building Name, Room 123<br>University Name</p>
+                    <p>Building Name<br>Room 123</p>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">🕐</div>
                     <h3>Office Hours</h3>
-                    <p>Monday & Wednesday<br>2:00 PM - 4:00 PM</p>
+                    <p>Mon & Wed<br>2-4 PM</p>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📄</div>
                     <h3>CV</h3>
-                    <p><a href="cv.pdf" style="color: var(--primary); font-weight: 600;">Download PDF</a></p>
+                    <p><a href="cv.pdf">Download PDF</a></p>
                 </div>
             </div>
         </div>
@@ -667,8 +876,8 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Your Name. Crafted with passion for research and innovation.</p>
-            <p style="margin-top: 1rem; opacity: 0.8;">Assistant Professor | Computer Science | University Name</p>
+            <p>&copy; 2025 Your Name. Designed with precision and passion for innovation.</p>
+            <p style="margin-top: 0.5rem; font-family: 'JetBrains Mono', monospace; color: var(--accent);">Assistant Professor | AI Researcher | University Name</p>
         </div>
     </footer>
 
@@ -681,6 +890,29 @@
             } else {
                 navbar.classList.remove('scrolled');
             }
+        });
+
+        // Smooth reveal animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.research-card, .publication-item, .contact-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
         });
     </script>
 </body>
