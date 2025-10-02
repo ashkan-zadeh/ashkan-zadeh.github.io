@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Research Portfolio</title>
+    <title>Ashkan Yousefi Zadeh - AI & Autonomous Vehicles Researcher</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
@@ -32,15 +32,6 @@
             color: var(--text-primary);
             line-height: 1.6;
             overflow-x: hidden;
-        }
-
-        /* Custom Cursor */
-        body {
-            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="8" fill="%2300ff88" opacity="0.3"/></svg>'), auto;
-        }
-
-        a, button {
-            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><circle cx="12" cy="12" r="10" fill="%2300ff88" opacity="0.5"/></svg>'), pointer;
         }
 
         .container {
@@ -196,7 +187,7 @@
         }
 
         .hero-text h1 {
-            font-size: 5rem;
+            font-size: 4.5rem;
             font-weight: 700;
             line-height: 1.1;
             margin-bottom: 1.5rem;
@@ -220,12 +211,6 @@
         .typing-text {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent);
-            border-right: 2px solid var(--accent);
-            animation: blink 1s step-end infinite;
-        }
-
-        @keyframes blink {
-            50% { border-color: transparent; }
         }
 
         .cta-buttons {
@@ -253,21 +238,6 @@
             box-shadow: 0 10px 40px rgba(0, 255, 136, 0.3);
         }
 
-        .btn-primary::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-            transition: left 0.5s;
-        }
-
-        .btn-primary:hover::before {
-            left: 100%;
-        }
-
         .btn-primary:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 50px rgba(0, 255, 136, 0.5);
@@ -290,19 +260,12 @@
             height: 500px;
         }
 
-        .profile-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
         .profile-card-3d {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             width: 400px;
-            height: 500px;
             background: var(--bg-card);
             border-radius: 30px;
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -310,7 +273,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             box-shadow: var(--shadow);
             transition: transform 0.3s ease;
         }
@@ -415,8 +377,23 @@
         .section-header p {
             color: var(--text-secondary);
             font-size: 1.2rem;
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Biography */
+        .bio-content {
+            max-width: 900px;
+            margin: 0 auto;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.9;
+            text-align: justify;
+        }
+
+        .bio-content p {
+            margin-bottom: 1.5rem;
         }
 
         /* Research Grid */
@@ -434,6 +411,7 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
+            cursor: pointer;
         }
 
         .research-card::before {
@@ -527,13 +505,25 @@
             font-family: 'JetBrains Mono', monospace;
         }
 
+        .publication-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .publication-link:hover {
+            text-decoration: underline;
+        }
+
         /* Skills Section */
         .skills-container {
             display: flex;
             flex-wrap: wrap;
             gap: 1.5rem;
             justify-content: center;
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
@@ -554,6 +544,63 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
             border-color: var(--accent);
+        }
+
+        /* Experience Timeline */
+        .experience-list {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .experience-item {
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            padding-left: 3.5rem;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 2.5rem;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+
+        .experience-item:hover {
+            transform: translateX(10px);
+            box-shadow: var(--shadow);
+        }
+
+        .experience-date {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-item h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-company {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .experience-description {
+            color: var(--text-secondary);
+            line-height: 1.8;
         }
 
         /* Contact Section */
@@ -653,7 +700,6 @@
 
             .profile-card-3d {
                 width: 350px;
-                height: 450px;
             }
         }
 
@@ -667,12 +713,13 @@
     <nav id="navbar">
         <div class="container">
             <div class="nav-content">
-                <div class="logo">&lt;YN/&gt;</div>
+                <div class="logo">&lt;AYZ/&gt;</div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#publications">Publications</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -690,14 +737,13 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>
-                        Hi, I'm <span class="gradient-text">Your Name</span>
+                        Hi, I'm <span class="gradient-text">Ashkan Yousefi Zadeh</span>
                     </h1>
                     <p class="subtitle">
-                        <span class="typing-text">AI Researcher | Machine Learning Expert</span>
+                        <span class="typing-text">PhD Candidate · AI & Autonomous Vehicles Researcher</span>
                     </p>
                     <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">
-                        Assistant Professor specializing in cutting-edge artificial intelligence and deep learning research. 
-                        Passionate about pushing the boundaries of what's possible with AI.
+                        Working at the intersection of Human-Centred AI (HCAI), Explainable AI (XAI), and Natural Language Processing (NLP) to make automated vehicles more transparent, intuitive, and aligned with human expectations.
                     </p>
                     <div class="cta-buttons">
                         <a href="#contact" class="btn btn-primary">Let's Collaborate</a>
@@ -705,21 +751,19 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="profile-container">
-                        <div class="profile-card-3d">
-                            <div class="profile-img-container">
-                                <img src="https://via.placeholder.com/200" alt="Profile" class="profile-img">
-                                <div class="status-badge">● Available</div>
-                            </div>
-                            <div class="profile-info">
-                                <h3>Dr. Your Name</h3>
-                                <p>Computer Science<br>University Name</p>
-                                <div class="social-icons">
-                                    <a href="#" class="social-icon">📚</a>
-                                    <a href="#" class="social-icon">💻</a>
-                                    <a href="#" class="social-icon">💼</a>
-                                    <a href="#" class="social-icon">🐦</a>
-                                </div>
+                    <div class="profile-card-3d">
+                        <div class="profile-img-container">
+                            <img src="assets/img/ashkanzadeh.jpg" alt="Ashkan Yousefi Zadeh" class="profile-img">
+                            <div class="status-badge">● Available</div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Ashkan Y. Zadeh</h3>
+                            <p>PhD Candidate<br>QUT, CARRS-Q</p>
+                            <div class="social-icons">
+                                <a href="https://research.qut.edu.au/carrsq/staff/ashkan-yousefi-zadeh/" target="_blank" class="social-icon" title="QUT Profile">🎓</a>
+                                <a href="https://linkedin.com/in/ashkan-ysf/" target="_blank" class="social-icon" title="LinkedIn">💼</a>
+                                <a href="https://github.com/ashkan-zadeh" target="_blank" class="social-icon" title="GitHub">💻</a>
+                                <a href="mailto:ashkan.zadeh@qut.edu.au" class="social-icon" title="Email">📧</a>
                             </div>
                         </div>
                     </div>
@@ -728,114 +772,211 @@
         </div>
     </section>
 
-    <!-- Research Section -->
-    <section id="research">
+    <!-- Biography Section -->
+    <section id="about" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header">
                 <div class="section-number">// 01</div>
-                <h2>Research <span class="gradient-text">Focus</span></h2>
-                <p>Pioneering innovations at the intersection of AI and real-world applications</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="bio-content">
+                <p>I'm a PhD researcher at Queensland University of Technology (QUT), working at the intersection of human-centred AI (HCAI), explainable AI (XAI), and natural language processing (NLP)—all with a mission to make automated vehicles more transparent, intuitive, and aligned with human expectations.</p>
+
+                <p>My background spans mechanical and control engineering, where I first got hooked on designing robotic systems through CAD modelling. During my Master's, I shifted gears toward autonomous vehicle control and AI, laying the groundwork for the human-AI collaboration I explore today. Now, in my PhD, I'm focused on creating systems that can not only make decisions but also explain their behaviour in a way that people can easily understand and trust.</p>
+
+                <p>My research blends AI modelling and NLP techniques to generate natural-language explanations for automated driving behaviour, helping bridge the gap between complex machine decisions and human interpretation.</p>
+
+                <p><strong>Thesis:</strong> "A Model for Generating Human-Centric Explanations for Automated Vehicles"</p>
+                <p><strong>Supervisors:</strong> Dr. Xiaomeng Li, Prof. Andry Rakotonirainy, Prof. Ronald Schroeter, Prof. Sebastien Glaser</p>
+
+                <div style="margin-top: 2rem;">
+                    <a href="#" class="btn btn-primary">
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">// 02</div>
+                <h2>Research <span class="gradient-text">Interests</span></h2>
+            </div>
+            <div class="skills-container">
+                <span class="skill-tag">Automated Vehicles</span>
+                <span class="skill-tag">Human-Centred AI</span>
+                <span class="skill-tag">Explainable AI (XAI)</span>
+                <span class="skill-tag">Natural Language Processing</span>
+                <span class="skill-tag">Large Language Models</span>
+                <span class="skill-tag">Robotics</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Computer Vision</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Projects -->
+    <section id="research" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">// 03</div>
+                <h2>Research <span class="gradient-text">Projects</span></h2>
+                <p>Click on any project to learn more</p>
             </div>
             <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-icon">🧠</div>
-                    <h3>Deep Learning</h3>
-                    <p>Advancing neural architectures for complex reasoning and decision-making with state-of-the-art performance.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">👁️</div>
-                    <h3>Computer Vision</h3>
-                    <p>Developing vision systems that understand visual context with human-like perception and accuracy.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">💬</div>
-                    <h3>NLP & LLMs</h3>
-                    <p>Building language models that comprehend and generate nuanced, contextually aware text.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">🔍</div>
-                    <h3>Explainable AI</h3>
-                    <p>Creating transparent AI systems that humans can understand, trust, and effectively collaborate with.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">🛡️</div>
-                    <h3>Robust AI</h3>
-                    <p>Ensuring AI resilience against adversarial attacks and unpredictable real-world conditions.</p>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon">⚡</div>
-                    <h3>Efficient ML</h3>
-                    <p>Optimizing models for deployment on edge devices without sacrificing performance.</p>
-                </div>
+                <a href="project-hcxav.html" style="text-decoration: none; color: inherit;">
+                    <div class="research-card">
+                        <div class="research-icon">🚗</div>
+                        <h3>Human-Centred Explainable AVs</h3>
+                        <p>Developing human-centric explanation models to enhance transparency, trustworthiness, and user acceptance of automated vehicles.</p>
+                        <p style="margin-top: 1rem; color: var(--accent); font-size: 0.9rem;">2023 - Present</p>
+                    </div>
+                </a>
+                
+                <a href="project-webcrawler.html" style="text-decoration: none; color: inherit;">
+                    <div class="research-card">
+                        <div class="research-icon">🌐</div>
+                        <h3>Digital Coins News Crawler</h3>
+                        <p>Implemented database to store digital coin news from prominent agencies and display on Heyva AI website with server-side integration.</p>
+                        <p style="margin-top: 1rem; color: var(--accent); font-size: 0.9rem;">2022</p>
+                    </div>
+                </a>
+                
+                <a href="project-hybrid.html" style="text-decoration: none; color: inherit;">
+                    <div class="research-card">
+                        <div class="research-icon">⚡</div>
+                        <h3>Hybrid AV Control System</h3>
+                        <p>Neural networks, fuzzy logic, MPC, and optimization for simultaneous control of longitudinal distance and fuel consumption in hybrid electric vehicles.</p>
+                        <p style="margin-top: 1rem; color: var(--accent); font-size: 0.9rem;">2019 - 2022</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Publications Section -->
-    <section id="publications" style="background: var(--bg-secondary);">
+    <section id="publications">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">// 02</div>
+                <div class="section-number">// 04</div>
                 <h2>Featured <span class="gradient-text">Publications</span></h2>
-                <p>Recent contributions to top-tier conferences and journals</p>
+                <p>Recent contributions to autonomous vehicles and explainable AI research</p>
             </div>
             <div class="publications-list">
                 <div class="publication-item">
-                    <div class="publication-year">2024</div>
-                    <h3>Advanced Techniques in Deep Learning Interpretability</h3>
-                    <p class="publication-authors">Your Name, A. Researcher, B. Scientist</p>
-                    <p style="color: var(--text-secondary); margin-top: 1rem;">Novel framework for understanding neural network decisions through advanced visualization and layer-wise relevance propagation techniques.</p>
-                    <span class="publication-venue">NeurIPS 2024</span>
+                    <div class="publication-year">2025</div>
+                    <h3>PsyLingXAV: A Psycholinguistics Design Framework for XAI in Automated Vehicles</h3>
+                    <p class="publication-authors">Ashkan Yousefi Zadeh, Xiaomeng Li, Andry Rakotonirainy, Ronald Schroeter, Sebastien Glaser</p>
+                    <span class="publication-venue">XAI-2025 (Submitted)</span>
+                    <a href="https://xaiworldconference.com/2025/" target="_blank" class="publication-link">View Conference</a>
                 </div>
 
                 <div class="publication-item">
                     <div class="publication-year">2024</div>
-                    <h3>Robust Training Strategies for Modern Neural Architectures</h3>
-                    <p class="publication-authors">Your Name, C. Collaborator</p>
-                    <p style="color: var(--text-secondary); margin-top: 1rem;">Comprehensive training framework achieving significant improvements in model robustness against adversarial perturbations.</p>
-                    <span class="publication-venue">ICML 2024</span>
+                    <h3>Integrated Intelligent Control Systems for Eco and Safe Driving in Autonomous Vehicles</h3>
+                    <p class="publication-authors">A. Yousefi Zadeh, A. Jamali, R. Mallipeddi, H. Khayyam</p>
+                    <span class="publication-venue">IEEE Transactions on Intelligent Transportation Systems</span>
+                    <a href="https://doi.org/10.1109/TITS.2024.3479332" target="_blank" class="publication-link">View Publication</a>
                 </div>
 
                 <div class="publication-item">
-                    <div class="publication-year">2023</div>
-                    <h3>Multimodal Fusion with Cross-Attention Mechanisms</h3>
-                    <p class="publication-authors">D. Author, Your Name, E. Researcher</p>
-                    <p style="color: var(--text-secondary); margin-top: 1rem;">In-depth analysis of attention-based approaches for combining information across diverse data modalities.</p>
-                    <span class="publication-venue">IEEE TPAMI 2023</span>
-                </div>
-
-                <div class="publication-item">
-                    <div class="publication-year">2023</div>
-                    <h3>Explainable AI: A Comprehensive Survey</h3>
-                    <p class="publication-authors">Your Name</p>
-                    <p style="color: var(--text-secondary); margin-top: 1rem;">Thorough review of state-of-the-art explainability methods with future research directions in interpretable AI.</p>
-                    <span class="publication-venue">ACM Computing Surveys 2023</span>
+                    <div class="publication-year">2024</div>
+                    <h3>Fuzzy Adaptive Cruise Control with Model Predictive Control for Automated Driving</h3>
+                    <p class="publication-authors">Z. Mehraban, A. Yousefi Zadeh, A. Jamali, R. Mallipeddi, H. Khayyam</p>
+                    <span class="publication-venue">Engineering Applications of Artificial Intelligence</span>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0952197624011667" target="_blank" class="publication-link">View Publication</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Experience Section -->
+    <section id="experience" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">// 05</div>
+                <h2>Professional <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-date">Jan 2025 - Present</div>
+                    <h3>Automotive CE Applications Technical Committee Member</h3>
+                    <p class="experience-company">IEEE Consumer Technology Society</p>
+                    <p class="experience-description">Contributing to technical standards and research in automotive consumer electronics applications.</p>
+                    <a href="https://ctsoc.ieee.org/technical/technical-committees/cea-tc.html?view=article&id=303:cea-tc-members&catid=21" target="_blank" class="publication-link">Learn More</a>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Sep 2024 - Present</div>
+                    <h3>AdHoc Committee on Autonomous Vehicles</h3>
+                    <p class="experience-company">IEEE Vehicular Technology Society</p>
+                    <p class="experience-description">Working on standards and technical advancements in autonomous vehicle technology.</p>
+                    <a href="https://vtsociety.org/contact/ashkan-yousefi-zadeh" target="_blank" class="publication-link">Learn More</a>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Feb 2024 - Present</div>
+                    <h3>Tutor</h3>
+                    <p class="experience-company">Queensland University of Technology</p>
+                    <p class="experience-description">Teaching "EGB 103 - Computing and Data for Engineers" and "EGD 103 - Computing and Data for Engineers" at QUT College.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Jun 2023 - Present</div>
+                    <h3>Doctoral Researcher</h3>
+                    <p class="experience-company">CARRS-Q, Queensland University of Technology</p>
+                    <p class="experience-description">Thesis: A Model for Generating Human-Centric Explanations for Automated Vehicles. Supervised by Dr. Xiaomeng Li, Prof. Andry Rakotonirainy, Prof. Ronald Schroeter, and Prof. Sebastien Glaser.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Apr 2022 - Present</div>
+                    <h3>Peer Reviewer</h3>
+                    <p class="experience-company">IEEE</p>
+                    <p class="experience-description">Reviewing papers for IEEE Transactions on Intelligent Transportation Systems and IEEE Access.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Nov 2022 - Mar 2023</div>
+                    <h3>Python Developer</h3>
+                    <p class="experience-company">HeyvaAI</p>
+                    <p class="experience-description">Responsible for coding, deploying, and debugging development projects on server-side and artificial intelligence applications.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">Nov 2022 - Dec 2022</div>
+                    <h3>R&D Expert in Autonomous Vehicles</h3>
+                    <p class="experience-company">Cheetah Research Center, University of Tehran</p>
+                    <p class="experience-description">Research and development in autonomous vehicle technologies at the Autonomous Vehicles Research Institute.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technical Expertise -->
     <section id="skills">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">// 03</div>
+                <div class="section-number">// 06</div>
                 <h2>Technical <span class="gradient-text">Expertise</span></h2>
-                <p>Core competencies and research tools</p>
             </div>
             <div class="skills-container">
                 <span class="skill-tag">Python</span>
-                <span class="skill-tag">PyTorch</span>
-                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">MATLAB</span>
                 <span class="skill-tag">Machine Learning</span>
-                <span class="skill-tag">Deep Learning</span>
-                <span class="skill-tag">Computer Vision</span>
+                <span class="skill-tag">Neural Networks</span>
                 <span class="skill-tag">NLP</span>
-                <span class="skill-tag">Transformers</span>
-                <span class="skill-tag">GANs</span>
-                <span class="skill-tag">Reinforcement Learning</span>
-                <span class="skill-tag">MLOps</span>
-                <span class="skill-tag">CUDA</span>
+                <span class="skill-tag">LLMs</span>
+                <span class="skill-tag">Fuzzy Logic</span>
+                <span class="skill-tag">Evolutionary Algorithms</span>
+                <span class="skill-tag">Simulink</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Scikit-learn</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">Git</span>
             </div>
         </div>
     </section>
@@ -844,7 +985,7 @@
     <section id="contact" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">// 04</div>
+                <div class="section-number">// 07</div>
                 <h2>Get <span class="gradient-text">In Touch</span></h2>
                 <p>Open for collaborations, research opportunities, and consultations</p>
             </div>
@@ -852,22 +993,22 @@
                 <div class="contact-card">
                     <div class="contact-icon">📧</div>
                     <h3>Email</h3>
-                    <p><a href="mailto:yourname@university.edu">yourname@university.edu</a></p>
+                    <p><a href="mailto:ashkan.zadeh@qut.edu.au">ashkan.zadeh@qut.edu.au</a></p>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">📍</div>
-                    <h3>Office</h3>
-                    <p>Building Name<br>Room 123</p>
+                    <h3>Location</h3>
+                    <p>CARRS-Q<br>Queensland University of Technology<br>Brisbane, QLD</p>
                 </div>
                 <div class="contact-card">
-                    <div class="contact-icon">🕐</div>
-                    <h3>Office Hours</h3>
-                    <p>Mon & Wed<br>2-4 PM</p>
+                    <div class="contact-icon">🎓</div>
+                    <h3>Research Profile</h3>
+                    <p><a href="https://research.qut.edu.au/carrsq/staff/ashkan-yousefi-zadeh/" target="_blank">QUT CARRS-Q</a></p>
                 </div>
                 <div class="contact-card">
-                    <div class="contact-icon">📄</div>
-                    <h3>CV</h3>
-                    <p><a href="cv.pdf">Download PDF</a></p>
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/ashkan-ysf/" target="_blank">Connect with me</a></p>
                 </div>
             </div>
         </div>
@@ -876,8 +1017,8 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Your Name. Designed with precision and passion for innovation.</p>
-            <p style="margin-top: 0.5rem; font-family: 'JetBrains Mono', monospace; color: var(--accent);">Assistant Professor | AI Researcher | University Name</p>
+            <p>&copy; 2025 Ashkan Yousefi Zadeh. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-family: 'JetBrains Mono', monospace; color: var(--accent);">PhD Candidate | XAI in Automated Vehicles | QUT, CARRS-Q</p>
         </div>
     </footer>
 
@@ -908,7 +1049,7 @@
         }, observerOptions);
 
         // Observe all cards
-        document.querySelectorAll('.research-card, .publication-item, .contact-card').forEach(el => {
+        document.querySelectorAll('.research-card, .publication-item, .contact-card, .experience-item').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
