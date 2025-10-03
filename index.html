@@ -228,28 +228,29 @@
         }
 
         .gradient-text {
-            background: linear-gradient(135deg, #00ff88, #00ffdd);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            position: relative;
-            display: inline-block;
-            filter: brightness(1.3) contrast(1.2);
-        }
-        
-        .gradient-text::before {
-            content: 'Ashkan Yousefi Zadeh';
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            background: linear-gradient(135deg, #00ff88, #00ffdd);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            filter: blur(25px) brightness(2);
-            opacity: 0.9;
-        }
+    background: linear-gradient(135deg, #00ffaa, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+    filter: brightness(2) contrast(1.5) saturate(1.2);
+    text-shadow: 0 0 40px rgba(0, 255, 170, 0.8);
+}
+
+.gradient-text::before {
+    content: 'Ashkan Yousefi Zadeh';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, #00ffaa, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: blur(30px) brightness(3);
+    opacity: 1;
+}
 
         .hero-text .subtitle {
             font-size: 1.3rem;
