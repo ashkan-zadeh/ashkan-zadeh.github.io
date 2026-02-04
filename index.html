@@ -192,19 +192,38 @@
         }
 
         .publication-item {
-            margin-bottom: 30px;
-            padding-bottom: 30px;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 25px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
             border-bottom: 1px solid #f0f0f0;
+            align-items: start;
         }
 
         .publication-item:last-child {
             border-bottom: none;
+        }
+        
+        .publication-thumbnail {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .publication-content {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
         }
 
         .publication-title {
             font-weight: 600;
             margin-bottom: 8px;
             line-height: 1.4;
+            font-size: 16px;
         }
 
         .publication-authors {
@@ -212,27 +231,56 @@
             margin-bottom: 5px;
             font-size: 15px;
         }
+        
+        .publication-authors a {
+            color: var(--text-primary);
+            text-decoration: underline;
+        }
+        
+        .publication-authors a:hover {
+            color: var(--accent);
+        }
 
         .publication-venue {
             color: var(--text-secondary);
             font-style: italic;
             font-size: 15px;
+            margin-bottom: 12px;
         }
 
         .publication-links {
             margin-top: 8px;
             display: flex;
-            gap: 15px;
+            gap: 10px;
+            flex-wrap: wrap;
         }
 
         .publication-links a {
-            color: var(--accent);
+            color: var(--text-primary);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 13px;
+            padding: 6px 16px;
+            border: 1px solid var(--text-primary);
+            border-radius: 3px;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 0.5px;
         }
 
         .publication-links a:hover {
-            text-decoration: underline;
+            background: var(--text-primary);
+            color: #ffffff;
+        }
+        
+        .publication-year {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 48px;
+            font-weight: 300;
+            color: #f0f0f0;
+            font-family: var(--serif);
         }
 
         /* Research Interests */
@@ -361,6 +409,18 @@
                 align-items: flex-start;
                 gap: 3px;
             }
+            
+            .publication-item {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .publication-thumbnail {
+                width: 100%;
+                max-width: 200px;
+                height: auto;
+                margin: 0 auto;
+            }
         }
     </style>
 </head>
@@ -486,38 +546,50 @@
             <h2>Selected Publications</h2>
             <ul class="publication-list">
                 <li class="publication-item">
-                    <div class="publication-title">X-Blocks: Linguistic Building Blocks of Natural Language Explanations for Automated Vehicles</div>
-                    <div class="publication-authors">Ashkan Yousefi Zadeh, Xiaomeng Li, Andry Rakotonirainy, Ronald Schroeter, Sebastien Glaser, Z. Zhu</div>
-                    <div class="publication-venue">Knowledge-Based Systems, Elsevier (Submitted, 2026)</div>
-                    <div class="publication-links">
-                        <a href="#" target="_blank">Preprint</a>
+                    <img src="asset/img/xblocks-thumbnail.png" alt="X-Blocks Paper" class="publication-thumbnail">
+                    <div class="publication-content">
+                        <div class="publication-title">X-Blocks: Linguistic Building Blocks of Natural Language Explanations for Automated Vehicles</div>
+                        <div class="publication-authors"><a href="#" style="color: var(--text-primary); text-decoration: underline;">Ashkan Yousefi Zadeh</a>, Xiaomeng Li, Andry Rakotonirainy, Ronald Schroeter, Sebastien Glaser, and Z. Zhu</div>
+                        <div class="publication-venue">Knowledge-Based Systems, Elsevier (Submitted, 2026)</div>
+                        <div class="publication-links">
+                            <a href="#" target="_blank">PREPRINT</a>
+                        </div>
                     </div>
                 </li>
                 
                 <li class="publication-item">
-                    <div class="publication-title">PsyLingXAV: A Psycholinguistics Design Framework for XAI in Automated Vehicles</div>
-                    <div class="publication-authors">Ashkan Yousefi Zadeh, Xiaomeng Li, Andry Rakotonirainy, Ronald Schroeter, Sebastien Glaser</div>
-                    <div class="publication-venue">XAI-2025 (The 3rd World Conference on eXplainable Artificial Intelligence)</div>
-                    <div class="publication-links">
-                        <a href="https://xaiworldconference.com/2025/" target="_blank">Conference</a>
+                    <img src="asset/img/psylingxav-thumbnail.png" alt="PsyLingXAV Paper" class="publication-thumbnail">
+                    <div class="publication-content">
+                        <div class="publication-title">PsyLingXAV: A Psycholinguistics Design Framework for XAI in Automated Vehicles</div>
+                        <div class="publication-authors"><a href="#" style="color: var(--text-primary); text-decoration: underline;">Ashkan Yousefi Zadeh</a>, Xiaomeng Li, Andry Rakotonirainy, Ronald Schroeter, and Sebastien Glaser</div>
+                        <div class="publication-venue">XAI-2025 (The 3rd World Conference on eXplainable Artificial Intelligence)</div>
+                        <div class="publication-links">
+                            <a href="https://xaiworldconference.com/2025/" target="_blank">CONFERENCE</a>
+                        </div>
                     </div>
                 </li>
                 
                 <li class="publication-item">
-                    <div class="publication-title">Integrated Intelligent Control Systems for Eco and Safe Driving in Autonomous Vehicles</div>
-                    <div class="publication-authors">A. Yousefi Zadeh, A. Jamali, R. Mallipeddi, H. Khayyam</div>
-                    <div class="publication-venue">IEEE Transactions on Intelligent Transportation Systems, 2024</div>
-                    <div class="publication-links">
-                        <a href="https://doi.org/10.1109/TITS.2024.3479332" target="_blank">Paper</a>
+                    <img src="asset/img/ieee-tits-thumbnail.png" alt="IEEE TITS Paper" class="publication-thumbnail">
+                    <div class="publication-content">
+                        <div class="publication-title">Integrated Intelligent Control Systems for Eco and Safe Driving in Autonomous Vehicles</div>
+                        <div class="publication-authors"><a href="#" style="color: var(--text-primary); text-decoration: underline;">A. Yousefi Zadeh</a>, A. Jamali, R. Mallipeddi, and H. Khayyam</div>
+                        <div class="publication-venue">IEEE Transactions on Intelligent Transportation Systems, 2024</div>
+                        <div class="publication-links">
+                            <a href="https://doi.org/10.1109/TITS.2024.3479332" target="_blank">PAPER</a>
+                        </div>
                     </div>
                 </li>
                 
                 <li class="publication-item">
-                    <div class="publication-title">Fuzzy Adaptive Cruise Control with Model Predictive Control for Automated Driving</div>
-                    <div class="publication-authors">Z. Mehraban, A. Yousefi Zadeh, A. Jamali, R. Mallipeddi, H. Khayyam</div>
-                    <div class="publication-venue">Engineering Applications of Artificial Intelligence, 2024</div>
-                    <div class="publication-links">
-                        <a href="https://www.sciencedirect.com/science/article/pii/S0952197624011667" target="_blank">Paper</a>
+                    <img src="asset/img/fuzzy-acc-thumbnail.png" alt="Fuzzy ACC Paper" class="publication-thumbnail">
+                    <div class="publication-content">
+                        <div class="publication-title">Fuzzy Adaptive Cruise Control with Model Predictive Control for Automated Driving</div>
+                        <div class="publication-authors">Z. Mehraban, <a href="#" style="color: var(--text-primary); text-decoration: underline;">A. Yousefi Zadeh</a>, A. Jamali, R. Mallipeddi, and H. Khayyam</div>
+                        <div class="publication-venue">Engineering Applications of Artificial Intelligence, 2024</div>
+                        <div class="publication-links">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0952197624011667" target="_blank">PAPER</a>
+                        </div>
                     </div>
                 </li>
             </ul>
