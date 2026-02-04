@@ -48,14 +48,43 @@
         }
 
         /* Header Image */
-        .header-image {
+        .header-banner {
+            position: relative;
             width: 100%;
             height: 280px;
-            object-fit: cover;
-            object-position: center 30%;
             margin-bottom: 40px;
             border-radius: 4px;
+            overflow: hidden;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            filter: brightness(0.75) contrast(1.1);
+        }
+        
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
+        }
+        
+        .header-name {
+            font-family: var(--serif);
+            font-size: 48px;
+            font-weight: 600;
+            color: #ffffff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+            letter-spacing: -0.5px;
         }
 
         /* Header/Navigation */
@@ -377,10 +406,21 @@
                 padding: 40px 20px;
             }
 
-            .header-image {
+            .header-banner {
                 height: 200px;
                 margin-bottom: 30px;
+            }
+            
+            .header-image {
                 object-position: center 35%;
+            }
+            
+            .header-overlay {
+                padding: 0 25px;
+            }
+            
+            .header-name {
+                font-size: 32px;
             }
 
             .profile {
@@ -443,8 +483,13 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header Image -->
-        <img src="asset/img/ashkanzadeh2.jpg" alt="Ashkan Yousefi Zadeh" class="header-image">
+        <!-- Header Image with Overlay -->
+        <div class="header-banner">
+            <img src="asset/img/ashkanzadeh2.jpg" alt="Ashkan Yousefi Zadeh" class="header-image">
+            <div class="header-overlay">
+                <h1 class="header-name">Ashkan Yousefi Zadeh</h1>
+            </div>
+        </div>
         
         <!-- Header/Navigation -->
         <header>
