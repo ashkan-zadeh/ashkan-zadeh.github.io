@@ -13,7 +13,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     
     <style>
         * {
@@ -24,21 +24,23 @@
 
         :root {
             --bg-color: #ffffff;
-            --text-primary: #000000;
-            --text-secondary: #000000;
-            --accent: #2c5282;
-            --accent-hover: #1a365d;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666666;
+            --accent: #0066cc;
+            --accent-hover: #0052a3;
             --border-color: #e0e0e0;
-            --serif: 'Crimson Pro', serif;
-            --sans: 'IBM Plex Sans', -apple-system, sans-serif;
+            --serif: 'Playfair Display', serif;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
 
         body {
             font-family: var(--sans);
             background: var(--bg-color);
             color: var(--text-primary);
-            line-height: 1.7;
+            line-height: 1.6;
             font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         .container {
@@ -135,17 +137,18 @@
             margin-bottom: 60px;
             padding: 40px;
             border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background: #fafafa;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 12px;
+            background: #f8f9fa;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
         }
 
         .profile-content h1 {
             font-family: var(--serif);
-            font-size: 36px;
-            font-weight: 600;
+            font-size: 38px;
+            font-weight: 700;
             margin-bottom: 8px;
             line-height: 1.2;
+            letter-spacing: -0.5px;
         }
 
         .profile-content .affiliation {
@@ -189,11 +192,12 @@
 
         h2 {
             font-family: var(--serif);
-            font-size: 28px;
-            font-weight: 600;
+            font-size: 32px;
+            font-weight: 700;
             margin-bottom: 30px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+            letter-spacing: -0.5px;
         }
 
         /* News Items */
@@ -329,19 +333,19 @@
         }
 
         .interest-tag {
-            background: #2c5282;
+            background: #0066cc;
             padding: 8px 16px;
             border-radius: 4px;
             font-size: 15px;
             color: #ffffff;
-            border: 1px solid #2c5282;
+            border: 1px solid #0066cc;
             transition: all 0.2s ease;
             font-weight: 500;
         }
         
         .interest-tag:hover {
-            background: #1a365d;
-            border-color: #1a365d;
+            background: #0052a3;
+            border-color: #0052a3;
             color: #ffffff;
         }
 
