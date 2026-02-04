@@ -74,13 +74,14 @@
             height: 100%;
             background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
             display: flex;
-            align-items: center;
-            padding: 0 50px;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 30px 50px;
         }
         
         .header-name {
             font-family: var(--serif);
-            font-size: 48px;
+            font-size: 36px;
             font-weight: 600;
             color: #ffffff;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
@@ -89,24 +90,24 @@
 
         /* Header/Navigation */
         header {
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 20px;
-            margin-bottom: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 50px;
+            z-index: 10;
         }
 
         nav {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
             flex-wrap: wrap;
             gap: 20px;
         }
 
         .site-title {
-            font-family: var(--serif);
-            font-size: 28px;
-            font-weight: 600;
-            color: var(--text-primary);
+            display: none;
         }
 
         nav ul {
@@ -116,14 +117,17 @@
         }
 
         nav a {
-            color: var(--text-secondary);
+            color: #ffffff;
             text-decoration: none;
             font-size: 15px;
-            transition: color 0.2s;
+            transition: all 0.2s;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+            font-weight: 500;
         }
 
         nav a:hover {
             color: var(--accent);
+            transform: translateY(-2px);
         }
 
         /* Profile Section */
@@ -416,11 +420,15 @@
             }
             
             .header-overlay {
-                padding: 0 25px;
+                padding: 20px 25px;
             }
             
             .header-name {
-                font-size: 32px;
+                font-size: 24px;
+            }
+            
+            header {
+                padding: 15px 25px;
             }
 
             .profile {
@@ -489,21 +497,20 @@
             <div class="header-overlay">
                 <h1 class="header-name">Ashkan Yousefi Zadeh</h1>
             </div>
+            <!-- Header/Navigation -->
+            <header>
+                <nav>
+                    <div class="site-title">Ashkan Yousefi Zadeh</div>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="asset/img/Ashkan_CV_Jan2026.pdf" target="_blank">CV</a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-        
-        <!-- Header/Navigation -->
-        <header>
-            <nav>
-                <div class="site-title">Ashkan Yousefi Zadeh</div>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="asset/img/Ashkan_CV_Jan2026.pdf" target="_blank">CV</a></li>
-                </ul>
-            </nav>
-        </header>
 
         <!-- Profile Section -->
         <section class="profile" id="about">
