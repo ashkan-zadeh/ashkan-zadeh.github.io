@@ -14,6 +14,7 @@ Static portfolio website for GitHub Pages.
 - `asset/img/concept-llm-nlp.jpg` - generated LLM and NLP explanation visual
 - `asset/img/concept-human-centred-ai.jpg` - generated human-centred AI visual
 - `asset/img/concept-research-pipeline.jpg` - generated integrated research pipeline visual
+- `asset/img/supervisor-*.jpg/png` - supervisor headshots from AVR3
 
 ## GitHub Pages
 

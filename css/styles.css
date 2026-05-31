@@ -427,7 +427,8 @@ h1 span {
 }
 
 .signal-panel,
-.research-console {
+.research-console,
+.supervisor-card {
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background: var(--panel);
@@ -721,6 +722,70 @@ h1 span {
     grid-template-columns: repeat(5, minmax(0, 1fr)) auto;
     align-items: stretch;
     margin-top: 20px;
+}
+
+.supervisors-section {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0)),
+        radial-gradient(circle at 18% 20%, rgba(53, 208, 186, 0.1), transparent 25rem);
+}
+
+.supervisor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.supervisor-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 18px;
+}
+
+.supervisor-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(135deg, rgba(53, 208, 186, 0.11), transparent 46%);
+    opacity: 0;
+    transition: opacity 180ms ease;
+}
+
+.supervisor-card:hover::before {
+    opacity: 1;
+}
+
+.supervisor-card img {
+    width: 112px;
+    height: 112px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--panel-solid);
+}
+
+.supervisor-card span {
+    display: inline-flex;
+    margin-top: 18px;
+    color: var(--amber);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.supervisor-card h3 {
+    margin-top: 8px;
+    color: var(--text);
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.supervisor-card p {
+    margin-top: 10px;
+    color: #c5d0dc;
+    font-size: 14px;
 }
 
 .research-map-section {
@@ -1203,7 +1268,8 @@ h1 span {
     .profile-strip,
     .about-focus-grid,
     .interest-matrix,
-    .signal-grid {
+    .signal-grid,
+    .supervisor-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -1265,7 +1331,8 @@ h1 span {
     .profile-strip,
     .about-focus-grid,
     .interest-matrix,
-    .signal-grid {
+    .signal-grid,
+    .supervisor-grid {
         grid-template-columns: 1fr;
     }
 
