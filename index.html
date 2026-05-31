@@ -19,6 +19,8 @@
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    <div class="cursor-glow" aria-hidden="true" data-cursor-glow></div>
+    <div class="scroll-progress" aria-hidden="true" data-scroll-progress></div>
 
     <header class="site-header" data-header>
         <nav class="nav shell" aria-label="Primary navigation">
@@ -54,6 +56,9 @@
                 <p class="eyebrow">PhD Candidate at QUT and AVR3</p>
                 <h1><span>Ashkan</span> Yousefi Zadeh</h1>
                 <p class="name-note">Also published as <strong>Ashkan Y. Zadeh</strong></p>
+                <p class="typed-line" aria-live="polite">
+                    <span>Currently exploring </span><strong data-typed-text></strong><span class="typing-caret"></span>
+                </p>
                 <p class="hero-copy">
                     I research human-centred explainable AI for automated vehicles, with a focus on turning autonomous driving decisions into natural language explanations that people can understand, evaluate, and trust.
                 </p>
@@ -66,15 +71,15 @@
                 </div>
 
                 <div class="hero-stats" aria-label="Profile highlights">
-                    <div>
+                    <div data-tilt>
                         <strong>2023+</strong>
                         <span>Doctoral research</span>
                     </div>
-                    <div>
+                    <div data-tilt>
                         <strong>XAI</strong>
                         <span>Research focus</span>
                     </div>
-                    <div>
+                    <div data-tilt>
                         <strong>IEEE</strong>
                         <span>Service and review</span>
                     </div>
@@ -86,12 +91,12 @@
                     <img class="portrait-main" src="asset/img/ashkan-profile.jpg" alt="Ashkan Yousefi Zadeh beside an automated vehicle research platform">
                 </div>
                 <div class="hero-note-grid">
-                    <article class="profile-card" aria-label="Ashkan Yousefi Zadeh profile">
+                    <article class="profile-card" aria-label="Ashkan Yousefi Zadeh profile" data-tilt>
                         <p class="profile-label">Researcher profile</p>
                         <h2>Ashkan Y. Zadeh</h2>
                         <p>Human-centred XAI, NLP, and automated vehicles.</p>
                     </article>
-                    <article class="terminal-card" aria-label="Research summary">
+                    <article class="terminal-card" aria-label="Research summary" data-tilt>
                         <div class="terminal-dots" aria-hidden="true">
                             <span></span><span></span><span></span>
                         </div>
@@ -100,6 +105,31 @@
                         <p><span>goal</span> = "Trustworthy autonomous decisions"</p>
                     </article>
                 </div>
+            </div>
+        </section>
+
+        <section class="signal-band" aria-label="Research signal summary">
+            <div class="shell signal-grid">
+                <article class="signal-panel reveal" data-tilt>
+                    <span class="signal-index">01</span>
+                    <strong>Perception</strong>
+                    <p>Vision, lidar, scene context, and vehicle state.</p>
+                </article>
+                <article class="signal-panel reveal" data-tilt>
+                    <span class="signal-index">02</span>
+                    <strong>Reasoning</strong>
+                    <p>Model evidence, causal structure, and decision context.</p>
+                </article>
+                <article class="signal-panel reveal" data-tilt>
+                    <span class="signal-index">03</span>
+                    <strong>Explanation</strong>
+                    <p>Natural language outputs designed for human understanding.</p>
+                </article>
+                <article class="signal-panel reveal" data-tilt>
+                    <span class="signal-index">04</span>
+                    <strong>Trust</strong>
+                    <p>Human-centred evaluation and calibrated autonomy.</p>
+                </article>
             </div>
         </section>
 
@@ -120,27 +150,30 @@
                     </figure>
 
                     <div class="about-stack">
-                        <article class="panel reveal">
-                            <p>
-                                My thesis develops a model for generating human-centric explanations for automated vehicles. I connect Human-Centred Artificial Intelligence, Explainable AI, Natural Language Processing, and autonomous driving to improve transparency and trust in safety-critical systems.
-                            </p>
+                    <article class="panel reveal dynamic-panel" data-tilt>
+                        <div class="panel-toolbar" aria-hidden="true">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <p>
+                            My thesis develops a model for generating human-centric explanations for automated vehicles. I connect Human-Centred Artificial Intelligence, Explainable AI, Natural Language Processing, and autonomous driving to improve transparency and trust in safety-critical systems.
+                        </p>
                             <p>
                                 I am supervised by Dr. Xiaomeng Li, Prof. Andry Rakotonirainy, Prof. Ronald Schroeter, and Prof. Sebastien Glaser.
                             </p>
                         </article>
 
                         <div class="about-focus-grid reveal" aria-label="Research lens">
-                            <div>
+                            <div data-tilt>
                                 <span>01</span>
                                 <strong>Human needs</strong>
                                 <p>Designing explanations around how people interpret, question, and calibrate trust in AV behaviour.</p>
                             </div>
-                            <div>
+                            <div data-tilt>
                                 <span>02</span>
                                 <strong>Machine evidence</strong>
                                 <p>Connecting perception, decision context, and vehicle state to explanation content.</p>
                             </div>
-                            <div>
+                            <div data-tilt>
                                 <span>03</span>
                                 <strong>Language quality</strong>
                                 <p>Structuring natural language explanations that are clear, situated, and useful.</p>
@@ -197,19 +230,19 @@
                 </div>
 
                 <div class="research-grid">
-                    <article class="feature-card image-card reveal">
+                    <article class="feature-card image-card reveal" data-research-card="perception" data-tilt>
                         <img src="asset/img/concept-computer-vision-av.jpg" alt="Automated vehicle computer vision perception concept">
                         <span>01</span>
                         <h3>Automated Vehicles and Computer Vision</h3>
                         <p>Perception, scene understanding, sensor evidence, and driving context as the foundation for meaningful explanations.</p>
                     </article>
-                    <article class="feature-card image-card reveal">
+                    <article class="feature-card image-card reveal" data-research-card="language" data-tilt>
                         <img src="asset/img/concept-llm-nlp.jpg" alt="LLM and NLP explanation generation concept">
                         <span>02</span>
                         <h3>LLMs and Natural Language Processing</h3>
                         <p>Language generation, linguistic building blocks, and structured explanation content for AV decisions.</p>
                     </article>
-                    <article class="feature-card image-card reveal">
+                    <article class="feature-card image-card reveal" data-research-card="human" data-tilt>
                         <img src="asset/img/concept-human-centred-ai.jpg" alt="Human-centred AI and trust calibration concept">
                         <span>03</span>
                         <h3>Human-Centred AI and Trust</h3>
@@ -217,20 +250,32 @@
                     </article>
                 </div>
 
+                <div class="research-console reveal" aria-label="Interactive research focus">
+                    <div class="console-tabs" role="tablist" aria-label="Research focus tabs">
+                        <button class="is-active" type="button" role="tab" aria-selected="true" data-panel-tab="perception">Perception</button>
+                        <button type="button" role="tab" aria-selected="false" data-panel-tab="language">Language</button>
+                        <button type="button" role="tab" aria-selected="false" data-panel-tab="human">Human-centred</button>
+                    </div>
+                    <div class="console-body" data-panel-output>
+                        <strong>Perception to explanation</strong>
+                        <p>Connects computer vision, vehicle state, and scene context to explanation-ready evidence.</p>
+                    </div>
+                </div>
+
                 <div class="interest-matrix reveal" aria-label="Research interest matrix">
-                    <article>
+                    <article data-tilt>
                         <strong>Explainable AI</strong>
                         <p>How should AV decisions be represented, selected, and justified?</p>
                     </article>
-                    <article>
+                    <article data-tilt>
                         <strong>Psycholinguistics</strong>
                         <p>Which linguistic choices make explanations clearer and more actionable?</p>
                     </article>
-                    <article>
+                    <article data-tilt>
                         <strong>Human-Machine Interaction</strong>
                         <p>How do explanations affect attention, trust, and behavioural response?</p>
                     </article>
-                    <article>
+                    <article data-tilt>
                         <strong>Safety-Critical AI</strong>
                         <p>How can explanation models support responsible autonomy in real contexts?</p>
                     </article>
