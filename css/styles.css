@@ -1083,171 +1083,6 @@ h1 span {
     text-decoration: underline;
 }
 
-.linkedin-section {
-    background:
-        linear-gradient(180deg, rgba(10, 102, 194, 0.08), rgba(255, 255, 255, 0)),
-        radial-gradient(circle at 80% 22%, rgba(124, 180, 255, 0.12), transparent 24rem);
-}
-
-.linkedin-panel {
-    position: relative;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: minmax(0, 0.86fr) minmax(360px, 430px);
-    gap: 34px;
-    align-items: center;
-}
-
-.linkedin-panel-head h2 {
-    margin-top: 8px;
-    max-width: 620px;
-    font-size: clamp(32px, 4vw, 52px);
-    line-height: 1;
-}
-
-.linkedin-panel-head p:last-child {
-    max-width: 560px;
-    margin-top: 14px;
-    color: var(--muted);
-    font-size: 17px;
-}
-
-.linkedin-panel-head .button {
-    margin-top: 26px;
-}
-
-.linkedin-phone {
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 28px;
-    padding: 10px;
-    background: #121212;
-    box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
-}
-
-.linkedin-profile-screen,
-.linkedin-embed-card {
-    overflow: hidden;
-    border-radius: 18px;
-    background: #ffffff;
-    color: #1f2328;
-}
-
-.linkedin-cover {
-    position: relative;
-    height: 128px;
-    background: #d9e6f2;
-}
-
-.linkedin-cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.linkedin-profile-summary {
-    position: relative;
-    padding: 52px 18px 18px;
-}
-
-.linkedin-avatar {
-    position: absolute;
-    left: 18px;
-    top: -46px;
-    width: 92px;
-    height: 92px;
-    border: 4px solid #ffffff;
-    border-radius: 50%;
-    object-fit: cover;
-    background: #ffffff;
-}
-
-.linkedin-badge {
-    position: absolute;
-    right: 18px;
-    top: 16px;
-    display: grid;
-    width: 31px;
-    height: 31px;
-    place-items: center;
-    border-radius: 5px;
-    background: #0a66c2;
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 900;
-}
-
-.linkedin-profile-summary h3 {
-    color: #1f2328;
-    font-size: 25px;
-    line-height: 1.12;
-}
-
-.linkedin-profile-summary p {
-    margin-top: 6px;
-    color: #3f454b;
-    font-size: 14px;
-    line-height: 1.35;
-}
-
-.linkedin-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 12px;
-    margin-top: 10px;
-    color: #666f79;
-    font-size: 12px;
-}
-
-.linkedin-meta strong {
-    color: #0a66c2;
-    font-weight: 800;
-}
-
-.linkedin-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    margin-top: 14px;
-}
-
-.linkedin-actions a {
-    display: inline-flex;
-    min-height: 36px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #0a66c2;
-    border-radius: 999px;
-    color: #0a66c2;
-    font-size: 14px;
-    font-weight: 800;
-}
-
-.linkedin-actions a:first-child {
-    background: #0a66c2;
-    color: #ffffff;
-}
-
-.linkedin-feed {
-    display: grid;
-    gap: 10px;
-    max-height: 860px;
-    margin-top: 10px;
-    overflow: auto;
-    overscroll-behavior: contain;
-    border-radius: 18px;
-    scrollbar-width: thin;
-}
-
-.linkedin-embed-card iframe {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    min-height: 640px;
-    border: 0;
-    background: #ffffff;
-}
-
 .timeline-item {
     display: grid;
     grid-template-columns: 190px 1fr;
@@ -1430,7 +1265,6 @@ h1 span {
     .about-showcase,
     .split-grid,
     .contact-grid,
-    .linkedin-panel,
     .section-head {
         grid-template-columns: 1fr;
     }
@@ -1454,11 +1288,6 @@ h1 span {
     .signal-grid,
     .supervisor-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .linkedin-phone {
-        width: min(100%, 430px);
-        margin: 0 auto;
     }
 
     .research-console {
@@ -1568,25 +1397,6 @@ h1 span {
 
     .button {
         width: 100%;
-    }
-
-    .linkedin-phone {
-        border-radius: 22px;
-        padding: 7px;
-    }
-
-    .linkedin-cover {
-        height: 108px;
-    }
-
-    .linkedin-profile-summary {
-        padding: 48px 14px 15px;
-    }
-
-    .linkedin-avatar {
-        left: 14px;
-        width: 84px;
-        height: 84px;
     }
 
 }
