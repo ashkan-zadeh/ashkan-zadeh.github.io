@@ -4,6 +4,8 @@ const navMenu = document.querySelector("[data-nav-menu]");
 const progress = document.querySelector("[data-scroll-progress]");
 const cursorGlow = document.querySelector("[data-cursor-glow]");
 const typedTarget = document.querySelector("[data-typed-text]");
+const emailScrollLinks = [...document.querySelectorAll("[data-email-scroll]")];
+const contactEmail = document.querySelector("#contact-email");
 const navLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
 const sections = navLinks
     .map((link) => document.querySelector(link.getAttribute("href")))
@@ -57,6 +59,23 @@ navLinks.forEach((link) => {
     link.addEventListener("click", () => {
         navMenu?.classList.remove("is-open");
         navToggle?.setAttribute("aria-expanded", "false");
+    });
+});
+
+emailScrollLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+        if (!contactEmail) return;
+
+        event.preventDefault();
+        contactEmail.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "center" });
+        window.history.pushState(null, "", link.getAttribute("href"));
+
+        window.setTimeout(() => {
+            contactEmail.focus({ preventScroll: true });
+            contactEmail.classList.remove("is-highlighted");
+            void contactEmail.offsetWidth;
+            contactEmail.classList.add("is-highlighted");
+        }, prefersReducedMotion ? 0 : 420);
     });
 });
 

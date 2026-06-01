@@ -418,6 +418,7 @@ h1 span {
 .panel,
 .quick-info,
 .publication-card,
+.linkedin-card,
 .timeline-item,
 .contact-card {
     border: 1px solid var(--line);
@@ -1083,6 +1084,144 @@ h1 span {
     text-decoration: underline;
 }
 
+.linkedin-section {
+    background:
+        linear-gradient(180deg, rgba(10, 102, 194, 0.08), rgba(255, 255, 255, 0)),
+        radial-gradient(circle at 80% 22%, rgba(124, 180, 255, 0.12), transparent 24rem);
+}
+
+.linkedin-panel {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 24px;
+    background:
+        linear-gradient(135deg, rgba(10, 102, 194, 0.16), transparent 42%),
+        rgba(255, 255, 255, 0.035);
+    box-shadow: var(--shadow);
+}
+
+.linkedin-panel::before {
+    content: "in";
+    position: absolute;
+    right: 24px;
+    top: 10px;
+    color: rgba(255, 255, 255, 0.045);
+    font-family: var(--sans);
+    font-size: 128px;
+    font-weight: 900;
+    line-height: 1;
+    pointer-events: none;
+}
+
+.linkedin-panel-head {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 24px;
+    align-items: start;
+}
+
+.linkedin-panel-head h2 {
+    margin-top: 8px;
+    max-width: 760px;
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 1;
+}
+
+.linkedin-panel-head p:last-child {
+    max-width: 680px;
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 17px;
+}
+
+.linkedin-feed {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 28px;
+}
+
+.linkedin-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 310px;
+    padding: 22px;
+}
+
+.linkedin-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(135deg, rgba(124, 180, 255, 0.12), transparent 48%);
+    opacity: 0;
+    transition: opacity 180ms ease;
+}
+
+.linkedin-card:hover::after {
+    opacity: 1;
+}
+
+.linkedin-card-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    color: var(--amber);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.linkedin-card-top time {
+    color: var(--muted);
+}
+
+.linkedin-card h3 {
+    margin-top: 18px;
+    color: var(--text);
+    font-size: 22px;
+    line-height: 1.18;
+}
+
+.linkedin-card p {
+    margin-top: 12px;
+    color: #c5d0dc;
+    font-size: 15px;
+}
+
+.linkedin-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.linkedin-tags span {
+    border: 1px solid rgba(124, 180, 255, 0.28);
+    border-radius: 999px;
+    padding: 6px 9px;
+    background: rgba(10, 102, 194, 0.13);
+    color: #dceaff;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.linkedin-profile-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin-profile-card .button {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
 .timeline-item {
     display: grid;
     grid-template-columns: 190px 1fr;
@@ -1165,6 +1304,11 @@ h1 span {
     overflow-wrap: anywhere;
 }
 
+.email-link:target,
+.email-link.is-highlighted {
+    animation: email-pulse 1300ms ease;
+}
+
 .social-links {
     display: flex;
     flex-wrap: wrap;
@@ -1224,6 +1368,18 @@ h1 span {
     to { rotate: 360deg; }
 }
 
+@keyframes email-pulse {
+    0% {
+        text-shadow: 0 0 0 rgba(53, 208, 186, 0);
+    }
+    35% {
+        text-shadow: 0 0 28px rgba(53, 208, 186, 0.86);
+    }
+    100% {
+        text-shadow: 0 0 0 rgba(53, 208, 186, 0);
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
@@ -1248,6 +1404,7 @@ h1 span {
     .about-showcase,
     .split-grid,
     .contact-grid,
+    .linkedin-panel-head,
     .section-head {
         grid-template-columns: 1fr;
     }
@@ -1269,7 +1426,8 @@ h1 span {
     .about-focus-grid,
     .interest-matrix,
     .signal-grid,
-    .supervisor-grid {
+    .supervisor-grid,
+    .linkedin-feed {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -1332,7 +1490,8 @@ h1 span {
     .about-focus-grid,
     .interest-matrix,
     .signal-grid,
-    .supervisor-grid {
+    .supervisor-grid,
+    .linkedin-feed {
         grid-template-columns: 1fr;
     }
 
