@@ -264,12 +264,11 @@ function renderNews() {
 
     newsList.innerHTML = visibleItems.map((item) => {
         const category = categoryLabels[item.category] || "Signal";
-        const score = Number.isFinite(Number(item.score)) ? Math.round(Number(item.score)) : 70;
         return `
             <article class="news-card" data-category="${escapeHTML(item.category)}">
                 <div class="news-card-top">
                     <span class="news-category">${escapeHTML(category)}</span>
-                    <span class="news-score">${score}</span>
+                    <span class="news-score">Signal</span>
                 </div>
                 <h3>${escapeHTML(item.title)}</h3>
                 <p>${escapeHTML(item.summary)}</p>

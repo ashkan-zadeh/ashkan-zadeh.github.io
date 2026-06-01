@@ -102,6 +102,50 @@ IMPORTANT_TERMS = {
     "research": 4,
 }
 
+CATEGORY_LABELS = {
+    "automated-vehicles": "automated vehicle",
+    "ai": "AI",
+    "vlm": "vision-language model",
+    "computer-vision": "computer vision",
+}
+
+CATEGORY_REQUIRED_TERMS = {
+    "automated-vehicles": ("autonomous", "automated", "robotaxi", "self-driving", "driverless"),
+    "ai": ("ai", "artificial intelligence", "machine learning", "foundation model", "safety benchmark"),
+    "vlm": ("vision-language", "vision language", "multimodal", "visual language"),
+    "computer-vision": ("computer vision", "autonomous driving", "perception", "lidar", "simulation"),
+}
+
+BLOCKED_SOURCE_TERMS = (
+    "openpr",
+    "tipranks",
+    "investing.com",
+    "stock",
+    "benzinga",
+    "marketwatch",
+    "globenewswire",
+    "pr newswire",
+    "analytics insight",
+    "hindustan metro",
+    "technosports",
+)
+
+BLOCKED_TITLE_TERMS = (
+    "we're hiring",
+    "companies hiring",
+    "hiring:",
+    "hiring computer vision",
+    "stock explained",
+    "stock faces",
+    "market is going to boom",
+    "industry outlook",
+    "market size",
+    "market forecast",
+    "swot analysis",
+    "cagr",
+    "share price",
+)
+
 
 def fetch(url: str) -> bytes:
     request = urllib.request.Request(
@@ -121,6 +165,13 @@ def clean_text(value: str | None, limit: int = 220) -> str:
     if len(text) <= limit:
         return text
     return text[: limit - 1].rsplit(" ", 1)[0] + "..."
+
+
+def strip_source_suffix(title: str, source: str) -> str:
+    if not title or not source:
+        return title
+    escaped = re.escape(source)
+    return re.sub(rf"\s+[-–|]\s+{escaped}\s*$", "", title, flags=re.IGNORECASE).strip()
 
 
 def parse_date(value: str | None) -> str:
@@ -143,18 +194,45 @@ def score_item(title: str, summary: str, category: str) -> int:
     return min(score, 99)
 
 
+def is_relevant(title: str, summary: str, source: str, category: str) -> bool:
+    haystack = f"{title} {summary}".lower()
+    source_text = source.lower()
+    if any(term in source_text for term in BLOCKED_SOURCE_TERMS):
+        return False
+    if any(term in haystack for term in BLOCKED_TITLE_TERMS):
+        return False
+    return any(term in haystack for term in CATEGORY_REQUIRED_TERMS.get(category, ()))
+
+
+def build_summary(title: str, description: str, source: str, category: str) -> str:
+    normalized_title = re.sub(r"\W+", "", title.lower())
+    normalized_description = re.sub(r"\W+", "", description.lower())
+    duplicated = (
+        normalized_description == normalized_title
+        or normalized_title in normalized_description
+        or normalized_description in normalized_title
+    )
+    if description and normalized_description and not duplicated:
+        return description
+    label = CATEGORY_LABELS.get(category, "research")
+    return f"Headline tracked from {source} as a recent {label} signal."
+
+
 def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
     root = ET.fromstring(payload)
     items = []
     for entry in root.findall(".//item"):
-        title = clean_text(entry.findtext("title"), 160)
         url = clean_text(entry.findtext("link"), 500)
-        summary = clean_text(entry.findtext("description"), 260)
         source_node = entry.find("source")
         source = clean_text(source_node.text if source_node is not None else "Google News", 80)
+        title = strip_source_suffix(clean_text(entry.findtext("title"), 160), source)
+        description = strip_source_suffix(clean_text(entry.findtext("description"), 260), source)
+        summary = build_summary(title, description, source or "Google News", feed.category)
         published = parse_date(entry.findtext("pubDate"))
 
         if not title or not url:
+            continue
+        if not is_relevant(title, summary, source, feed.category):
             continue
 
         items.append(
