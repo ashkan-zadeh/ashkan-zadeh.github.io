@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T07:25:01.534494Z",
+  "generated_at": "2026-06-02T13:26:22.975222Z",
   "items": [
     {
       "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
@@ -13,24 +13,13 @@
       "score": 56
     },
     {
-      "title": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
-      "topic": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTHZtcGV5TUQwTzRoeVFmM0FwZHZmSDFkWHU2NDhjNW9HSDBmYU03VFZ4M0pWcFhtREQ4azZUUzdJanNzWTNGVUd5dzFTbFdBNTdDRnE2TEtQTGF0c014VFBmYk1tQldSdjZzd0RadUR4eFhFN0tJVWpxOE1IaVo3d2JWZG1ZbW5nbUloc3ZJcDd0bmhpY2tjZlA4YURsVXRBMWtubkNkQXhOc0JTRlJoaEE5NlVKVkFQQ2RJOERqalhJSkJIc1dTWE1Yb0c2YUxscEJpbA?oc=5",
-      "source": "Reuters",
-      "published": "2026-05-21T07:00:00Z",
+      "title": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
+      "topic": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeGNKUDZPYlMwclphYUNsOVBST3gyekY1Yk1VM2pnQnBZTTFqTW5UQTZqRm12Wk9SbUI2Vk5ENE0zMkpkVjlVUUtxY09zekpfRktCX3FwSXVRT1VUTzNBSFJrYlVKNDZiaTdSNmY3bkVBbnJxSUVOZ3loV3U0TXlSUm1JZnpRdw?oc=5",
+      "source": "Electrek",
+      "published": "2026-05-30T16:20:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
-      "score": 50
-    },
-    {
-      "title": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "topic": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SSU5lSVQzUDFtSUlWZ0xxU1VVc05fcnBzQ1EyMXNXRGlzUkt0UlRvdHZKQ0JlbndPdmFBc2tfTkJEWGhqdWNnMmd0OTNnWTh6U293Ymlpd0F5LWpHcTdGcDBsMWZrLTN2S3B1OUpXa29CeENWTXlHTG9ISWtVVHc?oc=5",
-      "source": "WIRED",
-      "published": "2026-05-27T11:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -46,6 +35,17 @@
       "score": 47
     },
     {
+      "title": "Tesla FSD v14 is so good it’s making me dangerously complacent",
+      "topic": "Tesla FSD v14 is so good it’s making me dangerously complacent",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX1lHaWo5RlpYNXJwdE1TU1J0dlhZYjhhQWktTTVCdmJ1RjMwSDNacElVa29lUy1GXzZrTXh0R1l4MkloWDNqN2JjLURFRnViNkJrM3hlNngyME9IUk5WbUdlWmMxLVljRmtwMGxTS3ItdC0wSWxSR281aGVDWHBlWTZVbGI?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-01T17:13:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
       "topic": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZlQXhzZ1BxZUpwQlY5LUhuOEw4ZGdycGpKWWdXZUh2VUlZb3pldEEwajFLVVZjZVczTEFVOGE4VmJlc0g2YjdoZjBBWGxIN192R2NJT05ETlBEUUtLT2w5SmhsRFdWMnlobVh2SG1ZWFJ1V0haV2tSSlZ5X1FaXy1BeWtXekt3UGlpZ1hkeGx0OUlTUlFkRHFpM2ZURkFOTFEyWk1PWVl1ZGoyTjVF?oc=5",
@@ -57,37 +57,37 @@
       "score": 37
     },
     {
-      "title": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity",
-      "topic": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjMxWVlpUUhJb1JjYnFPRXpkeE1qaTc3aDNQQXltRWZYNmo4T1dmN095X3R6bDY5NmkxdHBwTERrNkg1ajFIZDFZR09VQzd6a2oyalZTM2tkcjRwMFVyXzM5RUhkZWNQQ216cExQbkI1OGN0RS1CazVJV1dvTV9aYUt2cVVsc3Z6LVJDanZySTdMOHdEWmlIVTI4VVI?oc=5",
-      "source": "AP News",
-      "published": "2026-05-25T22:56:00Z",
+      "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "topic": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MXRJU2JRVkpqUjROR3dmTnJXNFd1TzBKNFdoalREbl80cEhIdzVFM3BubUpCX3dwVzlvWXVpa0MzdUhfakxnSkpFVjFkeXNBUlllcFh3eWdscGZnekNlZlpPblFSenEyVVFzOEpBZmxtRHMtQ3JublZDRQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-05-28T00:10:00Z",
       "category": "ai",
-      "summary": "Headline tracked from AP News as a recent AI signal.",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "topic": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktTNVVYRWc1dUU2VU5VLUJTR0t2bmFQVUo4bkM2YXJ0bG1XcS1kWGI5X3dXUkdrXy15R29OOXNWUWY1djNmN051TDlUSjFpTmZVWEp1THFRVnlCMUU1MmJFbUNLLXJqc1BVVll4Mi1QVzFWbzV6VWpPQVp0SU92T3BhVmZJRUFzTW1ZZE1B?oc=5",
+      "source": "WIRED",
+      "published": "2026-06-02T09:30:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
       "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
       "score": 25
     },
     {
-      "title": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
-      "topic": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtS2E3dFVudU1ONHh4UFlOZG1reXp3WXhXZlNNZnpUOTd0YzRRaVVMUk9xMUNyekFrOGh5Yjh1Zi0xZlJNQTF2bGVfQ2lTQkJucmZWRG5tRDVYUldpZWRXeFNrR3hxLTRfLWQ3WjNZU3hKdw?oc=5",
-      "source": "The New York Times",
-      "published": "2026-06-01T16:04:18Z",
-      "category": "ai",
-      "summary": "Headline tracked from The New York Times as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
-      "title": "Investment firm Permira taps Thoma Bravo veteran Mike Hoffmann as part of AI dealmaking push",
-      "topic": "Investment firm Permira taps Thoma Bravo veteran Mike Hoffmann as part of AI dealmaking push",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaFd5Q3pQMUxKYW53ZExBMUdHQ0tEWm1HSGU4Rno2bkJoc3NoRnM5UHlyTlBqbDZCN3dLc3Z5VjY2MnlDYnF6eXRHbUlQT2VnWnRfNmFoQnlrSG4zOFpLQWlvUGVtbVp4TXRiVWVsQUdPWjczdm5YZ3lhSHZQczNDN2YzVDJIb2o1NHN1Nmt6dFpuS0Fad1lQd0ZlLUhJd1otd3daSUdjZU11R2tTZHlrVVRFYUtKa25DLU4ya1pPTlNseVpI?oc=5",
+      "title": "Pope, urging AI regulation, warns some weapons now beyond human control",
+      "topic": "Pope, urging AI regulation, warns some weapons now beyond human control",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU?oc=5",
       "source": "Reuters",
-      "published": "2026-06-01T14:58:09Z",
+      "published": "2026-05-25T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
+      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
+      "score": 25
     }
   ]
 }
