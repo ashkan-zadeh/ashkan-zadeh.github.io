@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-06-02T22:29:51.017249Z",
+  "generated_at": "2026-06-02T22:40:41.482662Z",
   "items": [
+    {
+      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-28T10:27:30Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla’s AI trainers have expressed significant doubts about the safety and reliability of the company’s Full Self-Driving (FSD) technology, according to a Reuters investigation. The trainers, who are responsible for labeling data used to train the AI, have reported numerous issues with the system’s performance and safety metrics. This raises concerns about the readiness of FSD for widespread deployment.",
+      "abstract": "Tesla’s AI trainers have expressed significant doubts about the safety and reliability of the company’s Full Self-Driving (FSD) technology, according to a Reuters investigation. The trainers, who are responsible for labeling data used to train the AI, have reported numerous issues with the system’s performance and safety metrics. This raises concerns about the readiness of FSD for widespread deployment.",
+      "score": 95
+    },
     {
       "title": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
       "topic": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
@@ -8,9 +19,9 @@
       "source": "Electrek",
       "published": "2026-05-30T16:20:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K. The lawsuit, filed by Tesla owners, alleges that the company's Full Self-Driving (FSD) technology is not as advanced as advertised, raising concerns about consumer trust and safety.",
-      "abstract": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K. The lawsuit, filed by Tesla owners, alleges that the company's Full Self-Driving (FSD) technology is not as advanced as advertised, raising concerns about consumer trust and safety.",
-      "score": 95
+      "summary": "A group of 10 Tesla owners in China have filed a lawsuit against the company, seeking a total of $583,000 in damages over alleged false advertising of its Full Self-Driving (FSD) technology. The plaintiffs claim that Tesla’s marketing of FSD as a fully autonomous system is misleading, as the system still requires driver attention and intervention.",
+      "abstract": "A group of 10 Tesla owners in China have filed a lawsuit against the company, seeking a total of $583,000 in damages over alleged false advertising of its Full Self-Driving (FSD) technology. The plaintiffs claim that Tesla’s marketing of FSD as a fully autonomous system is misleading, as the system still requires driver attention and intervention.",
+      "score": 90
     },
     {
       "title": "Tesla’s Full Self-Driving software is creeping into Europe",
@@ -19,9 +30,9 @@
       "source": "TechCrunch",
       "published": "2026-05-20T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
-      "abstract": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
-      "score": 90
+      "summary": "Tesla’s Full Self-Driving (FSD) software is gradually expanding into European markets, with the company beginning to roll out the beta version to select users. This deployment marks a significant step for Tesla, as it seeks to introduce its advanced driver assistance system to a new regulatory environment and diverse road conditions.",
+      "abstract": "Tesla’s Full Self-Driving (FSD) software is gradually expanding into European markets, with the company beginning to roll out the beta version to select users. This deployment marks a significant step for Tesla, as it seeks to introduce its advanced driver assistance system to a new regulatory environment and diverse road conditions.",
+      "score": 85
     },
     {
       "title": "Tesla FSD v14 is so good it’s making me dangerously complacent",
@@ -30,9 +41,9 @@
       "source": "Electrek",
       "published": "2026-06-01T17:13:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla FSD v14 is so good it’s making me dangerously complacent. A Tesla owner reports that the latest version of Full Self-Driving (FSD) v14 is performing so well that it is causing the driver to become overly relaxed, highlighting the potential risks of over-reliance on autonomous driving systems.",
-      "abstract": "Tesla FSD v14 is so good it’s making me dangerously complacent. A Tesla owner reports that the latest version of Full Self-Driving (FSD) v14 is performing so well that it is causing the driver to become overly relaxed, highlighting the potential risks of over-reliance on autonomous driving systems.",
-      "score": 85
+      "summary": "A Tesla owner has reported that the latest version of Full Self-Driving (FSD) v14 is so advanced that it has made them dangerously complacent behind the wheel. The user claims that the system’s improved performance has led to a false sense of security, highlighting the ongoing risks associated with partially autonomous driving systems.",
+      "abstract": "A Tesla owner has reported that the latest version of Full Self-Driving (FSD) v14 is so advanced that it has made them dangerously complacent behind the wheel. The user claims that the system’s improved performance has led to a false sense of security, highlighting the ongoing risks associated with partially autonomous driving systems.",
+      "score": 80
     },
     {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
@@ -41,9 +52,9 @@
       "source": "NVIDIA Newsroom",
       "published": "2026-06-01T04:50:49Z",
       "category": "llm",
-      "summary": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI. NVIDIA has released Cosmos 3, an open-source foundation model for physical AI, aimed at advancing research and development in areas such as robotics and autonomous vehicles. This model is designed to improve perception, decision-making, and control in physical environments.",
-      "abstract": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI. NVIDIA has released Cosmos 3, an open-source foundation model for physical AI, aimed at advancing research and development in areas such as robotics and autonomous vehicles. This model is designed to improve perception, decision-making, and control in physical environments.",
-      "score": 92
+      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing the capabilities of AI in understanding and interacting with the physical world. This model is designed to support a wide range of applications, including autonomous vehicles, robotics, and simulation, by providing a robust framework for multimodal AI development.",
+      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing the capabilities of AI in understanding and interacting with the physical world. This model is designed to support a wide range of applications, including autonomous vehicles, robotics, and simulation, by providing a robust framework for multimodal AI development.",
+      "score": 75
     },
     {
       "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
@@ -52,42 +63,9 @@
       "source": "WIRED",
       "published": "2026-05-28T00:10:00Z",
       "category": "ai",
-      "summary": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill. Illinois has enacted a comprehensive AI safety bill, setting a new standard for AI regulation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which could have significant implications for the development and deployment of autonomous vehicles.",
-      "abstract": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill. Illinois has enacted a comprehensive AI safety bill, setting a new standard for AI regulation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which could have significant implications for the development and deployment of autonomous vehicles.",
-      "score": 88
-    },
-    {
-      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-02T13:51:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners. Tesla has patented a camera wiper system for its self-driving vehicles, but the move has raised additional doubts among Full Self-Driving (FSD) owners about the reliability and necessity of the technology.",
-      "abstract": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners. Tesla has patented a camera wiper system for its self-driving vehicles, but the move has raised additional doubts among Full Self-Driving (FSD) owners about the reliability and necessity of the technology.",
-      "score": 80
-    },
-    {
-      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
-      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
-      "source": "Reuters",
-      "published": "2026-05-28T10:27:30Z",
-      "category": "automated-vehicles",
-      "summary": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats. Reuters reports that Tesla's own AI trainers have expressed skepticism about the company's Full Self-Driving (FSD) technology and the safety statistics provided by Tesla, raising concerns about the reliability and transparency of the system.",
-      "abstract": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats. Reuters reports that Tesla's own AI trainers have expressed skepticism about the company's Full Self-Driving (FSD) technology and the safety statistics provided by Tesla, raising concerns about the reliability and transparency of the system.",
-      "score": 87
-    },
-    {
-      "title": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds",
-      "topic": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZDdzbjllWDFIWV9TSnZUa3FNV1RlM2ZXRHBRWmNSYXY3MVpiakwydk1HYnN3SVZuOF9VTlhHYW9wZDNqRVBMM0IxMFpRbFRkQ2NsRlE1a1BJUWNfODhfMEZ1SlQ3UEsxSnNjNTEyMHlROFpmalhlZjdLNWJvSkRvQTdacThkYlhUMWNfSURXZlQ?oc=5",
-      "source": "Electrek",
-      "published": "2026-05-28T13:33:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds. Tesla's internal AI trainers have reportedly expressed significant doubts about the company's Full Self-Driving (FSD) technology and the safety statistics it provides, highlighting internal concerns about the system's reliability.",
-      "abstract": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds. Tesla's internal AI trainers have reportedly expressed significant doubts about the company's Full Self-Driving (FSD) technology and the safety statistics it provides, highlighting internal concerns about the system's reliability.",
-      "score": 86
+      "summary": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, with specific implications for autonomous vehicle development and deployment. This legislation sets a precedent for how states can regulate AI to ensure public safety and trust.",
+      "abstract": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, with specific implications for autonomous vehicle development and deployment. This legislation sets a precedent for how states can regulate AI to ensure public safety and trust.",
+      "score": 70
     },
     {
       "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
@@ -96,9 +74,9 @@
       "source": "NVIDIA Developer",
       "published": "2026-05-29T00:08:03Z",
       "category": "vlm",
-      "summary": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog. NVIDIA has detailed a new method for running Step 3.7 Flash on its GPUs, enabling more efficient and enterprise-ready multimodal AI applications. This advancement could enhance the performance and capabilities of AI systems in autonomous vehicles.",
-      "abstract": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog. NVIDIA has detailed a new method for running Step 3.7 Flash on its GPUs, enabling more efficient and enterprise-ready multimodal AI applications. This advancement could enhance the performance and capabilities of AI systems in autonomous vehicles.",
-      "score": 82
+      "summary": "NVIDIA has released a technical blog post detailing how to run Step 3.7 Flash on NVIDIA GPUs, an enterprise-ready multimodal AI framework. This framework is designed to enhance the performance and efficiency of AI models, particularly in applications requiring real-time processing and high computational power, such as autonomous driving and sensor fusion.",
+      "abstract": "NVIDIA has released a technical blog post detailing how to run Step 3.7 Flash on NVIDIA GPUs, an enterprise-ready multimodal AI framework. This framework is designed to enhance the performance and efficiency of AI models, particularly in applications requiring real-time processing and high computational power, such as autonomous driving and sensor fusion.",
+      "score": 65
     },
     {
       "title": "Google’s new anything-to-anything AI model is wild",
@@ -107,9 +85,31 @@
       "source": "The Verge",
       "published": "2026-05-23T07:00:00Z",
       "category": "ai",
-      "summary": "Google’s new anything-to-anything AI model is wild. Google has unveiled a new AI model capable of converting between different types of data, such as text, images, and audio. This versatile model could have significant applications in various fields, including autonomous driving, by improving perception and decision-making systems.",
-      "abstract": "Google’s new anything-to-anything AI model is wild. Google has unveiled a new AI model capable of converting between different types of data, such as text, images, and audio. This versatile model could have significant applications in various fields, including autonomous driving, by improving perception and decision-making systems.",
-      "score": 78
+      "summary": "Google has unveiled a new AI model capable of converting any input type to any output type, marking a significant breakthrough in multimodal AI. This model, which can handle text, images, and other data types, has the potential to revolutionize various fields, including autonomous vehicle perception and decision-making systems.",
+      "abstract": "Google has unveiled a new AI model capable of converting any input type to any output type, marking a significant breakthrough in multimodal AI. This model, which can handle text, images, and other data types, has the potential to revolutionize various fields, including autonomous vehicle perception and decision-making systems.",
+      "score": 60
+    },
+    {
+      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-02T13:51:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has patented a camera wiper system designed to improve the performance of its Full Self-Driving (FSD) technology in adverse weather conditions. The patent has raised additional doubts among FSD owners about the system’s reliability and the company’s commitment to addressing real-world challenges. This development highlights the ongoing technical and regulatory hurdles for autonomous driving systems.",
+      "abstract": "Tesla has patented a camera wiper system designed to improve the performance of its Full Self-Driving (FSD) technology in adverse weather conditions. The patent has raised additional doubts among FSD owners about the system’s reliability and the company’s commitment to addressing real-world challenges. This development highlights the ongoing technical and regulatory hurdles for autonomous driving systems.",
+      "score": 55
+    },
+    {
+      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "topic": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktTNVVYRWc1dUU2VU5VLUJTR0t2bmFQVUo4bkM2YXJ0bG1XcS1kWGI5X3dXUkdrXy15R29OOXNWUWY1djNmN051TDlUSjFpTmZVWEp1THFRVnlCMUU1MmJFbUNLLXJqc1BVVll4Mi1QVzFWbzV6VWpPQVp0SU92T3BhVmZJRUFzTW1ZZE1B?oc=5",
+      "source": "WIRED",
+      "published": "2026-06-02T09:30:00Z",
+      "category": "ai",
+      "summary": "The Trump administration is facing internal conflicts over the regulation of AI, with different agencies and officials advocating for varying levels of oversight. This internal debate reflects the broader challenges in establishing a coherent and effective regulatory framework for AI, particularly in areas such as autonomous vehicles and data privacy.",
+      "abstract": "The Trump administration is facing internal conflicts over the regulation of AI, with different agencies and officials advocating for varying levels of oversight. This internal debate reflects the broader challenges in establishing a coherent and effective regulatory framework for AI, particularly in areas such as autonomous vehicles and data privacy.",
+      "score": 50
     }
   ]
 }
