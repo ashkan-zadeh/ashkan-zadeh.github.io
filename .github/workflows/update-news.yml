@@ -3,7 +3,7 @@ name: Update news feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 2 * * *"
+    - cron: "17 2 * * 1,4"
 
 permissions:
   contents: write
@@ -25,12 +25,12 @@ jobs:
 
       - name: Commit updated feed
         run: |
-          if git diff --quiet -- data/news.json; then
+          if git diff --quiet -- data/news.json data/news.js; then
             echo "No feed changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add data/news.json data/news.js
           git commit -m "Update automated news feed"
           git push

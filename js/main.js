@@ -244,6 +244,14 @@ const formatGeneratedAt = (value) => {
 let newsItems = [];
 let activeNewsFilter = "all";
 
+function applyNewsFeed(feed) {
+    newsItems = Array.isArray(feed?.items) ? feed.items : [];
+    if (newsMeta) {
+        newsMeta.textContent = formatGeneratedAt(feed?.generated_at);
+    }
+    renderNews();
+}
+
 function renderNews() {
     if (!newsList) return;
 
@@ -307,6 +315,10 @@ newsFilters.forEach((filter) => {
 });
 
 if (newsList) {
+    if (window.NEWS_FEED) {
+        applyNewsFeed(window.NEWS_FEED);
+    }
+
     fetch("data/news.json", { cache: "no-store" })
         .then((response) => {
             if (!response.ok) {
@@ -314,17 +326,13 @@ if (newsList) {
             }
             return response.json();
         })
-        .then((feed) => {
-            newsItems = Array.isArray(feed.items) ? feed.items : [];
-            if (newsMeta) {
-                newsMeta.textContent = formatGeneratedAt(feed.generated_at);
-            }
-            renderNews();
-        })
+        .then(applyNewsFeed)
         .catch(() => {
-            if (newsMeta) {
+            if (!newsItems.length && newsMeta) {
                 newsMeta.textContent = "Feed unavailable";
             }
-            newsList.innerHTML = "<div class=\"news-empty\">News feed unavailable.</div>";
+            if (!newsItems.length) {
+                newsList.innerHTML = "<div class=\"news-empty\">News feed unavailable.</div>";
+            }
         });
 }

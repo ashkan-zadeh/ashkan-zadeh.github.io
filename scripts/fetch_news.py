@@ -24,7 +24,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
-MAX_ITEMS = 12
+JS_OUTPUT = ROOT / "data" / "news.js"
+MAX_ITEMS = 5
 MAX_PER_CATEGORY = 3
 
 
@@ -385,8 +386,10 @@ def main() -> int:
         return 1
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(news, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {len(news['items'])} items to {OUTPUT.relative_to(ROOT)}")
+    payload = json.dumps(news, indent=2, ensure_ascii=False)
+    OUTPUT.write_text(payload + "\n", encoding="utf-8")
+    JS_OUTPUT.write_text(f"window.NEWS_FEED = {payload};\n", encoding="utf-8")
+    print(f"wrote {len(news['items'])} items to {OUTPUT.relative_to(ROOT)} and {JS_OUTPUT.relative_to(ROOT)}")
     return 0
 
 

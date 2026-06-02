@@ -1,4 +1,4 @@
-{
+window.NEWS_FEED = {
   "generated_at": "2026-06-02T00:26:43.489217Z",
   "items": [
     {
@@ -57,4 +57,4 @@
       "score": 43
     }
   ]
-}
+};
