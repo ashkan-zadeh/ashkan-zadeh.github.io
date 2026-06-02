@@ -3,6 +3,12 @@
 
 The site is hosted on GitHub Pages, so this script writes a JSON file that the
 browser can load without a live server or database.
+
+Set HF_TOKEN to enable LLM-powered curation and summarisation via the
+Hugging Face Serverless Inference API (free tier).  Without the token the
+script falls back to keyword-based scoring.
+
+Optionally set HF_MODEL to override the default model.
 """
 
 from __future__ import annotations
@@ -10,6 +16,7 @@ from __future__ import annotations
 import email.utils
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -18,7 +25,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 
@@ -27,6 +34,13 @@ OUTPUT = ROOT / "data" / "news.json"
 JS_OUTPUT = ROOT / "data" / "news.js"
 MAX_ITEMS = 10
 MAX_PER_CATEGORY = 3
+LLM_CANDIDATE_LIMIT = 30
+
+DEFAULT_HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
+
+# Cascading recency thresholds: prefer 14 days, fall back to 30, then 60
+RECENCY_THRESHOLDS_DAYS = [14, 30, 60]
+MIN_ITEMS_BEFORE_FALLBACK = 5
 
 
 @dataclass(frozen=True)
@@ -388,6 +402,125 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
     return items
 
 
+def apply_recency_filter(items: list[dict], max_days: int) -> list[dict]:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
+    return [
+        item for item in items
+        if datetime.fromisoformat(item["published"].replace("Z", "+00:00")) >= cutoff
+    ]
+
+
+def _build_llm_prompt(candidates: list[dict]) -> str:
+    candidate_lines: list[str] = []
+    for i, item in enumerate(candidates):
+        pub = item["published"][:10]
+        candidate_lines.append(
+            f"[{i}] {item['title']}\n"
+            f"    Source: {item['source']} | Date: {pub} | Category: {item['category']}\n"
+            f"    Raw description: {item['summary']}"
+        )
+
+    return f"""You are a research news curator for an autonomous vehicles (AV) researcher's academic website.
+
+Select the {MAX_ITEMS} most important and timely articles from the list below, then write a clear, engaging 1-2 sentence abstract for each.
+
+Priority topics (highest to lowest):
+1. Real-world AV/robotaxi deployments and breakthroughs (Waymo, Tesla, Cruise, Zoox, NVIDIA DRIVE, Aurora, Mobileye)
+2. Vision-language models (VLMs) and LLMs applied to autonomous driving or perception
+3. Computer vision and sensor fusion advances for AVs
+4. Upcoming conferences or events in the AV/AI space (ICRA, CVPR, NeurIPS, ICCV, IV, ITSC)
+5. AI safety, regulation, or policy with direct AV relevance
+
+Deprioritise: financial/stock news, generic AI news with no AV connection, clickbait, press releases. Strongly prefer articles from the last 14 days.
+
+Abstract rules:
+- 1-2 sentences, accurate to the source
+- Informative and specific (mention the company, technology, or finding)
+- Written for a technical but general audience
+
+Return ONLY a valid JSON array, no markdown, no commentary:
+[
+  {{"index": <integer>, "abstract": "<1-2 sentence abstract>", "score": <integer 1-100>}},
+  ...
+]
+
+Articles:
+{chr(10).join(candidate_lines)}"""
+
+
+def _parse_llm_response(raw: str, candidates: list[dict]) -> list[dict] | None:
+    raw = raw.strip()
+    # Strip markdown code fences if present
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    # Extract the JSON array (model may output extra text before/after)
+    match = re.search(r"\[\s*\{.*?\}\s*\]", raw, re.DOTALL)
+    if match:
+        raw = match.group(0)
+
+    selections: list[dict] = json.loads(raw)
+    curated: list[dict] = []
+    for sel in selections:
+        idx = sel.get("index")
+        if not isinstance(idx, int) or idx < 0 or idx >= len(candidates):
+            continue
+        item = dict(candidates[idx])
+        llm_abstract = (sel.get("abstract") or "").strip()
+        if llm_abstract:
+            item["abstract"] = llm_abstract
+            item["summary"] = llm_abstract
+        raw_score = sel.get("score", item["score"])
+        item["score"] = min(99, max(1, int(raw_score)))
+        curated.append(item)
+    return curated or None
+
+
+def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
+    """Use a free HF model to select and summarise the most important news.
+
+    Returns a curated list or None so the caller can fall back to keyword-based
+    selection when the API is unavailable or the response is unparseable.
+    """
+    hf_token = os.environ.get("HF_TOKEN")
+    if not hf_token:
+        return None
+
+    try:
+        from huggingface_hub import InferenceClient  # noqa: PLC0415
+    except ImportError:
+        print("warning: huggingface_hub not installed; skipping LLM curation", file=sys.stderr)
+        return None
+
+    model = os.environ.get("HF_MODEL", DEFAULT_HF_MODEL)
+    prompt = _build_llm_prompt(candidates)
+
+    try:
+        client = InferenceClient(model=model, token=hf_token)
+        response = client.chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2048,
+            temperature=0.2,
+        )
+        raw = response.choices[0].message.content or ""
+        curated = _parse_llm_response(raw, candidates)
+        if curated:
+            print(
+                f"LLM ({model}) selected {len(curated)} items from {len(candidates)} candidates",
+                file=sys.stderr,
+            )
+            return curated[:MAX_ITEMS]
+
+        print("warning: LLM returned empty selection; using fallback", file=sys.stderr)
+        return None
+
+    except Exception as exc:
+        print(
+            f"warning: LLM curation failed ({type(exc).__name__}: {exc}); using fallback",
+            file=sys.stderr,
+        )
+        return None
+
+
 def build_news() -> dict:
     seen: set[str] = set()
     collected: list[dict] = []
@@ -408,21 +541,50 @@ def build_news() -> dict:
             collected.append(item)
         time.sleep(0.25)
 
-    collected.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    # Cascading recency filter: 14 days → 30 days → 60 days → all
+    recent = collected
+    for threshold in RECENCY_THRESHOLDS_DAYS:
+        filtered = apply_recency_filter(collected, threshold)
+        if len(filtered) >= MIN_ITEMS_BEFORE_FALLBACK:
+            recent = filtered
+            print(f"Recency filter: {len(recent)} items within {threshold} days", file=sys.stderr)
+            break
+    else:
+        print(
+            f"warning: fewer than {MIN_ITEMS_BEFORE_FALLBACK} items within {RECENCY_THRESHOLDS_DAYS[-1]} days;"
+            f" using all {len(recent)} collected items",
+            file=sys.stderr,
+        )
+
+    # Balance across categories and feed top candidates to the LLM
+    recent.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
     by_category: dict[str, list[dict]] = {}
-    for item in collected:
+    for item in recent:
         by_category.setdefault(item["category"], []).append(item)
 
-    balanced = []
+    candidates: list[dict] = []
     for feed in FEEDS:
-        balanced.extend(by_category.get(feed.category, [])[:MAX_PER_CATEGORY])
+        candidates.extend(by_category.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
+    candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    candidates = candidates[:LLM_CANDIDATE_LIMIT]
 
-    balanced.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
-    balanced = balanced[:MAX_ITEMS]
+    # LLM curation (requires HF_TOKEN); falls back to keyword scoring
+    final_items = curate_with_llm(candidates)
+
+    if not final_items:
+        by_category_final: dict[str, list[dict]] = {}
+        for item in candidates:
+            by_category_final.setdefault(item["category"], []).append(item)
+
+        final_items = []
+        for feed in FEEDS:
+            final_items.extend(by_category_final.get(feed.category, [])[:MAX_PER_CATEGORY])
+        final_items.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+        final_items = final_items[:MAX_ITEMS]
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "items": balanced,
+        "items": final_items,
     }
 
 
