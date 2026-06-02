@@ -617,7 +617,7 @@ button:focus-visible {
 .eyebrow,
 .section-kicker,
 .profile-label {
-    color: var(--teal);
+    color: var(--s-accent, var(--teal));
     font-family: var(--mono);
     font-size: 13px;
     font-weight: 700;
@@ -980,7 +980,59 @@ h1 span {
 
 .section {
     padding: 82px 0;
-    border-top: 1px solid var(--line);
+    border-top: 1px solid color-mix(in srgb, var(--s-accent, var(--teal)), transparent 74%);
+}
+
+/* ── Section accent palette ─────────────────────────────── */
+.section               { --s-accent: var(--teal); }
+#about                 { --s-accent: var(--blue); }
+.supervisors-section   { --s-accent: var(--amber); }
+#research              { --s-accent: var(--coral); }
+.news-section          { --s-accent: var(--amber); }
+#publications          { --s-accent: var(--blue); }
+#experience            { --s-accent: var(--teal); }
+#education             { --s-accent: var(--amber); }
+.memorial-section      { --s-accent: var(--muted); }
+#contact               { --s-accent: var(--coral); }
+
+/* ── Section background glows ───────────────────────────── */
+#about {
+    background:
+        radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--blue), transparent 87%), transparent 30rem);
+}
+
+#research {
+    background:
+        radial-gradient(circle at 20% 42%, color-mix(in srgb, var(--coral), transparent 88%), transparent 28rem),
+        radial-gradient(circle at 84% 12%, color-mix(in srgb, var(--coral), transparent 93%), transparent 22rem);
+}
+
+#publications {
+    background:
+        radial-gradient(circle at 14% 30%, color-mix(in srgb, var(--blue), transparent 88%), transparent 26rem);
+}
+
+#experience {
+    background:
+        radial-gradient(circle at 82% 40%, color-mix(in srgb, var(--teal), transparent 90%), transparent 24rem);
+}
+
+#education {
+    background:
+        radial-gradient(circle at 76% 38%, color-mix(in srgb, var(--amber), transparent 90%), transparent 24rem);
+}
+
+#contact {
+    background:
+        radial-gradient(circle at 88% 50%, color-mix(in srgb, var(--coral), transparent 88%), transparent 26rem);
+}
+
+/* ── Panel top-border accent (inherits section accent) ──── */
+.section .panel,
+.section .feature-card,
+.section .publication-card,
+.section .timeline-item {
+    border-top-color: color-mix(in srgb, var(--s-accent), transparent 60%);
 }
 
 .section-head {
@@ -1062,7 +1114,7 @@ h1 span {
 }
 
 .about-focus-grid span {
-    color: var(--amber);
+    color: var(--s-accent, var(--amber));
     font-family: var(--mono);
     font-size: 12px;
     font-weight: 800;
@@ -1092,7 +1144,7 @@ h1 span {
 .supervisors-section {
     background:
         linear-gradient(180deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0)),
-        radial-gradient(circle at 18% 20%, rgba(53, 208, 186, 0.1), transparent 25rem);
+        radial-gradient(circle at 18% 20%, color-mix(in srgb, var(--s-accent), transparent 90%), transparent 25rem);
 }
 
 .supervisor-grid {
@@ -1113,7 +1165,7 @@ h1 span {
     position: absolute;
     inset: 0;
     pointer-events: none;
-    background: linear-gradient(135deg, rgba(53, 208, 186, 0.11), transparent 46%);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--s-accent), transparent 89%), transparent 46%);
     opacity: 0;
     transition: opacity 180ms ease;
 }
@@ -1134,7 +1186,7 @@ h1 span {
 .supervisor-card span {
     display: inline-flex;
     margin-top: 18px;
-    color: var(--amber);
+    color: var(--s-accent, var(--amber));
     font-family: var(--mono);
     font-size: 12px;
     font-weight: 800;
@@ -1258,8 +1310,8 @@ h1 span {
 }
 
 .image-card.is-emphasized {
-    border-color: rgba(242, 184, 96, 0.62);
-    background: rgba(242, 184, 96, 0.06);
+    border-color: color-mix(in srgb, var(--s-accent, var(--amber)), transparent 38%);
+    background: color-mix(in srgb, var(--s-accent, var(--amber)), transparent 94%);
 }
 
 .image-card span,
@@ -1279,7 +1331,7 @@ h1 span {
 }
 
 .feature-card span {
-    color: var(--amber);
+    color: var(--s-accent, var(--amber));
     font-family: var(--mono);
     font-weight: 800;
 }
@@ -1339,8 +1391,8 @@ h1 span {
 
 .console-tabs button:hover,
 .console-tabs button.is-active {
-    border-color: rgba(53, 208, 186, 0.5);
-    background: rgba(53, 208, 186, 0.1);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 50%);
+    background: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 90%);
     color: var(--text);
 }
 
@@ -1350,12 +1402,12 @@ h1 span {
     border-radius: 6px;
     padding: 18px;
     background:
-        linear-gradient(135deg, rgba(53, 208, 186, 0.08), transparent),
+        linear-gradient(135deg, color-mix(in srgb, var(--s-accent, var(--teal)), transparent 92%), transparent),
         rgba(255, 255, 255, 0.035);
 }
 
 .console-body strong {
-    color: var(--teal);
+    color: var(--s-accent, var(--teal));
     font-size: 18px;
 }
 
@@ -1370,14 +1422,14 @@ h1 span {
 }
 
 [data-tilt]:hover {
-    border-color: color-mix(in srgb, var(--teal), transparent 64%);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2), 0 0 32px color-mix(in srgb, var(--teal), transparent 84%);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 64%);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2), 0 0 32px color-mix(in srgb, var(--s-accent, var(--teal)), transparent 84%);
 }
 
 .publication-card:hover,
 .supervisor-card:hover {
-    border-color: color-mix(in srgb, var(--teal), transparent 64%);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2), 0 0 32px color-mix(in srgb, var(--teal), transparent 84%);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 64%);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2), 0 0 32px color-mix(in srgb, var(--s-accent, var(--teal)), transparent 84%);
     transition: border-color 200ms ease, box-shadow 200ms ease;
 }
 
@@ -1446,7 +1498,7 @@ h1 span {
 .text-link {
     display: inline-flex;
     margin-top: 14px;
-    color: var(--teal);
+    color: var(--s-accent, var(--teal));
     font-family: var(--mono);
     font-size: 13px;
     font-weight: 800;
@@ -1468,7 +1520,7 @@ h1 span {
     border: 1px solid var(--line);
     border-radius: var(--radius);
     background:
-        linear-gradient(135deg, rgba(53, 208, 186, 0.06), transparent 38%),
+        linear-gradient(135deg, color-mix(in srgb, var(--s-accent, var(--teal)), transparent 94%), transparent 38%),
         rgba(18, 26, 37, 0.78);
     box-shadow: var(--shadow);
 }
@@ -1506,8 +1558,8 @@ h1 span {
 
 .news-tabs button:hover,
 .news-tabs button.is-active {
-    border-color: rgba(53, 208, 186, 0.54);
-    background: rgba(53, 208, 186, 0.11);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 46%);
+    background: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 89%);
     color: var(--text);
 }
 
@@ -1804,7 +1856,7 @@ h1 span {
 }
 
 .timeline-item time {
-    color: var(--teal);
+    color: var(--s-accent, var(--teal));
     font-family: var(--mono);
     font-size: 13px;
     font-weight: 800;
@@ -1899,7 +1951,7 @@ h1 span {
 }
 
 .social-links a:hover {
-    border-color: rgba(53, 208, 186, 0.45);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 55%);
     color: var(--text);
 }
 
@@ -2071,8 +2123,8 @@ h1 span {
 
 /* ── Timeline featured item with portrait ───────────────── */
 .timeline-item--featured {
-    background: color-mix(in srgb, var(--teal), transparent 93%);
-    border-color: color-mix(in srgb, var(--teal), transparent 70%);
+    background: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 93%);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 70%);
 }
 
 .timeline-item-body {
@@ -2099,7 +2151,7 @@ h1 span {
 .timeline-item--featured:hover .timeline-portrait {
     transform: scale(1.03);
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
-    border-color: color-mix(in srgb, var(--teal), transparent 60%);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 60%);
 }
 
 /* ── Memorial section ───────────────────────────────────── */
