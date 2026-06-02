@@ -553,13 +553,11 @@ if (newsList) {
         lbImg.src = src;
         lbImg.alt = alt || "";
         lb.hidden = false;
-        document.body.classList.add("lb-open");
     }
 
     function close() {
         lb.hidden = true;
         lbImg.src = "";
-        document.body.classList.remove("lb-open");
     }
 
     // Open when any tagged image is clicked
