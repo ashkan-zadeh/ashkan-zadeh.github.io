@@ -114,7 +114,7 @@ html {
 
 body {
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: clip;
     background:
         radial-gradient(circle at 14% 8%, var(--glow-primary), transparent 28rem),
         radial-gradient(circle at 82% 0%, var(--glow-secondary), transparent 28rem),
