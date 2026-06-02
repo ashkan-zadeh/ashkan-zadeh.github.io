@@ -544,9 +544,8 @@ if (newsList) {
 
 /* ── Lightbox ────────────────────────────────────────────── */
 (function initLightbox() {
-    const lb      = document.querySelector("[data-lightbox]");
-    const lbImg   = document.querySelector("[data-lightbox-img]");
-    const lbClose = [...document.querySelectorAll("[data-lightbox-close]")];
+    const lb    = document.querySelector("[data-lightbox]");
+    const lbImg = document.querySelector("[data-lightbox-img]");
 
     if (!lb || !lbImg) return;
 
@@ -554,22 +553,24 @@ if (newsList) {
         lbImg.src = src;
         lbImg.alt = alt || "";
         lb.hidden = false;
-        document.body.style.overflowY = "hidden";
+        document.body.classList.add("lb-open");
     }
 
     function close() {
         lb.hidden = true;
         lbImg.src = "";
-        document.body.style.overflowY = "";
+        document.body.classList.remove("lb-open");
     }
 
+    // Open when any tagged image is clicked
     document.querySelectorAll("img[data-lightbox]").forEach((img) => {
         img.addEventListener("click", () => open(img.src, img.alt));
     });
 
-    // Close via backdrop, X button, clicking the full-size image, or Escape
-    lbClose.forEach((el) => el.addEventListener("click", close));
-    lbImg.addEventListener("click", close);
+    // ONE listener on the container — clicking anywhere (image, backdrop, X) closes
+    lb.addEventListener("click", close);
+
+    // Keyboard
     document.addEventListener("keydown", (e) => {
         if (e.key === "Escape" && !lb.hidden) close();
     });

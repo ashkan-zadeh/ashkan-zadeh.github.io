@@ -2290,6 +2290,11 @@ h1 span {
     .memorial-id { text-align: center; padding: 20px; }
 }
 
+/* Scroll lock while lightbox is open */
+body.lb-open {
+    overflow-y: hidden;
+}
+
 /* ── Zoom-in cursor for clickable photos ─────────────────── */
 .rl-vehicle img,
 .rl-gallery-item img,
