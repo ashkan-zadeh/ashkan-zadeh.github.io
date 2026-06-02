@@ -541,35 +541,3 @@ if (newsList) {
             }
         });
 }
-
-/* ── Lightbox ────────────────────────────────────────────── */
-(function initLightbox() {
-    const lb    = document.querySelector("[data-lightbox]");
-    const lbImg = document.querySelector("[data-lightbox-img]");
-
-    if (!lb || !lbImg) return;
-
-    function open(src, alt) {
-        lbImg.src = src;
-        lbImg.alt = alt || "";
-        lb.hidden = false;
-    }
-
-    function close() {
-        lb.hidden = true;
-        lbImg.src = "";
-    }
-
-    // Open when any tagged image is clicked
-    document.querySelectorAll("img[data-lightbox]").forEach((img) => {
-        img.addEventListener("click", () => open(img.src, img.alt));
-    });
-
-    // ONE listener on the container — clicking anywhere (image, backdrop, X) closes
-    lb.addEventListener("click", close);
-
-    // Keyboard
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && !lb.hidden) close();
-    });
-}());
