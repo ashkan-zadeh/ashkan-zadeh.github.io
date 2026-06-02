@@ -25,7 +25,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 JS_OUTPUT = ROOT / "data" / "news.js"
-MAX_ITEMS = 5
+MAX_ITEMS = 10
 MAX_PER_CATEGORY = 3
 
 
@@ -41,7 +41,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("autonomous vehicles" OR "automated vehicles" OR robotaxi) (Reuters OR "AP News" OR Waymo OR Tesla OR NVIDIA OR "The Verge" OR "IEEE Spectrum") when:30d',
+                "q": '("autonomous vehicles" OR "automated vehicles" OR robotaxi OR "self-driving") (Reuters OR "AP News" OR Waymo OR Tesla OR NVIDIA OR "The Verge" OR "IEEE Spectrum" OR Bloomberg OR Wired) when:30d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -53,7 +53,31 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("AI safety" OR "artificial intelligence" OR "AI model") (Reuters OR "AP News" OR Nature OR OpenAI OR Google OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:14d',
+                "q": '("AI safety" OR "artificial intelligence" OR "AI model" OR "AI regulation") (Reuters OR "AP News" OR Nature OR OpenAI OR Google OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum" OR Bloomberg) when:14d',
+                "hl": "en-US",
+                "gl": "US",
+                "ceid": "US:en",
+            }
+        ),
+    ),
+    Feed(
+        "llm",
+        "https://news.google.com/rss/search?"
+        + urllib.parse.urlencode(
+            {
+                "q": '("large language model" OR "LLM" OR "foundation model" OR "language model") ("autonomous" OR "driving" OR "vehicle" OR "transportation" OR "mobility" OR "explainable" OR "XAI") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum" OR Reuters OR TechCrunch) when:60d',
+                "hl": "en-US",
+                "gl": "US",
+                "ceid": "US:en",
+            }
+        ),
+    ),
+    Feed(
+        "nlp",
+        "https://news.google.com/rss/search?"
+        + urllib.parse.urlencode(
+            {
+                "q": '("natural language processing" OR "NLP" OR "language understanding" OR "text generation" OR "speech recognition") ("autonomous vehicle" OR "driving" OR "human machine" OR "HMI" OR "explainability" OR "transportation") (IEEE OR Nature OR Google OR NVIDIA OR "MIT Technology Review" OR Reuters OR "The Verge") when:60d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -65,7 +89,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("vision-language model" OR "vision language model" OR "multimodal AI") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:45d',
+                "q": '("vision-language model" OR "vision language model" OR "multimodal AI" OR "VLM") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:45d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -77,7 +101,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("computer vision" OR perception OR lidar) ("autonomous driving" OR "automated vehicles") (Nature OR NVIDIA OR Waymo OR "Carnegie Mellon" OR "MIT News" OR "IEEE Spectrum") when:45d',
+                "q": '("computer vision" OR perception OR lidar OR "scene understanding") ("autonomous driving" OR "automated vehicles" OR "self-driving") (Nature OR NVIDIA OR Waymo OR "Carnegie Mellon" OR "MIT News" OR "IEEE Spectrum" OR Google) when:45d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -97,6 +121,9 @@ IMPORTANT_TERMS = {
     "multimodal": 9,
     "computer vision": 8,
     "explainable": 9,
+    "large language model": 10,
+    "foundation model": 9,
+    "natural language": 8,
     "safety": 7,
     "regulation": 5,
     "deployment": 5,
@@ -106,6 +133,8 @@ IMPORTANT_TERMS = {
 CATEGORY_LABELS = {
     "automated-vehicles": "automated vehicle",
     "ai": "AI",
+    "llm": "LLM",
+    "nlp": "NLP",
     "vlm": "vision-language model",
     "computer-vision": "computer vision",
 }
@@ -113,7 +142,9 @@ CATEGORY_LABELS = {
 CATEGORY_REQUIRED_TERMS = {
     "automated-vehicles": ("autonomous", "automated", "robotaxi", "self-driving", "driverless"),
     "ai": ("ai", "artificial intelligence", "machine learning", "foundation model", "safety benchmark"),
-    "vlm": ("vision-language", "vision language", "multimodal", "visual language"),
+    "llm": ("large language model", "llm", "gpt", "foundation model", "language model"),
+    "nlp": ("natural language", "nlp", "text generation", "speech recognition", "language understanding"),
+    "vlm": ("vision-language", "vision language", "multimodal", "visual language", "vlm"),
     "computer-vision": ("computer vision", "autonomous driving", "perception", "lidar", "simulation"),
 }
 
@@ -234,8 +265,10 @@ def score_item(title: str, summary: str, category: str) -> int:
     for term, weight in IMPORTANT_TERMS.items():
         if term in haystack:
             score += weight
-    if category in {"automated-vehicles", "vlm"}:
+    if category in {"automated-vehicles", "vlm", "llm"}:
         score += 8
+    if category == "nlp":
+        score += 5
     return min(score, 99)
 
 
@@ -285,13 +318,13 @@ def build_abstract(title: str, description: str, category: str) -> str:
     if category == "automated-vehicles":
         if "trainer" in lower_title or "safety stats" in lower_title:
             return "Reuters reports concerns from Tesla AI training workers about self-driving trust and safety measurement."
-        if "suspends" in lower_title or "pauses" in lower_title:
-            return "Waymo's operational pause highlights how robotaxi services are still constrained by safety validation and incident response."
+        if "suspends" in lower_title or "pauses" in lower_title or "flood" in lower_title:
+            return "Waymo's operational pause highlights how robotaxi services remain constrained by safety validation and incident response."
         if "rollout" in lower_title or "wait times" in lower_title:
             return "Tesla's robotaxi deployment is being watched closely for operational readiness, user experience, and safety performance."
         if "robotaxi" in lower_title and "target" in lower_title:
             return "Robotaxi partnerships continue to expand, with operators targeting new city deployments."
-        if "regulation" in lower_title or "safety" in lower_title:
+        if "regulation" in lower_title or "policy" in lower_title:
             return "Policy and safety developments are shaping how automated vehicles are tested, certified, and deployed."
         if "waymo" in lower_title or "tesla" in lower_title or "robotaxi" in lower_title:
             return "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny."
@@ -299,7 +332,21 @@ def build_abstract(title: str, description: str, category: str) -> str:
     if category == "ai":
         if "safety" in lower_title:
             return "AI safety remains a policy and engineering concern as models move into higher-impact settings."
+        if "regulation" in lower_title or "policy" in lower_title:
+            return "AI governance and regulation continue to evolve as governments respond to rapid model capability growth."
         return "A recent AI development with implications for model capability, governance, or applied intelligent systems."
+    if category == "llm":
+        if "autonomous" in lower_title or "driving" in lower_title or "vehicle" in lower_title:
+            return "Large language models are being applied to automated vehicle decision-making, explanation generation, and human-machine interaction."
+        if "reasoning" in lower_title or "planning" in lower_title:
+            return "Advances in LLM reasoning and planning capabilities have direct implications for autonomous system explainability and trust."
+        return "A large language model development with potential applications to automated vehicle explanation, decision-making, or human-machine interaction."
+    if category == "nlp":
+        if "autonomous" in lower_title or "driving" in lower_title:
+            return "Natural language processing advances are enabling richer human-vehicle communication and automated explanation generation."
+        if "speech" in lower_title or "dialogue" in lower_title:
+            return "Speech and dialogue research is improving how autonomous systems communicate decisions to passengers and operators."
+        return "A natural language processing advance with relevance to automated vehicle communication, explanation generation, or driver interaction design."
     if category == "vlm":
         return "A multimodal AI update connecting visual, language, audio, or agentic capabilities."
     if category == "computer-vision":

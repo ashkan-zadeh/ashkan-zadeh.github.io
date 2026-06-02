@@ -8,12 +8,177 @@ const emailScrollLinks = [...document.querySelectorAll("[data-email-scroll]")];
 const contactEmail = document.querySelector("#contact-email");
 const newsList = document.querySelector("[data-news-list]");
 const newsMeta = document.querySelector("[data-news-meta]");
+const newsCount = document.querySelector("[data-news-count]");
+const newsLoading = document.querySelector("[data-news-loading]");
 const newsFilters = [...document.querySelectorAll("[data-news-filter]")];
+const tickerEl = document.querySelector("[data-news-ticker]");
+const tickerItemsEl = document.querySelector("[data-ticker-items]");
 const navLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
 const sections = navLinks
     .map((link) => document.querySelector(link.getAttribute("href")))
     .filter(Boolean);
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ── Theme switcher ─────────────────────────────────────── */
+const THEMES = ["horizon", "lidar", "neural", "carbon", "spectrum"];
+const themeToggle = document.querySelector("[data-theme-toggle]");
+const themePanel = document.querySelector("[data-theme-panel]");
+const themeOptions = [...document.querySelectorAll("[data-theme-pick]")];
+
+function applyTheme(name, animate = true) {
+    if (!THEMES.includes(name)) return;
+    if (animate && !prefersReducedMotion) {
+        document.documentElement.classList.add("theme-transitioning");
+        window.setTimeout(() => document.documentElement.classList.remove("theme-transitioning"), 380);
+    }
+    document.documentElement.setAttribute("data-theme", name);
+    localStorage.setItem("theme", name);
+    themeOptions.forEach((btn) => btn.classList.toggle("is-active", btn.dataset.themePick === name));
+    document.dispatchEvent(new CustomEvent("themechange", { detail: { theme: name } }));
+}
+
+function openThemePanel() {
+    themePanel.hidden = false;
+    themeToggle.setAttribute("aria-expanded", "true");
+}
+
+function closeThemePanel() {
+    themePanel.hidden = true;
+    themeToggle.setAttribute("aria-expanded", "false");
+}
+
+if (themeToggle && themePanel) {
+    const saved = localStorage.getItem("theme") || "horizon";
+    themeOptions.forEach((btn) => btn.classList.toggle("is-active", btn.dataset.themePick === saved));
+
+    themeToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        themePanel.hidden ? openThemePanel() : closeThemePanel();
+    });
+
+    themeOptions.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            applyTheme(btn.dataset.themePick);
+            closeThemePanel();
+        });
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!themePanel.hidden && !themePanel.contains(e.target) && e.target !== themeToggle) {
+            closeThemePanel();
+        }
+    });
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !themePanel.hidden) closeThemePanel();
+    });
+}
+
+/* ── Hero particle canvas ───────────────────────────────── */
+(function initCanvas() {
+    const canvas = document.querySelector("[data-hero-canvas]");
+    if (!canvas || prefersReducedMotion) return;
+
+    const ctx = canvas.getContext("2d");
+    const NUM = 48;
+    const CONNECT_DIST = 115;
+    let particles = [];
+    let heroMX = -999;
+    let heroMY = -999;
+    let particleColor = [53, 208, 186];
+
+    function readThemeColor() {
+        const hex = getComputedStyle(document.documentElement).getPropertyValue("--teal").trim().replace("#", "");
+        if (hex.length === 6) {
+            particleColor = [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)];
+        }
+    }
+
+    function resize() {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+    }
+
+    function makeParticle() {
+        return {
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            vx: (Math.random() - 0.5) * 0.38,
+            vy: (Math.random() - 0.5) * 0.38,
+            r: Math.random() * 1.4 + 0.5,
+        };
+    }
+
+    function tick() {
+        const { width, height } = canvas;
+        const [r, g, b] = particleColor;
+
+        ctx.clearRect(0, 0, width, height);
+
+        for (const p of particles) {
+            const dx = heroMX - p.x;
+            const dy = heroMY - p.y;
+            const dist2 = dx * dx + dy * dy;
+            if (dist2 < 18000) {
+                const d = Math.sqrt(dist2);
+                p.vx += (dx / d) * 0.012;
+                p.vy += (dy / d) * 0.012;
+            }
+            p.vx *= 0.97;
+            p.vy *= 0.97;
+            p.x = (p.x + p.vx + width) % width;
+            p.y = (p.y + p.vy + height) % height;
+        }
+
+        for (let i = 0; i < particles.length; i++) {
+            for (let j = i + 1; j < particles.length; j++) {
+                const dx = particles[i].x - particles[j].x;
+                const dy = particles[i].y - particles[j].y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < CONNECT_DIST) {
+                    ctx.beginPath();
+                    ctx.moveTo(particles[i].x, particles[i].y);
+                    ctx.lineTo(particles[j].x, particles[j].y);
+                    ctx.strokeStyle = `rgba(${r},${g},${b},${(1 - dist / CONNECT_DIST) * 0.22})`;
+                    ctx.lineWidth = 0.7;
+                    ctx.stroke();
+                }
+            }
+        }
+
+        ctx.fillStyle = `rgba(${r},${g},${b},0.55)`;
+        for (const p of particles) {
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        requestAnimationFrame(tick);
+    }
+
+    resize();
+    readThemeColor();
+    particles = Array.from({ length: NUM }, makeParticle);
+    tick();
+
+    window.addEventListener("resize", () => {
+        resize();
+        particles = Array.from({ length: NUM }, makeParticle);
+    }, { passive: true });
+
+    canvas.closest(".hero")?.addEventListener("pointermove", (e) => {
+        const rect = canvas.getBoundingClientRect();
+        heroMX = e.clientX - rect.left;
+        heroMY = e.clientY - rect.top;
+    }, { passive: true });
+
+    canvas.closest(".hero")?.addEventListener("pointerleave", () => {
+        heroMX = -999;
+        heroMY = -999;
+    }, { passive: true });
+
+    document.addEventListener("themechange", readThemeColor);
+}());
 
 const typedPhrases = [
     "explainable automated vehicles",
@@ -207,10 +372,12 @@ tabs.forEach((tab) => {
 });
 
 const categoryLabels = {
-    "automated-vehicles": "Automated vehicles",
+    "automated-vehicles": "Automated Vehicles",
     ai: "AI",
-    vlm: "Vision-language models",
-    "computer-vision": "Computer vision",
+    llm: "LLMs",
+    nlp: "NLP",
+    vlm: "Vision-Language Models",
+    "computer-vision": "Computer Vision",
 };
 
 const escapeHTML = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -244,11 +411,35 @@ const formatGeneratedAt = (value) => {
 let newsItems = [];
 let activeNewsFilter = "all";
 
+function populateTicker() {
+    if (!tickerEl || !tickerItemsEl || !newsItems.length) return;
+
+    const items = newsItems.map((item) => `
+        <span class="ticker-item" data-cat="${escapeHTML(item.category)}">
+            <span class="ticker-item-cat">${escapeHTML(categoryLabels[item.category] || "News")}</span>
+            <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.topic || item.title)}</a>
+            <span class="ticker-sep" aria-hidden="true"></span>
+        </span>`).join("");
+
+    tickerItemsEl.innerHTML = items + items;
+
+    const charCount = newsItems.reduce((sum, item) => sum + (item.topic || item.title || "").length, 0);
+    const duration = Math.max(30, Math.round(charCount * 0.28));
+    tickerItemsEl.style.animationDuration = `${duration}s`;
+
+    tickerEl.removeAttribute("aria-hidden");
+    requestAnimationFrame(() => tickerEl.classList.add("is-visible"));
+}
+
 function applyNewsFeed(feed) {
     newsItems = Array.isArray(feed?.items) ? feed.items : [];
     if (newsMeta) {
         newsMeta.textContent = formatGeneratedAt(feed?.generated_at);
     }
+    if (newsLoading) {
+        newsLoading.hidden = true;
+    }
+    populateTicker();
     renderNews();
 }
 
@@ -259,47 +450,56 @@ function renderNews() {
         ? newsItems
         : newsItems.filter((item) => item.category === activeNewsFilter);
 
+    if (newsCount) {
+        newsCount.textContent = visibleItems.length
+            ? `${visibleItems.length} article${visibleItems.length !== 1 ? "s" : ""}`
+            : "";
+    }
+
     if (!visibleItems.length) {
-        newsList.innerHTML = "<div class=\"news-empty\">No news items available for this topic.</div>";
+        newsList.innerHTML = "<div class=\"news-empty\">No articles available for this topic.</div>";
         return;
     }
 
-    const [featured, ...secondaryItems] = visibleItems;
-    const renderMeta = (item) => `${escapeHTML(item.source)} · ${formatDate(item.published)}`;
-    const renderLink = (item) => `<a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Read more</a>`;
-    const renderCategory = (item) => `<span class="news-category">${escapeHTML(categoryLabels[item.category] || "News")}</span>`;
+    const badgeClass = (cat) => `news-badge news-badge--${escapeHTML(cat)}`;
+    const renderBadge = (item) => `<span class="${badgeClass(item.category)}">${escapeHTML(categoryLabels[item.category] || "News")}</span>`;
+    const renderMeta = (item) => `<span class="news-source">${escapeHTML(item.source)} · ${formatDate(item.published)}</span>`;
+    const renderLink = (item) => `<a class="news-read-more" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Read article →</a>`;
 
-    newsList.innerHTML = `
-        <article class="news-feature" data-category="${escapeHTML(featured.category)}">
-            <div class="news-feature-meta">
-                ${renderCategory(featured)}
-                <span class="news-source">${renderMeta(featured)}</span>
+    const [featured, ...rest] = visibleItems;
+
+    const featuredCard = `
+        <article class="news-card news-card--featured" data-category="${escapeHTML(featured.category)}">
+            <div class="news-card-visual" aria-hidden="true"></div>
+            <div class="news-card-content">
+                <div class="news-card-header">
+                    ${renderBadge(featured)}
+                    ${renderMeta(featured)}
+                </div>
+                <h3>${escapeHTML(featured.topic || featured.title)}</h3>
+                <p>${escapeHTML(featured.abstract || featured.summary)}</p>
+                <div class="news-card-footer">
+                    ${renderLink(featured)}
+                </div>
             </div>
-            <h3>${escapeHTML(featured.topic || featured.title)}</h3>
-            <p>${escapeHTML(featured.abstract || featured.summary)}</p>
-            <div class="news-feature-footer">
-                ${renderLink(featured)}
-            </div>
-        </article>
-        <div class="news-list">
-            ${secondaryItems.map((item) => {
-        const category = categoryLabels[item.category] || "Signal";
-        return `
-            <article class="news-item" data-category="${escapeHTML(item.category)}">
-                <div class="news-item-top">
-                    <span class="news-category">${escapeHTML(category)}</span>
-                    <span class="news-source">${renderMeta(item)}</span>
+        </article>`;
+
+    const regularCards = rest.map((item) => `
+        <article class="news-card" data-category="${escapeHTML(item.category)}">
+            <div class="news-card-content">
+                <div class="news-card-header">
+                    ${renderBadge(item)}
+                    ${renderMeta(item)}
                 </div>
                 <h3>${escapeHTML(item.topic || item.title)}</h3>
                 <p>${escapeHTML(item.abstract || item.summary)}</p>
-                <div class="news-item-footer">
+                <div class="news-card-footer">
                     ${renderLink(item)}
                 </div>
-            </article>
-        `;
-    }).join("")}
-        </div>
-    `;
+            </div>
+        </article>`).join("");
+
+    newsList.innerHTML = `<div class="news-grid">${featuredCard}${regularCards}</div>`;
 }
 
 newsFilters.forEach((filter) => {
@@ -310,7 +510,12 @@ newsFilters.forEach((filter) => {
             item.classList.toggle("is-active", active);
             item.setAttribute("aria-selected", String(active));
         });
-        renderNews();
+
+        newsList.classList.add("is-transitioning");
+        window.setTimeout(() => {
+            renderNews();
+            newsList.classList.remove("is-transitioning");
+        }, 180);
     });
 });
 
@@ -336,3 +541,34 @@ if (newsList) {
             }
         });
 }
+
+/* ── Lightbox ────────────────────────────────────────────── */
+(function initLightbox() {
+    const lb      = document.querySelector("[data-lightbox]");
+    const lbImg   = document.querySelector("[data-lightbox-img]");
+    const lbClose = [...document.querySelectorAll("[data-lightbox-close]")];
+
+    if (!lb || !lbImg) return;
+
+    function open(src, alt) {
+        lbImg.src = src;
+        lbImg.alt = alt || "";
+        lb.hidden = false;
+        document.body.style.overflow = "hidden";
+    }
+
+    function close() {
+        lb.hidden = true;
+        lbImg.src = "";
+        document.body.style.overflow = "";
+    }
+
+    document.querySelectorAll("img[data-lightbox]").forEach((img) => {
+        img.addEventListener("click", () => open(img.src, img.alt));
+    });
+
+    lbClose.forEach((el) => el.addEventListener("click", close));
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !lb.hidden) close();
+    });
+}());
