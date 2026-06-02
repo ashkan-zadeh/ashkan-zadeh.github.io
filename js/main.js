@@ -554,20 +554,22 @@ if (newsList) {
         lbImg.src = src;
         lbImg.alt = alt || "";
         lb.hidden = false;
-        document.body.style.overflow = "hidden";
+        document.body.style.overflowY = "hidden";
     }
 
     function close() {
         lb.hidden = true;
         lbImg.src = "";
-        document.body.style.overflow = "";
+        document.body.style.overflowY = "";
     }
 
     document.querySelectorAll("img[data-lightbox]").forEach((img) => {
         img.addEventListener("click", () => open(img.src, img.alt));
     });
 
+    // Close via backdrop, X button, clicking the full-size image, or Escape
     lbClose.forEach((el) => el.addEventListener("click", close));
+    lbImg.addEventListener("click", close);
     document.addEventListener("keydown", (e) => {
         if (e.key === "Escape" && !lb.hidden) close();
     });
