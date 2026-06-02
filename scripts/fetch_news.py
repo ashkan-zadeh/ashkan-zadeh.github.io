@@ -281,6 +281,37 @@ def fetch(url: str) -> bytes:
         return response.read()
 
 
+def fetch_article_text(url: str, timeout: int = 12) -> str:
+    """Fetch the article at url and return extracted body text (best-effort)."""
+    try:
+        import trafilatura  # noqa: PLC0415
+        downloaded = trafilatura.fetch_url(url, no_ssl=True, timeout=timeout)
+        if not downloaded:
+            return ""
+        text = trafilatura.extract(
+            downloaded,
+            include_comments=False,
+            include_tables=False,
+            no_fallback=False,
+            favor_precision=True,
+        )
+        if not text or len(text) < 80:
+            return ""
+        snippet = text[:1200]
+        last_period = max(snippet.rfind(". "), snippet.rfind(".\n"))
+        if last_period > 200:
+            snippet = snippet[: last_period + 1]
+        return snippet.strip()
+    except Exception:
+        return ""
+
+
+def leading_sentences(text: str, n: int = 3) -> str:
+    """Return the first n sentences of text."""
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    return " ".join(s for s in sentences[:n] if s)
+
+
 def clean_text(value: str | None, limit: int = 400) -> str:
     text = html.unescape(value or "")
     text = re.sub(r"<[^>]+>", " ", text)
@@ -542,10 +573,12 @@ def _build_llm_prompt(candidates: list[dict]) -> str:
     candidate_lines: list[str] = []
     for i, item in enumerate(candidates):
         pub = item["published"][:10]
+        article_text = (item.get("article_text") or "").strip()
+        content = article_text if article_text else (item.get("summary") or item["title"])
         candidate_lines.append(
             f"[{i}] {item['title']}\n"
             f"    Source: {item['source']} | Date: {pub} | Category: {item['category']}\n"
-            f"    Raw description: {item['summary']}"
+            f"    Content: {content}"
         )
 
     return f"""You are a research news curator for an autonomous vehicles (AV) researcher's academic website.
@@ -700,6 +733,18 @@ def build_news() -> dict:
     candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
     candidates = candidates[:LLM_CANDIDATE_LIMIT]
 
+    # Fetch real article text for every candidate so the LLM (and fallback)
+    # can write summaries based on actual content, not just titles.
+    print(f"Fetching article text for {len(candidates)} candidates...", file=sys.stderr)
+    for item in candidates:
+        text = fetch_article_text(item["url"])
+        item["article_text"] = text
+        if text:
+            print(f"  ok  {item['title'][:60]}", file=sys.stderr)
+        else:
+            print(f"  --  {item['title'][:60]}", file=sys.stderr)
+        time.sleep(0.5)
+
     # LLM curation (requires HF_TOKEN); falls back to keyword scoring
     final_items = curate_with_llm(candidates)
 
@@ -714,9 +759,20 @@ def build_news() -> dict:
         final_items.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
         final_items = final_items[:MAX_ITEMS]
 
+        # Use fetched article text as abstract when LLM is unavailable
+        for item in final_items:
+            text = item.get("article_text", "").strip()
+            if text:
+                item["abstract"] = leading_sentences(text, 3)
+                item["summary"] = item["abstract"]
+
+    # Strip internal scaffolding fields before writing to JSON
+    output_fields = {"title", "topic", "url", "source", "published", "category", "summary", "abstract", "score"}
+    clean_items = [{k: v for k, v in item.items() if k in output_fields} for item in final_items]
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "items": final_items,
+        "items": clean_items,
     }
 
 

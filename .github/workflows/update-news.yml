@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install "huggingface_hub>=0.23"
+        run: pip install -r scripts/requirements.txt
 
       - name: Fetch latest news
         env:
