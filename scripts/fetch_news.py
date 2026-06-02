@@ -37,7 +37,9 @@ MAX_ITEMS = 10
 MAX_PER_CATEGORY = 3
 LLM_CANDIDATE_LIMIT = 30
 
-DEFAULT_HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
+DEFAULT_HF_MODEL = "Qwen/Qwen2.5-72B-Instruct"
+GEMINI_MODEL = "gemini-2.0-flash"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # Cascading recency thresholds: prefer 14 days, fall back to 30, then 60
 RECENCY_THRESHOLDS_DAYS = [14, 30, 60]
@@ -281,29 +283,72 @@ def fetch(url: str) -> bytes:
         return response.read()
 
 
+_BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+}
+
+
+def _html_to_text(raw_html: str) -> str:
+    """Strip HTML and return cleaned body text."""
+    # Remove non-content blocks
+    raw_html = re.sub(
+        r"<(script|style|nav|header|footer|aside|form|noscript)[^>]*>.*?</\1>",
+        " ", raw_html, flags=re.DOTALL | re.IGNORECASE,
+    )
+    text = re.sub(r"<[^>]+>", " ", raw_html)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 def fetch_article_text(url: str, timeout: int = 12) -> str:
-    """Fetch the article at url and return extracted body text (best-effort)."""
+    """Fetch article body text using trafilatura, falling back to plain HTML parse."""
+    # Try trafilatura first (handles most well-structured pages)
     try:
         import trafilatura  # noqa: PLC0415
-        downloaded = trafilatura.fetch_url(url, no_ssl=True, timeout=timeout)
-        if not downloaded:
-            return ""
+        req = urllib.request.Request(url, headers=_BROWSER_HEADERS)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            raw_bytes = resp.read(131072)  # 128 KB max
+        encoding = resp.headers.get_content_charset("utf-8")
+        raw_html = raw_bytes.decode(encoding, errors="ignore")
         text = trafilatura.extract(
-            downloaded,
+            raw_html,
             include_comments=False,
             include_tables=False,
             no_fallback=False,
             favor_precision=True,
         )
-        if not text or len(text) < 80:
-            return ""
-        snippet = text[:1200]
-        last_period = max(snippet.rfind(". "), snippet.rfind(".\n"))
-        if last_period > 200:
-            snippet = snippet[: last_period + 1]
-        return snippet.strip()
+        if text and len(text) > 120:
+            snippet = text[:1400]
+            cut = max(snippet.rfind(". "), snippet.rfind(".\n"))
+            return (snippet[: cut + 1] if cut > 250 else snippet).strip()
     except Exception:
-        return ""
+        pass
+
+    # Plain-HTML fallback (works on simpler/blog pages)
+    try:
+        req2 = urllib.request.Request(url, headers=_BROWSER_HEADERS)
+        with urllib.request.urlopen(req2, timeout=timeout) as resp2:
+            raw_bytes2 = resp2.read(131072)
+        encoding2 = resp2.headers.get_content_charset("utf-8")
+        text2 = _html_to_text(raw_bytes2.decode(encoding2, errors="ignore"))
+        if len(text2) > 200:
+            # Skip the first 150 chars (usually site nav) and take the next 1200
+            chunk = text2[150:1350]
+            cut2 = chunk.rfind(". ")
+            return (chunk[: cut2 + 1] if cut2 > 200 else chunk).strip()
+    except Exception:
+        pass
+
+    return ""
 
 
 def leading_sentences(text: str, n: int = 3) -> str:
@@ -574,51 +619,50 @@ def _build_llm_prompt(candidates: list[dict]) -> str:
     for i, item in enumerate(candidates):
         pub = item["published"][:10]
         article_text = (item.get("article_text") or "").strip()
-        content = article_text if article_text else (item.get("summary") or item["title"])
+        content = article_text if article_text else f"[headline only] {item['title']}"
         candidate_lines.append(
-            f"[{i}] {item['title']}\n"
-            f"    Source: {item['source']} | Date: {pub} | Category: {item['category']}\n"
-            f"    Content: {content}"
+            f"[{i}] TITLE: {item['title']}\n"
+            f"    SOURCE: {item['source']} | DATE: {pub} | CATEGORY: {item['category']}\n"
+            f"    CONTENT: {content}"
         )
 
-    return f"""You are a research news curator for an autonomous vehicles (AV) researcher's academic website.
+    return f"""You are a senior research curator for an autonomous-vehicles (AV) and AI academic website.
 
-Select the {MAX_ITEMS} most important and timely articles from the list below, then write a detailed, substantive summary for each.
+TASK: From the articles below, select the {MAX_ITEMS} most newsworthy and write a specific, factual abstract for each.
 
-Priority topics (highest to lowest):
-1. Real-world AV/robotaxi deployments and breakthroughs (Waymo, Tesla, Cruise, Zoox, NVIDIA DRIVE, Aurora, Mobileye)
-2. Vision-language models (VLMs) and LLMs applied to autonomous driving or perception
-3. Computer vision and sensor fusion advances for AVs
-4. Upcoming conferences or events in the AV/AI space (ICRA, CVPR, NeurIPS, ICCV, IV, ITSC)
-5. AI safety, regulation, or policy with direct AV relevance
+SELECTION PRIORITY (highest first):
+1. Real-world AV/robotaxi deployments (Waymo, Tesla FSD, Aurora, Cruise, Mobileye, Zoox, NVIDIA DRIVE)
+2. VLMs or LLMs applied to autonomous driving, perception, or explainability
+3. Computer vision / sensor fusion breakthroughs for AVs
+4. AI safety or regulation with direct AV relevance
+5. Foundational AI model releases (LLMs, VLMs) relevant to AV research
 
-Deprioritise: financial/stock news, generic AI news with no AV connection, clickbait, press releases. Strongly prefer articles from the last 14 days.
+STRICT ABSTRACT RULES — follow every rule:
+1. CHAIN OF THOUGHT: Before writing each abstract, silently identify:
+   (a) Exact actor — which company, research group, or person?
+   (b) Exact event — what specifically happened (announcement, finding, deployment, lawsuit, recall, paper)?
+   (c) Key details — any numbers, locations, dates, model names, benchmark scores?
+   (d) Relevance — why does this matter for AV or AI research?
+2. Write 3-4 sentences using ONLY facts from (a)-(d).
+3. NEVER use vague filler: forbidden phrases include "a company announced", "researchers reported", "a new development", "has been introduced", "has been reported", "a major operator".
+4. ALWAYS name the specific company/person/model in sentence 1 (e.g. "Waymo", "Tesla FSD v14", "NVIDIA Cosmos 3", "Illinois HB 3773").
+5. If CONTENT is "[headline only]", start sentence 1 with "According to [SOURCE]," and base the abstract strictly on what the headline states — do not invent facts.
+6. Prefer articles from the last 7 days. Deprioritise financial/stock news, press releases, and clickbait.
 
-Summary rules:
-- Write 3-4 sentences per article
-- Sentence 1: State what happened or was published — name the specific company, model, system, or finding
-- Sentence 2: Explain the key technical detail, result, or mechanism (numbers, methods, benchmarks if available)
-- Sentence 3: Describe the significance or implication for AV/AI research or deployment
-- Sentence 4 (optional): Note any caveats, open questions, or broader context
-- Be specific — mention model names, performance numbers, locations, or dates where known
-- Written for a technical audience familiar with AV and AI research
-
-Return ONLY a valid JSON array, no markdown, no commentary:
+OUTPUT: Return ONLY a valid JSON array — no markdown fences, no extra text:
 [
-  {{"index": <integer>, "abstract": "<3-4 sentence summary>", "score": <integer 1-100>}},
+  {{"index": <int>, "abstract": "<3-4 sentence abstract>", "score": <int 1-100>}},
   ...
 ]
 
-Articles:
+ARTICLES:
 {chr(10).join(candidate_lines)}"""
 
 
 def _parse_llm_response(raw: str, candidates: list[dict]) -> list[dict] | None:
     raw = raw.strip()
-    # Strip markdown code fences if present
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
-    # Extract the JSON array (model may output extra text before/after)
     match = re.search(r"\[\s*\{.*?\}\s*\]", raw, re.DOTALL)
     if match:
         raw = match.group(0)
@@ -640,50 +684,83 @@ def _parse_llm_response(raw: str, candidates: list[dict]) -> list[dict] | None:
     return curated or None
 
 
-def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
-    """Use a free HF model to select and summarise the most important news.
+def _call_llm(prompt: str, provider: str) -> str:
+    """Dispatch a prompt to the requested provider and return raw text."""
+    if provider == "gemini":
+        import google.generativeai as genai  # noqa: PLC0415
+        genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+        model = genai.GenerativeModel(GEMINI_MODEL)
+        resp = model.generate_content(
+            prompt,
+            generation_config=genai.types.GenerationConfig(
+                temperature=0.15,
+                max_output_tokens=4096,
+            ),
+        )
+        return resp.text or ""
 
-    Returns a curated list or None so the caller can fall back to keyword-based
-    selection when the API is unavailable or the response is unparseable.
-    """
-    hf_token = os.environ.get("HF_TOKEN")
-    if not hf_token:
-        return None
-
-    try:
-        from huggingface_hub import InferenceClient  # noqa: PLC0415
-    except ImportError:
-        print("warning: huggingface_hub not installed; skipping LLM curation", file=sys.stderr)
-        return None
-
-    model = os.environ.get("HF_MODEL", DEFAULT_HF_MODEL)
-    prompt = _build_llm_prompt(candidates)
-
-    try:
-        client = InferenceClient(model=model, token=hf_token)
-        response = client.chat_completion(
+    if provider == "groq":
+        from groq import Groq  # noqa: PLC0415
+        client = Groq(api_key=os.environ["GROQ_API_KEY"])
+        resp = client.chat.completions.create(
+            model=GROQ_MODEL,
             messages=[{"role": "user", "content": prompt}],
             max_tokens=4096,
-            temperature=0.2,
+            temperature=0.15,
         )
-        raw = response.choices[0].message.content or ""
-        curated = _parse_llm_response(raw, candidates)
-        if curated:
+        return resp.choices[0].message.content or ""
+
+    if provider == "hf":
+        from huggingface_hub import InferenceClient  # noqa: PLC0415
+        model = os.environ.get("HF_MODEL", DEFAULT_HF_MODEL)
+        client = InferenceClient(model=model, token=os.environ["HF_TOKEN"])
+        resp = client.chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=4096,
+            temperature=0.15,
+        )
+        return resp.choices[0].message.content or ""
+
+    raise ValueError(f"Unknown provider: {provider}")
+
+
+def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
+    """Try Gemini → Groq → HF in order; return curated list or None."""
+    providers = [
+        ("gemini", "GEMINI_API_KEY", "google-generativeai"),
+        ("groq",   "GROQ_API_KEY",   "groq"),
+        ("hf",     "HF_TOKEN",        "huggingface_hub"),
+    ]
+
+    prompt = _build_llm_prompt(candidates)
+
+    for provider, env_key, pkg in providers:
+        if not os.environ.get(env_key):
+            continue
+        try:
+            __import__(pkg.replace("-", "_").split(".")[0])
+        except ImportError:
+            print(f"warning: {pkg} not installed; skipping {provider}", file=sys.stderr)
+            continue
+        try:
+            raw = _call_llm(prompt, provider)
+            curated = _parse_llm_response(raw, candidates)
+            if curated:
+                print(
+                    f"{provider.upper()} selected {len(curated)} items "
+                    f"from {len(candidates)} candidates",
+                    file=sys.stderr,
+                )
+                return curated[:MAX_ITEMS]
+            print(f"warning: {provider} returned empty selection", file=sys.stderr)
+        except Exception as exc:
             print(
-                f"LLM ({model}) selected {len(curated)} items from {len(candidates)} candidates",
+                f"warning: {provider} curation failed ({type(exc).__name__}: {exc}); trying next",
                 file=sys.stderr,
             )
-            return curated[:MAX_ITEMS]
 
-        print("warning: LLM returned empty selection; using fallback", file=sys.stderr)
-        return None
-
-    except Exception as exc:
-        print(
-            f"warning: LLM curation failed ({type(exc).__name__}: {exc}); using fallback",
-            file=sys.stderr,
-        )
-        return None
+    print("warning: all LLM providers failed or unavailable; using text fallback", file=sys.stderr)
+    return None
 
 
 def build_news() -> dict:
