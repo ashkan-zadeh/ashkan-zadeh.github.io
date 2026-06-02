@@ -97,6 +97,8 @@ html.theme-transitioning .news-card,
 html.theme-transitioning .publication-card,
 html.theme-transitioning .timeline-item,
 html.theme-transitioning .contact-card,
+html.theme-transitioning .section-head,
+html.theme-transitioning .section-kicker,
 html.theme-transitioning [data-tilt] {
     transition: background-color 350ms ease, border-color 350ms ease,
                 color 350ms ease, box-shadow 350ms ease !important;
@@ -987,6 +989,8 @@ h1 span {
 .section               { --s-accent: var(--teal); }
 #about                 { --s-accent: var(--blue); }
 .supervisors-section   { --s-accent: var(--amber); }
+.research-life-section { --s-accent: var(--teal); }
+.research-map-section  { --s-accent: var(--blue); }
 #research              { --s-accent: var(--coral); }
 .news-section          { --s-accent: var(--amber); }
 #publications          { --s-accent: var(--blue); }
@@ -1036,24 +1040,71 @@ h1 span {
 }
 
 .section-head {
+    position: relative;
     display: grid;
-    grid-template-columns: minmax(220px, 0.45fr) minmax(0, 0.55fr);
-    gap: 40px;
-    align-items: end;
-    margin-bottom: 34px;
+    grid-template-columns: minmax(240px, 0.44fr) minmax(0, 0.56fr);
+    gap: 34px;
+    align-items: center;
+    margin-bottom: 36px;
+    border: 1px solid color-mix(in srgb, var(--s-accent, var(--teal)), transparent 74%);
+    border-left: 4px solid var(--s-accent, var(--teal));
+    border-radius: var(--radius);
+    padding: 22px 24px 22px 26px;
+    background:
+        linear-gradient(135deg, color-mix(in srgb, var(--s-accent, var(--teal)), transparent 90%) 0%, transparent 44%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.052), rgba(255, 255, 255, 0.024));
+    box-shadow: 0 16px 52px rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+}
+
+.section-head::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 64px;
+    background: linear-gradient(90deg, color-mix(in srgb, var(--s-accent, var(--teal)), transparent 76%), transparent);
+    pointer-events: none;
+}
+
+.section-head::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 44px;
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--s-accent, var(--teal)), transparent);
+    opacity: 0.8;
 }
 
 .section-head h2 {
     grid-column: 1 / 2;
-    margin-top: 8px;
-    font-size: clamp(34px, 4.7vw, 58px);
-    line-height: 1;
+    max-width: 620px;
+    margin-top: 12px;
+    font-size: clamp(28px, 3.8vw, 48px);
+    line-height: 1.06;
     letter-spacing: 0;
 }
 
 .section-head p:last-child {
-    color: var(--muted);
-    font-size: 17px;
+    max-width: 620px;
+    color: #c8d4df;
+    font-size: 16px;
+    line-height: 1.68;
+    border-left: 1px solid color-mix(in srgb, var(--s-accent, var(--teal)), transparent 76%);
+    padding-left: 22px;
+}
+
+.section-kicker {
+    width: fit-content;
+    border: 1px solid color-mix(in srgb, var(--s-accent, var(--teal)), transparent 58%);
+    border-radius: 999px;
+    padding: 6px 10px;
+    background: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 89%);
+    color: color-mix(in srgb, var(--s-accent, var(--teal)), white 24%);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .split-grid,
@@ -1340,10 +1391,37 @@ h1 span {
 .panel h3,
 .timeline-item h3,
 .publication-card h3 {
+    position: relative;
     margin-top: 18px;
+    padding-left: 14px;
     color: var(--text);
     font-size: 21px;
     line-height: 1.25;
+}
+
+.feature-card h3::before,
+.panel h3::before,
+.timeline-item h3::before,
+.publication-card h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    bottom: 0.12em;
+    width: 3px;
+    border-radius: 999px;
+    background: var(--s-accent, var(--teal));
+    box-shadow: 0 0 18px color-mix(in srgb, var(--s-accent, var(--teal)), transparent 62%);
+}
+
+.feature-card span,
+.supervisor-card span,
+.publication-meta span,
+.timeline-item time,
+.rl-label,
+.moment-tag {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .feature-card p {
@@ -1478,10 +1556,11 @@ h1 span {
 }
 
 .publication-meta span {
-    border: 1px solid rgba(242, 184, 96, 0.3);
+    border: 1px solid color-mix(in srgb, var(--s-accent, var(--amber)), transparent 64%);
     border-radius: 999px;
     padding: 5px 9px;
-    color: #ffd28c;
+    background: color-mix(in srgb, var(--s-accent, var(--amber)), transparent 90%);
+    color: color-mix(in srgb, var(--s-accent, var(--amber)), white 28%);
     font-family: var(--mono);
     font-size: 12px;
     font-weight: 800;
@@ -2529,6 +2608,22 @@ h1 span {
 
     .terminal-card {
         font-size: 12px;
+    }
+
+    .section-head {
+        gap: 18px;
+        padding: 20px;
+    }
+
+    .section-head::after {
+        display: none;
+    }
+
+    .section-head p:last-child {
+        border-left: 0;
+        border-top: 1px solid color-mix(in srgb, var(--s-accent, var(--teal)), transparent 76%);
+        padding-top: 16px;
+        padding-left: 0;
     }
 
     .section {
