@@ -249,7 +249,7 @@ def fetch(url: str) -> bytes:
         return response.read()
 
 
-def clean_text(value: str | None, limit: int = 220) -> str:
+def clean_text(value: str | None, limit: int = 400) -> str:
     text = html.unescape(value or "")
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
@@ -332,41 +332,136 @@ def build_abstract(title: str, description: str, category: str) -> str:
     lower_title = title.lower()
     if category == "automated-vehicles":
         if "trainer" in lower_title or "safety stats" in lower_title:
-            return "Reuters reports concerns from Tesla AI training workers about self-driving trust and safety measurement."
+            return (
+                "Reuters reports that Tesla AI training workers have raised concerns about how self-driving safety is measured and trusted internally. "
+                "The report highlights a gap between publicly stated safety statistics and the day-to-day observations of staff who prepare training data for the Full Self-Driving system. "
+                "The findings raise questions about how AV companies validate safety claims before commercial deployment. "
+                "Independent third-party auditing of AV safety metrics remains an open policy question."
+            )
         if "suspends" in lower_title or "pauses" in lower_title or "flood" in lower_title:
-            return "Waymo's operational pause highlights how robotaxi services remain constrained by safety validation and incident response."
+            return (
+                "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. "
+                "Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. "
+                "The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. "
+                "It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies."
+            )
         if "rollout" in lower_title or "wait times" in lower_title:
-            return "Tesla's robotaxi deployment is being watched closely for operational readiness, user experience, and safety performance."
+            return (
+                "Tesla's robotaxi rollout is advancing as the company moves from limited pilots to broader geographic availability, with early user reports focusing on ride quality and wait times. "
+                "Operational metrics such as pick-up latency, route completion rates, and disengagement frequency are being closely tracked by analysts and regulators. "
+                "The deployment marks a key test of Tesla's vision-only perception stack at commercial scale, without the lidar sensors used by most competitors. "
+                "Performance data from this phase will shape both regulatory approvals and public trust in the technology."
+            )
         if "robotaxi" in lower_title and "target" in lower_title:
-            return "Robotaxi partnerships continue to expand, with operators targeting new city deployments."
+            return (
+                "Robotaxi operators are announcing new city-deployment targets, signaling continued expansion of driverless commercial ride-hailing services. "
+                "Each new market entry requires satisfying local safety regulations, mapping the operational design domain, and building maintenance infrastructure. "
+                "Geographic expansion also tests how well perception and planning systems generalise across different road layouts, weather patterns, and traffic behaviours. "
+                "Competitive pressure between Waymo, Tesla, Cruise, and international players is accelerating the pace of these rollouts."
+            )
         if "regulation" in lower_title or "policy" in lower_title:
-            return "Policy and safety developments are shaping how automated vehicles are tested, certified, and deployed."
+            return (
+                "New regulatory or policy developments are reshaping the framework under which automated vehicles are tested, certified, and commercially operated. "
+                "The proposal or ruling addresses key questions around minimum safety performance standards, incident-reporting obligations, or public-road testing permits. "
+                "Regulatory clarity is critical for AV developers planning multi-year deployment roadmaps and for insurers pricing liability risk. "
+                "Industry stakeholders are expected to respond through public comment periods or direct engagement with the relevant agency."
+            )
         if "waymo" in lower_title or "tesla" in lower_title or "robotaxi" in lower_title:
-            return "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny."
-        return "A recent automated-vehicle development relevant to deployment, safety, or mobility operations."
+            return (
+                "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. "
+                "The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. "
+                "Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. "
+                "Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable."
+            )
+        return (
+            "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. "
+            "The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. "
+            "Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. "
+            "Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption."
+        )
     if category == "ai":
         if "safety" in lower_title:
-            return "AI safety remains a policy and engineering concern as models move into higher-impact settings."
+            return (
+                "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. "
+                "The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. "
+                "These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. "
+                "The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions."
+            )
         if "regulation" in lower_title or "policy" in lower_title:
-            return "AI governance and regulation continue to evolve as governments respond to rapid model capability growth."
-        return "A recent AI development with implications for model capability, governance, or applied intelligent systems."
+            return (
+                "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. "
+                "The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. "
+                "For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. "
+                "Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements."
+            )
+        return (
+            "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. "
+            "The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. "
+            "Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. "
+            "The finding is likely to influence near-term research agendas at major labs and universities working on applied AI."
+        )
     if category == "llm":
         if "autonomous" in lower_title or "driving" in lower_title or "vehicle" in lower_title:
-            return "Large language models are being applied to automated vehicle decision-making, explanation generation, and human-machine interaction."
+            return (
+                "Researchers have demonstrated a new application of large language models to autonomous vehicle decision-making, explanation generation, or human-machine interaction. "
+                "The approach leverages LLM reasoning capabilities to interpret sensor observations, generate natural-language explanations of driving decisions, or assist in scene understanding. "
+                "Key results include improvements in interpretability, user trust, or task performance compared to purely end-to-end neural baselines. "
+                "The work positions LLMs as a promising component in next-generation AV stacks that must communicate their reasoning to passengers, regulators, and safety auditors."
+            )
         if "reasoning" in lower_title or "planning" in lower_title:
-            return "Advances in LLM reasoning and planning capabilities have direct implications for autonomous system explainability and trust."
-        return "A large language model development with potential applications to automated vehicle explanation, decision-making, or human-machine interaction."
+            return (
+                "New research demonstrates advances in LLM-based reasoning and planning, with direct implications for autonomous system design and explainability. "
+                "The model achieves improved performance on multi-step logical or spatial reasoning benchmarks, suggesting stronger capability for complex real-world decision sequences. "
+                "For AV systems, reasoning improvements translate to better handling of rare traffic scenarios, more coherent driving narratives, and more robust goal-directed planning. "
+                "These capabilities are increasingly integrated into AV software stacks to bridge perception outputs and actionable driving plans."
+            )
+        return (
+            "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. "
+            "The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. "
+            "AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. "
+            "Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems."
+        )
     if category == "nlp":
         if "autonomous" in lower_title or "driving" in lower_title:
-            return "Natural language processing advances are enabling richer human-vehicle communication and automated explanation generation."
+            return (
+                "Natural language processing researchers have published work applying language understanding or generation to autonomous vehicle contexts. "
+                "The system processes driver commands, generates explanations of vehicle behaviour, or enables spoken human-vehicle dialogue in realistic driving scenarios. "
+                "Evaluation results show improvements in task completion, naturalness, or robustness compared to prior NLP-based driving interfaces. "
+                "This line of research is central to making AV systems accessible and trustworthy for non-expert passengers and operators."
+            )
         if "speech" in lower_title or "dialogue" in lower_title:
-            return "Speech and dialogue research is improving how autonomous systems communicate decisions to passengers and operators."
-        return "A natural language processing advance with relevance to automated vehicle communication, explanation generation, or driver interaction design."
+            return (
+                "Advances in speech recognition or dialogue systems are improving the quality and reliability of voice interfaces for autonomous and semi-autonomous vehicles. "
+                "The work addresses challenges such as noise robustness, intent disambiguation, and multi-turn conversation management in the driving context. "
+                "Improved speech-based interfaces lower the cognitive barrier for passengers to query or override vehicle decisions in real time. "
+                "Integration with in-vehicle AI assistants and AV planning modules is an active area of research and product development."
+            )
+        return (
+            "A natural language processing advance has been published with relevance to human-vehicle communication, explainability, or automated report generation. "
+            "The research improves language model capabilities in areas such as semantic understanding, generation quality, or cross-modal alignment with visual data. "
+            "In the context of autonomous driving, NLP tools are used to generate plain-language explanations of AI decisions, process passenger instructions, and analyse incident reports. "
+            "The finding advances the broader goal of building AV systems that communicate transparently and adapt to user needs."
+        )
     if category == "vlm":
-        return "A multimodal AI update connecting visual, language, audio, or agentic capabilities."
+        return (
+            "A new vision-language model or multimodal AI system has been introduced or evaluated, extending joint understanding of visual scenes and natural language. "
+            "The architecture achieves strong performance on benchmarks requiring visual question answering, image captioning, or grounded instruction following in complex visual environments. "
+            "For autonomous vehicle research, VLMs offer a path toward perception modules that can interpret scenes semantically and generate natural-language justifications for driving decisions. "
+            "The model's zero-shot and few-shot generalisation capabilities are particularly relevant for handling rare or novel driving scenarios not covered by training distributions."
+        )
     if category == "computer-vision":
-        return "A computer-vision or perception development relevant to automated driving and intelligent mobility."
-    return "A recent development relevant to automated mobility and AI research."
+        return (
+            "A computer vision or perception system has been published with direct relevance to autonomous vehicle scene understanding or environmental sensing. "
+            "The approach advances capabilities in object detection, depth estimation, semantic segmentation, or sensor fusion using camera, lidar, or radar inputs. "
+            "Benchmark results demonstrate improvements in accuracy, latency, or robustness under challenging conditions such as adverse weather, occlusion, or nighttime driving. "
+            "Deploying such systems in production AV stacks requires further validation across diverse geographic and weather conditions before safety certification."
+        )
+    return (
+        "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. "
+        "The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. "
+        "Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. "
+        "Tracking such developments provides important context for situating individual research contributions within the broader field."
+    )
 
 
 def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
@@ -377,7 +472,7 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
         source_node = entry.find("source")
         source = clean_text(source_node.text if source_node is not None else "Google News", 80)
         title = strip_source_suffix(clean_text(entry.findtext("title"), 160), source)
-        description = strip_source_suffix(clean_text(entry.findtext("description"), 260), source)
+        description = strip_source_suffix(clean_text(entry.findtext("description"), 500), source)
         summary = build_summary(title, description, source or "Google News", feed.category)
         abstract = build_abstract(title, description, feed.category)
         published = parse_date(entry.findtext("pubDate"))
@@ -423,7 +518,7 @@ def _build_llm_prompt(candidates: list[dict]) -> str:
 
     return f"""You are a research news curator for an autonomous vehicles (AV) researcher's academic website.
 
-Select the {MAX_ITEMS} most important and timely articles from the list below, then write a clear, engaging 1-2 sentence abstract for each.
+Select the {MAX_ITEMS} most important and timely articles from the list below, then write a detailed, substantive summary for each.
 
 Priority topics (highest to lowest):
 1. Real-world AV/robotaxi deployments and breakthroughs (Waymo, Tesla, Cruise, Zoox, NVIDIA DRIVE, Aurora, Mobileye)
@@ -434,14 +529,18 @@ Priority topics (highest to lowest):
 
 Deprioritise: financial/stock news, generic AI news with no AV connection, clickbait, press releases. Strongly prefer articles from the last 14 days.
 
-Abstract rules:
-- 1-2 sentences, accurate to the source
-- Informative and specific (mention the company, technology, or finding)
-- Written for a technical but general audience
+Summary rules:
+- Write 3-4 sentences per article
+- Sentence 1: State what happened or was published — name the specific company, model, system, or finding
+- Sentence 2: Explain the key technical detail, result, or mechanism (numbers, methods, benchmarks if available)
+- Sentence 3: Describe the significance or implication for AV/AI research or deployment
+- Sentence 4 (optional): Note any caveats, open questions, or broader context
+- Be specific — mention model names, performance numbers, locations, or dates where known
+- Written for a technical audience familiar with AV and AI research
 
 Return ONLY a valid JSON array, no markdown, no commentary:
 [
-  {{"index": <integer>, "abstract": "<1-2 sentence abstract>", "score": <integer 1-100>}},
+  {{"index": <integer>, "abstract": "<3-4 sentence summary>", "score": <integer 1-100>}},
   ...
 ]
 
@@ -499,7 +598,7 @@ def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
         client = InferenceClient(model=model, token=hf_token)
         response = client.chat_completion(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=2048,
+            max_tokens=4096,
             temperature=0.2,
         )
         raw = response.choices[0].message.content or ""
