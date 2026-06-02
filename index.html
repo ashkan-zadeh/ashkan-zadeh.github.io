@@ -464,6 +464,31 @@
                     </div>
                     <div class="news-content" data-news-list aria-live="polite"></div>
                 </div>
+
+                <div class="news-archive-trigger reveal">
+                    <button type="button" data-archive-toggle aria-expanded="false">View Archive →</button>
+                </div>
+
+                <div class="news-archive-panel" data-archive-panel hidden>
+                    <div class="news-archive-header">
+                        <h3>News Archive</h3>
+                        <button class="news-archive-close" type="button" data-archive-close>Close ✕</button>
+                    </div>
+                    <div class="news-tabs news-archive-filters" role="tablist" aria-label="Archive topics">
+                        <button class="is-active" type="button" role="tab" aria-selected="true" data-archive-filter="all">All</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="automated-vehicles">AVs</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="ai">AI</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="llm">LLMs</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="nlp">NLP</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="vlm">VLMs</button>
+                        <button type="button" role="tab" aria-selected="false" data-archive-filter="computer-vision">Vision</button>
+                    </div>
+                    <div class="news-loading news-archive-loading" data-archive-loading hidden>
+                        <div class="news-spinner" aria-hidden="true"></div>
+                        <span>Loading archive...</span>
+                    </div>
+                    <div class="news-archive-content" data-archive-list aria-live="polite"></div>
+                </div>
             </div>
         </section>
 

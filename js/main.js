@@ -780,3 +780,111 @@ if (newsList) {
             }
         });
 }
+
+/* ── News Archive ───────────────────────────────────────── */
+const archivePanel = document.querySelector("[data-archive-panel]");
+const archiveToggle = document.querySelector("[data-archive-toggle]");
+const archiveClose = document.querySelector("[data-archive-close]");
+const archiveList = document.querySelector("[data-archive-list]");
+const archiveLoading = document.querySelector("[data-archive-loading]");
+const archiveFilters = [...document.querySelectorAll("[data-archive-filter]")];
+
+let archiveItems = [];
+let archiveLoaded = false;
+let activeArchiveFilter = "all";
+
+function groupByMonth(items) {
+    const groups = {};
+    for (const item of items) {
+        const d = new Date(item.published);
+        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+        const label = d.toLocaleDateString("en-US", { year: "numeric", month: "long" });
+        if (!groups[key]) groups[key] = { key, label, items: [] };
+        groups[key].items.push(item);
+    }
+    return Object.values(groups).sort((a, b) => b.key.localeCompare(a.key));
+}
+
+function renderArchive() {
+    if (!archiveList) return;
+    const filtered = activeArchiveFilter === "all"
+        ? archiveItems
+        : archiveItems.filter((item) => item.category === activeArchiveFilter);
+
+    if (!filtered.length) {
+        archiveList.innerHTML = "<div class=\"news-empty\">No archived articles for this topic.</div>";
+        return;
+    }
+
+    const groups = groupByMonth(filtered);
+    archiveList.innerHTML = groups.map((group) => `
+        <div class="archive-month">
+            <h4 class="archive-month-label">${escapeHTML(group.label)}</h4>
+            <div class="archive-items">
+                ${group.items.map((item) => `
+                    <article class="archive-item">
+                        <div class="archive-item-header">
+                            <span class="news-badge news-badge--${escapeHTML(item.category)}">${escapeHTML(categoryLabels[item.category] || "News")}</span>
+                            <span class="news-source">${escapeHTML(item.source)} · ${formatDate(item.published)}</span>
+                        </div>
+                        <a class="archive-item-title" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.topic || item.title)}</a>
+                        <p class="archive-item-abstract">${escapeHTML(item.abstract || item.summary)}</p>
+                    </article>
+                `).join("")}
+            </div>
+        </div>
+    `).join("");
+}
+
+function loadArchive() {
+    if (archiveLoaded) {
+        renderArchive();
+        return;
+    }
+    if (archiveLoading) archiveLoading.hidden = false;
+    fetch("data/news-archive.json", { cache: "no-store" })
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((data) => {
+            archiveItems = Array.isArray(data?.items) ? data.items : [];
+            archiveLoaded = true;
+            if (archiveLoading) archiveLoading.hidden = true;
+            renderArchive();
+        })
+        .catch(() => {
+            if (archiveLoading) archiveLoading.hidden = true;
+            if (archiveList) archiveList.innerHTML = "<div class=\"news-empty\">Archive unavailable.</div>";
+        });
+}
+
+if (archiveToggle && archivePanel) {
+    archiveToggle.addEventListener("click", () => {
+        const isHidden = archivePanel.hidden;
+        archivePanel.hidden = !isHidden;
+        archiveToggle.setAttribute("aria-expanded", String(isHidden));
+        archiveToggle.textContent = isHidden ? "Hide Archive ↑" : "View Archive →";
+        if (isHidden) {
+            archivePanel.scrollIntoView({ behavior: "smooth", block: "start" });
+            loadArchive();
+        }
+    });
+}
+
+if (archiveClose && archivePanel) {
+    archiveClose.addEventListener("click", () => {
+        archivePanel.hidden = true;
+        archiveToggle.setAttribute("aria-expanded", "false");
+        archiveToggle.textContent = "View Archive →";
+    });
+}
+
+archiveFilters.forEach((filter) => {
+    filter.addEventListener("click", () => {
+        activeArchiveFilter = filter.dataset.archiveFilter || "all";
+        archiveFilters.forEach((f) => {
+            const active = f === filter;
+            f.classList.toggle("is-active", active);
+            f.setAttribute("aria-selected", String(active));
+        });
+        renderArchive();
+    });
+});

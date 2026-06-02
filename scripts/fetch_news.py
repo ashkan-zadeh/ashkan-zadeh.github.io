@@ -32,6 +32,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 JS_OUTPUT = ROOT / "data" / "news.js"
+ARCHIVE_OUTPUT = ROOT / "data" / "news-archive.json"
 MAX_ITEMS = 10
 MAX_PER_CATEGORY = 3
 LLM_CANDIDATE_LIMIT = 30
@@ -588,6 +589,32 @@ def build_news() -> dict:
     }
 
 
+def update_archive(new_items: list[dict]) -> None:
+    existing: list[dict] = []
+    if ARCHIVE_OUTPUT.exists():
+        try:
+            data = json.loads(ARCHIVE_OUTPUT.read_text(encoding="utf-8"))
+            existing = data.get("items", [])
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    seen_urls = {item["url"] for item in existing}
+    added = [item for item in new_items if item["url"] not in seen_urls]
+    merged = added + existing
+    merged.sort(key=lambda item: item["published"], reverse=True)
+
+    payload = json.dumps(
+        {
+            "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "items": merged,
+        },
+        indent=2,
+        ensure_ascii=False,
+    )
+    ARCHIVE_OUTPUT.write_text(payload + "\n", encoding="utf-8")
+    print(f"archive: {len(merged)} total items (+{len(added)} new)", file=sys.stderr)
+
+
 def main() -> int:
     news = build_news()
     if not news["items"]:
@@ -599,6 +626,7 @@ def main() -> int:
     OUTPUT.write_text(payload + "\n", encoding="utf-8")
     JS_OUTPUT.write_text(f"window.NEWS_FEED = {payload};\n", encoding="utf-8")
     print(f"wrote {len(news['items'])} items to {OUTPUT.relative_to(ROOT)} and {JS_OUTPUT.relative_to(ROOT)}")
+    update_archive(news["items"])
     return 0
 
 
