@@ -1,17 +1,6 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-02T00:49:29.467667Z",
+  "generated_at": "2026-06-02T06:06:17.317915Z",
   "items": [
-    {
-      "title": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
-      "topic": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHBySWMtc2dHbUY1bk1FT3lwYmlESkJkOUpUeXZKdS1qVUI2cEpQQVN5ZGlkdW9DZzQ0ZTQ5VG9GV0hNTklFbDlWa3lQVmdrbUFOTVBDMjRleThWZDhveERkTmROWFc5NWdYTFJld2NwcDNWWjBrYWtJSmRQbmlOZnpmY01zX210cGZrb1JQT2t2anlyblprM2R0b1VXd2hPVU5odjJ5STFwQQ?oc=5",
-      "source": "Bloomberg.com",
-      "published": "2026-05-08T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Bloomberg.com as a recent automated vehicle signal.",
-      "abstract": "A recent automated-vehicle development relevant to deployment, safety, or mobility operations.",
-      "score": 57
-    },
     {
       "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
       "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
@@ -24,70 +13,26 @@ window.NEWS_FEED = {
       "score": 56
     },
     {
-      "title": "Introducing Waymo's Research on an End-to-End Multimodal Model for Autonomous Driving",
-      "topic": "Introducing Waymo's Research on an End-to-End Multimodal Model for Autonomous Driving",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hajhaOTd2NHVTZzhrN292QUFRNlFTQUl5WEl0Vk5BVVBTVURzZy1lQVNZN1lTczZrQURlMVI1VjhTTGFKOU5DTDcyQlZwczQ0cjZFa2Q5amVDZ2M?oc=5",
-      "source": "Waymo",
-      "published": "2024-10-30T07:00:00Z",
-      "category": "computer-vision",
-      "summary": "Headline tracked from Waymo as a recent computer vision signal.",
-      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
-      "score": 55
-    },
-    {
-      "title": "The public perception and adaptability of laws and regulations of autonomous driving vehicles",
-      "topic": "The public perception and adaptability of laws and regulations of autonomous driving vehicles",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52RTBUS1V3bE1mMTdYOFJ2MmJ6OG9rWGFFUXJ4a1hSc2IyY2pBeWcyMm5nMzlXVG5DTGZVcDk3MkpUa1drTmtaMlZCbDk1V04tMlZad1JfM1NVeVdKR2Jn?oc=5",
-      "source": "Nature",
-      "published": "2025-08-01T07:00:00Z",
-      "category": "computer-vision",
-      "summary": "Headline tracked from Nature as a recent computer vision signal.",
-      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
-      "score": 54
-    },
-    {
-      "title": "Watch Waymo's Thirumalai on the Future Of Autonomous Vehicles",
-      "topic": "Watch Waymo's Thirumalai on the Future Of Autonomous Vehicles",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNWdqTF9xbjlSbGo1blBXVU9fSndmZ08tQU5iRUZESUo1Q3pBVmYxeVVLMFFobW42aURlRUlQWjYweUxrVjFPOTd2TWRYeENIZ2F3Qnc4TmI2RHRRa0xWODJPQk1TV0lVMGxWSFJCYjZxTlJqbDNiWVU5S1RVZVlDR0JuSTFBY1VBRWpsMkNudkl1Sld0endqZ1gwR1NlZFRpYldqdzZNcEdDS3Q2NDB3?oc=5",
-      "source": "Bloomberg.com",
-      "published": "2026-05-08T07:00:00Z",
+      "title": "Waymo Takes Its Self-Driving Cars to Virginia",
+      "topic": "Waymo Takes Its Self-Driving Cars to Virginia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SSU5lSVQzUDFtSUlWZ0xxU1VVc05fcnBzQ1EyMXNXRGlzUkt0UlRvdHZKQ0JlbndPdmFBc2tfTkJEWGhqdWNnMmd0OTNnWTh6U293Ymlpd0F5LWpHcTdGcDBsMWZrLTN2S3B1OUpXa29CeENWTXlHTG9ISWtVVHc?oc=5",
+      "source": "WIRED",
+      "published": "2026-05-27T11:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Bloomberg.com as a recent automated vehicle signal.",
+      "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
       "abstract": "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny.",
-      "score": 51
+      "score": 49
     },
     {
-      "title": "A multimodal learning and simulation approach for perception in autonomous driving systems",
-      "topic": "A multimodal learning and simulation approach for perception in autonomous driving systems",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZcUEwZDljbzJESldIeXdpYWtIY3l3WU5wQWRiY2hrX2pnWnhjdThfcDlOaWZ5QWhKUG5zUGZVSUZyLUtXZHFLQ2JBOWpucVlqYkhDY3l2cWNZeXRBRkY4?oc=5",
-      "source": "Nature",
-      "published": "2026-01-28T08:00:00Z",
-      "category": "computer-vision",
-      "summary": "Headline tracked from Nature as a recent computer vision signal.",
-      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
-      "score": 51
-    },
-    {
-      "title": "Autonomous chemical research with large language models",
-      "topic": "Autonomous chemical research with large language models",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFMEQxT1V0dXVBU2R0R1FnM0paUnRWQWhqY255cWlNaXo4MTVSemVOU1RkTVVyMXZ0U2hMLVpQcXR1dnI3ZC1OWDhXaDdIeDg4UWRoRE0yblhMdjk0SWhR?oc=5",
-      "source": "Nature",
-      "published": "2023-12-20T08:00:00Z",
-      "category": "llm",
-      "summary": "Headline tracked from Nature as a recent LLM signal.",
-      "abstract": "Large language models are being applied to automated vehicle decision-making, explanation generation, and human-machine interaction.",
-      "score": 50
-    },
-    {
-      "title": "Streamline LLM Deployment for Autonomous Vehicle Applications with NVIDIA DriveOS LLM SDK",
-      "topic": "Streamline LLM Deployment for Autonomous Vehicle Applications with NVIDIA DriveOS LLM SDK",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYUNTMkZEUHJSTUNzTXRiaTVkNi0tUGJrdE5qN2FlakNYRzdvajByaGFVb281clRlWVFDcmx4Q3RVOE5XOE9BNXlEYXVnbG5fbEQ4VVliY0lMcWdNSVJRUUJMeW1RbEplX2hBWTV4ZllfSGR2VkVTT1ByYzhqcE1BekpQdzYxa0t0NmxOVVA4bWZCd0xpT1RKU0VWc2tvMHRaS0hZZGo1d1d0R2c4S1JqbmUtaXdpZHE4d0U3Y2VOajdDdw?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2025-03-10T07:00:00Z",
-      "category": "llm",
-      "summary": "Headline tracked from NVIDIA Developer as a recent LLM signal.",
-      "abstract": "Large language models are being applied to automated vehicle decision-making, explanation generation, and human-machine interaction.",
-      "score": 48
+      "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
+      "topic": "Waymo expands pause to four cities as robotaxis keep driving into floods",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeVh5YUMzeEU1M0pDRVlscmdBTUhOT2xCRjZPakdCblJrV3RUSWFCdVBiR2VMcEg0elB3dE1OZlpOSXlUc1dqdHVkODNJYWJybGFQOV9LM3RCWThfbS15dnBuYjY2ZHNYMGJRbVMtdFJ4OGZRYWZZT3JXMzVFWTJUakdURjFRVFctQndScU9UVDhuaWhNMmdUcG9rSjd0SzlRaFVnSWpxNnpXU0lV?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-05-21T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "Waymo's operational pause highlights how robotaxi services remain constrained by safety validation and incident response.",
+      "score": 49
     },
     {
       "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
@@ -101,15 +46,48 @@ window.NEWS_FEED = {
       "score": 47
     },
     {
-      "title": "Structured clinical approach to enable large language models to be used for improved clinical diagnosis and explainable reasoning",
-      "topic": "Structured clinical approach to enable large language models to be used for improved clinical diagnosis and explainable reasoning",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rTWVsOVhqcEUtQ3Q3QzNoalVkSld1cGZFbGxISmtfN1ZpbERwVE4tRXpMZWwwOGlES3ZLQUthMG8zNWM2RVRHSTY1RnVvaExmN0pyb3BaR1ROeWkwNWNV?oc=5",
-      "source": "Nature",
-      "published": "2026-01-09T08:00:00Z",
+      "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+      "topic": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZlQXhzZ1BxZUpwQlY5LUhuOEw4ZGdycGpKWWdXZUh2VUlZb3pldEEwajFLVVZjZVczTEFVOGE4VmJlc0g2YjdoZjBBWGxIN192R2NJT05ETlBEUUtLT2w5SmhsRFdWMnlobVh2SG1ZWFJ1V0haV2tSSlZ5X1FaXy1BeWtXekt3UGlpZ1hkeGx0OUlTUlFkRHFpM2ZURkFOTFEyWk1PWVl1ZGoyTjVF?oc=5",
+      "source": "NVIDIA Newsroom",
+      "published": "2026-06-01T04:50:49Z",
       "category": "llm",
-      "summary": "Headline tracked from Nature as a recent LLM signal.",
-      "abstract": "Advances in LLM reasoning and planning capabilities have direct implications for autonomous system explainability and trust.",
-      "score": 47
+      "summary": "Headline tracked from NVIDIA Newsroom as a recent LLM signal.",
+      "abstract": "A large language model development with potential applications to automated vehicle explanation, decision-making, or human-machine interaction.",
+      "score": 37
+    },
+    {
+      "title": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity",
+      "topic": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjMxWVlpUUhJb1JjYnFPRXpkeE1qaTc3aDNQQXltRWZYNmo4T1dmN095X3R6bDY5NmkxdHBwTERrNkg1ajFIZDFZR09VQzd6a2oyalZTM2tkcjRwMFVyXzM5RUhkZWNQQ216cExQbkI1OGN0RS1CazVJV1dvTV9aYUt2cVVsc3Z6LVJDanZySTdMOHdEWmlIVTI4VVI?oc=5",
+      "source": "AP News",
+      "published": "2026-05-25T22:56:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from AP News as a recent AI signal.",
+      "abstract": "AI governance and regulation continue to evolve as governments respond to rapid model capability growth.",
+      "score": 25
+    },
+    {
+      "title": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
+      "topic": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtS2E3dFVudU1ONHh4UFlOZG1reXp3WXhXZlNNZnpUOTd0YzRRaVVMUk9xMUNyekFrOGh5Yjh1Zi0xZlJNQTF2bGVfQ2lTQkJucmZWRG5tRDVYUldpZWRXeFNrR3hxLTRfLWQ3WjNZU3hKdw?oc=5",
+      "source": "The New York Times",
+      "published": "2026-06-01T18:41:52Z",
+      "category": "ai",
+      "summary": "Headline tracked from The New York Times as a recent AI signal.",
+      "abstract": "A recent AI development with implications for model capability, governance, or applied intelligent systems.",
+      "score": 20
+    },
+    {
+      "title": "Investment firm Permira taps Thoma Bravo veteran Mike Hoffmann as part of AI dealmaking push",
+      "topic": "Investment firm Permira taps Thoma Bravo veteran Mike Hoffmann as part of AI dealmaking push",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaFd5Q3pQMUxKYW53ZExBMUdHQ0tEWm1HSGU4Rno2bkJoc3NoRnM5UHlyTlBqbDZCN3dLc3Z5VjY2MnlDYnF6eXRHbUlQT2VnWnRfNmFoQnlrSG4zOFpLQWlvUGVtbVp4TXRiVWVsQUdPWjczdm5YZ3lhSHZQczNDN2YzVDJIb2o1NHN1Nmt6dFpuS0Fad1lQd0ZlLUhJd1otd3daSUdjZU11R2tTZHlrVVRFYUtKa25DLU4ya1pPTlNseVpI?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-01T14:58:09Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A recent AI development with implications for model capability, governance, or applied intelligent systems.",
+      "score": 20
     }
   ]
 };
