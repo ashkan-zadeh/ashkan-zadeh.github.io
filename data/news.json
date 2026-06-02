@@ -1,113 +1,126 @@
 {
-  "generated_at": "2026-06-01T22:15:37.944378Z",
+  "generated_at": "2026-06-02T00:20:54.343235Z",
   "items": [
     {
-      "title": "FleetCheck calls for clarity over autonomous vehicle safety checks",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcTE0V2J1dm50R2hxdWhnZ0NWdllta1dnSDZ1OWhHRGN1VllRTElxWmw4Y1VMUUxJMnBEcWk3QmNqVTk5em9PUW1icmNFYWVORFBmbFBrSjVoenB1cGlEcmZpOHlkTHg5NUNGb0ZCU2ZtcnF3WHVxTXBIaGMzWDctUHh2NDJNc0lZVFA4NmJKMUlzTkVQSjVWMUZYYkNXMlU?oc=5",
-      "source": "Business Motoring",
-      "published": "2026-05-27T08:31:11Z",
+      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-28T10:27:30Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Business Motoring as a recent automated vehicle signal.",
-      "score": 58
-    },
-    {
-      "title": "The Road Ahead for Autonomous Vehicle Regulation",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGRJWUxqUEpLaEZ5NWF2TEMzbWVIeVVlbXJ4Z3hKLXBtTlBnR0dpU2hXcG5NbXlKbTdDZkFlRnhOYllUcHF2dEJVb2lxV0xYUFI1R0dKc0R6cUUyek1hMmM4UW1VZ2NLczRTT0tPRzYyYjBYSXl2YXh0ZlFyakhsdzNkVDBPODV2ckNCNUx2VXduMjFZLXQxM3NlQU1HbDVP?oc=5",
-      "source": "The Regulatory Review",
-      "published": "2026-05-31T07:37:56Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from The Regulatory Review as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "Reuters reports concerns from Tesla AI training workers about self-driving trust and safety measurement.",
       "score": 56
     },
     {
-      "title": "JTA shows off autonomous vehicles to feds ahead of America 250",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZk5Wd0tFRDJCWHcxQkRyVGEyNTBLR1JXUXY0T0VidGt4M2NsWWI4M2Frbk1aLWhjZjVoMzdiRkRQSGgxN0o2VFA1cUxlQ0JpWmF5YmozdzVCei1DM250enJiTHlRc0JCVXk3TU1wRFJJdWIydVlpMVZQd0NBVDNoSGQ4ZlJRSEQwX19SSThVWm9UNzlLQkNTOHp0azdHY2lUamtTMmhEbk5mTUhYNkN4VHJLb0pyS1llWWhmOEdCa1ZyM1BPWkF5OTZCQXJLZ2NW?oc=5",
-      "source": "Action News Jax",
-      "published": "2026-06-01T22:10:19Z",
+      "title": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
+      "topic": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTHZtcGV5TUQwTzRoeVFmM0FwZHZmSDFkWHU2NDhjNW9HSDBmYU03VFZ4M0pWcFhtREQ4azZUUzdJanNzWTNGVUd5dzFTbFdBNTdDRnE2TEtQTGF0c014VFBmYk1tQldSdjZzd0RadUR4eFhFN0tJVWpxOE1IaVo3d2JWZG1ZbW5nbUloc3ZJcDd0bmhpY2tjZlA4YURsVXRBMWtubkNkQXhOc0JTRlJoaEE5NlVKVkFQQ2RJOERqalhJSkJIc1dTWE1Yb0c2YUxscEJpbA?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-21T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Action News Jax as a recent automated vehicle signal.",
-      "score": 51
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "Waymo's operational pause highlights how robotaxi services are still constrained by safety validation and incident response.",
+      "score": 50
+    },
+    {
+      "title": "Tesla robotaxi rollout features long wait times, safety concerns",
+      "topic": "Tesla robotaxi rollout features long wait times, safety concerns",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDQ2RuUHZ1SDJRNmlVWTYxNmxTNTRTYVhTVUUxRmtncVdzNDU4eWo2Ym5UN043OTBDTExnMExNYW54YjRwQVRnRm5seGNTc1R4VzR4cGR5VzlZbXRTamJoamU4SnlBUUk?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-14T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "Tesla's robotaxi deployment is being watched closely for operational readiness, user experience, and safety performance.",
+      "score": 50
     },
     {
       "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
+      "topic": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONjFXbWRLd1pmR1hTWVV5cVlPY01xTWpTNmNfUUhkUExqdHlxUUhiczJoNEYyWjRXeW1PV2RKaG1iRWNvQlAxX1RQV1d1NnJObGljbWRrVFNwQU1jZ0xUTFdFLWgzdGZDLWh0bDhvZzhiY1RXZ3pTQi1hVmwyRGV0Q1JKczJWek9HQXNJOTBMbDJ2eWFSMTFTeko2S1lVaWYtX1FHbl9MSQ?oc=5",
       "source": "NVIDIA Developer",
       "published": "2026-05-29T00:08:03Z",
       "category": "vlm",
       "summary": "Headline tracked from NVIDIA Developer as a recent vision-language model signal.",
+      "abstract": "A multimodal AI update connecting visual, language, audio, or agentic capabilities.",
       "score": 47
     },
     {
-      "title": "Google DeepMind puts Gemini Embedding 2 into the race for multimodal AI search",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbktYOTJhOEdfT2UtRjFVT05FZzZqdWpjUnZQOF9JaUlOQ21PRGlOa0Q2dlIyVkxvMVFXZERwc0FKWlJ4NURtUXpDUWVyalZha2pfNmU5YXk3YjFWRWRtcUFaMkhrZEpIYkdLNUJEbEg5VGFWOWlsekdFMTRNQVhjRFNyUTRlMEJ1elR3T2Qyb0tPVHRUb29aRUc1OURoby02SzVvYlNkSndGUF9zVHNkYzY2emdSeEtBMzV3?oc=5",
-      "source": "EdTech Innovation Hub",
-      "published": "2026-05-29T00:00:02Z",
-      "category": "vlm",
-      "summary": "Headline tracked from EdTech Innovation Hub as a recent vision-language model signal.",
-      "score": 47
-    },
-    {
-      "title": "Symbolic Meta-Verification Boosts Multimodal AI",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSDFqSjRkN2JOVFlCZW9aWXZlWkF2WENsVlpMS3VUdS1FeXlUU0NmNFBMRWJBNThOMldnRTJ6OEs0MERuaFRvN1NJcUtHVXFKWFQ0M2FDMnJQdUFZSXljdDQ1ZDMxRWc1UkdPWEU3YzZpOGpZMUFLRWFWakxWSDdOSzF0VDRwejVRUENjejN1SnREd282em85V3M2eU9qVzQ?oc=5",
-      "source": "StartupHub.ai",
-      "published": "2026-05-28T17:39:27Z",
-      "category": "vlm",
-      "summary": "Headline tracked from StartupHub.ai as a recent vision-language model signal.",
-      "score": 47
-    },
-    {
-      "title": "DENSO, Carnegie Mellon Present Autonomous Driving Simulation Research",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWFJ4bzlyOFBtbGNXb2VjVHd2V3pnOGxoQTdOLTQ2T2pIVHJiSS1ad3lXMnFtaVkyMnVHR214SFdMWTlZV05jWjhSaTdXSC1TS3EyMjBFTkc0bmNpTTlaMmhvb2RZV2Y2N2M4Q2FDSUlJM2ZoellYNHNCenJsSGR0MlZHY3Nod09xQVltekpqSERDTkRGazBaODYzODU?oc=5",
-      "source": "AftermarketNews",
-      "published": "2026-05-29T12:00:00Z",
+      "title": "Recent developments of automated vehicles and local policy implications",
+      "topic": "Recent developments of automated vehicles and local policy implications",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBORkVoOGIwVHNpaW56Y3FxUnhnV2hmdUNlWFpLeEVCVFlrbkw4ZTVWQzdQaEhZLW5JU1hlUlhFMzBLQWNnOEhLeGJwNTN1QThnaTFINjBLdlYzTGVHclRv?oc=5",
+      "source": "Nature",
+      "published": "2026-04-27T07:00:00Z",
       "category": "computer-vision",
-      "summary": "Headline tracked from AftermarketNews as a recent computer vision signal.",
-      "score": 46
+      "summary": "Headline tracked from Nature as a recent computer vision signal.",
+      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
+      "score": 43
     },
     {
-      "title": "Hyundai taps former Nvidia engineer to boost self-driving, AI",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6WU5kNjIwbk1NdFVpOUlzVWdFd1I3NVdYMldZUFN2TFA2RDRfSzhRajdCaHNBSDFPWUEzNWZHcnRtd0M1bGZtbnBKZHpFQmxic2d6dlFsZw?oc=5",
-      "source": "The Korea Herald",
-      "published": "2026-05-26T05:18:14Z",
-      "category": "computer-vision",
-      "summary": "Headline tracked from The Korea Herald as a recent computer vision signal.",
-      "score": 34
-    },
-    {
-      "title": "AI safety regulations advance in Springfield, despite industry concern",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUt0MHJHN1F1V2lVSFNFWk9VbjVRTmV4a3BMWC1IZmJZTVpSeVdyZWM0dG1nQmc2cDRVaVQ3THpxc1otVVlPMlFzamlOUzFvNlhSeEtYYUh4dXhpMVNlRTRUNjRSN295MHZONXRrXzJrcVRyanhTTTBGajlGdVlvenhuU29ES3hhWHl6LWJsZDJkSXJQ0gGaAUFVX3lxTFBCZjhDNl90X29pTVVnN2huUzAyVEJDcXVTcGR5emVGMXdra1VEMFFIWTNqMS1mTEVERjJ0QUNYTGlwdFc3STkzM3ZOM0tuOEY1QzdZOG8ycVJLN2V3RVBoOElJaldBTmo4dnN1TTNiZl82bldJanRrM3JfQnJEWFZ6c1Z5eHZUTksxdzVSaGMtV1Nfc09zUkl6X0E?oc=5",
-      "source": "The Center Square",
-      "published": "2026-05-26T21:56:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from The Center Square as a recent AI signal.",
-      "score": 32
+      "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+      "topic": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SZlFVS2J4Y2lzN205S1I5SkRmUms3VnRNMWVlLXJyS3hUMTVSNFZSZUZ6NTlyQVdJN2Vyb3lwT1ZHa01sbHN6elJ2YlAwR2xoU1pkb1hQQmUwZGR5eTNlb1RMeGNwdWROcTBFT1ZNLVZsTENLY1BQa2ZzcXU?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-04-28T07:00:00Z",
+      "category": "vlm",
+      "summary": "Headline tracked from NVIDIA Blog as a recent vision-language model signal.",
+      "abstract": "A multimodal AI update connecting visual, language, audio, or agentic capabilities.",
+      "score": 38
     },
     {
       "title": "Luddy researchers launch project with Astemo Americas, Inc. to advance automotive perception AI",
+      "topic": "Luddy researchers launch project with Astemo Americas, Inc. to advance automotive perception AI",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVllZZUR1bWhkRVlfQzkzWTE4d2o2WUIySlg3ejdWOHd4M3ltcFB2dEwtbS1OVWZXbjB0WTNnRHVJY1A1YU9Id2ZvUnVRdkxDckhZWmF1LTdRdWVtNlZELUNSSlN1bHJOQ2Nua1QxOFBvNWg5TGd3UlFzQ1VtcUdqQkc0ckU1R0hSZ0p2Q293Zw?oc=5",
       "source": "News at IU",
       "published": "2026-05-14T07:00:00Z",
       "category": "computer-vision",
       "summary": "Headline tracked from News at IU as a recent computer vision signal.",
+      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
       "score": 32
     },
     {
-      "title": "Cisco research finds standard AI safety benchmarks miss the real threat",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ25hRXJwM0ZaQ0hXSzlLVzBpMHV2Y2k2WkY1LXd2R1MwMWFiYzE3ZUl0cGk4YVJjN01hcXNodmJRYU9EaGw4SDVEUnd0c3hTS0lrT2JEZ1o1V2VXak5Dc2ZoNkMtVTk0UDlFOTRldXZVX2NyOGl0b0ZfQWJQcVV1NjN4WTlrUW9zOG1qWWhBN2JXelhFMzJraXkyZ0ZsVVFqV0Q2X2tfVlNLMldVZmk5X2lPaXpFX1BuWUQ5ckxR?oc=5",
-      "source": "Network World",
-      "published": "2026-05-27T13:07:55Z",
-      "category": "ai",
-      "summary": "Headline tracked from Network World as a recent AI signal.",
-      "score": 31
-    },
-    {
       "title": "Improving multimodal wearable sensing for healthcare with artificial intelligence",
+      "topic": "Improving multimodal wearable sensing for healthcare with artificial intelligence",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13ZzJCQmczenZDUkVTdlN2Rmo5eTR5RFIycE9lbGFraUdNcTdwRkF5dnExTjZUMnJzZDFCWDFZWTc5dmVwaVk0aUlMaTF0M3RZNTMwSmhYblhfX2FCeWkw?oc=5",
       "source": "Nature",
       "published": "2026-05-26T18:16:01Z",
       "category": "ai",
       "summary": "Headline tracked from Nature as a recent AI signal.",
+      "abstract": "A recent AI development with implications for model capability, governance, or applied intelligent systems.",
       "score": 29
+    },
+    {
+      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
+      "topic": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXh6M3BwdlF3a3VWWEhQSUdhQTR5WFk4UGJINUFwa0ZCQW0ybUljYWoxbzNETmViNGJpS2llXzV6R01iemV0QndtSzIzMmlwMXlhOTJmZUxrSGxWUlhGb0ZSRWJlcVhaMURQMHhzRjRIYzhnUl9OYzRaaWZOSjNPOVA1b25Gcm9PNXBCcnI3bG9ucThQRXBzUzExX3NWQ1VURjZxNXhLSWdMRXFhNUV2ajZoZnRieVc5dUQ3ZXBB?oc=5",
+      "source": "NVIDIA Newsroom",
+      "published": "2026-06-01T04:55:49Z",
+      "category": "computer-vision",
+      "summary": "Headline tracked from NVIDIA Newsroom as a recent computer vision signal.",
+      "abstract": "A computer-vision or perception development relevant to automated driving and intelligent mobility.",
+      "score": 28
+    },
+    {
+      "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "topic": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MXRJU2JRVkpqUjROR3dmTnJXNFd1TzBKNFdoalREbl80cEhIdzVFM3BubUpCX3dwVzlvWXVpa0MzdUhfakxnSkpFVjFkeXNBUlllcFh3eWdscGZnekNlZlpPblFSenEyVVFzOEpBZmxtRHMtQ3JublZDRQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-05-28T00:10:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "AI safety remains a policy and engineering concern as models move into higher-impact settings.",
+      "score": 27
+    },
+    {
+      "title": "Former OpenAI Staffers Warn That xAI’s Poor Safety Record Could Complicate SpaceX’s IPO",
+      "topic": "Former OpenAI Staffers Warn That xAI’s Poor Safety Record Could Complicate SpaceX’s IPO",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNzlWWkhuVWRwcE1SLTc5bW1fQzNpdVFQaHdDYjMxaHktbGRiV29wMmloTWJnaENXYVZaRXF4VzhPYl93dTUweUZIY3ZNLVVTcGNsVlJkSy1lQkI2cWxZVHN0blpBUEhGWTR5cUo0TGllcGFINTNIajNmTHB5UUU4REgwQmlTWWdHYklmcEdyUC10QQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-05-19T07:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "AI safety remains a policy and engineering concern as models move into higher-impact settings.",
+      "score": 27
     }
   ]
 }

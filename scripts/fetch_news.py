@@ -40,7 +40,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '"automated vehicles" OR "autonomous vehicles" when:14d',
+                "q": '("autonomous vehicles" OR "automated vehicles" OR robotaxi) (Reuters OR "AP News" OR Waymo OR Tesla OR NVIDIA OR "The Verge" OR "IEEE Spectrum") when:30d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -52,7 +52,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '"AI safety" OR "artificial intelligence" OR "AI model" when:7d',
+                "q": '("AI safety" OR "artificial intelligence" OR "AI model") (Reuters OR "AP News" OR Nature OR OpenAI OR Google OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:14d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -64,7 +64,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '"vision language model" OR "multimodal AI" when:30d',
+                "q": '("vision-language model" OR "vision language model" OR "multimodal AI") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:45d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -76,7 +76,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '"computer vision" "autonomous driving" when:30d',
+                "q": '("computer vision" OR perception OR lidar) ("autonomous driving" OR "automated vehicles") (Nature OR NVIDIA OR Waymo OR "Carnegie Mellon" OR "MIT News" OR "IEEE Spectrum") when:45d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -129,6 +129,50 @@ BLOCKED_SOURCE_TERMS = (
     "hindustan metro",
     "technosports",
 )
+
+ALLOWED_SOURCE_NAMES = {
+    "reuters",
+    "associated press",
+    "ap news",
+    "bbc",
+    "the guardian",
+    "the new york times",
+    "washington post",
+    "the wall street journal",
+    "financial times",
+    "bloomberg",
+    "wired",
+    "the verge",
+    "ars technica",
+    "mit technology review",
+    "ieee spectrum",
+    "nature",
+    "science",
+    "eurekalert",
+    "medical xpress",
+    "techcrunch",
+    "nvidia",
+    "nvidia developer",
+    "nvidia blog",
+    "nvidia newsroom",
+    "google",
+    "google blog",
+    "google deepmind",
+    "deepmind",
+    "openai",
+    "microsoft",
+    "meta",
+    "waymo",
+    "tesla",
+    "uber",
+    "toyota",
+    "hyundai",
+    "carnegie mellon university",
+    "stanford university",
+    "mit news",
+    "news at iu",
+    "the regulatory review",
+}
 
 BLOCKED_TITLE_TERMS = (
     "we're hiring",
@@ -197,6 +241,12 @@ def score_item(title: str, summary: str, category: str) -> int:
 def is_relevant(title: str, summary: str, source: str, category: str) -> bool:
     haystack = f"{title} {summary}".lower()
     source_text = source.lower()
+    source_key = re.sub(r"\s+", " ", source_text.strip())
+    source_key = source_key.removesuffix(".com").removesuffix(".org").removesuffix(".net")
+    if source_key not in ALLOWED_SOURCE_NAMES:
+        return False
+    if "reutersconnect" in source_text or "not a tesla app" in source_text:
+        return False
     if any(term in source_text for term in BLOCKED_SOURCE_TERMS):
         return False
     if any(term in haystack for term in BLOCKED_TITLE_TERMS):
@@ -218,6 +268,44 @@ def build_summary(title: str, description: str, source: str, category: str) -> s
     return f"Headline tracked from {source} as a recent {label} signal."
 
 
+def build_abstract(title: str, description: str, category: str) -> str:
+    normalized_title = re.sub(r"\W+", "", title.lower())
+    normalized_description = re.sub(r"\W+", "", description.lower())
+    duplicated = (
+        not normalized_description
+        or normalized_description == normalized_title
+        or normalized_title in normalized_description
+        or normalized_description in normalized_title
+    )
+    if description and not duplicated:
+        return description
+
+    lower_title = title.lower()
+    if category == "automated-vehicles":
+        if "trainer" in lower_title or "safety stats" in lower_title:
+            return "Reuters reports concerns from Tesla AI training workers about self-driving trust and safety measurement."
+        if "suspends" in lower_title or "pauses" in lower_title:
+            return "Waymo's operational pause highlights how robotaxi services are still constrained by safety validation and incident response."
+        if "rollout" in lower_title or "wait times" in lower_title:
+            return "Tesla's robotaxi deployment is being watched closely for operational readiness, user experience, and safety performance."
+        if "robotaxi" in lower_title and "target" in lower_title:
+            return "Robotaxi partnerships continue to expand, with operators targeting new city deployments."
+        if "regulation" in lower_title or "safety" in lower_title:
+            return "Policy and safety developments are shaping how automated vehicles are tested, certified, and deployed."
+        if "waymo" in lower_title or "tesla" in lower_title or "robotaxi" in lower_title:
+            return "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny."
+        return "A recent automated-vehicle development relevant to deployment, safety, or mobility operations."
+    if category == "ai":
+        if "safety" in lower_title:
+            return "AI safety remains a policy and engineering concern as models move into higher-impact settings."
+        return "A recent AI development with implications for model capability, governance, or applied intelligent systems."
+    if category == "vlm":
+        return "A multimodal AI update connecting visual, language, audio, or agentic capabilities."
+    if category == "computer-vision":
+        return "A computer-vision or perception development relevant to automated driving and intelligent mobility."
+    return "A recent development relevant to automated mobility and AI research."
+
+
 def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
     root = ET.fromstring(payload)
     items = []
@@ -228,6 +316,7 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
         title = strip_source_suffix(clean_text(entry.findtext("title"), 160), source)
         description = strip_source_suffix(clean_text(entry.findtext("description"), 260), source)
         summary = build_summary(title, description, source or "Google News", feed.category)
+        abstract = build_abstract(title, description, feed.category)
         published = parse_date(entry.findtext("pubDate"))
 
         if not title or not url:
@@ -238,11 +327,13 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
         items.append(
             {
                 "title": title,
+                "topic": title,
                 "url": url,
                 "source": source or "Google News",
                 "published": published,
                 "category": feed.category,
                 "summary": summary or title,
+                "abstract": abstract,
                 "score": score_item(title, summary, feed.category),
             }
         )
@@ -280,16 +371,6 @@ def build_news() -> dict:
 
     balanced.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
     balanced = balanced[:MAX_ITEMS]
-
-    if len(balanced) < MAX_ITEMS:
-        used = {item["url"] for item in balanced}
-        for item in collected:
-            if item["url"] in used:
-                continue
-            balanced.append(item)
-            used.add(item["url"])
-            if len(balanced) >= MAX_ITEMS:
-                break
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),

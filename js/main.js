@@ -8,7 +8,6 @@ const emailScrollLinks = [...document.querySelectorAll("[data-email-scroll]")];
 const contactEmail = document.querySelector("#contact-email");
 const newsList = document.querySelector("[data-news-list]");
 const newsMeta = document.querySelector("[data-news-meta]");
-const newsCount = document.querySelector("[data-news-count]");
 const newsFilters = [...document.querySelectorAll("[data-news-filter]")];
 const navLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
 const sections = navLinks
@@ -234,13 +233,12 @@ const formatDate = (value) => {
 
 const formatGeneratedAt = (value) => {
     const date = new Date(value);
-    if (Number.isNaN(date.getTime())) return "Feed ready";
-    return `Updated ${new Intl.DateTimeFormat("en", {
+    if (Number.isNaN(date.getTime())) return "Updated recently";
+    return new Intl.DateTimeFormat("en", {
         month: "short",
         day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-    }).format(date)}`;
+        year: "numeric",
+    }).format(date);
 };
 
 let newsItems = [];
@@ -253,32 +251,47 @@ function renderNews() {
         ? newsItems
         : newsItems.filter((item) => item.category === activeNewsFilter);
 
-    if (newsCount) {
-        newsCount.textContent = String(visibleItems.length);
-    }
-
     if (!visibleItems.length) {
-        newsList.innerHTML = "<div class=\"news-empty\">No items are available for this signal yet. The scheduled feed update will refresh this list automatically.</div>";
+        newsList.innerHTML = "<div class=\"news-empty\">No news items available for this topic.</div>";
         return;
     }
 
-    newsList.innerHTML = visibleItems.map((item) => {
+    const [featured, ...secondaryItems] = visibleItems;
+    const renderMeta = (item) => `${escapeHTML(item.source)} · ${formatDate(item.published)}`;
+    const renderLink = (item) => `<a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Read more</a>`;
+    const renderCategory = (item) => `<span class="news-category">${escapeHTML(categoryLabels[item.category] || "News")}</span>`;
+
+    newsList.innerHTML = `
+        <article class="news-feature" data-category="${escapeHTML(featured.category)}">
+            <div class="news-feature-meta">
+                ${renderCategory(featured)}
+                <span class="news-source">${renderMeta(featured)}</span>
+            </div>
+            <h3>${escapeHTML(featured.topic || featured.title)}</h3>
+            <p>${escapeHTML(featured.abstract || featured.summary)}</p>
+            <div class="news-feature-footer">
+                ${renderLink(featured)}
+            </div>
+        </article>
+        <div class="news-list">
+            ${secondaryItems.map((item) => {
         const category = categoryLabels[item.category] || "Signal";
         return `
-            <article class="news-card" data-category="${escapeHTML(item.category)}">
-                <div class="news-card-top">
+            <article class="news-item" data-category="${escapeHTML(item.category)}">
+                <div class="news-item-top">
                     <span class="news-category">${escapeHTML(category)}</span>
-                    <span class="news-score">Signal</span>
+                    <span class="news-source">${renderMeta(item)}</span>
                 </div>
-                <h3>${escapeHTML(item.title)}</h3>
-                <p>${escapeHTML(item.summary)}</p>
-                <div class="news-card-footer">
-                    <span>${escapeHTML(item.source)}<br>${formatDate(item.published)}</span>
-                    <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Read</a>
+                <h3>${escapeHTML(item.topic || item.title)}</h3>
+                <p>${escapeHTML(item.abstract || item.summary)}</p>
+                <div class="news-item-footer">
+                    ${renderLink(item)}
                 </div>
             </article>
         `;
-    }).join("");
+    }).join("")}
+        </div>
+    `;
 }
 
 newsFilters.forEach((filter) => {
@@ -312,6 +325,6 @@ if (newsList) {
             if (newsMeta) {
                 newsMeta.textContent = "Feed unavailable";
             }
-            newsList.innerHTML = "<div class=\"news-empty\">The live feed could not be loaded in this environment. It will load from data/news.json on the published site.</div>";
+            newsList.innerHTML = "<div class=\"news-empty\">News feed unavailable.</div>";
         });
 }

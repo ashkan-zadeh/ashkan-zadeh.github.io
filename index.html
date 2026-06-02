@@ -353,38 +353,29 @@
         <section class="section news-section" id="news">
             <div class="shell">
                 <div class="section-head reveal">
-                    <p class="section-kicker">Signal Feed</p>
-                    <h2>Automated mobility and multimodal AI watchlist.</h2>
-                    <p>Curated automatically from RSS/search feeds covering automated vehicles, AI safety, computer vision, and vision-language models.</p>
+                    <p class="section-kicker">News</p>
+                    <h2>Automated mobility and AI intelligence brief.</h2>
+                    <p>Latest topics across automated vehicles, AI, computer vision, and vision-language models.</p>
                 </div>
 
-                <div class="news-dashboard reveal">
-                    <div class="news-toolbar">
-                        <div class="news-tabs" role="tablist" aria-label="News categories">
+                <div class="news-panel reveal">
+                    <div class="news-panel-top">
+                        <div class="news-tabs" role="tablist" aria-label="News topics">
                             <button class="is-active" type="button" role="tab" aria-selected="true" data-news-filter="all">All</button>
                             <button type="button" role="tab" aria-selected="false" data-news-filter="automated-vehicles">AVs</button>
                             <button type="button" role="tab" aria-selected="false" data-news-filter="ai">AI</button>
                             <button type="button" role="tab" aria-selected="false" data-news-filter="vlm">VLMs</button>
                             <button type="button" role="tab" aria-selected="false" data-news-filter="computer-vision">Vision</button>
                         </div>
-                        <div class="news-refresh" data-news-meta>Loading feed</div>
+                        <time class="news-updated" data-news-meta datetime="">Loading</time>
                     </div>
 
-                    <div class="news-layout">
-                        <aside class="news-insight" aria-label="News feed status">
-                            <span>Monitor</span>
-                            <strong data-news-count>0</strong>
-                            <p>Signals ranked by relevance to human-centred XAI, automated vehicles, multimodal AI, and perception research.</p>
-                            <a class="text-link" href="data/news.json" target="_blank" rel="noopener">View feed data</a>
-                        </aside>
-
-                        <div class="news-grid" data-news-list aria-live="polite">
-                            <article class="news-card is-loading">
-                                <span class="news-category">Loading</span>
-                                <h3>Fetching research and industry signals.</h3>
-                                <p>The latest feed will appear here when the page loads.</p>
-                            </article>
-                        </div>
+                    <div class="news-content" data-news-list aria-live="polite">
+                        <article class="news-feature">
+                            <span class="news-category">Loading</span>
+                            <h3>Loading latest topics</h3>
+                            <p>News will appear when the feed is ready.</p>
+                        </article>
                     </div>
                 </div>
             </div>
