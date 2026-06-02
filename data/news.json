@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T06:06:17.317915Z",
+  "generated_at": "2026-06-02T07:25:01.534494Z",
   "items": [
     {
       "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
@@ -9,8 +9,19 @@
       "published": "2026-05-28T10:27:30Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "Reuters reports concerns from Tesla AI training workers about self-driving trust and safety measurement.",
+      "abstract": "Reuters reports that Tesla AI training workers have raised concerns about how self-driving safety is measured and trusted internally. The report highlights a gap between publicly stated safety statistics and the day-to-day observations of staff who prepare training data for the Full Self-Driving system. The findings raise questions about how AV companies validate safety claims before commercial deployment. Independent third-party auditing of AV safety metrics remains an open policy question.",
       "score": 56
+    },
+    {
+      "title": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
+      "topic": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTHZtcGV5TUQwTzRoeVFmM0FwZHZmSDFkWHU2NDhjNW9HSDBmYU03VFZ4M0pWcFhtREQ4azZUUzdJanNzWTNGVUd5dzFTbFdBNTdDRnE2TEtQTGF0c014VFBmYk1tQldSdjZzd0RadUR4eFhFN0tJVWpxOE1IaVo3d2JWZG1ZbW5nbUloc3ZJcDd0bmhpY2tjZlA4YURsVXRBMWtubkNkQXhOc0JTRlJoaEE5NlVKVkFQQ2RJOERqalhJSkJIc1dTWE1Yb0c2YUxscEJpbA?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-21T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
+      "score": 50
     },
     {
       "title": "Waymo Takes Its Self-Driving Cars to Virginia",
@@ -20,18 +31,7 @@
       "published": "2026-05-27T11:00:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
-      "abstract": "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny.",
-      "score": 49
-    },
-    {
-      "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
-      "topic": "Waymo expands pause to four cities as robotaxis keep driving into floods",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeVh5YUMzeEU1M0pDRVlscmdBTUhOT2xCRjZPakdCblJrV3RUSWFCdVBiR2VMcEg0elB3dE1OZlpOSXlUc1dqdHVkODNJYWJybGFQOV9LM3RCWThfbS15dnBuYjY2ZHNYMGJRbVMtdFJ4OGZRYWZZT3JXMzVFWTJUakdURjFRVFctQndScU9UVDhuaWhNMmdUcG9rSjd0SzlRaFVnSWpxNnpXU0lV?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-05-21T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
-      "abstract": "Waymo's operational pause highlights how robotaxi services remain constrained by safety validation and incident response.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
     {
@@ -42,7 +42,7 @@
       "published": "2026-05-29T00:08:03Z",
       "category": "vlm",
       "summary": "Headline tracked from NVIDIA Developer as a recent vision-language model signal.",
-      "abstract": "A multimodal AI update connecting visual, language, audio, or agentic capabilities.",
+      "abstract": "A new vision-language model or multimodal AI system has been introduced or evaluated, extending joint understanding of visual scenes and natural language. The architecture achieves strong performance on benchmarks requiring visual question answering, image captioning, or grounded instruction following in complex visual environments. For autonomous vehicle research, VLMs offer a path toward perception modules that can interpret scenes semantically and generate natural-language justifications for driving decisions. The model's zero-shot and few-shot generalisation capabilities are particularly relevant for handling rare or novel driving scenarios not covered by training distributions.",
       "score": 47
     },
     {
@@ -53,7 +53,7 @@
       "published": "2026-06-01T04:50:49Z",
       "category": "llm",
       "summary": "Headline tracked from NVIDIA Newsroom as a recent LLM signal.",
-      "abstract": "A large language model development with potential applications to automated vehicle explanation, decision-making, or human-machine interaction.",
+      "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
       "score": 37
     },
     {
@@ -64,7 +64,7 @@
       "published": "2026-05-25T22:56:00Z",
       "category": "ai",
       "summary": "Headline tracked from AP News as a recent AI signal.",
-      "abstract": "AI governance and regulation continue to evolve as governments respond to rapid model capability growth.",
+      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
       "score": 25
     },
     {
@@ -72,10 +72,10 @@
       "topic": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtS2E3dFVudU1ONHh4UFlOZG1reXp3WXhXZlNNZnpUOTd0YzRRaVVMUk9xMUNyekFrOGh5Yjh1Zi0xZlJNQTF2bGVfQ2lTQkJucmZWRG5tRDVYUldpZWRXeFNrR3hxLTRfLWQ3WjNZU3hKdw?oc=5",
       "source": "The New York Times",
-      "published": "2026-06-01T18:41:52Z",
+      "published": "2026-06-01T16:04:18Z",
       "category": "ai",
       "summary": "Headline tracked from The New York Times as a recent AI signal.",
-      "abstract": "A recent AI development with implications for model capability, governance, or applied intelligent systems.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
     },
     {
@@ -86,7 +86,7 @@
       "published": "2026-06-01T14:58:09Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A recent AI development with implications for model capability, governance, or applied intelligent systems.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
     }
   ]
