@@ -161,12 +161,21 @@ body::after {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    opacity: 0.78;
+    opacity: 1;
+    filter: saturate(1.12) contrast(1.05);
     mix-blend-mode: screen;
 }
 
 main,
 .footer {
+    position: relative;
+}
+
+.hero-content,
+.hero-visual,
+.signal-grid,
+.section > .shell,
+.footer .shell {
     position: relative;
     z-index: 1;
 }

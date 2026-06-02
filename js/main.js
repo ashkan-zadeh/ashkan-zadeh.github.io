@@ -106,10 +106,19 @@ if (themeToggle && themePanel) {
         ];
     }
 
+    function cssColorToRgb(value) {
+        const hex = hexToRgb(value);
+        if (hex) return hex;
+
+        const match = value.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+        if (!match) return null;
+        return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
     function readPalette() {
         const style = getComputedStyle(document.documentElement);
         ["teal", "amber", "coral", "blue"].forEach((name) => {
-            const next = hexToRgb(style.getPropertyValue(`--${name}`));
+            const next = cssColorToRgb(style.getPropertyValue(`--${name}`));
             if (next) palette[name] = next;
         });
     }
@@ -124,9 +133,9 @@ if (themeToggle && themePanel) {
         return {
             x: Math.random() * width,
             y: Math.random() * height,
-            vx: (Math.random() - 0.5) * 0.22,
-            vy: (Math.random() - 0.5) * 0.18,
-            r: Math.random() * 1.9 + 0.8,
+            vx: (Math.random() - 0.5) * 0.28,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 2.4 + 1.1,
             phase: Math.random() * Math.PI * 2,
             drift: Math.random() * 0.35 + 0.12,
             color: colorNames[Math.floor(band * colorNames.length) % colorNames.length],
@@ -138,8 +147,8 @@ if (themeToggle && themePanel) {
             from: Math.floor(Math.random() * nodes.length),
             to: Math.floor(Math.random() * nodes.length),
             t: Math.random(),
-            speed: Math.random() * 0.004 + 0.0025,
-            color: Math.random() > 0.55 ? "amber" : "teal",
+            speed: Math.random() * 0.005 + 0.0035,
+            color: ["teal", "amber", "coral", "blue"][Math.floor(Math.random() * 4)],
         };
     }
 
@@ -152,9 +161,9 @@ if (themeToggle && themePanel) {
         canvas.style.height = `${height}px`;
         ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-        const count = Math.round(Math.min(94, Math.max(42, width / 18)));
+        const count = Math.round(Math.min(138, Math.max(64, width / 13)));
         nodes = Array.from({ length: count }, (_, i) => makeNode(i, count));
-        signals = Array.from({ length: Math.round(count * 0.35) }, makeSignal);
+        signals = Array.from({ length: Math.round(count * 0.55) }, makeSignal);
     }
 
     function drawBackground(time) {
@@ -164,19 +173,19 @@ if (themeToggle && themePanel) {
         ctx.clearRect(0, 0, width, height);
 
         const glow = ctx.createRadialGradient(px, py, 0, px, py, Math.max(width, height) * 0.72);
-        glow.addColorStop(0, rgba(palette.teal, 0.075));
-        glow.addColorStop(0.34, rgba(palette.blue, 0.035));
+        glow.addColorStop(0, rgba(palette.teal, 0.12));
+        glow.addColorStop(0.34, rgba(palette.blue, 0.06));
         glow.addColorStop(1, "rgba(0,0,0,0)");
         ctx.fillStyle = glow;
         ctx.fillRect(0, 0, width, height);
 
         ctx.save();
-        ctx.globalAlpha = 0.34;
+        ctx.globalAlpha = 0.5;
         for (let x = -80; x < width + 160; x += 160) {
             ctx.beginPath();
             ctx.moveTo(x + Math.sin(time * 0.00018 + x) * 12, 0);
             ctx.lineTo(x + 120 + Math.cos(time * 0.00016 + x) * 12, height);
-            ctx.strokeStyle = rgba(palette.blue, 0.08);
+            ctx.strokeStyle = rgba(palette.blue, 0.14);
             ctx.lineWidth = 1;
             ctx.stroke();
         }
@@ -216,10 +225,10 @@ if (themeToggle && themePanel) {
                 const dx = a.x - b.x;
                 const dy = a.y - b.y;
                 const dist = Math.hypot(dx, dy);
-                const maxDist = width < 720 ? 98 : 132;
+                const maxDist = width < 720 ? 112 : 158;
                 if (dist > maxDist) continue;
 
-                const alpha = (1 - dist / maxDist) * 0.17;
+                const alpha = (1 - dist / maxDist) * 0.34;
                 const color = palette[a.color] || palette.teal;
                 ctx.beginPath();
                 ctx.moveTo(a.x, a.y);
@@ -245,10 +254,10 @@ if (themeToggle && themePanel) {
             const y = from.y + (to.y - from.y) * signal.t;
             const color = palette[signal.color] || palette.teal;
             ctx.beginPath();
-            ctx.arc(x, y, 1.5, 0, Math.PI * 2);
-            ctx.fillStyle = rgba(color, 0.58);
+            ctx.arc(x, y, 2.2, 0, Math.PI * 2);
+            ctx.fillStyle = rgba(color, 0.86);
             ctx.shadowColor = rgba(color, 0.8);
-            ctx.shadowBlur = 10;
+            ctx.shadowBlur = 16;
             ctx.fill();
             ctx.shadowBlur = 0;
         }
@@ -258,12 +267,12 @@ if (themeToggle && themePanel) {
             const pulse = 0.45 + Math.sin(time * 0.001 + node.phase) * 0.18;
             ctx.beginPath();
             ctx.arc(node.x, node.y, node.r + pulse, 0, Math.PI * 2);
-            ctx.fillStyle = rgba(color, 0.44);
+            ctx.fillStyle = rgba(color, 0.68);
             ctx.fill();
 
             ctx.beginPath();
-            ctx.arc(node.x, node.y, node.r * 4.4, 0, Math.PI * 2);
-            ctx.strokeStyle = rgba(color, 0.035);
+            ctx.arc(node.x, node.y, node.r * 5.4, 0, Math.PI * 2);
+            ctx.strokeStyle = rgba(color, 0.08);
             ctx.lineWidth = 1;
             ctx.stroke();
         }
