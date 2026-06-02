@@ -644,10 +644,11 @@ STRICT ABSTRACT RULES — follow every rule:
    (c) Key details — any numbers, locations, dates, model names, benchmark scores?
    (d) Relevance — why does this matter for AV or AI research?
 2. Write 3-4 sentences using ONLY facts from (a)-(d).
-3. NEVER use vague filler: forbidden phrases include "a company announced", "researchers reported", "a new development", "has been introduced", "has been reported", "a major operator".
-4. ALWAYS name the specific company/person/model in sentence 1 (e.g. "Waymo", "Tesla FSD v14", "NVIDIA Cosmos 3", "Illinois HB 3773").
-5. If CONTENT is "[headline only]", start sentence 1 with "According to [SOURCE]," and base the abstract strictly on what the headline states — do not invent facts.
-6. Prefer articles from the last 7 days. Deprioritise financial/stock news, press releases, and clickbait.
+3. DO NOT repeat or rephrase the headline. The reader has already seen the title. Start sentence 1 with new context or the key fact behind the headline.
+4. NEVER use vague filler: forbidden phrases include "a company announced", "researchers reported", "a new development", "has been introduced", "has been reported", "a major operator".
+5. ALWAYS name the specific company/person/model in sentence 1 (e.g. "Waymo", "Tesla FSD v14", "NVIDIA Cosmos 3", "Illinois HB 3773").
+6. If CONTENT is "[headline only]", provide the essential context behind the headline — what it implies, why it matters — without inventing specific facts. Do not start by restating the headline.
+7. Prefer articles from the last 7 days. Deprioritise financial/stock news, press releases, and clickbait.
 
 OUTPUT: Return ONLY a valid JSON array — no markdown fences, no extra text:
 [
