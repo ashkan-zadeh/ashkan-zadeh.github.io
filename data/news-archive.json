@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T22:14:31.489347Z",
+  "updated_at": "2026-06-02T22:29:51.018417Z",
   "items": [
     {
       "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
@@ -90,6 +90,17 @@
       "score": 47
     },
     {
+      "title": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds",
+      "topic": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZDdzbjllWDFIWV9TSnZUa3FNV1RlM2ZXRHBRWmNSYXY3MVpiakwydk1HYnN3SVZuOF9VTlhHYW9wZDNqRVBMM0IxMFpRbFRkQ2NsRlE1a1BJUWNfODhfMEZ1SlQ3UEsxSnNjNTEyMHlROFpmalhlZjdLNWJvSkRvQTdacThkYlhUMWNfSURXZlQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-05-28T13:33:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds. Tesla's internal AI trainers have reportedly expressed significant doubts about the company's Full Self-Driving (FSD) technology and the safety statistics it provides, highlighting internal concerns about the system's reliability.",
+      "abstract": "Tesla’s own AI trainers don’t trust ‘Full Self-Driving’ or its safety stats, Reuters finds. Tesla's internal AI trainers have reportedly expressed significant doubts about the company's Full Self-Driving (FSD) technology and the safety statistics it provides, highlighting internal concerns about the system's reliability.",
+      "score": 86
+    },
+    {
       "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
       "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
@@ -165,6 +176,17 @@
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
       "score": 50
+    },
+    {
+      "title": "Tesla’s Full Self-Driving software is creeping into Europe",
+      "topic": "Tesla’s Full Self-Driving software is creeping into Europe",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVll6QjhnOTlSODhIQk0zQmRMai14M19WVVJaVlEtaC1RUEV4anRpZzZ5RC1Ub2hyMzF6NmJpUkxfdGJXUlctLUJDOHlpSHB1WjhyR0hzcDZDMXRjUzdiNXJQaUV6Yk5XenhlcGRlX0VPeVdaUVJaTU9EUGU2Umd6WGVfNFFvdFJSYngzVTAwLTVCTWZ4aTAw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-05-20T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
+      "abstract": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
+      "score": 90
     },
     {
       "title": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
