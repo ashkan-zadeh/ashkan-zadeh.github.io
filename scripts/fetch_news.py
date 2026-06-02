@@ -56,7 +56,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("autonomous vehicles" OR "automated vehicles" OR robotaxi OR "self-driving") (Reuters OR "AP News" OR Waymo OR Tesla OR NVIDIA OR "The Verge" OR "IEEE Spectrum" OR Bloomberg OR Wired) when:30d',
+                "q": '("autonomous vehicles" OR "automated vehicles" OR robotaxi OR "self-driving") (Reuters OR "AP News" OR Waymo OR Tesla OR NVIDIA OR "The Verge" OR "IEEE Spectrum" OR Wired OR Electrek OR VentureBeat OR Engadget OR Aurora OR Mobileye OR "Ars Technica" OR TechCrunch OR "InsideEVs") when:7d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -68,7 +68,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("AI safety" OR "artificial intelligence" OR "AI model" OR "AI regulation") (Reuters OR "AP News" OR Nature OR OpenAI OR Google OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum" OR Bloomberg) when:14d',
+                "q": '("AI safety" OR "artificial intelligence" OR "AI model" OR "AI regulation") (Reuters OR "AP News" OR Nature OR OpenAI OR Google OR Microsoft OR "IEEE Spectrum" OR VentureBeat OR TechCrunch OR Wired OR "Ars Technica" OR Engadget OR "The Verge" OR ScienceDaily OR "Phys.org") when:3d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -80,7 +80,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("large language model" OR "LLM" OR "foundation model" OR "language model") ("autonomous" OR "driving" OR "vehicle" OR "transportation" OR "mobility" OR "explainable" OR "XAI") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum" OR Reuters OR TechCrunch) when:60d',
+                "q": '("large language model" OR "LLM" OR "foundation model" OR "language model") ("autonomous" OR "driving" OR "vehicle" OR "transportation" OR "mobility" OR "explainable" OR "XAI") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "IEEE Spectrum" OR Reuters OR TechCrunch OR VentureBeat OR "Ars Technica" OR ScienceDaily OR "Phys.org") when:14d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -92,7 +92,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("natural language processing" OR "NLP" OR "language understanding" OR "text generation" OR "speech recognition") ("autonomous vehicle" OR "driving" OR "human machine" OR "HMI" OR "explainability" OR "transportation") (IEEE OR Nature OR Google OR NVIDIA OR "MIT Technology Review" OR Reuters OR "The Verge") when:60d',
+                "q": '("natural language processing" OR "NLP" OR "language understanding" OR "text generation" OR "speech recognition") ("autonomous vehicle" OR "driving" OR "human machine" OR "HMI" OR "explainability" OR "transportation") (IEEE OR Nature OR Google OR NVIDIA OR Reuters OR "The Verge" OR VentureBeat OR ScienceDaily OR "Phys.org" OR "Ars Technica") when:30d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -104,7 +104,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("vision-language model" OR "vision language model" OR "multimodal AI" OR "VLM") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "MIT Technology Review" OR "IEEE Spectrum") when:45d',
+                "q": '("vision-language model" OR "vision language model" OR "multimodal AI" OR "VLM") (Nature OR NVIDIA OR Google OR OpenAI OR Microsoft OR "IEEE Spectrum" OR VentureBeat OR TechCrunch OR ScienceDaily OR "Phys.org" OR "Ars Technica") when:14d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -116,7 +116,7 @@ FEEDS = [
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode(
             {
-                "q": '("computer vision" OR perception OR lidar OR "scene understanding") ("autonomous driving" OR "automated vehicles" OR "self-driving") (Nature OR NVIDIA OR Waymo OR "Carnegie Mellon" OR "MIT News" OR "IEEE Spectrum" OR Google) when:45d',
+                "q": '("computer vision" OR perception OR lidar OR "scene understanding") ("autonomous driving" OR "automated vehicles" OR "self-driving") (Nature OR NVIDIA OR Waymo OR "Carnegie Mellon" OR "MIT News" OR "IEEE Spectrum" OR Google OR Electrek OR Engadget OR ScienceDaily OR "Phys.org") when:14d',
                 "hl": "en-US",
                 "gl": "US",
                 "ceid": "US:en",
@@ -175,29 +175,57 @@ BLOCKED_SOURCE_TERMS = (
     "analytics insight",
     "hindustan metro",
     "technosports",
+    "businesswire",
+    "accesswire",
+    "einpresswire",
+    "yahoo finance",
+    "seeking alpha",
+    "fool.com",
+    "motley fool",
+    "the information",
+    "mit technology review",
+    "bloomberg",
+    "new york times",
+    "washington post",
+    "wall street journal",
+    "financial times",
 )
 
 ALLOWED_SOURCE_NAMES = {
+    # Wire services & general news (free)
     "reuters",
     "associated press",
     "ap news",
     "bbc",
+    "bbc news",
     "the guardian",
-    "the new york times",
-    "washington post",
-    "the wall street journal",
-    "financial times",
-    "bloomberg",
+    # Tech & science journalism (free)
     "wired",
     "the verge",
     "ars technica",
-    "mit technology review",
+    "techcrunch",
+    "engadget",
+    "venturebeat",
+    "zdnet",
+    "techradar",
+    "gizmodo",
+    "electrek",
+    "insideevs",
+    # Science & research news (free)
     "ieee spectrum",
     "nature",
+    "nature news",
     "science",
+    "sciencedaily",
+    "phys.org",
     "eurekalert",
     "medical xpress",
-    "techcrunch",
+    "mit news",
+    "carnegie mellon university",
+    "stanford university",
+    "news at iu",
+    "the regulatory review",
+    # AI lab & company blogs (free)
     "nvidia",
     "nvidia developer",
     "nvidia blog",
@@ -208,17 +236,21 @@ ALLOWED_SOURCE_NAMES = {
     "deepmind",
     "openai",
     "microsoft",
+    "microsoft research",
     "meta",
+    "meta ai",
+    "hugging face",
+    # AV & mobility companies (free)
     "waymo",
     "tesla",
     "uber",
+    "aurora",
+    "mobileye",
+    "cruise",
+    "zoox",
+    "motional",
     "toyota",
     "hyundai",
-    "carnegie mellon university",
-    "stanford university",
-    "mit news",
-    "news at iu",
-    "the regulatory review",
 }
 
 BLOCKED_TITLE_TERMS = (
