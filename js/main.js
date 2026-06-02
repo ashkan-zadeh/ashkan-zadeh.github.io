@@ -130,14 +130,17 @@ if (themeToggle && themePanel) {
     function makeNode(i, total) {
         const colorNames = ["teal", "blue", "amber", "coral"];
         const band = i / total;
+        const orbit = Math.random() * 0.55 + 0.18;
         return {
             x: Math.random() * width,
             y: Math.random() * height,
-            vx: (Math.random() - 0.5) * 0.28,
-            vy: (Math.random() - 0.5) * 0.22,
+            vx: (Math.random() - 0.5) * 0.035,
+            vy: (Math.random() - 0.5) * 0.03,
             r: Math.random() * 2.4 + 1.1,
             phase: Math.random() * Math.PI * 2,
-            drift: Math.random() * 0.35 + 0.12,
+            drift: Math.random() * 0.18 + 0.06,
+            orbitX: orbit,
+            orbitY: orbit * (Math.random() * 0.55 + 0.58),
             color: colorNames[Math.floor(band * colorNames.length) % colorNames.length],
         };
     }
@@ -147,7 +150,7 @@ if (themeToggle && themePanel) {
             from: Math.floor(Math.random() * nodes.length),
             to: Math.floor(Math.random() * nodes.length),
             t: Math.random(),
-            speed: Math.random() * 0.005 + 0.0035,
+            speed: Math.random() * 0.00075 + 0.00038,
             color: ["teal", "amber", "coral", "blue"][Math.floor(Math.random() * 4)],
         };
     }
@@ -183,8 +186,8 @@ if (themeToggle && themePanel) {
         ctx.globalAlpha = 0.5;
         for (let x = -80; x < width + 160; x += 160) {
             ctx.beginPath();
-            ctx.moveTo(x + Math.sin(time * 0.00018 + x) * 12, 0);
-            ctx.lineTo(x + 120 + Math.cos(time * 0.00016 + x) * 12, height);
+            ctx.moveTo(x + Math.sin(time * 0.000045 + x) * 12, 0);
+            ctx.lineTo(x + 120 + Math.cos(time * 0.00004 + x) * 12, height);
             ctx.strokeStyle = rgba(palette.blue, 0.14);
             ctx.lineWidth = 1;
             ctx.stroke();
@@ -201,16 +204,16 @@ if (themeToggle && themePanel) {
             const dx = pointerX * width - node.x;
             const dy = pointerY * height - node.y;
             const dist = Math.hypot(dx, dy) || 1;
-            const pull = dist < 260 ? (1 - dist / 260) * 0.016 : 0;
+            const pull = dist < 260 ? (1 - dist / 260) * 0.0018 : 0;
 
-            node.vx += Math.cos(time * 0.00012 + node.phase) * 0.0024;
-            node.vy += Math.sin(time * 0.00014 + node.phase) * 0.0024;
+            node.vx += Math.cos(time * 0.000022 + node.phase) * 0.00042;
+            node.vy += Math.sin(time * 0.000026 + node.phase) * 0.00036;
             node.vx += (dx / dist) * pull;
             node.vy += (dy / dist) * pull;
-            node.vx *= 0.988;
-            node.vy *= 0.988;
-            node.x += node.vx + Math.sin(time * 0.00028 + node.phase) * node.drift * 0.14;
-            node.y += node.vy + Math.cos(time * 0.00024 + node.phase) * node.drift * 0.12;
+            node.vx *= 0.982;
+            node.vy *= 0.982;
+            node.x += node.vx + Math.sin(time * 0.000055 + node.phase) * node.drift * node.orbitX;
+            node.y += node.vy + Math.cos(time * 0.000043 + node.phase) * node.drift * node.orbitY;
 
             if (node.x < -30) node.x = width + 30;
             if (node.x > width + 30) node.x = -30;
@@ -264,7 +267,7 @@ if (themeToggle && themePanel) {
 
         for (const node of nodes) {
             const color = palette[node.color] || palette.teal;
-            const pulse = 0.45 + Math.sin(time * 0.001 + node.phase) * 0.18;
+            const pulse = 0.45 + Math.sin(time * 0.00022 + node.phase) * 0.18;
             ctx.beginPath();
             ctx.arc(node.x, node.y, node.r + pulse, 0, Math.PI * 2);
             ctx.fillStyle = rgba(color, 0.68);
