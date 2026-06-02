@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-02T13:26:22.976537Z",
+  "updated_at": "2026-06-02T22:14:31.489347Z",
   "items": [
+    {
+      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-02T13:51:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "The Trump Administration Is at War With Itself Over AI Regulation",
       "topic": "The Trump Administration Is at War With Itself Over AI Regulation",
@@ -132,6 +143,17 @@
       "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
       "score": 25
+    },
+    {
+      "title": "Google’s new anything-to-anything AI model is wild",
+      "topic": "Google’s new anything-to-anything AI model is wild",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQnhidnhSMG5QWTNkVXotbEY4YlhKekY3NTFPZVJiUGtxRWIxQXVEenJtLTNEUmZhRHBkX1MtZERKaWdPTDZNYzc5azhyLUlCUFRfZFUxNWZ4ZlJBWVdiS3hPZk54emgtMHFHRnNBX2ZfbnFJcm9OMkxvbGd6S1dKMw?oc=5",
+      "source": "The Verge",
+      "published": "2026-05-23T07:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Verge as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     },
     {
       "title": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",

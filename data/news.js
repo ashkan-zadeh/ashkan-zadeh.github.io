@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-02T13:26:22.975222Z",
+  "generated_at": "2026-06-02T22:14:31.488275Z",
   "items": [
     {
       "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
@@ -11,6 +11,17 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "Reuters reports that Tesla AI training workers have raised concerns about how self-driving safety is measured and trusted internally. The report highlights a gap between publicly stated safety statistics and the day-to-day observations of staff who prepare training data for the Full Self-Driving system. The findings raise questions about how AV companies validate safety claims before commercial deployment. Independent third-party auditing of AV safety metrics remains an open policy question.",
       "score": 56
+    },
+    {
+      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-02T13:51:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
     },
     {
       "title": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
@@ -33,17 +44,6 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from NVIDIA Developer as a recent vision-language model signal.",
       "abstract": "A new vision-language model or multimodal AI system has been introduced or evaluated, extending joint understanding of visual scenes and natural language. The architecture achieves strong performance on benchmarks requiring visual question answering, image captioning, or grounded instruction following in complex visual environments. For autonomous vehicle research, VLMs offer a path toward perception modules that can interpret scenes semantically and generate natural-language justifications for driving decisions. The model's zero-shot and few-shot generalisation capabilities are particularly relevant for handling rare or novel driving scenarios not covered by training distributions.",
       "score": 47
-    },
-    {
-      "title": "Tesla FSD v14 is so good it’s making me dangerously complacent",
-      "topic": "Tesla FSD v14 is so good it’s making me dangerously complacent",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX1lHaWo5RlpYNXJwdE1TU1J0dlhZYjhhQWktTTVCdmJ1RjMwSDNacElVa29lUy1GXzZrTXh0R1l4MkloWDNqN2JjLURFRnViNkJrM3hlNngyME9IUk5WbUdlWmMxLVljRmtwMGxTS3ItdC0wSWxSR281aGVDWHBlWTZVbGI?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-01T17:13:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
     },
     {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
@@ -79,15 +79,15 @@ window.NEWS_FEED = {
       "score": 25
     },
     {
-      "title": "Pope, urging AI regulation, warns some weapons now beyond human control",
-      "topic": "Pope, urging AI regulation, warns some weapons now beyond human control",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU?oc=5",
-      "source": "Reuters",
-      "published": "2026-05-25T07:00:00Z",
+      "title": "Google’s new anything-to-anything AI model is wild",
+      "topic": "Google’s new anything-to-anything AI model is wild",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQnhidnhSMG5QWTNkVXotbEY4YlhKekY3NTFPZVJiUGtxRWIxQXVEenJtLTNEUmZhRHBkX1MtZERKaWdPTDZNYzc5azhyLUlCUFRfZFUxNWZ4ZlJBWVdiS3hPZk54emgtMHFHRnNBX2ZfbnFJcm9OMkxvbGd6S1dKMw?oc=5",
+      "source": "The Verge",
+      "published": "2026-05-23T07:00:00Z",
       "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
-      "score": 25
+      "summary": "Headline tracked from The Verge as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     }
   ]
 };
