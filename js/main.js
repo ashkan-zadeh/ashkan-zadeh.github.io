@@ -74,6 +74,233 @@ if (themeToggle && themePanel) {
     });
 }
 
+/* ── Site-wide neural background ────────────────────────── */
+(function initSiteBackground() {
+    const canvas = document.querySelector("[data-site-background]");
+    if (!canvas || prefersReducedMotion) return;
+
+    const ctx = canvas.getContext("2d");
+    const DPR = Math.min(window.devicePixelRatio || 1, 2);
+    let width = 0;
+    let height = 0;
+    let nodes = [];
+    let signals = [];
+    let rafId = 0;
+    let isRunning = false;
+    let pointerX = 0.5;
+    let pointerY = 0.35;
+    let palette = {
+        teal: [53, 208, 186],
+        amber: [242, 184, 96],
+        coral: [255, 120, 103],
+        blue: [124, 180, 255],
+    };
+
+    function hexToRgb(hex) {
+        const clean = hex.trim().replace("#", "");
+        if (clean.length !== 6) return null;
+        return [
+            parseInt(clean.slice(0, 2), 16),
+            parseInt(clean.slice(2, 4), 16),
+            parseInt(clean.slice(4, 6), 16),
+        ];
+    }
+
+    function readPalette() {
+        const style = getComputedStyle(document.documentElement);
+        ["teal", "amber", "coral", "blue"].forEach((name) => {
+            const next = hexToRgb(style.getPropertyValue(`--${name}`));
+            if (next) palette[name] = next;
+        });
+    }
+
+    function rgba(color, alpha) {
+        return `rgba(${color[0]},${color[1]},${color[2]},${alpha})`;
+    }
+
+    function makeNode(i, total) {
+        const colorNames = ["teal", "blue", "amber", "coral"];
+        const band = i / total;
+        return {
+            x: Math.random() * width,
+            y: Math.random() * height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.18,
+            r: Math.random() * 1.9 + 0.8,
+            phase: Math.random() * Math.PI * 2,
+            drift: Math.random() * 0.35 + 0.12,
+            color: colorNames[Math.floor(band * colorNames.length) % colorNames.length],
+        };
+    }
+
+    function makeSignal() {
+        return {
+            from: Math.floor(Math.random() * nodes.length),
+            to: Math.floor(Math.random() * nodes.length),
+            t: Math.random(),
+            speed: Math.random() * 0.004 + 0.0025,
+            color: Math.random() > 0.55 ? "amber" : "teal",
+        };
+    }
+
+    function resize() {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * DPR);
+        canvas.height = Math.floor(height * DPR);
+        canvas.style.width = `${width}px`;
+        canvas.style.height = `${height}px`;
+        ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+
+        const count = Math.round(Math.min(94, Math.max(42, width / 18)));
+        nodes = Array.from({ length: count }, (_, i) => makeNode(i, count));
+        signals = Array.from({ length: Math.round(count * 0.35) }, makeSignal);
+    }
+
+    function drawBackground(time) {
+        const px = pointerX * width;
+        const py = pointerY * height;
+
+        ctx.clearRect(0, 0, width, height);
+
+        const glow = ctx.createRadialGradient(px, py, 0, px, py, Math.max(width, height) * 0.72);
+        glow.addColorStop(0, rgba(palette.teal, 0.075));
+        glow.addColorStop(0.34, rgba(palette.blue, 0.035));
+        glow.addColorStop(1, "rgba(0,0,0,0)");
+        ctx.fillStyle = glow;
+        ctx.fillRect(0, 0, width, height);
+
+        ctx.save();
+        ctx.globalAlpha = 0.34;
+        for (let x = -80; x < width + 160; x += 160) {
+            ctx.beginPath();
+            ctx.moveTo(x + Math.sin(time * 0.00018 + x) * 12, 0);
+            ctx.lineTo(x + 120 + Math.cos(time * 0.00016 + x) * 12, height);
+            ctx.strokeStyle = rgba(palette.blue, 0.08);
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+        ctx.restore();
+    }
+
+    function tick(time) {
+        if (!isRunning) return;
+
+        drawBackground(time);
+
+        for (const node of nodes) {
+            const dx = pointerX * width - node.x;
+            const dy = pointerY * height - node.y;
+            const dist = Math.hypot(dx, dy) || 1;
+            const pull = dist < 260 ? (1 - dist / 260) * 0.016 : 0;
+
+            node.vx += Math.cos(time * 0.00012 + node.phase) * 0.0024;
+            node.vy += Math.sin(time * 0.00014 + node.phase) * 0.0024;
+            node.vx += (dx / dist) * pull;
+            node.vy += (dy / dist) * pull;
+            node.vx *= 0.988;
+            node.vy *= 0.988;
+            node.x += node.vx + Math.sin(time * 0.00028 + node.phase) * node.drift * 0.14;
+            node.y += node.vy + Math.cos(time * 0.00024 + node.phase) * node.drift * 0.12;
+
+            if (node.x < -30) node.x = width + 30;
+            if (node.x > width + 30) node.x = -30;
+            if (node.y < -30) node.y = height + 30;
+            if (node.y > height + 30) node.y = -30;
+        }
+
+        for (let i = 0; i < nodes.length; i++) {
+            for (let j = i + 1; j < nodes.length; j++) {
+                const a = nodes[i];
+                const b = nodes[j];
+                const dx = a.x - b.x;
+                const dy = a.y - b.y;
+                const dist = Math.hypot(dx, dy);
+                const maxDist = width < 720 ? 98 : 132;
+                if (dist > maxDist) continue;
+
+                const alpha = (1 - dist / maxDist) * 0.17;
+                const color = palette[a.color] || palette.teal;
+                ctx.beginPath();
+                ctx.moveTo(a.x, a.y);
+                ctx.lineTo(b.x, b.y);
+                ctx.strokeStyle = rgba(color, alpha);
+                ctx.lineWidth = 0.7;
+                ctx.stroke();
+            }
+        }
+
+        for (const signal of signals) {
+            const from = nodes[signal.from];
+            const to = nodes[signal.to];
+            if (!from || !to || from === to) continue;
+
+            signal.t += signal.speed;
+            if (signal.t > 1) {
+                Object.assign(signal, makeSignal(), { t: 0 });
+                continue;
+            }
+
+            const x = from.x + (to.x - from.x) * signal.t;
+            const y = from.y + (to.y - from.y) * signal.t;
+            const color = palette[signal.color] || palette.teal;
+            ctx.beginPath();
+            ctx.arc(x, y, 1.5, 0, Math.PI * 2);
+            ctx.fillStyle = rgba(color, 0.58);
+            ctx.shadowColor = rgba(color, 0.8);
+            ctx.shadowBlur = 10;
+            ctx.fill();
+            ctx.shadowBlur = 0;
+        }
+
+        for (const node of nodes) {
+            const color = palette[node.color] || palette.teal;
+            const pulse = 0.45 + Math.sin(time * 0.001 + node.phase) * 0.18;
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.r + pulse, 0, Math.PI * 2);
+            ctx.fillStyle = rgba(color, 0.44);
+            ctx.fill();
+
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.r * 4.4, 0, Math.PI * 2);
+            ctx.strokeStyle = rgba(color, 0.035);
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        if (isRunning) rafId = requestAnimationFrame(tick);
+    }
+
+    function start() {
+        if (isRunning) return;
+        isRunning = true;
+        rafId = requestAnimationFrame(tick);
+    }
+
+    function stop() {
+        isRunning = false;
+        cancelAnimationFrame(rafId);
+    }
+
+    readPalette();
+    resize();
+    start();
+
+    window.addEventListener("resize", resize, { passive: true });
+    window.addEventListener("pointermove", (event) => {
+        pointerX = event.clientX / Math.max(1, width);
+        pointerY = event.clientY / Math.max(1, height);
+    }, { passive: true });
+    document.addEventListener("themechange", readPalette);
+    document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+            stop();
+        } else {
+            start();
+        }
+    });
+}());
+
 /* ── Hero particle canvas ───────────────────────────────── */
 (function initCanvas() {
     const canvas = document.querySelector("[data-hero-canvas]");
