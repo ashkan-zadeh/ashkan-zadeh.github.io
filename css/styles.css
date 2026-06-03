@@ -84,6 +84,51 @@
     --blue: #40c8ff;
 }
 
+/* ── Aurora: northern lights green / violet ─────────────── */
+[data-theme="aurora"] {
+    --bg: #030a06;
+    --bg-2: #061009;
+    --panel: rgba(6, 18, 10, 0.82);
+    --panel-solid: #091808;
+    --text: #d8ffe8;
+    --muted: #30906a;
+    --line: rgba(0, 255, 140, 0.14);
+    --teal: #00ff90;
+    --amber: #9040ff;
+    --coral: #ff4090;
+    --blue: #40d0ff;
+}
+
+/* ── Crimson: deep red / gold ───────────────────────────── */
+[data-theme="crimson"] {
+    --bg: #0d0404;
+    --bg-2: #150606;
+    --panel: rgba(22, 8, 8, 0.82);
+    --panel-solid: #1e0808;
+    --text: #ffe8e8;
+    --muted: #804040;
+    --line: rgba(255, 30, 60, 0.18);
+    --teal: #ff2244;
+    --amber: #ffc020;
+    --coral: #ff6622;
+    --blue: #4090ff;
+}
+
+/* ── Dusk: rose / amber-orange ──────────────────────────── */
+[data-theme="dusk"] {
+    --bg: #0c0608;
+    --bg-2: #14090c;
+    --panel: rgba(20, 10, 14, 0.82);
+    --panel-solid: #1c0e12;
+    --text: #ffe8f4;
+    --muted: #90607a;
+    --line: rgba(255, 80, 150, 0.16);
+    --teal: #ff4090;
+    --amber: #ff9040;
+    --coral: #ffc040;
+    --blue: #8060ff;
+}
+
 /* Smooth theme transitions */
 html.theme-transitioning body,
 html.theme-transitioning .site-header,
@@ -462,6 +507,9 @@ button:focus-visible {
 .theme-swatch--neural   { background: linear-gradient(135deg, #a040ff 0%, #ff40c0 100%); }
 .theme-swatch--carbon   { background: linear-gradient(135deg, #ff6820 0%, #ffb800 100%); }
 .theme-swatch--spectrum { background: linear-gradient(135deg, #00e878 0%, #80ff40 100%); }
+.theme-swatch--aurora   { background: linear-gradient(135deg, #00ff90 0%, #9040ff 100%); }
+.theme-swatch--crimson  { background: linear-gradient(135deg, #ff2244 0%, #ffc020 100%); }
+.theme-swatch--dusk     { background: linear-gradient(135deg, #ff4090 0%, #ff9040 100%); }
 
 /* ── Hero canvas (particle background) ──────────────────── */
 .hero-canvas {
