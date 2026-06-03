@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-02T22:40:41.483817Z",
+  "updated_at": "2026-06-03T11:25:30.560971Z",
   "items": [
+    {
+      "title": "Inside Tesla's self-driving machine",
+      "topic": "Inside Tesla's self-driving machine",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0NMaVZ4OWJ1eW0xV09LZWNFODR2cWxkbUxTdWowT0tiRVNKNWVlWXNzd0MxaF9xRGNLd05XZkZxeXJvcjJlcFZMS1RULTItZlhSX3htT2NFd3p1VWpPT1hzX3p1TGJkck0taWFrX2laTV9CazZpZ01nUmRwQ1JVWFlPVUlXME0tdHM1Y29Sajd6ajI1aG1GR2RucEJGcUh0bWc?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-02T16:34:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's self-driving technology, Full Self-Driving (FSD), is under scrutiny as AI trainers express concerns about its safety and reliability. The company's internal data and testing processes are being questioned, highlighting the ongoing challenges in developing and deploying autonomous driving systems.",
+      "abstract": "Tesla's self-driving technology, Full Self-Driving (FSD), is under scrutiny as AI trainers express concerns about its safety and reliability. The company's internal data and testing processes are being questioned, highlighting the ongoing challenges in developing and deploying autonomous driving systems.",
+      "score": 65
+    },
     {
       "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
       "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
@@ -55,6 +66,17 @@
       "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
+    },
+    {
+      "title": "Uber and Autobrains target Munich for robotaxi rollout",
+      "topic": "Uber and Autobrains target Munich for robotaxi rollout",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjAyTUFNbGNEUC0zeFNQVndTTFd0MVl3cWpGOE40UVdyeVFfOFcyS203aUJTd21iWTl4b1hsbzkzMFBETUFydEV1SVF0RnBMRFhOaU1mQzJiYU1ldFctVkZrY19mbWV1aDVEVVBPVUFsMzc0c3d0SS1CT0QtZEFCUkNEbzhIMVllRDFWUUtRQVVrWFl0VHNlZg?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-01T07:45:07Z",
+      "category": "automated-vehicles",
+      "summary": "Uber and Autobrains are planning to roll out robotaxis in Munich, Germany. This deployment marks a significant step in the expansion of autonomous vehicle services in Europe, aiming to provide a safer and more efficient transportation option for urban areas.",
+      "abstract": "Uber and Autobrains are planning to roll out robotaxis in Munich, Germany. This deployment marks a significant step in the expansion of autonomous vehicle services in Europe, aiming to provide a safer and more efficient transportation option for urban areas.",
+      "score": 85
     },
     {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
