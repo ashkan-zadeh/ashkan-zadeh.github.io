@@ -810,6 +810,11 @@ h1 span {
     transition: opacity 200ms ease;
 }
 
+.button svg {
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
 .button::after {
     content: "";
     width: 7px;
