@@ -610,7 +610,7 @@ button:focus-visible {
     align-items: center;
     gap: 8px;
     padding: 0 22px;
-    color: var(--muted);
+    color: var(--text);
     font-size: 12px;
     font-weight: 500;
     transition: color 160ms ease;
@@ -1804,7 +1804,7 @@ h1 span {
 
 .news-card:hover {
     transform: translateY(-3px);
-    border-color: rgba(53, 208, 186, 0.32);
+    border-color: color-mix(in srgb, var(--teal), transparent 68%);
     background: rgba(255, 255, 255, 0.055);
     box-shadow: 0 16px 44px rgba(0, 0, 0, 0.22);
 }
@@ -1832,7 +1832,7 @@ h1 span {
     flex-shrink: 0;
     position: relative;
     background:
-        linear-gradient(135deg, rgba(53, 208, 186, 0.2), rgba(124, 180, 255, 0.1)),
+        linear-gradient(135deg, color-mix(in srgb, var(--teal), transparent 80%), color-mix(in srgb, var(--blue), transparent 90%)),
         url('../asset/img/xai-av-hero.png') center / cover;
     border-right: 1px solid var(--line);
 }
@@ -1842,7 +1842,7 @@ h1 span {
     position: absolute;
     bottom: 14px;
     left: 14px;
-    border: 1px solid rgba(53, 208, 186, 0.5);
+    border: 1px solid color-mix(in srgb, var(--teal), transparent 50%);
     border-radius: 999px;
     padding: 3px 9px;
     background: rgba(11, 16, 23, 0.72);
@@ -1953,7 +1953,7 @@ h1 span {
 }
 
 .news-read-more:hover {
-    color: #53e4d0;
+    color: color-mix(in srgb, var(--teal), white 28%);
     text-decoration: underline;
 }
 
@@ -1972,27 +1972,27 @@ h1 span {
 }
 
 .news-badge--automated-vehicles {
-    background: rgba(242, 184, 96, 0.12);
-    color: #f2b860;
-    border-color: rgba(242, 184, 96, 0.28);
+    background: color-mix(in srgb, var(--amber), transparent 88%);
+    color: var(--amber);
+    border-color: color-mix(in srgb, var(--amber), transparent 72%);
 }
 
 .news-badge--ai {
-    background: rgba(255, 120, 103, 0.12);
-    color: #ff7867;
-    border-color: rgba(255, 120, 103, 0.28);
+    background: color-mix(in srgb, var(--coral), transparent 88%);
+    color: var(--coral);
+    border-color: color-mix(in srgb, var(--coral), transparent 72%);
 }
 
 .news-badge--llm {
-    background: rgba(53, 208, 186, 0.12);
-    color: #35d0ba;
-    border-color: rgba(53, 208, 186, 0.28);
+    background: color-mix(in srgb, var(--teal), transparent 88%);
+    color: var(--teal);
+    border-color: color-mix(in srgb, var(--teal), transparent 72%);
 }
 
 .news-badge--nlp {
-    background: rgba(124, 180, 255, 0.12);
-    color: #7cb4ff;
-    border-color: rgba(124, 180, 255, 0.28);
+    background: color-mix(in srgb, var(--blue), transparent 88%);
+    color: var(--blue);
+    border-color: color-mix(in srgb, var(--blue), transparent 72%);
 }
 
 .news-badge--vlm {
@@ -2330,6 +2330,66 @@ h1 span {
     border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 60%);
 }
 
+.timeline-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    width: 270px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.timeline-gallery img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid var(--line);
+    transition: border-color 220ms ease, transform 220ms ease;
+    display: block;
+}
+
+.timeline-gallery img:hover {
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 55%);
+    transform: scale(1.04);
+}
+
+.timeline-video {
+    width: 280px;
+    flex-shrink: 0;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    aspect-ratio: 16/9;
+    align-self: flex-start;
+}
+
+.timeline-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.timeline-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.timeline-ext-link {
+    color: var(--s-accent, var(--teal));
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 800;
+    transition: color 160ms ease;
+}
+
+.timeline-ext-link:hover {
+    color: color-mix(in srgb, var(--s-accent, var(--teal)), white 30%);
+}
+
 /* ── Memorial section ───────────────────────────────────── */
 .memorial-section {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.04));
@@ -2506,6 +2566,8 @@ h1 span {
     .rl-gallery-item figcaption { transform: translateY(0); background: rgba(0,0,0,0.6); }
     .timeline-item-body { flex-direction: column-reverse; align-items: flex-start; }
     .timeline-portrait { width: 100%; }
+    .timeline-gallery { width: 100%; grid-template-columns: repeat(3, 1fr); }
+    .timeline-video { width: 100%; }
     .memorial-portrait-col { flex-direction: column; }
     .memorial-portrait-frame {
         width: 100%;
