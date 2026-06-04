@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-06-03T11:25:30.560971Z",
+  "updated_at": "2026-06-04T10:14:50.152087Z",
   "items": [
+    {
+      "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnd1b0RYcWdFY0pNdzRoM0w5eXkxYTNIZTNMOGxCVWx0ZUlVcmFuMXBMRnRjbl9FdVN0Mm1KeGFMTUpNM3o4YVF2WGZkeUhVWkdmNnRBNEc5YmQ5N2FXNEZhbFFsUUYtLU1NS2cxaEJ0U0hHSmxWZHEza3FvbmExd1NBUnBfUFdWLUcwT2I1T09GYXNDNjVGU1k5ekw2U1NMczJDaHp5UHhyU29M?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-03T20:03:30Z",
+      "category": "ai",
+      "summary": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers not to require mandatory approvals for AI models. This stance reflects the tech industry's push for lighter regulation, which could impact the development and deployment of AI in autonomous vehicles.",
+      "abstract": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers not to require mandatory approvals for AI models. This stance reflects the tech industry's push for lighter regulation, which could impact the development and deployment of AI in autonomous vehicles.",
+      "score": 60
+    },
+    {
+      "title": "Exclusive: Uber's commitment to self-driving startup Nuro is close to $500 mln, sources say",
+      "topic": "Exclusive: Uber's commitment to self-driving startup Nuro is close to $500 mln, sources say",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUEVrM2xHdU0tNXVqOW9qdll6c3lTLWtuNlpUUW56MzBnX0xGNXhhTnN6eUlLcmNhclpxbjBuVDl0ME9lWWtMVlc4bDlVYmt2TGd3aHh0ekstQ0l0Nks4UDA3WTJtYmxWQ2FlR0FwUjBnUFBZN0o4NnlZU3YwbWdGbENHUkdMZXZxS19jUGpCSDdJNi1ESUZrRUdLcnljd2pZc0NjUFU5TFVhdHg3XzFEeXBTOW92NExZdzdkeF9UUkwyUEpZc3hMdUtIeWhCVW0zaTJv?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-03T19:24:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber is close to a $500 million investment in Nuro, a self-driving startup, according to sources. This significant commitment indicates Uber's strategic focus on autonomous delivery and transportation technologies, which could have long-term implications for the AV industry.",
+      "abstract": "Uber is close to a $500 million investment in Nuro, a self-driving startup, according to sources. This significant commitment indicates Uber's strategic focus on autonomous delivery and transportation technologies, which could have long-term implications for the AV industry.",
+      "score": 55
+    },
+    {
+      "title": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
+      "topic": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW1McDlSY3BmX2hYY3F1ZXpsZTZsS2xyeE5FS2dHNTFqMFJ3YTEzbWZTOGZ0UjROSXZPdFJCVWdXU01rbUp2cHk3d1A4eFpuY18tNERkNzhQZUpfU0xseWZDTkdIc05WckFLUWxwbFRJUUppdlVVSG9jcTY2ai1ETnlBdlRWZHc1V29uNk1CM3RsYkdnYXc?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-03T17:14:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
+      "abstract": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
+      "score": 95
+    },
     {
       "title": "Inside Tesla's self-driving machine",
       "topic": "Inside Tesla's self-driving machine",
