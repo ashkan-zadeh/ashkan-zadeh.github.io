@@ -910,7 +910,7 @@ function closeLightbox() {
 }
 
 if (lightbox) {
-    document.querySelectorAll(".timeline-gallery img").forEach((img) => {
+    document.querySelectorAll("main img:not(.lightbox-img)").forEach((img) => {
         img.addEventListener("click", () => openLightbox(img.src, img.alt));
     });
 

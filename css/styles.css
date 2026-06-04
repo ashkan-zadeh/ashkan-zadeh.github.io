@@ -2355,7 +2355,6 @@ h1 span {
     object-fit: cover;
     border-radius: 5px;
     border: 1px solid var(--line);
-    cursor: zoom-in;
     transition: border-color 220ms ease, transform 220ms ease, box-shadow 220ms ease;
     display: block;
 }
@@ -2404,6 +2403,11 @@ h1 span {
 
 .timeline-ext-link:hover {
     color: color-mix(in srgb, var(--s-accent, var(--teal)), white 30%);
+}
+
+/* ── Zoomable images ────────────────────────────────────── */
+main img:not(.lightbox-img) {
+    cursor: zoom-in;
 }
 
 /* ── Lightbox ───────────────────────────────────────────── */
