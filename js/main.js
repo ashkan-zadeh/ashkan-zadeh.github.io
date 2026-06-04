@@ -888,3 +888,39 @@ archiveFilters.forEach((filter) => {
         renderArchive();
     });
 });
+
+// ── Gallery lightbox ─────────────────────────────────────
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = lightbox?.querySelector(".lightbox-img");
+
+function openLightbox(src, alt) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || "";
+    lightbox.classList.add("is-open");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+}
+
+function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove("is-open");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+}
+
+if (lightbox) {
+    document.querySelectorAll(".timeline-gallery img").forEach((img) => {
+        img.addEventListener("click", () => openLightbox(img.src, img.alt));
+    });
+
+    lightbox.addEventListener("click", (e) => {
+        if (e.target !== lightboxImg) closeLightbox();
+    });
+
+    lightbox.querySelector(".lightbox-close")?.addEventListener("click", closeLightbox);
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && lightbox.classList.contains("is-open")) closeLightbox();
+    });
+}

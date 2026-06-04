@@ -2332,9 +2332,10 @@ h1 span {
 
 .timeline-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 6px;
-    width: 270px;
+    width: 340px;
     flex-shrink: 0;
     align-self: flex-start;
 }
@@ -2345,13 +2346,21 @@ h1 span {
     object-fit: cover;
     border-radius: 5px;
     border: 1px solid var(--line);
-    transition: border-color 220ms ease, transform 220ms ease;
+    cursor: zoom-in;
+    transition: border-color 220ms ease, transform 220ms ease, box-shadow 220ms ease;
     display: block;
 }
 
+.timeline-gallery img:first-child {
+    grid-row: span 2;
+    aspect-ratio: auto;
+    height: 100%;
+}
+
 .timeline-gallery img:hover {
-    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 55%);
-    transform: scale(1.04);
+    border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 50%);
+    transform: scale(1.03);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
 }
 
 .timeline-video {
@@ -2388,6 +2397,66 @@ h1 span {
 
 .timeline-ext-link:hover {
     color: color-mix(in srgb, var(--s-accent, var(--teal)), white 30%);
+}
+
+/* ── Lightbox ───────────────────────────────────────────── */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 240ms ease;
+}
+
+.lightbox.is-open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.lightbox-img {
+    max-width: min(88vw, 1100px);
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: var(--radius);
+    box-shadow: 0 32px 100px rgba(0, 0, 0, 0.7);
+    transform: scale(0.92);
+    transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+    display: block;
+}
+
+.lightbox.is-open .lightbox-img {
+    transform: scale(1);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
 }
 
 /* ── Memorial section ───────────────────────────────────── */
@@ -2566,7 +2635,7 @@ h1 span {
     .rl-gallery-item figcaption { transform: translateY(0); background: rgba(0,0,0,0.6); }
     .timeline-item-body { flex-direction: column-reverse; align-items: flex-start; }
     .timeline-portrait { width: 100%; }
-    .timeline-gallery { width: 100%; grid-template-columns: repeat(3, 1fr); }
+    .timeline-gallery { width: 100%; }
     .timeline-video { width: 100%; }
     .memorial-portrait-col { flex-direction: column; }
     .memorial-portrait-frame {
