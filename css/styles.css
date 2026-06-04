@@ -2363,6 +2363,12 @@ h1 span {
     grid-column: span 2;
 }
 
+/* 4-image 2×2 grid or 2-image side-by-side — reset the default span */
+.timeline-gallery--wide img:first-child,
+.timeline-gallery--pair img:first-child {
+    grid-column: auto;
+}
+
 .timeline-gallery img:hover {
     border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 50%);
     transform: scale(1.02);
