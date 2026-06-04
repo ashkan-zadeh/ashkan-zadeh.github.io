@@ -2333,16 +2333,15 @@ h1 span {
 .timeline-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
     gap: 6px;
-    width: 340px;
+    width: 380px;
     flex-shrink: 0;
     align-self: flex-start;
 }
 
 .timeline-gallery img {
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 5px;
     border: 1px solid var(--line);
@@ -2352,14 +2351,12 @@ h1 span {
 }
 
 .timeline-gallery img:first-child {
-    grid-row: span 2;
-    aspect-ratio: auto;
-    height: 100%;
+    grid-column: span 2;
 }
 
 .timeline-gallery img:hover {
     border-color: color-mix(in srgb, var(--s-accent, var(--teal)), transparent 50%);
-    transform: scale(1.03);
+    transform: scale(1.02);
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
 }
 
@@ -2420,8 +2417,9 @@ h1 span {
 }
 
 .lightbox-img {
-    max-width: min(88vw, 1100px);
-    max-height: 85vh;
+    width: 70vw;
+    height: auto;
+    max-height: 70vh;
     object-fit: contain;
     border-radius: var(--radius);
     box-shadow: 0 32px 100px rgba(0, 0, 0, 0.7);
