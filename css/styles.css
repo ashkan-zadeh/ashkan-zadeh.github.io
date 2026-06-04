@@ -31,7 +31,7 @@
     --panel: rgba(6, 18, 36, 0.82);
     --panel-solid: #091828;
     --text: #ddeeff;
-    --muted: #4a7aaa;
+    --muted: #7aaad4;
     --line: rgba(0, 130, 255, 0.18);
     --teal: #0090ff;
     --amber: #00d8ff;
@@ -46,7 +46,7 @@
     --panel: rgba(18, 8, 32, 0.82);
     --panel-solid: #160a24;
     --text: #eedeff;
-    --muted: #7860a0;
+    --muted: #a088cc;
     --line: rgba(150, 60, 255, 0.18);
     --teal: #a040ff;
     --amber: #ff40c0;
@@ -61,7 +61,7 @@
     --panel: rgba(22, 20, 16, 0.82);
     --panel-solid: #1c1a16;
     --text: #f5f0e8;
-    --muted: #7a7060;
+    --muted: #a09888;
     --line: rgba(255, 255, 255, 0.1);
     --teal: #ff6820;
     --amber: #ffb800;
@@ -76,7 +76,7 @@
     --panel: rgba(6, 20, 10, 0.82);
     --panel-solid: #081a0c;
     --text: #d8f8e4;
-    --muted: #409060;
+    --muted: #60b080;
     --line: rgba(0, 255, 120, 0.14);
     --teal: #00e878;
     --amber: #80ff40;
@@ -91,7 +91,7 @@
     --panel: rgba(6, 18, 10, 0.82);
     --panel-solid: #091808;
     --text: #d8ffe8;
-    --muted: #30906a;
+    --muted: #58b890;
     --line: rgba(0, 255, 140, 0.14);
     --teal: #00ff90;
     --amber: #9040ff;
@@ -106,7 +106,7 @@
     --panel: rgba(22, 8, 8, 0.82);
     --panel-solid: #1e0808;
     --text: #ffe8e8;
-    --muted: #804040;
+    --muted: #c07878;
     --line: rgba(255, 30, 60, 0.18);
     --teal: #ff2244;
     --amber: #ffc020;
@@ -121,7 +121,7 @@
     --panel: rgba(20, 10, 14, 0.82);
     --panel-solid: #1c0e12;
     --text: #ffe8f4;
-    --muted: #90607a;
+    --muted: #b888a0;
     --line: rgba(255, 80, 150, 0.16);
     --teal: #ff4090;
     --amber: #ff9040;
@@ -310,13 +310,13 @@ button:focus-visible {
     top: 0;
     z-index: 50;
     border-bottom: 1px solid var(--line);
-    background: rgba(11, 16, 23, 0.76);
+    background: var(--panel);
     backdrop-filter: blur(18px);
     transition: background 180ms ease, box-shadow 180ms ease;
 }
 
 .site-header.is-scrolled {
-    background: rgba(11, 16, 23, 0.92);
+    background: color-mix(in srgb, var(--panel-solid), transparent 6%);
     box-shadow: 0 14px 44px rgba(0, 0, 0, 0.22);
 }
 
@@ -339,9 +339,9 @@ button:focus-visible {
     width: 42px;
     height: 42px;
     place-items: center;
-    border: 1px solid rgba(53, 208, 186, 0.42);
+    border: 1px solid color-mix(in srgb, var(--teal), transparent 58%);
     border-radius: var(--radius);
-    background: linear-gradient(135deg, rgba(53, 208, 186, 0.18), rgba(124, 180, 255, 0.1));
+    background: linear-gradient(135deg, color-mix(in srgb, var(--teal), transparent 82%), color-mix(in srgb, var(--blue), transparent 90%));
     color: var(--teal);
     font-family: var(--mono);
     font-size: 14px;
@@ -388,8 +388,8 @@ button:focus-visible {
 }
 
 .nav-links .nav-cv {
-    border: 1px solid rgba(53, 208, 186, 0.42);
-    color: #b8fff3;
+    border: 1px solid color-mix(in srgb, var(--teal), transparent 58%);
+    color: color-mix(in srgb, var(--teal), white 55%);
 }
 
 .nav-toggle {
@@ -667,7 +667,7 @@ button:focus-visible {
 }
 
 .ticker-all:hover {
-    color: #53e4d0;
+    color: color-mix(in srgb, var(--teal), white 30%);
 }
 
 .hero {
