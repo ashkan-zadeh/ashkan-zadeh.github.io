@@ -62,6 +62,12 @@ class AcademicFeed:
     venue_filter: tuple[str, ...] = ()
 
 
+@dataclass(frozen=True)
+class JournalFeed:
+    name: str   # used as the source label
+    url: str    # direct RSS/Atom feed from publisher
+
+
 FEEDS = [
     Feed(
         "automated-vehicles",
@@ -201,6 +207,61 @@ SEMANTIC_SCHOLAR_FEEDS = [
     ),
 ]
 
+# Terms a journal paper must contain to be considered AV-related
+JOURNAL_AV_TERMS = (
+    "autonomous vehicle", "autonomous driving", "self-driving",
+    "automated vehicle", "automated driving", "driverless",
+    "robotaxi", "connected vehicle", "intelligent vehicle",
+    "intelligent transport", "adas", "advanced driver assistance",
+)
+
+# Terms a journal paper must contain to match the research focus
+JOURNAL_TOPIC_TERMS = (
+    "large language model", "llm", "vision-language", "vlm",
+    "multimodal", "foundation model", "language model", "gpt",
+    "explainab", "interpretab", "xai", "transparent",
+    "human factor", "user study", "user acceptance", "user trust",
+    "natural language", "nlp", "deep learning", "neural network",
+    "machine learning", "computer vision", "perception",
+)
+
+JOURNAL_RSS_FEEDS = [
+    # Elsevier / ScienceDirect
+    JournalFeed("Transportation Research Part C: Emerging Technologies",
+                "https://rss.sciencedirect.com/publication/science/0968090X"),
+    JournalFeed("Transportation Research Part F: Traffic Psychology and Behaviour",
+                "https://rss.sciencedirect.com/publication/science/13698478"),
+    JournalFeed("Transportation Research Part A: Policy and Practice",
+                "https://rss.sciencedirect.com/publication/science/09658564"),
+    JournalFeed("Transportation Research Part D: Transport and Environment",
+                "https://rss.sciencedirect.com/publication/science/13619209"),
+    JournalFeed("Accident Analysis and Prevention",
+                "https://rss.sciencedirect.com/publication/science/00014575"),
+    JournalFeed("Analytic Methods in Accident Research",
+                "https://rss.sciencedirect.com/publication/science/22147160"),
+    JournalFeed("Engineering Applications of Artificial Intelligence",
+                "https://rss.sciencedirect.com/publication/science/09521976"),
+    JournalFeed("Expert Systems with Applications",
+                "https://rss.sciencedirect.com/publication/science/09574174"),
+    JournalFeed("Vehicular Communications",
+                "https://rss.sciencedirect.com/publication/science/22142096"),
+    JournalFeed("eTransportation",
+                "https://rss.sciencedirect.com/publication/science/25901168"),
+    JournalFeed("Travel Behaviour and Society",
+                "https://rss.sciencedirect.com/publication/science/22147405"),
+    # IEEE Xplore
+    JournalFeed("IEEE Transactions on Intelligent Vehicles",
+                "https://ieeexplore.ieee.org/rss/TOC7274857.XML"),
+    JournalFeed("IEEE Transactions on Intelligent Transportation Systems",
+                "https://ieeexplore.ieee.org/rss/TOC6979.XML"),
+    JournalFeed("IEEE Transactions on Vehicular Technology",
+                "https://ieeexplore.ieee.org/rss/TOC25.XML"),
+    JournalFeed("IEEE Open Journal of Intelligent Transportation Systems",
+                "https://ieeexplore.ieee.org/rss/TOC8784355.XML"),
+    JournalFeed("IEEE Intelligent Transportation Systems Magazine",
+                "https://ieeexplore.ieee.org/rss/TOC5416837.XML"),
+]
+
 
 IMPORTANT_TERMS = {
     "automated": 8,
@@ -232,6 +293,7 @@ CATEGORY_LABELS = {
     "arxiv-llm-vlm-av": "arXiv: LLM/VLM for AVs",
     "journal-explainability-av": "journal: explainability in AVs",
     "journal-llm-vlm-av": "journal: LLM/VLM for AVs",
+    "journal-rss": "journal paper",
 }
 
 CATEGORY_REQUIRED_TERMS = {
@@ -472,7 +534,7 @@ def score_item(title: str, summary: str, category: str) -> int:
     for term, weight in IMPORTANT_TERMS.items():
         if term in haystack:
             score += weight
-    if category in {"automated-vehicles", "vlm", "llm", "arxiv-explainability-av", "arxiv-llm-vlm-av", "journal-explainability-av", "journal-llm-vlm-av"}:
+    if category in {"automated-vehicles", "vlm", "llm", "arxiv-explainability-av", "arxiv-llm-vlm-av", "journal-explainability-av", "journal-llm-vlm-av", "journal-rss"}:
         score += 8
     if category == "nlp":
         score += 5
@@ -844,6 +906,60 @@ def fetch_semantic_scholar(feed: AcademicFeed, max_results: int = 20, max_days: 
     return items
 
 
+def fetch_journal_rss(feed: JournalFeed, max_days: int = 180) -> list[dict]:
+    """Fetch a publisher RSS feed and filter to AV + topic-relevant papers."""
+    try:
+        payload = fetch(feed.url)
+        root = ET.fromstring(payload)
+    except Exception as exc:
+        print(f"warning: journal RSS failed ({feed.name}): {exc}", file=sys.stderr)
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
+    items = []
+
+    for entry in root.findall(".//item"):
+        title = clean_text(entry.findtext("title"), 200)
+        description = clean_text(entry.findtext("description"), 800)
+        url = (entry.findtext("link") or "").strip()
+        if not title or not url:
+            continue
+
+        haystack = f"{title} {description}".lower()
+
+        # Must mention AVs AND the research focus (LLM/VLM/explainability/etc.)
+        if not any(t in haystack for t in JOURNAL_AV_TERMS):
+            continue
+        if not any(t in haystack for t in JOURNAL_TOPIC_TERMS):
+            continue
+
+        try:
+            published = parse_date(entry.findtext("pubDate"))
+            pub_dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+            if pub_dt < cutoff:
+                continue
+        except Exception:
+            published = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+        abstract = description if description and description.lower()[:80] != title.lower()[:80] else title
+        items.append({
+            "title": title,
+            "topic": title,
+            "url": url,
+            "source": feed.name,
+            "published": published,
+            "category": "journal-rss",
+            "summary": abstract[:400],
+            "abstract": abstract,
+            "score": score_item(title, abstract, "journal-rss"),
+            "article_text": abstract,
+        })
+
+    if items:
+        print(f"  journal RSS {feed.name[:50]}: {len(items)} relevant papers", file=sys.stderr)
+    return items
+
+
 def apply_recency_filter(items: list[dict], max_days: int) -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
     return [
@@ -1062,10 +1178,23 @@ def build_news() -> dict:
                 collected.append(item)
         time.sleep(1)
 
+    # Fetch directly from publisher RSS feeds (ScienceDirect, IEEE Xplore)
+    print("Fetching publisher journal RSS feeds...", file=sys.stderr)
+    for feed in JOURNAL_RSS_FEEDS:
+        rss_items = fetch_journal_rss(feed)
+        for item in rss_items:
+            key = re.sub(r"\W+", "", item["title"].lower())[:96]
+            if key in seen:
+                continue
+            seen.add(key)
+            collected.append(item)
+        time.sleep(0.5)
+
     # Cascading recency filter: 14 days → 30 days → 60 days → all
     # Academic items have longer windows so filter only news items for recency
-    news_items = [i for i in collected if i["category"] in {f.category for f in FEEDS}]
-    academic_items = [i for i in collected if i["category"] not in {f.category for f in FEEDS}]
+    news_categories = {f.category for f in FEEDS}
+    news_items = [i for i in collected if i["category"] in news_categories]
+    academic_items = [i for i in collected if i["category"] not in news_categories]
 
     recent_news = news_items
     for threshold in RECENCY_THRESHOLDS_DAYS:
@@ -1081,7 +1210,7 @@ def build_news() -> dict:
             file=sys.stderr,
         )
 
-    academic_categories = {f.category for f in ARXIV_FEEDS} | {f.category for f in SEMANTIC_SCHOLAR_FEEDS}
+    academic_categories = {f.category for f in ARXIV_FEEDS} | {f.category for f in SEMANTIC_SCHOLAR_FEEDS} | {"journal-rss"}
     news_categories = {f.category for f in FEEDS}
 
     print(f"Collected: {len(recent_news)} news, {len(academic_items)} academic", file=sys.stderr)
@@ -1135,6 +1264,8 @@ def build_news() -> dict:
     acad_candidates: list[dict] = []
     for feed in list(ARXIV_FEEDS) + list(SEMANTIC_SCHOLAR_FEEDS):
         acad_candidates.extend(by_cat_acad.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
+    # Include publisher RSS papers (all in "journal-rss" category)
+    acad_candidates.extend(by_cat_acad.get("journal-rss", [])[:MAX_PER_CATEGORY * 4])
     acad_candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
     acad_candidates = acad_candidates[:LLM_CANDIDATE_LIMIT]
 
