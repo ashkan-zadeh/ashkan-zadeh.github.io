@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-05T00:42:54.755631Z",
+  "updated_at": "2026-06-05T10:18:59.552870Z",
   "items": [
+    {
+      "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
+      "topic": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197626014703?dgcid=rss_sd_all",
+      "source": "Engineering Applications of Artificial Intelligence",
+      "published": "2026-06-05T10:18:10.569714Z",
+      "category": "journal-rss",
+      "summary": "The Engineering Applications of Artificial Intelligence journal paper 'Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance' presents a VLA model for real-time autonomous vehicle accident avoidance. The authors, including Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu, propose an edge-based multimodal sensor data fusion approach. The paper was published on June 5, 2026, with a publication date of September 15, 2026. This work is relevant for improving the safety and efficiency of autonomous vehicles. The proposed approach can be used for real-time accident avoidance, making it a significant contribution to the field of autonomous driving.",
+      "abstract": "The Engineering Applications of Artificial Intelligence journal paper 'Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance' presents a VLA model for real-time autonomous vehicle accident avoidance. The authors, including Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu, propose an edge-based multimodal sensor data fusion approach. The paper was published on June 5, 2026, with a publication date of September 15, 2026. This work is relevant for improving the safety and efficiency of autonomous vehicles. The proposed approach can be used for real-time accident avoidance, making it a significant contribution to the field of autonomous driving.",
+      "score": 90
+    },
     {
       "title": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
       "topic": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
@@ -264,6 +275,28 @@
       "summary": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
       "abstract": "Tesla’s Full Self-Driving software is creeping into Europe. Tesla is expanding its Full Self-Driving (FSD) software to European markets, marking a significant step in the global rollout of its advanced driver assistance system (ADAS). This move could influence regulatory standards and consumer adoption in the region.",
       "score": 90
+    },
+    {
+      "title": "From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning",
+      "topic": "From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning",
+      "url": "https://arxiv.org/abs/2605.19824v1",
+      "source": "arXiv",
+      "published": "2026-05-19T13:18:35Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the use of temporal conditioning within inter-agent communication to preserve coherence in reasoning about continuous actions in autonomous vehicles. The authors introduce three planner architectures with progressively increasing temporal integration and evaluate them on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal grounding can enhance coherence without introducing degradation in semantic or logical consistency. The paper was published on May 19, 2026. This work is relevant for improving the safety and interpretability of autonomous driving systems.",
+      "abstract": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the use of temporal conditioning within inter-agent communication to preserve coherence in reasoning about continuous actions in autonomous vehicles. The authors introduce three planner architectures with progressively increasing temporal integration and evaluate them on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal grounding can enhance coherence without introducing degradation in semantic or logical consistency. The paper was published on May 19, 2026. This work is relevant for improving the safety and interpretability of autonomous driving systems.",
+      "score": 92
+    },
+    {
+      "title": "Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment",
+      "topic": "Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment",
+      "url": "https://arxiv.org/abs/2605.16087v2",
+      "source": "arXiv",
+      "published": "2026-05-15T15:47:01Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a trustworthy AI perception module that integrates faithful explainability and calibrated uncertainty estimates, building on a transformer-based detector. This module derives explanations from the attention mechanism at inference time and validates their faithfulness using perturbation-based consistency tests. The proposed approach addresses the gap in concrete implementations of trustworthy AI for 3D scene understanding. The work is relevant for autonomous driving safety assurance, debugging, and human oversight. The paper was published on May 15, 2026.",
+      "abstract": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a trustworthy AI perception module that integrates faithful explainability and calibrated uncertainty estimates, building on a transformer-based detector. This module derives explanations from the attention mechanism at inference time and validates their faithfulness using perturbation-based consistency tests. The proposed approach addresses the gap in concrete implementations of trustworthy AI for 3D scene understanding. The work is relevant for autonomous driving safety assurance, debugging, and human oversight. The paper was published on May 15, 2026.",
+      "score": 95
     },
     {
       "title": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
