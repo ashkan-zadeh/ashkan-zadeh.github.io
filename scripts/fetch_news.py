@@ -44,6 +44,7 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 # Cascading recency thresholds: prefer 14 days, fall back to 30, then 60
 RECENCY_THRESHOLDS_DAYS = [14, 30, 60]
 MIN_ITEMS_BEFORE_FALLBACK = 5
+MIN_ACADEMIC_ITEMS = 3  # guaranteed slots for arXiv / journal papers in final output
 
 
 @dataclass(frozen=True)
@@ -689,7 +690,7 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
     return items
 
 
-def fetch_arxiv(feed: AcademicFeed, max_results: int = 15, max_days: int = 30) -> list[dict]:
+def fetch_arxiv(feed: AcademicFeed, max_results: int = 20, max_days: int = 60) -> list[dict]:
     ATOM_NS = "http://www.w3.org/2005/Atom"
     params = {
         "search_query": feed.query,
@@ -748,7 +749,28 @@ def fetch_arxiv(feed: AcademicFeed, max_results: int = 15, max_days: int = 30) -
     return items
 
 
-def fetch_semantic_scholar(feed: AcademicFeed, max_results: int = 20, max_days: int = 180) -> list[dict]:
+_VENUE_STOP = {"of", "and", "the", "in", "for", "on", "a", "an", "part"}
+
+
+def _venue_matches(venue: str, journal_names: tuple[str, ...]) -> bool:
+    """Flexible venue match: handles full names, abbreviations, and partial overlaps."""
+    venue_l = venue.lower().strip()
+    if not venue_l:
+        return False
+    for jname in journal_names:
+        jname_l = jname.lower()
+        # Direct substring match (handles exact and most partial names)
+        if jname_l in venue_l or venue_l in jname_l:
+            return True
+        # Keyword overlap — robust against abbreviations like "IEEE Trans. Intell. Veh."
+        v_words = set(re.sub(r"[^a-z0-9\s]", " ", venue_l).split()) - _VENUE_STOP
+        j_words = set(re.sub(r"[^a-z0-9\s]", " ", jname_l).split()) - _VENUE_STOP
+        if j_words and len(v_words & j_words) >= max(2, round(len(j_words) * 0.55)):
+            return True
+    return False
+
+
+def fetch_semantic_scholar(feed: AcademicFeed, max_results: int = 20, max_days: int = 365) -> list[dict]:
     params = {
         "query": feed.query,
         "fields": "title,abstract,venue,year,publicationDate,externalIds,openAccessPdf",
@@ -776,11 +798,9 @@ def fetch_semantic_scholar(feed: AcademicFeed, max_results: int = 20, max_days: 
         year = paper.get("year")
         if not title:
             continue
-        # Filter by venue
-        if feed.venue_filter:
-            venue_lower = venue.lower()
-            if not any(j.lower() in venue_lower or venue_lower in j.lower() for j in feed.venue_filter):
-                continue
+        # Filter by venue using flexible matching
+        if feed.venue_filter and not _venue_matches(venue, feed.venue_filter):
+            continue
         # Build accessible URL
         ext_ids = paper.get("externalIds") or {}
         arxiv_id = ext_ids.get("ArXiv", "")
@@ -1094,6 +1114,33 @@ def build_news() -> dict:
             if text:
                 item["abstract"] = leading_sentences(text, 3)
                 item["summary"] = item["abstract"]
+
+    # Guarantee minimum academic representation — top-scored academic items
+    # that the LLM may have skipped are injected, displacing the lowest-scoring
+    # news items if needed.
+    academic_categories = {f.category for f in ARXIV_FEEDS} | {f.category for f in SEMANTIC_SCHOLAR_FEEDS}
+    academic_in_final = sum(1 for i in final_items if i["category"] in academic_categories)
+    if academic_in_final < MIN_ACADEMIC_ITEMS:
+        selected_urls = {i["url"] for i in final_items}
+        extra = [
+            i for i in candidates
+            if i["category"] in academic_categories and i["url"] not in selected_urls
+        ]
+        extra.sort(key=lambda i: (i["score"], i["published"]), reverse=True)
+        needed = MIN_ACADEMIC_ITEMS - academic_in_final
+        added = extra[:needed]
+        if added:
+            # Make room by trimming lowest-scoring news items
+            non_academic = sorted(
+                [i for i in final_items if i["category"] not in academic_categories],
+                key=lambda i: (i["score"], i["published"]),
+                reverse=True,
+            )
+            academic_kept = [i for i in final_items if i["category"] in academic_categories]
+            slots = MAX_ITEMS - len(academic_kept) - len(added)
+            final_items = non_academic[:slots] + academic_kept + added
+            final_items.sort(key=lambda i: (i["score"], i["published"]), reverse=True)
+            print(f"Injected {len(added)} academic item(s) to meet MIN_ACADEMIC_ITEMS={MIN_ACADEMIC_ITEMS}", file=sys.stderr)
 
     # Strip internal scaffolding fields before writing to JSON
     output_fields = {"title", "topic", "url", "source", "published", "category", "summary", "abstract", "score"}
