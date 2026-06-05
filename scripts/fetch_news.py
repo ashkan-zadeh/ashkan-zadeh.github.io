@@ -52,6 +52,14 @@ class Feed:
     url: str
 
 
+@dataclass(frozen=True)
+class AcademicFeed:
+    category: str
+    source_type: str  # "arxiv" or "semantic_scholar"
+    query: str
+    venue_filter: tuple[str, ...] = ()
+
+
 FEEDS = [
     Feed(
         "automated-vehicles",
@@ -127,6 +135,70 @@ FEEDS = [
     ),
 ]
 
+ARXIV_FEEDS = [
+    AcademicFeed(
+        "arxiv-explainability-av",
+        "arxiv",
+        '(abs:explainability OR abs:interpretability OR abs:XAI OR abs:"explainable AI" OR abs:interpretable)'
+        ' AND (abs:"autonomous vehicle" OR abs:"autonomous driving" OR abs:"self-driving")',
+    ),
+    AcademicFeed(
+        "arxiv-llm-vlm-av",
+        "arxiv",
+        '(abs:"large language model" OR abs:LLM OR abs:"vision-language model" OR abs:VLM'
+        ' OR abs:"foundation model" OR abs:multimodal)'
+        ' AND (abs:"autonomous vehicle" OR abs:"autonomous driving" OR abs:"self-driving" OR abs:driving)',
+    ),
+]
+
+ACADEMIC_JOURNALS: tuple[str, ...] = (
+    "IEEE Transactions on Intelligent Vehicles",
+    "IEEE Transactions on Intelligent Transportation Systems",
+    "Transportation Research Part C: Emerging Technologies",
+    "IEEE Transactions on Vehicular Technology",
+    "IEEE Intelligent Transportation Systems Magazine",
+    "IEEE Open Journal of Intelligent Transportation Systems",
+    "IEEE Open Journal of Vehicular Technology",
+    "Journal of Intelligent and Connected Vehicles",
+    "Vehicular Communications",
+    "Journal of Intelligent Transportation Systems",
+    "Automotive Innovation",
+    "eTransportation",
+    "Transportation Research Part F: Traffic Psychology and Behaviour",
+    "Travel Behaviour and Society",
+    "Transportation Research Part A: Policy and Practice",
+    "Accident Analysis and Prevention",
+    "Analytic Methods in Accident Research",
+    "Transport Reviews",
+    "Transportation Research Part D: Transport and Environment",
+    "Transportation Research Part B: Methodological",
+    "International Journal of Sustainable Transportation",
+    "Sustainable Cities and Society",
+    "Transportation Research Interdisciplinary Perspectives",
+    "Journal of Intelligent Transportation Systems: Technology, Planning, and Operations",
+    "International Journal of Transportation Science and Technology",
+    "European Transport Research Review",
+    "IEEE Vehicular Technology Magazine",
+    "Vehicle System Dynamics",
+    "Engineering Applications of Artificial Intelligence",
+    "Expert Systems with Applications",
+)
+
+SEMANTIC_SCHOLAR_FEEDS = [
+    AcademicFeed(
+        "journal-explainability-av",
+        "semantic_scholar",
+        "explainability interpretability XAI autonomous vehicle driving user study trust",
+        ACADEMIC_JOURNALS,
+    ),
+    AcademicFeed(
+        "journal-llm-vlm-av",
+        "semantic_scholar",
+        "large language model VLM vision-language multimodal autonomous driving vehicle",
+        ACADEMIC_JOURNALS,
+    ),
+]
+
 
 IMPORTANT_TERMS = {
     "automated": 8,
@@ -154,6 +226,10 @@ CATEGORY_LABELS = {
     "nlp": "NLP",
     "vlm": "vision-language model",
     "computer-vision": "computer vision",
+    "arxiv-explainability-av": "arXiv: explainability in AVs",
+    "arxiv-llm-vlm-av": "arXiv: LLM/VLM for AVs",
+    "journal-explainability-av": "journal: explainability in AVs",
+    "journal-llm-vlm-av": "journal: LLM/VLM for AVs",
 }
 
 CATEGORY_REQUIRED_TERMS = {
@@ -163,6 +239,10 @@ CATEGORY_REQUIRED_TERMS = {
     "nlp": ("natural language", "nlp", "text generation", "speech recognition", "language understanding"),
     "vlm": ("vision-language", "vision language", "multimodal", "visual language", "vlm"),
     "computer-vision": ("computer vision", "autonomous driving", "perception", "lidar", "simulation"),
+    "arxiv-explainability-av": ("explainab", "interpretab", "xai", "transparent"),
+    "arxiv-llm-vlm-av": ("large language model", "llm", "vision-language", "vlm", "multimodal", "foundation model", "language model"),
+    "journal-explainability-av": ("explainab", "interpretab", "xai", "transparent", "trust"),
+    "journal-llm-vlm-av": ("large language model", "llm", "vision-language", "vlm", "multimodal", "language model", "gpt"),
 }
 
 BLOCKED_SOURCE_TERMS = (
@@ -194,6 +274,8 @@ BLOCKED_SOURCE_TERMS = (
 )
 
 ALLOWED_SOURCE_NAMES = {
+    # Academic preprint servers
+    "arxiv",
     # Wire services & general news (free)
     "reuters",
     "associated press",
@@ -388,24 +470,25 @@ def score_item(title: str, summary: str, category: str) -> int:
     for term, weight in IMPORTANT_TERMS.items():
         if term in haystack:
             score += weight
-    if category in {"automated-vehicles", "vlm", "llm"}:
+    if category in {"automated-vehicles", "vlm", "llm", "arxiv-explainability-av", "arxiv-llm-vlm-av", "journal-explainability-av", "journal-llm-vlm-av"}:
         score += 8
     if category == "nlp":
         score += 5
     return min(score, 99)
 
 
-def is_relevant(title: str, summary: str, source: str, category: str) -> bool:
+def is_relevant(title: str, summary: str, source: str, category: str, *, skip_source_check: bool = False) -> bool:
     haystack = f"{title} {summary}".lower()
-    source_text = source.lower()
-    source_key = re.sub(r"\s+", " ", source_text.strip())
-    source_key = source_key.removesuffix(".com").removesuffix(".org").removesuffix(".net")
-    if source_key not in ALLOWED_SOURCE_NAMES:
-        return False
-    if "reutersconnect" in source_text or "not a tesla app" in source_text:
-        return False
-    if any(term in source_text for term in BLOCKED_SOURCE_TERMS):
-        return False
+    if not skip_source_check:
+        source_text = source.lower()
+        source_key = re.sub(r"\s+", " ", source_text.strip())
+        source_key = source_key.removesuffix(".com").removesuffix(".org").removesuffix(".net")
+        if source_key not in ALLOWED_SOURCE_NAMES:
+            return False
+        if "reutersconnect" in source_text or "not a tesla app" in source_text:
+            return False
+        if any(term in source_text for term in BLOCKED_SOURCE_TERMS):
+            return False
     if any(term in haystack for term in BLOCKED_TITLE_TERMS):
         return False
     return any(term in haystack for term in CATEGORY_REQUIRED_TERMS.get(category, ()))
@@ -606,6 +689,140 @@ def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
     return items
 
 
+def fetch_arxiv(feed: AcademicFeed, max_results: int = 15, max_days: int = 30) -> list[dict]:
+    ATOM_NS = "http://www.w3.org/2005/Atom"
+    params = {
+        "search_query": feed.query,
+        "start": 0,
+        "max_results": max_results,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+    }
+    url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(params)
+    try:
+        payload = fetch(url)
+        root = ET.fromstring(payload)
+    except Exception as exc:
+        print(f"warning: arXiv fetch failed ({feed.category}): {exc}", file=sys.stderr)
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
+    items = []
+    for entry in root.findall(f"{{{ATOM_NS}}}entry"):
+        title_el = entry.find(f"{{{ATOM_NS}}}title")
+        summary_el = entry.find(f"{{{ATOM_NS}}}summary")
+        published_el = entry.find(f"{{{ATOM_NS}}}published")
+        id_el = entry.find(f"{{{ATOM_NS}}}id")
+        if title_el is None or id_el is None:
+            continue
+        title = clean_text(title_el.text, 200).replace("\n", " ").strip()
+        abstract = clean_text(summary_el.text if summary_el is not None else "", 800).replace("\n", " ").strip()
+        arxiv_url = (id_el.text or "").strip().replace("http://", "https://")
+        if not title or not arxiv_url:
+            continue
+        try:
+            pub_str = published_el.text if published_el is not None else None
+            if pub_str:
+                pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                if pub_dt.tzinfo is None:
+                    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                if pub_dt < cutoff:
+                    continue
+                published = pub_dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+            else:
+                published = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        except (ValueError, TypeError):
+            published = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        items.append({
+            "title": title,
+            "topic": title,
+            "url": arxiv_url,
+            "source": "arXiv",
+            "published": published,
+            "category": feed.category,
+            "summary": abstract[:400] if abstract else title,
+            "abstract": abstract or title,
+            "score": score_item(title, abstract, feed.category),
+            "article_text": abstract,
+        })
+    return items
+
+
+def fetch_semantic_scholar(feed: AcademicFeed, max_results: int = 20, max_days: int = 180) -> list[dict]:
+    params = {
+        "query": feed.query,
+        "fields": "title,abstract,venue,year,publicationDate,externalIds,openAccessPdf",
+        "limit": min(max_results, 100),
+    }
+    url = "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode(params)
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "AshkanWebsiteNewsBot/1.0; +https://ashkan-zadeh.github.io/"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+    except Exception as exc:
+        print(f"warning: Semantic Scholar fetch failed ({feed.category}): {exc}", file=sys.stderr)
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
+    items = []
+    for paper in data.get("data", []):
+        title = clean_text(paper.get("title") or "", 200)
+        abstract = clean_text(paper.get("abstract") or "", 800)
+        venue = (paper.get("venue") or "").strip()
+        pub_date = paper.get("publicationDate") or ""
+        year = paper.get("year")
+        if not title:
+            continue
+        # Filter by venue
+        if feed.venue_filter:
+            venue_lower = venue.lower()
+            if not any(j.lower() in venue_lower or venue_lower in j.lower() for j in feed.venue_filter):
+                continue
+        # Build accessible URL
+        ext_ids = paper.get("externalIds") or {}
+        arxiv_id = ext_ids.get("ArXiv", "")
+        doi = ext_ids.get("DOI", "")
+        open_pdf = (paper.get("openAccessPdf") or {}).get("url", "")
+        if arxiv_id:
+            paper_url = f"https://arxiv.org/abs/{arxiv_id}"
+        elif open_pdf:
+            paper_url = open_pdf
+        elif doi:
+            paper_url = f"https://doi.org/{doi}"
+        else:
+            continue
+        # Parse date
+        try:
+            if pub_date:
+                pub_dt = datetime.fromisoformat(pub_date).replace(tzinfo=timezone.utc)
+            elif year:
+                pub_dt = datetime(int(year), 6, 1, tzinfo=timezone.utc)
+            else:
+                pub_dt = datetime.now(timezone.utc)
+            if pub_dt < cutoff:
+                continue
+            published = pub_dt.isoformat().replace("+00:00", "Z")
+        except (ValueError, TypeError):
+            published = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        source = venue if venue else "Academic Journal"
+        items.append({
+            "title": title,
+            "topic": title,
+            "url": paper_url,
+            "source": source,
+            "published": published,
+            "category": feed.category,
+            "summary": abstract[:400] if abstract else title,
+            "abstract": abstract or title,
+            "score": score_item(title, abstract, feed.category),
+            "article_text": abstract,
+        })
+    return items
+
+
 def apply_recency_filter(items: list[dict], max_days: int) -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_days)
     return [
@@ -767,6 +984,7 @@ def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
 def build_news() -> dict:
     seen: set[str] = set()
     collected: list[dict] = []
+    all_feeds: list[Feed | AcademicFeed] = list(FEEDS) + list(ARXIV_FEEDS) + list(SEMANTIC_SCHOLAR_FEEDS)
 
     for feed in FEEDS:
         try:
@@ -784,20 +1002,51 @@ def build_news() -> dict:
             collected.append(item)
         time.sleep(0.25)
 
+    # Fetch arXiv papers
+    for feed in ARXIV_FEEDS:
+        arxiv_items = fetch_arxiv(feed)
+        for item in arxiv_items:
+            key = re.sub(r"\W+", "", item["title"].lower())[:96]
+            if key in seen:
+                continue
+            seen.add(key)
+            if is_relevant(item["title"], item["summary"], item["source"], item["category"], skip_source_check=True):
+                collected.append(item)
+        time.sleep(3)  # arXiv requests a polite delay
+
+    # Fetch Semantic Scholar journal papers
+    for feed in SEMANTIC_SCHOLAR_FEEDS:
+        ss_items = fetch_semantic_scholar(feed)
+        for item in ss_items:
+            key = re.sub(r"\W+", "", item["title"].lower())[:96]
+            if key in seen:
+                continue
+            seen.add(key)
+            if is_relevant(item["title"], item["summary"], item["source"], item["category"], skip_source_check=True):
+                collected.append(item)
+        time.sleep(1)
+
     # Cascading recency filter: 14 days → 30 days → 60 days → all
-    recent = collected
+    # Academic items have longer windows so filter only news items for recency
+    news_items = [i for i in collected if i["category"] in {f.category for f in FEEDS}]
+    academic_items = [i for i in collected if i["category"] not in {f.category for f in FEEDS}]
+
+    recent_news = news_items
     for threshold in RECENCY_THRESHOLDS_DAYS:
-        filtered = apply_recency_filter(collected, threshold)
+        filtered = apply_recency_filter(news_items, threshold)
         if len(filtered) >= MIN_ITEMS_BEFORE_FALLBACK:
-            recent = filtered
-            print(f"Recency filter: {len(recent)} items within {threshold} days", file=sys.stderr)
+            recent_news = filtered
+            print(f"Recency filter: {len(recent_news)} news items within {threshold} days", file=sys.stderr)
             break
     else:
         print(
-            f"warning: fewer than {MIN_ITEMS_BEFORE_FALLBACK} items within {RECENCY_THRESHOLDS_DAYS[-1]} days;"
-            f" using all {len(recent)} collected items",
+            f"warning: fewer than {MIN_ITEMS_BEFORE_FALLBACK} news items within {RECENCY_THRESHOLDS_DAYS[-1]} days;"
+            f" using all {len(recent_news)} collected news items",
             file=sys.stderr,
         )
+
+    recent = recent_news + academic_items
+    print(f"Total candidates: {len(recent)} ({len(academic_items)} academic)", file=sys.stderr)
 
     # Balance across categories and feed top candidates to the LLM
     recent.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
@@ -806,15 +1055,17 @@ def build_news() -> dict:
         by_category.setdefault(item["category"], []).append(item)
 
     candidates: list[dict] = []
-    for feed in FEEDS:
+    for feed in all_feeds:
         candidates.extend(by_category.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
     candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
     candidates = candidates[:LLM_CANDIDATE_LIMIT]
 
-    # Fetch real article text for every candidate so the LLM (and fallback)
-    # can write summaries based on actual content, not just titles.
+    # Fetch real article text for news candidates; academic items already have abstract pre-filled.
     print(f"Fetching article text for {len(candidates)} candidates...", file=sys.stderr)
     for item in candidates:
+        if item.get("article_text"):
+            print(f"  ok  {item['title'][:60]} (abstract)", file=sys.stderr)
+            continue
         text = fetch_article_text(item["url"])
         item["article_text"] = text
         if text:
@@ -832,7 +1083,7 @@ def build_news() -> dict:
             by_category_final.setdefault(item["category"], []).append(item)
 
         final_items = []
-        for feed in FEEDS:
+        for feed in all_feeds:
             final_items.extend(by_category_final.get(feed.category, [])[:MAX_PER_CATEGORY])
         final_items.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
         final_items = final_items[:MAX_ITEMS]
