@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-05T00:35:14.553577Z",
+  "updated_at": "2026-06-05T00:42:54.755631Z",
   "items": [
+    {
+      "title": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
+      "topic": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ3lEdmlvOHhFdTlRdVJUQ0o5SHJlV0pVTWtQRHBGX2RLSDZ4M2c1cktSREp4RVZIeXdtYlhJbWR6Zjc5QVFXX0ZicVVrOUVHbHR1Y1MtaVdEcnRXdmJPVVV3WlNfRDFsMWpnZk9yYkdWU0Q3bDMwQUxoVEllMHd2TUZmSGJ6WURoMTFIUWROdEEyZ1lWQmxKVDJLc0NoNnh5YUFNVGhxNkZxbHpMRF9RNnAtN0JzQQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-04T03:53:00Z",
+      "category": "ai",
+      "summary": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
+      "abstract": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
+      "score": 55
+    },
     {
       "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
       "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
@@ -33,6 +44,17 @@
       "summary": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
       "abstract": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
       "score": 95
+    },
+    {
+      "title": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
+      "topic": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOblFmdW1oR0d3RW1jVEswSVN1NFVHLXdELTMyRXp2TDNPTG1MdExqRUlJZUJ3TmRBbVRRdDRSdHNvNGtXamQtRHJZYWdvVGhNZl9yVnczOGtxVU9fWmNHY2dfVS1veldFOHRWbDZjc3RyQ1VNNFZMVUFlR3V5UFpzb1VnUFJsajBaWVZGdWxuTU84WGJCcmtQcWx1T01Cb3pFWE1FczFiekNJVXpWVDV3ZEhLamk?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-06-02T21:05:04Z",
+      "category": "ai",
+      "summary": "Microsoft is addressing legal concerns to promote its powerful new AI model to businesses. The company is emphasizing the model's compliance with data privacy and ethical standards, which is crucial for gaining trust and adoption in industries like autonomous vehicles.",
+      "abstract": "Microsoft is addressing legal concerns to promote its powerful new AI model to businesses. The company is emphasizing the model's compliance with data privacy and ethical standards, which is crucial for gaining trust and adoption in industries like autonomous vehicles.",
+      "score": 50
     },
     {
       "title": "Inside Tesla's self-driving machine",

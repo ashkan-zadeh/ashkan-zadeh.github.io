@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T00:35:14.552479Z",
+  "generated_at": "2026-06-05T00:42:54.754448Z",
   "items": [
     {
       "title": "Waymo Takes Its Self-Driving Cars to Virginia",
@@ -8,20 +8,9 @@
       "source": "WIRED",
       "published": "2026-05-27T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to deploy autonomous vehicles in new regions. This move aims to gather more real-world data and improve the robustness of Waymo's autonomous driving systems.",
-      "abstract": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to deploy autonomous vehicles in new regions. This move aims to gather more real-world data and improve the robustness of Waymo's autonomous driving systems.",
+      "summary": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to broaden its autonomous vehicle testing and deployment. This move underscores Waymo's commitment to advancing AV technology in diverse environments, which is crucial for improving the robustness and reliability of its systems.",
+      "abstract": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to broaden its autonomous vehicle testing and deployment. This move underscores Waymo's commitment to advancing AV technology in diverse environments, which is crucial for improving the robustness and reliability of its systems.",
       "score": 95
-    },
-    {
-      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
-      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
-      "source": "Reuters",
-      "published": "2026-05-28T10:27:30Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's AI trainers have expressed significant doubts about the safety and reliability of the company's Full Self-Driving (FSD) technology. Internal concerns include the system's performance in complex scenarios and the accuracy of its safety statistics, raising questions about the readiness of FSD for widespread deployment.",
-      "abstract": "Tesla's AI trainers have expressed significant doubts about the safety and reliability of the company's Full Self-Driving (FSD) technology. Internal concerns include the system's performance in complex scenarios and the accuracy of its safety statistics, raising questions about the readiness of FSD for widespread deployment.",
-      "score": 90
     },
     {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
@@ -30,20 +19,9 @@
       "source": "NVIDIA Newsroom",
       "published": "2026-06-01T04:50:49Z",
       "category": "llm",
-      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing research in areas like robotics and autonomous vehicles. This model is designed to improve the understanding and interaction of AI systems with the physical world, enhancing the capabilities of autonomous driving systems.",
-      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing research in areas like robotics and autonomous vehicles. This model is designed to improve the understanding and interaction of AI systems with the physical world, enhancing the capabilities of autonomous driving systems.",
-      "score": 85
-    },
-    {
-      "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
-      "topic": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI | NVIDIA Technical Blog",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONjFXbWRLd1pmR1hTWVV5cVlPY01xTWpTNmNfUUhkUExqdHlxUUhiczJoNEYyWjRXeW1PV2RKaG1iRWNvQlAxX1RQV1d1NnJObGljbWRrVFNwQU1jZ0xUTFdFLWgzdGZDLWh0bDhvZzhiY1RXZ3pTQi1hVmwyRGV0Q1JKczJWek9HQXNJOTBMbDJ2eWFSMTFTeko2S1lVaWYtX1FHbl9MSQ?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2026-05-29T00:08:03Z",
-      "category": "vlm",
-      "summary": "NVIDIA has detailed how to run Step 3.7 Flash on NVIDIA GPUs, enabling enterprise-ready multimodal AI applications. This advancement is crucial for integrating advanced AI models into autonomous vehicle systems, enhancing perception and decision-making capabilities.",
-      "abstract": "NVIDIA has detailed how to run Step 3.7 Flash on NVIDIA GPUs, enabling enterprise-ready multimodal AI applications. This advancement is crucial for integrating advanced AI models into autonomous vehicle systems, enhancing perception and decision-making capabilities.",
-      "score": 80
+      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing the capabilities of AI in understanding and interacting with the physical world. This model is designed to enhance the performance of AI systems in various applications, including autonomous driving, robotics, and simulation.",
+      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, aimed at advancing the capabilities of AI in understanding and interacting with the physical world. This model is designed to enhance the performance of AI systems in various applications, including autonomous driving, robotics, and simulation.",
+      "score": 90
     },
     {
       "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
@@ -52,8 +30,30 @@
       "source": "WIRED",
       "published": "2026-05-27T07:00:00Z",
       "category": "ai",
-      "summary": "Illinois lawmakers have passed a bill that is being hailed as the strongest AI safety legislation in the United States. The bill includes stringent regulations on AI development and deployment, particularly in areas like autonomous vehicles, to ensure public safety and ethical standards.",
-      "abstract": "Illinois lawmakers have passed a bill that is being hailed as the strongest AI safety legislation in the United States. The bill includes stringent regulations on AI development and deployment, particularly in areas like autonomous vehicles, to ensure public safety and ethical standards.",
+      "summary": "Illinois lawmakers have passed a comprehensive AI safety bill, setting a new standard for AI regulation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which are particularly relevant for the development and deployment of autonomous vehicles.",
+      "abstract": "Illinois lawmakers have passed a comprehensive AI safety bill, setting a new standard for AI regulation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which are particularly relevant for the development and deployment of autonomous vehicles.",
+      "score": 85
+    },
+    {
+      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-28T10:27:30Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's AI trainers have expressed significant doubts about the safety and reliability of the company's Full Self-Driving (FSD) technology. Internal concerns highlight issues with the system's perception and decision-making capabilities, raising questions about the readiness of FSD for widespread deployment.",
+      "abstract": "Tesla's AI trainers have expressed significant doubts about the safety and reliability of the company's Full Self-Driving (FSD) technology. Internal concerns highlight issues with the system's perception and decision-making capabilities, raising questions about the readiness of FSD for widespread deployment.",
+      "score": 80
+    },
+    {
+      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-02T13:51:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has patented a camera wiper system designed to improve the performance of its self-driving technology in adverse weather conditions. However, this development has further fueled skepticism among FSD owners, who are already concerned about the system's reliability and safety.",
+      "abstract": "Tesla has patented a camera wiper system designed to improve the performance of its self-driving technology in adverse weather conditions. However, this development has further fueled skepticism among FSD owners, who are already concerned about the system's reliability and safety.",
       "score": 75
     },
     {
@@ -63,20 +63,9 @@
       "source": "Reuters",
       "published": "2026-06-03T19:24:00Z",
       "category": "automated-vehicles",
-      "summary": "Uber is reportedly committing nearly $500 million to the self-driving startup Nuro, signaling a significant investment in autonomous delivery technology. This partnership aims to accelerate the development and deployment of self-driving vehicles for logistics and delivery services.",
-      "abstract": "Uber is reportedly committing nearly $500 million to the self-driving startup Nuro, signaling a significant investment in autonomous delivery technology. This partnership aims to accelerate the development and deployment of self-driving vehicles for logistics and delivery services.",
+      "summary": "Uber has committed nearly $500 million to Nuro, a self-driving startup, signaling a significant investment in the development of autonomous delivery vehicles. This partnership aims to accelerate the deployment of Nuro's technology and expand its presence in the autonomous vehicle market.",
+      "abstract": "Uber has committed nearly $500 million to Nuro, a self-driving startup, signaling a significant investment in the development of autonomous delivery vehicles. This partnership aims to accelerate the deployment of Nuro's technology and expand its presence in the autonomous vehicle market.",
       "score": 70
-    },
-    {
-      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-02T13:51:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has patented a camera wiper system designed to improve the performance of its Full Self-Driving (FSD) technology in adverse weather conditions. This innovation aims to enhance the reliability and safety of FSD by ensuring clear camera vision, but it has also led to increased skepticism among FSD owners.",
-      "abstract": "Tesla has patented a camera wiper system designed to improve the performance of its Full Self-Driving (FSD) technology in adverse weather conditions. This innovation aims to enhance the reliability and safety of FSD by ensuring clear camera vision, but it has also led to increased skepticism among FSD owners.",
-      "score": 65
     },
     {
       "title": "Inside Tesla's self-driving machine",
@@ -85,9 +74,9 @@
       "source": "Reuters",
       "published": "2026-06-02T16:34:00Z",
       "category": "automated-vehicles",
-      "summary": "A detailed look inside Tesla's self-driving machine reveals the complex architecture and algorithms that power the company's Full Self-Driving (FSD) technology. The system integrates multiple sensors and advanced AI models to navigate various driving scenarios, but internal concerns about its reliability persist.",
-      "abstract": "A detailed look inside Tesla's self-driving machine reveals the complex architecture and algorithms that power the company's Full Self-Driving (FSD) technology. The system integrates multiple sensors and advanced AI models to navigate various driving scenarios, but internal concerns about its reliability persist.",
-      "score": 60
+      "summary": "Reuters provides an in-depth look at Tesla's self-driving machine, detailing the company's approach to developing and deploying its Full Self-Driving (FSD) technology. The article highlights the technical challenges and internal debates surrounding the system's capabilities and safety.",
+      "abstract": "Reuters provides an in-depth look at Tesla's self-driving machine, detailing the company's approach to developing and deploying its Full Self-Driving (FSD) technology. The article highlights the technical challenges and internal debates surrounding the system's capabilities and safety.",
+      "score": 65
     },
     {
       "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
@@ -96,19 +85,30 @@
       "source": "Reuters",
       "published": "2026-06-03T20:03:30Z",
       "category": "ai",
-      "summary": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers against requiring AI model approvals, arguing that such regulations could stifle innovation. This stance highlights the ongoing debate between regulatory oversight and the rapid advancement of AI technologies, including those used in autonomous vehicles.",
-      "abstract": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers against requiring AI model approvals, arguing that such regulations could stifle innovation. This stance highlights the ongoing debate between regulatory oversight and the rapid advancement of AI technologies, including those used in autonomous vehicles.",
+      "summary": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers against requiring pre-market approval for AI models. This stance reflects the tech industry's push for a more flexible regulatory environment, which could impact the development and deployment of AI in autonomous vehicles.",
+      "abstract": "OpenAI CEO Sam Altman is set to urge U.S. lawmakers against requiring pre-market approval for AI models. This stance reflects the tech industry's push for a more flexible regulatory environment, which could impact the development and deployment of AI in autonomous vehicles.",
+      "score": 60
+    },
+    {
+      "title": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
+      "topic": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ3lEdmlvOHhFdTlRdVJUQ0o5SHJlV0pVTWtQRHBGX2RLSDZ4M2c1cktSREp4RVZIeXdtYlhJbWR6Zjc5QVFXX0ZicVVrOUVHbHR1Y1MtaVdEcnRXdmJPVVV3WlNfRDFsMWpnZk9yYkdWU0Q3bDMwQUxoVEllMHd2TUZmSGJ6WURoMTFIUWROdEEyZ1lWQmxKVDJLc0NoNnh5YUFNVGhxNkZxbHpMRF9RNnAtN0JzQQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-04T03:53:00Z",
+      "category": "ai",
+      "summary": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
+      "abstract": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
       "score": 55
     },
     {
-      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
-      "topic": "The Trump Administration Is at War With Itself Over AI Regulation",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdktTNVVYRWc1dUU2VU5VLUJTR0t2bmFQVUo4bkM2YXJ0bG1XcS1kWGI5X3dXUkdrXy15R29OOXNWUWY1djNmN051TDlUSjFpTmZVWEp1THFRVnlCMUU1MmJFbUNLLXJqc1BVVll4Mi1QVzFWbzV6VWpPQVp0SU92T3BhVmZJRUFzTW1ZZE1B?oc=5",
-      "source": "WIRED",
-      "published": "2026-06-02T09:30:00Z",
+      "title": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
+      "topic": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOblFmdW1oR0d3RW1jVEswSVN1NFVHLXdELTMyRXp2TDNPTG1MdExqRUlJZUJ3TmRBbVRRdDRSdHNvNGtXamQtRHJZYWdvVGhNZl9yVnczOGtxVU9fWmNHY2dfVS1veldFOHRWbDZjc3RyQ1VNNFZMVUFlR3V5UFpzb1VnUFJsajBaWVZGdWxuTU84WGJCcmtQcWx1T01Cb3pFWE1FczFiekNJVXpWVDV3ZEhLamk?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-06-02T21:05:04Z",
       "category": "ai",
-      "summary": "The Trump administration is facing internal conflicts over AI regulation, with different agencies advocating for varying levels of oversight. This discord reflects the broader challenges in balancing the benefits of AI, such as in autonomous vehicles, with the need for safety and ethical standards.",
-      "abstract": "The Trump administration is facing internal conflicts over AI regulation, with different agencies advocating for varying levels of oversight. This discord reflects the broader challenges in balancing the benefits of AI, such as in autonomous vehicles, with the need for safety and ethical standards.",
+      "summary": "Microsoft is addressing legal concerns to promote its powerful new AI model to businesses. The company is emphasizing the model's compliance with data privacy and ethical standards, which is crucial for gaining trust and adoption in industries like autonomous vehicles.",
+      "abstract": "Microsoft is addressing legal concerns to promote its powerful new AI model to businesses. The company is emphasizing the model's compliance with data privacy and ethical standards, which is crucial for gaining trust and adoption in industries like autonomous vehicles.",
       "score": 50
     }
   ]
