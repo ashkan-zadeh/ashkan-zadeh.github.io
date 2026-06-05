@@ -33,7 +33,9 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 JS_OUTPUT = ROOT / "data" / "news.js"
 ARCHIVE_OUTPUT = ROOT / "data" / "news-archive.json"
-MAX_ITEMS = 10
+NEWS_QUOTA = 7       # industry/news items in final feed
+ACADEMIC_QUOTA = 3   # academic (arXiv + journal) items in final feed
+MAX_ITEMS = NEWS_QUOTA + ACADEMIC_QUOTA
 MAX_PER_CATEGORY = 3
 LLM_CANDIDATE_LIMIT = 30
 
@@ -44,7 +46,6 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 # Cascading recency thresholds: prefer 14 days, fall back to 30, then 60
 RECENCY_THRESHOLDS_DAYS = [14, 30, 60]
 MIN_ITEMS_BEFORE_FALLBACK = 5
-MIN_ACADEMIC_ITEMS = 3  # guaranteed slots for arXiv / journal papers in final output
 
 
 @dataclass(frozen=True)
@@ -851,7 +852,7 @@ def apply_recency_filter(items: list[dict], max_days: int) -> list[dict]:
     ]
 
 
-def _build_llm_prompt(candidates: list[dict]) -> str:
+def _build_llm_prompt(candidates: list[dict], n: int, mode: str = "news") -> str:
     candidate_lines: list[str] = []
     for i, item in enumerate(candidates):
         pub = item["published"][:10]
@@ -863,16 +864,33 @@ def _build_llm_prompt(candidates: list[dict]) -> str:
             f"    CONTENT: {content}"
         )
 
+    if mode == "academic":
+        task = (
+            f"TASK: From the academic papers below, select the {n} most relevant and recent, "
+            f"and write a specific, factual abstract for each.\n\n"
+            "SELECTION PRIORITY (highest first):\n"
+            "1. Papers on explainability / interpretability / XAI applied to autonomous or automated vehicles\n"
+            "2. LLMs or VLMs applied to autonomous driving, scene understanding, or human-vehicle interaction\n"
+            "3. User-centred or behavioural studies on AV trust, acceptance, or explainability\n"
+            "4. Computer vision / perception / sensor fusion advances for AVs\n"
+            "5. Foundational AI / NLP / multimodal model papers with direct AV relevance\n\n"
+            "Prefer the most recently published papers. Exclude papers with no clear AV relevance."
+        )
+    else:
+        task = (
+            f"TASK: From the industry articles below, select the {n} most newsworthy and write a specific, factual abstract for each.\n\n"
+            "SELECTION PRIORITY (highest first):\n"
+            "1. Real-world AV/robotaxi deployments (Waymo, Tesla FSD, Aurora, Cruise, Mobileye, Zoox, NVIDIA DRIVE)\n"
+            "2. VLMs or LLMs applied to autonomous driving, perception, or explainability\n"
+            "3. Computer vision / sensor fusion breakthroughs for AVs\n"
+            "4. AI safety or regulation with direct AV relevance\n"
+            "5. Foundational AI model releases (LLMs, VLMs) relevant to AV research\n\n"
+            "Prefer articles from the last 7 days. Deprioritise financial/stock news, press releases, and clickbait."
+        )
+
     return f"""You are a senior research curator for an autonomous-vehicles (AV) and AI academic website.
 
-TASK: From the articles below, select the {MAX_ITEMS} most newsworthy and write a specific, factual abstract for each.
-
-SELECTION PRIORITY (highest first):
-1. Real-world AV/robotaxi deployments (Waymo, Tesla FSD, Aurora, Cruise, Mobileye, Zoox, NVIDIA DRIVE)
-2. VLMs or LLMs applied to autonomous driving, perception, or explainability
-3. Computer vision / sensor fusion breakthroughs for AVs
-4. AI safety or regulation with direct AV relevance
-5. Foundational AI model releases (LLMs, VLMs) relevant to AV research
+{task}
 
 STRICT ABSTRACT RULES — follow every rule:
 1. CHAIN OF THOUGHT: Before writing each abstract, silently identify:
@@ -883,9 +901,8 @@ STRICT ABSTRACT RULES — follow every rule:
 2. Write 3-4 sentences using ONLY facts from (a)-(d).
 3. DO NOT repeat or rephrase the headline. The reader has already seen the title. Start sentence 1 with new context or the key fact behind the headline.
 4. NEVER use vague filler: forbidden phrases include "a company announced", "researchers reported", "a new development", "has been introduced", "has been reported", "a major operator".
-5. ALWAYS name the specific company/person/model in sentence 1 (e.g. "Waymo", "Tesla FSD v14", "NVIDIA Cosmos 3", "Illinois HB 3773").
-6. If CONTENT is "[headline only]", provide the essential context behind the headline — what it implies, why it matters — without inventing specific facts. Do not start by restating the headline.
-7. Prefer articles from the last 7 days. Deprioritise financial/stock news, press releases, and clickbait.
+5. ALWAYS name the specific company/person/model/journal in sentence 1.
+6. If CONTENT is "[headline only]", provide the essential context behind the headline without inventing specific facts.
 
 OUTPUT: Return ONLY a valid JSON array — no markdown fences, no extra text:
 [
@@ -962,7 +979,7 @@ def _call_llm(prompt: str, provider: str) -> str:
     raise ValueError(f"Unknown provider: {provider}")
 
 
-def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
+def curate_with_llm(candidates: list[dict], n: int, mode: str = "news") -> list[dict] | None:
     """Try Gemini → Groq → HF in order; return curated list or None."""
     providers = [
         ("gemini", "GEMINI_API_KEY", "google-generativeai"),
@@ -970,7 +987,7 @@ def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
         ("hf",     "HF_TOKEN",        "huggingface_hub"),
     ]
 
-    prompt = _build_llm_prompt(candidates)
+    prompt = _build_llm_prompt(candidates, n=n, mode=mode)
 
     for provider, env_key, pkg in providers:
         if not os.environ.get(env_key):
@@ -985,19 +1002,18 @@ def curate_with_llm(candidates: list[dict]) -> list[dict] | None:
             curated = _parse_llm_response(raw, candidates)
             if curated:
                 print(
-                    f"{provider.upper()} selected {len(curated)} items "
-                    f"from {len(candidates)} candidates",
+                    f"{provider.upper()} [{mode}] selected {len(curated)} from {len(candidates)} candidates",
                     file=sys.stderr,
                 )
-                return curated[:MAX_ITEMS]
-            print(f"warning: {provider} returned empty selection", file=sys.stderr)
+                return curated[:n]
+            print(f"warning: {provider} [{mode}] returned empty selection", file=sys.stderr)
         except Exception as exc:
             print(
-                f"warning: {provider} curation failed ({type(exc).__name__}: {exc}); trying next",
+                f"warning: {provider} [{mode}] curation failed ({type(exc).__name__}: {exc}); trying next",
                 file=sys.stderr,
             )
 
-    print("warning: all LLM providers failed or unavailable; using text fallback", file=sys.stderr)
+    print(f"warning: all LLM providers failed for [{mode}]; using text fallback", file=sys.stderr)
     return None
 
 
@@ -1065,26 +1081,26 @@ def build_news() -> dict:
             file=sys.stderr,
         )
 
-    recent = recent_news + academic_items
-    print(f"Total candidates: {len(recent)} ({len(academic_items)} academic)", file=sys.stderr)
+    academic_categories = {f.category for f in ARXIV_FEEDS} | {f.category for f in SEMANTIC_SCHOLAR_FEEDS}
+    news_categories = {f.category for f in FEEDS}
 
-    # Balance across categories and feed top candidates to the LLM
-    recent.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
-    by_category: dict[str, list[dict]] = {}
-    for item in recent:
-        by_category.setdefault(item["category"], []).append(item)
+    print(f"Collected: {len(recent_news)} news, {len(academic_items)} academic", file=sys.stderr)
 
-    candidates: list[dict] = []
-    for feed in all_feeds:
-        candidates.extend(by_category.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
-    candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
-    candidates = candidates[:LLM_CANDIDATE_LIMIT]
+    # ── NEWS pipeline (target: NEWS_QUOTA items) ─────────────────────────────
+    recent_news.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    by_cat_news: dict[str, list[dict]] = {}
+    for item in recent_news:
+        by_cat_news.setdefault(item["category"], []).append(item)
 
-    # Fetch real article text for news candidates; academic items already have abstract pre-filled.
-    print(f"Fetching article text for {len(candidates)} candidates...", file=sys.stderr)
-    for item in candidates:
+    news_candidates: list[dict] = []
+    for feed in FEEDS:
+        news_candidates.extend(by_cat_news.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
+    news_candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    news_candidates = news_candidates[:LLM_CANDIDATE_LIMIT]
+
+    print(f"Fetching article text for {len(news_candidates)} news candidates...", file=sys.stderr)
+    for item in news_candidates:
         if item.get("article_text"):
-            print(f"  ok  {item['title'][:60]} (abstract)", file=sys.stderr)
             continue
         text = fetch_article_text(item["url"])
         item["article_text"] = text
@@ -1094,53 +1110,45 @@ def build_news() -> dict:
             print(f"  --  {item['title'][:60]}", file=sys.stderr)
         time.sleep(0.5)
 
-    # LLM curation (requires HF_TOKEN); falls back to keyword scoring
-    final_items = curate_with_llm(candidates)
-
-    if not final_items:
-        by_category_final: dict[str, list[dict]] = {}
-        for item in candidates:
-            by_category_final.setdefault(item["category"], []).append(item)
-
-        final_items = []
-        for feed in all_feeds:
-            final_items.extend(by_category_final.get(feed.category, [])[:MAX_PER_CATEGORY])
-        final_items.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
-        final_items = final_items[:MAX_ITEMS]
-
-        # Use fetched article text as abstract when LLM is unavailable
-        for item in final_items:
+    news_final = curate_with_llm(news_candidates, n=NEWS_QUOTA, mode="news")
+    if not news_final:
+        by_cat_fb: dict[str, list[dict]] = {}
+        for item in news_candidates:
+            by_cat_fb.setdefault(item["category"], []).append(item)
+        news_final = []
+        for feed in FEEDS:
+            news_final.extend(by_cat_fb.get(feed.category, [])[:MAX_PER_CATEGORY])
+        news_final.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+        news_final = news_final[:NEWS_QUOTA]
+        for item in news_final:
             text = item.get("article_text", "").strip()
             if text:
                 item["abstract"] = leading_sentences(text, 3)
                 item["summary"] = item["abstract"]
 
-    # Guarantee minimum academic representation — top-scored academic items
-    # that the LLM may have skipped are injected, displacing the lowest-scoring
-    # news items if needed.
-    academic_categories = {f.category for f in ARXIV_FEEDS} | {f.category for f in SEMANTIC_SCHOLAR_FEEDS}
-    academic_in_final = sum(1 for i in final_items if i["category"] in academic_categories)
-    if academic_in_final < MIN_ACADEMIC_ITEMS:
-        selected_urls = {i["url"] for i in final_items}
-        extra = [
-            i for i in candidates
-            if i["category"] in academic_categories and i["url"] not in selected_urls
-        ]
-        extra.sort(key=lambda i: (i["score"], i["published"]), reverse=True)
-        needed = MIN_ACADEMIC_ITEMS - academic_in_final
-        added = extra[:needed]
-        if added:
-            # Make room by trimming lowest-scoring news items
-            non_academic = sorted(
-                [i for i in final_items if i["category"] not in academic_categories],
-                key=lambda i: (i["score"], i["published"]),
-                reverse=True,
-            )
-            academic_kept = [i for i in final_items if i["category"] in academic_categories]
-            slots = MAX_ITEMS - len(academic_kept) - len(added)
-            final_items = non_academic[:slots] + academic_kept + added
-            final_items.sort(key=lambda i: (i["score"], i["published"]), reverse=True)
-            print(f"Injected {len(added)} academic item(s) to meet MIN_ACADEMIC_ITEMS={MIN_ACADEMIC_ITEMS}", file=sys.stderr)
+    # ── ACADEMIC pipeline (target: ACADEMIC_QUOTA items) ─────────────────────
+    academic_items.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    by_cat_acad: dict[str, list[dict]] = {}
+    for item in academic_items:
+        by_cat_acad.setdefault(item["category"], []).append(item)
+
+    acad_candidates: list[dict] = []
+    for feed in list(ARXIV_FEEDS) + list(SEMANTIC_SCHOLAR_FEEDS):
+        acad_candidates.extend(by_cat_acad.get(feed.category, [])[:MAX_PER_CATEGORY * 2])
+    acad_candidates.sort(key=lambda item: (item["score"], item["published"]), reverse=True)
+    acad_candidates = acad_candidates[:LLM_CANDIDATE_LIMIT]
+
+    acad_final = curate_with_llm(acad_candidates, n=ACADEMIC_QUOTA, mode="academic") if acad_candidates else None
+    if not acad_final:
+        acad_final = acad_candidates[:ACADEMIC_QUOTA]
+        for item in acad_final:
+            text = item.get("article_text", "").strip()
+            if text:
+                item["abstract"] = leading_sentences(text, 3)
+                item["summary"] = item["abstract"]
+
+    print(f"Final: {len(news_final)} news + {len(acad_final)} academic", file=sys.stderr)
+    final_items = news_final + acad_final
 
     # Strip internal scaffolding fields before writing to JSON
     output_fields = {"title", "topic", "url", "source", "published", "category", "summary", "abstract", "score"}
