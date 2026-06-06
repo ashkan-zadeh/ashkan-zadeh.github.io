@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T10:18:59.552870Z",
+  "updated_at": "2026-06-06T08:48:48.177820Z",
   "items": [
     {
       "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
@@ -55,6 +55,17 @@
       "summary": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
       "abstract": "Tesla has expanded its Robotaxi service to the entire Austin metro area, but the fleet still consists of only about 20 vehicles. This limited deployment highlights the ongoing challenges in scaling autonomous vehicle services, despite Tesla's ambitious plans.",
       "score": 95
+    },
+    {
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "topic": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jRkxCNmpVM1doMjJ5YS13dkQyb0hKYnVFOWZKa1dKWjAtUHlOVGhGdmRObVBPSkJzb25NNF9HSEpGUnIzNnVwUjBIR19vTDgyTWRzNkZoRnNtdGtrVTdiSUVtLXFCLVpidmJQdmM3YWZLdV9PN0dYNg?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-06-03T15:06:08Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA has introduced new capabilities for physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are designed to enhance the performance and reliability of AI systems in real-world applications, addressing key challenges in perception, decision-making, and execution.",
+      "abstract": "NVIDIA has introduced new capabilities for physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are designed to enhance the performance and reliability of AI systems in real-world applications, addressing key challenges in perception, decision-making, and execution.",
+      "score": 70
     },
     {
       "title": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
@@ -154,6 +165,17 @@
       "summary": "Headline tracked from NVIDIA Newsroom as a recent LLM signal.",
       "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
       "score": 37
+    },
+    {
+      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
+      "topic": "How Cosmos 3 Helps Physical AI Think Before It Acts",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcmZUb01sN01FM1NibGYteVFoUW5aZllhMTduaWdOUzhxcjRFazIxMDVIcjVFeEUxMTFRemNNaGp1ekk4TmtuTUQ3a0dJUkFqd1dqNENDUG5yN1YxM3VrU0J4REhGdUhLMVkyckdaalpNWE11S1FDR095QUFQeDNLOFpqb0Vldw?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-06-01T04:45:43Z",
+      "category": "llm",
+      "summary": "NVIDIA has released a detailed blog post explaining how Cosmos 3, the company's latest foundation model for physical AI, can help AI systems think before they act. This advancement is crucial for improving the safety and reliability of autonomous vehicles and robotics by enabling more accurate and context-aware decision-making.",
+      "abstract": "NVIDIA has released a detailed blog post explaining how Cosmos 3, the company's latest foundation model for physical AI, can help AI systems think before they act. This advancement is crucial for improving the safety and reliability of autonomous vehicles and robotics by enabling more accurate and context-aware decision-making.",
+      "score": 85
     },
     {
       "title": "Tesla’s ‘Full Self-Driving’ fraud lawsuit gets first hearing in China — 10 owners seek $583K",
@@ -264,6 +286,17 @@
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
       "score": 50
+    },
+    {
+      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "topic": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "url": "https://arxiv.org/abs/2605.21446v2",
+      "source": "arXiv",
+      "published": "2026-05-20T17:34:02Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate Alpamayo R1 across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation (CoC) explanations change after perturbation, trajectory deviation spikes 5.3 times. This work is relevant for AV research as it highlights the importance of robustness and reliability in autonomous driving systems. The paper was published on May 20, 2026.",
+      "abstract": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate Alpamayo R1 across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation (CoC) explanations change after perturbation, trajectory deviation spikes 5.3 times. This work is relevant for AV research as it highlights the importance of robustness and reliability in autonomous driving systems. The paper was published on May 20, 2026.",
+      "score": 95
     },
     {
       "title": "Tesla’s Full Self-Driving software is creeping into Europe",
