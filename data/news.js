@@ -1,15 +1,15 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-07T09:42:16.667638Z",
+  "generated_at": "2026-06-08T11:23:22.778283Z",
   "items": [
     {
-      "title": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "topic": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SSU5lSVQzUDFtSUlWZ0xxU1VVc05fcnBzQ1EyMXNXRGlzUkt0UlRvdHZKQ0JlbndPdmFBc2tfTkJEWGhqdWNnMmd0OTNnWTh6U293Ymlpd0F5LWpHcTdGcDBsMWZrLTN2S3B1OUpXa29CeENWTXlHTG9ISWtVVHc?oc=5",
-      "source": "WIRED",
-      "published": "2026-05-27T07:00:00Z",
+      "title": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
+      "topic": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWl8tUHRWcDVqVGdyMDJDbDNnaG80aXZpZTlva0lEVXNlTVE2STZ6UDJES2pVQ252cGV0V3g4SzlPVzFOSGZtWE5wQ3ZNWG5ldHk1MlNRenFqMm5RXzJDdmpvWFJaQXloZUtpRjRwNmhucnh5LUFXMm9QUFN6UjlQQ1g0Zlo1X1V2SGhvN0E0a29UajVZMGhEQnlLSkI1WE9RSTdYVUtLMA?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-08T11:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to deploy its autonomous vehicles in new regions. This deployment includes a fleet of Waymo One robotaxis, which will operate in a limited area to gather data and improve the system's performance. The move underscores Waymo's commitment to expanding its autonomous vehicle services beyond its current markets.",
-      "abstract": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to deploy its autonomous vehicles in new regions. This deployment includes a fleet of Waymo One robotaxis, which will operate in a limited area to gather data and improve the system's performance. The move underscores Waymo's commitment to expanding its autonomous vehicle services beyond its current markets.",
+      "summary": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
+      "abstract": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
       "score": 95
     },
     {
@@ -19,8 +19,8 @@ window.NEWS_FEED = {
       "source": "NVIDIA Newsroom",
       "published": "2026-06-01T04:50:49Z",
       "category": "llm",
-      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, designed to enhance the capabilities of autonomous vehicles, robotics, and vision AI. Cosmos 3 is aimed at researchers and developers who need advanced AI models to simulate and understand complex physical interactions. The model is expected to accelerate research and development in physical AI, making it easier to create more sophisticated and reliable autonomous systems.",
-      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI, designed to enhance the capabilities of autonomous vehicles, robotics, and vision AI. Cosmos 3 is aimed at researchers and developers who need advanced AI models to simulate and understand complex physical interactions. The model is expected to accelerate research and development in physical AI, making it easier to create more sophisticated and reliable autonomous systems.",
+      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for Physical AI, designed to enhance the capabilities of autonomous vehicles, robotics, and vision AI. This model aims to improve the decision-making processes of AI systems by enabling them to think before they act, potentially leading to safer and more efficient autonomous systems.",
+      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for Physical AI, designed to enhance the capabilities of autonomous vehicles, robotics, and vision AI. This model aims to improve the decision-making processes of AI systems by enabling them to think before they act, potentially leading to safer and more efficient autonomous systems.",
       "score": 90
     },
     {
@@ -30,30 +30,19 @@ window.NEWS_FEED = {
       "source": "NVIDIA Blog",
       "published": "2026-06-01T04:45:43Z",
       "category": "llm",
-      "summary": "NVIDIA's Cosmos 3, the latest open-source foundation model for physical AI, is designed to help AI systems think before they act. This model integrates advanced reasoning capabilities to improve the decision-making processes of autonomous vehicles and robots. By enabling AI to better understand and predict physical interactions, Cosmos 3 aims to enhance safety and efficiency in real-world applications.",
-      "abstract": "NVIDIA's Cosmos 3, the latest open-source foundation model for physical AI, is designed to help AI systems think before they act. This model integrates advanced reasoning capabilities to improve the decision-making processes of autonomous vehicles and robots. By enabling AI to better understand and predict physical interactions, Cosmos 3 aims to enhance safety and efficiency in real-world applications.",
-      "score": 88
-    },
-    {
-      "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
-      "topic": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MXRJU2JRVkpqUjROR3dmTnJXNFd1TzBKNFdoalREbl80cEhIdzVFM3BubUpCX3dwVzlvWXVpa0MzdUhfakxnSkpFVjFkeXNBUlllcFh3eWdscGZnekNlZlpPblFSenEyVVFzOEpBZmxtRHMtQ3JublZDRQ?oc=5",
-      "source": "WIRED",
-      "published": "2026-05-27T07:00:00Z",
-      "category": "ai",
-      "summary": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, particularly in areas like autonomous vehicles and facial recognition. This legislation sets a precedent for other states and highlights the growing importance of regulating AI to ensure public safety and privacy.",
-      "abstract": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, particularly in areas like autonomous vehicles and facial recognition. This legislation sets a precedent for other states and highlights the growing importance of regulating AI to ensure public safety and privacy.",
+      "summary": "Illinois lawmakers have passed a bill that establishes some of the strongest AI safety regulations in the United States. The bill requires transparency, accountability, and ethical standards for AI systems, including those used in autonomous vehicles. This legislation is expected to set a precedent for AI regulation across the country.",
+      "abstract": "Illinois lawmakers have passed a bill that establishes some of the strongest AI safety regulations in the United States. The bill requires transparency, accountability, and ethical standards for AI systems, including those used in autonomous vehicles. This legislation is expected to set a precedent for AI regulation across the country.",
       "score": 85
     },
     {
-      "title": "Inside Tesla's self-driving machine",
-      "topic": "Inside Tesla's self-driving machine",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0NMaVZ4OWJ1eW0xV09LZWNFODR2cWxkbUxTdWowT0tiRVNKNWVlWXNzd0MxaF9xRGNLd05XZkZxeXJvcjJlcFZMS1RULTItZlhSX3htT2NFd3p1VWpPT1hzX3p1TGJkck0taWFrX2laTV9CazZpZ01nUmRwQ1JVWFlPVUlXME0tdHM1Y29Sajd6ajI1aG1GR2RucEJGcUh0bWc?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-02T16:34:00Z",
+      "title": "Waymo’s spent robotaxi batteries will be used as grid storage",
+      "topic": "Waymo’s spent robotaxi batteries will be used as grid storage",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTXRTQVJDeWY0Y3E5ZkVfZkVENTlxSHNjcG1NbEpzT1ZZbVpRaFY0Rm1TdzRZbmRuMTV3U3VjUnRzSUtmZFBpZHJnOXVRYzFUTno1YjkzMFZ6U1FaTUR2T2huZFV3WVk0NWVYS0VGWjRYY1hUTjdIbURpUk00aEx4OUUyc29qaVI3NzBTcTlRMENvOFFfbFJoMmdtNA?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-04T15:48:41Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has patented a camera wiper system for its self-driving vehicles, which is designed to keep the cameras clean and improve the reliability of its Full Self-Driving (FSD) system. The patent has raised doubts among FSD owners about the effectiveness and necessity of the feature, given the ongoing issues with the FSD system's performance in various weather conditions.",
-      "abstract": "Tesla has patented a camera wiper system for its self-driving vehicles, which is designed to keep the cameras clean and improve the reliability of its Full Self-Driving (FSD) system. The patent has raised doubts among FSD owners about the effectiveness and necessity of the feature, given the ongoing issues with the FSD system's performance in various weather conditions.",
+      "summary": "Waymo has announced plans to repurpose spent robotaxi batteries for grid storage, a move that could significantly reduce the environmental impact of its autonomous vehicle operations. This initiative aligns with Waymo's commitment to sustainability and efficient resource management.",
+      "abstract": "Waymo has announced plans to repurpose spent robotaxi batteries for grid storage, a move that could significantly reduce the environmental impact of its autonomous vehicle operations. This initiative aligns with Waymo's commitment to sustainability and efficient resource management.",
       "score": 80
     },
     {
@@ -63,20 +52,31 @@ window.NEWS_FEED = {
       "source": "NVIDIA Blog",
       "published": "2026-06-03T15:06:08Z",
       "category": "automated-vehicles",
-      "summary": "NVIDIA has introduced new capabilities for its physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are aimed at improving the performance and reliability of AI systems in real-world scenarios. The new features are expected to enhance the capabilities of autonomous vehicles and robots, making them more adaptable and efficient in dynamic environments.",
-      "abstract": "NVIDIA has introduced new capabilities for its physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are aimed at improving the performance and reliability of AI systems in real-world scenarios. The new features are expected to enhance the capabilities of autonomous vehicles and robots, making them more adaptable and efficient in dynamic environments.",
-      "score": 78
+      "summary": "NVIDIA has introduced new capabilities for multimodal AI on its GPUs, enabling more efficient and powerful physical AI research. These advancements are particularly relevant for autonomous vehicles, robotics, and vision AI, enhancing the performance and reliability of AI systems in real-world applications.",
+      "abstract": "NVIDIA has introduced new capabilities for multimodal AI on its GPUs, enabling more efficient and powerful physical AI research. These advancements are particularly relevant for autonomous vehicles, robotics, and vision AI, enhancing the performance and reliability of AI systems in real-world applications.",
+      "score": 75
     },
     {
-      "title": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "topic": "Tesla patents camera wiper for self-driving — resulting in more doubts for FSD owners",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVM4N0NKMDZSamJ5MWQ4alVITlhEcktBa0pHTHdhbkJ0akVDOGdhLTFMdTY2U3k2bFpiNlFmTGxhN3hBSUptaTU2NFFaWkRYVnRCRFVMX0RiY1g0QnlIczAwTWVZcTQtQ0VGNGFxbGhDOXloYV84X09za1RCbTZkV0pmY2lwaVk?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-02T13:51:00Z",
+      "title": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "topic": "Why Tesla’s AI trainers don’t trust its self-driving tech – or its safety stats",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazNhNXZBel83QzMtdXhOcE40QTlmUWZUX2tjbmlvXzNRODJVOHhqWFUxdHc4UzBsUkNXNUVfdURHWUVvOEJOWUFhWXFjQ3AwalBtQjVrVGpuZHVHTENhQkVXR2ltdFNGUmQzM056U19mMTJXbWlSTWZaT0Z3NGVtTGFtN09aS2V6TVNHZkNhQ2JWX1V4aXFvcXNwUm51VlljUk1taWtITm9oY0pRUVRUcnZBT2FjNzdHOFEwS1N6Q3gyYk8z?oc=5",
+      "source": "Reuters",
+      "published": "2026-05-28T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's self-driving technology and safety statistics have come under scrutiny, with internal documents revealing that AI trainers at the company have expressed concerns about the reliability and safety of the Full Self-Driving (FSD) system. The documents highlight issues with the system's performance and the company's safety claims, raising questions about the readiness of FSD for widespread deployment.",
-      "abstract": "Tesla's self-driving technology and safety statistics have come under scrutiny, with internal documents revealing that AI trainers at the company have expressed concerns about the reliability and safety of the Full Self-Driving (FSD) system. The documents highlight issues with the system's performance and the company's safety claims, raising questions about the readiness of FSD for widespread deployment.",
-      "score": 75
+      "summary": "Tesla's AI trainers have expressed concerns about the safety and reliability of the company's Full Self-Driving (FSD) technology. The trainers have reportedly raised issues with the system's performance and the company's safety statistics, highlighting the need for continued improvement and rigorous testing.",
+      "abstract": "Tesla's AI trainers have expressed concerns about the safety and reliability of the company's Full Self-Driving (FSD) technology. The trainers have reportedly raised issues with the system's performance and the company's safety statistics, highlighting the need for continued improvement and rigorous testing.",
+      "score": 70
+    },
+    {
+      "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "topic": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MXRJU2JRVkpqUjROR3dmTnJXNFd1TzBKNFdoalREbl80cEhIdzVFM3BubUpCX3dwVzlvWXVpa0MzdUhfakxnSkpFVjFkeXNBUlllcFh3eWdscGZnekNlZlpPblFSenEyVVFzOEpBZmxtRHMtQ3JublZDRQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-05-27T07:00:00Z",
+      "category": "ai",
+      "summary": "The Trump administration is facing internal conflicts over AI regulation, with different agencies and officials advocating for varying levels of oversight. This disagreement could impact the development and deployment of autonomous vehicle technologies, as regulatory clarity is crucial for industry progress.",
+      "abstract": "The Trump administration is facing internal conflicts over AI regulation, with different agencies and officials advocating for varying levels of oversight. This disagreement could impact the development and deployment of autonomous vehicle technologies, as regulatory clarity is crucial for industry progress.",
+      "score": 65
     },
     {
       "title": "Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment",
@@ -85,8 +85,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-05-15T15:47:01Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a Trustworthy AI perception module that integrates faithful explainability and calibrated uncertainty estimates, addressing the gap in concrete implementations of Trustworthy AI for 3D scene understanding. The proposed module builds on a transformer-based detector and derives explanation from the attention mechanism at inference time. The authors validate the faithfulness of the explanations using perturbation-based consistency tests. This work is relevant to autonomous driving as it aims to improve the safety and reliability of perception models. The paper was published on May 15, 2026.",
-      "abstract": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a Trustworthy AI perception module that integrates faithful explainability and calibrated uncertainty estimates, addressing the gap in concrete implementations of Trustworthy AI for 3D scene understanding. The proposed module builds on a transformer-based detector and derives explanation from the attention mechanism at inference time. The authors validate the faithfulness of the explanations using perturbation-based consistency tests. This work is relevant to autonomous driving as it aims to improve the safety and reliability of perception models. The paper was published on May 15, 2026.",
+      "summary": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a trustworthy AI perception module for autonomous driving, integrating faithful explainability and calibrated uncertainty estimates. The proposed module builds on a transformer-based detector and derives explanations from the attention mechanism at inference time. The authors validate the faithfulness of these explanations using perturbation-based consistency tests. This work addresses the gap in concrete implementations of trustworthy AI for 3D scene understanding, which is crucial for safety assurance and human oversight in autonomous vehicles.",
+      "abstract": "The arXiv paper 'Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment' presents a trustworthy AI perception module for autonomous driving, integrating faithful explainability and calibrated uncertainty estimates. The proposed module builds on a transformer-based detector and derives explanations from the attention mechanism at inference time. The authors validate the faithfulness of these explanations using perturbation-based consistency tests. This work addresses the gap in concrete implementations of trustworthy AI for 3D scene understanding, which is crucial for safety assurance and human oversight in autonomous vehicles.",
       "score": 98
     },
     {
@@ -96,8 +96,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-05-19T13:18:35Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the importance of temporal grounding in scene interpretation and planning for Autonomous Vehicles (AVs). The authors introduce three planner architectures with progressively increasing temporal integration and evaluate them on the BDD-X dataset. The results show that temporal conditioning can preserve or enhance coherence without introducing degradation in semantic or logical consistency. This work is relevant to AV research as it aims to improve the safety and efficiency of autonomous driving systems. The paper was published on May 19, 2026.",
-      "abstract": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the importance of temporal grounding in scene interpretation and planning for Autonomous Vehicles (AVs). The authors introduce three planner architectures with progressively increasing temporal integration and evaluate them on the BDD-X dataset. The results show that temporal conditioning can preserve or enhance coherence without introducing degradation in semantic or logical consistency. This work is relevant to AV research as it aims to improve the safety and efficiency of autonomous driving systems. The paper was published on May 19, 2026.",
+      "summary": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the importance of temporal grounding in scene interpretation and planning for autonomous vehicles. The authors introduce three planner architectures with increasing temporal integration and evaluate them on the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal conditioning preserves or enhances coherence without introducing degradation in semantic or logical consistency. This work highlights the need for temporal grounding in autonomous vehicle reasoning to ensure safety and interpretability.",
+      "abstract": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' explores the importance of temporal grounding in scene interpretation and planning for autonomous vehicles. The authors introduce three planner architectures with increasing temporal integration and evaluate them on the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal conditioning preserves or enhances coherence without introducing degradation in semantic or logical consistency. This work highlights the need for temporal grounding in autonomous vehicle reasoning to ensure safety and interpretability.",
       "score": 96
     },
     {
@@ -107,8 +107,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-05-20T17:34:02Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate Alpamayo R1 across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation (CoC) explanations change after perturbation, trajectory deviation spikes 5.3 times. This work is relevant to AV research as it highlights the importance of robustness and reliability in autonomous driving systems. The paper was published on May 20, 2026.",
-      "abstract": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate Alpamayo R1 across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation (CoC) explanations change after perturbation, trajectory deviation spikes 5.3 times. This work is relevant to AV research as it highlights the importance of robustness and reliability in autonomous driving systems. The paper was published on May 20, 2026.",
+      "summary": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate the Alpamayo R1 model across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation explanations change after perturbation, trajectory deviation spikes 5.3 times, highlighting the importance of robust explanations in autonomous driving. This work emphasizes the need for reliable explanations in VLA models to ensure safe and efficient autonomous vehicle operation.",
+      "abstract": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The authors evaluate the Alpamayo R1 model across 1,996 scenarios under eight sensor perturbations and find that reasoning consistency is a high-fidelity indicator of trajectory reliability. The study reveals that when Chain-of-Causation explanations change after perturbation, trajectory deviation spikes 5.3 times, highlighting the importance of robust explanations in autonomous driving. This work emphasizes the need for reliable explanations in VLA models to ensure safe and efficient autonomous vehicle operation.",
       "score": 95
     }
   ]

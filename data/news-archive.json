@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-07T09:42:16.668796Z",
+  "updated_at": "2026-06-08T11:23:22.779649Z",
   "items": [
+    {
+      "title": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
+      "topic": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWl8tUHRWcDVqVGdyMDJDbDNnaG80aXZpZTlva0lEVXNlTVE2STZ6UDJES2pVQ252cGV0V3g4SzlPVzFOSGZtWE5wQ3ZNWG5ldHk1MlNRenFqMm5RXzJDdmpvWFJaQXloZUtpRjRwNmhucnh5LUFXMm9QUFN6UjlQQ1g0Zlo1X1V2SGhvN0E0a29UajVZMGhEQnlLSkI1WE9RSTdYVUtLMA?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-08T11:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
+      "abstract": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
+      "score": 95
+    },
     {
       "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
       "topic": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
@@ -11,6 +22,17 @@
       "summary": "The Engineering Applications of Artificial Intelligence journal paper 'Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance' presents a VLA model for real-time autonomous vehicle accident avoidance. The authors, including Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu, propose an edge-based multimodal sensor data fusion approach. The paper was published on June 5, 2026, with a publication date of September 15, 2026. This work is relevant for improving the safety and efficiency of autonomous vehicles. The proposed approach can be used for real-time accident avoidance, making it a significant contribution to the field of autonomous driving.",
       "abstract": "The Engineering Applications of Artificial Intelligence journal paper 'Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance' presents a VLA model for real-time autonomous vehicle accident avoidance. The authors, including Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu, propose an edge-based multimodal sensor data fusion approach. The paper was published on June 5, 2026, with a publication date of September 15, 2026. This work is relevant for improving the safety and efficiency of autonomous vehicles. The proposed approach can be used for real-time accident avoidance, making it a significant contribution to the field of autonomous driving.",
       "score": 90
+    },
+    {
+      "title": "Waymo’s spent robotaxi batteries will be used as grid storage",
+      "topic": "Waymo’s spent robotaxi batteries will be used as grid storage",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTXRTQVJDeWY0Y3E5ZkVfZkVENTlxSHNjcG1NbEpzT1ZZbVpRaFY0Rm1TdzRZbmRuMTV3U3VjUnRzSUtmZFBpZHJnOXVRYzFUTno1YjkzMFZ6U1FaTUR2T2huZFV3WVk0NWVYS0VGWjRYY1hUTjdIbURpUk00aEx4OUUyc29qaVI3NzBTcTlRMENvOFFfbFJoMmdtNA?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-04T15:48:41Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has announced plans to repurpose spent robotaxi batteries for grid storage, a move that could significantly reduce the environmental impact of its autonomous vehicle operations. This initiative aligns with Waymo's commitment to sustainability and efficient resource management.",
+      "abstract": "Waymo has announced plans to repurpose spent robotaxi batteries for grid storage, a move that could significantly reduce the environmental impact of its autonomous vehicle operations. This initiative aligns with Waymo's commitment to sustainability and efficient resource management.",
+      "score": 80
     },
     {
       "title": "Meta repeatedly pushes back new AI model release for developers, WSJ says",
