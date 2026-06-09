@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-08T11:23:22.779649Z",
+  "updated_at": "2026-06-09T10:05:32.784312Z",
   "items": [
+    {
+      "title": "Waymo bought Apple’s self-driving car proving ground for $220M",
+      "topic": "Waymo bought Apple’s self-driving car proving ground for $220M",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRGg2SU4zUnFrNEFxclZhT3hwMURvQ1RFOXVFRzZJQjE5M1ZxOHZaOXE3dzRrUkVfRFNpZFdkM0Rud3gzUUNhV0M5WlpHSUhkYktyTy0yNFVTTFRaQUNEdDdrQ2tab0Z5SXJOcThpMkhxb01fYnFJMUZpamJmRGc4d3JZSTRjRGlnMFFIQXoxSnQ4WXA5NlRVM00xRQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-08T20:50:55Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
+      "abstract": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
+      "score": 70
+    },
     {
       "title": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
       "topic": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
@@ -11,6 +22,17 @@
       "summary": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
       "abstract": "Uber, Wayve, and Waymo are preparing to launch robotaxi services in London, marking a significant step towards widespread autonomous vehicle adoption in urban areas. The companies are expected to compete for market share, leveraging their advanced AI and sensor technologies to provide reliable and safe transportation options.",
       "score": 95
+    },
+    {
+      "title": "LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving",
+      "topic": "LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.08470v1",
+      "source": "arXiv",
+      "published": "2026-06-07T06:27:29Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "LUNA-AD, a lightweight uncertainty-aware language model with lifelong learning for autonomous driving, was proposed by researchers to address the challenges of integrating large language models into safety-critical driving systems. LUNA-AD features a tri-system architecture that reconciles complex multimodal behavioral reasoning, efficient deployment, and continual refinement. The model is designed to generate uncertainty-aware decision-making demonstrations through diverse hypothesis exploration. LUNA-AD's dual-head lightweight heuristic model unifies the inference of decision distributions and textual explanations, published on arXiv on 2026-06-07, with a focus on improving the reasoning capabilities of autonomous vehicles.",
+      "abstract": "LUNA-AD, a lightweight uncertainty-aware language model with lifelong learning for autonomous driving, was proposed by researchers to address the challenges of integrating large language models into safety-critical driving systems. LUNA-AD features a tri-system architecture that reconciles complex multimodal behavioral reasoning, efficient deployment, and continual refinement. The model is designed to generate uncertainty-aware decision-making demonstrations through diverse hypothesis exploration. LUNA-AD's dual-head lightweight heuristic model unifies the inference of decision distributions and textual explanations, published on arXiv on 2026-06-07, with a focus on improving the reasoning capabilities of autonomous vehicles.",
+      "score": 98
     },
     {
       "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
@@ -44,6 +66,17 @@
       "summary": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
       "abstract": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
       "score": 55
+    },
+    {
+      "title": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "topic": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "url": "https://arxiv.org/abs/2606.05461v1",
+      "source": "arXiv",
+      "published": "2026-06-03T21:37:52Z",
+      "category": "arxiv-explainability-av",
+      "summary": "A standards-derived XAI admissibility rubric for autonomous-driving safety was proposed by arXiv researchers, published on 2026-06-03. The rubric addresses the evidence-type gap between XAI methods and safety standards, providing a framework for evaluating the admissibility of XAI methods in autonomous driving. The study derives 19 testable evidentiary criteria across 7 lifecycle stages and scores six XAI method classes structurally, with causal XAI emerging as a promising approach. The proposed rubric has significant implications for the development of safe and explainable autonomous vehicles, enabling the identification of suitable XAI methods for ensuring safety and reliability in autonomous driving systems.",
+      "abstract": "A standards-derived XAI admissibility rubric for autonomous-driving safety was proposed by arXiv researchers, published on 2026-06-03. The rubric addresses the evidence-type gap between XAI methods and safety standards, providing a framework for evaluating the admissibility of XAI methods in autonomous driving. The study derives 19 testable evidentiary criteria across 7 lifecycle stages and scores six XAI method classes structurally, with causal XAI emerging as a promising approach. The proposed rubric has significant implications for the development of safe and explainable autonomous vehicles, enabling the identification of suitable XAI methods for ensuring safety and reliability in autonomous driving systems.",
+      "score": 95
     },
     {
       "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
