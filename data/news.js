@@ -1,60 +1,16 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-09T10:05:32.782991Z",
+  "generated_at": "2026-06-10T10:36:03.434848Z",
   "items": [
     {
-      "title": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "topic": "Waymo Takes Its Self-Driving Cars to Virginia",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SSU5lSVQzUDFtSUlWZ0xxU1VVc05fcnBzQ1EyMXNXRGlzUkt0UlRvdHZKQ0JlbndPdmFBc2tfTkJEWGhqdWNnMmd0OTNnWTh6U293Ymlpd0F5LWpHcTdGcDBsMWZrLTN2S3B1OUpXa29CeENWTXlHTG9ISWtVVHc?oc=5",
-      "source": "WIRED",
-      "published": "2026-05-27T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to broaden its autonomous vehicle testing and deployment. This move will allow Waymo to gather more real-world data and improve its technology in diverse driving conditions.",
-      "abstract": "Waymo has expanded its self-driving car operations to Virginia, marking a significant step in the company's efforts to broaden its autonomous vehicle testing and deployment. This move will allow Waymo to gather more real-world data and improve its technology in diverse driving conditions.",
-      "score": 95
-    },
-    {
-      "title": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
-      "topic": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW1McDlSY3BmX2hYY3F1ZXpsZTZsS2xyeE5FS2dHNTFqMFJ3YTEzbWZTOGZ0UjROSXZPdFJCVWdXU01rbUp2cHk3d1A4eFpuY18tNERkNzhQZUpfU0xseWZDTkdIc05WckFLUWxwbFRJUUppdlVVSG9jcTY2ai1ETnlBdlRWZHc1V29uNk1CM3RsYkdnYXc?oc=5",
+      "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
+      "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2ZWeHFxd1VTa291VzJjY1pjeURpcXZCZi1HSVRwQlpxclpnQmJvSnhPd0Jma0ZPS2c3Wld5ekFlbEprdlkwSktvMHJWZ3hpeXlQWjFzeTdzY3lka0prQlUtMW50WDJfQU1QWTR2bDVIdVAwR2FTeWdydnA5STRBSEVwbE1vdGE1aFBpV0pCbk1OVzA?oc=5",
       "source": "Electrek",
-      "published": "2026-06-03T17:14:00Z",
+      "published": "2026-06-09T13:51:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has expanded its Robotaxi service to cover the entire Austin metro area, although the company currently operates only about 20 vehicles. This expansion is part of Tesla's broader strategy to roll out its autonomous ride-hailing service, despite the limited fleet size.",
-      "abstract": "Tesla has expanded its Robotaxi service to cover the entire Austin metro area, although the company currently operates only about 20 vehicles. This expansion is part of Tesla's broader strategy to roll out its autonomous ride-hailing service, despite the limited fleet size.",
-      "score": 90
-    },
-    {
-      "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
-      "topic": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZlQXhzZ1BxZUpwQlY5LUhuOEw4ZGdycGpKWWdXZUh2VUlZb3pldEEwajFLVVZjZVczTEFVOGE4VmJlc0g2YjdoZjBBWGxIN192R2NJT05ETlBEUUtLT2w5SmhsRFdWMnlobVh2SG1ZWFJ1V0haV2tSSlZ5X1FaXy1BeWtXekt3UGlpZ1hkeGx0OUlTUlFkRHFpM2ZURkFOTFEyWk1PWVl1ZGoyTjVF?oc=5",
-      "source": "NVIDIA Newsroom",
-      "published": "2026-05-31T07:00:00Z",
-      "category": "llm",
-      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. This model is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world, which is crucial for applications in robotics and autonomous vehicles.",
-      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. This model is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world, which is crucial for applications in robotics and autonomous vehicles.",
-      "score": 85
-    },
-    {
-      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "topic": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcmZUb01sN01FM1NibGYteVFoUW5aZllhMTduaWdOUzhxcjRFazIxMDVIcjVFeEUxMTFRemNNaGp1ekk4TmtuTUQ3a0dJUkFqd1dqNENDUG5yN1YxM3VrU0J4REhGdUhLMVkyckdaalpNWE11S1FDR095QUFQeDNLOFpqb0Vldw?oc=5",
-      "source": "NVIDIA Blog",
-      "published": "2026-05-31T07:00:00Z",
-      "category": "llm",
-      "summary": "NVIDIA's Cosmos 3 model is designed to help physical AI systems think before they act, improving their decision-making processes. This advancement is particularly relevant for autonomous vehicles, where safety and reliability are paramount.",
-      "abstract": "NVIDIA's Cosmos 3 model is designed to help physical AI systems think before they act, improving their decision-making processes. This advancement is particularly relevant for autonomous vehicles, where safety and reliability are paramount.",
-      "score": 80
-    },
-    {
-      "title": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
-      "topic": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MXRJU2JRVkpqUjROR3dmTnJXNFd1TzBKNFdoalREbl80cEhIdzVFM3BubUpCX3dwVzlvWXVpa0MzdUhfakxnSkpFVjFkeXNBUlllcFh3eWdscGZnekNlZlpPblFSenEyVVFzOEpBZmxtRHMtQ3JublZDRQ?oc=5",
-      "source": "WIRED",
-      "published": "2026-05-27T07:00:00Z",
-      "category": "ai",
-      "summary": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which could have significant implications for the development and deployment of autonomous vehicles.",
-      "abstract": "Illinois lawmakers have passed a bill that is considered the strongest AI safety legislation in the United States. The bill includes provisions for transparency, accountability, and ethical use of AI, which could have significant implications for the development and deployment of autonomous vehicles.",
-      "score": 75
+      "summary": "Waymo has purchased Apple's former self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo's testing and development of its autonomous vehicle technology. This acquisition underscores Waymo's commitment to advancing its AV capabilities and expanding its operational footprint.",
+      "abstract": "Waymo has purchased Apple's former self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo's testing and development of its autonomous vehicle technology. This acquisition underscores Waymo's commitment to advancing its AV capabilities and expanding its operational footprint.",
+      "score": 95
     },
     {
       "title": "Waymo bought Apple’s self-driving car proving ground for $220M",
@@ -63,31 +19,64 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-06-08T20:50:55Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
-      "abstract": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
-      "score": 70
+      "summary": "Waymo has acquired Apple's former self-driving car proving ground for $220 million. The facility, which will be used to test and develop Waymo's autonomous vehicles, highlights the company's strategic investment in expanding its testing capabilities and advancing its AV technology.",
+      "abstract": "Waymo has acquired Apple's former self-driving car proving ground for $220 million. The facility, which will be used to test and develop Waymo's autonomous vehicles, highlights the company's strategic investment in expanding its testing capabilities and advancing its AV technology.",
+      "score": 95
     },
     {
-      "title": "Waymo’s spent robotaxi batteries will be used as grid storage",
-      "topic": "Waymo’s spent robotaxi batteries will be used as grid storage",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTXRTQVJDeWY0Y3E5ZkVfZkVENTlxSHNjcG1NbEpzT1ZZbVpRaFY0Rm1TdzRZbmRuMTV3U3VjUnRzSUtmZFBpZHJnOXVRYzFUTno1YjkzMFZ6U1FaTUR2T2huZFV3WVk0NWVYS0VGWjRYY1hUTjdIbURpUk00aEx4OUUyc29qaVI3NzBTcTlRMENvOFFfbFJoMmdtNA?oc=5",
+      "title": "Uber, Wayve, and Waymo are headed toward a robotaxi showdown in London",
+      "topic": "Uber, Wayve, and Waymo are headed toward a robotaxi showdown in London",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWl8tUHRWcDVqVGdyMDJDbDNnaG80aXZpZTlva0lEVXNlTVE2STZ6UDJES2pVQ252cGV0V3g4SzlPVzFOSGZtWE5wQ3ZNWG5ldHk1MlNRenFqMm5RXzJDdmpvWFJaQXloZUtpRjRwNmhucnh5LUFXMm9QUFN6UjlQQ1g0Zlo1X1V2SGhvN0E0a29UajVZMGhEQnlLSkI1WE9RSTdYVUtLMA?oc=5",
       "source": "TechCrunch",
-      "published": "2026-06-04T15:48:41Z",
+      "published": "2026-06-08T11:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo plans to repurpose spent robotaxi batteries for grid storage, a move that aligns with its sustainability goals. This initiative will help reduce waste and extend the lifecycle of battery technology, contributing to more environmentally friendly operations.",
-      "abstract": "Waymo plans to repurpose spent robotaxi batteries for grid storage, a move that aligns with its sustainability goals. This initiative will help reduce waste and extend the lifecycle of battery technology, contributing to more environmentally friendly operations.",
-      "score": 65
+      "summary": "Uber, Wayve, and Waymo are set to compete in London's robotaxi market. Each company is preparing to launch or expand its autonomous vehicle services in the city, marking a significant step towards the commercialization of robotaxis in a major urban environment. This competition is expected to drive innovation and improve the reliability of autonomous driving technology.",
+      "abstract": "Uber, Wayve, and Waymo are set to compete in London's robotaxi market. Each company is preparing to launch or expand its autonomous vehicle services in the city, marking a significant step towards the commercialization of robotaxis in a major urban environment. This competition is expected to drive innovation and improve the reliability of autonomous driving technology.",
+      "score": 90
     },
     {
-      "title": "LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving",
-      "topic": "LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2606.08470v1",
-      "source": "arXiv",
-      "published": "2026-06-07T06:27:29Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "LUNA-AD, a lightweight uncertainty-aware language model with lifelong learning for autonomous driving, was proposed by researchers to address the challenges of integrating large language models into safety-critical driving systems. LUNA-AD features a tri-system architecture that reconciles complex multimodal behavioral reasoning, efficient deployment, and continual refinement. The model is designed to generate uncertainty-aware decision-making demonstrations through diverse hypothesis exploration. LUNA-AD's dual-head lightweight heuristic model unifies the inference of decision distributions and textual explanations, published on arXiv on 2026-06-07, with a focus on improving the reasoning capabilities of autonomous vehicles.",
-      "abstract": "LUNA-AD, a lightweight uncertainty-aware language model with lifelong learning for autonomous driving, was proposed by researchers to address the challenges of integrating large language models into safety-critical driving systems. LUNA-AD features a tri-system architecture that reconciles complex multimodal behavioral reasoning, efficient deployment, and continual refinement. The model is designed to generate uncertainty-aware decision-making demonstrations through diverse hypothesis exploration. LUNA-AD's dual-head lightweight heuristic model unifies the inference of decision distributions and textual explanations, published on arXiv on 2026-06-07, with a focus on improving the reasoning capabilities of autonomous vehicles.",
-      "score": 98
+      "title": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
+      "topic": "Tesla expands ‘Robotaxi’ to entire Austin metro — but still has only ~20 vehicles",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW1McDlSY3BmX2hYY3F1ZXpsZTZsS2xyeE5FS2dHNTFqMFJ3YTEzbWZTOGZ0UjROSXZPdFJCVWdXU01rbUp2cHk3d1A4eFpuY18tNERkNzhQZUpfU0xseWZDTkdIc05WckFLUWxwbFRJUUppdlVVSG9jcTY2ai1ETnlBdlRWZHc1V29uNk1CM3RsYkdnYXc?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-03T17:14:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its 'Robotaxi' service to the entire Austin metro area, although the fleet currently consists of only about 20 vehicles. This expansion is part of Tesla's broader strategy to deploy its Full Self-Driving (FSD) technology in real-world conditions, despite the limited number of vehicles currently available.",
+      "abstract": "Tesla has expanded its 'Robotaxi' service to the entire Austin metro area, although the fleet currently consists of only about 20 vehicles. This expansion is part of Tesla's broader strategy to deploy its Full Self-Driving (FSD) technology in real-world conditions, despite the limited number of vehicles currently available.",
+      "score": 85
+    },
+    {
+      "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+      "topic": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZlQXhzZ1BxZUpwQlY5LUhuOEw4ZGdycGpKWWdXZUh2VUlZb3pldEEwajFLVVZjZVczTEFVOGE4VmJlc0g2YjdoZjBBWGxIN192R2NJT05ETlBEUUtLT2w5SmhsRFdWMnlobVh2SG1ZWFJ1V0haV2tSSlZ5X1FaXy1BeWtXekt3UGlpZ1hkeGx0OUlTUlFkRHFpM2ZURkFOTFEyWk1PWVl1ZGoyTjVF?oc=5",
+      "source": "NVIDIA Newsroom",
+      "published": "2026-05-31T07:00:00Z",
+      "category": "llm",
+      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. This model is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world, which is crucial for applications in autonomous vehicles and robotics. Cosmos 3 aims to improve the safety and efficiency of AI-driven systems.",
+      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. This model is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world, which is crucial for applications in autonomous vehicles and robotics. Cosmos 3 aims to improve the safety and efficiency of AI-driven systems.",
+      "score": 80
+    },
+    {
+      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
+      "topic": "How Cosmos 3 Helps Physical AI Think Before It Acts",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcmZUb01sN01FM1NibGYteVFoUW5aZllhMTduaWdOUzhxcjRFazIxMDVIcjVFeEUxMTFRemNNaGp1ekk4TmtuTUQ3a0dJUkFqd1dqNENDUG5yN1YxM3VrU0J4REhGdUhLMVkyckdaalpNWE11S1FDR095QUFQeDNLOFpqb0Vldw?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-05-31T07:00:00Z",
+      "category": "llm",
+      "summary": "NVIDIA's Cosmos 3, a new foundation model for physical AI, is designed to help AI systems think before they act. This model, which is part of NVIDIA's broader efforts to advance AI in physical environments, is particularly relevant for autonomous vehicles and robotics, where safety and reliability are paramount.",
+      "abstract": "NVIDIA's Cosmos 3, a new foundation model for physical AI, is designed to help AI systems think before they act. This model, which is part of NVIDIA's broader efforts to advance AI in physical environments, is particularly relevant for autonomous vehicles and robotics, where safety and reliability are paramount.",
+      "score": 80
+    },
+    {
+      "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnd1b0RYcWdFY0pNdzRoM0w5eXkxYTNIZTNMOGxCVWx0ZUlVcmFuMXBMRnRjbl9FdVN0Mm1KeGFMTUpNM3o4YVF2WGZkeUhVWkdmNnRBNEc5YmQ5N2FXNEZhbFFsUUYtLU1NS2cxaEJ0U0hHSmxWZHEza3FvbmExd1NBUnBfUFdWLUcwT2I1T09GYXNDNjVGU1k5ekw2U1NMczJDaHp5UHhyU29M?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-03T20:03:30Z",
+      "category": "ai",
+      "summary": "OpenAI CEO Sam Altman will urge US lawmakers not to require mandatory approvals for AI models. This stance reflects the tech industry's push for a regulatory environment that supports innovation while addressing safety and ethical concerns. The debate over AI regulation is crucial for the development and deployment of autonomous vehicle technology.",
+      "abstract": "OpenAI CEO Sam Altman will urge US lawmakers not to require mandatory approvals for AI models. This stance reflects the tech industry's push for a regulatory environment that supports innovation while addressing safety and ethical concerns. The debate over AI regulation is crucial for the development and deployment of autonomous vehicle technology.",
+      "score": 75
     },
     {
       "title": "From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning",
@@ -96,9 +85,20 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-05-19T13:18:35Z",
       "category": "arxiv-explainability-av",
-      "summary": "Researchers from arXiv introduced a novel approach to temporal grounding in agentic scene-to-plan reasoning for Autonomous Vehicles (AVs), published on 2026-05-19. The study explores the importance of temporal conditioning within inter-agent communication to preserve coherence without introducing degradation in semantic or logical consistency. Three planner architectures with progressively increasing temporal integration were evaluated on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal grounding is crucial for improving the safety and interpretability of AVs, with the proposed approach achieving significant improvements in coherence and consistency.",
-      "abstract": "Researchers from arXiv introduced a novel approach to temporal grounding in agentic scene-to-plan reasoning for Autonomous Vehicles (AVs), published on 2026-05-19. The study explores the importance of temporal conditioning within inter-agent communication to preserve coherence without introducing degradation in semantic or logical consistency. Three planner architectures with progressively increasing temporal integration were evaluated on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. The results show that temporal grounding is crucial for improving the safety and interpretability of AVs, with the proposed approach achieving significant improvements in coherence and consistency.",
-      "score": 96
+      "summary": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' presents a study on temporal grounding in scene interpretation and planning for Autonomous Vehicles (AVs) using Large Language Models (LLMs) and Large Multimodal Models (LMMs). Researchers from arXiv explore the role of temporal conditioning in inter-agent communication to preserve coherence without introducing degradation in semantic or logical consistency. The study evaluates three planner architectures on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. This work is relevant for AV research as it addresses the challenge of temporal grounding in scene understanding, which is crucial for safe and efficient autonomous driving.",
+      "abstract": "The arXiv paper 'From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning' presents a study on temporal grounding in scene interpretation and planning for Autonomous Vehicles (AVs) using Large Language Models (LLMs) and Large Multimodal Models (LMMs). Researchers from arXiv explore the role of temporal conditioning in inter-agent communication to preserve coherence without introducing degradation in semantic or logical consistency. The study evaluates three planner architectures on curated subsets of the BDD-X dataset using semantic, syntactic, and logical metrics. This work is relevant for AV research as it addresses the challenge of temporal grounding in scene understanding, which is crucial for safe and efficient autonomous driving.",
+      "score": 95
+    },
+    {
+      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "topic": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "url": "https://arxiv.org/abs/2605.21446v2",
+      "source": "arXiv",
+      "published": "2026-05-20T17:34:02Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The study evaluates Alpamayo R1, a 10B parameter model, across 1,996 scenarios under eight sensor perturbations, including Gaussian noise, lighting extremes, and fog levels. The results show that reasoning consistency is a high-fidelity indicator of trajectory reliability, with a correlation coefficient of 0.99 across attack types. This work is relevant for AV research as it highlights the importance of robustness and reliability in autonomous driving systems, particularly in adverse weather conditions.",
+      "abstract": "The arXiv paper 'Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs' presents a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving. The study evaluates Alpamayo R1, a 10B parameter model, across 1,996 scenarios under eight sensor perturbations, including Gaussian noise, lighting extremes, and fog levels. The results show that reasoning consistency is a high-fidelity indicator of trajectory reliability, with a correlation coefficient of 0.99 across attack types. This work is relevant for AV research as it highlights the importance of robustness and reliability in autonomous driving systems, particularly in adverse weather conditions.",
+      "score": 92
     },
     {
       "title": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
@@ -107,9 +107,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-03T21:37:52Z",
       "category": "arxiv-explainability-av",
-      "summary": "A standards-derived XAI admissibility rubric for autonomous-driving safety was proposed by arXiv researchers, published on 2026-06-03. The rubric addresses the evidence-type gap between XAI methods and safety standards, providing a framework for evaluating the admissibility of XAI methods in autonomous driving. The study derives 19 testable evidentiary criteria across 7 lifecycle stages and scores six XAI method classes structurally, with causal XAI emerging as a promising approach. The proposed rubric has significant implications for the development of safe and explainable autonomous vehicles, enabling the identification of suitable XAI methods for ensuring safety and reliability in autonomous driving systems.",
-      "abstract": "A standards-derived XAI admissibility rubric for autonomous-driving safety was proposed by arXiv researchers, published on 2026-06-03. The rubric addresses the evidence-type gap between XAI methods and safety standards, providing a framework for evaluating the admissibility of XAI methods in autonomous driving. The study derives 19 testable evidentiary criteria across 7 lifecycle stages and scores six XAI method classes structurally, with causal XAI emerging as a promising approach. The proposed rubric has significant implications for the development of safe and explainable autonomous vehicles, enabling the identification of suitable XAI methods for ensuring safety and reliability in autonomous driving systems.",
-      "score": 95
+      "summary": "The arXiv paper 'Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety' introduces a rubric for evaluating the admissibility of Explainable AI (XAI) methods in autonomous driving safety. The study derives 19 testable evidentiary criteria from safety standards such as AMLAS, ISO 26262, and ISO 21448. The authors evaluate six XAI method classes and find that causal XAI emerges as a promising approach. This work is relevant for AV research as it provides a framework for assessing the effectiveness of XAI methods in ensuring autonomous driving safety, which is a critical aspect of AV development.",
+      "abstract": "The arXiv paper 'Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety' introduces a rubric for evaluating the admissibility of Explainable AI (XAI) methods in autonomous driving safety. The study derives 19 testable evidentiary criteria from safety standards such as AMLAS, ISO 26262, and ISO 21448. The authors evaluate six XAI method classes and find that causal XAI emerges as a promising approach. This work is relevant for AV research as it provides a framework for assessing the effectiveness of XAI methods in ensuring autonomous driving safety, which is a critical aspect of AV development.",
+      "score": 90
     }
   ]
 };
