@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-06-11T11:00:36.441083Z",
+  "generated_at": "2026-06-12T10:42:36.873823Z",
   "items": [
-    {
-      "title": "Tesla gets go-ahead to sell self-driving technology in Belgium",
-      "topic": "Tesla gets go-ahead to sell self-driving technology in Belgium",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSVJ4LWhRc3l3V3UzNmtRemRvaGktaS1fZ3NEZ3FuMmlNM05IalRLRkUweTNMeHNnUTNLWFhiSlczblpPZEk2aVhmWHpCRk1PQkdsbkE5b01rMlRGaDhwNjJkbS16U3ZzVXBXRGtCUDhBOHhBSE9JUi10VjZCVHVBQXpiRFlQUERpclBUMjhhY242Sk42WUIzZ1lOZXp0ME53OVozcklQNnpmQVBwcnpZVG4tVDBib0tZbFFja29KZw?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-10T18:01:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla's advanced driver assistance system, which is currently available in limited markets. The approval is expected to accelerate the deployment of FSD in Europe, enhancing Tesla's market presence and contributing to the company's goal of widespread autonomous driving adoption.",
-      "abstract": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla's advanced driver assistance system, which is currently available in limited markets. The approval is expected to accelerate the deployment of FSD in Europe, enhancing Tesla's market presence and contributing to the company's goal of widespread autonomous driving adoption.",
-      "score": 95
-    },
     {
       "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
       "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
@@ -19,8 +8,19 @@
       "source": "Electrek",
       "published": "2026-06-09T13:51:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has purchased Apple’s former self-driving car proving ground for $220 million. The facility, located in California, will be used to test and refine Waymo's autonomous vehicle technology. This acquisition underscores Waymo's commitment to expanding its testing capabilities and advancing its position in the autonomous vehicle market.",
-      "abstract": "Waymo has purchased Apple’s former self-driving car proving ground for $220 million. The facility, located in California, will be used to test and refine Waymo's autonomous vehicle technology. This acquisition underscores Waymo's commitment to expanding its testing capabilities and advancing its position in the autonomous vehicle market.",
+      "summary": "Waymo purchased Apple’s abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo’s testing and development of its autonomous driving technology. This acquisition underscores Waymo’s commitment to advancing its AV capabilities and expanding its testing infrastructure.",
+      "abstract": "Waymo purchased Apple’s abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo’s testing and development of its autonomous driving technology. This acquisition underscores Waymo’s commitment to advancing its AV capabilities and expanding its testing infrastructure.",
+      "score": 95
+    },
+    {
+      "title": "Tesla gets go-ahead to sell self-driving technology in Belgium",
+      "topic": "Tesla gets go-ahead to sell self-driving technology in Belgium",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSVJ4LWhRc3l3V3UzNmtRemRvaGktaS1fZ3NEZ3FuMmlNM05IalRLRkUweTNMeHNnUTNLWFhiSlczblpPZEk2aVhmWHpCRk1PQkdsbkE5b01rMlRGaDhwNjJkbS16U3ZzVXBXRGtCUDhBOHhBSE9JUi10VjZCVHVBQXpiRFlQUERpclBUMjhhY242Sk42WUIzZ1lOZXp0ME53OVozcklQNnpmQVBwcnpZVG4tVDBib0tZbFFja29KZw?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-10T18:01:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla’s FSD, which has been under regulatory scrutiny in various regions. The approval allows Tesla to offer FSD to Belgian customers, potentially accelerating the adoption of autonomous driving technology in Europe.",
+      "abstract": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla’s FSD, which has been under regulatory scrutiny in various regions. The approval allows Tesla to offer FSD to Belgian customers, potentially accelerating the adoption of autonomous driving technology in Europe.",
       "score": 90
     },
     {
@@ -30,42 +30,20 @@
       "source": "NVIDIA Newsroom",
       "published": "2026-05-31T07:00:00Z",
       "category": "llm",
-      "summary": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world. This model is expected to significantly improve the performance and reliability of AI applications in robotics and autonomous vehicles.",
-      "abstract": "NVIDIA has launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the capabilities of AI systems in understanding and interacting with the physical world. This model is expected to significantly improve the performance and reliability of AI applications in robotics and autonomous vehicles.",
+      "summary": "NVIDIA launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the decision-making capabilities of AI systems in physical environments, enabling them to better understand and interact with the real world. This model is expected to have significant applications in autonomous driving and robotics.",
+      "abstract": "NVIDIA launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the decision-making capabilities of AI systems in physical environments, enabling them to better understand and interact with the real world. This model is expected to have significant applications in autonomous driving and robotics.",
       "score": 85
     },
     {
-      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "topic": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcmZUb01sN01FM1NibGYteVFoUW5aZllhMTduaWdOUzhxcjRFazIxMDVIcjVFeEUxMTFRemNNaGp1ekk4TmtuTUQ3a0dJUkFqd1dqNENDUG5yN1YxM3VrU0J4REhGdUhLMVkyckdaalpNWE11S1FDR095QUFQeDNLOFpqb0Vldw?oc=5",
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "topic": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93NFF6NEdwT3F1dmpGZVJ1clBVcVVvMFBxSUxsQWd6c2hZQ1hRVDA2SVVDWXBWY3laRld1SEU1RjVNS181ZVk2MkJWZUoxUEFhUkU4clBabnZKNHlvOUQ4bGlKcVFqQQ?oc=5",
       "source": "NVIDIA Blog",
-      "published": "2026-05-31T07:00:00Z",
-      "category": "llm",
-      "summary": "NVIDIA's Cosmos 3 model is designed to help physical AI systems think before they act, improving their decision-making processes. This advancement is particularly relevant for autonomous vehicles, where real-time decision-making and safety are critical. Cosmos 3 offers a 4x speed boost over previous models, making it a significant step forward in AI-driven physical systems.",
-      "abstract": "NVIDIA's Cosmos 3 model is designed to help physical AI systems think before they act, improving their decision-making processes. This advancement is particularly relevant for autonomous vehicles, where real-time decision-making and safety are critical. Cosmos 3 offers a 4x speed boost over previous models, making it a significant step forward in AI-driven physical systems.",
+      "published": "2026-06-10T19:05:51Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
+      "abstract": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
       "score": 80
-    },
-    {
-      "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
-      "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnd1b0RYcWdFY0pNdzRoM0w5eXkxYTNIZTNMOGxCVWx0ZUlVcmFuMXBMRnRjbl9FdVN0Mm1KeGFMTUpNM3o4YVF2WGZkeUhVWkdmNnRBNEc5YmQ5N2FXNEZhbFFsUUYtLU1NS2cxaEJ0U0hHSmxWZHEza3FvbmExd1NBUnBfUFdWLUcwT2I1T09GYXNDNjVGU1k5ekw2U1NMczJDaHp5UHhyU29M?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-03T20:03:30Z",
-      "category": "ai",
-      "summary": "OpenAI CEO Sam Altman will urge US lawmakers not to require mandatory approvals for AI models. Altman argues that such regulations could stifle innovation and slow down the development of AI technologies. This stance has significant implications for the regulatory landscape of AI, including its applications in autonomous vehicles.",
-      "abstract": "OpenAI CEO Sam Altman will urge US lawmakers not to require mandatory approvals for AI models. Altman argues that such regulations could stifle innovation and slow down the development of AI technologies. This stance has significant implications for the regulatory landscape of AI, including its applications in autonomous vehicles.",
-      "score": 75
-    },
-    {
-      "title": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
-      "topic": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXM5QzJBWEJPZHV0RXQtcEVQd3IwazJoOWhlY1lpNWxYVEt5N2FvWTNBUUR4RWpFbkp1b3Z1bzZBdU5INjA4Z2pSRk8xRnB4YVEzclZFV1g0cE5kLXRyNXJJUGZ5S3BJWEhDOTVqcmpwd0h2YndzM0t6VlUzOXRVd0RDNTVuOFVvVmpSY2ZzSTNqcEd4U3h5VTFJMFpPVl9OUzN4Rg?oc=5",
-      "source": "WIRED",
-      "published": "2026-06-10T10:00:00Z",
-      "category": "ai",
-      "summary": "Google's Gemini AI model is being used to enhance the World Cup experience, providing real-time analysis and insights. This application showcases the versatility of AI in large-scale events and highlights the potential for AI to improve various aspects of sports and entertainment, including autonomous vehicle-related technologies.",
-      "abstract": "Google's Gemini AI model is being used to enhance the World Cup experience, providing real-time analysis and insights. This application showcases the versatility of AI in large-scale events and highlights the potential for AI to improve various aspects of sports and entertainment, including autonomous vehicle-related technologies.",
-      "score": 70
     },
     {
       "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
@@ -74,9 +52,42 @@
       "source": "Ars Technica",
       "published": "2026-06-10T19:29:21Z",
       "category": "ai",
-      "summary": "Google has released DiffusionGemma, an open AI model that offers a 4x speed boost over previous versions. This model is designed to enhance the efficiency and performance of AI systems, which can be particularly beneficial for real-time applications such as autonomous driving and robotics.",
-      "abstract": "Google has released DiffusionGemma, an open AI model that offers a 4x speed boost over previous versions. This model is designed to enhance the efficiency and performance of AI systems, which can be particularly beneficial for real-time applications such as autonomous driving and robotics.",
+      "summary": "Google released DiffusionGemma, a new AI model that offers a 4x speed boost over its predecessors. This model is designed to enhance the efficiency and performance of AI systems, which can have significant implications for various applications, including autonomous driving and robotics.",
+      "abstract": "Google released DiffusionGemma, a new AI model that offers a 4x speed boost over its predecessors. This model is designed to enhance the efficiency and performance of AI systems, which can have significant implications for various applications, including autonomous driving and robotics.",
+      "score": 75
+    },
+    {
+      "title": "Investing in multi-agent AI safety research",
+      "topic": "Investing in multi-agent AI safety research",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
+      "source": "Google DeepMind",
+      "published": "2026-06-11T11:17:28Z",
+      "category": "ai",
+      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
+      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
+      "score": 70
+    },
+    {
+      "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnd1b0RYcWdFY0pNdzRoM0w5eXkxYTNIZTNMOGxCVWx0ZUlVcmFuMXBMRnRjbl9FdVN0Mm1KeGFMTUpNM3o4YVF2WGZkeUhVWkdmNnRBNEc5YmQ5N2FXNEZhbFFsUUYtLU1NS2cxaEJ0U0hHSmxWZHEza3FvbmExd1NBUnBfUFdWLUcwT2I1T09GYXNDNjVGU1k5ekw2U1NMczJDaHp5UHhyU29M?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-03T07:00:00Z",
+      "category": "ai",
+      "summary": "OpenAI CEO Sam Altman will urge US lawmakers not to require pre-market approval for AI models. Altman argues that such regulations could stifle innovation and slow down the development of beneficial AI technologies. This stance highlights the ongoing debate between AI safety and regulatory oversight.",
+      "abstract": "OpenAI CEO Sam Altman will urge US lawmakers not to require pre-market approval for AI models. Altman argues that such regulations could stifle innovation and slow down the development of beneficial AI technologies. This stance highlights the ongoing debate between AI safety and regulatory oversight.",
       "score": 65
+    },
+    {
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
+      "abstract": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
+      "score": 90
     },
     {
       "title": "LLM and AI Agents for Autonomous Systems: A Survey of Applications, Datasets, and Security Challenges",
@@ -85,9 +96,9 @@
       "source": "IEEE Open Journal of Intelligent Transportation Systems",
       "published": "2026-02-17T13:42:58Z",
       "category": "journal-rss",
-      "summary": "The IEEE Open Journal of Intelligent Transportation Systems has published a survey on the applications, datasets, and security challenges of Large Language Models (LLMs) and AI agents in autonomous systems, with a focus on autonomous driving and unmanned aerial vehicles. The survey reviews the role of LLMs in adaptive decision-making, context-aware planning, and human-aligned interaction. Researchers from the journal highlight the importance of LLMs in safety-sensitive domains, such as autonomous driving. The survey provides a comprehensive review of LLM reasoning and AI agents across various applications, including scenario generation, decision-making, and cooperative V2X interactions.",
-      "abstract": "The IEEE Open Journal of Intelligent Transportation Systems has published a survey on the applications, datasets, and security challenges of Large Language Models (LLMs) and AI agents in autonomous systems, with a focus on autonomous driving and unmanned aerial vehicles. The survey reviews the role of LLMs in adaptive decision-making, context-aware planning, and human-aligned interaction. Researchers from the journal highlight the importance of LLMs in safety-sensitive domains, such as autonomous driving. The survey provides a comprehensive review of LLM reasoning and AI agents across various applications, including scenario generation, decision-making, and cooperative V2X interactions.",
-      "score": 90
+      "summary": "In a 2026 arXiv paper, the authors propose VLGA, a vision-language-geometry-action model for autonomous driving, which supervises the model to reconstruct the dense 3D world it drives through, introducing geometry as a fourth modality alongside vision, language, and action. The VLGA model is evaluated on the nuScenes and Bench2Drive datasets, demonstrating its ability to ground actions in the 3D world and improve driving performance. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex driving environments. The authors also discuss the limitations and future directions of their work, highlighting the need for further research in this area.",
+      "abstract": "In a 2026 arXiv paper, the authors propose VLGA, a vision-language-geometry-action model for autonomous driving, which supervises the model to reconstruct the dense 3D world it drives through, introducing geometry as a fourth modality alongside vision, language, and action. The VLGA model is evaluated on the nuScenes and Bench2Drive datasets, demonstrating its ability to ground actions in the 3D world and improve driving performance. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex driving environments. The authors also discuss the limitations and future directions of their work, highlighting the need for further research in this area.",
+      "score": 92
     },
     {
       "title": "Handling the Hidden: Occlusion-Aware Motion Prediction for Autonomous Vehicles",
@@ -96,20 +107,9 @@
       "source": "IEEE Open Journal of Intelligent Transportation Systems",
       "published": "2026-03-25T13:17:01Z",
       "category": "journal-rss",
-      "summary": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu have proposed an edge-based multimodal sensor data fusion approach using a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, as published in the Engineering Applications of Artificial Intelligence journal. Their approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is evaluated using the CARLA simulator, demonstrating its effectiveness in handling occlusions and improving situational awareness. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex environments.",
-      "abstract": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu have proposed an edge-based multimodal sensor data fusion approach using a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, as published in the Engineering Applications of Artificial Intelligence journal. Their approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is evaluated using the CARLA simulator, demonstrating its effectiveness in handling occlusions and improving situational awareness. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex environments.",
+      "summary": "A recent paper in the 2026 IEEE Open Journal of Intelligent Transportation Systems presents a survey of applications, datasets, and security challenges related to Large Language Models (LLMs) and AI agents for autonomous systems, including autonomous driving. The authors discuss the potential of LLMs to enable adaptive decision-making, context-aware planning, and human-aligned interaction in autonomous vehicles. They also examine the role of AI agents in extending these capabilities into structured autonomy pipelines, highlighting the importance of LLMs and AI agents in advancing autonomous driving technology. The survey provides a comprehensive review of the current state of LLMs and AI agents in autonomous systems, identifying key challenges and opportunities for future research.",
+      "abstract": "A recent paper in the 2026 IEEE Open Journal of Intelligent Transportation Systems presents a survey of applications, datasets, and security challenges related to Large Language Models (LLMs) and AI agents for autonomous systems, including autonomous driving. The authors discuss the potential of LLMs to enable adaptive decision-making, context-aware planning, and human-aligned interaction in autonomous vehicles. They also examine the role of AI agents in extending these capabilities into structured autonomy pipelines, highlighting the importance of LLMs and AI agents in advancing autonomous driving technology. The survey provides a comprehensive review of the current state of LLMs and AI agents in autonomous systems, identifying key challenges and opportunities for future research.",
       "score": 95
-    },
-    {
-      "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
-      "topic": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0952197626014703?dgcid=rss_sd_all",
-      "source": "Engineering Applications of Artificial Intelligence",
-      "published": "2026-06-11T10:59:44.358811Z",
-      "category": "journal-rss",
-      "summary": "The arXiv paper 'VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving' introduces VLGA, a vision-language-action model supervised to reconstruct the dense 3D world it drives through. The model, proposed by the authors, integrates geometry as a fourth modality alongside vision, language, and action, using a dedicated expert supervised by a per-pixel pointmap regression loss against LiDAR. Extensive experiments on the nuScenes and Bench2Drive datasets demonstrate the effectiveness of VLGA in open-loop and closed-loop settings, showcasing its potential to improve the safety and efficiency of autonomous driving systems. The authors highlight the importance of incorporating geometry into vision-language-action models for autonomous driving.",
-      "abstract": "The arXiv paper 'VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving' introduces VLGA, a vision-language-action model supervised to reconstruct the dense 3D world it drives through. The model, proposed by the authors, integrates geometry as a fourth modality alongside vision, language, and action, using a dedicated expert supervised by a per-pixel pointmap regression loss against LiDAR. Extensive experiments on the nuScenes and Bench2Drive datasets demonstrate the effectiveness of VLGA in open-loop and closed-loop settings, showcasing its potential to improve the safety and efficiency of autonomous driving systems. The authors highlight the importance of incorporating geometry into vision-language-action models for autonomous driving.",
-      "score": 98
     }
   ]
 }

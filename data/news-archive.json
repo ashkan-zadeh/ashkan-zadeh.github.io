@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-11T11:00:36.442499Z",
+  "updated_at": "2026-06-12T10:42:36.875207Z",
   "items": [
+    {
+      "title": "Investing in multi-agent AI safety research",
+      "topic": "Investing in multi-agent AI safety research",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
+      "source": "Google DeepMind",
+      "published": "2026-06-11T11:17:28Z",
+      "category": "ai",
+      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
+      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
+      "score": 70
+    },
     {
       "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
       "topic": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
@@ -11,6 +22,17 @@
       "summary": "Google has released DiffusionGemma, an open AI model that offers a 4x speed boost over previous versions. This model is designed to enhance the efficiency and performance of AI systems, which can be particularly beneficial for real-time applications such as autonomous driving and robotics.",
       "abstract": "Google has released DiffusionGemma, an open AI model that offers a 4x speed boost over previous versions. This model is designed to enhance the efficiency and performance of AI systems, which can be particularly beneficial for real-time applications such as autonomous driving and robotics.",
       "score": 65
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "topic": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93NFF6NEdwT3F1dmpGZVJ1clBVcVVvMFBxSUxsQWd6c2hZQ1hRVDA2SVVDWXBWY3laRld1SEU1RjVNS181ZVk2MkJWZUoxUEFhUkU4clBabnZKNHlvOUQ4bGlKcVFqQQ?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-06-10T19:05:51Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
+      "abstract": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
+      "score": 80
     },
     {
       "title": "Tesla gets go-ahead to sell self-driving technology in Belgium",
@@ -495,6 +517,17 @@
       "summary": "Headline tracked from Nature as a recent LLM signal.",
       "abstract": "Advances in LLM reasoning and planning capabilities have direct implications for autonomous system explainability and trust.",
       "score": 47
+    },
+    {
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
+      "abstract": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
+      "score": 90
     },
     {
       "title": "The public perception and adaptability of laws and regulations of autonomous driving vehicles",
