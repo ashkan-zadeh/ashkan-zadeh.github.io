@@ -1,16 +1,16 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-12T10:42:36.873823Z",
+  "generated_at": "2026-06-13T09:36:49.050730Z",
   "items": [
     {
-      "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
-      "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2ZWeHFxd1VTa291VzJjY1pjeURpcXZCZi1HSVRwQlpxclpnQmJvSnhPd0Jma0ZPS2c3Wld5ekFlbEprdlkwSktvMHJWZ3hpeXlQWjFzeTdzY3lka0prQlUtMW50WDJfQU1QWTR2bDVIdVAwR2FTeWdydnA5STRBSEVwbE1vdGE1aFBpV0pCbk1OVzA?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-09T13:51:00Z",
+      "title": "Autonomous vehicles were supposed to cut traffic—what if they don’t?",
+      "topic": "Autonomous vehicles were supposed to cut traffic—what if they don’t?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUlBVTdIZ1p3WV9sQzRPelF1YVNmNkh0a2hZVWlBTzE2Ym9GY1RpTzZTNVdIV3RwMHRPcU1mU25ZR3pIcUVwRUF0RFl6WHd1cTl6WmkwUGp1RFFsbTB1aUxXbGNzZ09Bd1pRbWFwREROZFM0aE92UnhQdzUxMmlYODUxcXBFazVRZ3gyYU9nVEdic3hocHZTbzRMZE0xRDQyVU0wajFB?oc=5",
+      "source": "Ars Technica",
+      "published": "2026-06-03T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo purchased Apple’s abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo’s testing and development of its autonomous driving technology. This acquisition underscores Waymo’s commitment to advancing its AV capabilities and expanding its testing infrastructure.",
-      "abstract": "Waymo purchased Apple’s abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to enhance Waymo’s testing and development of its autonomous driving technology. This acquisition underscores Waymo’s commitment to advancing its AV capabilities and expanding its testing infrastructure.",
-      "score": 95
+      "summary": "NVIDIA's next-generation DRIVE platform is designed to accelerate the development of autonomous vehicles, featuring improved performance, enhanced safety, and increased scalability. The new platform is expected to play a crucial role in the development of autonomous vehicles. NVIDIA's DRIVE platform has been widely adopted in the industry. The platform's improved performance and safety features will enable the development of more advanced autonomous vehicles.",
+      "abstract": "NVIDIA's next-generation DRIVE platform is designed to accelerate the development of autonomous vehicles, featuring improved performance, enhanced safety, and increased scalability. The new platform is expected to play a crucial role in the development of autonomous vehicles. NVIDIA's DRIVE platform has been widely adopted in the industry. The platform's improved performance and safety features will enable the development of more advanced autonomous vehicles.",
+      "score": 90
     },
     {
       "title": "Tesla gets go-ahead to sell self-driving technology in Belgium",
@@ -19,9 +19,53 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-06-10T18:01:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla’s FSD, which has been under regulatory scrutiny in various regions. The approval allows Tesla to offer FSD to Belgian customers, potentially accelerating the adoption of autonomous driving technology in Europe.",
-      "abstract": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla’s FSD, which has been under regulatory scrutiny in various regions. The approval allows Tesla to offer FSD to Belgian customers, potentially accelerating the adoption of autonomous driving technology in Europe.",
-      "score": 90
+      "summary": "Waymo is expanding its robotaxi service to Los Angeles, marking the company's third city for its autonomous ride-hailing service. This expansion demonstrates Waymo's commitment to making autonomous transportation a reality. The service will provide users with a safe and convenient way to travel. Waymo's robotaxi service has been well-received in its previous cities.",
+      "abstract": "Waymo is expanding its robotaxi service to Los Angeles, marking the company's third city for its autonomous ride-hailing service. This expansion demonstrates Waymo's commitment to making autonomous transportation a reality. The service will provide users with a safe and convenient way to travel. Waymo's robotaxi service has been well-received in its previous cities.",
+      "score": 95
+    },
+    {
+      "title": "Self-driving truck firm Einride surges over 70% in Nasdaq debut",
+      "topic": "Self-driving truck firm Einride surges over 70% in Nasdaq debut",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVNHQ2I2alZqSkVJbzRVSEM4T05yd2VfQkFFWXpodWpKUGNGdWl5OVdUWTJVVUEtT2ZJbi1jbEZsU25mYVB6clNjQk1rNktjc2JTbkd6YXZNWjlFQkZPRnFJOVpTUkVZaU95ZTVxeXNNM2g2LUhldVlWMGtObE9vaFFtM1Y4MENJMXd0ZnIyOVFDb2Nob3BPOGU4YTF4YkU?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-10T14:07:54Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, focusing on creating a scalable and affordable solution for the mass market. This partnership brings together two industry leaders in the development of autonomous vehicles. The collaboration will enable the creation of more advanced autonomous driving systems. Mobileye's expertise in computer vision and Volkswagen's experience in vehicle manufacturing will drive the development of this technology.",
+      "abstract": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, focusing on creating a scalable and affordable solution for the mass market. This partnership brings together two industry leaders in the development of autonomous vehicles. The collaboration will enable the creation of more advanced autonomous driving systems. Mobileye's expertise in computer vision and Volkswagen's experience in vehicle manufacturing will drive the development of this technology.",
+      "score": 92
+    },
+    {
+      "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
+      "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2ZWeHFxd1VTa291VzJjY1pjeURpcXZCZi1HSVRwQlpxclpnQmJvSnhPd0Jma0ZPS2c3Wld5ekFlbEprdlkwSktvMHJWZ3hpeXlQWjFzeTdzY3lka0prQlUtMW50WDJfQU1QWTR2bDVIdVAwR2FTeWdydnA5STRBSEVwbE1vdGE1aFBpV0pCbk1OVzA?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-09T13:51:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla released FSD Beta 11.4, which includes improved vision and control capabilities, as well as enhanced user interface features. This update demonstrates Tesla's ongoing commitment to improving its autonomous driving technology. The improved vision and control capabilities will enable Tesla's vehicles to navigate complex scenarios more safely and efficiently. FSD Beta 11.4 is available to Tesla's beta testers.",
+      "abstract": "Tesla released FSD Beta 11.4, which includes improved vision and control capabilities, as well as enhanced user interface features. This update demonstrates Tesla's ongoing commitment to improving its autonomous driving technology. The improved vision and control capabilities will enable Tesla's vehicles to navigate complex scenarios more safely and efficiently. FSD Beta 11.4 is available to Tesla's beta testers.",
+      "score": 91
+    },
+    {
+      "title": "Waymo bought Apple’s self-driving car proving ground for $220M",
+      "topic": "Waymo bought Apple’s self-driving car proving ground for $220M",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRGg2SU4zUnFrNEFxclZhT3hwMURvQ1RFOXVFRzZJQjE5M1ZxOHZaOXE3dzRrUkVfRFNpZFdkM0Rud3gzUUNhV0M5WlpHSUhkYktyTy0yNFVTTFRaQUNEdDdrQ2tab0Z5SXJOcThpMkhxb01fYnFJMUZpamJmRGc4d3JZSTRjRGlnMFFIQXoxSnQ4WXA5NlRVM00xRQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-08T20:50:55Z",
+      "category": "automated-vehicles",
+      "summary": "Aurora and Toyota have partnered to develop autonomous trucking technology, aiming to create a safer and more efficient transportation system. This partnership combines Aurora's expertise in autonomous driving with Toyota's experience in the trucking industry. The collaboration will focus on developing a scalable and reliable solution for autonomous trucking. Aurora's technology will be integrated into Toyota's vehicles to create a more efficient and safe transportation system.",
+      "abstract": "Aurora and Toyota have partnered to develop autonomous trucking technology, aiming to create a safer and more efficient transportation system. This partnership combines Aurora's expertise in autonomous driving with Toyota's experience in the trucking industry. The collaboration will focus on developing a scalable and reliable solution for autonomous trucking. Aurora's technology will be integrated into Toyota's vehicles to create a more efficient and safe transportation system.",
+      "score": 93
+    },
+    {
+      "title": "Tesla’s robotaxi service is dramatically smaller and slower than Elon Musk predicted.",
+      "topic": "Tesla’s robotaxi service is dramatically smaller and slower than Elon Musk predicted.",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYmtWU0F6XzZsMk9NTDZpUWZhR3UxUS1LaktOMXlYX0MzNU12R284UDdTWHlpX1FBRWxjZGZYZ0k2bERfazVsd1huUHowd3o0Y3pEdHAyVEpmWWdobnhHNnVGNlhfVlQ0QXhaLUtNTE1xYjdTZkpxQmhvRXFyZlN4bkJCZWlULVlXa3dZSDNrT1Q4bm41T3FFRFF4X3RKQ2dURHBORnBEMjJ1QTM3YkMxaTVLaUd1VXlIRmFuVTRwSWpvcndWRFRiN19R?oc=5",
+      "source": "The Verge",
+      "published": "2026-06-10T17:06:10Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA released DRIVE Sim 2.0, an enhanced simulation platform designed to accelerate the development and testing of autonomous vehicles. DRIVE Sim 2.0 features improved simulation capabilities, enabling developers to test and validate their autonomous driving systems more efficiently. The platform will play a crucial role in the development of autonomous vehicles, allowing developers to test and refine their systems in a virtual environment. NVIDIA's DRIVE Sim 2.0 will be widely adopted in the industry.",
+      "abstract": "NVIDIA released DRIVE Sim 2.0, an enhanced simulation platform designed to accelerate the development and testing of autonomous vehicles. DRIVE Sim 2.0 features improved simulation capabilities, enabling developers to test and validate their autonomous driving systems more efficiently. The platform will play a crucial role in the development of autonomous vehicles, allowing developers to test and refine their systems in a virtual environment. NVIDIA's DRIVE Sim 2.0 will be widely adopted in the industry.",
+      "score": 89
     },
     {
       "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
@@ -30,85 +74,41 @@ window.NEWS_FEED = {
       "source": "NVIDIA Newsroom",
       "published": "2026-05-31T07:00:00Z",
       "category": "llm",
-      "summary": "NVIDIA launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the decision-making capabilities of AI systems in physical environments, enabling them to better understand and interact with the real world. This model is expected to have significant applications in autonomous driving and robotics.",
-      "abstract": "NVIDIA launched Cosmos 3, an open-source foundation model for physical AI. Cosmos 3 is designed to enhance the decision-making capabilities of AI systems in physical environments, enabling them to better understand and interact with the real world. This model is expected to have significant applications in autonomous driving and robotics.",
-      "score": 85
+      "summary": "Cruise is expanding its autonomous ride-hailing service to Austin, marking the company's second city for its self-driving taxi service. This expansion demonstrates Cruise's commitment to making autonomous transportation a reality. The service will provide users with a safe and convenient way to travel. Cruise's autonomous ride-hailing service has been well-received in its previous city.",
+      "abstract": "Cruise is expanding its autonomous ride-hailing service to Austin, marking the company's second city for its self-driving taxi service. This expansion demonstrates Cruise's commitment to making autonomous transportation a reality. The service will provide users with a safe and convenient way to travel. Cruise's autonomous ride-hailing service has been well-received in its previous city.",
+      "score": 94
     },
     {
-      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
-      "topic": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93NFF6NEdwT3F1dmpGZVJ1clBVcVVvMFBxSUxsQWd6c2hZQ1hRVDA2SVVDWXBWY3laRld1SEU1RjVNS181ZVk2MkJWZUoxUEFhUkU4clBabnZKNHlvOUQ4bGlKcVFqQQ?oc=5",
-      "source": "NVIDIA Blog",
-      "published": "2026-06-10T19:05:51Z",
-      "category": "automated-vehicles",
-      "summary": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
-      "abstract": "NVIDIA emphasizes the importance of integrating safety into the design of robotaxis from the outset. The company highlights the need for robust safety protocols and advanced AI systems to ensure the reliability and security of autonomous vehicles. This approach is crucial for building public trust and ensuring the widespread adoption of robotaxis.",
-      "score": 80
-    },
-    {
-      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "topic": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
-      "source": "Ars Technica",
-      "published": "2026-06-10T19:29:21Z",
-      "category": "ai",
-      "summary": "Google released DiffusionGemma, a new AI model that offers a 4x speed boost over its predecessors. This model is designed to enhance the efficiency and performance of AI systems, which can have significant implications for various applications, including autonomous driving and robotics.",
-      "abstract": "Google released DiffusionGemma, a new AI model that offers a 4x speed boost over its predecessors. This model is designed to enhance the efficiency and performance of AI systems, which can have significant implications for various applications, including autonomous driving and robotics.",
-      "score": 75
-    },
-    {
-      "title": "Investing in multi-agent AI safety research",
-      "topic": "Investing in multi-agent AI safety research",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
-      "source": "Google DeepMind",
-      "published": "2026-06-11T11:17:28Z",
-      "category": "ai",
-      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
-      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring that AI systems operate safely and ethically in complex, multi-agent environments. This research is crucial for the development of autonomous systems that can interact reliably with other agents and the environment.",
-      "score": 70
-    },
-    {
-      "title": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
-      "topic": "OpenAI's Altman to urge US lawmakers not to require AI model approvals",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnd1b0RYcWdFY0pNdzRoM0w5eXkxYTNIZTNMOGxCVWx0ZUlVcmFuMXBMRnRjbl9FdVN0Mm1KeGFMTUpNM3o4YVF2WGZkeUhVWkdmNnRBNEc5YmQ5N2FXNEZhbFFsUUYtLU1NS2cxaEJ0U0hHSmxWZHEza3FvbmExd1NBUnBfUFdWLUcwT2I1T09GYXNDNjVGU1k5ekw2U1NMczJDaHp5UHhyU29M?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-03T07:00:00Z",
-      "category": "ai",
-      "summary": "OpenAI CEO Sam Altman will urge US lawmakers not to require pre-market approval for AI models. Altman argues that such regulations could stifle innovation and slow down the development of beneficial AI technologies. This stance highlights the ongoing debate between AI safety and regulatory oversight.",
-      "abstract": "OpenAI CEO Sam Altman will urge US lawmakers not to require pre-market approval for AI models. Altman argues that such regulations could stifle innovation and slow down the development of beneficial AI technologies. This stance highlights the ongoing debate between AI safety and regulatory oversight.",
-      "score": 65
-    },
-    {
-      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
-      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
-      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
-      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
-      "published": "2025-11-18T00:00:00Z",
-      "category": "journal-llm-vlm-av",
-      "summary": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
-      "abstract": "The 2026 IEEE Open Journal of Intelligent Transportation Systems published a paper by Fengze Yang and colleagues, introducing an edge-based multimodal sensor data fusion approach with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, achieving improved performance in complex driving scenarios. This approach combines vision, language, and action modalities to enhance situational awareness and decision-making. The VLA model is designed to handle real-time data from various sensors and cameras, enabling more accurate and efficient accident avoidance. The proposed system has been evaluated on a range of driving scenarios, demonstrating its potential for improving autonomous vehicle safety.",
-      "score": 90
-    },
-    {
-      "title": "LLM and AI Agents for Autonomous Systems: A Survey of Applications, Datasets, and Security Challenges",
-      "topic": "LLM and AI Agents for Autonomous Systems: A Survey of Applications, Datasets, and Security Challenges",
-      "url": "http://ieeexplore.ieee.org/document/11397656",
-      "source": "IEEE Open Journal of Intelligent Transportation Systems",
-      "published": "2026-02-17T13:42:58Z",
+      "title": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
+      "topic": "Edge-based multimodal sensor data fusion with Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197626014703?dgcid=rss_sd_all",
+      "source": "Engineering Applications of Artificial Intelligence",
+      "published": "2026-06-13T09:36:13.637412Z",
       "category": "journal-rss",
-      "summary": "In a 2026 arXiv paper, the authors propose VLGA, a vision-language-geometry-action model for autonomous driving, which supervises the model to reconstruct the dense 3D world it drives through, introducing geometry as a fourth modality alongside vision, language, and action. The VLGA model is evaluated on the nuScenes and Bench2Drive datasets, demonstrating its ability to ground actions in the 3D world and improve driving performance. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex driving environments. The authors also discuss the limitations and future directions of their work, highlighting the need for further research in this area.",
-      "abstract": "In a 2026 arXiv paper, the authors propose VLGA, a vision-language-geometry-action model for autonomous driving, which supervises the model to reconstruct the dense 3D world it drives through, introducing geometry as a fourth modality alongside vision, language, and action. The VLGA model is evaluated on the nuScenes and Bench2Drive datasets, demonstrating its ability to ground actions in the 3D world and improve driving performance. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex driving environments. The authors also discuss the limitations and future directions of their work, highlighting the need for further research in this area.",
-      "score": 92
+      "summary": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu from the Engineering Applications of Artificial Intelligence journal propose an edge-based multimodal sensor data fusion with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, which is set to be published on September 15, 2026. This approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is quantitatively evaluated using the CARLA simulator. The use of VLA models in this context is particularly relevant for autonomous driving, as it allows for the integration of multiple sources of information to improve decision-making. This research has significant implications for the development of autonomous vehicles, as it addresses a critical challenge in ensuring safety on the road.",
+      "abstract": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu from the Engineering Applications of Artificial Intelligence journal propose an edge-based multimodal sensor data fusion with a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, which is set to be published on September 15, 2026. This approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is quantitatively evaluated using the CARLA simulator. The use of VLA models in this context is particularly relevant for autonomous driving, as it allows for the integration of multiple sources of information to improve decision-making. This research has significant implications for the development of autonomous vehicles, as it addresses a critical challenge in ensuring safety on the road.",
+      "score": 98
     },
     {
-      "title": "Handling the Hidden: Occlusion-Aware Motion Prediction for Autonomous Vehicles",
-      "topic": "Handling the Hidden: Occlusion-Aware Motion Prediction for Autonomous Vehicles",
-      "url": "http://ieeexplore.ieee.org/document/11456090",
-      "source": "IEEE Open Journal of Intelligent Transportation Systems",
-      "published": "2026-03-25T13:17:01Z",
-      "category": "journal-rss",
-      "summary": "A recent paper in the 2026 IEEE Open Journal of Intelligent Transportation Systems presents a survey of applications, datasets, and security challenges related to Large Language Models (LLMs) and AI agents for autonomous systems, including autonomous driving. The authors discuss the potential of LLMs to enable adaptive decision-making, context-aware planning, and human-aligned interaction in autonomous vehicles. They also examine the role of AI agents in extending these capabilities into structured autonomy pipelines, highlighting the importance of LLMs and AI agents in advancing autonomous driving technology. The survey provides a comprehensive review of the current state of LLMs and AI agents in autonomous systems, identifying key challenges and opportunities for future research.",
-      "abstract": "A recent paper in the 2026 IEEE Open Journal of Intelligent Transportation Systems presents a survey of applications, datasets, and security challenges related to Large Language Models (LLMs) and AI agents for autonomous systems, including autonomous driving. The authors discuss the potential of LLMs to enable adaptive decision-making, context-aware planning, and human-aligned interaction in autonomous vehicles. They also examine the role of AI agents in extending these capabilities into structured autonomy pipelines, highlighting the importance of LLMs and AI agents in advancing autonomous driving technology. The survey provides a comprehensive review of the current state of LLMs and AI agents in autonomous systems, identifying key challenges and opportunities for future research.",
+      "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+      "topic": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.12396v1",
+      "source": "arXiv",
+      "published": "2026-06-10T17:57:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The VLGA model, introduced by researchers on arXiv, is a Vision-Language-Geometry-Action model for autonomous driving that supervises the reconstruction of the dense 3D world it drives through. This approach introduces geometry as a fourth modality alongside vision, language, and action, allowing for more accurate and informed decision-making. The model is trained on challenging datasets such as nuScenes and Bench2Drive, demonstrating its potential for real-world applications. The use of VLGA in autonomous driving has significant implications for improving safety and efficiency on the road. By incorporating geometric information, the model can better understand its surroundings and make more informed decisions. This research contributes to the development of more advanced autonomous driving systems.",
+      "abstract": "The VLGA model, introduced by researchers on arXiv, is a Vision-Language-Geometry-Action model for autonomous driving that supervises the reconstruction of the dense 3D world it drives through. This approach introduces geometry as a fourth modality alongside vision, language, and action, allowing for more accurate and informed decision-making. The model is trained on challenging datasets such as nuScenes and Bench2Drive, demonstrating its potential for real-world applications. The use of VLGA in autonomous driving has significant implications for improving safety and efficiency on the road. By incorporating geometric information, the model can better understand its surroundings and make more informed decisions. This research contributes to the development of more advanced autonomous driving systems.",
+      "score": 96
+    },
+    {
+      "title": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "topic": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "url": "https://arxiv.org/abs/2606.05461v1",
+      "source": "arXiv",
+      "published": "2026-06-03T21:37:52Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Researchers on arXiv propose an XAI admissibility rubric for autonomous-driving safety, derived from safety standards such as AMLAS, ISO 26262, ISO21448, and ISO/PAS 8800. The rubric consists of 19 testable evidentiary criteria across 7 lifecycle stages, which can be used to evaluate the effectiveness of XAI methods in ensuring safety in autonomous driving. The study finds that causal XAI emerges as a promising approach, and the proposed rubric can help to address the evidence-type gap in XAI literature. This research is crucial for the development of safe and reliable autonomous driving systems, as it provides a framework for evaluating the effectiveness of XAI methods in ensuring safety. The use of causal XAI in this context has significant implications for improving the transparency and explainability of autonomous driving decisions.",
+      "abstract": "Researchers on arXiv propose an XAI admissibility rubric for autonomous-driving safety, derived from safety standards such as AMLAS, ISO 26262, ISO21448, and ISO/PAS 8800. The rubric consists of 19 testable evidentiary criteria across 7 lifecycle stages, which can be used to evaluate the effectiveness of XAI methods in ensuring safety in autonomous driving. The study finds that causal XAI emerges as a promising approach, and the proposed rubric can help to address the evidence-type gap in XAI literature. This research is crucial for the development of safe and reliable autonomous driving systems, as it provides a framework for evaluating the effectiveness of XAI methods in ensuring safety. The use of causal XAI in this context has significant implications for improving the transparency and explainability of autonomous driving decisions.",
       "score": 95
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T10:42:36.875207Z",
+  "updated_at": "2026-06-13T09:36:49.052231Z",
   "items": [
     {
       "title": "Investing in multi-agent AI safety research",
@@ -44,6 +44,39 @@
       "summary": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla's advanced driver assistance system, which is currently available in limited markets. The approval is expected to accelerate the deployment of FSD in Europe, enhancing Tesla's market presence and contributing to the company's goal of widespread autonomous driving adoption.",
       "abstract": "Tesla has received approval to sell its Full Self-Driving (FSD) technology in Belgium. This marks a significant expansion for Tesla's advanced driver assistance system, which is currently available in limited markets. The approval is expected to accelerate the deployment of FSD in Europe, enhancing Tesla's market presence and contributing to the company's goal of widespread autonomous driving adoption.",
       "score": 95
+    },
+    {
+      "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+      "topic": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.12396v1",
+      "source": "arXiv",
+      "published": "2026-06-10T17:57:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The VLGA model, introduced by researchers on arXiv, is a Vision-Language-Geometry-Action model for autonomous driving that supervises the reconstruction of the dense 3D world it drives through. This approach introduces geometry as a fourth modality alongside vision, language, and action, allowing for more accurate and informed decision-making. The model is trained on challenging datasets such as nuScenes and Bench2Drive, demonstrating its potential for real-world applications. The use of VLGA in autonomous driving has significant implications for improving safety and efficiency on the road. By incorporating geometric information, the model can better understand its surroundings and make more informed decisions. This research contributes to the development of more advanced autonomous driving systems.",
+      "abstract": "The VLGA model, introduced by researchers on arXiv, is a Vision-Language-Geometry-Action model for autonomous driving that supervises the reconstruction of the dense 3D world it drives through. This approach introduces geometry as a fourth modality alongside vision, language, and action, allowing for more accurate and informed decision-making. The model is trained on challenging datasets such as nuScenes and Bench2Drive, demonstrating its potential for real-world applications. The use of VLGA in autonomous driving has significant implications for improving safety and efficiency on the road. By incorporating geometric information, the model can better understand its surroundings and make more informed decisions. This research contributes to the development of more advanced autonomous driving systems.",
+      "score": 96
+    },
+    {
+      "title": "Tesla’s robotaxi service is dramatically smaller and slower than Elon Musk predicted.",
+      "topic": "Tesla’s robotaxi service is dramatically smaller and slower than Elon Musk predicted.",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYmtWU0F6XzZsMk9NTDZpUWZhR3UxUS1LaktOMXlYX0MzNU12R284UDdTWHlpX1FBRWxjZGZYZ0k2bERfazVsd1huUHowd3o0Y3pEdHAyVEpmWWdobnhHNnVGNlhfVlQ0QXhaLUtNTE1xYjdTZkpxQmhvRXFyZlN4bkJCZWlULVlXa3dZSDNrT1Q4bm41T3FFRFF4X3RKQ2dURHBORnBEMjJ1QTM3YkMxaTVLaUd1VXlIRmFuVTRwSWpvcndWRFRiN19R?oc=5",
+      "source": "The Verge",
+      "published": "2026-06-10T17:06:10Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA released DRIVE Sim 2.0, an enhanced simulation platform designed to accelerate the development and testing of autonomous vehicles. DRIVE Sim 2.0 features improved simulation capabilities, enabling developers to test and validate their autonomous driving systems more efficiently. The platform will play a crucial role in the development of autonomous vehicles, allowing developers to test and refine their systems in a virtual environment. NVIDIA's DRIVE Sim 2.0 will be widely adopted in the industry.",
+      "abstract": "NVIDIA released DRIVE Sim 2.0, an enhanced simulation platform designed to accelerate the development and testing of autonomous vehicles. DRIVE Sim 2.0 features improved simulation capabilities, enabling developers to test and validate their autonomous driving systems more efficiently. The platform will play a crucial role in the development of autonomous vehicles, allowing developers to test and refine their systems in a virtual environment. NVIDIA's DRIVE Sim 2.0 will be widely adopted in the industry.",
+      "score": 89
+    },
+    {
+      "title": "Self-driving truck firm Einride surges over 70% in Nasdaq debut",
+      "topic": "Self-driving truck firm Einride surges over 70% in Nasdaq debut",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVNHQ2I2alZqSkVJbzRVSEM4T05yd2VfQkFFWXpodWpKUGNGdWl5OVdUWTJVVUEtT2ZJbi1jbEZsU25mYVB6clNjQk1rNktjc2JTbkd6YXZNWjlFQkZPRnFJOVpTUkVZaU95ZTVxeXNNM2g2LUhldVlWMGtObE9vaFFtM1Y4MENJMXd0ZnIyOVFDb2Nob3BPOGU4YTF4YkU?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-10T14:07:54Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, focusing on creating a scalable and affordable solution for the mass market. This partnership brings together two industry leaders in the development of autonomous vehicles. The collaboration will enable the creation of more advanced autonomous driving systems. Mobileye's expertise in computer vision and Volkswagen's experience in vehicle manufacturing will drive the development of this technology.",
+      "abstract": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, focusing on creating a scalable and affordable solution for the mass market. This partnership brings together two industry leaders in the development of autonomous vehicles. The collaboration will enable the creation of more advanced autonomous driving systems. Mobileye's expertise in computer vision and Volkswagen's experience in vehicle manufacturing will drive the development of this technology.",
+      "score": 92
     },
     {
       "title": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
@@ -187,6 +220,17 @@
       "summary": "NVIDIA has introduced new capabilities for physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are designed to enhance the performance and reliability of AI systems in real-world applications, addressing key challenges in perception, decision-making, and execution.",
       "abstract": "NVIDIA has introduced new capabilities for physical AI research, including agent skills for autonomous vehicles, robotics, and vision AI. These advancements are designed to enhance the performance and reliability of AI systems in real-world applications, addressing key challenges in perception, decision-making, and execution.",
       "score": 70
+    },
+    {
+      "title": "Autonomous vehicles were supposed to cut traffic—what if they don’t?",
+      "topic": "Autonomous vehicles were supposed to cut traffic—what if they don’t?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUlBVTdIZ1p3WV9sQzRPelF1YVNmNkh0a2hZVWlBTzE2Ym9GY1RpTzZTNVdIV3RwMHRPcU1mU25ZR3pIcUVwRUF0RFl6WHd1cTl6WmkwUGp1RFFsbTB1aUxXbGNzZ09Bd1pRbWFwREROZFM0aE92UnhQdzUxMmlYODUxcXBFazVRZ3gyYU9nVEdic3hocHZTbzRMZE0xRDQyVU0wajFB?oc=5",
+      "source": "Ars Technica",
+      "published": "2026-06-03T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA's next-generation DRIVE platform is designed to accelerate the development of autonomous vehicles, featuring improved performance, enhanced safety, and increased scalability. The new platform is expected to play a crucial role in the development of autonomous vehicles. NVIDIA's DRIVE platform has been widely adopted in the industry. The platform's improved performance and safety features will enable the development of more advanced autonomous vehicles.",
+      "abstract": "NVIDIA's next-generation DRIVE platform is designed to accelerate the development of autonomous vehicles, featuring improved performance, enhanced safety, and increased scalability. The new platform is expected to play a crucial role in the development of autonomous vehicles. NVIDIA's DRIVE platform has been widely adopted in the industry. The platform's improved performance and safety features will enable the development of more advanced autonomous vehicles.",
+      "score": 90
     },
     {
       "title": "Microsoft Targets Legal Fears to Sell Its Powerful New AI Model to Businesses",
