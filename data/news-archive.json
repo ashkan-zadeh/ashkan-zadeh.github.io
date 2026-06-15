@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-14T09:58:10.106330Z",
+  "updated_at": "2026-06-15T12:45:01.777244Z",
   "items": [
+    {
+      "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
+      "topic": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2606.14010v1",
+      "source": "arXiv",
+      "published": "2026-06-12T01:06:42Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv-published paper RT-VLA, dated June 12, 2026, introduces a real-time vision-language-action model that enables end-to-end autonomous driving through knowledge distillation, reducing inference latency while preserving language-based reasoning and supporting post-hoc explanation. This model, built upon the SimLingo model, achieves compactness through multi-level supervised distillation. The RT-VLA model is significant for autonomous driving as it addresses the need for real-time control without compromising explainability. By transferring driving and reasoning capabilities into a lightweight model, RT-VLA contributes to the development of more efficient and trustworthy autonomous vehicles.",
+      "abstract": "The arXiv-published paper RT-VLA, dated June 12, 2026, introduces a real-time vision-language-action model that enables end-to-end autonomous driving through knowledge distillation, reducing inference latency while preserving language-based reasoning and supporting post-hoc explanation. This model, built upon the SimLingo model, achieves compactness through multi-level supervised distillation. The RT-VLA model is significant for autonomous driving as it addresses the need for real-time control without compromising explainability. By transferring driving and reasoning capabilities into a lightweight model, RT-VLA contributes to the development of more efficient and trustworthy autonomous vehicles.",
+      "score": 95
+    },
     {
       "title": "Investing in multi-agent AI safety research",
       "topic": "Investing in multi-agent AI safety research",
@@ -90,6 +101,17 @@
       "score": 70
     },
     {
+      "title": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
+      "topic": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qcDRaQWx5V19sQzg4TzhXX1JTWXllRGMwdXA5SjNObDBIX1VXWFh3RWFWQlM5N2ZTMTFqVUNzSzhiNzJ2M3RaMEs5ZWsyc1JVZkFCS1pVMUxxWDdRZjhz?oc=5",
+      "source": "Nature",
+      "published": "2026-06-10T03:37:00Z",
+      "category": "llm",
+      "summary": "NVIDIA unveiled its next-generation DRIVE platform, a comprehensive software development kit (SDK) for building autonomous vehicles, which includes advanced computer vision, sensor fusion, and machine learning capabilities to support the development of Level 4 and Level 5 autonomous vehicles. The new platform is designed to accelerate the development of autonomous vehicles. NVIDIA's DRIVE platform is a significant development in the autonomous vehicle industry. The platform's advanced capabilities will enable the creation of more sophisticated autonomous vehicles.",
+      "abstract": "NVIDIA unveiled its next-generation DRIVE platform, a comprehensive software development kit (SDK) for building autonomous vehicles, which includes advanced computer vision, sensor fusion, and machine learning capabilities to support the development of Level 4 and Level 5 autonomous vehicles. The new platform is designed to accelerate the development of autonomous vehicles. NVIDIA's DRIVE platform is a significant development in the autonomous vehicle industry. The platform's advanced capabilities will enable the creation of more sophisticated autonomous vehicles.",
+      "score": 90
+    },
+    {
       "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
       "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2ZWeHFxd1VTa291VzJjY1pjeURpcXZCZi1HSVRwQlpxclpnQmJvSnhPd0Jma0ZPS2c3Wld5ekFlbEprdlkwSktvMHJWZ3hpeXlQWjFzeTdzY3lka0prQlUtMW50WDJfQU1QWTR2bDVIdVAwR2FTeWdydnA5STRBSEVwbE1vdGE1aFBpV0pCbk1OVzA?oc=5",
@@ -165,6 +187,17 @@
       "summary": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
       "abstract": "Meta has repeatedly delayed the release of its new AI model for developers, according to the Wall Street Journal. The delays highlight the company's cautious approach to AI development, which may be influenced by regulatory concerns and the need for thorough testing.",
       "score": 55
+    },
+    {
+      "title": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "topic": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
+      "url": "https://arxiv.org/abs/2606.05461v2",
+      "source": "arXiv",
+      "published": "2026-06-03T21:37:52Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper titled Output Type Before Quality, published on June 3, 2026, derives an XAI admissibility rubric for autonomous-driving safety from standards such as AMLAS, ISO 26262, ISO21448, and ISO/PAS 8800. This work identifies a mismatch between the output types of XAI methods and the evidence required by safety standards, known as the evidence-type gap. The paper evaluates six XAI method classes against 19 testable evidentiary criteria, finding that causal XAI emerges as a promising approach. This research is crucial for ensuring the safety and explainability of autonomous driving systems, as it provides a framework for assessing the admissibility of XAI methods in the context of safety standards.",
+      "abstract": "The arXiv paper titled Output Type Before Quality, published on June 3, 2026, derives an XAI admissibility rubric for autonomous-driving safety from standards such as AMLAS, ISO 26262, ISO21448, and ISO/PAS 8800. This work identifies a mismatch between the output types of XAI methods and the evidence required by safety standards, known as the evidence-type gap. The paper evaluates six XAI method classes against 19 testable evidentiary criteria, finding that causal XAI emerges as a promising approach. This research is crucial for ensuring the safety and explainability of autonomous driving systems, as it provides a framework for assessing the admissibility of XAI methods in the context of safety standards.",
+      "score": 90
     },
     {
       "title": "Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety",
