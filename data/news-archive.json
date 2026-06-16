@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-06-15T12:45:01.777244Z",
+  "updated_at": "2026-06-16T11:37:35.758792Z",
   "items": [
+    {
+      "title": "Tesla’s self-driving safeguards fooled by $30 doll heads",
+      "topic": "Tesla’s self-driving safeguards fooled by $30 doll heads",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY0tyMUdYWTdqY244b0JmWV9MZUJ5UmpLMVFaVkVBb1VmZTRWRi1OV3Jvb0JXV1h3YlVIU2FqS1ZGTUZBendFM0g5MkRoY1JzRGRvY2d3NEEtY0NzSkdlREp0OE1vcVQtWkU2Qmk2YUlrZF9jRkhYWVpSYWpMLVVRWnIxRDY3ZjVGTW5relVmVFM4dVU?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-15T17:37:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's self-driving safeguards were reportedly fooled by $30 doll heads, raising concerns about the reliability of its Full Self-Driving (FSD) system. The incident highlights potential vulnerabilities in Tesla's sensor and perception systems, which could have serious implications for the safety of autonomous vehicles on public roads.",
+      "abstract": "Tesla's self-driving safeguards were reportedly fooled by $30 doll heads, raising concerns about the reliability of its Full Self-Driving (FSD) system. The incident highlights potential vulnerabilities in Tesla's sensor and perception systems, which could have serious implications for the safety of autonomous vehicles on public roads.",
+      "score": 80
+    },
+    {
+      "title": "Exclusive: Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
+      "topic": "Exclusive: Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0hBU1N1QmFJWEswYVNlZE1HT0VOd1B0ME5lNFVsOHduTUxWREJpS3FLUHItOHB3aVRDaml3LURlRGY5dlNLV293bEFtMmlmaFh4eTZKSnJJWVZPZ1BQcS1zZDZ2RGpvc1ZjbjJMbnRTY21qZ2RINzhpQ0RvUFdWQWJnenR1aFo2WVNIZnFYcjJGT1dFZTNVdzc1aG9YM0F3R1cwd3BXeVQ2bXREbmM3TFNGcmlqZTlRZ0E?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-15T12:22:12Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is under scrutiny for allegedly presenting misleading safety data for its Full Self-Driving (FSD) system to European regulators. The company's data manipulation, if confirmed, could have significant regulatory and safety implications for the deployment of autonomous vehicles in Europe and globally.",
+      "abstract": "Tesla is under scrutiny for allegedly presenting misleading safety data for its Full Self-Driving (FSD) system to European regulators. The company's data manipulation, if confirmed, could have significant regulatory and safety implications for the deployment of autonomous vehicles in Europe and globally.",
+      "score": 75
+    },
+    {
+      "title": "Sustainability assessment using multimodal artificial intelligence agents",
+      "topic": "Sustainability assessment using multimodal artificial intelligence agents",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iM1ltNy1hMWMwNTBvREZhQWxlT3B4LWlQbzVySExTTi1hZW1tS0xQdmpNb2g1UXpDb18tc1ZDYUdtRHgxOWY4MU5GeVVmU0t2b0dQYk83UlFLdU94cmtn?oc=5",
+      "source": "Nature",
+      "published": "2026-06-12T10:08:02Z",
+      "category": "ai",
+      "summary": "OpenAI's CEO, Sam Altman, will urge US lawmakers to avoid requiring regulatory approvals for AI models. This stance reflects OpenAI's commitment to rapid innovation and deployment of AI technologies, but it also raises concerns about the potential risks and ethical implications of unregulated AI development.",
+      "abstract": "OpenAI's CEO, Sam Altman, will urge US lawmakers to avoid requiring regulatory approvals for AI models. This stance reflects OpenAI's commitment to rapid innovation and deployment of AI technologies, but it also raises concerns about the potential risks and ethical implications of unregulated AI development.",
+      "score": 65
+    },
     {
       "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
       "topic": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
