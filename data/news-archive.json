@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-16T11:37:35.758792Z",
+  "updated_at": "2026-06-17T11:19:51.273018Z",
   "items": [
+    {
+      "title": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
+      "topic": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
+      "url": "https://arxiv.org/abs/2606.18242v1",
+      "source": "arXiv",
+      "published": "2026-06-16T17:58:40Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
+      "abstract": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
+      "score": 92
+    },
+    {
+      "title": "Self-driving tech supplier Mobileye plans US robotaxi service next year",
+      "topic": "Self-driving tech supplier Mobileye plans US robotaxi service next year",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQME1nZzBfdG1RS2RSaS1UdHFPdWNLdTVjV09aWGdrZGpkSzBUSmYxb1FRZ202d2NhQWdrYnEyQVh0RFNWWjFWeU9pTDBxdHowckRlTG1USThDeHdPRXFQdkdDSVdOZWJabDhuUjA5dGpUTHRNTXVnS2NrQWlOWWVzeW96TllOeTVvTzZhbGxLWHdlUQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-16T16:25:47Z",
+      "category": "automated-vehicles",
+      "summary": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
+      "abstract": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
+      "score": 95
+    },
     {
       "title": "Tesla’s self-driving safeguards fooled by $30 doll heads",
       "topic": "Tesla’s self-driving safeguards fooled by $30 doll heads",
@@ -33,6 +55,17 @@
       "summary": "OpenAI's CEO, Sam Altman, will urge US lawmakers to avoid requiring regulatory approvals for AI models. This stance reflects OpenAI's commitment to rapid innovation and deployment of AI technologies, but it also raises concerns about the potential risks and ethical implications of unregulated AI development.",
       "abstract": "OpenAI's CEO, Sam Altman, will urge US lawmakers to avoid requiring regulatory approvals for AI models. This stance reflects OpenAI's commitment to rapid innovation and deployment of AI technologies, but it also raises concerns about the potential risks and ethical implications of unregulated AI development.",
       "score": 65
+    },
+    {
+      "title": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
+      "topic": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
+      "url": "https://arxiv.org/abs/2606.17082v1",
+      "source": "arXiv",
+      "published": "2026-06-12T05:52:01Z",
+      "category": "arxiv-explainability-av",
+      "summary": "ParkingTransformer, a novel framework proposed by researchers on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking. ParkingTransformer combines trajectory queries with LLMs' implicit state features to output planning trajectories, eliminating the need for dense Bird's-View (BEV) representations. This approach has the potential to improve the efficiency and safety of autonomous parking systems. ParkingTransformer is based on the ability of LLMs to understand and generate human-like language, which can be used to represent and reason about complex scenes.",
+      "abstract": "ParkingTransformer, a novel framework proposed by researchers on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking. ParkingTransformer combines trajectory queries with LLMs' implicit state features to output planning trajectories, eliminating the need for dense Bird's-View (BEV) representations. This approach has the potential to improve the efficiency and safety of autonomous parking systems. ParkingTransformer is based on the ability of LLMs to understand and generate human-like language, which can be used to represent and reason about complex scenes.",
+      "score": 90
     },
     {
       "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
