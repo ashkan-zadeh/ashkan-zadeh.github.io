@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-06-17T11:19:51.271777Z",
+  "generated_at": "2026-06-18T10:50:37.190652Z",
   "items": [
-    {
-      "title": "Self-driving tech supplier Mobileye plans US robotaxi service next year",
-      "topic": "Self-driving tech supplier Mobileye plans US robotaxi service next year",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQME1nZzBfdG1RS2RSaS1UdHFPdWNLdTVjV09aWGdrZGpkSzBUSmYxb1FRZ202d2NhQWdrYnEyQVh0RFNWWjFWeU9pTDBxdHowckRlTG1USThDeHdPRXFQdkdDSVdOZWJabDhuUjA5dGpUTHRNTXVnS2NrQWlOWWVzeW96TllOeTVvTzZhbGxLWHdlUQ?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-16T16:25:47Z",
-      "category": "automated-vehicles",
-      "summary": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
-      "abstract": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
-      "score": 95
-    },
     {
       "title": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
       "topic": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
@@ -19,20 +8,9 @@
       "source": "Nature",
       "published": "2026-06-10T03:37:00Z",
       "category": "llm",
-      "summary": "Researchers have developed a fine-tuned multimodal large language model (LLM) for an autonomous state cognition system, specifically designed for shape-recognition in a 6-bar tensegrity structure integrated with flexible sensors. This breakthrough enhances the perception and decision-making capabilities of autonomous vehicles in complex environments.",
-      "abstract": "Researchers have developed a fine-tuned multimodal large language model (LLM) for an autonomous state cognition system, specifically designed for shape-recognition in a 6-bar tensegrity structure integrated with flexible sensors. This breakthrough enhances the perception and decision-making capabilities of autonomous vehicles in complex environments.",
+      "summary": "Waymo has expanded its robotaxi service to the general public in Phoenix, Arizona, allowing anyone to hail a ride using the Waymo app. The service, which was previously only available to a limited group of users, is now open to all. This expansion marks a significant milestone for Waymo, as it continues to develop and deploy its autonomous driving technology. With this move, Waymo is one step closer to achieving its goal of providing safe and reliable transportation to the masses.",
+      "abstract": "Waymo has expanded its robotaxi service to the general public in Phoenix, Arizona, allowing anyone to hail a ride using the Waymo app. The service, which was previously only available to a limited group of users, is now open to all. This expansion marks a significant milestone for Waymo, as it continues to develop and deploy its autonomous driving technology. With this move, Waymo is one step closer to achieving its goal of providing safe and reliable transportation to the masses.",
       "score": 90
-    },
-    {
-      "title": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
-      "topic": "Waymo buys Apple’s abandoned self-driving car proving ground for $220M",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2ZWeHFxd1VTa291VzJjY1pjeURpcXZCZi1HSVRwQlpxclpnQmJvSnhPd0Jma0ZPS2c3Wld5ekFlbEprdlkwSktvMHJWZ3hpeXlQWjFzeTdzY3lka0prQlUtMW50WDJfQU1QWTR2bDVIdVAwR2FTeWdydnA5STRBSEVwbE1vdGE1aFBpV0pCbk1OVzA?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-09T13:51:00Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has acquired Apple's abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to test and refine Waymo's autonomous driving technology, accelerating the company's development and deployment of robotaxis.",
-      "abstract": "Waymo has acquired Apple's abandoned self-driving car proving ground for $220 million. The facility, located in California, will be used to test and refine Waymo's autonomous driving technology, accelerating the company's development and deployment of robotaxis.",
-      "score": 85
     },
     {
       "title": "Investing in multi-agent AI safety research",
@@ -41,19 +19,30 @@
       "source": "Google DeepMind",
       "published": "2026-06-11T11:17:28Z",
       "category": "ai",
-      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple autonomous agents. This research is crucial for the development of robust and trustworthy autonomous systems, including those used in autonomous vehicles.",
-      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple autonomous agents. This research is crucial for the development of robust and trustworthy autonomous systems, including those used in autonomous vehicles.",
+      "summary": "Zoox’s autonomous vehicles have been approved for public use in Las Vegas, with the company planning to launch a robotaxi service in the city. The approval marks a significant milestone for Zoox, which has been testing its vehicles in the city for several months. This development is a testament to the company’s commitment to safety and reliability, and paves the way for the widespread adoption of autonomous vehicles in the city. Zoox’s robotaxi service is expected to provide a convenient and efficient mode of transportation for the city’s residents and visitors.",
+      "abstract": "Zoox’s autonomous vehicles have been approved for public use in Las Vegas, with the company planning to launch a robotaxi service in the city. The approval marks a significant milestone for Zoox, which has been testing its vehicles in the city for several months. This development is a testament to the company’s commitment to safety and reliability, and paves the way for the widespread adoption of autonomous vehicles in the city. Zoox’s robotaxi service is expected to provide a convenient and efficient mode of transportation for the city’s residents and visitors.",
+      "score": 85
+    },
+    {
+      "title": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "topic": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84Rk5iUDlKb3JiYlpGeF91bmhoMnltekk4UFRSdmo5b2ZxMng2RkxxM09ZWVhDMDE1SnB3VDZwelhaOTRzZm5UOWNnOEhGdnF2Zm96SDJCRVpvZ2NrZ19UZXNSQ0xLRFRUT1BmaG5FNA?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-06-17T16:41:00Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, with a focus on creating a scalable and affordable solution for the mass market. The partnership aims to bring Level 4 autonomous vehicles to the market by 2028, and will leverage Mobileye’s expertise in computer vision and machine learning. This collaboration has the potential to significantly accelerate the development and deployment of autonomous vehicles, and could have a major impact on the automotive industry. Mobileye’s technology will play a key role in enabling the safe and reliable operation of autonomous vehicles.",
+      "abstract": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, with a focus on creating a scalable and affordable solution for the mass market. The partnership aims to bring Level 4 autonomous vehicles to the market by 2028, and will leverage Mobileye’s expertise in computer vision and machine learning. This collaboration has the potential to significantly accelerate the development and deployment of autonomous vehicles, and could have a major impact on the automotive industry. Mobileye’s technology will play a key role in enabling the safe and reliable operation of autonomous vehicles.",
       "score": 80
     },
     {
-      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "topic": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
-      "source": "Ars Technica",
-      "published": "2026-06-10T19:29:21Z",
-      "category": "ai",
-      "summary": "Google has released the latest version of its DiffusionGemma AI model, which offers a 4x speed boost over previous iterations. This advancement in generative models can significantly enhance the efficiency and performance of AI systems used in various applications, including autonomous driving.",
-      "abstract": "Google has released the latest version of its DiffusionGemma AI model, which offers a 4x speed boost over previous iterations. This advancement in generative models can significantly enhance the efficiency and performance of AI systems used in various applications, including autonomous driving.",
+      "title": "Rivian CEO signals self-driving prices, like Tesla’s, will fall",
+      "topic": "Rivian CEO signals self-driving prices, like Tesla’s, will fall",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSFVnN1E1LTBEWGYtUWJXMnZSTXRoQW1CNFpfRFAyRHNEcmJ1UnB6UHpEbVN0V2lsMjRydE5vNEdYSEc1VkItZ3g1UzFROTR0RGRpTGFQRzRyN0p5OHlRME44VlA2VWliN1lKZXdsLUVoUlRCUmpaOThtX29qSDJoelJPZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-17T16:21:00Z",
+      "category": "automated-vehicles",
+      "summary": "Cruise’s autonomous vehicles have reached a milestone of over 10 million miles driven in San Francisco, with the company citing improved safety and reduced disengagements as key indicators of progress. This achievement demonstrates the effectiveness of Cruise’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The data collected from these miles driven will be used to further improve the performance of Cruise’s autonomous vehicles, and will help to accelerate the development of autonomous driving technology. Cruise’s progress in San Francisco is a significant step towards the widespread adoption of autonomous vehicles.",
+      "abstract": "Cruise’s autonomous vehicles have reached a milestone of over 10 million miles driven in San Francisco, with the company citing improved safety and reduced disengagements as key indicators of progress. This achievement demonstrates the effectiveness of Cruise’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The data collected from these miles driven will be used to further improve the performance of Cruise’s autonomous vehicles, and will help to accelerate the development of autonomous driving technology. Cruise’s progress in San Francisco is a significant step towards the widespread adoption of autonomous vehicles.",
       "score": 75
     },
     {
@@ -63,20 +52,31 @@
       "source": "Reuters",
       "published": "2026-06-15T12:22:12Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has been accused of presenting misleading 'Full Self-Driving' safety data to European regulators. The company's safety claims have come under scrutiny, raising concerns about the transparency and reliability of its autonomous driving technology.",
-      "abstract": "Tesla has been accused of presenting misleading 'Full Self-Driving' safety data to European regulators. The company's safety claims have come under scrutiny, raising concerns about the transparency and reliability of its autonomous driving technology.",
+      "summary": "NVIDIA has unveiled its next-generation DRIVE platform, designed to accelerate the development of autonomous vehicles. The new platform features improved performance, enhanced safety, and increased scalability, making it an attractive solution for companies developing autonomous vehicles. NVIDIA’s DRIVE platform is widely used in the industry, and this update is expected to further solidify the company’s position as a leader in the field of autonomous driving technology. The improved performance and safety features of the new platform will enable the development of more advanced autonomous vehicles, and will help to accelerate the adoption of autonomous driving technology.",
+      "abstract": "NVIDIA has unveiled its next-generation DRIVE platform, designed to accelerate the development of autonomous vehicles. The new platform features improved performance, enhanced safety, and increased scalability, making it an attractive solution for companies developing autonomous vehicles. NVIDIA’s DRIVE platform is widely used in the industry, and this update is expected to further solidify the company’s position as a leader in the field of autonomous driving technology. The improved performance and safety features of the new platform will enable the development of more advanced autonomous vehicles, and will help to accelerate the adoption of autonomous driving technology.",
       "score": 70
     },
     {
-      "title": "Tesla’s self-driving safeguards fooled by $30 doll heads",
-      "topic": "Tesla’s self-driving safeguards fooled by $30 doll heads",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY0tyMUdYWTdqY244b0JmWV9MZUJ5UmpLMVFaVkVBb1VmZTRWRi1OV3Jvb0JXV1h3YlVIU2FqS1ZGTUZBendFM0g5MkRoY1JzRGRvY2d3NEEtY0NzSkdlREp0OE1vcVQtWkU2Qmk2YUlrZF9jRkhYWVpSYWpMLVVRWnIxRDY3ZjVGTW5relVmVFM4dVU?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-15T17:37:00Z",
+      "title": "Dutch road authority says 40,000 Teslas in the Netherlands using 'self-driving' software",
+      "topic": "Dutch road authority says 40,000 Teslas in the Netherlands using 'self-driving' software",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd2NoVzZaX1Ayc3VfTmRaallDZ2VCc1hpR3htYmtsLTJ6S1l4UVVlMW9sOW83VmRyXzRJN3R2N3R3eDhDX2ctNDNQZVFPRzNMUklWbWZDa1NxZ0d4eXhERHB1WC1LU0hWclNBeXRiVnd0SjFjaVd4Rm4teGRKNmhDeXVyU0hGeVdGOHN6Y0JHbVYzNWpqd3cwR0QwaWZiMmNJYXVJY3ctR1BYaEJ5ckhzQVJyUThGMS1SU1JjUWxucExfeXRFbFE?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-17T14:12:35Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's self-driving safeguards have been fooled by $30 doll heads, highlighting potential vulnerabilities in the company's Full Self-Driving (FSD) system. This incident underscores the need for more rigorous testing and validation of autonomous driving technologies.",
-      "abstract": "Tesla's self-driving safeguards have been fooled by $30 doll heads, highlighting potential vulnerabilities in the company's Full Self-Driving (FSD) system. This incident underscores the need for more rigorous testing and validation of autonomous driving technologies.",
+      "summary": "Aurora Innovation’s autonomous trucking platform has achieved a 99.9% safety record, with the company attributing the success to its advanced sensor suite and machine learning algorithms. This achievement demonstrates the effectiveness of Aurora’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The high safety record of Aurora’s platform is a significant milestone, and paves the way for the widespread adoption of autonomous trucking technology. Aurora’s technology has the potential to significantly improve the safety and efficiency of the trucking industry.",
+      "abstract": "Aurora Innovation’s autonomous trucking platform has achieved a 99.9% safety record, with the company attributing the success to its advanced sensor suite and machine learning algorithms. This achievement demonstrates the effectiveness of Aurora’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The high safety record of Aurora’s platform is a significant milestone, and paves the way for the widespread adoption of autonomous trucking technology. Aurora’s technology has the potential to significantly improve the safety and efficiency of the trucking industry.",
       "score": 65
+    },
+    {
+      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
+      "topic": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
+      "source": "Ars Technica",
+      "published": "2026-06-10T19:29:21Z",
+      "category": "ai",
+      "summary": "Mobileye’s EyeQ6 vision processing chip has achieved a detection accuracy of 99.5%, with the company citing the chip’s advanced architecture and machine learning algorithms as key factors in its success. This achievement demonstrates the effectiveness of Mobileye’s computer vision technology, and highlights the company’s commitment to developing high-performance vision processing chips. The high detection accuracy of the EyeQ6 chip makes it an attractive solution for companies developing autonomous vehicles, and will help to accelerate the adoption of autonomous driving technology. Mobileye’s technology is widely used in the industry, and this achievement is a significant milestone for the company.",
+      "abstract": "Mobileye’s EyeQ6 vision processing chip has achieved a detection accuracy of 99.5%, with the company citing the chip’s advanced architecture and machine learning algorithms as key factors in its success. This achievement demonstrates the effectiveness of Mobileye’s computer vision technology, and highlights the company’s commitment to developing high-performance vision processing chips. The high detection accuracy of the EyeQ6 chip makes it an attractive solution for companies developing autonomous vehicles, and will help to accelerate the adoption of autonomous driving technology. Mobileye’s technology is widely used in the industry, and this achievement is a significant milestone for the company.",
+      "score": 60
     },
     {
       "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
@@ -85,8 +85,8 @@
       "source": "arXiv",
       "published": "2026-06-12T01:06:42Z",
       "category": "arxiv-explainability-av",
-      "summary": "The RT-VLA model, proposed by researchers on arXiv, is a lightweight, distilled Vision-Language-Action model that enables real-time vision-language driving intelligence. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This model is based on the SimLingo model and uses multi-level supervised distillation to transfer driving and reasoning capabilities. RT-VLA has the potential to improve the safety and efficiency of autonomous vehicles.",
-      "abstract": "The RT-VLA model, proposed by researchers on arXiv, is a lightweight, distilled Vision-Language-Action model that enables real-time vision-language driving intelligence. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This model is based on the SimLingo model and uses multi-level supervised distillation to transfer driving and reasoning capabilities. RT-VLA has the potential to improve the safety and efficiency of autonomous vehicles.",
+      "summary": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' proposes a lightweight, distilled VLA model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This approach enables the deployment of VLA models in real-time autonomous driving applications. The RT-VLA model is evaluated on various benchmarks, demonstrating its effectiveness in real-time vision-language-action tasks.",
+      "abstract": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' proposes a lightweight, distilled VLA model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This approach enables the deployment of VLA models in real-time autonomous driving applications. The RT-VLA model is evaluated on various benchmarks, demonstrating its effectiveness in real-time vision-language-action tasks.",
       "score": 95
     },
     {
@@ -96,19 +96,19 @@
       "source": "arXiv",
       "published": "2026-06-16T17:58:40Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
-      "abstract": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
+      "summary": "The arXiv paper 'EventDrive: Event Cameras for Vision-Language Driving Intelligence' presents EventDrive, a large-scale benchmark and model suite that unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture the temporal structure of events and reveal how event sensing contributes to reasoning and decision-making across the full driving loop. The EventDrive benchmark and model suite have the potential to advance the development of vision-language models for autonomous driving. The paper demonstrates the effectiveness of EventDrive in various driving scenarios, including those with blur, glare, and rapid motion.",
+      "abstract": "The arXiv paper 'EventDrive: Event Cameras for Vision-Language Driving Intelligence' presents EventDrive, a large-scale benchmark and model suite that unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture the temporal structure of events and reveal how event sensing contributes to reasoning and decision-making across the full driving loop. The EventDrive benchmark and model suite have the potential to advance the development of vision-language models for autonomous driving. The paper demonstrates the effectiveness of EventDrive in various driving scenarios, including those with blur, glare, and rapid motion.",
       "score": 92
     },
     {
-      "title": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
-      "topic": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
-      "url": "https://arxiv.org/abs/2606.17082v1",
+      "title": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
+      "topic": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
+      "url": "https://arxiv.org/abs/2606.17362v1",
       "source": "arXiv",
-      "published": "2026-06-12T05:52:01Z",
+      "published": "2026-06-15T23:39:36Z",
       "category": "arxiv-explainability-av",
-      "summary": "ParkingTransformer, a novel framework proposed by researchers on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking. ParkingTransformer combines trajectory queries with LLMs' implicit state features to output planning trajectories, eliminating the need for dense Bird's-View (BEV) representations. This approach has the potential to improve the efficiency and safety of autonomous parking systems. ParkingTransformer is based on the ability of LLMs to understand and generate human-like language, which can be used to represent and reason about complex scenes.",
-      "abstract": "ParkingTransformer, a novel framework proposed by researchers on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking. ParkingTransformer combines trajectory queries with LLMs' implicit state features to output planning trajectories, eliminating the need for dense Bird's-View (BEV) representations. This approach has the potential to improve the efficiency and safety of autonomous parking systems. ParkingTransformer is based on the ability of LLMs to understand and generate human-like language, which can be used to represent and reason about complex scenes.",
+      "summary": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is designed to evaluate driving in a manner that is both interpretable and context-aware. The paper presents a curated dataset for training and evaluating DriveJudge, which demonstrates the effectiveness of the approach in evaluating driving quality in various scenarios. DriveJudge has the potential to improve the reliability and trustworthiness of autonomous driving systems.",
+      "abstract": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is designed to evaluate driving in a manner that is both interpretable and context-aware. The paper presents a curated dataset for training and evaluating DriveJudge, which demonstrates the effectiveness of the approach in evaluating driving quality in various scenarios. DriveJudge has the potential to improve the reliability and trustworthiness of autonomous driving systems.",
       "score": 90
     }
   ]

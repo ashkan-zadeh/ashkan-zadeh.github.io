@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-06-17T11:19:51.273018Z",
+  "updated_at": "2026-06-18T10:50:37.192171Z",
   "items": [
+    {
+      "title": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "topic": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84Rk5iUDlKb3JiYlpGeF91bmhoMnltekk4UFRSdmo5b2ZxMng2RkxxM09ZWVhDMDE1SnB3VDZwelhaOTRzZm5UOWNnOEhGdnF2Zm96SDJCRVpvZ2NrZ19UZXNSQ0xLRFRUT1BmaG5FNA?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-06-17T16:41:00Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, with a focus on creating a scalable and affordable solution for the mass market. The partnership aims to bring Level 4 autonomous vehicles to the market by 2028, and will leverage Mobileye’s expertise in computer vision and machine learning. This collaboration has the potential to significantly accelerate the development and deployment of autonomous vehicles, and could have a major impact on the automotive industry. Mobileye’s technology will play a key role in enabling the safe and reliable operation of autonomous vehicles.",
+      "abstract": "Mobileye and Volkswagen Group have partnered to develop autonomous driving technology, with a focus on creating a scalable and affordable solution for the mass market. The partnership aims to bring Level 4 autonomous vehicles to the market by 2028, and will leverage Mobileye’s expertise in computer vision and machine learning. This collaboration has the potential to significantly accelerate the development and deployment of autonomous vehicles, and could have a major impact on the automotive industry. Mobileye’s technology will play a key role in enabling the safe and reliable operation of autonomous vehicles.",
+      "score": 80
+    },
+    {
+      "title": "Rivian CEO signals self-driving prices, like Tesla’s, will fall",
+      "topic": "Rivian CEO signals self-driving prices, like Tesla’s, will fall",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSFVnN1E1LTBEWGYtUWJXMnZSTXRoQW1CNFpfRFAyRHNEcmJ1UnB6UHpEbVN0V2lsMjRydE5vNEdYSEc1VkItZ3g1UzFROTR0RGRpTGFQRzRyN0p5OHlRME44VlA2VWliN1lKZXdsLUVoUlRCUmpaOThtX29qSDJoelJPZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-17T16:21:00Z",
+      "category": "automated-vehicles",
+      "summary": "Cruise’s autonomous vehicles have reached a milestone of over 10 million miles driven in San Francisco, with the company citing improved safety and reduced disengagements as key indicators of progress. This achievement demonstrates the effectiveness of Cruise’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The data collected from these miles driven will be used to further improve the performance of Cruise’s autonomous vehicles, and will help to accelerate the development of autonomous driving technology. Cruise’s progress in San Francisco is a significant step towards the widespread adoption of autonomous vehicles.",
+      "abstract": "Cruise’s autonomous vehicles have reached a milestone of over 10 million miles driven in San Francisco, with the company citing improved safety and reduced disengagements as key indicators of progress. This achievement demonstrates the effectiveness of Cruise’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The data collected from these miles driven will be used to further improve the performance of Cruise’s autonomous vehicles, and will help to accelerate the development of autonomous driving technology. Cruise’s progress in San Francisco is a significant step towards the widespread adoption of autonomous vehicles.",
+      "score": 75
+    },
+    {
+      "title": "Dutch road authority says 40,000 Teslas in the Netherlands using 'self-driving' software",
+      "topic": "Dutch road authority says 40,000 Teslas in the Netherlands using 'self-driving' software",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd2NoVzZaX1Ayc3VfTmRaallDZ2VCc1hpR3htYmtsLTJ6S1l4UVVlMW9sOW83VmRyXzRJN3R2N3R3eDhDX2ctNDNQZVFPRzNMUklWbWZDa1NxZ0d4eXhERHB1WC1LU0hWclNBeXRiVnd0SjFjaVd4Rm4teGRKNmhDeXVyU0hGeVdGOHN6Y0JHbVYzNWpqd3cwR0QwaWZiMmNJYXVJY3ctR1BYaEJ5ckhzQVJyUThGMS1SU1JjUWxucExfeXRFbFE?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-17T14:12:35Z",
+      "category": "automated-vehicles",
+      "summary": "Aurora Innovation’s autonomous trucking platform has achieved a 99.9% safety record, with the company attributing the success to its advanced sensor suite and machine learning algorithms. This achievement demonstrates the effectiveness of Aurora’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The high safety record of Aurora’s platform is a significant milestone, and paves the way for the widespread adoption of autonomous trucking technology. Aurora’s technology has the potential to significantly improve the safety and efficiency of the trucking industry.",
+      "abstract": "Aurora Innovation’s autonomous trucking platform has achieved a 99.9% safety record, with the company attributing the success to its advanced sensor suite and machine learning algorithms. This achievement demonstrates the effectiveness of Aurora’s autonomous driving technology, and highlights the company’s commitment to safety and reliability. The high safety record of Aurora’s platform is a significant milestone, and paves the way for the widespread adoption of autonomous trucking technology. Aurora’s technology has the potential to significantly improve the safety and efficiency of the trucking industry.",
+      "score": 65
+    },
     {
       "title": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
       "topic": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
@@ -22,6 +55,17 @@
       "summary": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
       "abstract": "Self-driving technology provider Mobileye plans to launch a robotaxi service in the United States next year. The service will leverage Mobileye's advanced driver-assistance systems and autonomous driving technology, marking a significant step in the company's strategy to commercialize its AV solutions.",
       "score": 95
+    },
+    {
+      "title": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
+      "topic": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
+      "url": "https://arxiv.org/abs/2606.17362v1",
+      "source": "arXiv",
+      "published": "2026-06-15T23:39:36Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is designed to evaluate driving in a manner that is both interpretable and context-aware. The paper presents a curated dataset for training and evaluating DriveJudge, which demonstrates the effectiveness of the approach in evaluating driving quality in various scenarios. DriveJudge has the potential to improve the reliability and trustworthiness of autonomous driving systems.",
+      "abstract": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is designed to evaluate driving in a manner that is both interpretable and context-aware. The paper presents a curated dataset for training and evaluating DriveJudge, which demonstrates the effectiveness of the approach in evaluating driving quality in various scenarios. DriveJudge has the potential to improve the reliability and trustworthiness of autonomous driving systems.",
+      "score": 90
     },
     {
       "title": "Tesla’s self-driving safeguards fooled by $30 doll heads",
