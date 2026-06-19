@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-18T10:50:37.192171Z",
+  "updated_at": "2026-06-19T10:59:55.654525Z",
   "items": [
+    {
+      "title": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
+      "topic": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR0VnbUtkOC1SQzM3RDR4TEdPV04tM3NaSjE2S1phbUJrOWxNZ2t3TWhlc0Z0ZUpjNWo2SXJyYkpSM1hZYjFUaS1qdWt3QTF4Z1dnX1hzMlhPTjVPZkNaaTNrYW5makQtODEyanREMUhENkg0VTFWTjMzWXpPM3JtSHlLV0ZkZnNKdGp1dE5JM2Nob1ViZjh4WEE3QzUxT2ZQQmZ4Ti1kc1JPTEtkdmZEb01NYVYxTS1OOWpyODRVWjNiMTB5MUtMTk94TlIxQ0lGQTNfQ3dDZw?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-18T15:37:00Z",
+      "category": "automated-vehicles",
+      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. This regulatory stance could impact Tesla's plans to expand its Full Self-Driving (FSD) capabilities in the European market, emphasizing the ongoing scrutiny of autonomous vehicle safety.",
+      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. This regulatory stance could impact Tesla's plans to expand its Full Self-Driving (FSD) capabilities in the European market, emphasizing the ongoing scrutiny of autonomous vehicle safety.",
+      "score": 90
+    },
+    {
+      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
+      "topic": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUNTdG56Smx3VGI5ODJHOWFEUjJkek92MU9CRVlieTB2V2tlYkY4c014MnZBZVZNQ2xWaDVGY1BTUTdYdEZmd3pGMkdsY09sWDZadlowVEhCTHphckg1SkNXbk1TOE5sQW5DMjVhTWVNYnR5TndXSjd1MkRqNk1ObkdfbllBc1NDUVFXd2JyVVdkbkFlVGN4TmFvenBTYjl5ZlFpOVZjWkJHUXNDT0hmSzBpNmd6RW1lUXNUamtRemI?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-06-18T11:59:11Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
+      "abstract": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
+      "score": 95
+    },
     {
       "title": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
       "topic": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
@@ -44,6 +66,17 @@
       "summary": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
       "abstract": "EventDrive, a large-scale benchmark and model suite proposed by researchers on arXiv, unifies event streams, RGB frames, and language supervision across four core dimensions: Perception, Prediction, Planning, and Explanation. EventDrive is designed to capture temporal structure and motion fidelity in autonomous driving, particularly under blur, glare, and rapid motion. The model has the potential to improve the perception and decision-making capabilities of autonomous vehicles. EventDrive is based on event cameras, which sense the world through asynchronous brightness changes with microsecond latency and high dynamic range.",
       "score": 92
+    },
+    {
+      "title": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
+      "topic": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQi1KMExSQzVlM296bk5FUk1TNnRzdGEyVXdpaGlWR0dZZXVpVEhNbk5EbjhQa2NCa1BlTkdfQ1RjUDVEMlVuajUzQnJXa0pZSldwclFuV2RsX0g3cFkyQ2FqQlBHSlpocS1nMTJWQmc4ejhnU3FzSHlhanppWUlfZmdLU242YWV0OGRIV2gtd01wQklQRzFSMlFNR0FvS1BLQTVzcWptMEl3OWlwcmpKLWxPRFNmaTJPQ0dZU3BoTGtQeVN4bUE?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-16T16:41:59Z",
+      "category": "automated-vehicles",
+      "summary": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which is critical for ensuring the safety of autonomous vehicles on public roads.",
+      "abstract": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which is critical for ensuring the safety of autonomous vehicles on public roads.",
+      "score": 80
     },
     {
       "title": "Self-driving tech supplier Mobileye plans US robotaxi service next year",
