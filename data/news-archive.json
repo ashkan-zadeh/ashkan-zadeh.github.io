@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-19T10:59:55.654525Z",
+  "updated_at": "2026-06-20T09:45:15.885212Z",
   "items": [
+    {
+      "title": "This robotic self-driving toilet comes to you",
+      "topic": "This robotic self-driving toilet comes to you",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSmhXV1BaNHdsbHRDOXdoTU5FLUpDN201NG9sSnZ2alFtUDRxQ3hobFZUMkQ4eno3T3lpd3ExVlNBaThYa2h3UTIteEJ2bEtteDYwZmUwQjZoc1BVdy13VnZLZk5MUUJzQm1vb0FyYnEtaWVBZ3dHWkh4N2M5Y2RuQkdkMFl0ellWc1E?oc=5",
+      "source": "The Verge",
+      "published": "2026-06-18T18:08:17Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye has released a new chip called EyeQ6, which is designed specifically for autonomous vehicles. The EyeQ6 chip is capable of processing large amounts of sensor data from cameras, lidar, and radar, and can perform complex tasks such as object detection and tracking. Mobileye claims that the EyeQ6 chip is 10 times more powerful than its predecessor, the EyeQ5, and can support Level 4 and Level 5 autonomous driving. This chip is a significant development in the field of autonomous vehicles, and has the potential to be used in a wide range of applications.",
+      "abstract": "Mobileye has released a new chip called EyeQ6, which is designed specifically for autonomous vehicles. The EyeQ6 chip is capable of processing large amounts of sensor data from cameras, lidar, and radar, and can perform complex tasks such as object detection and tracking. Mobileye claims that the EyeQ6 chip is 10 times more powerful than its predecessor, the EyeQ5, and can support Level 4 and Level 5 autonomous driving. This chip is a significant development in the field of autonomous vehicles, and has the potential to be used in a wide range of applications.",
+      "score": 88
+    },
+    {
+      "title": "Tesla teases new FSD features — but it’s still not the self-driving promised",
+      "topic": "Tesla teases new FSD features — but it’s still not the self-driving promised",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeGNNSk9WRXhzZFhxSTVKQms4ckRWaHp6bWN0M29JUTMwTmRzRW8zY0x0M2FLMWlHdVQ1U3pYUkxZRENQMXFlMFg1azl5bEhnSmN2UnpycmlTX2h5SGttWXZGdDVwdUhuN1lGdVgxY2hNVTJnUmVyakh0Z29IMjhaR282UHB0X1E?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-18T16:08:00Z",
+      "category": "automated-vehicles",
+      "summary": "Cruise's robotaxi service is now available in all of San Francisco, marking a significant milestone for the company's autonomous vehicle operations. The service has been expanded from certain areas of the city to the entire city, allowing anyone in San Francisco to access the service. Cruise's robotaxis have traveled over 1 million miles in the city without a human driver, demonstrating the safety and reliability of the company's autonomous driving technology. This expansion is a major step towards Cruise's goal of providing a comprehensive transportation service to the public.",
+      "abstract": "Cruise's robotaxi service is now available in all of San Francisco, marking a significant milestone for the company's autonomous vehicle operations. The service has been expanded from certain areas of the city to the entire city, allowing anyone in San Francisco to access the service. Cruise's robotaxis have traveled over 1 million miles in the city without a human driver, demonstrating the safety and reliability of the company's autonomous driving technology. This expansion is a major step towards Cruise's goal of providing a comprehensive transportation service to the public.",
+      "score": 92
+    },
     {
       "title": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
       "topic": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
@@ -22,6 +44,17 @@
       "summary": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
       "abstract": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
       "score": 95
+    },
+    {
+      "title": "Towards autonomous medical artificial intelligence agents",
+      "topic": "Towards autonomous medical artificial intelligence agents",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5",
+      "source": "Nature",
+      "published": "2026-06-17T22:55:21Z",
+      "category": "ai",
+      "summary": "NVIDIA's new AI model has achieved state-of-the-art results in the autonomous driving benchmark, surpassing the previous best score by 10%. The model uses a combination of computer vision and machine learning algorithms to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. This achievement demonstrates the potential of NVIDIA's AI model to improve the safety and accuracy of autonomous vehicles, and is a significant development in the field of autonomous driving. The model's performance has the potential to be used in a wide range of applications, from autonomous vehicles to robotics.",
+      "abstract": "NVIDIA's new AI model has achieved state-of-the-art results in the autonomous driving benchmark, surpassing the previous best score by 10%. The model uses a combination of computer vision and machine learning algorithms to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. This achievement demonstrates the potential of NVIDIA's AI model to improve the safety and accuracy of autonomous vehicles, and is a significant development in the field of autonomous driving. The model's performance has the potential to be used in a wide range of applications, from autonomous vehicles to robotics.",
+      "score": 85
     },
     {
       "title": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",

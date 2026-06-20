@@ -1,27 +1,27 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-06-19T10:59:55.653122Z",
+  "generated_at": "2026-06-20T09:45:15.882735Z",
   "items": [
     {
-      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "topic": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUNTdG56Smx3VGI5ODJHOWFEUjJkek92MU9CRVlieTB2V2tlYkY4c014MnZBZVZNQ2xWaDVGY1BTUTdYdEZmd3pGMkdsY09sWDZadlowVEhCTHphckg1SkNXbk1TOE5sQW5DMjVhTWVNYnR5TndXSjd1MkRqNk1ObkdfbllBc1NDUVFXd2JyVVdkbkFlVGN4TmFvenBTYjl5ZlFpOVZjWkJHUXNDT0hmSzBpNmd6RW1lUXNUamtRemI?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-06-18T11:59:11Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
-      "abstract": "Waymo has recalled nearly 4,000 robotaxis vehicles to address an issue where the vehicles were driving into highway construction zones. The recall affects a significant portion of Waymo's fleet and highlights ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
+      "title": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
+      "topic": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qcDRaQWx5V19sQzg4TzhXX1JTWXllRGMwdXA5SjNObDBIX1VXWFh3RWFWQlM5N2ZTMTFqVUNzSzhiNzJ2M3RaMEs5ZWsyc1JVZkFCS1pVMUxxWDdRZjhz?oc=5",
+      "source": "Nature",
+      "published": "2026-06-10T07:00:00Z",
+      "category": "llm",
+      "summary": "Waymo has expanded its robotaxi service to downtown Los Angeles, marking a significant expansion of the company's autonomous vehicle operations in the city. The service allows users to hail a ride using the Waymo app, and the company's self-driving vehicles will navigate through the city without human intervention. This expansion is a key step towards Waymo's goal of providing a safe and efficient transportation service to the public. With this move, Waymo is further establishing itself as a leader in the autonomous vehicle industry.",
+      "abstract": "Waymo has expanded its robotaxi service to downtown Los Angeles, marking a significant expansion of the company's autonomous vehicle operations in the city. The service allows users to hail a ride using the Waymo app, and the company's self-driving vehicles will navigate through the city without human intervention. This expansion is a key step towards Waymo's goal of providing a safe and efficient transportation service to the public. With this move, Waymo is further establishing itself as a leader in the autonomous vehicle industry.",
       "score": 95
     },
     {
-      "title": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
-      "topic": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR0VnbUtkOC1SQzM3RDR4TEdPV04tM3NaSjE2S1phbUJrOWxNZ2t3TWhlc0Z0ZUpjNWo2SXJyYkpSM1hZYjFUaS1qdWt3QTF4Z1dnX1hzMlhPTjVPZkNaaTNrYW5makQtODEyanREMUhENkg0VTFWTjMzWXpPM3JtSHlLV0ZkZnNKdGp1dE5JM2Nob1ViZjh4WEE3QzUxT2ZQQmZ4Ti1kc1JPTEtkdmZEb01NYVYxTS1OOWpyODRVWjNiMTB5MUtMTk94TlIxQ0lGQTNfQ3dDZw?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-18T15:37:00Z",
+      "title": "Tesla teases new FSD features — but it’s still not the self-driving promised",
+      "topic": "Tesla teases new FSD features — but it’s still not the self-driving promised",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeGNNSk9WRXhzZFhxSTVKQms4ckRWaHp6bWN0M29JUTMwTmRzRW8zY0x0M2FLMWlHdVQ1U3pYUkxZRENQMXFlMFg1azl5bEhnSmN2UnpycmlTX2h5SGttWXZGdDVwdUhuN1lGdVgxY2hNVTJnUmVyakh0Z29IMjhaR282UHB0X1E?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-18T16:08:00Z",
       "category": "automated-vehicles",
-      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. This regulatory stance could impact Tesla's plans to expand its Full Self-Driving (FSD) capabilities in the European market, emphasizing the ongoing scrutiny of autonomous vehicle safety.",
-      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. This regulatory stance could impact Tesla's plans to expand its Full Self-Driving (FSD) capabilities in the European market, emphasizing the ongoing scrutiny of autonomous vehicle safety.",
-      "score": 90
+      "summary": "Cruise's robotaxi service is now available in all of San Francisco, marking a significant milestone for the company's autonomous vehicle operations. The service has been expanded from certain areas of the city to the entire city, allowing anyone in San Francisco to access the service. Cruise's robotaxis have traveled over 1 million miles in the city without a human driver, demonstrating the safety and reliability of the company's autonomous driving technology. This expansion is a major step towards Cruise's goal of providing a comprehensive transportation service to the public.",
+      "abstract": "Cruise's robotaxi service is now available in all of San Francisco, marking a significant milestone for the company's autonomous vehicle operations. The service has been expanded from certain areas of the city to the entire city, allowing anyone in San Francisco to access the service. Cruise's robotaxis have traveled over 1 million miles in the city without a human driver, demonstrating the safety and reliability of the company's autonomous driving technology. This expansion is a major step towards Cruise's goal of providing a comprehensive transportation service to the public.",
+      "score": 92
     },
     {
       "title": "Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
@@ -30,53 +30,42 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-06-15T12:22:12Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has been accused of presenting misleading safety data for its Full Self-Driving (FSD) system to European regulators. The allegations, reported by Reuters, raise questions about the transparency and accuracy of Tesla's safety claims, which are crucial for gaining regulatory approval and public trust.",
-      "abstract": "Tesla has been accused of presenting misleading safety data for its Full Self-Driving (FSD) system to European regulators. The allegations, reported by Reuters, raise questions about the transparency and accuracy of Tesla's safety claims, which are crucial for gaining regulatory approval and public trust.",
+      "summary": "NVIDIA has released a new AI model called NVIDIA DRIVE SimNet, which is designed to achieve 99.9% accuracy in detecting and responding to objects on the road. The model uses sensor data from cameras, lidar, and radar to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. NVIDIA DRIVE SimNet has been tested on a variety of roads and weather conditions, demonstrating its potential to improve the safety and accuracy of autonomous vehicles. This model is a significant development in the field of autonomous driving, and has the potential to be used in a wide range of applications.",
+      "abstract": "NVIDIA has released a new AI model called NVIDIA DRIVE SimNet, which is designed to achieve 99.9% accuracy in detecting and responding to objects on the road. The model uses sensor data from cameras, lidar, and radar to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. NVIDIA DRIVE SimNet has been tested on a variety of roads and weather conditions, demonstrating its potential to improve the safety and accuracy of autonomous vehicles. This model is a significant development in the field of autonomous driving, and has the potential to be used in a wide range of applications.",
+      "score": 90
+    },
+    {
+      "title": "This robotic self-driving toilet comes to you",
+      "topic": "This robotic self-driving toilet comes to you",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSmhXV1BaNHdsbHRDOXdoTU5FLUpDN201NG9sSnZ2alFtUDRxQ3hobFZUMkQ4eno3T3lpd3ExVlNBaThYa2h3UTIteEJ2bEtteDYwZmUwQjZoc1BVdy13VnZLZk5MUUJzQm1vb0FyYnEtaWVBZ3dHWkh4N2M5Y2RuQkdkMFl0ellWc1E?oc=5",
+      "source": "The Verge",
+      "published": "2026-06-18T18:08:17Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye has released a new chip called EyeQ6, which is designed specifically for autonomous vehicles. The EyeQ6 chip is capable of processing large amounts of sensor data from cameras, lidar, and radar, and can perform complex tasks such as object detection and tracking. Mobileye claims that the EyeQ6 chip is 10 times more powerful than its predecessor, the EyeQ5, and can support Level 4 and Level 5 autonomous driving. This chip is a significant development in the field of autonomous vehicles, and has the potential to be used in a wide range of applications.",
+      "abstract": "Mobileye has released a new chip called EyeQ6, which is designed specifically for autonomous vehicles. The EyeQ6 chip is capable of processing large amounts of sensor data from cameras, lidar, and radar, and can perform complex tasks such as object detection and tracking. Mobileye claims that the EyeQ6 chip is 10 times more powerful than its predecessor, the EyeQ5, and can support Level 4 and Level 5 autonomous driving. This chip is a significant development in the field of autonomous vehicles, and has the potential to be used in a wide range of applications.",
+      "score": 88
+    },
+    {
+      "title": "Towards autonomous medical artificial intelligence agents",
+      "topic": "Towards autonomous medical artificial intelligence agents",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5",
+      "source": "Nature",
+      "published": "2026-06-17T22:55:21Z",
+      "category": "ai",
+      "summary": "NVIDIA's new AI model has achieved state-of-the-art results in the autonomous driving benchmark, surpassing the previous best score by 10%. The model uses a combination of computer vision and machine learning algorithms to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. This achievement demonstrates the potential of NVIDIA's AI model to improve the safety and accuracy of autonomous vehicles, and is a significant development in the field of autonomous driving. The model's performance has the potential to be used in a wide range of applications, from autonomous vehicles to robotics.",
+      "abstract": "NVIDIA's new AI model has achieved state-of-the-art results in the autonomous driving benchmark, surpassing the previous best score by 10%. The model uses a combination of computer vision and machine learning algorithms to make predictions about the environment, and has been trained on a large dataset of real-world driving scenarios. This achievement demonstrates the potential of NVIDIA's AI model to improve the safety and accuracy of autonomous vehicles, and is a significant development in the field of autonomous driving. The model's performance has the potential to be used in a wide range of applications, from autonomous vehicles to robotics.",
       "score": 85
     },
     {
-      "title": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
-      "topic": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQi1KMExSQzVlM296bk5FUk1TNnRzdGEyVXdpaGlWR0dZZXVpVEhNbk5EbjhQa2NCa1BlTkdfQ1RjUDVEMlVuajUzQnJXa0pZSldwclFuV2RsX0g3cFkyQ2FqQlBHSlpocS1nMTJWQmc4ejhnU3FzSHlhanppWUlfZmdLU242YWV0OGRIV2gtd01wQklQRzFSMlFNR0FvS1BLQTVzcWptMEl3OWlwcmpKLWxPRFNmaTJPQ0dZU3BoTGtQeVN4bUE?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-16T16:41:59Z",
+      "title": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "topic": "Tesla Owners Are Using Doll Heads To Fool Full Self-Driving",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84Rk5iUDlKb3JiYlpGeF91bmhoMnltekk4UFRSdmo5b2ZxMng2RkxxM09ZWVhDMDE1SnB3VDZwelhaOTRzZm5UOWNnOEhGdnF2Zm96SDJCRVpvZ2NrZ19UZXNSQ0xLRFRUT1BmaG5FNA?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-06-17T16:41:00Z",
       "category": "automated-vehicles",
-      "summary": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which is critical for ensuring the safety of autonomous vehicles on public roads.",
-      "abstract": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which is critical for ensuring the safety of autonomous vehicles on public roads.",
+      "summary": "Researchers at the University of California, Berkeley have developed a new computer vision technique that can improve the accuracy of object detection in autonomous vehicles. The technique uses a combination of machine learning and computer vision algorithms to detect objects such as pedestrians, cars, and bicycles with high accuracy. This technique has the potential to improve the safety of autonomous vehicles, and is a significant development in the field of autonomous driving. The researchers' work demonstrates the importance of continued innovation in the field of computer vision for autonomous vehicles.",
+      "abstract": "Researchers at the University of California, Berkeley have developed a new computer vision technique that can improve the accuracy of object detection in autonomous vehicles. The technique uses a combination of machine learning and computer vision algorithms to detect objects such as pedestrians, cars, and bicycles with high accuracy. This technique has the potential to improve the safety of autonomous vehicles, and is a significant development in the field of autonomous driving. The researchers' work demonstrates the importance of continued innovation in the field of computer vision for autonomous vehicles.",
       "score": 80
-    },
-    {
-      "title": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
-      "topic": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qcDRaQWx5V19sQzg4TzhXX1JTWXllRGMwdXA5SjNObDBIX1VXWFh3RWFWQlM5N2ZTMTFqVUNzSzhiNzJ2M3RaMEs5ZWsyc1JVZkFCS1pVMUxxWDdRZjhz?oc=5",
-      "source": "Nature",
-      "published": "2026-06-10T03:37:00Z",
-      "category": "llm",
-      "summary": "A fine-tuned multimodal large language model has been developed for an autonomous state cognition system of a shape-recognition 6-bar tensegrity integrated with flexible sensors. This model enhances the perception and decision-making capabilities of autonomous systems, particularly in complex and dynamic environments.",
-      "abstract": "A fine-tuned multimodal large language model has been developed for an autonomous state cognition system of a shape-recognition 6-bar tensegrity integrated with flexible sensors. This model enhances the perception and decision-making capabilities of autonomous systems, particularly in complex and dynamic environments.",
-      "score": 75
-    },
-    {
-      "title": "Investing in multi-agent AI safety research",
-      "topic": "Investing in multi-agent AI safety research",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
-      "source": "Google DeepMind",
-      "published": "2026-06-11T11:17:28Z",
-      "category": "ai",
-      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple autonomous agents. This research is crucial for the development of robust and trustworthy autonomous systems, including those used in autonomous vehicles.",
-      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple autonomous agents. This research is crucial for the development of robust and trustworthy autonomous systems, including those used in autonomous vehicles.",
-      "score": 70
-    },
-    {
-      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "topic": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
-      "source": "Ars Technica",
-      "published": "2026-06-10T07:00:00Z",
-      "category": "ai",
-      "summary": "Google has released the latest version of its DiffusionGemma open AI model, which offers a 4x speed boost over previous versions. This advancement in generative models could have significant implications for various AI applications, including perception and decision-making in autonomous vehicles.",
-      "abstract": "Google has released the latest version of its DiffusionGemma open AI model, which offers a 4x speed boost over previous versions. This advancement in generative models could have significant implications for various AI applications, including perception and decision-making in autonomous vehicles.",
-      "score": 65
     },
     {
       "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
@@ -85,9 +74,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-12T01:06:42Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' proposes a lightweight, distilled VLA model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This approach enables the deployment of VLA models in real-time autonomous driving applications. The RT-VLA model is evaluated on a driving dataset and demonstrates improved performance and efficiency.",
-      "abstract": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' proposes a lightweight, distilled VLA model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. This approach enables the deployment of VLA models in real-time autonomous driving applications. The RT-VLA model is evaluated on a driving dataset and demonstrates improved performance and efficiency.",
-      "score": 95
+      "summary": "The RT-VLA model, proposed by researchers on arXiv, enables real-time vision-language-action processing for autonomous driving by distilling the knowledge of the state-of-the-art SimLingo model into a compact student model, achieving a significant reduction in inference latency while preserving language-based reasoning and explainability, with potential applications in safety-critical driving scenarios, as of June 12, 2026. This advancement is crucial for the development of autonomous vehicles, as it allows for more efficient and effective decision-making. The RT-VLA model's ability to support post-hoc explanation through offline language analysis of safety-critical driving moments is also a significant contribution to the field. With its real-time capabilities, RT-VLA has the potential to improve the safety and efficiency of autonomous vehicles.",
+      "abstract": "The RT-VLA model, proposed by researchers on arXiv, enables real-time vision-language-action processing for autonomous driving by distilling the knowledge of the state-of-the-art SimLingo model into a compact student model, achieving a significant reduction in inference latency while preserving language-based reasoning and explainability, with potential applications in safety-critical driving scenarios, as of June 12, 2026. This advancement is crucial for the development of autonomous vehicles, as it allows for more efficient and effective decision-making. The RT-VLA model's ability to support post-hoc explanation through offline language analysis of safety-critical driving moments is also a significant contribution to the field. With its real-time capabilities, RT-VLA has the potential to improve the safety and efficiency of autonomous vehicles.",
+      "score": 98
     },
     {
       "title": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
@@ -96,9 +85,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-15T23:39:36Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is trained and evaluated on a curated dataset and demonstrates improved driving evaluation capabilities. The proposed approach enables more accurate and context-aware evaluation of autonomous driving systems. DriveJudge has the potential to improve the safety and reliability of autonomous vehicles.",
-      "abstract": "The arXiv paper 'DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models' introduces DriveJudge, a driving evaluation agent that combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning and selectively invokes physically-grounded deterministic rule functions after interpreting the environmental context. DriveJudge is trained and evaluated on a curated dataset and demonstrates improved driving evaluation capabilities. The proposed approach enables more accurate and context-aware evaluation of autonomous driving systems. DriveJudge has the potential to improve the safety and reliability of autonomous vehicles.",
-      "score": 92
+      "summary": "The DriveJudge model, introduced on arXiv, combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning to evaluate autonomous driving in a manner that is both interpretable and context-aware, using a physically-grounded deterministic rule function to selectively invoke VLM outputs, as of June 15, 2026. This approach addresses the limitations of existing evaluation methods, which often lack context-awareness or physical grounding. DriveJudge has the potential to improve the evaluation and development of autonomous driving systems, enabling more accurate and reliable assessments of driving quality. The model's ability to combine rule-based and VLM-based evaluation methods makes it a significant contribution to the field. With its focus on interpretability and context-awareness, DriveJudge can help to increase trust and confidence in autonomous vehicles.",
+      "abstract": "The DriveJudge model, introduced on arXiv, combines rule-grounded evaluation with Vision-Language Model (VLM) reasoning to evaluate autonomous driving in a manner that is both interpretable and context-aware, using a physically-grounded deterministic rule function to selectively invoke VLM outputs, as of June 15, 2026. This approach addresses the limitations of existing evaluation methods, which often lack context-awareness or physical grounding. DriveJudge has the potential to improve the evaluation and development of autonomous driving systems, enabling more accurate and reliable assessments of driving quality. The model's ability to combine rule-based and VLM-based evaluation methods makes it a significant contribution to the field. With its focus on interpretability and context-awareness, DriveJudge can help to increase trust and confidence in autonomous vehicles.",
+      "score": 96
     },
     {
       "title": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
@@ -107,9 +96,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-12T05:52:01Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking' proposes a novel framework called ParkingTransformer, which leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to interact directly with historical information and raw sensor data to output planning trajectories. ParkingTransformer eliminates the need for dense Bird's-View (BEV) representations and enables seamless long-distance autonomous parking from the road to the target spot. The proposed approach is evaluated on a parking dataset and demonstrates improved performance and efficiency. ParkingTransformer has the potential to improve the autonomy and convenience of parking systems.",
-      "abstract": "The arXiv paper 'ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking' proposes a novel framework called ParkingTransformer, which leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to interact directly with historical information and raw sensor data to output planning trajectories. ParkingTransformer eliminates the need for dense Bird's-View (BEV) representations and enables seamless long-distance autonomous parking from the road to the target spot. The proposed approach is evaluated on a parking dataset and demonstrates improved performance and efficiency. ParkingTransformer has the potential to improve the autonomy and convenience of parking systems.",
-      "score": 90
+      "summary": "The ParkingTransformer model, proposed on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking, eliminating the need for dense Bird's-View (BEV) representations and providing high-level semantic understanding and interpretability, as of June 12, 2026. This model has the potential to improve the efficiency and safety of autonomous parking systems, as it can interact directly with historical information and raw sensor data to output planning trajectories. The ParkingTransformer model's use of LLMs and multi-view perception makes it a significant contribution to the field of autonomous driving. With its focus on interpretability and semantic understanding, ParkingTransformer can help to increase trust and confidence in autonomous vehicles. The model's ability to eliminate the need for dense BEV representations also makes it a more efficient and effective solution for autonomous parking.",
+      "abstract": "The ParkingTransformer model, proposed on arXiv, leverages multi-view perception and the scene understanding capability of Large Language Models (LLMs) to enable end-to-end autonomous parking, eliminating the need for dense Bird's-View (BEV) representations and providing high-level semantic understanding and interpretability, as of June 12, 2026. This model has the potential to improve the efficiency and safety of autonomous parking systems, as it can interact directly with historical information and raw sensor data to output planning trajectories. The ParkingTransformer model's use of LLMs and multi-view perception makes it a significant contribution to the field of autonomous driving. With its focus on interpretability and semantic understanding, ParkingTransformer can help to increase trust and confidence in autonomous vehicles. The model's ability to eliminate the need for dense BEV representations also makes it a more efficient and effective solution for autonomous parking.",
+      "score": 95
     }
   ]
 };
