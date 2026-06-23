@@ -1,16 +1,27 @@
 {
-  "generated_at": "2026-06-22T12:28:36.333324Z",
+  "generated_at": "2026-06-23T10:05:27.432240Z",
   "items": [
     {
-      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "topic": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYUNTdG56Smx3VGI5ODJHOWFEUjJkek92MU9CRVlieTB2V2tlYkY4c014MnZBZVZNQ2xWaDVGY1BTUTdYdEZmd3pGMkdsY09sWDZadlowVEhCTHphckg1SkNXbk1TOE5sQW5DMjVhTWVNYnR5TndXSjd1MkRqNk1ObkdfbllBc1NDUVFXd2JyVVdkbkFlVGN4TmFvenBTYjl5ZlFpOVZjWkJHUXNDT0hmSzBpNmd6RW1lUXNUamtRemI?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-06-18T11:59:11Z",
+      "title": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
+      "topic": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQi1KMExSQzVlM296bk5FUk1TNnRzdGEyVXdpaGlWR0dZZXVpVEhNbk5EbjhQa2NCa1BlTkdfQ1RjUDVEMlVuajUzQnJXa0pZSldwclFuV2RsX0g3cFkyQ2FqQlBHSlpocS1nMTJWQmc4ejhnU3FzSHlhanppWUlfZmdLU242YWV0OGRIV2gtd01wQklQRzFSMlFNR0FvS1BLQTVzcWptMEl3OWlwcmpKLWxPRFNmaTJPQ0dZU3BoTGtQeVN4bUE?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-16T16:41:59Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has recalled nearly 4,000 of its robotaxis due to issues with the vehicles driving into highway construction zones. The recall highlights the ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
-      "abstract": "Waymo has recalled nearly 4,000 of its robotaxis due to issues with the vehicles driving into highway construction zones. The recall highlights the ongoing challenges in ensuring the safety and reliability of autonomous vehicles in complex real-world scenarios.",
-      "score": 95
+      "summary": "US senators have requested a review of Tesla's 'Full Self-Driving' safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which could impact regulatory oversight and public safety.",
+      "abstract": "US senators have requested a review of Tesla's 'Full Self-Driving' safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which could impact regulatory oversight and public safety.",
+      "score": 85
+    },
+    {
+      "title": "Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
+      "topic": "Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0hBU1N1QmFJWEswYVNlZE1HT0VOd1B0ME5lNFVsOHduTUxWREJpS3FLUHItOHB3aVRDaml3LURlRGY5dlNLV293bEFtMmlmaFh4eTZKSnJJWVZPZ1BQcS1zZDZ2RGpvc1ZjbjJMbnRTY21qZ2RINzhpQ0RvUFdWQWJnenR1aFo2WVNIZnFYcjJGT1dFZTNVdzc1aG9YM0F3R1cwd3BXeVQ2bXREbmM3TFNGcmlqZTlRZ0E?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-15T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has been accused of presenting misleading 'Full Self-Driving' safety data to European regulators. The company's data submission is under scrutiny, raising concerns about the reliability and integrity of the information provided for regulatory approval.",
+      "abstract": "Tesla has been accused of presenting misleading 'Full Self-Driving' safety data to European regulators. The company's data submission is under scrutiny, raising concerns about the reliability and integrity of the information provided for regulatory approval.",
+      "score": 80
     },
     {
       "title": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
@@ -19,9 +30,20 @@
       "source": "Reuters",
       "published": "2026-06-18T18:30:05Z",
       "category": "automated-vehicles",
-      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe over concerns about speeding. This development underscores the regulatory scrutiny and safety concerns surrounding Tesla's autonomous driving features in international markets.",
-      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe over concerns about speeding. This development underscores the regulatory scrutiny and safety concerns surrounding Tesla's autonomous driving features in international markets.",
-      "score": 90
+      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. The country's stance could influence other European nations and impact Tesla's deployment plans for its self-driving features.",
+      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. The country's stance could influence other European nations and impact Tesla's deployment plans for its self-driving features.",
+      "score": 75
+    },
+    {
+      "title": "Tesla gets go-ahead to sell self-driving technology in Belgium",
+      "topic": "Tesla gets go-ahead to sell self-driving technology in Belgium",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSVJ4LWhRc3l3V3UzNmtRemRvaGktaS1fZ3NEZ3FuMmlNM05IalRLRkUweTNMeHNnUTNLWFhiSlczblpPZEk2aVhmWHpCRk1PQkdsbkE5b01rMlRGaDhwNjJkbS16U3ZzVXBXRGtCUDhBOHhBSE9JUi10VjZCVHVBQXpiRFlQUERpclBUMjhhY242Sk42WUIzZ1lOZXp0ME53OVozcklQNnpmQVBwcnpZVG4tVDBib0tZbFFja29KZw?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-10T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has received approval to sell its self-driving technology in Belgium. This decision marks a significant step for Tesla's expansion in the European market, where regulatory scrutiny of autonomous driving systems is stringent.",
+      "abstract": "Tesla has received approval to sell its self-driving technology in Belgium. This decision marks a significant step for Tesla's expansion in the European market, where regulatory scrutiny of autonomous driving systems is stringent.",
+      "score": 70
     },
     {
       "title": "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors",
@@ -30,42 +52,9 @@
       "source": "Nature",
       "published": "2026-06-10T07:00:00Z",
       "category": "llm",
-      "summary": "A fine-tuned multimodal large language model has been developed for an autonomous state cognition system of a shape-recognition 6-bar tensegrity integrated with flexible sensors. This research advances the integration of LLMs with physical systems for enhanced perception and cognition in autonomous vehicles.",
-      "abstract": "A fine-tuned multimodal large language model has been developed for an autonomous state cognition system of a shape-recognition 6-bar tensegrity integrated with flexible sensors. This research advances the integration of LLMs with physical systems for enhanced perception and cognition in autonomous vehicles.",
-      "score": 85
-    },
-    {
-      "title": "Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
-      "topic": "Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0hBU1N1QmFJWEswYVNlZE1HT0VOd1B0ME5lNFVsOHduTUxWREJpS3FLUHItOHB3aVRDaml3LURlRGY5dlNLV293bEFtMmlmaFh4eTZKSnJJWVZPZ1BQcS1zZDZ2RGpvc1ZjbjJMbnRTY21qZ2RINzhpQ0RvUFdWQWJnenR1aFo2WVNIZnFYcjJGT1dFZTNVdzc1aG9YM0F3R1cwd3BXeVQ2bXREbmM3TFNGcmlqZTlRZ0E?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-15T12:22:12Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has been accused of presenting misleading safety data for its Full Self-Driving (FSD) technology to European regulators. This revelation raises significant concerns about the transparency and reliability of Tesla's autonomous driving claims.",
-      "abstract": "Tesla has been accused of presenting misleading safety data for its Full Self-Driving (FSD) technology to European regulators. This revelation raises significant concerns about the transparency and reliability of Tesla's autonomous driving claims.",
-      "score": 80
-    },
-    {
-      "title": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
-      "topic": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQi1KMExSQzVlM296bk5FUk1TNnRzdGEyVXdpaGlWR0dZZXVpVEhNbk5EbjhQa2NCa1BlTkdfQ1RjUDVEMlVuajUzQnJXa0pZSldwclFuV2RsX0g3cFkyQ2FqQlBHSlpocS1nMTJWQmc4ejhnU3FzSHlhanppWUlfZmdLU242YWV0OGRIV2gtd01wQklQRzFSMlFNR0FvS1BLQTVzcWptMEl3OWlwcmpKLWxPRFNmaTJPQ0dZU3BoTGtQeVN4bUE?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-16T16:41:59Z",
-      "category": "automated-vehicles",
-      "summary": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators' action highlights the ongoing scrutiny and regulatory attention on Tesla's autonomous driving capabilities.",
-      "abstract": "US senators have requested a review of Tesla's Full Self-Driving (FSD) safety data, citing a Reuters report. The senators' action highlights the ongoing scrutiny and regulatory attention on Tesla's autonomous driving capabilities.",
-      "score": 75
-    },
-    {
-      "title": "Tesla teases new FSD features — but it’s still not the self-driving promised",
-      "topic": "Tesla teases new FSD features — but it’s still not the self-driving promised",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeGNNSk9WRXhzZFhxSTVKQms4ckRWaHp6bWN0M29JUTMwTmRzRW8zY0x0M2FLMWlHdVQ1U3pYUkxZRENQMXFlMFg1azl5bEhnSmN2UnpycmlTX2h5SGttWXZGdDVwdUhuN1lGdVgxY2hNVTJnUmVyakh0Z29IMjhaR282UHB0X1E?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-18T16:08:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has teased new features for its Full Self-Driving (FSD) system, but the company acknowledges that the technology is still not the fully autonomous driving solution it has promised. This update reflects the incremental progress and ongoing limitations of Tesla's FSD technology.",
-      "abstract": "Tesla has teased new features for its Full Self-Driving (FSD) system, but the company acknowledges that the technology is still not the fully autonomous driving solution it has promised. This update reflects the incremental progress and ongoing limitations of Tesla's FSD technology.",
-      "score": 70
+      "summary": "A fine-tuned multimodal large language model (LLM) has been developed for an autonomous state cognition system, integrating shape-recognition in a 6-bar tensegrity structure with flexible sensors. This advancement enhances the perception and decision-making capabilities of autonomous systems.",
+      "abstract": "A fine-tuned multimodal large language model (LLM) has been developed for an autonomous state cognition system, integrating shape-recognition in a 6-bar tensegrity structure with flexible sensors. This advancement enhances the perception and decision-making capabilities of autonomous systems.",
+      "score": 65
     },
     {
       "title": "Investing in multi-agent AI safety research",
@@ -74,9 +63,20 @@
       "source": "Google DeepMind",
       "published": "2026-06-11T07:00:00Z",
       "category": "ai",
-      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple AI systems. This initiative is crucial for the development of autonomous vehicles and other complex AI applications.",
-      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple AI systems. This initiative is crucial for the development of autonomous vehicles and other complex AI applications.",
-      "score": 65
+      "summary": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple AI systems. This research is crucial for the development of robust autonomous systems, including those in the automotive industry.",
+      "abstract": "Google DeepMind is investing in multi-agent AI safety research to address the challenges of ensuring safe and reliable interactions between multiple AI systems. This research is crucial for the development of robust autonomous systems, including those in the automotive industry.",
+      "score": 60
+    },
+    {
+      "title": "Towards autonomous medical artificial intelligence agents",
+      "topic": "Towards autonomous medical artificial intelligence agents",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5",
+      "source": "Nature",
+      "published": "2026-06-17T22:55:21Z",
+      "category": "ai",
+      "summary": "Researchers are making progress towards developing autonomous medical AI agents. These agents aim to improve healthcare by automating diagnostic and treatment processes, which could have implications for the broader field of AI and autonomous systems.",
+      "abstract": "Researchers are making progress towards developing autonomous medical AI agents. These agents aim to improve healthcare by automating diagnostic and treatment processes, which could have implications for the broader field of AI and autonomous systems.",
+      "score": 55
     },
     {
       "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
@@ -85,31 +85,31 @@
       "source": "arXiv",
       "published": "2026-06-12T01:06:42Z",
       "category": "arxiv-explainability-av",
-      "summary": "The RT-VLA model, proposed by researchers on arXiv, enables real-time vision-language-action processing for autonomous driving by distilling the knowledge of the state-of-the-art SimLingo model into a compact student model, achieving a significant reduction in inference latency while preserving language-based reasoning and explainability, with potential applications in safety-critical driving scenarios, as of June 12, 2026. This advancement is crucial for the development of autonomous vehicles that can operate safely and efficiently in complex environments. The RT-VLA model's ability to provide post-hoc explanations for its decisions makes it a valuable tool for improving the trustworthiness of autonomous vehicles. With its real-time capabilities, RT-VLA can be used to enhance the decision-making processes of autonomous vehicles, leading to improved safety and performance on the road.",
-      "abstract": "The RT-VLA model, proposed by researchers on arXiv, enables real-time vision-language-action processing for autonomous driving by distilling the knowledge of the state-of-the-art SimLingo model into a compact student model, achieving a significant reduction in inference latency while preserving language-based reasoning and explainability, with potential applications in safety-critical driving scenarios, as of June 12, 2026. This advancement is crucial for the development of autonomous vehicles that can operate safely and efficiently in complex environments. The RT-VLA model's ability to provide post-hoc explanations for its decisions makes it a valuable tool for improving the trustworthiness of autonomous vehicles. With its real-time capabilities, RT-VLA can be used to enhance the decision-making processes of autonomous vehicles, leading to improved safety and performance on the road.",
-      "score": 98
-    },
-    {
-      "title": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
-      "topic": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
-      "url": "https://arxiv.org/abs/2606.17362v1",
-      "source": "arXiv",
-      "published": "2026-06-15T23:39:36Z",
-      "category": "arxiv-explainability-av",
-      "summary": "DriveJudge, a vision-language model-based driving evaluation agent proposed on arXiv, combines rule-grounded evaluation with VLM reasoning to assess driving quality in a context-aware and interpretable manner, addressing the challenges of evaluating autonomous driving policies, as of June 15, 2026. DriveJudge's ability to selectively invoke physically-grounded deterministic rule functions enables it to provide more accurate and reliable evaluations of driving performance. The model's performance was validated using a curated dataset, demonstrating its potential to improve the evaluation and development of autonomous driving systems. By providing a more comprehensive understanding of driving quality, DriveJudge can help to identify areas for improvement and optimize the performance of autonomous vehicles. With its unique approach to driving evaluation, DriveJudge has the potential to become a valuable tool for the development of safer and more efficient autonomous vehicles.",
-      "abstract": "DriveJudge, a vision-language model-based driving evaluation agent proposed on arXiv, combines rule-grounded evaluation with VLM reasoning to assess driving quality in a context-aware and interpretable manner, addressing the challenges of evaluating autonomous driving policies, as of June 15, 2026. DriveJudge's ability to selectively invoke physically-grounded deterministic rule functions enables it to provide more accurate and reliable evaluations of driving performance. The model's performance was validated using a curated dataset, demonstrating its potential to improve the evaluation and development of autonomous driving systems. By providing a more comprehensive understanding of driving quality, DriveJudge can help to identify areas for improvement and optimize the performance of autonomous vehicles. With its unique approach to driving evaluation, DriveJudge has the potential to become a valuable tool for the development of safer and more efficient autonomous vehicles.",
-      "score": 96
-    },
-    {
-      "title": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
-      "topic": "ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking",
-      "url": "https://arxiv.org/abs/2606.17082v1",
-      "source": "arXiv",
-      "published": "2026-06-12T05:52:01Z",
-      "category": "arxiv-explainability-av",
-      "summary": "ParkingTransformer, a novel framework proposed on arXiv, leverages multi-view perception and large language models to enable end-to-end autonomous parking, providing high-level semantic understanding and interpretability, and eliminating the need for dense Bird's-View representations, as of June 12, 2026. This framework has the potential to improve the efficiency and safety of autonomous parking systems, which is a critical component of autonomous driving. By combining trajectory queries with LLMs' implicit state features, ParkingTransformer can interact directly with historical information and raw sensor data to output planning trajectories. The model's ability to provide interpretable results makes it a valuable tool for improving the trustworthiness of autonomous parking systems. With its end-to-end approach, ParkingTransformer can be used to optimize the parking process, reducing the need for human intervention and improving the overall efficiency of autonomous vehicles.",
-      "abstract": "ParkingTransformer, a novel framework proposed on arXiv, leverages multi-view perception and large language models to enable end-to-end autonomous parking, providing high-level semantic understanding and interpretability, and eliminating the need for dense Bird's-View representations, as of June 12, 2026. This framework has the potential to improve the efficiency and safety of autonomous parking systems, which is a critical component of autonomous driving. By combining trajectory queries with LLMs' implicit state features, ParkingTransformer can interact directly with historical information and raw sensor data to output planning trajectories. The model's ability to provide interpretable results makes it a valuable tool for improving the trustworthiness of autonomous parking systems. With its end-to-end approach, ParkingTransformer can be used to optimize the parking process, reducing the need for human intervention and improving the overall efficiency of autonomous vehicles.",
+      "summary": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' by anonymous authors presents a novel approach to real-time autonomous driving using vision-language-action models. RT-VLA is a lightweight model that leverages knowledge distillation to transfer the capabilities of the state-of-the-art SimLingo model into a compact student model. This approach enables real-time control while preserving language-based reasoning and supporting post-hoc explanation. The RT-VLA model is evaluated on its ability to generate safe and efficient driving trajectories. The authors demonstrate that RT-VLA achieves competitive performance with state-of-the-art models while reducing inference latency.",
+      "abstract": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' by anonymous authors presents a novel approach to real-time autonomous driving using vision-language-action models. RT-VLA is a lightweight model that leverages knowledge distillation to transfer the capabilities of the state-of-the-art SimLingo model into a compact student model. This approach enables real-time control while preserving language-based reasoning and supporting post-hoc explanation. The RT-VLA model is evaluated on its ability to generate safe and efficient driving trajectories. The authors demonstrate that RT-VLA achieves competitive performance with state-of-the-art models while reducing inference latency.",
       "score": 95
+    },
+    {
+      "title": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
+      "topic": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
+      "url": "https://arxiv.org/abs/2606.22617v1",
+      "source": "arXiv",
+      "published": "2026-06-21T17:47:31Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs' introduces a new paradigm for geometry-aware spatial reasoning in multimodal large language models (MLLMs). The authors propose OmniSpace, a plug-and-play module that enhances the spatial intelligence of MLLMs using a Camera Pose Injector, a Multi-view Epipolar Attention module, and a 3D Geometric Distillation objective. This approach enables MLLMs to reason about 3D geometry from 2D observations, addressing a key challenge in autonomous driving applications. The authors evaluate OmniSpace on its ability to improve the performance of MLLMs in various tasks, including 3D object detection and scene understanding. The results demonstrate that OmniSpace achieves significant improvements in geometry-aware reasoning.",
+      "abstract": "The arXiv paper 'OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs' introduces a new paradigm for geometry-aware spatial reasoning in multimodal large language models (MLLMs). The authors propose OmniSpace, a plug-and-play module that enhances the spatial intelligence of MLLMs using a Camera Pose Injector, a Multi-view Epipolar Attention module, and a 3D Geometric Distillation objective. This approach enables MLLMs to reason about 3D geometry from 2D observations, addressing a key challenge in autonomous driving applications. The authors evaluate OmniSpace on its ability to improve the performance of MLLMs in various tasks, including 3D object detection and scene understanding. The results demonstrate that OmniSpace achieves significant improvements in geometry-aware reasoning.",
+      "score": 92
+    },
+    {
+      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "topic": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.22913v1",
+      "source": "arXiv",
+      "published": "2026-06-22T06:53:58Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents a novel framework for autonomous driving that combines high-level reasoning with physical constraints. The authors propose IRR-Drive, a framework that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This approach enables the framework to reflect on its decisions and refine its trajectory planning. The authors evaluate IRR-Drive on its ability to generate safe and efficient driving trajectories in complex scenarios. The results demonstrate that IRR-Drive achieves competitive performance with state-of-the-art models while providing improved interpretability and explainability.",
+      "abstract": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents a novel framework for autonomous driving that combines high-level reasoning with physical constraints. The authors propose IRR-Drive, a framework that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This approach enables the framework to reflect on its decisions and refine its trajectory planning. The authors evaluate IRR-Drive on its ability to generate safe and efficient driving trajectories in complex scenarios. The results demonstrate that IRR-Drive achieves competitive performance with state-of-the-art models while providing improved interpretability and explainability.",
+      "score": 90
     }
   ]
 }

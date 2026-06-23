@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-22T12:28:36.335001Z",
+  "updated_at": "2026-06-23T10:05:27.433849Z",
   "items": [
+    {
+      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "topic": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.22913v1",
+      "source": "arXiv",
+      "published": "2026-06-22T06:53:58Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents a novel framework for autonomous driving that combines high-level reasoning with physical constraints. The authors propose IRR-Drive, a framework that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This approach enables the framework to reflect on its decisions and refine its trajectory planning. The authors evaluate IRR-Drive on its ability to generate safe and efficient driving trajectories in complex scenarios. The results demonstrate that IRR-Drive achieves competitive performance with state-of-the-art models while providing improved interpretability and explainability.",
+      "abstract": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents a novel framework for autonomous driving that combines high-level reasoning with physical constraints. The authors propose IRR-Drive, a framework that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This approach enables the framework to reflect on its decisions and refine its trajectory planning. The authors evaluate IRR-Drive on its ability to generate safe and efficient driving trajectories in complex scenarios. The results demonstrate that IRR-Drive achieves competitive performance with state-of-the-art models while providing improved interpretability and explainability.",
+      "score": 90
+    },
+    {
+      "title": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
+      "topic": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
+      "url": "https://arxiv.org/abs/2606.22617v1",
+      "source": "arXiv",
+      "published": "2026-06-21T17:47:31Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs' introduces a new paradigm for geometry-aware spatial reasoning in multimodal large language models (MLLMs). The authors propose OmniSpace, a plug-and-play module that enhances the spatial intelligence of MLLMs using a Camera Pose Injector, a Multi-view Epipolar Attention module, and a 3D Geometric Distillation objective. This approach enables MLLMs to reason about 3D geometry from 2D observations, addressing a key challenge in autonomous driving applications. The authors evaluate OmniSpace on its ability to improve the performance of MLLMs in various tasks, including 3D object detection and scene understanding. The results demonstrate that OmniSpace achieves significant improvements in geometry-aware reasoning.",
+      "abstract": "The arXiv paper 'OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs' introduces a new paradigm for geometry-aware spatial reasoning in multimodal large language models (MLLMs). The authors propose OmniSpace, a plug-and-play module that enhances the spatial intelligence of MLLMs using a Camera Pose Injector, a Multi-view Epipolar Attention module, and a 3D Geometric Distillation objective. This approach enables MLLMs to reason about 3D geometry from 2D observations, addressing a key challenge in autonomous driving applications. The authors evaluate OmniSpace on its ability to improve the performance of MLLMs in various tasks, including 3D object detection and scene understanding. The results demonstrate that OmniSpace achieves significant improvements in geometry-aware reasoning.",
+      "score": 92
+    },
     {
       "title": "This robotic self-driving toilet comes to you",
       "topic": "This robotic self-driving toilet comes to you",
