@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-06-23T10:05:27.433849Z",
+  "updated_at": "2026-06-24T09:52:37.555048Z",
   "items": [
+    {
+      "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash",
+      "topic": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZFNHb3J4V2lXZUpRT3NzdWxfUW9vNXRJUHp1Q0tvSHdOcUczOWQ0Z3dsZVA2aXppUXlTSVZRVUJmT2dmcnFpRnIzWU9ra2FFVmM1SWh2SXRpQ1p2X1oyWnBFYUdnZmw3QWJyWWRaMWI5YjdObTg5S0lUa1FhMUp6S3lLcWxOS0VMNXc?oc=5",
+      "source": "The Verge",
+      "published": "2026-06-23T19:11:04Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo's robotaxis will start picking up passengers in downtown Phoenix, marking a significant expansion of the company's autonomous ride-hailing service. This expansion is a key milestone for Waymo, as it continues to increase its presence in the city. The company's robotaxis have been operating in Phoenix for some time, but this expansion will allow them to reach more customers. Waymo's autonomous ride-hailing service has been gaining traction in recent months, with the company announcing several new partnerships and expansions.",
+      "abstract": "Waymo's robotaxis will start picking up passengers in downtown Phoenix, marking a significant expansion of the company's autonomous ride-hailing service. This expansion is a key milestone for Waymo, as it continues to increase its presence in the city. The company's robotaxis have been operating in Phoenix for some time, but this expansion will allow them to reach more customers. Waymo's autonomous ride-hailing service has been gaining traction in recent months, with the company announcing several new partnerships and expansions.",
+      "score": 90
+    },
+    {
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "topic": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.24759v1",
+      "source": "arXiv",
+      "published": "2026-06-23T16:17:39Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The UniDrive framework, proposed by arXiv researchers, combines a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details for interpretable risk understanding in autonomous driving. This approach addresses the trade-off between temporal reasoning and spatial precision in existing methods. UniDrive's unified visual-language and grounding framework enables it to provide grounded evidence for its explanations. The framework is particularly useful for autonomous driving scene understanding, where existing methods often miss small, distant, or partially occluded hazards.",
+      "abstract": "The UniDrive framework, proposed by arXiv researchers, combines a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details for interpretable risk understanding in autonomous driving. This approach addresses the trade-off between temporal reasoning and spatial precision in existing methods. UniDrive's unified visual-language and grounding framework enables it to provide grounded evidence for its explanations. The framework is particularly useful for autonomous driving scene understanding, where existing methods often miss small, distant, or partially occluded hazards.",
+      "score": 95
+    },
+    {
+      "title": "Finland may approve Tesla's supervised self-driving software before EU vote",
+      "topic": "Finland may approve Tesla's supervised self-driving software before EU vote",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOVlTaVFyZnR0Q0hiWlpsc0ZZN1B0T2M1WHc2M2FxTldIZ2IwNGhDLS11c3hZbVZSZWFLLWVEdHZyYkhDR0ZjOEJEOEo3MF82Q0hEZXk4QWlyZVFEY0ZqWlJuVWlEQjA0LU9DSDZWTU54emR0YVBpZmw5WUQzMjZvME1FWUJteElzMDNlVXBuV2c3VTBEaENRQnV3Y3NISjdseUVvT1ZLSHFXeWdOMEZUeXE1ekJEc0JVcTMwYzdEOTBRNnBaOTFVbktHRU5mZ0NMcGw5TmVLRQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-23T12:58:21Z",
+      "category": "automated-vehicles",
+      "summary": "Mobileye, the autonomous driving subsidiary of Intel, will launch a robotaxi service in Munich, Germany, as part of its efforts to expand its presence in the European market. This launch is a significant step for Mobileye, as it looks to establish itself as a major player in the autonomous driving industry. The company's robotaxi service will provide passengers with a safe and efficient way to travel, using advanced autonomous driving technology. Mobileye's expansion into the European market is a key part of its growth strategy.",
+      "abstract": "Mobileye, the autonomous driving subsidiary of Intel, will launch a robotaxi service in Munich, Germany, as part of its efforts to expand its presence in the European market. This launch is a significant step for Mobileye, as it looks to establish itself as a major player in the autonomous driving industry. The company's robotaxi service will provide passengers with a safe and efficient way to travel, using advanced autonomous driving technology. Mobileye's expansion into the European market is a key part of its growth strategy.",
+      "score": 85
+    },
     {
       "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
       "topic": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
