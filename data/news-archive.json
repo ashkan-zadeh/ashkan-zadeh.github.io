@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-25T09:47:08.605166Z",
+  "updated_at": "2026-06-26T09:53:41.956037Z",
   "items": [
+    {
+      "title": "US proposes to drop brake pedal requirements for self-driving vehicles",
+      "topic": "US proposes to drop brake pedal requirements for self-driving vehicles",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWFBKWkhHcWozMHlqQlVnNUVmVVpJSTRxRTV4WEFYcTNVRm9oSWZMUjJYQVZrOHRMcmh6cGIyWXhSU0RHRHZtaGtNczByaGE0WmpfWEdDWkh3enVCRmFuVGF2TE5uZjQ1RWRxT2ZTcDVvSVNVU0NmMDNrTERqSm0xX1BGWXUxbmVub0JKQklxYkFiWWJZUEVfTzZubmhBaVRoM1VkMERqRkZRTk82VEtZeENsbDd1REpBVHFxSmlsWW5lbFVQVEEtOA?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-25T15:51:26Z",
+      "category": "automated-vehicles",
+      "summary": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
+      "abstract": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
+      "score": 75
+    },
     {
       "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
       "topic": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",

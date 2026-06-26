@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T09:47:08.603472Z",
+  "generated_at": "2026-06-26T09:53:41.954420Z",
   "items": [
     {
       "title": "US senators ask for review of Tesla's 'Full Self-Driving' safety data, citing Reuters report",
@@ -8,8 +8,8 @@
       "source": "Reuters",
       "published": "2026-06-16T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "US senators have requested a review of Tesla's 'Full Self-Driving' (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla to regulators. This scrutiny highlights ongoing regulatory challenges for autonomous vehicle (AV) technology.",
-      "abstract": "US senators have requested a review of Tesla's 'Full Self-Driving' (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla to regulators. This scrutiny highlights ongoing regulatory challenges for autonomous vehicle (AV) technology.",
+      "summary": "US senators have requested a review of Tesla's 'Full Self-Driving' (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which could impact the regulatory oversight of autonomous vehicle technology.",
+      "abstract": "US senators have requested a review of Tesla's 'Full Self-Driving' (FSD) safety data, citing a Reuters report. The senators are concerned about the accuracy and transparency of the data provided by Tesla, which could impact the regulatory oversight of autonomous vehicle technology.",
       "score": 85
     },
     {
@@ -19,9 +19,20 @@
       "source": "Reuters",
       "published": "2026-06-15T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla is accused of providing misleading safety data for its 'Full Self-Driving' (FSD) system to European regulators, according to a Reuters report. The company's data discrepancies raise concerns about the reliability and transparency of its AV technology, potentially impacting regulatory approval and public trust.",
-      "abstract": "Tesla is accused of providing misleading safety data for its 'Full Self-Driving' (FSD) system to European regulators, according to a Reuters report. The company's data discrepancies raise concerns about the reliability and transparency of its AV technology, potentially impacting regulatory approval and public trust.",
+      "summary": "Tesla is accused of presenting misleading safety data for its 'Full Self-Driving' (FSD) system to European regulators. The company's data has been questioned, raising concerns about the reliability and transparency of its autonomous driving technology.",
+      "abstract": "Tesla is accused of presenting misleading safety data for its 'Full Self-Driving' (FSD) system to European regulators. The company's data has been questioned, raising concerns about the reliability and transparency of its autonomous driving technology.",
       "score": 80
+    },
+    {
+      "title": "US proposes to drop brake pedal requirements for self-driving vehicles",
+      "topic": "US proposes to drop brake pedal requirements for self-driving vehicles",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWFBKWkhHcWozMHlqQlVnNUVmVVpJSTRxRTV4WEFYcTNVRm9oSWZMUjJYQVZrOHRMcmh6cGIyWXhSU0RHRHZtaGtNczByaGE0WmpfWEdDWkh3enVCRmFuVGF2TE5uZjQ1RWRxT2ZTcDVvSVNVU0NmMDNrTERqSm0xX1BGWXUxbmVub0JKQklxYkFiWWJZUEVfTzZubmhBaVRoM1VkMERqRkZRTk82VEtZeENsbDd1REpBVHFxSmlsWW5lbFVQVEEtOA?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-25T15:51:26Z",
+      "category": "automated-vehicles",
+      "summary": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
+      "abstract": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
+      "score": 75
     },
     {
       "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash",
@@ -30,9 +41,9 @@
       "source": "The Verge",
       "published": "2026-06-23T19:11:04Z",
       "category": "automated-vehicles",
-      "summary": "Tesla claims that the driver manually overrode the self-driving system in a fatal crash in Texas. This incident underscores the ongoing debate about the responsibilities and interactions between human drivers and autonomous systems, highlighting the need for clearer guidelines and safety protocols.",
-      "abstract": "Tesla claims that the driver manually overrode the self-driving system in a fatal crash in Texas. This incident underscores the ongoing debate about the responsibilities and interactions between human drivers and autonomous systems, highlighting the need for clearer guidelines and safety protocols.",
-      "score": 75
+      "summary": "Tesla claims that the driver manually overrode the self-driving system in a fatal crash in Texas. The company's statement shifts responsibility to the driver, highlighting the ongoing debate over the reliability and oversight of autonomous driving systems.",
+      "abstract": "Tesla claims that the driver manually overrode the self-driving system in a fatal crash in Texas. The company's statement shifts responsibility to the driver, highlighting the ongoing debate over the reliability and oversight of autonomous driving systems.",
+      "score": 70
     },
     {
       "title": "Finland may approve Tesla's supervised self-driving software before EU vote",
@@ -41,9 +52,9 @@
       "source": "Reuters",
       "published": "2026-06-23T12:58:21Z",
       "category": "automated-vehicles",
-      "summary": "Finland is considering approving Tesla's supervised self-driving software before the European Union (EU) makes a final decision. This move could expedite the deployment of Tesla's AV technology in Finland, despite broader EU concerns and regulatory hurdles.",
-      "abstract": "Finland is considering approving Tesla's supervised self-driving software before the European Union (EU) makes a final decision. This move could expedite the deployment of Tesla's AV technology in Finland, despite broader EU concerns and regulatory hurdles.",
-      "score": 70
+      "summary": "Finland may approve Tesla's supervised self-driving software before the European Union makes a decision. This move could expedite the deployment of Tesla's autonomous driving technology in Europe, despite ongoing regulatory discussions.",
+      "abstract": "Finland may approve Tesla's supervised self-driving software before the European Union makes a decision. This move could expedite the deployment of Tesla's autonomous driving technology in Europe, despite ongoing regulatory discussions.",
+      "score": 65
     },
     {
       "title": "EXCLUSIVE: Sweden may oppose Tesla's supervised self-driving tech in Europe over speeding concerns",
@@ -52,19 +63,8 @@
       "source": "Reuters",
       "published": "2026-06-18T18:30:05Z",
       "category": "automated-vehicles",
-      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns about speeding. This opposition highlights the varying regulatory stances within the EU and the challenges Tesla faces in gaining widespread approval for its AV systems.",
-      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns about speeding. This opposition highlights the varying regulatory stances within the EU and the challenges Tesla faces in gaining widespread approval for its AV systems.",
-      "score": 65
-    },
-    {
-      "title": "Tesla teases new FSD features — but it’s still not the self-driving promised",
-      "topic": "Tesla teases new FSD features — but it’s still not the self-driving promised",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeGNNSk9WRXhzZFhxSTVKQms4ckRWaHp6bWN0M29JUTMwTmRzRW8zY0x0M2FLMWlHdVQ1U3pYUkxZRENQMXFlMFg1azl5bEhnSmN2UnpycmlTX2h5SGttWXZGdDVwdUhuN1lGdVgxY2hNVTJnUmVyakh0Z29IMjhaR282UHB0X1E?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-18T16:08:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has teased new features for its Full Self-Driving (FSD) system, but the company acknowledges that the technology is still not fully autonomous. This update reflects the ongoing development and incremental improvements in Tesla's AV capabilities, while emphasizing the limitations of current self-driving technology.",
-      "abstract": "Tesla has teased new features for its Full Self-Driving (FSD) system, but the company acknowledges that the technology is still not fully autonomous. This update reflects the ongoing development and incremental improvements in Tesla's AV capabilities, while emphasizing the limitations of current self-driving technology.",
+      "summary": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. The country's stance highlights the ongoing regulatory challenges and safety concerns surrounding autonomous vehicle deployment.",
+      "abstract": "Sweden may oppose Tesla's supervised self-driving technology in Europe due to concerns over speeding. The country's stance highlights the ongoing regulatory challenges and safety concerns surrounding autonomous vehicle deployment.",
       "score": 60
     },
     {
@@ -74,8 +74,8 @@
       "source": "Reuters",
       "published": "2026-06-24T20:45:00Z",
       "category": "ai",
-      "summary": "Anthropic has accused Alibaba of illicitly extracting capabilities from its Claude AI model. This dispute highlights the competitive and sometimes contentious nature of AI development, particularly in the context of intellectual property and model capabilities.",
-      "abstract": "Anthropic has accused Alibaba of illicitly extracting capabilities from its Claude AI model. This dispute highlights the competitive and sometimes contentious nature of AI development, particularly in the context of intellectual property and model capabilities.",
+      "summary": "Anthropic has accused Alibaba of illicitly extracting capabilities from its Claude AI model. The dispute highlights the growing concerns over intellectual property and ethical practices in the development and deployment of AI technologies.",
+      "abstract": "Anthropic has accused Alibaba of illicitly extracting capabilities from its Claude AI model. The dispute highlights the growing concerns over intellectual property and ethical practices in the development and deployment of AI technologies.",
       "score": 55
     },
     {
@@ -85,8 +85,8 @@
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, combining a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details. This framework addresses the gap in existing methods that rely on single-frame or low-resolution inputs. The authors of the paper are from a research group that focuses on autonomous driving scene understanding. The relevance of this paper lies in its potential to improve the safety and reliability of autonomous vehicles by providing more accurate and interpretable risk assessments.",
-      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, combining a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details. This framework addresses the gap in existing methods that rely on single-frame or low-resolution inputs. The authors of the paper are from a research group that focuses on autonomous driving scene understanding. The relevance of this paper lies in its potential to improve the safety and reliability of autonomous vehicles by providing more accurate and interpretable risk assessments.",
+      "summary": "The UniDrive framework, proposed by arXiv researchers, combines a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details for interpretable risk understanding in autonomous driving. This approach addresses the trade-off between temporal reasoning and spatial precision in existing methods. UniDrive's unified visual-language and grounding framework enables more accurate and explainable autonomous driving scene understanding. The framework is particularly relevant for autonomous vehicles, as it enhances the reliability and safety of autonomous driving systems.",
+      "abstract": "The UniDrive framework, proposed by arXiv researchers, combines a temporal reasoning branch with a high-resolution perception branch to model scene dynamics and preserve fine-grained spatial details for interpretable risk understanding in autonomous driving. This approach addresses the trade-off between temporal reasoning and spatial precision in existing methods. UniDrive's unified visual-language and grounding framework enables more accurate and explainable autonomous driving scene understanding. The framework is particularly relevant for autonomous vehicles, as it enhances the reliability and safety of autonomous driving systems.",
       "score": 98
     },
     {
@@ -96,8 +96,8 @@
       "source": "arXiv",
       "published": "2026-06-12T01:06:42Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' presents a lightweight, distilled Vision-Language-Action (VLA) model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. The researchers from the SimLingo project developed RT-VLA to address the inference latency issue in VLA models. This paper is relevant to autonomous driving research as it enables the deployment of VLA models in real-time autonomous driving systems.",
-      "abstract": "The arXiv paper 'RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation' presents a lightweight, distilled Vision-Language-Action (VLA) model called RT-VLA, which transfers the driving and reasoning capabilities of the state-of-the-art SimLingo model into a compact student through multi-level supervised distillation. RT-VLA preserves language-based reasoning and supports post-hoc explanation through offline language analysis of safety-critical driving moments without adding latency to real-time control. The researchers from the SimLingo project developed RT-VLA to address the inference latency issue in VLA models. This paper is relevant to autonomous driving research as it enables the deployment of VLA models in real-time autonomous driving systems.",
+      "summary": "RT-VLA, a real-time vision-language-action model proposed by arXiv researchers, leverages knowledge distillation to transfer the driving and reasoning capabilities of the SimLingo model into a compact student model. This approach enables real-time control while preserving language-based reasoning and supporting post-hoc explanation through offline language analysis of safety-critical driving moments. RT-VLA's lightweight design makes it suitable for deployment in autonomous vehicles, where low latency and efficient processing are crucial. The model's ability to provide explanations for its actions enhances transparency and trust in autonomous driving systems.",
+      "abstract": "RT-VLA, a real-time vision-language-action model proposed by arXiv researchers, leverages knowledge distillation to transfer the driving and reasoning capabilities of the SimLingo model into a compact student model. This approach enables real-time control while preserving language-based reasoning and supporting post-hoc explanation through offline language analysis of safety-critical driving moments. RT-VLA's lightweight design makes it suitable for deployment in autonomous vehicles, where low latency and efficient processing are crucial. The model's ability to provide explanations for its actions enhances transparency and trust in autonomous driving systems.",
       "score": 96
     },
     {
@@ -107,8 +107,8 @@
       "source": "arXiv",
       "published": "2026-06-22T06:53:58Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' proposes an adaptive multimodal reflection framework called IRR-Drive, which generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. IRR-Drive tightly couples high-level reasoning with physical constraints to improve the reliability of autonomous driving in complex and dynamic environments. The authors of the paper are from a research group that focuses on autonomous driving decision-making. The relevance of this paper lies in its potential to enhance the decision-making capabilities of autonomous vehicles by providing a more comprehensive and adaptive framework for scene understanding and planning.",
-      "abstract": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' proposes an adaptive multimodal reflection framework called IRR-Drive, which generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. IRR-Drive tightly couples high-level reasoning with physical constraints to improve the reliability of autonomous driving in complex and dynamic environments. The authors of the paper are from a research group that focuses on autonomous driving decision-making. The relevance of this paper lies in its potential to enhance the decision-making capabilities of autonomous vehicles by providing a more comprehensive and adaptive framework for scene understanding and planning.",
+      "summary": "The Intend, Reflect, Refine (IRR-Drive) framework, proposed by arXiv researchers, is an adaptive multimodal reflection framework for autonomous driving. IRR-Drive generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This dual-modality reflection space enables the framework to tightly couple high-level reasoning with physical constraints, allowing for more reliable and explainable autonomous driving. IRR-Drive's ability to reflect on its decisions and refine its actions enhances the safety and efficiency of autonomous vehicles in complex and dynamic environments.",
+      "abstract": "The Intend, Reflect, Refine (IRR-Drive) framework, proposed by arXiv researchers, is an adaptive multimodal reflection framework for autonomous driving. IRR-Drive generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. This dual-modality reflection space enables the framework to tightly couple high-level reasoning with physical constraints, allowing for more reliable and explainable autonomous driving. IRR-Drive's ability to reflect on its decisions and refine its actions enhances the safety and efficiency of autonomous vehicles in complex and dynamic environments.",
       "score": 95
     }
   ]
