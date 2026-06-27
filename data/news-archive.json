@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T09:53:41.956037Z",
+  "updated_at": "2026-06-27T09:07:26.873994Z",
   "items": [
     {
       "title": "US proposes to drop brake pedal requirements for self-driving vehicles",
@@ -11,6 +11,17 @@
       "summary": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
       "abstract": "The US Department of Transportation has proposed dropping the requirement for brake pedals in self-driving vehicles. This regulatory change aims to facilitate the deployment of fully autonomous vehicles without traditional manual controls.",
       "score": 75
+    },
+    {
+      "title": "LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction",
+      "topic": "LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction",
+      "url": "https://arxiv.org/abs/2606.26661v1",
+      "source": "arXiv",
+      "published": "2026-06-25T06:52:17Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "LAMP, a framework proposed by arXiv researchers, is a topology-aware forecasting framework that anchors multimodal prediction to structured motion primitives aligned with lane topology. LAMP uses a VQ-VAE to learn shape-aware motion primitives as discrete intention queries, capturing the adherence to lane topology of multimodal predictions. The framework's design enables it to predict trajectories that are physically and logically consistent, making it a significant advancement in motion forecasting for autonomous driving. LAMP's approach is particularly critical in safety-sensitive domains such as autonomous driving, where accurate trajectory prediction is essential for safe decision-making and planning.",
+      "abstract": "LAMP, a framework proposed by arXiv researchers, is a topology-aware forecasting framework that anchors multimodal prediction to structured motion primitives aligned with lane topology. LAMP uses a VQ-VAE to learn shape-aware motion primitives as discrete intention queries, capturing the adherence to lane topology of multimodal predictions. The framework's design enables it to predict trajectories that are physically and logically consistent, making it a significant advancement in motion forecasting for autonomous driving. LAMP's approach is particularly critical in safety-sensitive domains such as autonomous driving, where accurate trajectory prediction is essential for safe decision-making and planning.",
+      "score": 95
     },
     {
       "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
