@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-06-29T11:25:50.270957Z",
+  "updated_at": "2026-06-30T10:03:41.328399Z",
   "items": [
+    {
+      "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+      "topic": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
+      "url": "https://arxiv.org/abs/2606.29097v1",
+      "source": "arXiv",
+      "published": "2026-06-27T21:48:22Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv-published paper TrafficAlign, dated June 27, 2026, presents an automated framework that synthesizes traffic scenarios based on real-world driving videos and aligns large language models with these scenarios. TrafficAlign generates traffic scenarios that are highly effective in revealing collisions, with up to 10.8% more collisions on average across three autonomous driving models compared to state-of-the-art methods. The fine-tuning of driving models with TrafficAlign-generated scenarios reduces collision rates by 36.1%. This work is relevant to autonomous driving as it enhances the safety and performance of autonomous vehicles by improving their ability to handle various traffic scenarios.",
+      "abstract": "The arXiv-published paper TrafficAlign, dated June 27, 2026, presents an automated framework that synthesizes traffic scenarios based on real-world driving videos and aligns large language models with these scenarios. TrafficAlign generates traffic scenarios that are highly effective in revealing collisions, with up to 10.8% more collisions on average across three autonomous driving models compared to state-of-the-art methods. The fine-tuning of driving models with TrafficAlign-generated scenarios reduces collision rates by 36.1%. This work is relevant to autonomous driving as it enhances the safety and performance of autonomous vehicles by improving their ability to handle various traffic scenarios.",
+      "score": 96
+    },
     {
       "title": "Tesla Settles Lawsuit Over Fatal Pedestrian Crash Involving Full Self-Driving",
       "topic": "Tesla Settles Lawsuit Over Fatal Pedestrian Crash Involving Full Self-Driving",
