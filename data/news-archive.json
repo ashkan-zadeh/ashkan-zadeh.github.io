@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-01T10:17:14.626009Z",
+  "updated_at": "2026-07-02T09:36:01.382654Z",
   "items": [
+    {
+      "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
+      "topic": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRHN2T0NPR3ZJMWZheVBDbUxxS1pBbHpfSjBmSTNseVFEU0FUcnc1OFJJNzNGZVB1M1ZIdExGb0NfTWpKYnhTSm8xRUhzbm14RWRNRWJyaWctbjVLWmdRM0d1UjFBalpyNDJoTDNwVldrRGxGN1U0aUtUcEp3a2t1aDYxdFpfRFMzZDZodUNNdEJpMkoyOWFYakZLb1NrZ0M4a01qQW9HTkFUQkltaGNjWk9CcXYxUGdndmNPclNEOVlxVFk?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-02T07:40:09Z",
+      "category": "ai",
+      "summary": "A new, inexpensive Chinese AI model is rapidly catching up with Anthropic and OpenAI in performance. This development underscores the growing competitiveness of Chinese AI research and the potential for more affordable AI solutions, which could have implications for autonomous vehicle development.",
+      "abstract": "A new, inexpensive Chinese AI model is rapidly catching up with Anthropic and OpenAI in performance. This development underscores the growing competitiveness of Chinese AI research and the potential for more affordable AI solutions, which could have implications for autonomous vehicle development.",
+      "score": 75
+    },
+    {
+      "title": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
+      "topic": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTmN2WTU0cnBFTWY2ZDZlR3VfNTM1R3lvMlNUU1ZHODNla21NNHVOUFNjcVlUTnpOMTdKbHk0aUtmd2NoR1o4cjVCLVpyNHFkdDRhYUxVdzNZd0Mxc2Z6SXFlbHVZQjV2MXgwTEgtZmZlaWR0QXEyZWRvYmVuT0pHM3d1STFXSWxLc05zTVg2NGJ3Z3RqWUhmaUVHSjkyelVhaWc2dFNxQ3VSSkJOTWdJc0xRUVRPZngwTnN0ZnZWRndsZDdWWlRYZ1JB?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-01T16:01:43Z",
+      "category": "ai",
+      "summary": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. This initiative aims to reduce dependency on foreign AI technologies and enhance local innovation, which could also benefit research in autonomous vehicles.",
+      "abstract": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. This initiative aims to reduce dependency on foreign AI technologies and enhance local innovation, which could also benefit research in autonomous vehicles.",
+      "score": 70
+    },
     {
       "title": "China's Meituan says new AI model trained on domestic chips",
       "topic": "China's Meituan says new AI model trained on domestic chips",
@@ -893,6 +915,17 @@
       "score": 95
     },
     {
+      "title": "Evolution of Deep Learning Techniques and Challenges for Vehicle Trajectory Prediction",
+      "topic": "Evolution of Deep Learning Techniques and Challenges for Vehicle Trajectory Prediction",
+      "url": "http://ieeexplore.ieee.org/document/11520839",
+      "source": "IEEE Open Journal of Intelligent Transportation Systems",
+      "published": "2026-05-15T13:17:07Z",
+      "category": "journal-rss",
+      "summary": "The IEEE Open Journal of Intelligent Transportation Systems published a paper on Evolution of Deep Learning Techniques and Challenges for Vehicle Trajectory Prediction on May 15, 2026, which provides a comprehensive review of recent deep learning-based approaches for vehicle trajectory prediction from a system and modeling perspective. The paper introduces a system-oriented taxonomy of vehicle trajectory prediction methods, including classical, reinforcement learning-based, collaborative, and deep learning-based methods. This review aims to bridge the gap in existing surveys and provide insights into emerging trends in model design. The paper's findings are relevant to the advancement of intelligent transportation systems and autonomous driving.",
+      "abstract": "The IEEE Open Journal of Intelligent Transportation Systems published a paper on Evolution of Deep Learning Techniques and Challenges for Vehicle Trajectory Prediction on May 15, 2026, which provides a comprehensive review of recent deep learning-based approaches for vehicle trajectory prediction from a system and modeling perspective. The paper introduces a system-oriented taxonomy of vehicle trajectory prediction methods, including classical, reinforcement learning-based, collaborative, and deep learning-based methods. This review aims to bridge the gap in existing surveys and provide insights into emerging trends in model design. The paper's findings are relevant to the advancement of intelligent transportation systems and autonomous driving.",
+      "score": 85
+    },
+    {
       "title": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
       "topic": "Autonomous Driving Showdown: Who Will Win the Self-Driving Race? | Bloomberg Tech: Europe 5/08/2026",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHBySWMtc2dHbUY1bk1FT3lwYmlESkJkOUpUeXZKdS1qVUI2cEpQQVN5ZGlkdW9DZzQ0ZTQ5VG9GV0hNTklFbDlWa3lQVmdrbUFOTVBDMjRleThWZDhveERkTmROWFc5NWdYTFJld2NwcDNWWjBrYWtJSmRQbmlOZnpmY01zX210cGZrb1JQT2t2anlyblprM2R0b1VXd2hPVU5odjJ5STFwQQ?oc=5",
@@ -924,6 +957,17 @@
       "summary": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu have proposed an edge-based multimodal sensor data fusion approach using a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, as published in the Engineering Applications of Artificial Intelligence journal. Their approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is evaluated using the CARLA simulator, demonstrating its effectiveness in handling occlusions and improving situational awareness. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex environments.",
       "abstract": "Fengze Yang, Bo Yu, Yang Zhou, Xuewen Luo, Zhengzhong Tu, and Chenxi Liu have proposed an edge-based multimodal sensor data fusion approach using a Vision-Language-Action (VLA) model for real-time autonomous vehicle accident avoidance, as published in the Engineering Applications of Artificial Intelligence journal. Their approach enables safer navigation by systematically detecting, processing, and anticipating the behavior of occluded areas. The system is evaluated using the CARLA simulator, demonstrating its effectiveness in handling occlusions and improving situational awareness. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex environments.",
       "score": 95
+    },
+    {
+      "title": "Socially Compatible and Risk-Aware Driving: A Cognition-Inspired Interactive Decision-Making Framework for Autonomous Vehicles",
+      "topic": "Socially Compatible and Risk-Aware Driving: A Cognition-Inspired Interactive Decision-Making Framework for Autonomous Vehicles",
+      "url": "http://ieeexplore.ieee.org/document/11455192",
+      "source": "IEEE Open Journal of Intelligent Transportation Systems",
+      "published": "2026-03-24T13:16:31Z",
+      "category": "journal-rss",
+      "summary": "The IEEE Open Journal of Intelligent Transportation Systems published a paper on Socially Compatible and Risk-Aware Driving: A Cognition-Inspired Interactive Decision-Making Framework for Autonomous Vehicles on March 24, 2026, which proposes a cognitively and socially grounded interactive decision-making framework for autonomous vehicles to address the challenges of risk-aware and socially compatible behaviors in complex mixed traffic environments. The architecture integrates a Traffic Situation Risk Field (TSRF) module, which assesses environmental risks from a social-cognitive perspective. This framework enables autonomous vehicles to exhibit risk-aware and socially compatible behaviors, ensuring safety and efficiency in interactions with human-driven vehicles.",
+      "abstract": "The IEEE Open Journal of Intelligent Transportation Systems published a paper on Socially Compatible and Risk-Aware Driving: A Cognition-Inspired Interactive Decision-Making Framework for Autonomous Vehicles on March 24, 2026, which proposes a cognitively and socially grounded interactive decision-making framework for autonomous vehicles to address the challenges of risk-aware and socially compatible behaviors in complex mixed traffic environments. The architecture integrates a Traffic Situation Risk Field (TSRF) module, which assesses environmental risks from a social-cognitive perspective. This framework enables autonomous vehicles to exhibit risk-aware and socially compatible behaviors, ensuring safety and efficiency in interactions with human-driven vehicles.",
+      "score": 88
     },
     {
       "title": "LLM and AI Agents for Autonomous Systems: A Survey of Applications, Datasets, and Security Challenges",
