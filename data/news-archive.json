@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-02T09:36:01.382654Z",
+  "updated_at": "2026-07-03T09:37:16.733698Z",
   "items": [
+    {
+      "title": "LLM-assisted screening method for large-scale transportation model calibration",
+      "topic": "LLM-assisted screening method for large-scale transportation model calibration",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBta3ktc1FXMU9wSlZwd29lQ1lkOW5oSGtTaXZ2dVE3djQyUTFSQUd5Vm9ObExpaXhvRmVmakVIX1NxNzVJOVRaNzlSMVA4anpsUXBlOXo2Qm12M1JuNDdj?oc=5",
+      "source": "Nature",
+      "published": "2026-07-02T16:56:49Z",
+      "category": "llm",
+      "summary": "Mobileye, an Intel company, has collaborated with Volkswagen Group to develop autonomous driving technology, with a focus on Level 4 autonomy. This collaboration is significant for AV research as it brings together two major players in the industry to advance autonomous driving technology. The collaboration between Mobileye and Volkswagen Group has the potential to accelerate the development of Level 4 autonomy and improve road safety. Mobileye’s expertise in computer vision and Volkswagen Group’s experience in vehicle manufacturing make them a strong partnership.",
+      "abstract": "Mobileye, an Intel company, has collaborated with Volkswagen Group to develop autonomous driving technology, with a focus on Level 4 autonomy. This collaboration is significant for AV research as it brings together two major players in the industry to advance autonomous driving technology. The collaboration between Mobileye and Volkswagen Group has the potential to accelerate the development of Level 4 autonomy and improve road safety. Mobileye’s expertise in computer vision and Volkswagen Group’s experience in vehicle manufacturing make them a strong partnership.",
+      "score": 88
+    },
     {
       "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
       "topic": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
@@ -11,6 +22,17 @@
       "summary": "A new, inexpensive Chinese AI model is rapidly catching up with Anthropic and OpenAI in performance. This development underscores the growing competitiveness of Chinese AI research and the potential for more affordable AI solutions, which could have implications for autonomous vehicle development.",
       "abstract": "A new, inexpensive Chinese AI model is rapidly catching up with Anthropic and OpenAI in performance. This development underscores the growing competitiveness of Chinese AI research and the potential for more affordable AI solutions, which could have implications for autonomous vehicle development.",
       "score": 75
+    },
+    {
+      "title": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
+      "topic": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
+      "url": "https://arxiv.org/abs/2607.01772v1",
+      "source": "arXiv",
+      "published": "2026-07-02T06:44:02Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper LLM-Empowered Multimodal Fusion Framework for Autonomous Driving proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework, which fuses a local visual stream with a quality-varying external radar stream to cover perception-blind spots. The framework couples a hierarchical radar-vision encoder with a Channel-Adaptive decoder to achieve robust autonomous driving. This approach is relevant to AV research as it enhances the fusion of multimodal data, such as vision and radar, to improve the perception and decision-making capabilities of autonomous vehicles. The use of a Large Language Model as a central reasoning core is a key innovation in this framework.",
+      "abstract": "The arXiv paper LLM-Empowered Multimodal Fusion Framework for Autonomous Driving proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework, which fuses a local visual stream with a quality-varying external radar stream to cover perception-blind spots. The framework couples a hierarchical radar-vision encoder with a Channel-Adaptive decoder to achieve robust autonomous driving. This approach is relevant to AV research as it enhances the fusion of multimodal data, such as vision and radar, to improve the perception and decision-making capabilities of autonomous vehicles. The use of a Large Language Model as a central reasoning core is a key innovation in this framework.",
+      "score": 90
     },
     {
       "title": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
@@ -55,6 +77,17 @@
       "summary": "0\u0012\b!\u0016/ܗشkBR uW, \u0010߶^\u000f+?K.档gww'Snto+a >} \u0013\u0007; l96rs{)@F ' a@LEF@sO\u0013 b\u0005Fb W\u0005Ĥ&_\u0016dI\u00152, M'wS1_\u0004Ah`*7I\u0015O\u0003]a&ו.\u0019*\u0000ۇ|e\u0017{WW\u00144PX\bGgUk\u0010yC> 7\u0001O1 \u0000WۉWH|B'@!QV\bn,+ _]ww㫣bׯ_ \u0014)8\u0018P =\u0003( \u0007\u001aD?ࢍ/H@IX\b':\u000e\u0003\u0013\u0005X߿3\u0003\u0010\u00044Yyף|u@ q ?kn\u0017\\\u0013ͺ\u0016%QTDKMNg[:B&iKt9\u0010 |8!* +FT\u0013AlFM#\u0012/%] \u001b\u0018̖E}& Bݰ?xu\u0016p]l Z`knhw\u0011vt\u0003[>\u0002ʒxW{]}y]\bvfNn!ۗ#pIUuL­oRR uJlޙb\b 4$P\u0014ze\u0016 \u0001\"\u0007\u0019\u001903=-3 \u0001!)\u000e\u0007ZA\u0011|]{Xm#|TKmdn;\u0002 L\\ i\u0007\u0012\u0018z\u0011J 4p]|G4D3- $Vf~Y \u0018hz;\u0014=I-\"Q :wB2PM3UKX6OLW|r1UZZ`El~{SRo\u0005W;OrkE{4ܽhx>\u0004P*~m,\u000e BYoS^2\u001aݾyq褘HŶOy |M'= 6H8n wGƩt`ԺA#4M3\b Jway!]O~\u0005I\u0004vpF\u0014.֬ҜSBnY\u001a .KO*\b\u0006;X\u0001!\" ND=\"\u0006F*ml\u00102p8b9F\u0005VL @\u0006\u0006\u0010p\u0005\u0015\u0005p \\\u0010yO4fmjuڹ p\u0013\u001a 1\".v5P@\u0011\u000f\u0003叶O\u001a ?K}ߺjOZk5\u0006E6\u0018v|!Oas\u000f..~ zpu_{\u00167nmWG4k&Fy\\ܣ|0.",
       "abstract": "0\u0012\b!\u0016/ܗشkBR uW, \u0010߶^\u000f+?K.档gww'Snto+a >} \u0013\u0007; l96rs{)@F ' a@LEF@sO\u0013 b\u0005Fb W\u0005Ĥ&_\u0016dI\u00152, M'wS1_\u0004Ah`*7I\u0015O\u0003]a&ו.\u0019*\u0000ۇ|e\u0017{WW\u00144PX\bGgUk\u0010yC> 7\u0001O1 \u0000WۉWH|B'@!QV\bn,+ _]ww㫣bׯ_ \u0014)8\u0018P =\u0003( \u0007\u001aD?ࢍ/H@IX\b':\u000e\u0003\u0013\u0005X߿3\u0003\u0010\u00044Yyף|u@ q ?kn\u0017\\\u0013ͺ\u0016%QTDKMNg[:B&iKt9\u0010 |8!* +FT\u0013AlFM#\u0012/%] \u001b\u0018̖E}& Bݰ?xu\u0016p]l Z`knhw\u0011vt\u0003[>\u0002ʒxW{]}y]\bvfNn!ۗ#pIUuL­oRR uJlޙb\b 4$P\u0014ze\u0016 \u0001\"\u0007\u0019\u001903=-3 \u0001!)\u000e\u0007ZA\u0011|]{Xm#|TKmdn;\u0002 L\\ i\u0007\u0012\u0018z\u0011J 4p]|G4D3- $Vf~Y \u0018hz;\u0014=I-\"Q :wB2PM3UKX6OLW|r1UZZ`El~{SRo\u0005W;OrkE{4ܽhx>\u0004P*~m,\u000e BYoS^2\u001aݾyq褘HŶOy |M'= 6H8n wGƩt`ԺA#4M3\b Jway!]O~\u0005I\u0004vpF\u0014.֬ҜSBnY\u001a .KO*\b\u0006;X\u0001!\" ND=\"\u0006F*ml\u00102p8b9F\u0005VL @\u0006\u0006\u0010p\u0005\u0015\u0005p \\\u0010yO4fmjuڹ p\u0013\u001a 1\".v5P@\u0011\u000f\u0003叶O\u001a ?K}ߺjOZk5\u0006E6\u0018v|!Oas\u000f..~ zpu_{\u00167nmWG4k&Fy\\ܣ|0.",
       "score": 49
+    },
+    {
+      "title": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "topic": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2FfRDVPcnlmeDlYWGphWlQ5NHBSSkx6NU0xdHNYa1p3a3FmLURFZjhmcHMyYWM3VFpLU0ZvTHNiQk9ncmdMT3YxUFVLWnhoQW1hSUJCdmNHOEZ1RGFSUGdOakVLSTBGTzNvVE04el9UNUFBOUd2OWRLTDMzSWJsMzdqeFJJRG4yNHVSLWJDbTM1bEpRUm03dnRJWkJQR0k?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-29T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo’s self-driving taxis are now available to the public in downtown Phoenix, marking a significant expansion of the company’s robotaxi service. This expansion is a major milestone for Waymo, as it demonstrates the company’s ability to deploy its autonomous driving technology in a real-world setting. The deployment of Waymo’s self-driving taxis in downtown Phoenix is significant for AV research as it provides a real-world testbed for autonomous driving technology. Waymo’s robotaxi service has the potential to revolutionize the transportation industry.",
+      "abstract": "Waymo’s self-driving taxis are now available to the public in downtown Phoenix, marking a significant expansion of the company’s robotaxi service. This expansion is a major milestone for Waymo, as it demonstrates the company’s ability to deploy its autonomous driving technology in a real-world setting. The deployment of Waymo’s self-driving taxis in downtown Phoenix is significant for AV research as it provides a real-world testbed for autonomous driving technology. Waymo’s robotaxi service has the potential to revolutionize the transportation industry.",
+      "score": 95
     },
     {
       "title": "TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation",
