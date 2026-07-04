@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-03T09:37:16.733698Z",
+  "updated_at": "2026-07-04T09:03:15.958345Z",
   "items": [
+    {
+      "title": "Man charged with manslaughter over Tesla crash originally blamed on car’s self-driving mode",
+      "topic": "Man charged with manslaughter over Tesla crash originally blamed on car’s self-driving mode",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU0pQazdiOC15Vi1Ma1MtYnBpVEVGVkNkZ1A3UjNyS3B1NklYNlJmTnFfZ0JFZS1aNWg5UjZVTU5XTURSNHhMUEJUaU9QZVozWFdMLXVXNkVKRXk3UC0xZUJEOG5oYTc2R043UWJjY2dSbEktYUZmbXEtbEEzR3l3b2k5dmg?oc=5",
+      "source": "The Guardian",
+      "published": "2026-07-03T16:17:00Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
+      "abstract": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
+      "score": 88
+    },
     {
       "title": "LLM-assisted screening method for large-scale transportation model calibration",
       "topic": "LLM-assisted screening method for large-scale transportation model calibration",
