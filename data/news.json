@@ -1,37 +1,26 @@
 {
-  "generated_at": "2026-07-04T09:03:15.955332Z",
+  "generated_at": "2026-07-05T09:26:04.475897Z",
   "items": [
     {
-      "title": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
-      "topic": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTmN2WTU0cnBFTWY2ZDZlR3VfNTM1R3lvMlNUU1ZHODNla21NNHVOUFNjcVlUTnpOMTdKbHk0aUtmd2NoR1o4cjVCLVpyNHFkdDRhYUxVdzNZd0Mxc2Z6SXFlbHVZQjV2MXgwTEgtZmZlaWR0QXEyZWRvYmVuT0pHM3d1STFXSWxLc05zTVg2NGJ3Z3RqWUhmaUVHSjkyelVhaWc2dFNxQ3VSSkJOTWdJc0xRUVRPZngwTnN0ZnZWRndsZDdWWlRYZ1JB?oc=5",
-      "source": "Reuters",
-      "published": "2026-07-01T16:01:43Z",
-      "category": "ai",
-      "summary": "Waymo has expanded its autonomous ride-hailing service to Los Angeles, marking a significant milestone in the company's efforts to deploy its technology in major cities across the US. This expansion is part of Waymo's ongoing efforts to commercialize its autonomous driving technology. The company's service is now available in multiple cities, including Phoenix and San Francisco. The expansion to Los Angeles demonstrates Waymo's commitment to making autonomous transportation a reality.",
-      "abstract": "Waymo has expanded its autonomous ride-hailing service to Los Angeles, marking a significant milestone in the company's efforts to deploy its technology in major cities across the US. This expansion is part of Waymo's ongoing efforts to commercialize its autonomous driving technology. The company's service is now available in multiple cities, including Phoenix and San Francisco. The expansion to Los Angeles demonstrates Waymo's commitment to making autonomous transportation a reality.",
+      "title": "Tesla Expands Robotaxi Service To Small Section Of Miami",
+      "topic": "Tesla Expands Robotaxi Service To Small Section Of Miami",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0dVWFBHdFBYbnY5U1FtTnNKMzJub085WUQ5MGtEX2ZWLWdoMDJHeTR2dDlkU09COVdvUEwtNGtFVDlQNjFHaGRrR1k0LXpaeE1LN2xGQ2NqWkwyT1ZGM21zNUt6MlFwcG15RkZtZXVWWVhDWUdFVjFNSVFOTXhxaEtSclZxWnQ2dTdDalh5WkV3a25y?oc=5",
+      "source": "Engadget",
+      "published": "2026-07-04T17:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its robotaxi service to a small section of Miami. The service, which uses Tesla's Full Self-Driving (FSD) technology, is currently limited to a specific area and is part of Tesla's ongoing efforts to deploy autonomous vehicles in urban environments. This deployment is significant as it represents a step towards wider commercialization of Tesla's FSD capabilities.",
+      "abstract": "Tesla has expanded its robotaxi service to a small section of Miami. The service, which uses Tesla's Full Self-Driving (FSD) technology, is currently limited to a specific area and is part of Tesla's ongoing efforts to deploy autonomous vehicles in urban environments. This deployment is significant as it represents a step towards wider commercialization of Tesla's FSD capabilities.",
       "score": 95
     },
     {
-      "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
-      "topic": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRHN2T0NPR3ZJMWZheVBDbUxxS1pBbHpfSjBmSTNseVFEU0FUcnc1OFJJNzNGZVB1M1ZIdExGb0NfTWpKYnhTSm8xRUhzbm14RWRNRWJyaWctbjVLWmdRM0d1UjFBalpyNDJoTDNwVldrRGxGN1U0aUtUcEp3a2t1aDYxdFpfRFMzZDZodUNNdEJpMkoyOWFYakZLb1NrZ0M4a01qQW9HTkFUQkltaGNjWk9CcXYxUGdndmNPclNEOVlxVFk?oc=5",
-      "source": "Reuters",
-      "published": "2026-07-02T07:40:09Z",
-      "category": "ai",
-      "summary": "Cruise has expanded its robotaxi service to new cities in the US, further increasing the company's presence in the autonomous vehicle market. The expansion is a result of Cruise's ongoing efforts to deploy its autonomous driving technology in various cities. Cruise's robotaxi service is now available in multiple cities, with the company aiming to continue its expansion in the coming months. The expansion demonstrates Cruise's progress in commercializing its autonomous driving technology.",
-      "abstract": "Cruise has expanded its robotaxi service to new cities in the US, further increasing the company's presence in the autonomous vehicle market. The expansion is a result of Cruise's ongoing efforts to deploy its autonomous driving technology in various cities. Cruise's robotaxi service is now available in multiple cities, with the company aiming to continue its expansion in the coming months. The expansion demonstrates Cruise's progress in commercializing its autonomous driving technology.",
-      "score": 92
-    },
-    {
-      "title": "New Tesla ‘Full Self-Driving’ class action hilariously cites Electrek",
-      "topic": "New Tesla ‘Full Self-Driving’ class action hilariously cites Electrek",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oVzZuLUw0WWVYWlN0VXRFVmtFNVRLRVlCdXdaVHdnMktET29XbUZvTlUySjB4Q24xM3BVRm5hUVI2Z09CcHlwRHJ3OUk0VE9oZGw1d253OEozR3d6Q1NkN252TnZoLTRHWExsLTMzeEFsS3NKX1dubXhn?oc=5",
-      "source": "Electrek",
-      "published": "2026-06-29T19:08:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has made its Full Self-Driving Beta available to all eligible owners in the US, marking a significant milestone in the company's efforts to deploy its autonomous driving technology. The Full Self-Driving Beta is a advanced driver-assistance system that enables vehicles to navigate complex roads and intersections. The system has been tested extensively, with Tesla aiming to continue its development and refinement. The availability of the Full Self-Driving Beta to all eligible owners demonstrates Tesla's commitment to autonomous driving technology.",
-      "abstract": "Tesla has made its Full Self-Driving Beta available to all eligible owners in the US, marking a significant milestone in the company's efforts to deploy its autonomous driving technology. The Full Self-Driving Beta is a advanced driver-assistance system that enables vehicles to navigate complex roads and intersections. The system has been tested extensively, with Tesla aiming to continue its development and refinement. The availability of the Full Self-Driving Beta to all eligible owners demonstrates Tesla's commitment to autonomous driving technology.",
+      "title": "LLM-assisted screening method for large-scale transportation model calibration",
+      "topic": "LLM-assisted screening method for large-scale transportation model calibration",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBta3ktc1FXMU9wSlZwd29lQ1lkOW5oSGtTaXZ2dVE3djQyUTFSQUd5Vm9ObExpaXhvRmVmakVIX1NxNzVJOVRaNzlSMVA4anpsUXBlOXo2Qm12M1JuNDdj?oc=5",
+      "source": "Nature",
+      "published": "2026-07-02T16:56:49Z",
+      "category": "llm",
+      "summary": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. The method leverages large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in autonomous vehicle systems. This breakthrough could enhance the reliability of AV simulations and real-world deployments.",
+      "abstract": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. The method leverages large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in autonomous vehicle systems. This breakthrough could enhance the reliability of AV simulations and real-world deployments.",
       "score": 90
     },
     {
@@ -41,20 +30,20 @@
       "source": "The Guardian",
       "published": "2026-07-03T16:17:00Z",
       "category": "automated-vehicles",
-      "summary": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
-      "abstract": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
-      "score": 88
+      "summary": "A man has been charged with manslaughter in a Tesla crash that was initially blamed on the car's self-driving mode. The incident highlights the ongoing legal and safety concerns surrounding the deployment of autonomous driving technologies. The case is being closely watched as it could set a precedent for liability in accidents involving self-driving vehicles.",
+      "abstract": "A man has been charged with manslaughter in a Tesla crash that was initially blamed on the car's self-driving mode. The incident highlights the ongoing legal and safety concerns surrounding the deployment of autonomous driving technologies. The case is being closely watched as it could set a precedent for liability in accidents involving self-driving vehicles.",
+      "score": 85
     },
     {
-      "title": "OpenAI staggers AI model release after Trump administration request",
-      "topic": "OpenAI staggers AI model release after Trump administration request",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZHpsR0FaODVIVE4zSnJ6NUpxYzNLbmFwQWJscnh6bEZlS1BUSE1TOGxEd3B1WlhpUWk2bVZkejJWejVqSG5WNUhSR3NKS2tCQTRxX2MwSTloaXNHeTVwZmFJeFZkWG1MX2dtTW92VlhVclZXZ3JhcUZ4TnB1Wl85VzZkcTRwYWxtanZ0UkhuejYtNTJmVkk0WEo3S1pHMkVFOS1qcnR5RVU0QlVZQkJUUHNoc3lNdw?oc=5",
-      "source": "The Guardian",
-      "published": "2026-06-26T14:06:00Z",
-      "category": "ai",
-      "summary": "NVIDIA has released the latest version of its DRIVE Sim platform, which is designed to enable advanced simulation for autonomous vehicles. The new version, DRIVE Sim 2.0, is equipped with enhanced features and capabilities, enabling developers to simulate complex scenarios and test autonomous driving systems. The DRIVE Sim platform is a crucial tool for the development of autonomous vehicles, and its latest iteration is expected to play a significant role in the advancement of autonomous driving technology. The release of DRIVE Sim 2.0 demonstrates NVIDIA's commitment to supporting the development of autonomous vehicles.",
-      "abstract": "NVIDIA has released the latest version of its DRIVE Sim platform, which is designed to enable advanced simulation for autonomous vehicles. The new version, DRIVE Sim 2.0, is equipped with enhanced features and capabilities, enabling developers to simulate complex scenarios and test autonomous driving systems. The DRIVE Sim platform is a crucial tool for the development of autonomous vehicles, and its latest iteration is expected to play a significant role in the advancement of autonomous driving technology. The release of DRIVE Sim 2.0 demonstrates NVIDIA's commitment to supporting the development of autonomous vehicles.",
-      "score": 82
+      "title": "Tesla settles lawsuit over fatal ‘Full Self-Driving’ pedestrian crash",
+      "topic": "Tesla settles lawsuit over fatal ‘Full Self-Driving’ pedestrian crash",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OeE82SjhxQWxfZWt3Vm0yOEtLWDlPNjI2MFNzaG9RdUYzcmVIYkhWY2JFSHc5UzN2VGxyUUxSTDEwLW80T1MwWXlhRzdUSlZnWXhnWW84YVJxT09wN2thTmVTN1dZemxPTFYyWVFuRng3dF93Ri1jWg?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-26T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has settled a lawsuit over a fatal pedestrian crash involving its Full Self-Driving (FSD) feature. The settlement comes as Tesla continues to face scrutiny over the safety and reliability of its FSD technology. This legal resolution may impact future regulatory and safety standards for autonomous vehicles.",
+      "abstract": "Tesla has settled a lawsuit over a fatal pedestrian crash involving its Full Self-Driving (FSD) feature. The settlement comes as Tesla continues to face scrutiny over the safety and reliability of its FSD technology. This legal resolution may impact future regulatory and safety standards for autonomous vehicles.",
+      "score": 80
     },
     {
       "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash",
@@ -63,9 +52,31 @@
       "source": "The Verge",
       "published": "2026-06-23T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Researchers from MIT and Google have developed a new computer vision model for autonomous vehicles, which is designed to enhance the accuracy and reliability of autonomous driving systems. The new model is equipped with advanced algorithms and features, enabling it to process complex data and make rapid decisions. The computer vision model is a crucial component of autonomous driving technology, and its development is expected to play a significant role in the advancement of autonomous vehicles. The new model demonstrates the ongoing efforts of researchers to advance autonomous driving technology.",
-      "abstract": "Researchers from MIT and Google have developed a new computer vision model for autonomous vehicles, which is designed to enhance the accuracy and reliability of autonomous driving systems. The new model is equipped with advanced algorithms and features, enabling it to process complex data and make rapid decisions. The computer vision model is a crucial component of autonomous driving technology, and its development is expected to play a significant role in the advancement of autonomous vehicles. The new model demonstrates the ongoing efforts of researchers to advance autonomous driving technology.",
-      "score": 80
+      "summary": "Tesla claims that the driver manually overrode the self-driving system in a deadly crash in Texas. The company's statement is part of an ongoing investigation into the incident, which has raised questions about the interaction between human drivers and autonomous systems. This case underscores the need for clear guidelines and training for users of self-driving technologies.",
+      "abstract": "Tesla claims that the driver manually overrode the self-driving system in a deadly crash in Texas. The company's statement is part of an ongoing investigation into the incident, which has raised questions about the interaction between human drivers and autonomous systems. This case underscores the need for clear guidelines and training for users of self-driving technologies.",
+      "score": 75
+    },
+    {
+      "title": "OpenAI staggers AI model release after Trump administration request",
+      "topic": "OpenAI staggers AI model release after Trump administration request",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZHpsR0FaODVIVE4zSnJ6NUpxYzNLbmFwQWJscnh6bEZlS1BUSE1TOGxEd3B1WlhpUWk2bVZkejJWejVqSG5WNUhSR3NKS2tCQTRxX2MwSTloaXNHeTVwZmFJeFZkWG1MX2dtTW92VlhVclZXZ3JhcUZ4TnB1Wl85VzZkcTRwYWxtanZ0UkhuejYtNTJmVkk0WEo3S1pHMkVFOS1qcnR5RVU0QlVZQkJUUHNoc3lNdw?oc=5",
+      "source": "The Guardian",
+      "published": "2026-06-26T07:00:00Z",
+      "category": "ai",
+      "summary": "OpenAI has delayed the release of a new AI model following a request from the Trump administration. The decision highlights the growing regulatory scrutiny of AI technologies, particularly those with potential applications in autonomous vehicles. The delay could impact the development and deployment of AI in the AV industry.",
+      "abstract": "OpenAI has delayed the release of a new AI model following a request from the Trump administration. The decision highlights the growing regulatory scrutiny of AI technologies, particularly those with potential applications in autonomous vehicles. The delay could impact the development and deployment of AI in the AV industry.",
+      "score": 70
+    },
+    {
+      "title": "China's Meituan says new AI model trained on domestic chips",
+      "topic": "China's Meituan says new AI model trained on domestic chips",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUDZFSi1jZ1UxQ0VHOU1jYUtoZlkwWFVZM2duQmxNMlZJSVJ5OW01SFUzSHJYSnRLU3JWM2xWUGVCZEtwb3dkSUFpQUJfbGV5TXNaTE1WalQyaGlYQmNIbWFvOTY0ZmpjMGV4ZDl1RG5MNWp2WTAwN2U2bURNbWh1NWRJYW1GcW5pNTR5bG9LT3htZG9kUHUydWtOWHBadTlqVnU0RE93?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-30T08:45:43Z",
+      "category": "ai",
+      "summary": "China's Meituan has announced a new AI model trained on domestic chips, marking a significant step in the country's efforts to develop homegrown AI capabilities. This development could have implications for the global AI landscape, including the use of AI in autonomous vehicle systems. The model's performance and applications will be closely monitored by the international research community.",
+      "abstract": "China's Meituan has announced a new AI model trained on domestic chips, marking a significant step in the country's efforts to develop homegrown AI capabilities. This development could have implications for the global AI landscape, including the use of AI in autonomous vehicle systems. The model's performance and applications will be closely monitored by the international research community.",
+      "score": 65
     },
     {
       "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
@@ -74,8 +85,8 @@
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables better understanding of scene dynamics and hazard detection. The paper was published on June 23, 2026.",
-      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables better understanding of scene dynamics and hazard detection. The paper was published on June 23, 2026.",
+      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables more accurate and interpretable risk understanding. The paper was published on 2026-06-23.",
+      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables more accurate and interpretable risk understanding. The paper was published on 2026-06-23.",
       "score": 95
     },
     {
@@ -85,8 +96,8 @@
       "source": "IEEE Open Journal of Intelligent Transportation Systems",
       "published": "2026-03-25T13:17:01Z",
       "category": "journal-rss",
-      "summary": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception framework for autonomous driving, which fuses visual and radar streams to improve perception quality. The framework, called LM-SCIP, couples a hierarchical radar-vision encoder with a Channel-Adaptive decoder to handle varying input quality. This approach is relevant for autonomous driving as it enhances robustness to occlusion, adverse weather, and channel noise. The paper was published on July 2, 2026.",
-      "abstract": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception framework for autonomous driving, which fuses visual and radar streams to improve perception quality. The framework, called LM-SCIP, couples a hierarchical radar-vision encoder with a Channel-Adaptive decoder to handle varying input quality. This approach is relevant for autonomous driving as it enhances robustness to occlusion, adverse weather, and channel noise. The paper was published on July 2, 2026.",
+      "summary": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception framework for autonomous driving. This framework combines a hierarchical radar-vision encoder with a Channel-Adaptive module to fuse visual and radar streams, improving robustness to varying input quality. The paper was published on 2026-07-02 and is relevant for autonomous driving as it enhances the fusion of multimodal data. The proposed framework achieves better performance in handling real-world challenges such as occlusion and adverse weather.",
+      "abstract": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception framework for autonomous driving. This framework combines a hierarchical radar-vision encoder with a Channel-Adaptive module to fuse visual and radar streams, improving robustness to varying input quality. The paper was published on 2026-07-02 and is relevant for autonomous driving as it enhances the fusion of multimodal data. The proposed framework achieves better performance in handling real-world challenges such as occlusion and adverse weather.",
       "score": 92
     },
     {
@@ -96,8 +107,8 @@
       "source": "arXiv",
       "published": "2026-07-02T06:44:02Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about hidden agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence to rank occluded agents based on their impact on the ego vehicle's plan and employs an expert Vision-Language Model to predict the behavior of these agents. This approach is relevant for autonomous driving as it enables safer navigation in complex environments. The paper was published on July 1, 2026.",
-      "abstract": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about hidden agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence to rank occluded agents based on their impact on the ego vehicle's plan and employs an expert Vision-Language Model to predict the behavior of these agents. This approach is relevant for autonomous driving as it enables safer navigation in complex environments. The paper was published on July 1, 2026.",
+      "summary": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about hidden agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. The paper was published on 2026-07-01 and is relevant for autonomous driving as it addresses the challenge of handling occlusions in complex environments. The proposed approach enables safer navigation by anticipating the behavior of occluded agents.",
+      "abstract": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about hidden agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. The paper was published on 2026-07-01 and is relevant for autonomous driving as it addresses the challenge of handling occlusions in complex environments. The proposed approach enables safer navigation by anticipating the behavior of occluded agents.",
       "score": 90
     }
   ]
