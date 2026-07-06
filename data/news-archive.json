@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T09:26:04.478971Z",
+  "updated_at": "2026-07-06T11:06:43.851511Z",
   "items": [
     {
       "title": "Tesla Expands Robotaxi Service To Small Section Of Miami",
@@ -66,6 +66,17 @@
       "summary": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. This initiative aims to reduce dependency on foreign AI technologies and enhance local innovation, which could also benefit research in autonomous vehicles.",
       "abstract": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. This initiative aims to reduce dependency on foreign AI technologies and enhance local innovation, which could also benefit research in autonomous vehicles.",
       "score": 70
+    },
+    {
+      "title": "What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models",
+      "topic": "What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models",
+      "url": "https://arxiv.org/abs/2607.00283v1",
+      "source": "arXiv",
+      "published": "2026-07-01T00:14:13Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about occluded agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence (PKL) to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. This framework is relevant for autonomous driving as it enables better understanding of hidden hazards and risks. The paper was published on 2026-07-01.",
+      "abstract": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about occluded agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence (PKL) to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. This framework is relevant for autonomous driving as it enables better understanding of hidden hazards and risks. The paper was published on 2026-07-01.",
+      "score": 95
     },
     {
       "title": "China's Meituan says new AI model trained on domestic chips",
