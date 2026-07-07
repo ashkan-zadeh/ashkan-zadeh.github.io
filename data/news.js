@@ -1,6 +1,94 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-06T11:06:43.848710Z",
+  "generated_at": "2026-07-07T10:02:48.978711Z",
   "items": [
+    {
+      "title": "Tesla Expands Robotaxi Service To Small Section Of Miami",
+      "topic": "Tesla Expands Robotaxi Service To Small Section Of Miami",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0dVWFBHdFBYbnY5U1FtTnNKMzJub085WUQ5MGtEX2ZWLWdoMDJHeTR2dDlkU09COVdvUEwtNGtFVDlQNjFHaGRrR1k0LXpaeE1LN2xGQ2NqWkwyT1ZGM21zNUt6MlFwcG15RkZtZXVWWVhDWUdFVjFNSVFOTXhxaEtSclZxWnQ2dTdDalh5WkV3a25y?oc=5",
+      "source": "Engadget",
+      "published": "2026-07-04T17:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its robotaxi service to a small section of Miami, marking a significant step in the company's efforts to deploy autonomous vehicles in urban areas. The service is currently limited to a specific zone, highlighting the challenges Tesla faces in scaling its operations. This deployment is crucial for testing and refining Tesla's Full Self-Driving (FSD) technology in a real-world setting.",
+      "abstract": "Tesla has expanded its robotaxi service to a small section of Miami, marking a significant step in the company's efforts to deploy autonomous vehicles in urban areas. The service is currently limited to a specific zone, highlighting the challenges Tesla faces in scaling its operations. This deployment is crucial for testing and refining Tesla's Full Self-Driving (FSD) technology in a real-world setting.",
+      "score": 95
+    },
+    {
+      "title": "Tesla rolls out robotaxi service in Miami",
+      "topic": "Tesla rolls out robotaxi service in Miami",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVpPc3UwY3ZUR3huTGF5MWU4YWpKMW1BOXlkTURObnJfaXVjclAtREdhaDk1QnlVd0d5MGV1WG83cXRmd29KRXdXcThIRkhPbnM3RW9jOFhrdEIyb3dFejVNOHU0ckdlTkJtVnpMcU10WldGc3g2RGJOWlNMRjdNZms3R2FnOGk5NU12dUFLNUtmT0dnb1kzWE5SZzZoZ1BqUGNOY2xWNA?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-03T14:59:44Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has officially rolled out its robotaxi service in Miami, focusing on a small designated area. This deployment is part of Tesla's broader strategy to introduce and test its Full Self-Driving (FSD) technology in real-world conditions. The limited scope of the service underscores the ongoing challenges in scaling autonomous vehicle operations.",
+      "abstract": "Tesla has officially rolled out its robotaxi service in Miami, focusing on a small designated area. This deployment is part of Tesla's broader strategy to introduce and test its Full Self-Driving (FSD) technology in real-world conditions. The limited scope of the service underscores the ongoing challenges in scaling autonomous vehicle operations.",
+      "score": 90
+    },
+    {
+      "title": "Tesla maps a tiny Robotaxi zone in Miami while it still can’t scale Texas",
+      "topic": "Tesla maps a tiny Robotaxi zone in Miami while it still can’t scale Texas",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TamR5Rnlyb3UwM01UOEZCLUhDZkk2NG0xcWhEek85N3lSd3gySDgyRm5NRm94cmVfODNZelNXRTNFY0UxMVlGVWhVNENkdFhBNnFZX25CendNWUpmVzBXTGVMbEVpS1daS19zMDJDTnp5RldaY3JrWA?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-03T14:02:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has mapped a small robotaxi zone in Miami, despite facing difficulties in scaling its operations in Texas. The company's Full Self-Driving (FSD) technology is being tested in a limited area, highlighting the challenges in expanding autonomous vehicle services. This deployment is crucial for gathering data and improving the FSD system.",
+      "abstract": "Tesla has mapped a small robotaxi zone in Miami, despite facing difficulties in scaling its operations in Texas. The company's Full Self-Driving (FSD) technology is being tested in a limited area, highlighting the challenges in expanding autonomous vehicle services. This deployment is crucial for gathering data and improving the FSD system.",
+      "score": 85
+    },
+    {
+      "title": "LLM-assisted screening method for large-scale transportation model calibration",
+      "topic": "LLM-assisted screening method for large-scale transportation model calibration",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBta3ktc1FXMU9wSlZwd29lQ1lkOW5oSGtTaXZ2dVE3djQyUTFSQUd5Vm9ObExpaXhvRmVmakVIX1NxNzVJOVRaNzlSMVA4anpsUXBlOXo2Qm12M1JuNDdj?oc=5",
+      "source": "Nature",
+      "published": "2026-07-02T16:56:49Z",
+      "category": "llm",
+      "summary": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. This method leverages large language models to enhance the accuracy and efficiency of transportation models, which can be crucial for optimizing autonomous vehicle operations and urban planning. The approach demonstrates the potential of LLMs in improving the reliability of transportation systems.",
+      "abstract": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. This method leverages large language models to enhance the accuracy and efficiency of transportation models, which can be crucial for optimizing autonomous vehicle operations and urban planning. The approach demonstrates the potential of LLMs in improving the reliability of transportation systems.",
+      "score": 80
+    },
+    {
+      "title": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "topic": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2FfRDVPcnlmeDlYWGphWlQ5NHBSSkx6NU0xdHNYa1p3a3FmLURFZjhmcHMyYWM3VFpLU0ZvTHNiQk9ncmdMT3YxUFVLWnhoQW1hSUJCdmNHOEZ1RGFSUGdOakVLSTBGTzNvVE04el9UNUFBOUd2OWRLTDMzSWJsMzdqeFJJRG4yNHVSLWJDbTM1bEpRUm03dnRJWkJQR0k?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-29T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is navigating the regulatory landscape to gain approval for its Full Self-Driving (FSD) technology in Europe. The company is working closely with European authorities to meet safety and regulatory standards, which are more stringent than those in the United States. This process is critical for Tesla's global expansion of its autonomous driving capabilities.",
+      "abstract": "Tesla is navigating the regulatory landscape to gain approval for its Full Self-Driving (FSD) technology in Europe. The company is working closely with European authorities to meet safety and regulatory standards, which are more stringent than those in the United States. This process is critical for Tesla's global expansion of its autonomous driving capabilities.",
+      "score": 75
+    },
+    {
+      "title": "New Tesla ‘Full Self-Driving’ class action hilariously cites Electrek",
+      "topic": "New Tesla ‘Full Self-Driving’ class action hilariously cites Electrek",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oVzZuLUw0WWVYWlN0VXRFVmtFNVRLRVlCdXdaVHdnMktET29XbUZvTlUySjB4Q24xM3BVRm5hUVI2Z09CcHlwRHJ3OUk0VE9oZGw1d253OEozR3d6Q1NkN252TnZoLTRHWExsLTMzeEFsS3NKX1dubXhn?oc=5",
+      "source": "Electrek",
+      "published": "2026-06-29T19:08:00Z",
+      "category": "automated-vehicles",
+      "summary": "A new class action lawsuit has been filed against Tesla, citing Electrek's reporting on the company's Full Self-Driving (FSD) technology. The lawsuit alleges that Tesla has misled consumers about the capabilities of FSD, highlighting ongoing concerns about the marketing and performance of autonomous driving systems. This legal action could have significant implications for Tesla's FSD development and deployment.",
+      "abstract": "A new class action lawsuit has been filed against Tesla, citing Electrek's reporting on the company's Full Self-Driving (FSD) technology. The lawsuit alleges that Tesla has misled consumers about the capabilities of FSD, highlighting ongoing concerns about the marketing and performance of autonomous driving systems. This legal action could have significant implications for Tesla's FSD development and deployment.",
+      "score": 70
+    },
+    {
+      "title": "Man charged with manslaughter over Tesla crash originally blamed on car’s self-driving mode",
+      "topic": "Man charged with manslaughter over Tesla crash originally blamed on car’s self-driving mode",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU0pQazdiOC15Vi1Ma1MtYnBpVEVGVkNkZ1A3UjNyS3B1NklYNlJmTnFfZ0JFZS1aNWg5UjZVTU5XTURSNHhMUEJUaU9QZVozWFdMLXVXNkVKRXk3UC0xZUJEOG5oYTc2R043UWJjY2dSbEktYUZmbXEtbEEzR3l3b2k5dmg?oc=5",
+      "source": "The Guardian",
+      "published": "2026-07-03T16:17:00Z",
+      "category": "automated-vehicles",
+      "summary": "A man has been charged with manslaughter in a crash involving a Tesla vehicle, which was initially blamed on the car's self-driving mode. The incident raises questions about the responsibilities of drivers using autonomous features and the safety of current self-driving technologies. This case underscores the need for clear regulations and accountability in the deployment of autonomous vehicles.",
+      "abstract": "A man has been charged with manslaughter in a crash involving a Tesla vehicle, which was initially blamed on the car's self-driving mode. The incident raises questions about the responsibilities of drivers using autonomous features and the safety of current self-driving technologies. This case underscores the need for clear regulations and accountability in the deployment of autonomous vehicles.",
+      "score": 65
+    },
+    {
+      "title": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
+      "topic": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.05180v1",
+      "source": "arXiv",
+      "published": "2026-07-06T14:58:47Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
+      "abstract": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
+      "score": 98
+    },
     {
       "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
       "topic": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
@@ -8,30 +96,19 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables better understanding of risks and hazards. The paper was published on 2026-06-23.",
-      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enables better understanding of risks and hazards. The paper was published on 2026-06-23.",
-      "score": 98
-    },
-    {
-      "title": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
-      "topic": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
-      "url": "https://arxiv.org/abs/2607.01772v1",
-      "source": "arXiv",
-      "published": "2026-07-02T06:44:02Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework for autonomous driving. This framework fuses a local visual stream with a quality-varying external radar stream using a hierarchical radar-vision encoder and a Channel-Adaptive decoder. The LM-SCIP framework is relevant for autonomous driving as it enables robust and adaptive perception in dynamic environments. The paper was published on 2026-07-02.",
-      "abstract": "The arXiv paper 'LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design' proposes a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework for autonomous driving. This framework fuses a local visual stream with a quality-varying external radar stream using a hierarchical radar-vision encoder and a Channel-Adaptive decoder. The LM-SCIP framework is relevant for autonomous driving as it enables robust and adaptive perception in dynamic environments. The paper was published on 2026-07-02.",
+      "summary": "The UniDrive framework, introduced by arXiv researchers on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, preserving fine-grained spatial details and modeling scene dynamics from multi-frame visual input, which is essential for detecting small, distant, or partially occluded hazards, and has the potential to improve the interpretability and safety of autonomous vehicles.",
+      "abstract": "The UniDrive framework, introduced by arXiv researchers on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, preserving fine-grained spatial details and modeling scene dynamics from multi-frame visual input, which is essential for detecting small, distant, or partially occluded hazards, and has the potential to improve the interpretability and safety of autonomous vehicles.",
       "score": 96
     },
     {
-      "title": "What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models",
-      "topic": "What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models",
-      "url": "https://arxiv.org/abs/2607.00283v1",
+      "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
+      "topic": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.04179v1",
       "source": "arXiv",
-      "published": "2026-07-01T00:14:13Z",
+      "published": "2026-07-05T08:51:47Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about occluded agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence (PKL) to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. This framework is relevant for autonomous driving as it enables better understanding of hidden hazards and risks. The paper was published on 2026-07-01.",
-      "abstract": "The arXiv paper 'What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models' proposes a novel framework for identifying and reasoning about occluded agents that are critical to the ego-vehicle's trajectory. The framework uses Planning KL-divergence (PKL) to systematically identify and rank occluded agents based on their impact on the ego vehicle's plan. This framework is relevant for autonomous driving as it enables better understanding of hidden hazards and risks. The paper was published on 2026-07-01.",
+      "summary": "CritiqueDriveVLM, a novel framework proposed by arXiv researchers on July 5, 2026, internalizes reasoning directly into a Vision-Language Model (VLM) for autonomous driving, using Critique-Driven Multi-Turn Reinforcement Learning (RL) guided by a multi-dimensional verifier, which provides granular scalar feedback and a multi-turn penalty, forcing the policy to internalize reasoning and mitigate issues such as reasoning hallucinations and conservative biases, and has the potential to significantly improve the reliability and efficiency of autonomous vehicles.",
+      "abstract": "CritiqueDriveVLM, a novel framework proposed by arXiv researchers on July 5, 2026, internalizes reasoning directly into a Vision-Language Model (VLM) for autonomous driving, using Critique-Driven Multi-Turn Reinforcement Learning (RL) guided by a multi-dimensional verifier, which provides granular scalar feedback and a multi-turn penalty, forcing the policy to internalize reasoning and mitigate issues such as reasoning hallucinations and conservative biases, and has the potential to significantly improve the reliability and efficiency of autonomous vehicles.",
       "score": 95
     }
   ]

@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-06T11:06:43.851511Z",
+  "updated_at": "2026-07-07T10:02:48.981775Z",
   "items": [
+    {
+      "title": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
+      "topic": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.05180v1",
+      "source": "arXiv",
+      "published": "2026-07-06T14:58:47Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
+      "abstract": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
+      "score": 98
+    },
+    {
+      "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
+      "topic": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.04179v1",
+      "source": "arXiv",
+      "published": "2026-07-05T08:51:47Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "CritiqueDriveVLM, a novel framework proposed by arXiv researchers on July 5, 2026, internalizes reasoning directly into a Vision-Language Model (VLM) for autonomous driving, using Critique-Driven Multi-Turn Reinforcement Learning (RL) guided by a multi-dimensional verifier, which provides granular scalar feedback and a multi-turn penalty, forcing the policy to internalize reasoning and mitigate issues such as reasoning hallucinations and conservative biases, and has the potential to significantly improve the reliability and efficiency of autonomous vehicles.",
+      "abstract": "CritiqueDriveVLM, a novel framework proposed by arXiv researchers on July 5, 2026, internalizes reasoning directly into a Vision-Language Model (VLM) for autonomous driving, using Critique-Driven Multi-Turn Reinforcement Learning (RL) guided by a multi-dimensional verifier, which provides granular scalar feedback and a multi-turn penalty, forcing the policy to internalize reasoning and mitigate issues such as reasoning hallucinations and conservative biases, and has the potential to significantly improve the reliability and efficiency of autonomous vehicles.",
+      "score": 95
+    },
     {
       "title": "Tesla Expands Robotaxi Service To Small Section Of Miami",
       "topic": "Tesla Expands Robotaxi Service To Small Section Of Miami",
@@ -22,6 +44,28 @@
       "summary": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
       "abstract": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide advanced computing capabilities for autonomous driving systems. The new platform is equipped with enhanced hardware and software features, enabling it to process complex data and make rapid decisions. The DRIVE platform is a crucial component of NVIDIA's autonomous driving technology, and its latest iteration is expected to play a significant role in the development of autonomous vehicles. The new platform demonstrates NVIDIA's ongoing efforts to advance autonomous driving technology.",
       "score": 88
+    },
+    {
+      "title": "Tesla rolls out robotaxi service in Miami",
+      "topic": "Tesla rolls out robotaxi service in Miami",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVpPc3UwY3ZUR3huTGF5MWU4YWpKMW1BOXlkTURObnJfaXVjclAtREdhaDk1QnlVd0d5MGV1WG83cXRmd29KRXdXcThIRkhPbnM3RW9jOFhrdEIyb3dFejVNOHU0ckdlTkJtVnpMcU10WldGc3g2RGJOWlNMRjdNZms3R2FnOGk5NU12dUFLNUtmT0dnb1kzWE5SZzZoZ1BqUGNOY2xWNA?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-03T14:59:44Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has officially rolled out its robotaxi service in Miami, focusing on a small designated area. This deployment is part of Tesla's broader strategy to introduce and test its Full Self-Driving (FSD) technology in real-world conditions. The limited scope of the service underscores the ongoing challenges in scaling autonomous vehicle operations.",
+      "abstract": "Tesla has officially rolled out its robotaxi service in Miami, focusing on a small designated area. This deployment is part of Tesla's broader strategy to introduce and test its Full Self-Driving (FSD) technology in real-world conditions. The limited scope of the service underscores the ongoing challenges in scaling autonomous vehicle operations.",
+      "score": 90
+    },
+    {
+      "title": "Tesla maps a tiny Robotaxi zone in Miami while it still can’t scale Texas",
+      "topic": "Tesla maps a tiny Robotaxi zone in Miami while it still can’t scale Texas",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TamR5Rnlyb3UwM01UOEZCLUhDZkk2NG0xcWhEek85N3lSd3gySDgyRm5NRm94cmVfODNZelNXRTNFY0UxMVlGVWhVNENkdFhBNnFZX25CendNWUpmVzBXTGVMbEVpS1daS19zMDJDTnp5RldaY3JrWA?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-03T14:02:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has mapped a small robotaxi zone in Miami, despite facing difficulties in scaling its operations in Texas. The company's Full Self-Driving (FSD) technology is being tested in a limited area, highlighting the challenges in expanding autonomous vehicle services. This deployment is crucial for gathering data and improving the FSD system.",
+      "abstract": "Tesla has mapped a small robotaxi zone in Miami, despite facing difficulties in scaling its operations in Texas. The company's Full Self-Driving (FSD) technology is being tested in a limited area, highlighting the challenges in expanding autonomous vehicle services. This deployment is crucial for gathering data and improving the FSD system.",
+      "score": 85
     },
     {
       "title": "LLM-assisted screening method for large-scale transportation model calibration",
