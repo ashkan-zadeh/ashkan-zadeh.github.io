@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-07T10:02:48.981775Z",
+  "updated_at": "2026-07-08T08:46:12.164708Z",
   "items": [
+    {
+      "title": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
+      "topic": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
+      "url": "https://arxiv.org/abs/2607.06039v1",
+      "source": "arXiv",
+      "published": "2026-07-07T09:15:23Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers from arXiv have developed an automated approach for assessing the quality of LLM-generated defeaters, which are potential challenges to safety claims in high-integrity systems such as autonomous vehicle fleets, using natural language processing techniques that combine structural features from assurance case graphs with semantic embeddings and meta-classifiers, as evaluated through expert-assessed defeater annotations, which is critical for ensuring the reliability and trustworthiness of autonomous systems, and has direct relevance to AV research by enhancing the validation of safety claims.",
+      "abstract": "Researchers from arXiv have developed an automated approach for assessing the quality of LLM-generated defeaters, which are potential challenges to safety claims in high-integrity systems such as autonomous vehicle fleets, using natural language processing techniques that combine structural features from assurance case graphs with semantic embeddings and meta-classifiers, as evaluated through expert-assessed defeater annotations, which is critical for ensuring the reliability and trustworthiness of autonomous systems, and has direct relevance to AV research by enhancing the validation of safety claims.",
+      "score": 95
+    },
     {
       "title": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
       "topic": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
