@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-08T08:46:12.164708Z",
+  "updated_at": "2026-07-09T10:04:49.289774Z",
   "items": [
+    {
+      "title": "The robotaxi law that could ban Tesla",
+      "topic": "The robotaxi law that could ban Tesla",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMTFVdXU3RkZSOUNfeGZjeTVJb1pzTVVxMHVXRjZYU1haeXhKQzN2QzliclhpMWgtelk3dzI2VWZBdmNsblNoQmpBeGM2bG1DZkoyalFFdWVaTUdyVzFraV9yX1dKbnk1STMwNmJmOWQxWmNVNjZZNm93ZVZJNXNQMUpabUpnd0dQRGlF?oc=5",
+      "source": "The Verge",
+      "published": "2026-07-08T11:00:16Z",
+      "category": "automated-vehicles",
+      "summary": "A proposed robotaxi law in California could potentially ban Tesla from operating its robotaxi service. The law aims to ensure safety and regulatory compliance for autonomous vehicles. This legislation highlights the ongoing regulatory challenges faced by companies like Tesla as they seek to deploy autonomous vehicles at scale.",
+      "abstract": "A proposed robotaxi law in California could potentially ban Tesla from operating its robotaxi service. The law aims to ensure safety and regulatory compliance for autonomous vehicles. This legislation highlights the ongoing regulatory challenges faced by companies like Tesla as they seek to deploy autonomous vehicles at scale.",
+      "score": 90
+    },
     {
       "title": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
       "topic": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
