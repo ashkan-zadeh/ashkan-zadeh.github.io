@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-09T10:04:49.289774Z",
+  "updated_at": "2026-07-10T09:55:19.185040Z",
   "items": [
+    {
+      "title": "New Jersey Law Would Outlaw Tesla's Camera-Based Robotaxi Tech",
+      "topic": "New Jersey Law Would Outlaw Tesla's Camera-Based Robotaxi Tech",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wQkZFN1N3a3dUdURMdDNYNXFELVBnXzRQZzlRbUsxNElucFg5Qk9tZ3RfZjZNSng3bDBvQWhHLTNhS1lRQW9QRTRzTmlsQjVrQVNxYTM5NEhxLW1zNExlSFctWS1KakJ5cVE2aEh3?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-07-09T20:44:00Z",
+      "category": "automated-vehicles",
+      "summary": "New Jersey lawmakers have introduced a bill that would ban Tesla's camera-only robotaxi technology, citing safety concerns. The legislation specifically targets Tesla's approach, which relies solely on cameras, as opposed to multi-sensor systems used by other companies like Waymo.",
+      "abstract": "New Jersey lawmakers have introduced a bill that would ban Tesla's camera-only robotaxi technology, citing safety concerns. The legislation specifically targets Tesla's approach, which relies solely on cameras, as opposed to multi-sensor systems used by other companies like Waymo.",
+      "score": 85
+    },
+    {
+      "title": "Elon Musk's Stubborn Insistence on Cameras Could Get Tesla's Robotaxis Banned in New Jersey",
+      "topic": "Elon Musk's Stubborn Insistence on Cameras Could Get Tesla's Robotaxis Banned in New Jersey",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUS1fa2stVTYtNmktX2hONE55WmhxZWpidGVibTgxU01SRnRLS09WMUpIQkt0TmdZazAzaXJmZEoyS0gwRE4xbm94dG1sTFU5ekkwTXV6bnZTTWl2WFpCa281d1R3QVIxVGhkaFlRWlJtSnBsTEg5Mk9jTUpyaUlWd1JIY2p1YmdlSXBub2g0Y0UtWVpmb1g1M1FFU0MydVhSNmktSUNfalo5N0J0X191T2JuaWNpc3BreVhoeQ?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-07-09T17:35:32Z",
+      "category": "automated-vehicles",
+      "summary": "Elon Musk's insistence on using camera-only technology for Tesla's robotaxis has led to a proposed ban in New Jersey. The bill, if passed, would prohibit Tesla's vehicles from operating in the state, highlighting the regulatory challenges faced by camera-based autonomous systems.",
+      "abstract": "Elon Musk's insistence on using camera-only technology for Tesla's robotaxis has led to a proposed ban in New Jersey. The bill, if passed, would prohibit Tesla's vehicles from operating in the state, highlighting the regulatory challenges faced by camera-based autonomous systems.",
+      "score": 80
+    },
+    {
+      "title": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
+      "topic": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsRXo5UkR1M3NhODZPbldEN0hVXzFnQmlyamhOc0xHWjM5ZTlLU2Z0MV9wV25Mdlo5c2R3T09RV1dxRzRqUlJQTi1NakJRNEFSSW1fVW1fSUFBWnJKSERYbUh2cXZ3UDFnSGNFTE52RWNOVzNiZm9hNw?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-09T16:45:00Z",
+      "category": "automated-vehicles",
+      "summary": "A new bill in New Jersey aims to ban Tesla's camera-only robotaxis, while allowing other autonomous vehicle operators like Waymo. The legislation targets Tesla's reliance on cameras, which is seen as less safe compared to multi-sensor systems used by competitors.",
+      "abstract": "A new bill in New Jersey aims to ban Tesla's camera-only robotaxis, while allowing other autonomous vehicle operators like Waymo. The legislation targets Tesla's reliance on cameras, which is seen as less safe compared to multi-sensor systems used by competitors.",
+      "score": 85
+    },
+    {
+      "title": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
+      "topic": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRmdTTVpXbHlGaG9HRlR0X294SHdtZjNVQ1pPR2luUlBVSUNXaUZid01QNHVyVTI3V3c5c2hCd3RGOC0tcEtSb0pVT3h1V0xOeXlhUk9CQXRWTlhxbG4zZy01TDJJTHIzWmtiNi1NTkxEUnVTSkc1QzhCOFZTMzZpeDVfSFRMaWpvLTlOMGRCNFVONUlGdHBkY2Nld0N0WURDNGE4?oc=5",
+      "source": "WIRED",
+      "published": "2026-07-09T10:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their vehicles interfering with first responders. The federal agency is concerned about the safety implications and potential delays in emergency response times.",
+      "abstract": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their vehicles interfering with first responders. The federal agency is concerned about the safety implications and potential delays in emergency response times.",
+      "score": 85
+    },
+    {
+      "title": "Post-Training in End-to-End Autonomous Driving",
+      "topic": "Post-Training in End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.08072v1",
+      "source": "arXiv",
+      "published": "2026-07-09T03:00:47Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers on arXiv have proposed a post-training approach for end-to-end autonomous driving models, which aims to address the limitations of traditional machine learning applications in safety-critical and interaction-intensive environments, such as autonomous vehicles, by incorporating enhancements that enable the model to handle occlusions and recover from execution errors, and is relevant for AV research as it has the potential to improve the reliability and safety of autonomous vehicles. The approach is designed to handle the challenges of autonomous driving, including the accumulation of small execution errors and the scarcity of recovery behaviors in training data. With its focus on post-training, this approach has the potential to enhance the performance of autonomous vehicles in real-world scenarios. The proposed approach is evaluated on its ability to handle occlusions and recover from execution errors.",
+      "abstract": "Researchers on arXiv have proposed a post-training approach for end-to-end autonomous driving models, which aims to address the limitations of traditional machine learning applications in safety-critical and interaction-intensive environments, such as autonomous vehicles, by incorporating enhancements that enable the model to handle occlusions and recover from execution errors, and is relevant for AV research as it has the potential to improve the reliability and safety of autonomous vehicles. The approach is designed to handle the challenges of autonomous driving, including the accumulation of small execution errors and the scarcity of recovery behaviors in training data. With its focus on post-training, this approach has the potential to enhance the performance of autonomous vehicles in real-world scenarios. The proposed approach is evaluated on its ability to handle occlusions and recover from execution errors.",
+      "score": 95
+    },
     {
       "title": "The robotaxi law that could ban Tesla",
       "topic": "The robotaxi law that could ban Tesla",
