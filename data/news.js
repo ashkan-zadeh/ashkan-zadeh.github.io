@@ -1,6 +1,28 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-11T08:17:04.533153Z",
+  "generated_at": "2026-07-12T08:34:02.745705Z",
   "items": [
+    {
+      "title": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
+      "topic": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRmdTTVpXbHlGaG9HRlR0X294SHdtZjNVQ1pPR2luUlBVSUNXaUZid01QNHVyVTI3V3c5c2hCd3RGOC0tcEtSb0pVT3h1V0xOeXlhUk9CQXRWTlhxbG4zZy01TDJJTHIzWmtiNi1NTkxEUnVTSkc1QzhCOFZTMzZpeDVfSFRMaWpvLTlOMGRCNFVONUlGdHBkY2Nld0N0WURDNGE4?oc=5",
+      "source": "WIRED",
+      "published": "2026-07-09T10:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their interference with first responders. The federal agency is concerned that self-driving cars are not yielding properly to emergency vehicles, posing a significant safety risk.",
+      "abstract": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their interference with first responders. The federal agency is concerned that self-driving cars are not yielding properly to emergency vehicles, posing a significant safety risk.",
+      "score": 95
+    },
+    {
+      "title": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "topic": "Explainer: Tesla's road towards Full Self-Driving approval in Europe",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2FfRDVPcnlmeDlYWGphWlQ5NHBSSkx6NU0xdHNYa1p3a3FmLURFZjhmcHMyYWM3VFpLU0ZvTHNiQk9ncmdMT3YxUFVLWnhoQW1hSUJCdmNHOEZ1RGFSUGdOakVLSTBGTzNvVE04el9UNUFBOUd2OWRLTDMzSWJsMzdqeFJJRG4yNHVSLWJDbTM1bEpRUm03dnRJWkJQR0k?oc=5",
+      "source": "Reuters",
+      "published": "2026-06-29T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is facing regulatory hurdles in Europe as it seeks approval for its Full Self-Driving (FSD) technology. The company is working to meet stringent safety and performance standards set by European authorities, which differ from those in the United States. Tesla's FSD system is currently in beta testing in the U.S. and has not yet been approved for widespread use in Europe.",
+      "abstract": "Tesla is facing regulatory hurdles in Europe as it seeks approval for its Full Self-Driving (FSD) technology. The company is working to meet stringent safety and performance standards set by European authorities, which differ from those in the United States. Tesla's FSD system is currently in beta testing in the U.S. and has not yet been approved for widespread use in Europe.",
+      "score": 90
+    },
     {
       "title": "New Jersey Law Would Outlaw Tesla's Camera-Based Robotaxi Tech",
       "topic": "New Jersey Law Would Outlaw Tesla's Camera-Based Robotaxi Tech",
@@ -8,9 +30,9 @@ window.NEWS_FEED = {
       "source": "InsideEVs",
       "published": "2026-07-09T20:44:00Z",
       "category": "automated-vehicles",
-      "summary": "New Jersey lawmakers have proposed a bill that would ban Tesla's camera-only robotaxi technology, citing safety concerns. The bill specifically targets Tesla's approach, which relies solely on cameras, unlike other companies like Waymo that use a combination of sensors. This could impact Tesla's plans for deploying robotaxis in the state.",
-      "abstract": "New Jersey lawmakers have proposed a bill that would ban Tesla's camera-only robotaxi technology, citing safety concerns. The bill specifically targets Tesla's approach, which relies solely on cameras, unlike other companies like Waymo that use a combination of sensors. This could impact Tesla's plans for deploying robotaxis in the state.",
-      "score": 85
+      "summary": "New Jersey lawmakers have introduced a bill that would ban Tesla's camera-based robotaxi technology, citing safety concerns. The proposed law would require all autonomous vehicles to use a combination of sensors, including LiDAR, to ensure reliable operation. Tesla's reliance on cameras alone has been a point of contention with regulators.",
+      "abstract": "New Jersey lawmakers have introduced a bill that would ban Tesla's camera-based robotaxi technology, citing safety concerns. The proposed law would require all autonomous vehicles to use a combination of sensors, including LiDAR, to ensure reliable operation. Tesla's reliance on cameras alone has been a point of contention with regulators.",
+      "score": 92
     },
     {
       "title": "Elon Musk's Stubborn Insistence on Cameras Could Get Tesla's Robotaxis Banned in New Jersey",
@@ -19,20 +41,9 @@ window.NEWS_FEED = {
       "source": "Gizmodo",
       "published": "2026-07-09T17:35:32Z",
       "category": "automated-vehicles",
-      "summary": "A new bill in New Jersey aims to ban Tesla's camera-only robotaxi technology, potentially hindering the company's deployment plans. The legislation targets Tesla's reliance on cameras for autonomous driving, which differs from other companies like Waymo that use a multi-sensor approach. This could have significant implications for Tesla's robotaxi operations in the state.",
-      "abstract": "A new bill in New Jersey aims to ban Tesla's camera-only robotaxi technology, potentially hindering the company's deployment plans. The legislation targets Tesla's reliance on cameras for autonomous driving, which differs from other companies like Waymo that use a multi-sensor approach. This could have significant implications for Tesla's robotaxi operations in the state.",
-      "score": 85
-    },
-    {
-      "title": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
-      "topic": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsRXo5UkR1M3NhODZPbldEN0hVXzFnQmlyamhOc0xHWjM5ZTlLU2Z0MV9wV25Mdlo5c2R3T09RV1dxRzRqUlJQTi1NakJRNEFSSW1fVW1fSUFBWnJKSERYbUh2cXZ3UDFnSGNFTE52RWNOVzNiZm9hNw?oc=5",
-      "source": "Electrek",
-      "published": "2026-07-09T16:45:00Z",
-      "category": "automated-vehicles",
-      "summary": "A New Jersey bill proposes to ban Tesla's camera-only robotaxi technology, specifically targeting the company's reliance on cameras for autonomous driving. This contrasts with other companies like Waymo, which use a combination of sensors. The bill could significantly impact Tesla's plans to deploy robotaxis in the state.",
-      "abstract": "A New Jersey bill proposes to ban Tesla's camera-only robotaxi technology, specifically targeting the company's reliance on cameras for autonomous driving. This contrasts with other companies like Waymo, which use a combination of sensors. The bill could significantly impact Tesla's plans to deploy robotaxis in the state.",
-      "score": 85
+      "summary": "Elon Musk's insistence on using camera-based technology for Tesla's robotaxis could lead to a ban in New Jersey. The state is considering legislation that would require autonomous vehicles to use multiple sensor types, including LiDAR, to enhance safety. Tesla's approach, which relies solely on cameras, is seen as insufficient by some regulators.",
+      "abstract": "Elon Musk's insistence on using camera-based technology for Tesla's robotaxis could lead to a ban in New Jersey. The state is considering legislation that would require autonomous vehicles to use multiple sensor types, including LiDAR, to enhance safety. Tesla's approach, which relies solely on cameras, is seen as insufficient by some regulators.",
+      "score": 91
     },
     {
       "title": "LLM-assisted screening method for large-scale transportation model calibration",
@@ -41,20 +52,9 @@ window.NEWS_FEED = {
       "source": "Nature",
       "published": "2026-07-02T16:56:49Z",
       "category": "llm",
-      "summary": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. The method leverages large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in urban areas.",
-      "abstract": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration, published in Nature. The method leverages large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in urban areas.",
-      "score": 75
-    },
-    {
-      "title": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets",
-      "topic": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5",
-      "source": "The Guardian",
-      "published": "2026-07-10T22:33:00Z",
-      "category": "ai",
-      "summary": "Apple has filed a lawsuit against OpenAI, alleging that the artificial intelligence company stole trade secrets. The lawsuit claims that OpenAI misappropriated proprietary information and technology, which could have significant implications for the development and deployment of AI models in the industry.",
-      "abstract": "Apple has filed a lawsuit against OpenAI, alleging that the artificial intelligence company stole trade secrets. The lawsuit claims that OpenAI misappropriated proprietary information and technology, which could have significant implications for the development and deployment of AI models in the industry.",
-      "score": 70
+      "summary": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration. The method, published in Nature, uses large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in urban areas.",
+      "abstract": "Researchers have developed an LLM-assisted screening method for large-scale transportation model calibration. The method, published in Nature, uses large language models to improve the accuracy and efficiency of calibrating transportation models, which is crucial for optimizing traffic flow and reducing congestion in urban areas.",
+      "score": 85
     },
     {
       "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
@@ -63,9 +63,9 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-07-02T07:00:00Z",
       "category": "ai",
-      "summary": "A new, inexpensive Chinese AI model is gaining traction and is reportedly catching up with leading models from Anthropic and OpenAI. The model, developed by a Chinese company, is showing competitive performance in various benchmarks, challenging the dominance of established AI players in the market.",
-      "abstract": "A new, inexpensive Chinese AI model is gaining traction and is reportedly catching up with leading models from Anthropic and OpenAI. The model, developed by a Chinese company, is showing competitive performance in various benchmarks, challenging the dominance of established AI players in the market.",
-      "score": 65
+      "summary": "A new Chinese AI model, developed by a domestic company, is showing competitive performance against leading models from Anthropic and OpenAI. The model, which is more cost-effective, has been trained on a large dataset and is gaining attention for its potential to challenge the dominance of U.S. AI companies in the global market.",
+      "abstract": "A new Chinese AI model, developed by a domestic company, is showing competitive performance against leading models from Anthropic and OpenAI. The model, which is more cost-effective, has been trained on a large dataset and is gaining attention for its potential to challenge the dominance of U.S. AI companies in the global market.",
+      "score": 80
     },
     {
       "title": "China's Meituan says new AI model trained on domestic chips",
@@ -74,31 +74,9 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-06-30T07:00:00Z",
       "category": "ai",
-      "summary": "Meituan, a leading Chinese tech company, has announced the development of a new AI model trained on domestic chips. This move is significant as it demonstrates China's growing capability in developing and deploying advanced AI technologies using locally produced hardware, reducing reliance on foreign suppliers.",
-      "abstract": "Meituan, a leading Chinese tech company, has announced the development of a new AI model trained on domestic chips. This move is significant as it demonstrates China's growing capability in developing and deploying advanced AI technologies using locally produced hardware, reducing reliance on foreign suppliers.",
-      "score": 60
-    },
-    {
-      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
-      "topic": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
-      "url": "https://arxiv.org/abs/2606.24759v1",
-      "source": "arXiv",
-      "published": "2026-06-23T16:17:39Z",
-      "category": "arxiv-explainability-av",
-      "summary": "The UniDrive framework, proposed by researchers, combines a temporal reasoning branch with a high-resolution perception branch to provide interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision in existing methods. This approach preserves fine-grained spatial details from multi-frame visual input and models scene dynamics. The framework is designed to improve the reliability of autonomous vehicles in complex environments. UniDrive's unified visual-language and grounding framework enables more accurate hazard detection and risk assessment.",
-      "abstract": "The UniDrive framework, proposed by researchers, combines a temporal reasoning branch with a high-resolution perception branch to provide interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision in existing methods. This approach preserves fine-grained spatial details from multi-frame visual input and models scene dynamics. The framework is designed to improve the reliability of autonomous vehicles in complex environments. UniDrive's unified visual-language and grounding framework enables more accurate hazard detection and risk assessment.",
-      "score": 95
-    },
-    {
-      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
-      "topic": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2606.22913v1",
-      "source": "arXiv",
-      "published": "2026-06-22T06:53:58Z",
-      "category": "arxiv-explainability-av",
-      "summary": "The IRR-Drive framework, developed by researchers, is an adaptive multimodal reflection framework for autonomous driving that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view representations. This dual-modality reflection space allows for more explicit examination of the future consequences of a generated trajectory, improving the reliability of autonomous vehicles in complex environments. IRR-Drive's approach enables tighter coupling of high-level reasoning with physical constraints, leading to more informed decision-making. The framework's adaptive nature makes it suitable for various driving scenarios.",
-      "abstract": "The IRR-Drive framework, developed by researchers, is an adaptive multimodal reflection framework for autonomous driving that generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view representations. This dual-modality reflection space allows for more explicit examination of the future consequences of a generated trajectory, improving the reliability of autonomous vehicles in complex environments. IRR-Drive's approach enables tighter coupling of high-level reasoning with physical constraints, leading to more informed decision-making. The framework's adaptive nature makes it suitable for various driving scenarios.",
-      "score": 92
+      "summary": "Meituan, a leading Chinese tech company, has announced the development of a new AI model trained entirely on domestic chips. This move is part of China's efforts to reduce reliance on foreign technology and enhance its AI capabilities. The model is expected to be used in various applications, including delivery and logistics.",
+      "abstract": "Meituan, a leading Chinese tech company, has announced the development of a new AI model trained entirely on domestic chips. This move is part of China's efforts to reduce reliance on foreign technology and enhance its AI capabilities. The model is expected to be used in various applications, including delivery and logistics.",
+      "score": 82
     },
     {
       "title": "Post-Training in End-to-End Autonomous Driving",
@@ -107,9 +85,31 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-07-09T03:00:47Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "Researchers have proposed a post-training approach for end-to-end autonomous driving models, addressing the limitations of traditional open-loop imitation of expert demonstrations. The approach focuses on enhancing the reliability of autonomous vehicles in safety-critical and interaction-intensive environments. By incorporating post-training techniques, the model can better handle small execution errors and recovery behaviors, leading to improved safety and driving comfort. The proposed approach has the potential to advance the state-of-the-art in autonomous driving by providing more robust and reliable models. The use of end-to-end models can simplify the development process and improve overall performance.",
-      "abstract": "Researchers have proposed a post-training approach for end-to-end autonomous driving models, addressing the limitations of traditional open-loop imitation of expert demonstrations. The approach focuses on enhancing the reliability of autonomous vehicles in safety-critical and interaction-intensive environments. By incorporating post-training techniques, the model can better handle small execution errors and recovery behaviors, leading to improved safety and driving comfort. The proposed approach has the potential to advance the state-of-the-art in autonomous driving by providing more robust and reliable models. The use of end-to-end models can simplify the development process and improve overall performance.",
+      "summary": "The arXiv paper 'Post-Training in End-to-End Autonomous Driving' discusses the limitations of traditional machine learning applications in autonomous vehicles, which operate in safety-critical and interaction-intensive environments. The paper highlights the need for post-training methods to ensure reliability and safety in autonomous driving. The authors propose a shift toward post-training methods that can handle long-horizon objectives and recovery behaviors. This research is relevant to AV or AI research because it addresses the challenges of ensuring safety and reliability in autonomous vehicles. The paper was published on 2026-07-09.",
+      "abstract": "The arXiv paper 'Post-Training in End-to-End Autonomous Driving' discusses the limitations of traditional machine learning applications in autonomous vehicles, which operate in safety-critical and interaction-intensive environments. The paper highlights the need for post-training methods to ensure reliability and safety in autonomous driving. The authors propose a shift toward post-training methods that can handle long-horizon objectives and recovery behaviors. This research is relevant to AV or AI research because it addresses the challenges of ensuring safety and reliability in autonomous vehicles. The paper was published on 2026-07-09.",
       "score": 90
+    },
+    {
+      "title": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
+      "topic": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
+      "url": "https://arxiv.org/abs/2607.06039v1",
+      "source": "arXiv",
+      "published": "2026-07-07T09:15:23Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving. The framework combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. The authors evaluate the framework using multi-frame visual input and high-resolution perception. This research is relevant to AV or AI research because it addresses the need for interpretable risk understanding in autonomous driving. The paper was published on 2026-06-23. The authors demonstrate the effectiveness of the framework in handling small, distant, or partially occluded hazards.",
+      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving. The framework combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. The authors evaluate the framework using multi-frame visual input and high-resolution perception. This research is relevant to AV or AI research because it addresses the need for interpretable risk understanding in autonomous driving. The paper was published on 2026-06-23. The authors demonstrate the effectiveness of the framework in handling small, distant, or partially occluded hazards.",
+      "score": 95
+    },
+    {
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "topic": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.24759v1",
+      "source": "arXiv",
+      "published": "2026-06-23T16:17:39Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' proposes an adaptive multimodal reflection framework for autonomous driving. The framework generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view representations. The authors evaluate the framework using a dual-modality reflection space and demonstrate its effectiveness in handling complex and dynamic environments. This research is relevant to AV or AI research because it addresses the need for adaptive and interpretable decision-making in autonomous vehicles. The paper was published on 2026-06-22. The authors show that the framework can tightly couple high-level reasoning with physical constraints.",
+      "abstract": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' proposes an adaptive multimodal reflection framework for autonomous driving. The framework generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view representations. The authors evaluate the framework using a dual-modality reflection space and demonstrate its effectiveness in handling complex and dynamic environments. This research is relevant to AV or AI research because it addresses the need for adaptive and interpretable decision-making in autonomous vehicles. The paper was published on 2026-06-22. The authors show that the framework can tightly couple high-level reasoning with physical constraints.",
+      "score": 92
     }
   ]
 };
