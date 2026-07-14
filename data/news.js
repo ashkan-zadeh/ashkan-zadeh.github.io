@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-13T09:49:41.019417Z",
+  "generated_at": "2026-07-14T08:30:08.325181Z",
   "items": [
     {
       "title": "Tesla claims Cybercab driving employees at Giga Texas — in a parking lot",
@@ -8,20 +8,42 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-07-11T20:33:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla employees at Giga Texas are reportedly testing the Cybercab, a robotaxi version of the Cybertruck, in a parking lot. This deployment, while limited, marks a significant step towards the development and potential real-world application of Tesla's autonomous driving technology.",
-      "abstract": "Tesla employees at Giga Texas are reportedly testing the Cybercab, a robotaxi version of the Cybertruck, in a parking lot. This deployment, while limited, marks a significant step towards the development and potential real-world application of Tesla's autonomous driving technology.",
-      "score": 90
+      "summary": "Tesla claims to be deploying its Cybercab, a wheelchair-accessible robotaxi, at its Giga Texas facility. The vehicle is currently being tested in a parking lot, highlighting Tesla's ongoing efforts to expand its autonomous vehicle capabilities and accessibility features.",
+      "abstract": "Tesla claims to be deploying its Cybercab, a wheelchair-accessible robotaxi, at its Giga Texas facility. The vehicle is currently being tested in a parking lot, highlighting Tesla's ongoing efforts to expand its autonomous vehicle capabilities and accessibility features.",
+      "score": 85
     },
     {
-      "title": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
-      "topic": "Self-Driving Cars Are Interfering With First Responders. Feds Aren’t Happy",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRmdTTVpXbHlGaG9HRlR0X294SHdtZjNVQ1pPR2luUlBVSUNXaUZid01QNHVyVTI3V3c5c2hCd3RGOC0tcEtSb0pVT3h1V0xOeXlhUk9CQXRWTlhxbG4zZy01TDJJTHIzWmtiNi1NTkxEUnVTSkc1QzhCOFZTMzZpeDVfSFRMaWpvLTlOMGRCNFVONUlGdHBkY2Nld0N0WURDNGE4?oc=5",
-      "source": "WIRED",
-      "published": "2026-07-09T10:15:00Z",
+      "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "topic": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVmxPQ29oODBzNVprZjNjY0NmVlFDbEtGSDdFWThsQ1lndXEzSFQtT0FxR3pvVVh4MGlvZFFBU2QtS3c1VURvUXRidm5yOV8wNGFPWVpRejhaQ2NHU19wczRPbGxmT2QySmUwYjJfdEp4QkRLV05R?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-13T17:57:00Z",
       "category": "automated-vehicles",
-      "summary": "The U.S. federal government is expressing concern over self-driving cars interfering with first responders, highlighting a critical safety issue. This interference has led to calls for stricter regulations and better communication protocols between autonomous vehicles and emergency services.",
-      "abstract": "The U.S. federal government is expressing concern over self-driving cars interfering with first responders, highlighting a critical safety issue. This interference has led to calls for stricter regulations and better communication protocols between autonomous vehicles and emergency services.",
+      "summary": "Tesla is developing a wheelchair-accessible robotaxi at its Giga Texas facility, emphasizing the company's commitment to expanding its autonomous vehicle offerings. The vehicle is currently in the testing phase, focusing on enhancing accessibility and safety for all users.",
+      "abstract": "Tesla is developing a wheelchair-accessible robotaxi at its Giga Texas facility, emphasizing the company's commitment to expanding its autonomous vehicle offerings. The vehicle is currently in the testing phase, focusing on enhancing accessibility and safety for all users.",
       "score": 85
+    },
+    {
+      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "topic": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYk1lbEhjM1lfemxkc1FBdU1xWnZ2NnNjdjJ4TUVoYmhSYzZKT1pFWVhFSTJTS2lkeERGZjMxZWhhMGpEU1RDb1R3cVZyaF9KSkZEVS16WXh0NFl3dkI3RmdyMThtdHZMd2xrTE9lYnpRZHF1U0N6TU1XVlVONFZVbVRHSC14STdBVl8xY1Z3?oc=5",
+      "source": "WIRED",
+      "published": "2026-07-13T17:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is building a wheelchair-accessible robotaxi at its Giga Texas facility, aiming to enhance accessibility in autonomous transportation. The vehicle is currently in the testing phase, with a focus on safety and usability for all users.",
+      "abstract": "Tesla is building a wheelchair-accessible robotaxi at its Giga Texas facility, aiming to enhance accessibility in autonomous transportation. The vehicle is currently in the testing phase, with a focus on safety and usability for all users.",
+      "score": 85
+    },
+    {
+      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "topic": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2F4eVliLXhFMFdRX2lXQjFzWURuNFNYU18tLVFwbmhmV0FCTy1zeUxzV3hpX2lyOU01OUpBYWxUVjFVdnZQZkhyU1JwXzBFcWZVU2pPWmdRLWxlWDA4UGZmUy1CYmFXV1V4aGJYY3JONk1VSTJIX1RVR2c0TkpnN1Y0VkdQZVlCd3J6V01xVkxWeml4d0Q0YVdZOFpzRWZmNkpGWmEtSy1nNGZQZnc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-13T12:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory approval and market dominance in autonomous vehicle services. The conflict highlights the competitive landscape and regulatory challenges in the AV industry.",
+      "abstract": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory approval and market dominance in autonomous vehicle services. The conflict highlights the competitive landscape and regulatory challenges in the AV industry.",
+      "score": 80
     },
     {
       "title": "New Jersey Law Would Outlaw Tesla's Camera-Based Robotaxi Tech",
@@ -30,9 +52,9 @@ window.NEWS_FEED = {
       "source": "InsideEVs",
       "published": "2026-07-09T20:44:00Z",
       "category": "automated-vehicles",
-      "summary": "New Jersey is considering a law that would ban Tesla's camera-based robotaxi technology, citing safety concerns. This potential ban could significantly impact Tesla's plans for deploying its autonomous vehicles in the state and highlights the ongoing regulatory challenges for AVs.",
-      "abstract": "New Jersey is considering a law that would ban Tesla's camera-based robotaxi technology, citing safety concerns. This potential ban could significantly impact Tesla's plans for deploying its autonomous vehicles in the state and highlights the ongoing regulatory challenges for AVs.",
-      "score": 88
+      "summary": "New Jersey is considering a law that would outlaw Tesla's camera-based robotaxi technology, citing safety concerns. The proposed legislation reflects the ongoing regulatory scrutiny of autonomous vehicle systems and their reliance on specific sensor technologies.",
+      "abstract": "New Jersey is considering a law that would outlaw Tesla's camera-based robotaxi technology, citing safety concerns. The proposed legislation reflects the ongoing regulatory scrutiny of autonomous vehicle systems and their reliance on specific sensor technologies.",
+      "score": 75
     },
     {
       "title": "LLM-assisted screening method for large-scale transportation model calibration",
@@ -41,20 +63,9 @@ window.NEWS_FEED = {
       "source": "Nature",
       "published": "2026-07-02T16:56:49Z",
       "category": "llm",
-      "summary": "A new paper in Nature describes an LLM-assisted method for large-scale transportation model calibration. This approach leverages large language models to improve the accuracy and efficiency of transportation models, which is crucial for optimizing urban traffic management and AV deployment.",
-      "abstract": "A new paper in Nature describes an LLM-assisted method for large-scale transportation model calibration. This approach leverages large language models to improve the accuracy and efficiency of transportation models, which is crucial for optimizing urban traffic management and AV deployment.",
-      "score": 82
-    },
-    {
-      "title": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets",
-      "topic": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5",
-      "source": "The Guardian",
-      "published": "2026-07-10T22:33:00Z",
-      "category": "ai",
-      "summary": "Apple has filed a lawsuit against OpenAI, alleging that the company stole trade secrets. This legal battle could have significant implications for the development and regulation of AI technologies, including those used in autonomous vehicles.",
-      "abstract": "Apple has filed a lawsuit against OpenAI, alleging that the company stole trade secrets. This legal battle could have significant implications for the development and regulation of AI technologies, including those used in autonomous vehicles.",
-      "score": 78
+      "summary": "A new study in Nature presents an LLM-assisted method for large-scale transportation model calibration, improving the accuracy and efficiency of traffic simulations. This breakthrough could enhance the development and deployment of autonomous driving systems by providing more reliable data for AV algorithms.",
+      "abstract": "A new study in Nature presents an LLM-assisted method for large-scale transportation model calibration, improving the accuracy and efficiency of traffic simulations. This breakthrough could enhance the development and deployment of autonomous driving systems by providing more reliable data for AV algorithms.",
+      "score": 70
     },
     {
       "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
@@ -63,31 +74,9 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-07-02T07:00:00Z",
       "category": "ai",
-      "summary": "A new Chinese AI model is reportedly matching the performance of leading models from Anthropic and OpenAI. This development highlights the rapid advancement of AI capabilities in China and could influence the global landscape of AI research and applications, including autonomous driving.",
-      "abstract": "A new Chinese AI model is reportedly matching the performance of leading models from Anthropic and OpenAI. This development highlights the rapid advancement of AI capabilities in China and could influence the global landscape of AI research and applications, including autonomous driving.",
-      "score": 75
-    },
-    {
-      "title": "China's Meituan says new AI model trained on domestic chips",
-      "topic": "China's Meituan says new AI model trained on domestic chips",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUDZFSi1jZ1UxQ0VHOU1jYUtoZlkwWFVZM2duQmxNMlZJSVJ5OW01SFUzSHJYSnRLU3JWM2xWUGVCZEtwb3dkSUFpQUJfbGV5TXNaTE1WalQyaGlYQmNIbWFvOTY0ZmpjMGV4ZDl1RG5MNWp2WTAwN2U2bURNbWh1NWRJYW1GcW5pNTR5bG9LT3htZG9kUHUydWtOWHBadTlqVnU0RE93?oc=5",
-      "source": "Reuters",
-      "published": "2026-06-30T07:00:00Z",
-      "category": "ai",
-      "summary": "Meituan, a Chinese tech giant, has announced a new AI model trained on domestic chips. This achievement underscores China's growing capability in developing and deploying advanced AI technologies, which could have implications for autonomous vehicle research and deployment.",
-      "abstract": "Meituan, a Chinese tech giant, has announced a new AI model trained on domestic chips. This achievement underscores China's growing capability in developing and deploying advanced AI technologies, which could have implications for autonomous vehicle research and deployment.",
-      "score": 73
-    },
-    {
-      "title": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
-      "topic": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",
-      "url": "https://arxiv.org/abs/2607.06039v1",
-      "source": "arXiv",
-      "published": "2026-07-07T09:15:23Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'Automating Quality Assessment with NLP of LLM-Generated Defeaters' presents an automated approach for assessing the quality of defeaters generated by large language models (LLMs) using natural language processing techniques. This approach combines structural features from assurance case graphs with semantic embeddings and meta-classifiers trained on expert-assessed defeater annotations. The method is evaluated through a case study, demonstrating its effectiveness in supporting the assessment of LLM-generated defeaters. This research is relevant to autonomous vehicle fleets and large-scale energy infrastructures, where high-integrity systems rely on structured assurance cases to justify safety claims.",
-      "abstract": "The arXiv paper 'Automating Quality Assessment with NLP of LLM-Generated Defeaters' presents an automated approach for assessing the quality of defeaters generated by large language models (LLMs) using natural language processing techniques. This approach combines structural features from assurance case graphs with semantic embeddings and meta-classifiers trained on expert-assessed defeater annotations. The method is evaluated through a case study, demonstrating its effectiveness in supporting the assessment of LLM-generated defeaters. This research is relevant to autonomous vehicle fleets and large-scale energy infrastructures, where high-integrity systems rely on structured assurance cases to justify safety claims.",
-      "score": 95
+      "summary": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. The model aims to promote transparency and innovation in AI research, potentially benefiting autonomous vehicle development by providing a more accessible and collaborative platform for researchers.",
+      "abstract": "Portugal has launched its first open-source AI model, joining Europe's push for AI sovereignty. The model aims to promote transparency and innovation in AI research, potentially benefiting autonomous vehicle development by providing a more accessible and collaborative platform for researchers.",
+      "score": 65
     },
     {
       "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
@@ -96,20 +85,31 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details from multi-frame visual input. This framework addresses the trade-off between temporal reasoning and spatial precision in existing methods, providing a more comprehensive understanding of risks in autonomous driving scenarios. The authors demonstrate the effectiveness of UniDrive in various driving scenarios, highlighting its potential for improving the safety and reliability of autonomous vehicles.",
-      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details from multi-frame visual input. This framework addresses the trade-off between temporal reasoning and spatial precision in existing methods, providing a more comprehensive understanding of risks in autonomous driving scenarios. The authors demonstrate the effectiveness of UniDrive in various driving scenarios, highlighting its potential for improving the safety and reliability of autonomous vehicles.",
-      "score": 98
+      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it provides a more comprehensive understanding of risk, which is crucial for safe navigation. The proposed approach has the potential to improve the safety and efficiency of autonomous vehicles.",
+      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it provides a more comprehensive understanding of risk, which is crucial for safe navigation. The proposed approach has the potential to improve the safety and efficiency of autonomous vehicles.",
+      "score": 95
     },
     {
-      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
-      "topic": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2606.22913v1",
+      "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "topic": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "url": "http://ieeexplore.ieee.org/document/11536902",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-05-27T13:22:24Z",
+      "category": "journal-rss",
+      "summary": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is relevant for human-machine shared driving as it enables the allocation of driving authority between humans and machines. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
+      "abstract": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is relevant for human-machine shared driving as it enables the allocation of driving authority between humans and machines. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
+      "score": 92
+    },
+    {
+      "title": "Large Multimodal Model-Based Environment-Aware Mobility Management",
+      "topic": "Large Multimodal Model-Based Environment-Aware Mobility Management",
+      "url": "https://arxiv.org/abs/2607.09795v1",
       "source": "arXiv",
-      "published": "2026-06-22T06:53:58Z",
-      "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents an adaptive multimodal reflection framework for autonomous driving, called IRR-Drive. This framework generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. IRR-Drive then refines the intention through a dual-modality reflection space, tightly coupling high-level reasoning with physical constraints. The authors evaluate IRR-Drive in various driving scenarios, demonstrating its ability to improve the reliability and interpretability of autonomous driving systems. This research is relevant to the development of more advanced and trustworthy autonomous vehicles.",
-      "abstract": "The arXiv paper 'Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving' presents an adaptive multimodal reflection framework for autonomous driving, called IRR-Drive. This framework generates a preliminary textual intention and anticipates potential interactions by predicting future semantic bird's-eye view (BEV) representations. IRR-Drive then refines the intention through a dual-modality reflection space, tightly coupling high-level reasoning with physical constraints. The authors evaluate IRR-Drive in various driving scenarios, demonstrating its ability to improve the reliability and interpretability of autonomous driving systems. This research is relevant to the development of more advanced and trustworthy autonomous vehicles.",
-      "score": 96
+      "published": "2026-07-09T06:14:14Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'Large Multimodal Model-Based Environment-Aware Mobility Management' proposes an environment-aware mobility management scheme based on large multimodal models, which extend the capabilities of large language models to process multimodal sensing data. The proposed scheme extracts contextual information on the surrounding environment and predicts dynamic user trajectories, making real-time handover decisions across densely deployed small base stations. This approach is relevant for autonomous vehicles as it enables efficient mobility management, which is crucial for safe and efficient navigation. The proposed scheme has the potential to improve the performance of autonomous vehicles in complex environments.",
+      "abstract": "The arXiv paper 'Large Multimodal Model-Based Environment-Aware Mobility Management' proposes an environment-aware mobility management scheme based on large multimodal models, which extend the capabilities of large language models to process multimodal sensing data. The proposed scheme extracts contextual information on the surrounding environment and predicts dynamic user trajectories, making real-time handover decisions across densely deployed small base stations. This approach is relevant for autonomous vehicles as it enables efficient mobility management, which is crucial for safe and efficient navigation. The proposed scheme has the potential to improve the performance of autonomous vehicles in complex environments.",
+      "score": 90
     }
   ]
 };

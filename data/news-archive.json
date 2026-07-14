@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-07-13T09:49:41.022864Z",
+  "updated_at": "2026-07-14T08:30:08.328421Z",
   "items": [
+    {
+      "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "topic": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVmxPQ29oODBzNVprZjNjY0NmVlFDbEtGSDdFWThsQ1lndXEzSFQtT0FxR3pvVVh4MGlvZFFBU2QtS3c1VURvUXRidm5yOV8wNGFPWVpRejhaQ2NHU19wczRPbGxmT2QySmUwYjJfdEp4QkRLV05R?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-13T17:57:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is developing a wheelchair-accessible robotaxi at its Giga Texas facility, emphasizing the company's commitment to expanding its autonomous vehicle offerings. The vehicle is currently in the testing phase, focusing on enhancing accessibility and safety for all users.",
+      "abstract": "Tesla is developing a wheelchair-accessible robotaxi at its Giga Texas facility, emphasizing the company's commitment to expanding its autonomous vehicle offerings. The vehicle is currently in the testing phase, focusing on enhancing accessibility and safety for all users.",
+      "score": 85
+    },
+    {
+      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "topic": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYk1lbEhjM1lfemxkc1FBdU1xWnZ2NnNjdjJ4TUVoYmhSYzZKT1pFWVhFSTJTS2lkeERGZjMxZWhhMGpEU1RDb1R3cVZyaF9KSkZEVS16WXh0NFl3dkI3RmdyMThtdHZMd2xrTE9lYnpRZHF1U0N6TU1XVlVONFZVbVRHSC14STdBVl8xY1Z3?oc=5",
+      "source": "WIRED",
+      "published": "2026-07-13T17:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla is building a wheelchair-accessible robotaxi at its Giga Texas facility, aiming to enhance accessibility in autonomous transportation. The vehicle is currently in the testing phase, with a focus on safety and usability for all users.",
+      "abstract": "Tesla is building a wheelchair-accessible robotaxi at its Giga Texas facility, aiming to enhance accessibility in autonomous transportation. The vehicle is currently in the testing phase, with a focus on safety and usability for all users.",
+      "score": 85
+    },
+    {
+      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "topic": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2F4eVliLXhFMFdRX2lXQjFzWURuNFNYU18tLVFwbmhmV0FCTy1zeUxzV3hpX2lyOU01OUpBYWxUVjFVdnZQZkhyU1JwXzBFcWZVU2pPWmdRLWxlWDA4UGZmUy1CYmFXV1V4aGJYY3JONk1VSTJIX1RVR2c0TkpnN1Y0VkdQZVlCd3J6V01xVkxWeml4d0Q0YVdZOFpzRWZmNkpGWmEtSy1nNGZQZnc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-13T12:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory approval and market dominance in autonomous vehicle services. The conflict highlights the competitive landscape and regulatory challenges in the AV industry.",
+      "abstract": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory approval and market dominance in autonomous vehicle services. The conflict highlights the competitive landscape and regulatory challenges in the AV industry.",
+      "score": 80
+    },
     {
       "title": "Tesla claims Cybercab driving employees at Giga Texas — in a parking lot",
       "topic": "Tesla claims Cybercab driving employees at Giga Texas — in a parking lot",
@@ -66,6 +99,17 @@
       "summary": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their vehicles interfering with first responders. The federal agency is concerned about the safety implications and potential delays in emergency response times.",
       "abstract": "The National Highway Traffic Safety Administration (NHTSA) has issued a warning to autonomous vehicle operators, including Waymo and Cruise, regarding their vehicles interfering with first responders. The federal agency is concerned about the safety implications and potential delays in emergency response times.",
       "score": 85
+    },
+    {
+      "title": "Large Multimodal Model-Based Environment-Aware Mobility Management",
+      "topic": "Large Multimodal Model-Based Environment-Aware Mobility Management",
+      "url": "https://arxiv.org/abs/2607.09795v1",
+      "source": "arXiv",
+      "published": "2026-07-09T06:14:14Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'Large Multimodal Model-Based Environment-Aware Mobility Management' proposes an environment-aware mobility management scheme based on large multimodal models, which extend the capabilities of large language models to process multimodal sensing data. The proposed scheme extracts contextual information on the surrounding environment and predicts dynamic user trajectories, making real-time handover decisions across densely deployed small base stations. This approach is relevant for autonomous vehicles as it enables efficient mobility management, which is crucial for safe and efficient navigation. The proposed scheme has the potential to improve the performance of autonomous vehicles in complex environments.",
+      "abstract": "The arXiv paper 'Large Multimodal Model-Based Environment-Aware Mobility Management' proposes an environment-aware mobility management scheme based on large multimodal models, which extend the capabilities of large language models to process multimodal sensing data. The proposed scheme extracts contextual information on the surrounding environment and predicts dynamic user trajectories, making real-time handover decisions across densely deployed small base stations. This approach is relevant for autonomous vehicles as it enables efficient mobility management, which is crucial for safe and efficient navigation. The proposed scheme has the potential to improve the performance of autonomous vehicles in complex environments.",
+      "score": 90
     },
     {
       "title": "Post-Training in End-to-End Autonomous Driving",
@@ -1023,6 +1067,17 @@
       "summary": "Headline tracked from WIRED as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
+    },
+    {
+      "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "topic": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "url": "http://ieeexplore.ieee.org/document/11536902",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-05-27T13:22:24Z",
+      "category": "journal-rss",
+      "summary": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is relevant for human-machine shared driving as it enables the allocation of driving authority between humans and machines. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
+      "abstract": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is relevant for human-machine shared driving as it enables the allocation of driving authority between humans and machines. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
+      "score": 92
     },
     {
       "title": "Waymo Takes Its Self-Driving Cars to Virginia",
