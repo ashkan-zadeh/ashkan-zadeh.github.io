@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-14T08:30:08.328421Z",
+  "updated_at": "2026-07-15T08:37:36.244842Z",
   "items": [
+    {
+      "title": "Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction",
+      "topic": "Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction",
+      "url": "https://arxiv.org/abs/2607.12293v1",
+      "source": "arXiv",
+      "published": "2026-07-14T03:05:09Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper titled Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction proposes a multimodal framework called ADAPT for predicting pedestrian crossing intention. ADAPT jointly models local and global visual context with temporal motion dynamics, processing four spatially aligned visual modalities and ego-vehicle speed, pedestrian bounding boxes, and skeleton pose information. This framework is relevant for AV research as it improves pedestrian crossing intention prediction, a safety-critical task for autonomous driving. The paper was published on July 14, 2026.",
+      "abstract": "The arXiv paper titled Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction proposes a multimodal framework called ADAPT for predicting pedestrian crossing intention. ADAPT jointly models local and global visual context with temporal motion dynamics, processing four spatially aligned visual modalities and ego-vehicle speed, pedestrian bounding boxes, and skeleton pose information. This framework is relevant for AV research as it improves pedestrian crossing intention prediction, a safety-critical task for autonomous driving. The paper was published on July 14, 2026.",
+      "score": 92
+    },
     {
       "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
       "topic": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
