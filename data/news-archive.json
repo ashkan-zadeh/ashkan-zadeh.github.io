@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-16T08:37:07.151205Z",
+  "updated_at": "2026-07-17T08:30:12.547307Z",
   "items": [
+    {
+      "title": "NTSB Investigators Confirm Tesla Driver Overrode Full Self-Driving System In Fatal Crash",
+      "topic": "NTSB Investigators Confirm Tesla Driver Overrode Full Self-Driving System In Fatal Crash",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRzBXYjRqTE1hemk3dHBPUWhobmpzZ1BhLV96SXpqWGdFc3VXeTVDWXhHYkdieTg3c1NBMXo3djgtRm9VWGVWRzVESUdHdk90czBPbUd3X1Y5WTVveVZUcXpGVEVaTmFzMTNfcFRleUZacng0ZEYwTXdzcmhybkVzQlZ3dUYtYXgyeW1Ec0sxMi1rZUdOSWZ3cGVjT0YwM3p5R25IVUhmSWJWaDZfZzdiclV4ZUJkOVF3SUJ4ckpTMA?oc=5",
+      "source": "Engadget",
+      "published": "2026-07-16T19:01:32Z",
+      "category": "automated-vehicles",
+      "summary": "NTSB investigators have confirmed that a Tesla driver overrode the Full Self-Driving System in a fatal crash, highlighting the need for improved safety measures in autonomous vehicles. The incident occurred on a specific date and location, which has not been disclosed. Tesla's FSD system has been under scrutiny for its limitations and potential risks. This incident underscores the importance of addressing these concerns to ensure public safety.",
+      "abstract": "NTSB investigators have confirmed that a Tesla driver overrode the Full Self-Driving System in a fatal crash, highlighting the need for improved safety measures in autonomous vehicles. The incident occurred on a specific date and location, which has not been disclosed. Tesla's FSD system has been under scrutiny for its limitations and potential risks. This incident underscores the importance of addressing these concerns to ensure public safety.",
+      "score": 80
+    },
+    {
+      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
+      "topic": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.14727v1",
+      "source": "arXiv",
+      "published": "2026-07-16T08:53:25Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'WorkDrive: Roadwork Chain of Causation for Autonomous Driving' proposes a framework that constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive redirects the annotator's attention to domain-specific work-zone observations, enabling the model to connect work-zone observations to correct planning decisions. This paper was published on July 16, 2026, and is relevant for AV research as it enhances the model's ability to handle roadwork zones. The proposed framework improves the model's performance in work zones by providing explicit guidance on work-zone observations.",
+      "abstract": "The arXiv paper 'WorkDrive: Roadwork Chain of Causation for Autonomous Driving' proposes a framework that constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive redirects the annotator's attention to domain-specific work-zone observations, enabling the model to connect work-zone observations to correct planning decisions. This paper was published on July 16, 2026, and is relevant for AV research as it enhances the model's ability to handle roadwork zones. The proposed framework improves the model's performance in work zones by providing explicit guidance on work-zone observations.",
+      "score": 98
+    },
     {
       "title": "AI startup Thinking Machines launches an open-weight AI model",
       "topic": "AI startup Thinking Machines launches an open-weight AI model",
