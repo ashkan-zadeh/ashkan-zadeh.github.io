@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-17T08:30:12.543601Z",
+  "generated_at": "2026-07-18T08:11:29.162637Z",
   "items": [
     {
       "title": "NTSB Investigators Confirm Tesla Driver Overrode Full Self-Driving System In Fatal Crash",
@@ -8,9 +8,9 @@ window.NEWS_FEED = {
       "source": "Engadget",
       "published": "2026-07-16T19:01:32Z",
       "category": "automated-vehicles",
-      "summary": "NTSB investigators have confirmed that a Tesla driver overrode the Full Self-Driving System in a fatal crash, highlighting the need for improved safety measures in autonomous vehicles. The incident occurred on a specific date and location, which has not been disclosed. Tesla's FSD system has been under scrutiny for its limitations and potential risks. This incident underscores the importance of addressing these concerns to ensure public safety.",
-      "abstract": "NTSB investigators have confirmed that a Tesla driver overrode the Full Self-Driving System in a fatal crash, highlighting the need for improved safety measures in autonomous vehicles. The incident occurred on a specific date and location, which has not been disclosed. Tesla's FSD system has been under scrutiny for its limitations and potential risks. This incident underscores the importance of addressing these concerns to ensure public safety.",
-      "score": 80
+      "summary": "NTSB investigators confirmed that the driver of a Tesla Model 3 using the Full Self-Driving (FSD) system overrode the system's controls, leading to a fatal crash. The incident highlights the ongoing safety concerns and the need for robust oversight of autonomous driving systems.",
+      "abstract": "NTSB investigators confirmed that the driver of a Tesla Model 3 using the Full Self-Driving (FSD) system overrode the system's controls, leading to a fatal crash. The incident highlights the ongoing safety concerns and the need for robust oversight of autonomous driving systems.",
+      "score": 95
     },
     {
       "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
@@ -19,19 +19,19 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-07-13T17:57:00Z",
       "category": "automated-vehicles",
-      "summary": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide improved performance and efficiency. The new platform includes advanced computer vision and sensor fusion capabilities, enabling vehicles to better perceive and respond to their environment. This development is significant for the autonomous vehicle industry, as it has the potential to enhance safety and reliability. NVIDIA's DRIVE platform is widely used in the industry, making this update particularly noteworthy.",
-      "abstract": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, which is designed to provide improved performance and efficiency. The new platform includes advanced computer vision and sensor fusion capabilities, enabling vehicles to better perceive and respond to their environment. This development is significant for the autonomous vehicle industry, as it has the potential to enhance safety and reliability. NVIDIA's DRIVE platform is widely used in the industry, making this update particularly noteworthy.",
+      "summary": "Tesla announced it is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of autonomous transportation and cater to a broader range of users.",
+      "abstract": "Tesla announced it is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of autonomous transportation and cater to a broader range of users.",
       "score": 90
     },
     {
-      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
-      "topic": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYk1lbEhjM1lfemxkc1FBdU1xWnZ2NnNjdjJ4TUVoYmhSYzZKT1pFWVhFSTJTS2lkeERGZjMxZWhhMGpEU1RDb1R3cVZyaF9KSkZEVS16WXh0NFl3dkI3RmdyMThtdHZMd2xrTE9lYnpRZHF1U0N6TU1XVlVONFZVbVRHSC14STdBVl8xY1Z3?oc=5",
-      "source": "WIRED",
-      "published": "2026-07-13T17:15:00Z",
+      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "topic": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2F4eVliLXhFMFdRX2lXQjFzWURuNFNYU18tLVFwbmhmV0FCTy1zeUxzV3hpX2lyOU01OUpBYWxUVjFVdnZQZkhyU1JwXzBFcWZVU2pPWmdRLWxlWDA4UGZmUy1CYmFXV1V4aGJYY3JONk1VSTJIX1RVR2c0TkpnN1Y0VkdQZVlCd3J6V01xVkxWeml4d0Q0YVdZOFpzRWZmNkpGWmEtSy1nNGZQZnc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-13T12:30:00Z",
       "category": "automated-vehicles",
-      "summary": "Cruise has expanded its robotaxi service to San Francisco's Financial District, marking a significant milestone in the company's efforts to deploy autonomous vehicles in urban areas. The expansion demonstrates Cruise's ability to operate safely and efficiently in complex environments. This development is relevant to the broader autonomous vehicle industry, as it showcases the potential for robotaxi services to transform urban transportation. Cruise's robotaxi service has been well-received by users, with high ratings and positive feedback.",
-      "abstract": "Cruise has expanded its robotaxi service to San Francisco's Financial District, marking a significant milestone in the company's efforts to deploy autonomous vehicles in urban areas. The expansion demonstrates Cruise's ability to operate safely and efficiently in complex environments. This development is relevant to the broader autonomous vehicle industry, as it showcases the potential for robotaxi services to transform urban transportation. Cruise's robotaxi service has been well-received by users, with high ratings and positive feedback.",
+      "summary": "Uber's robotaxi lobbying efforts are clashing with Waymo, as both companies vie for favorable regulations. The conflict underscores the competitive landscape in the autonomous vehicle industry and the importance of regulatory frameworks.",
+      "abstract": "Uber's robotaxi lobbying efforts are clashing with Waymo, as both companies vie for favorable regulations. The conflict underscores the competitive landscape in the autonomous vehicle industry and the importance of regulatory frameworks.",
       "score": 85
     },
     {
@@ -39,32 +39,10 @@ window.NEWS_FEED = {
       "topic": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsRXo5UkR1M3NhODZPbldEN0hVXzFnQmlyamhOc0xHWjM5ZTlLU2Z0MV9wV25Mdlo5c2R3T09RV1dxRzRqUlJQTi1NakJRNEFSSW1fVW1fSUFBWnJKSERYbUh2cXZ3UDFnSGNFTE52RWNOVzNiZm9hNw?oc=5",
       "source": "Electrek",
-      "published": "2026-07-09T16:45:00Z",
+      "published": "2026-07-09T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Mobileye is set to launch a robotaxi service in Munich, Germany, as part of its efforts to deploy autonomous vehicles in Europe. The service will utilize Mobileye's advanced computer vision and sensor fusion technology to provide safe and efficient transportation. This development is significant for the autonomous vehicle industry, as it marks one of the first deployments of robotaxi services in Europe. Mobileye's technology has been widely adopted in the industry, and this launch is expected to further demonstrate its capabilities.",
-      "abstract": "Mobileye is set to launch a robotaxi service in Munich, Germany, as part of its efforts to deploy autonomous vehicles in Europe. The service will utilize Mobileye's advanced computer vision and sensor fusion technology to provide safe and efficient transportation. This development is significant for the autonomous vehicle industry, as it marks one of the first deployments of robotaxi services in Europe. Mobileye's technology has been widely adopted in the industry, and this launch is expected to further demonstrate its capabilities.",
-      "score": 80
-    },
-    {
-      "title": "The robotaxi law that could ban Tesla",
-      "topic": "The robotaxi law that could ban Tesla",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMTFVdXU3RkZSOUNfeGZjeTVJb1pzTVVxMHVXRjZYU1haeXhKQzN2QzliclhpMWgtelk3dzI2VWZBdmNsblNoQmpBeGM2bG1DZkoyalFFdWVaTUdyVzFraV9yX1dKbnk1STMwNmJmOWQxWmNVNjZZNm93ZVZJNXNQMUpabUpnd0dQRGlF?oc=5",
-      "source": "The Verge",
-      "published": "2026-07-08T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Researchers from the University of California, Berkeley, have developed a new computer vision model that achieves 95% accuracy on the KITTI dataset, a benchmark for object detection and tracking in autonomous vehicles. The model is designed to detect and track objects in real-time, enabling vehicles to better perceive and respond to their environment. This development is relevant to the autonomous vehicle industry, as it has the potential to improve safety and reliability. The researchers' work is significant, as it demonstrates the potential for advanced computer vision models to enhance autonomous vehicle capabilities.",
-      "abstract": "Researchers from the University of California, Berkeley, have developed a new computer vision model that achieves 95% accuracy on the KITTI dataset, a benchmark for object detection and tracking in autonomous vehicles. The model is designed to detect and track objects in real-time, enabling vehicles to better perceive and respond to their environment. This development is relevant to the autonomous vehicle industry, as it has the potential to improve safety and reliability. The researchers' work is significant, as it demonstrates the potential for advanced computer vision models to enhance autonomous vehicle capabilities.",
-      "score": 85
-    },
-    {
-      "title": "Tesla Expands Robotaxi Service To Small Section Of Miami",
-      "topic": "Tesla Expands Robotaxi Service To Small Section Of Miami",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0dVWFBHdFBYbnY5U1FtTnNKMzJub085WUQ5MGtEX2ZWLWdoMDJHeTR2dDlkU09COVdvUEwtNGtFVDlQNjFHaGRrR1k0LXpaeE1LN2xGQ2NqWkwyT1ZGM21zNUt6MlFwcG15RkZtZXVWWVhDWUdFVjFNSVFOTXhxaEtSclZxWnQ2dTdDalh5WkV3a25y?oc=5",
-      "source": "Engadget",
-      "published": "2026-07-04T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has expanded its autonomous trucking service to Texas, marking a significant milestone in the company's efforts to deploy autonomous vehicles in the logistics industry. The expansion demonstrates Waymo's ability to operate safely and efficiently in new environments. This development is relevant to the broader autonomous vehicle industry, as it showcases the potential for autonomous trucking services to transform the logistics sector. Waymo's autonomous trucking service has been well-received by users, with high ratings and positive feedback.",
-      "abstract": "Waymo has expanded its autonomous trucking service to Texas, marking a significant milestone in the company's efforts to deploy autonomous vehicles in the logistics industry. The expansion demonstrates Waymo's ability to operate safely and efficiently in new environments. This development is relevant to the broader autonomous vehicle industry, as it showcases the potential for autonomous trucking services to transform the logistics sector. Waymo's autonomous trucking service has been well-received by users, with high ratings and positive feedback.",
+      "summary": "A new bill proposes to ban Tesla's camera-only robotaxi, while allowing Waymo's sensor-equipped vehicles. The legislation highlights the regulatory challenges and safety concerns surrounding different approaches to autonomous driving technology.",
+      "abstract": "A new bill proposes to ban Tesla's camera-only robotaxi, while allowing Waymo's sensor-equipped vehicles. The legislation highlights the regulatory challenges and safety concerns surrounding different approaches to autonomous driving technology.",
       "score": 80
     },
     {
@@ -74,9 +52,31 @@ window.NEWS_FEED = {
       "source": "OpenAI",
       "published": "2026-07-15T16:37:34Z",
       "category": "ai",
-      "summary": "Tesla has released FSD Beta 10.13, which includes improved navigation and lane changes, as well as enhanced object detection capabilities. The update is designed to provide safer and more efficient autonomous driving experiences for users. This development is significant for the autonomous vehicle industry, as it demonstrates Tesla's ongoing efforts to improve its FSD system. The update is expected to further enhance the capabilities of Tesla's autonomous vehicles, making them more competitive in the market.",
-      "abstract": "Tesla has released FSD Beta 10.13, which includes improved navigation and lane changes, as well as enhanced object detection capabilities. The update is designed to provide safer and more efficient autonomous driving experiences for users. This development is significant for the autonomous vehicle industry, as it demonstrates Tesla's ongoing efforts to improve its FSD system. The update is expected to further enhance the capabilities of Tesla's autonomous vehicles, making them more competitive in the market.",
-      "score": 85
+      "summary": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the responsible development and deployment of AI systems, particularly in critical areas like autonomous vehicles.",
+      "abstract": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the responsible development and deployment of AI systems, particularly in critical areas like autonomous vehicles.",
+      "score": 75
+    },
+    {
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "topic": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5",
+      "source": "BBC",
+      "published": "2026-07-17T16:53:04Z",
+      "category": "ai",
+      "summary": "China's Moonshot AI claims its Kimi K3 model can rival those from OpenAI and Anthropic. The announcement highlights the rapid advancements in AI research and the global competition in developing advanced AI models.",
+      "abstract": "China's Moonshot AI claims its Kimi K3 model can rival those from OpenAI and Anthropic. The announcement highlights the rapid advancements in AI research and the global competition in developing advanced AI models.",
+      "score": 70
+    },
+    {
+      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+      "topic": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-17T02:06:00Z",
+      "category": "ai",
+      "summary": "China's Moonshot unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the significant progress in AI research and the increasing competition between global tech leaders.",
+      "abstract": "China's Moonshot unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the significant progress in AI research and the increasing competition between global tech leaders.",
+      "score": 65
     },
     {
       "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
@@ -85,9 +85,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for AV research as it enhances the interpretability of risk understanding in autonomous driving. The paper was published on June 23, 2026.",
-      "abstract": "The arXiv paper 'UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving' proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for AV research as it enhances the interpretability of risk understanding in autonomous driving. The paper was published on June 23, 2026.",
-      "score": 95
+      "summary": "The arXiv-published UniDrive framework, proposed on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, thereby enhancing interpretable risk understanding. This approach preserves fine-grained spatial details from multi-frame visual inputs. UniDrive's unified visual-language and grounding framework is designed to improve the explainability of autonomous driving decisions. The model's performance has the potential to significantly impact the development of more reliable and trustworthy autonomous vehicles.",
+      "abstract": "The arXiv-published UniDrive framework, proposed on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, thereby enhancing interpretable risk understanding. This approach preserves fine-grained spatial details from multi-frame visual inputs. UniDrive's unified visual-language and grounding framework is designed to improve the explainability of autonomous driving decisions. The model's performance has the potential to significantly impact the development of more reliable and trustworthy autonomous vehicles.",
+      "score": 98
     },
     {
       "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
@@ -96,9 +96,9 @@ window.NEWS_FEED = {
       "source": "IEEE Transactions on Intelligent Transportation Systems",
       "published": "2026-05-27T13:22:24Z",
       "category": "journal-rss",
-      "summary": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The study was published on May 27, 2026, and is relevant for AV research as it improves human-machine shared driving. The proposed approach achieves a game equilibrium selection for human-machine shared driving authority allocation.",
-      "abstract": "The IEEE Transactions on Intelligent Transportation Systems paper 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' presents a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The study was published on May 27, 2026, and is relevant for AV research as it improves human-machine shared driving. The proposed approach achieves a game equilibrium selection for human-machine shared driving authority allocation.",
-      "score": 92
+      "summary": "Researchers from the IEEE Transactions on Intelligent Transportation Systems journal proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation, published on May 27, 2026. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which has implications for the development of more effective human-machine shared driving systems. The study's findings contribute to a better understanding of the complex interactions between human and machine in shared driving scenarios.",
+      "abstract": "Researchers from the IEEE Transactions on Intelligent Transportation Systems journal proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation, published on May 27, 2026. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which has implications for the development of more effective human-machine shared driving systems. The study's findings contribute to a better understanding of the complex interactions between human and machine in shared driving scenarios.",
+      "score": 95
     },
     {
       "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
@@ -107,9 +107,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-07-16T08:53:25Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'WorkDrive: Roadwork Chain of Causation for Autonomous Driving' proposes a framework that constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive redirects the annotator's attention to domain-specific work-zone observations, enabling the model to connect work-zone observations to correct planning decisions. This paper was published on July 16, 2026, and is relevant for AV research as it enhances the model's ability to handle roadwork zones. The proposed framework improves the model's performance in work zones by providing explicit guidance on work-zone observations.",
-      "abstract": "The arXiv paper 'WorkDrive: Roadwork Chain of Causation for Autonomous Driving' proposes a framework that constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive redirects the annotator's attention to domain-specific work-zone observations, enabling the model to connect work-zone observations to correct planning decisions. This paper was published on July 16, 2026, and is relevant for AV research as it enhances the model's ability to handle roadwork zones. The proposed framework improves the model's performance in work zones by providing explicit guidance on work-zone observations.",
-      "score": 98
+      "summary": "The WorkDrive framework, proposed on July 16, 2026, in the arXiv category, constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive's automated multitask perception pipeline extracts structured scene facts and injects them into a Chain-of-Causation annotation pipeline, redirecting the annotator's attention to domain-specific details. This approach has the potential to improve the safety and efficiency of autonomous vehicles in roadwork zones. The framework's ability to explicitly guide the annotator's attention to relevant details can lead to more accurate and reliable decision-making in complex driving scenarios.",
+      "abstract": "The WorkDrive framework, proposed on July 16, 2026, in the arXiv category, constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive's automated multitask perception pipeline extracts structured scene facts and injects them into a Chain-of-Causation annotation pipeline, redirecting the annotator's attention to domain-specific details. This approach has the potential to improve the safety and efficiency of autonomous vehicles in roadwork zones. The framework's ability to explicitly guide the annotator's attention to relevant details can lead to more accurate and reliable decision-making in complex driving scenarios.",
+      "score": 96
     }
   ]
 };
