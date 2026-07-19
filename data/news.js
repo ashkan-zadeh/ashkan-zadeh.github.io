@@ -1,6 +1,17 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-18T08:11:29.162637Z",
+  "generated_at": "2026-07-19T08:35:42.557720Z",
   "items": [
+    {
+      "title": "Zoox recalls self-driving cars because they may not detect smoke",
+      "topic": "Zoox recalls self-driving cars because they may not detect smoke",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0xycFYzWjNSc1J6Vlg5RWViLXFGR0VYem5HYWphVnVURmtUWDZ4MVcyMDVKaFkzNndzWlhYTmczMHBIU1JqX0hralMwTl9PRURGcDJjbzBfSDFnM0IyaHotUWk4SWdGYTZGT2d4T1pEMmhja3A2NkpNRnhsRE05aXoxdnJMc0E4aml4dkk3VUdYNHctcDJKVFEtWUpIU3RmSzYtRW9ObGh3UQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-17T16:50:39Z",
+      "category": "automated-vehicles",
+      "summary": "Zoox has recalled its self-driving cars due to a potential issue where the vehicles may fail to detect smoke. The recall affects all Zoox vehicles currently in operation, highlighting a critical safety concern in the deployment of autonomous vehicles.",
+      "abstract": "Zoox has recalled its self-driving cars due to a potential issue where the vehicles may fail to detect smoke. The recall affects all Zoox vehicles currently in operation, highlighting a critical safety concern in the deployment of autonomous vehicles.",
+      "score": 95
+    },
     {
       "title": "NTSB Investigators Confirm Tesla Driver Overrode Full Self-Driving System In Fatal Crash",
       "topic": "NTSB Investigators Confirm Tesla Driver Overrode Full Self-Driving System In Fatal Crash",
@@ -8,9 +19,9 @@ window.NEWS_FEED = {
       "source": "Engadget",
       "published": "2026-07-16T19:01:32Z",
       "category": "automated-vehicles",
-      "summary": "NTSB investigators confirmed that the driver of a Tesla Model 3 using the Full Self-Driving (FSD) system overrode the system's controls, leading to a fatal crash. The incident highlights the ongoing safety concerns and the need for robust oversight of autonomous driving systems.",
-      "abstract": "NTSB investigators confirmed that the driver of a Tesla Model 3 using the Full Self-Driving (FSD) system overrode the system's controls, leading to a fatal crash. The incident highlights the ongoing safety concerns and the need for robust oversight of autonomous driving systems.",
-      "score": 95
+      "summary": "The National Transportation Safety Board (NTSB) confirmed that the driver of a Tesla vehicle overrode the Full Self-Driving (FSD) system in a fatal crash. This incident raises questions about the reliability and oversight of Tesla's FSD technology.",
+      "abstract": "The National Transportation Safety Board (NTSB) confirmed that the driver of a Tesla vehicle overrode the Full Self-Driving (FSD) system in a fatal crash. This incident raises questions about the reliability and oversight of Tesla's FSD technology.",
+      "score": 90
     },
     {
       "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
@@ -19,9 +30,9 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-07-13T17:57:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla announced it is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of autonomous transportation and cater to a broader range of users.",
-      "abstract": "Tesla announced it is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of autonomous transportation and cater to a broader range of users.",
-      "score": 90
+      "summary": "Tesla is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of Tesla's autonomous vehicle services, addressing a critical need in the transportation industry.",
+      "abstract": "Tesla is building a wheelchair-accessible robotaxi in Texas, expanding its fleet to include more accessible vehicles. This move aims to enhance the inclusivity of Tesla's autonomous vehicle services, addressing a critical need in the transportation industry.",
+      "score": 85
     },
     {
       "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
@@ -30,9 +41,9 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-07-13T12:30:00Z",
       "category": "automated-vehicles",
-      "summary": "Uber's robotaxi lobbying efforts are clashing with Waymo, as both companies vie for favorable regulations. The conflict underscores the competitive landscape in the autonomous vehicle industry and the importance of regulatory frameworks.",
-      "abstract": "Uber's robotaxi lobbying efforts are clashing with Waymo, as both companies vie for favorable regulations. The conflict underscores the competitive landscape in the autonomous vehicle industry and the importance of regulatory frameworks.",
-      "score": 85
+      "summary": "Uber is intensifying its lobbying efforts to promote its robotaxi services, putting it on a collision course with Waymo. The competition highlights the regulatory and operational challenges in deploying autonomous vehicles at scale.",
+      "abstract": "Uber is intensifying its lobbying efforts to promote its robotaxi services, putting it on a collision course with Waymo. The competition highlights the regulatory and operational challenges in deploying autonomous vehicles at scale.",
+      "score": 80
     },
     {
       "title": "New bill would ban Tesla’s camera-only Robotaxi, not Waymo",
@@ -41,9 +52,9 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-07-09T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "A new bill proposes to ban Tesla's camera-only robotaxi, while allowing Waymo's sensor-equipped vehicles. The legislation highlights the regulatory challenges and safety concerns surrounding different approaches to autonomous driving technology.",
-      "abstract": "A new bill proposes to ban Tesla's camera-only robotaxi, while allowing Waymo's sensor-equipped vehicles. The legislation highlights the regulatory challenges and safety concerns surrounding different approaches to autonomous driving technology.",
-      "score": 80
+      "summary": "A new bill proposes to ban Tesla's camera-only Robotaxi, while allowing Waymo's sensor-equipped vehicles. This legislation reflects the ongoing debate over the safety and regulatory standards for autonomous vehicles.",
+      "abstract": "A new bill proposes to ban Tesla's camera-only Robotaxi, while allowing Waymo's sensor-equipped vehicles. This legislation reflects the ongoing debate over the safety and regulatory standards for autonomous vehicles.",
+      "score": 75
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
@@ -52,19 +63,8 @@ window.NEWS_FEED = {
       "source": "OpenAI",
       "published": "2026-07-15T16:37:34Z",
       "category": "ai",
-      "summary": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the responsible development and deployment of AI systems, particularly in critical areas like autonomous vehicles.",
-      "abstract": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the responsible development and deployment of AI systems, particularly in critical areas like autonomous vehicles.",
-      "score": 75
-    },
-    {
-      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
-      "topic": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5",
-      "source": "BBC",
-      "published": "2026-07-17T16:53:04Z",
-      "category": "ai",
-      "summary": "China's Moonshot AI claims its Kimi K3 model can rival those from OpenAI and Anthropic. The announcement highlights the rapid advancements in AI research and the global competition in developing advanced AI models.",
-      "abstract": "China's Moonshot AI claims its Kimi K3 model can rival those from OpenAI and Anthropic. The announcement highlights the rapid advancements in AI research and the global competition in developing advanced AI models.",
+      "summary": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the safe and ethical development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
+      "abstract": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the safe and ethical development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
       "score": 70
     },
     {
@@ -72,10 +72,10 @@ window.NEWS_FEED = {
       "topic": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
       "source": "Reuters",
-      "published": "2026-07-17T02:06:00Z",
+      "published": "2026-07-17T09:20:36Z",
       "category": "ai",
-      "summary": "China's Moonshot unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the significant progress in AI research and the increasing competition between global tech leaders.",
-      "abstract": "China's Moonshot unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the significant progress in AI research and the increasing competition between global tech leaders.",
+      "summary": "China's Moonshot has unveiled the world's largest open AI model, Kimi K3, which claims to rival OpenAI and Anthropic. This development underscores the rapid advancements in AI research and the global competition in developing advanced AI models.",
+      "abstract": "China's Moonshot has unveiled the world's largest open AI model, Kimi K3, which claims to rival OpenAI and Anthropic. This development underscores the rapid advancements in AI research and the global competition in developing advanced AI models.",
       "score": 65
     },
     {
@@ -85,19 +85,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-06-23T16:17:39Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv-published UniDrive framework, proposed on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, thereby enhancing interpretable risk understanding. This approach preserves fine-grained spatial details from multi-frame visual inputs. UniDrive's unified visual-language and grounding framework is designed to improve the explainability of autonomous driving decisions. The model's performance has the potential to significantly impact the development of more reliable and trustworthy autonomous vehicles.",
-      "abstract": "The arXiv-published UniDrive framework, proposed on June 23, 2026, addresses the trade-off between temporal reasoning and spatial precision in autonomous driving scene understanding by combining a temporal reasoning branch with a high-resolution perception branch, thereby enhancing interpretable risk understanding. This approach preserves fine-grained spatial details from multi-frame visual inputs. UniDrive's unified visual-language and grounding framework is designed to improve the explainability of autonomous driving decisions. The model's performance has the potential to significantly impact the development of more reliable and trustworthy autonomous vehicles.",
-      "score": 98
-    },
-    {
-      "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
-      "topic": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
-      "url": "http://ieeexplore.ieee.org/document/11536902",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-05-27T13:22:24Z",
-      "category": "journal-rss",
-      "summary": "Researchers from the IEEE Transactions on Intelligent Transportation Systems journal proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation, published on May 27, 2026. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which has implications for the development of more effective human-machine shared driving systems. The study's findings contribute to a better understanding of the complex interactions between human and machine in shared driving scenarios.",
-      "abstract": "Researchers from the IEEE Transactions on Intelligent Transportation Systems journal proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation, published on May 27, 2026. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which has implications for the development of more effective human-machine shared driving systems. The study's findings contribute to a better understanding of the complex interactions between human and machine in shared driving scenarios.",
+      "summary": "The arXiv paper UniDrive, published on June 23, 2026, proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enhances the model's ability to understand and interpret complex scenes. The proposed method has the potential to improve the safety and reliability of autonomous vehicles.",
+      "abstract": "The arXiv paper UniDrive, published on June 23, 2026, proposes a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving, addressing the trade-off between temporal reasoning and spatial precision. UniDrive combines a temporal reasoning branch with a high-resolution perception branch to preserve fine-grained spatial details. This framework is relevant for autonomous driving as it enhances the model's ability to understand and interpret complex scenes. The proposed method has the potential to improve the safety and reliability of autonomous vehicles.",
       "score": 95
     },
     {
@@ -107,9 +96,20 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-07-16T08:53:25Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The WorkDrive framework, proposed on July 16, 2026, in the arXiv category, constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive's automated multitask perception pipeline extracts structured scene facts and injects them into a Chain-of-Causation annotation pipeline, redirecting the annotator's attention to domain-specific details. This approach has the potential to improve the safety and efficiency of autonomous vehicles in roadwork zones. The framework's ability to explicitly guide the annotator's attention to relevant details can lead to more accurate and reliable decision-making in complex driving scenarios.",
-      "abstract": "The WorkDrive framework, proposed on July 16, 2026, in the arXiv category, constructs perception-grounded causal reasoning for work zones and aligns it with trajectory prediction. WorkDrive's automated multitask perception pipeline extracts structured scene facts and injects them into a Chain-of-Causation annotation pipeline, redirecting the annotator's attention to domain-specific details. This approach has the potential to improve the safety and efficiency of autonomous vehicles in roadwork zones. The framework's ability to explicitly guide the annotator's attention to relevant details can lead to more accurate and reliable decision-making in complex driving scenarios.",
-      "score": 96
+      "summary": "The arXiv paper WorkDrive, published on July 16, 2026, introduces a framework that constructs perception-grounded causal reasoning for work zones in autonomous driving, aligning it with trajectory prediction. WorkDrive uses an automated multitask perception pipeline to extract structured scene facts and inject them into a Chain-of-Causation annotation pipeline. This approach is significant for autonomous driving as it enables the model to better understand and navigate complex work zones. The proposed framework has the potential to improve the safety and efficiency of autonomous vehicles in construction zones.",
+      "abstract": "The arXiv paper WorkDrive, published on July 16, 2026, introduces a framework that constructs perception-grounded causal reasoning for work zones in autonomous driving, aligning it with trajectory prediction. WorkDrive uses an automated multitask perception pipeline to extract structured scene facts and inject them into a Chain-of-Causation annotation pipeline. This approach is significant for autonomous driving as it enables the model to better understand and navigate complex work zones. The proposed framework has the potential to improve the safety and efficiency of autonomous vehicles in construction zones.",
+      "score": 92
+    },
+    {
+      "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
+      "topic": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26003074?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-07-19T08:34:39.499560Z",
+      "category": "journal-rss",
+      "summary": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
+      "abstract": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
+      "score": 90
     }
   ]
 };
