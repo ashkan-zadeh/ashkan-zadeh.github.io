@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T08:35:42.561788Z",
+  "updated_at": "2026-07-20T09:35:48.035179Z",
   "items": [
     {
       "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
@@ -10,6 +10,17 @@
       "category": "journal-rss",
       "summary": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
       "abstract": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
+      "score": 90
+    },
+    {
+      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
+      "topic": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
+      "url": "https://arxiv.org/abs/2607.16181v1",
+      "source": "arXiv",
+      "published": "2026-07-17T17:57:27Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv study introduces a vision-language pipeline, Keep Yelling Assistant (KYA), which detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. KYA uses YOLOv8 variants to detect nearby vehicles and identify risky behaviors such as sudden cut-ins. The framework comprises two core modules, a vision module and a language module, to produce emotional responses tailored to driver preferences. This study matters for AV research as it highlights the importance of considering the emotional dimension and real-world user experience in autonomous driving systems. With KYA, drivers can receive real-time feedback on their driving behaviors, enhancing their awareness and comfort.",
+      "abstract": "The arXiv study introduces a vision-language pipeline, Keep Yelling Assistant (KYA), which detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. KYA uses YOLOv8 variants to detect nearby vehicles and identify risky behaviors such as sudden cut-ins. The framework comprises two core modules, a vision module and a language module, to produce emotional responses tailored to driver preferences. This study matters for AV research as it highlights the importance of considering the emotional dimension and real-world user experience in autonomous driving systems. With KYA, drivers can receive real-time feedback on their driving behaviors, enhancing their awareness and comfort.",
       "score": 90
     },
     {
@@ -33,6 +44,17 @@
       "summary": "Zoox has recalled its self-driving cars due to a potential issue where the vehicles may fail to detect smoke. The recall affects all Zoox vehicles currently in operation, highlighting a critical safety concern in the deployment of autonomous vehicles.",
       "abstract": "Zoox has recalled its self-driving cars due to a potential issue where the vehicles may fail to detect smoke. The recall affects all Zoox vehicles currently in operation, highlighting a critical safety concern in the deployment of autonomous vehicles.",
       "score": 95
+    },
+    {
+      "title": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving",
+      "topic": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving",
+      "url": "https://arxiv.org/abs/2607.15621v1",
+      "source": "arXiv",
+      "published": "2026-07-17T04:40:02Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv study presents a fast-slow architecture for closed-loop driving, which removes the compromise of invoking the model on alternate simulation ticks and replaying the previous command in between. A frozen 7B vision-language backbone acts as the slow system, digesting navigation instructions and visual history at low frequency, while a lightweight action expert acts as the fast system, attending to the cache and the current camera frame at every simulation tick. This architecture is relevant for AV research as it enables more efficient and effective closed-loop driving, allowing for faster and more accurate decision-making. The study's findings can inform the development of more advanced autonomous driving systems.",
+      "abstract": "The arXiv study presents a fast-slow architecture for closed-loop driving, which removes the compromise of invoking the model on alternate simulation ticks and replaying the previous command in between. A frozen 7B vision-language backbone acts as the slow system, digesting navigation instructions and visual history at low frequency, while a lightweight action expert acts as the fast system, attending to the cache and the current camera frame at every simulation tick. This architecture is relevant for AV research as it enables more efficient and effective closed-loop driving, allowing for faster and more accurate decision-making. The study's findings can inform the development of more advanced autonomous driving systems.",
+      "score": 92
     },
     {
       "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
