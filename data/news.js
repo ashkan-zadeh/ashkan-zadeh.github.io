@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-20T09:35:48.031464Z",
+  "generated_at": "2026-07-21T08:48:13.579474Z",
   "items": [
     {
       "title": "Zoox recalls self-driving cars because they may not detect smoke",
@@ -8,9 +8,75 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-07-17T16:50:39Z",
       "category": "automated-vehicles",
-      "summary": "Zoox, a leading autonomous vehicle company, has initiated a recall of its self-driving cars due to a potential issue with smoke detection. The recall highlights the importance of robust sensor systems in autonomous vehicles, as the inability to detect smoke could pose a significant safety risk. This recall affects Zoox's fleet of vehicles, which are designed to operate without human intervention. The recall underscores the need for rigorous testing and validation of autonomous vehicle systems to ensure public safety.",
-      "abstract": "Zoox, a leading autonomous vehicle company, has initiated a recall of its self-driving cars due to a potential issue with smoke detection. The recall highlights the importance of robust sensor systems in autonomous vehicles, as the inability to detect smoke could pose a significant safety risk. This recall affects Zoox's fleet of vehicles, which are designed to operate without human intervention. The recall underscores the need for rigorous testing and validation of autonomous vehicle systems to ensure public safety.",
+      "summary": "Zoox has issued a recall for its self-driving cars due to a potential issue with smoke detection. The recall affects all vehicles in the fleet, and the company is working to address the problem to ensure passenger safety.",
+      "abstract": "Zoox has issued a recall for its self-driving cars due to a potential issue with smoke detection. The recall affects all vehicles in the fleet, and the company is working to address the problem to ensure passenger safety.",
+      "score": 85
+    },
+    {
+      "title": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
+      "topic": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObG5jdnQ3dzZ0emlNYUtEWkxRTC1nYVNJeWQwUlRROF9rOEtnVVV5S3RHZXNKV0piN2hWMDJyWFdybjM3YTZTMU0yX2QtVDVSTFBtMTY2Umg2R2dDeGlhd3EtOUM2a0xQc3BxRWloM0pYS1VENTlPU0NRWTdpMUJkVGp3?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-20T13:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
+      "abstract": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
       "score": 90
+    },
+    {
+      "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "topic": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVmxPQ29oODBzNVprZjNjY0NmVlFDbEtGSDdFWThsQ1lndXEzSFQtT0FxR3pvVVh4MGlvZFFBU2QtS3c1VURvUXRidm5yOV8wNGFPWVpRejhaQ2NHU19wczRPbGxmT2QySmUwYjJfdEp4QkRLV05R?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-13T17:57:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has announced plans to build a wheelchair-accessible robotaxi in Texas. The vehicle is designed to enhance accessibility for disabled passengers, aligning with the company's goal to expand its autonomous ride-hailing service.",
+      "abstract": "Tesla has announced plans to build a wheelchair-accessible robotaxi in Texas. The vehicle is designed to enhance accessibility for disabled passengers, aligning with the company's goal to expand its autonomous ride-hailing service.",
+      "score": 88
+    },
+    {
+      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "topic": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2F4eVliLXhFMFdRX2lXQjFzWURuNFNYU18tLVFwbmhmV0FCTy1zeUxzV3hpX2lyOU01OUpBYWxUVjFVdnZQZkhyU1JwXzBFcWZVU2pPWmdRLWxlWDA4UGZmUy1CYmFXV1V4aGJYY3JONk1VSTJIX1RVR2c0TkpnN1Y0VkdQZVlCd3J6V01xVkxWeml4d0Q0YVdZOFpzRWZmNkpGWmEtSy1nNGZQZnc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-13T12:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory advantages in the autonomous vehicle market. The conflict underscores the competitive landscape and the importance of regulatory support for AV deployments.",
+      "abstract": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory advantages in the autonomous vehicle market. The conflict underscores the competitive landscape and the importance of regulatory support for AV deployments.",
+      "score": 82
+    },
+    {
+      "title": "Head of US AI safety agency resigns",
+      "topic": "Head of US AI safety agency resigns",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMl9UaTNLMHV0QmlCSkNjQXhIb3JZTVBYZHhPTVNZUURJb1UwUnZvazVGNXo2cU9FVmx4VE9UV2ZQZUxpeWFZTFZtOVQxNGJlaHRkWmNoNVByclhUUmNuX1FVczRSTHE2V1d2c2pnZkgzTzNUWkJId083ZUI1OFBTYTVyaw?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-20T22:23:42Z",
+      "category": "ai",
+      "summary": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
+      "abstract": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
+      "score": 78
+    },
+    {
+      "title": "The US is advancing AI safety through state and federal action",
+      "topic": "The US is advancing AI safety through state and federal action",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzRGWVJRZDZ4OU45TlJjQVBUNENyOVZWLUlBNnprS2t1Z2lZX3p5b3hwbUYtZXlORUg1SjMxdmx6OU1mc1hGekw2MWtydkt3SGpLUUVJYVJLeGlqbFV0SEt6bHU5N2Zsc3c4YTU2eXN0S2htN01FczA5cDJRam5OZlduVDA?oc=5",
+      "source": "OpenAI",
+      "published": "2026-07-15T16:37:34Z",
+      "category": "ai",
+      "summary": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These efforts aim to ensure the responsible development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
+      "abstract": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These efforts aim to ensure the responsible development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
+      "score": 80
+    },
+    {
+      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+      "topic": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-17T09:20:36Z",
+      "category": "ai",
+      "summary": "China's Moonshot has unveiled the world's largest open AI model, claiming it can rival those developed by US companies like OpenAI and Anthropic. The model's size and capabilities highlight China's growing influence in the global AI landscape.",
+      "abstract": "China's Moonshot has unveiled the world's largest open AI model, claiming it can rival those developed by US companies like OpenAI and Anthropic. The model's size and capabilities highlight China's growing influence in the global AI landscape.",
+      "score": 85
     },
     {
       "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
@@ -19,8 +85,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-07-17T17:57:27Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv study introduces a vision-language pipeline, Keep Yelling Assistant (KYA), which detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. KYA uses YOLOv8 variants to detect nearby vehicles and identify risky behaviors such as sudden cut-ins. The framework comprises two core modules, a vision module and a language module, to produce emotional responses tailored to driver preferences. This study matters for AV research as it highlights the importance of considering the emotional dimension and real-world user experience in autonomous driving systems. With KYA, drivers can receive real-time feedback on their driving behaviors, enhancing their awareness and comfort.",
-      "abstract": "The arXiv study introduces a vision-language pipeline, Keep Yelling Assistant (KYA), which detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. KYA uses YOLOv8 variants to detect nearby vehicles and identify risky behaviors such as sudden cut-ins. The framework comprises two core modules, a vision module and a language module, to produce emotional responses tailored to driver preferences. This study matters for AV research as it highlights the importance of considering the emotional dimension and real-world user experience in autonomous driving systems. With KYA, drivers can receive real-time feedback on their driving behaviors, enhancing their awareness and comfort.",
+      "summary": "The Keep Yelling Assistant (KYA) system, developed by researchers, detects high-risk driving maneuvers in real time and generates emotional responses to support driver awareness and comfort. KYA uses a vision-language pipeline with a YOLOv8 variant to detect nearby vehicles and identify risky behaviors. The system comprises two core modules: a vision module for detecting vehicles and a language module for producing emotional responses. This approach has the potential to improve driver safety and comfort by providing real-time feedback on risky driving behaviors. The use of a large language model tailored to driver preferences enables the system to generate responses that are relevant and effective.",
+      "abstract": "The Keep Yelling Assistant (KYA) system, developed by researchers, detects high-risk driving maneuvers in real time and generates emotional responses to support driver awareness and comfort. KYA uses a vision-language pipeline with a YOLOv8 variant to detect nearby vehicles and identify risky behaviors. The system comprises two core modules: a vision module for detecting vehicles and a language module for producing emotional responses. This approach has the potential to improve driver safety and comfort by providing real-time feedback on risky driving behaviors. The use of a large language model tailored to driver preferences enables the system to generate responses that are relevant and effective.",
       "score": 90
     },
     {
@@ -30,20 +96,20 @@ window.NEWS_FEED = {
       "source": "IEEE Transactions on Intelligent Transportation Systems",
       "published": "2026-05-27T13:22:24Z",
       "category": "journal-rss",
-      "summary": "The IEEE Transactions on Intelligent Transportation Systems study proposes a large language model (LLM)-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships, respectively. The selection process is based on a comprehensive analysis of human-machine shared driving scenarios, making it relevant for AV research as it provides a framework for allocating authority between humans and machines in shared driving contexts. The study's findings can inform the development of more effective human-machine shared driving systems.",
-      "abstract": "The IEEE Transactions on Intelligent Transportation Systems study proposes a large language model (LLM)-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships, respectively. The selection process is based on a comprehensive analysis of human-machine shared driving scenarios, making it relevant for AV research as it provides a framework for allocating authority between humans and machines in shared driving contexts. The study's findings can inform the development of more effective human-machine shared driving systems.",
+      "summary": "Researchers from IEEE Transactions on Intelligent Transportation Systems have proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. The approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. This study aims to address the gap between theory and reality in human-machine shared driving by providing a more realistic and effective approach to authority allocation. The use of a large language model enables the system to learn from data and improve its decision-making capabilities. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
+      "abstract": "Researchers from IEEE Transactions on Intelligent Transportation Systems have proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. The approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. This study aims to address the gap between theory and reality in human-machine shared driving by providing a more realistic and effective approach to authority allocation. The use of a large language model enables the system to learn from data and improve its decision-making capabilities. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
       "score": 85
     },
     {
-      "title": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving",
-      "topic": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving",
-      "url": "https://arxiv.org/abs/2607.15621v1",
+      "title": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+      "topic": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+      "url": "https://arxiv.org/abs/2607.04610v1",
       "source": "arXiv",
-      "published": "2026-07-17T04:40:02Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv study presents a fast-slow architecture for closed-loop driving, which removes the compromise of invoking the model on alternate simulation ticks and replaying the previous command in between. A frozen 7B vision-language backbone acts as the slow system, digesting navigation instructions and visual history at low frequency, while a lightweight action expert acts as the fast system, attending to the cache and the current camera frame at every simulation tick. This architecture is relevant for AV research as it enables more efficient and effective closed-loop driving, allowing for faster and more accurate decision-making. The study's findings can inform the development of more advanced autonomous driving systems.",
-      "abstract": "The arXiv study presents a fast-slow architecture for closed-loop driving, which removes the compromise of invoking the model on alternate simulation ticks and replaying the previous command in between. A frozen 7B vision-language backbone acts as the slow system, digesting navigation instructions and visual history at low frequency, while a lightweight action expert acts as the fast system, attending to the cache and the current camera frame at every simulation tick. This architecture is relevant for AV research as it enables more efficient and effective closed-loop driving, allowing for faster and more accurate decision-making. The study's findings can inform the development of more advanced autonomous driving systems.",
-      "score": 92
+      "published": "2026-07-06T02:34:56Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
+      "abstract": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
+      "score": 88
     }
   ]
 };

@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-20T09:35:48.035179Z",
+  "updated_at": "2026-07-21T08:48:13.583330Z",
   "items": [
+    {
+      "title": "Head of US AI safety agency resigns",
+      "topic": "Head of US AI safety agency resigns",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMl9UaTNLMHV0QmlCSkNjQXhIb3JZTVBYZHhPTVNZUURJb1UwUnZvazVGNXo2cU9FVmx4VE9UV2ZQZUxpeWFZTFZtOVQxNGJlaHRkWmNoNVByclhUUmNuX1FVczRSTHE2V1d2c2pnZkgzTzNUWkJId083ZUI1OFBTYTVyaw?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-20T22:23:42Z",
+      "category": "ai",
+      "summary": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
+      "abstract": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
+      "score": 78
+    },
+    {
+      "title": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
+      "topic": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObG5jdnQ3dzZ0emlNYUtEWkxRTC1nYVNJeWQwUlRROF9rOEtnVVV5S3RHZXNKV0piN2hWMDJyWFdybjM3YTZTMU0yX2QtVDVSTFBtMTY2Umg2R2dDeGlhd3EtOUM2a0xQc3BxRWloM0pYS1VENTlPU0NRWTdpMUJkVGp3?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-20T13:15:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
+      "abstract": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
+      "score": 90
+    },
     {
       "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
       "topic": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
@@ -297,6 +319,17 @@
       "summary": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
       "abstract": "VLM-CASE, a framework proposed by arXiv researchers, enables anticipatory safe autonomous driving by integrating a vision-language model with a formal safety model, allowing the vehicle to reason about the scene and adjust its motion accordingly, with the model fine-tuned using low-rank adaptation, and tested on front-camera images to report road surface and visibility conditions, which is crucial for handling adverse driving conditions such as bad weather, and has the potential to significantly improve autonomous vehicle safety and reliability.",
       "score": 98
+    },
+    {
+      "title": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+      "topic": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+      "url": "https://arxiv.org/abs/2607.04610v1",
+      "source": "arXiv",
+      "published": "2026-07-06T02:34:56Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
+      "abstract": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
+      "score": 88
     },
     {
       "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
