@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-21T08:48:13.583330Z",
+  "updated_at": "2026-07-22T08:47:09.124483Z",
   "items": [
+    {
+      "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+      "topic": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXB2Q0Q0NDZicGJ4dWZ2ekluaW55MVVtRFVPRnlDNkh1c0p3RWdrc2VtdTJvRERqSFp3bmE5T0s3OGRMTmM0Z0hmZmR0XzdEU1B6MTlyVG9GY09XV3dVRDlXX0xfbmk1ZFN3UkJZMWluYTQ5VmZzLXpCU1dSbTJaQ3VUdGJOZVdzWC0teWV1aURLclBZNXA4a2RoS2l4UlJZMlhfUTVJWHIyWkE?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-21T18:05:10Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
+      "abstract": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
+      "score": 95
+    },
+    {
+      "title": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "topic": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "url": "https://arxiv.org/abs/2607.19194v1",
+      "source": "arXiv",
+      "published": "2026-07-21T15:29:21Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate supervision without costly structured annotation. The approach enables more accurate and interpretable planning for autonomous vehicles. The framework's use of structured scene knowledge and verifiable reasoning-action consistency is particularly relevant for autonomous driving applications.",
+      "abstract": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate supervision without costly structured annotation. The approach enables more accurate and interpretable planning for autonomous vehicles. The framework's use of structured scene knowledge and verifiable reasoning-action consistency is particularly relevant for autonomous driving applications.",
+      "score": 95
+    },
+    {
+      "title": "Tesla adds Robotaxi in Tampa and Orlando as Austin stalls at 17 cars",
+      "topic": "Tesla adds Robotaxi in Tampa and Orlando as Austin stalls at 17 cars",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNelFNUE9fb0FrcTNHN3RyaW1KbE1YOGlZajkwdHNXQnQ5NnRXQVo1MGRhdnhhdk9vcEFTaTk4anE0R2FBWi10MEplNHpuM05VMmh1WG1UOE5YeG9WbUtQQ0cxc1l5aWpOQnAzRnZneTUwc1BWRkhkNVVjdHVVUldBaUdYd3FHanc?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-21T14:39:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has added robotaxi services in Tampa and Orlando, Florida, while the Austin deployment remains limited to 17 cars. The expansion in Florida highlights Tesla's strategic push to scale its autonomous vehicle operations and gather more real-world data to improve its FSD technology. This move is crucial for the company's goal of achieving widespread commercial deployment.",
+      "abstract": "Tesla has added robotaxi services in Tampa and Orlando, Florida, while the Austin deployment remains limited to 17 cars. The expansion in Florida highlights Tesla's strategic push to scale its autonomous vehicle operations and gather more real-world data to improve its FSD technology. This move is crucial for the company's goal of achieving widespread commercial deployment.",
+      "score": 90
+    },
+    {
+      "title": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
+      "topic": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNm5WT01CQVAzZy1RdVpoZUZWVjl5MlNMdklOUlJMV0xpbmJUU1BsYmc1aW56MExIVXJ0TFl3QXpNd3V6NHlDUVVSUzB0bFBuc3NRek1LamZKM2hUeER2bEVzWFNJLUVEdlZzalhpOG93SGVPQ2o0aGF1dWtsNFpiZVlwQmZFcHhxS1p5bFJvaGNUdVN3S0R6RnRQSElyR0Y0OXhrNS1Jb1dBRWNRcWduVkpWTlhQc2VTMWN6SGZvUHN6bVk?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-21T13:39:48Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its robotaxi service to Orlando and Tampa, Florida, ahead of its Q2 earnings announcement. The company is rolling out its autonomous ride-hailing service to new cities to showcase the capabilities of its Full Self-Driving (FSD) technology. This expansion is a significant step towards achieving commercial viability in the robotaxi market.",
+      "abstract": "Tesla has expanded its robotaxi service to Orlando and Tampa, Florida, ahead of its Q2 earnings announcement. The company is rolling out its autonomous ride-hailing service to new cities to showcase the capabilities of its Full Self-Driving (FSD) technology. This expansion is a significant step towards achieving commercial viability in the robotaxi market.",
+      "score": 88
+    },
     {
       "title": "Head of US AI safety agency resigns",
       "topic": "Head of US AI safety agency resigns",
@@ -297,6 +341,17 @@
       "summary": "A proposed robotaxi law in California could potentially ban Tesla from operating its robotaxi service. The law aims to ensure safety and regulatory compliance for autonomous vehicles. This legislation highlights the ongoing regulatory challenges faced by companies like Tesla as they seek to deploy autonomous vehicles at scale.",
       "abstract": "A proposed robotaxi law in California could potentially ban Tesla from operating its robotaxi service. The law aims to ensure safety and regulatory compliance for autonomous vehicles. This legislation highlights the ongoing regulatory challenges faced by companies like Tesla as they seek to deploy autonomous vehicles at scale.",
       "score": 90
+    },
+    {
+      "title": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "topic": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "url": "https://arxiv.org/abs/2607.06328v1",
+      "source": "arXiv",
+      "published": "2026-07-07T14:25:26Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end autonomous driving models. The authors integrate unsupervised dictionary learning as a post hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. The framework allows for targeted interventions at the concept level, enabling the identification and correction of undesired or erroneous behavior in autonomous driving models. The approach has significant implications for the development of more transparent and trustworthy autonomous vehicles.",
+      "abstract": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end autonomous driving models. The authors integrate unsupervised dictionary learning as a post hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. The framework allows for targeted interventions at the concept level, enabling the identification and correction of undesired or erroneous behavior in autonomous driving models. The approach has significant implications for the development of more transparent and trustworthy autonomous vehicles.",
+      "score": 92
     },
     {
       "title": "Automating Quality Assessment with NLP of LLM-Generated Defeaters",

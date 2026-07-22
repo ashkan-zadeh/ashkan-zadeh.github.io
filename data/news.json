@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-07-21T08:48:13.579474Z",
+  "generated_at": "2026-07-22T08:47:09.120396Z",
   "items": [
     {
-      "title": "Zoox recalls self-driving cars because they may not detect smoke",
-      "topic": "Zoox recalls self-driving cars because they may not detect smoke",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0xycFYzWjNSc1J6Vlg5RWViLXFGR0VYem5HYWphVnVURmtUWDZ4MVcyMDVKaFkzNndzWlhYTmczMHBIU1JqX0hralMwTl9PRURGcDJjbzBfSDFnM0IyaHotUWk4SWdGYTZGT2d4T1pEMmhja3A2NkpNRnhsRE05aXoxdnJMc0E4aml4dkk3VUdYNHctcDJKVFEtWUpIU3RmSzYtRW9ObGh3UQ?oc=5",
-      "source": "Reuters",
-      "published": "2026-07-17T16:50:39Z",
+      "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+      "topic": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXB2Q0Q0NDZicGJ4dWZ2ekluaW55MVVtRFVPRnlDNkh1c0p3RWdrc2VtdTJvRERqSFp3bmE5T0s3OGRMTmM0Z0hmZmR0XzdEU1B6MTlyVG9GY09XV3dVRDlXX0xfbmk1ZFN3UkJZMWluYTQ5VmZzLXpCU1dSbTJaQ3VUdGJOZVdzWC0teWV1aURLclBZNXA4a2RoS2l4UlJZMlhfUTVJWHIyWkE?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-21T18:05:10Z",
       "category": "automated-vehicles",
-      "summary": "Zoox has issued a recall for its self-driving cars due to a potential issue with smoke detection. The recall affects all vehicles in the fleet, and the company is working to address the problem to ensure passenger safety.",
-      "abstract": "Zoox has issued a recall for its self-driving cars due to a potential issue with smoke detection. The recall affects all vehicles in the fleet, and the company is working to address the problem to ensure passenger safety.",
-      "score": 85
+      "summary": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
+      "abstract": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
+      "score": 95
+    },
+    {
+      "title": "Tesla adds Robotaxi in Tampa and Orlando as Austin stalls at 17 cars",
+      "topic": "Tesla adds Robotaxi in Tampa and Orlando as Austin stalls at 17 cars",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNelFNUE9fb0FrcTNHN3RyaW1KbE1YOGlZajkwdHNXQnQ5NnRXQVo1MGRhdnhhdk9vcEFTaTk4anE0R2FBWi10MEplNHpuM05VMmh1WG1UOE5YeG9WbUtQQ0cxc1l5aWpOQnAzRnZneTUwc1BWRkhkNVVjdHVVUldBaUdYd3FHanc?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-21T14:39:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has added robotaxi services in Tampa and Orlando, Florida, while the Austin deployment remains limited to 17 cars. The expansion in Florida highlights Tesla's strategic push to scale its autonomous vehicle operations and gather more real-world data to improve its FSD technology. This move is crucial for the company's goal of achieving widespread commercial deployment.",
+      "abstract": "Tesla has added robotaxi services in Tampa and Orlando, Florida, while the Austin deployment remains limited to 17 cars. The expansion in Florida highlights Tesla's strategic push to scale its autonomous vehicle operations and gather more real-world data to improve its FSD technology. This move is crucial for the company's goal of achieving widespread commercial deployment.",
+      "score": 90
+    },
+    {
+      "title": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
+      "topic": "Tesla expands robotaxi service to Orlando, Tampa ahead of earnings",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNm5WT01CQVAzZy1RdVpoZUZWVjl5MlNMdklOUlJMV0xpbmJUU1BsYmc1aW56MExIVXJ0TFl3QXpNd3V6NHlDUVVSUzB0bFBuc3NRek1LamZKM2hUeER2bEVzWFNJLUVEdlZzalhpOG93SGVPQ2o0aGF1dWtsNFpiZVlwQmZFcHhxS1p5bFJvaGNUdVN3S0R6RnRQSElyR0Y0OXhrNS1Jb1dBRWNRcWduVkpWTlhQc2VTMWN6SGZvUHN6bVk?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-21T13:39:48Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has expanded its robotaxi service to Orlando and Tampa, Florida, ahead of its Q2 earnings announcement. The company is rolling out its autonomous ride-hailing service to new cities to showcase the capabilities of its Full Self-Driving (FSD) technology. This expansion is a significant step towards achieving commercial viability in the robotaxi market.",
+      "abstract": "Tesla has expanded its robotaxi service to Orlando and Tampa, Florida, ahead of its Q2 earnings announcement. The company is rolling out its autonomous ride-hailing service to new cities to showcase the capabilities of its Full Self-Driving (FSD) technology. This expansion is a significant step towards achieving commercial viability in the robotaxi market.",
+      "score": 88
     },
     {
       "title": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
@@ -19,31 +41,9 @@
       "source": "Electrek",
       "published": "2026-07-20T13:15:00Z",
       "category": "automated-vehicles",
-      "summary": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
-      "abstract": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
-      "score": 90
-    },
-    {
-      "title": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
-      "topic": "Tesla says it’s building a wheelchair-accessible robotaxi in Texas",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVmxPQ29oODBzNVprZjNjY0NmVlFDbEtGSDdFWThsQ1lndXEzSFQtT0FxR3pvVVh4MGlvZFFBU2QtS3c1VURvUXRidm5yOV8wNGFPWVpRejhaQ2NHU19wczRPbGxmT2QySmUwYjJfdEp4QkRLV05R?oc=5",
-      "source": "Electrek",
-      "published": "2026-07-13T17:57:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has announced plans to build a wheelchair-accessible robotaxi in Texas. The vehicle is designed to enhance accessibility for disabled passengers, aligning with the company's goal to expand its autonomous ride-hailing service.",
-      "abstract": "Tesla has announced plans to build a wheelchair-accessible robotaxi in Texas. The vehicle is designed to enhance accessibility for disabled passengers, aligning with the company's goal to expand its autonomous ride-hailing service.",
-      "score": 88
-    },
-    {
-      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
-      "topic": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2F4eVliLXhFMFdRX2lXQjFzWURuNFNYU18tLVFwbmhmV0FCTy1zeUxzV3hpX2lyOU01OUpBYWxUVjFVdnZQZkhyU1JwXzBFcWZVU2pPWmdRLWxlWDA4UGZmUy1CYmFXV1V4aGJYY3JONk1VSTJIX1RVR2c0TkpnN1Y0VkdQZVlCd3J6V01xVkxWeml4d0Q0YVdZOFpzRWZmNkpGWmEtSy1nNGZQZnc?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-07-13T12:30:00Z",
-      "category": "automated-vehicles",
-      "summary": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory advantages in the autonomous vehicle market. The conflict underscores the competitive landscape and the importance of regulatory support for AV deployments.",
-      "abstract": "Uber's robotaxi lobbying efforts are creating tensions with Waymo, as both companies vie for regulatory advantages in the autonomous vehicle market. The conflict underscores the competitive landscape and the importance of regulatory support for AV deployments.",
-      "score": 82
+      "summary": "NHTSA data reveals that a Tesla robotaxi in Houston was involved in a crash while being remotely operated. The incident raises concerns about the safety and reliability of remote operation in autonomous vehicles. This event is crucial for understanding the challenges and risks associated with deploying autonomous ride-hailing services.",
+      "abstract": "NHTSA data reveals that a Tesla robotaxi in Houston was involved in a crash while being remotely operated. The incident raises concerns about the safety and reliability of remote operation in autonomous vehicles. This event is crucial for understanding the challenges and risks associated with deploying autonomous ride-hailing services.",
+      "score": 85
     },
     {
       "title": "Head of US AI safety agency resigns",
@@ -52,9 +52,9 @@
       "source": "Reuters",
       "published": "2026-07-20T22:23:42Z",
       "category": "ai",
-      "summary": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
-      "abstract": "The head of the US AI safety agency has resigned, raising concerns about the future of AI regulation and safety oversight. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions.",
-      "score": 78
+      "summary": "The head of the US AI safety agency has resigned, potentially impacting the regulatory landscape for autonomous vehicles and AI systems. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions. This change in leadership could influence the direction and pace of AI safety regulations, particularly for autonomous vehicles.",
+      "abstract": "The head of the US AI safety agency has resigned, potentially impacting the regulatory landscape for autonomous vehicles and AI systems. The resignation comes at a critical time as the US advances AI safety measures through state and federal actions. This change in leadership could influence the direction and pace of AI safety regulations, particularly for autonomous vehicles.",
+      "score": 80
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
@@ -63,9 +63,9 @@
       "source": "OpenAI",
       "published": "2026-07-15T16:37:34Z",
       "category": "ai",
-      "summary": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These efforts aim to ensure the responsible development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
-      "abstract": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These efforts aim to ensure the responsible development and deployment of AI technologies, particularly in critical areas like autonomous vehicles.",
-      "score": 80
+      "summary": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the safe deployment of AI technologies, including autonomous vehicles. The efforts are part of a broader strategy to balance innovation with public safety, addressing concerns about the reliability and ethical use of AI in critical applications.",
+      "abstract": "The US is advancing AI safety through state and federal actions, including new regulations and guidelines. These measures aim to ensure the safe deployment of AI technologies, including autonomous vehicles. The efforts are part of a broader strategy to balance innovation with public safety, addressing concerns about the reliability and ethical use of AI in critical applications.",
+      "score": 78
     },
     {
       "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
@@ -74,42 +74,42 @@
       "source": "Reuters",
       "published": "2026-07-17T09:20:36Z",
       "category": "ai",
-      "summary": "China's Moonshot has unveiled the world's largest open AI model, claiming it can rival those developed by US companies like OpenAI and Anthropic. The model's size and capabilities highlight China's growing influence in the global AI landscape.",
-      "abstract": "China's Moonshot has unveiled the world's largest open AI model, claiming it can rival those developed by US companies like OpenAI and Anthropic. The model's size and capabilities highlight China's growing influence in the global AI landscape.",
-      "score": 85
+      "summary": "China's Moonshot has unveiled the world's largest open AI model, Kimi K3, which claims to rival OpenAI and Anthropic in capabilities. The model, with over 10 trillion parameters, is designed to advance AI research and applications, including potential uses in autonomous driving. This development highlights the global competition in AI and the rapid advancements in large language models.",
+      "abstract": "China's Moonshot has unveiled the world's largest open AI model, Kimi K3, which claims to rival OpenAI and Anthropic in capabilities. The model, with over 10 trillion parameters, is designed to advance AI research and applications, including potential uses in autonomous driving. This development highlights the global competition in AI and the rapid advancements in large language models.",
+      "score": 75
     },
     {
-      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
-      "topic": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
-      "url": "https://arxiv.org/abs/2607.16181v1",
+      "title": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "topic": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "url": "https://arxiv.org/abs/2607.19194v1",
       "source": "arXiv",
-      "published": "2026-07-17T17:57:27Z",
+      "published": "2026-07-21T15:29:21Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The Keep Yelling Assistant (KYA) system, developed by researchers, detects high-risk driving maneuvers in real time and generates emotional responses to support driver awareness and comfort. KYA uses a vision-language pipeline with a YOLOv8 variant to detect nearby vehicles and identify risky behaviors. The system comprises two core modules: a vision module for detecting vehicles and a language module for producing emotional responses. This approach has the potential to improve driver safety and comfort by providing real-time feedback on risky driving behaviors. The use of a large language model tailored to driver preferences enables the system to generate responses that are relevant and effective.",
-      "abstract": "The Keep Yelling Assistant (KYA) system, developed by researchers, detects high-risk driving maneuvers in real time and generates emotional responses to support driver awareness and comfort. KYA uses a vision-language pipeline with a YOLOv8 variant to detect nearby vehicles and identify risky behaviors. The system comprises two core modules: a vision module for detecting vehicles and a language module for producing emotional responses. This approach has the potential to improve driver safety and comfort by providing real-time feedback on risky driving behaviors. The use of a large language model tailored to driver preferences enables the system to generate responses that are relevant and effective.",
+      "summary": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate supervision without costly structured annotation. The approach enables more accurate and interpretable planning for autonomous vehicles. The framework's use of structured scene knowledge and verifiable reasoning-action consistency is particularly relevant for autonomous driving applications.",
+      "abstract": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate supervision without costly structured annotation. The approach enables more accurate and interpretable planning for autonomous vehicles. The framework's use of structured scene knowledge and verifiable reasoning-action consistency is particularly relevant for autonomous driving applications.",
+      "score": 95
+    },
+    {
+      "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
+      "topic": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26003074?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-07-22T08:46:02.085104Z",
+      "category": "journal-rss",
+      "summary": "The Transportation Research Part C: Emerging Technologies journal published a comprehensive survey on 'Large language models for enhancing human-machine interaction in autonomous vehicles', authored by Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen. The survey highlights the potential of large language models to improve human-machine interaction in autonomous vehicles, with a focus on their applications, benefits, and challenges. The authors discuss the current state of research in this area and identify future directions for investigation. The survey is scheduled for publication in October 2026. The use of large language models in autonomous vehicles has significant implications for the development of more intuitive and user-friendly interfaces.",
+      "abstract": "The Transportation Research Part C: Emerging Technologies journal published a comprehensive survey on 'Large language models for enhancing human-machine interaction in autonomous vehicles', authored by Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen. The survey highlights the potential of large language models to improve human-machine interaction in autonomous vehicles, with a focus on their applications, benefits, and challenges. The authors discuss the current state of research in this area and identify future directions for investigation. The survey is scheduled for publication in October 2026. The use of large language models in autonomous vehicles has significant implications for the development of more intuitive and user-friendly interfaces.",
       "score": 90
     },
     {
-      "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
-      "topic": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
-      "url": "http://ieeexplore.ieee.org/document/11536902",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-05-27T13:22:24Z",
-      "category": "journal-rss",
-      "summary": "Researchers from IEEE Transactions on Intelligent Transportation Systems have proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. The approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. This study aims to address the gap between theory and reality in human-machine shared driving by providing a more realistic and effective approach to authority allocation. The use of a large language model enables the system to learn from data and improve its decision-making capabilities. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
-      "abstract": "Researchers from IEEE Transactions on Intelligent Transportation Systems have proposed a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. The approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. This study aims to address the gap between theory and reality in human-machine shared driving by providing a more realistic and effective approach to authority allocation. The use of a large language model enables the system to learn from data and improve its decision-making capabilities. The proposed approach has the potential to improve the safety and efficiency of human-machine shared driving.",
-      "score": 85
-    },
-    {
-      "title": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
-      "topic": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
-      "url": "https://arxiv.org/abs/2607.04610v1",
+      "title": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "topic": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "url": "https://arxiv.org/abs/2607.06328v1",
       "source": "arXiv",
-      "published": "2026-07-06T02:34:56Z",
+      "published": "2026-07-07T14:25:26Z",
       "category": "arxiv-explainability-av",
-      "summary": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
-      "abstract": "The RoboVista framework, proposed by researchers, evaluates vision language models for diverse robot applications, including autonomous driving. The framework provides a modular understanding of the individual decision components that underlie robotic behavior, enabling the alignment of vision-language models with diverse robot applications. RoboVista contains 474 visual question answering samples curated from real robotic systems, research papers, and expert annotations. The framework has the potential to improve the interpretability and generalizability of vision-language models in autonomous driving and other robot applications. The use of a modular evaluation framework enables researchers to identify areas for improvement and develop more effective models.",
-      "score": 88
+      "summary": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end autonomous driving models. The authors integrate unsupervised dictionary learning as a post hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. The framework allows for targeted interventions at the concept level, enabling the identification and correction of undesired or erroneous behavior in autonomous driving models. The approach has significant implications for the development of more transparent and trustworthy autonomous vehicles.",
+      "abstract": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end autonomous driving models. The authors integrate unsupervised dictionary learning as a post hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. The framework allows for targeted interventions at the concept level, enabling the identification and correction of undesired or erroneous behavior in autonomous driving models. The approach has significant implications for the development of more transparent and trustworthy autonomous vehicles.",
+      "score": 92
     }
   ]
 }
