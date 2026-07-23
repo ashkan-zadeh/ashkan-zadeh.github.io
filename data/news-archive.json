@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-22T08:47:09.124483Z",
+  "updated_at": "2026-07-23T08:46:40.347417Z",
   "items": [
+    {
+      "title": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
+      "topic": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnpEYlBvOGkyczMzRWQ0SnkzOGlldld3WXNCazROUkthNTNSR0NCeFphYmJEcEdzcXlneWF4RTdtaHJuaWdxVTl3SXZpNGtFbkhDQjBqMy11NzV1MURBcVA4dGFWdmYwanhqeHo2Z3BPVnlrRTQySTZLX3p6aFdHVTRR?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-22T20:56:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla claims its Robotaxi service is expanding, but its own data shows limited growth. The company's chart indicates that the number of active Robotaxis has not increased significantly, raising questions about the progress of Tesla's autonomous ride-hailing ambitions. This discrepancy highlights the challenges in scaling autonomous vehicle fleets.",
+      "abstract": "Tesla claims its Robotaxi service is expanding, but its own data shows limited growth. The company's chart indicates that the number of active Robotaxis has not increased significantly, raising questions about the progress of Tesla's autonomous ride-hailing ambitions. This discrepancy highlights the challenges in scaling autonomous vehicle fleets.",
+      "score": 88
+    },
     {
       "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
       "topic": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
@@ -10,6 +21,17 @@
       "category": "automated-vehicles",
       "summary": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
       "abstract": "Tesla has launched robotaxi pilots in Orlando and Tampa, Florida, ahead of its Q2 earnings report. The company is expanding its autonomous vehicle service to new cities, aiming to demonstrate the readiness and reliability of its Full Self-Driving (FSD) technology. This deployment is significant for the advancement of autonomous ride-hailing services.",
+      "score": 95
+    },
+    {
+      "title": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "topic": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "url": "https://arxiv.org/abs/2607.19194v2",
+      "source": "arXiv",
+      "published": "2026-07-21T15:29:21Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework that integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate structured chain-of-thought supervision for high-level planning in autonomous driving. This approach aims to address the constraints of costly structured supervision and inconsistencies between generated rationales and driving actions. The framework represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. The automated data engine enables the generation of supervision without manual annotation. This research is relevant to autonomous vehicle development as it enhances the explainability and consistency of decision-making processes.",
+      "abstract": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework that integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate structured chain-of-thought supervision for high-level planning in autonomous driving. This approach aims to address the constraints of costly structured supervision and inconsistencies between generated rationales and driving actions. The framework represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. The automated data engine enables the generation of supervision without manual annotation. This research is relevant to autonomous vehicle development as it enhances the explainability and consistency of decision-making processes.",
       "score": 95
     },
     {
@@ -57,6 +79,17 @@
       "score": 78
     },
     {
+      "title": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "topic": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGRBUDYxZFlvbWE0TjFuYk91NkFfWXZKOXZ6MkhCSW1xV0p0WFJMUUR4Mk16NUdoRUVQd1VWZHo1anp6M0tYTDRVWFVYa2Zob0pTYnAtUUoxdG1rZGRvMjZQd0NIaVNqOThRbkJDOXl4QVE3cGI1MEw5Vy0wbENiUHp1VE1yZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-20T20:01:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla Full Self-Driving (FSD) system reportedly led to a speeding ticket for the driver. Tesla subsequently disabled a feature that allowed the system to adjust speed based on traffic conditions, which was intended to prevent such issues. This incident highlights the ongoing challenges and regulatory scrutiny surrounding autonomous driving systems.",
+      "abstract": "A Tesla Full Self-Driving (FSD) system reportedly led to a speeding ticket for the driver. Tesla subsequently disabled a feature that allowed the system to adjust speed based on traffic conditions, which was intended to prevent such issues. This incident highlights the ongoing challenges and regulatory scrutiny surrounding autonomous driving systems.",
+      "score": 90
+    },
+    {
       "title": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
       "topic": "Tesla remote operator crashed a ‘Robotaxi’ in Houston, NHTSA data shows",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObG5jdnQ3dzZ0emlNYUtEWkxRTC1nYVNJeWQwUlRROF9rOEtnVVV5S3RHZXNKV0piN2hWMDJyWFdybjM3YTZTMU0yX2QtVDVSTFBtMTY2Umg2R2dDeGlhd3EtOUM2a0xQc3BxRWloM0pYS1VENTlPU0NRWTdpMUJkVGp3?oc=5",
@@ -77,6 +110,17 @@
       "summary": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
       "abstract": "The journal paper Large language models for enhancing human-machine interaction in autonomous vehicles, published in Transportation Research Part C: Emerging Technologies on July 19, 2026, provides a comprehensive survey of the applications of large language models in autonomous vehicles. The authors, Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, discuss the potential of large language models to improve human-machine interaction in autonomous vehicles. This survey is relevant for autonomous driving as it highlights the importance of human-machine interaction in ensuring safe and efficient transportation. The paper provides a thorough review of the current state of research in this area.",
       "score": 90
+    },
+    {
+      "title": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "topic": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZWthNjJoaVVtZUxQeWE1Q2tndy1yUU12Tm1Pdll0WUZxZy1PTFZrSElXMEhicnZnbTdzeVhIczVFWGZMbUNZZ3hSOTIxWnBhVUREOE1wbjEyNW9YUjJQLU83djItbXl1LThHM2ZTc3FHQm1nWGlOY1FFcFBmUFdDc3ZB?oc=5",
+      "source": "AP News",
+      "published": "2026-07-17T20:06:00Z",
+      "category": "ai",
+      "summary": "A new Chinese AI model has surprised the US tech industry with capabilities rivaling those of OpenAI's Claude and ChatGPT. The model, developed by a Chinese tech company, demonstrates advanced natural language processing and reasoning abilities, challenging the dominance of US-based AI models. This development underscores the growing competition in the global AI landscape.",
+      "abstract": "A new Chinese AI model has surprised the US tech industry with capabilities rivaling those of OpenAI's Claude and ChatGPT. The model, developed by a Chinese tech company, demonstrates advanced natural language processing and reasoning abilities, challenging the dominance of US-based AI models. This development underscores the growing competition in the global AI landscape.",
+      "score": 85
     },
     {
       "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
