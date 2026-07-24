@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-23T08:46:40.347417Z",
+  "updated_at": "2026-07-24T08:44:59.476833Z",
   "items": [
+    {
+      "title": "Tesla's once-bullish tone on robotaxis shifts",
+      "topic": "Tesla's once-bullish tone on robotaxis shifts",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZEhmVDRYZE9WOGJsZFdtNE9pbFg3S2dNQkhHUkNteXJDOGcxZG1kUFJlVlJOa3FNYzhPZG52ajBFQnJKbm1wYjZmSFhDM2w3VkoxUzMySzFhQTBkRi1sRTM1TDJVT0tNZy0yT3EwX0htdWdNX0hjMDMyaDd1MG9saXE5cWQxOUJxUHdBUDZvc2ZyTUhjZ3BtN29uQjRaVWNIT0dmdmt5d01sRWc?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-23T17:43:25Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's tone on its robotaxi ambitions has shifted from bullish to more cautious. The company's recent statements and actions suggest a more realistic approach to the deployment of its autonomous vehicle fleet, reflecting the complexities and regulatory hurdles in the AV industry.",
+      "abstract": "Tesla's tone on its robotaxi ambitions has shifted from bullish to more cautious. The company's recent statements and actions suggest a more realistic approach to the deployment of its autonomous vehicle fleet, reflecting the complexities and regulatory hurdles in the AV industry.",
+      "score": 90
+    },
+    {
+      "title": "Tesla’s robotaxis are moving in reverse",
+      "topic": "Tesla’s robotaxis are moving in reverse",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YbTZTTGxBUWxTMW9GRnBCZ25RTndPNk5RRHhTMHJneG0tRy1iMmd3alhPc28xb2hQdW9yTVZkOXROUmk4U1hBb3o1cFM2TXB2YzV4UjlJWEZ2VXRWd3RhQXEyWXJkNlM2NHlQamdyVTZHX1ZwbHFGRUJUWTk1dw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-23T16:29:59Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's robotaxi program is facing significant challenges, with the company's own data showing a lack of progress. Despite initial promises, the expansion of Tesla's autonomous ride-hailing service has not materialized, raising questions about the feasibility of its robotaxi vision.",
+      "abstract": "Tesla's robotaxi program is facing significant challenges, with the company's own data showing a lack of progress. Despite initial promises, the expansion of Tesla's autonomous ride-hailing service has not materialized, raising questions about the feasibility of its robotaxi vision.",
+      "score": 92
+    },
+    {
+      "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+      "topic": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.20988v1",
+      "source": "arXiv",
+      "published": "2026-07-23T07:11:41Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
+      "abstract": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
+      "score": 85
+    },
+    {
+      "title": "Tesla’s robotaxi promises are clashing with reality",
+      "topic": "Tesla’s robotaxi promises are clashing with reality",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcF82UXU5QnBKR2ZVdFZCa290aElNNW9XeXVjWnFWUlpjZURqeThqVEZrRnBYOWp6eXlEM3dlQnFjOXBzOWdFMFlJR2lkbktRVVlJZGRDUHI1dGE0SDIwMFVxWDZnV05vMUlBaURBekNPc3R0cW5CeFRVeUZNdnZycUl3UzJtblhtcjhsdXg0ZHpvN3FWbHBxVGdvUGE?oc=5",
+      "source": "The Verge",
+      "published": "2026-07-23T06:39:37Z",
+      "category": "automated-vehicles",
+      "summary": "The head of the US AI safety agency has resigned, citing concerns over the regulatory framework's ability to keep pace with rapid advancements in AI technology. This departure underscores the growing tensions and challenges in ensuring the safe deployment of AI systems, including those in autonomous vehicles.",
+      "abstract": "The head of the US AI safety agency has resigned, citing concerns over the regulatory framework's ability to keep pace with rapid advancements in AI technology. This departure underscores the growing tensions and challenges in ensuring the safe deployment of AI systems, including those in autonomous vehicles.",
+      "score": 85
+    },
     {
       "title": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
       "topic": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
