@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-24T08:44:59.476833Z",
+  "updated_at": "2026-07-25T08:26:01.208087Z",
   "items": [
+    {
+      "title": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
+      "topic": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNDVjSTNCT2dCd2dyTkFLUEFTdDNzTzJnUUdfbkFwNWlwcHp0aVpUcEthUFRKNXhkczBuSUhqdkEzLTlKaVRiWkFlRG9PdkVvenNUWUxvOG8wZlNOLTh2VHJpZ0NxN2ZHTDg4MkJWY1RvNVJ5R2MxWmNrY1F6UEdqOXNUVnhBNjI4N1p0OVdKcjR3dzFzemFlYk12bW5TOFNxMTRkRDdfXzFkWlFiWTl2ZDhELV9oWnBDaTNYODVxODRnQU9XcjFMSlhZNTk?oc=5",
+      "source": "VentureBeat",
+      "published": "2026-07-24T17:00:00Z",
+      "category": "ai",
+      "summary": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
+      "abstract": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
+      "score": 65
+    },
     {
       "title": "Tesla's once-bullish tone on robotaxis shifts",
       "topic": "Tesla's once-bullish tone on robotaxis shifts",
@@ -46,6 +57,17 @@
       "score": 85
     },
     {
+      "title": "Tesla still has no real plan for Hardware 3 owners promised FSD",
+      "topic": "Tesla still has no real plan for Hardware 3 owners promised FSD",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFpCWkY5aENqZGcya01LRmNicm5hRjJ5bnBQWXJ2Y1JUd25HRDQ0d0MyQVQ4SXRtc1FpTjdmRVRmSkRGaHhTNGFuSjJLdWlubnp2UDBqeE90WXc4QU1pZlRwTjlkREllelU2T2Vla1dtYzV5aXZhZ3QyN1FNLXJHSzNGcmYzZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-23T00:56:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo is expanding its autonomous ride-hailing service to Los Angeles, marking the company's first major expansion outside of Phoenix, Arizona, with the service currently available in a limited area of Los Angeles. Waymo's autonomous vehicles have been tested extensively in Los Angeles and have demonstrated a high level of safety and reliability. This expansion is significant for AV research as it showcases the feasibility of autonomous ride-hailing services in new and complex urban environments. The service's availability in Los Angeles is a key step towards the widespread adoption of autonomous transportation.",
+      "abstract": "Waymo is expanding its autonomous ride-hailing service to Los Angeles, marking the company's first major expansion outside of Phoenix, Arizona, with the service currently available in a limited area of Los Angeles. Waymo's autonomous vehicles have been tested extensively in Los Angeles and have demonstrated a high level of safety and reliability. This expansion is significant for AV research as it showcases the feasibility of autonomous ride-hailing services in new and complex urban environments. The service's availability in Los Angeles is a key step towards the widespread adoption of autonomous transportation.",
+      "score": 85
+    },
+    {
       "title": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
       "topic": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnpEYlBvOGkyczMzRWQ0SnkzOGlldld3WXNCazROUkthNTNSR0NCeFphYmJEcEdzcXlneWF4RTdtaHJuaWdxVTl3SXZpNGtFbkhDQjBqMy11NzV1MURBcVA4dGFWdmYwanhqeHo2Z3BPVnlrRTQySTZLX3p6aFdHVTRR?oc=5",
@@ -55,6 +77,17 @@
       "summary": "Tesla claims its Robotaxi service is expanding, but its own data shows limited growth. The company's chart indicates that the number of active Robotaxis has not increased significantly, raising questions about the progress of Tesla's autonomous ride-hailing ambitions. This discrepancy highlights the challenges in scaling autonomous vehicle fleets.",
       "abstract": "Tesla claims its Robotaxi service is expanding, but its own data shows limited growth. The company's chart indicates that the number of active Robotaxis has not increased significantly, raising questions about the progress of Tesla's autonomous ride-hailing ambitions. This discrepancy highlights the challenges in scaling autonomous vehicle fleets.",
       "score": 88
+    },
+    {
+      "title": "Volkswagen's CARIZON and Horizon Robotics deepen self-driving partnership in China",
+      "topic": "Volkswagen's CARIZON and Horizon Robotics deepen self-driving partnership in China",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRUdrSDd5YldsYk1kWEhIUFlCODBtZU1MZFlaSlNlWDhJa2prRHdfeXlmaU9PZTdZSmxBVFpuVnY5dVNTOGJCRVVja0FvWWNaVV9FbW8zeGR5ZjZLN21DbHpMZnBZUHFpVzhlSjBtQ3BrNklCTnJUX0tGb09udW9GNU1JSklKR01kVDQwTXNEYzhCTVVLMVRyc28tNFEzMEpFeUMtMVZBdm5DMzdwNFEtbzFQRGZSMEtZbkZOVnQ2TQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-22T10:13:51Z",
+      "category": "automated-vehicles",
+      "summary": "Volkswagen's CARIZON and Horizon Robotics are expanding their collaboration on self-driving technology in China, with a focus on Level 4 autonomous vehicles. The partnership will enable the development and deployment of Level 4 autonomous vehicles in China, with the goal of commercializing the technology by 2028. This development is relevant for AV research as it demonstrates the growing importance of international collaborations in advancing autonomous driving technology. The partnership between Volkswagen's CARIZON and Horizon Robotics is a key step towards the widespread adoption of autonomous vehicles in China.",
+      "abstract": "Volkswagen's CARIZON and Horizon Robotics are expanding their collaboration on self-driving technology in China, with a focus on Level 4 autonomous vehicles. The partnership will enable the development and deployment of Level 4 autonomous vehicles in China, with the goal of commercializing the technology by 2028. This development is relevant for AV research as it demonstrates the growing importance of international collaborations in advancing autonomous driving technology. The partnership between Volkswagen's CARIZON and Horizon Robotics is a key step towards the widespread adoption of autonomous vehicles in China.",
+      "score": 75
     },
     {
       "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
@@ -143,6 +176,17 @@
       "summary": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
       "abstract": "A Tesla 'Robotaxi' in Houston was involved in a crash while being remotely operated, according to NHTSA data. The incident highlights the ongoing challenges and safety concerns with remote operation of autonomous vehicles.",
       "score": 90
+    },
+    {
+      "title": "A2RL V\\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction",
+      "topic": "A2RL V\\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction",
+      "url": "https://arxiv.org/abs/2607.17813v1",
+      "source": "arXiv",
+      "published": "2026-07-20T10:59:32Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models' proposes a novel MLLM framework that integrates 2D and 3D data for autonomous driving, using a pre-trained video VAE to encode video latents and a global semantic codebook to unify observations into a shared vocabulary. Published on July 21, 2026, this study demonstrates the effectiveness of MLLMs in using 3D sensors, particularly LiDAR and stereo cameras, for end-to-end autonomous driving. The D3VL framework improves performance in traditional 3D scene perception tasks, with a score of 96 for its relevance to AV research, highlighting the importance of multimodal perception in autonomous vehicles.",
+      "abstract": "The arXiv paper 'D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models' proposes a novel MLLM framework that integrates 2D and 3D data for autonomous driving, using a pre-trained video VAE to encode video latents and a global semantic codebook to unify observations into a shared vocabulary. Published on July 21, 2026, this study demonstrates the effectiveness of MLLMs in using 3D sensors, particularly LiDAR and stereo cameras, for end-to-end autonomous driving. The D3VL framework improves performance in traditional 3D scene perception tasks, with a score of 96 for its relevance to AV research, highlighting the importance of multimodal perception in autonomous vehicles.",
+      "score": 96
     },
     {
       "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",

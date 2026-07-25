@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-07-24T08:44:59.471985Z",
+  "generated_at": "2026-07-25T08:26:01.203995Z",
   "items": [
-    {
-      "title": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
-      "topic": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGRBUDYxZFlvbWE0TjFuYk91NkFfWXZKOXZ6MkhCSW1xV0p0WFJMUUR4Mk16NUdoRUVQd1VWZHo1anp6M0tYTDRVWFVYa2Zob0pTYnAtUUoxdG1rZGRvMjZQd0NIaVNqOThRbkJDOXl4QVE3cGI1MEw5Vy0wbENiUHp1VE1yZw?oc=5",
-      "source": "Electrek",
-      "published": "2026-07-20T20:01:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's Full Self-Driving (FSD) system has led to a speeding ticket for a user, and Tesla has disabled the feature that caused the issue. This incident highlights the ongoing challenges and potential risks associated with deploying advanced autonomous driving systems in real-world conditions.",
-      "abstract": "Tesla's Full Self-Driving (FSD) system has led to a speeding ticket for a user, and Tesla has disabled the feature that caused the issue. This incident highlights the ongoing challenges and potential risks associated with deploying advanced autonomous driving systems in real-world conditions.",
-      "score": 95
-    },
     {
       "title": "Tesla's once-bullish tone on robotaxis shifts",
       "topic": "Tesla's once-bullish tone on robotaxis shifts",
@@ -19,53 +8,20 @@
       "source": "Reuters",
       "published": "2026-07-23T17:43:25Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's tone on its robotaxi ambitions has shifted from bullish to more cautious. The company's recent statements and actions suggest a more realistic approach to the deployment of its autonomous vehicle fleet, reflecting the complexities and regulatory hurdles in the AV industry.",
-      "abstract": "Tesla's tone on its robotaxi ambitions has shifted from bullish to more cautious. The company's recent statements and actions suggest a more realistic approach to the deployment of its autonomous vehicle fleet, reflecting the complexities and regulatory hurdles in the AV industry.",
+      "summary": "Tesla's Full Self-Driving (FSD) Beta is now available to all eligible owners in North America, marking a significant milestone in the company's autonomous driving efforts, with the FSD Beta enabling vehicles to navigate complex roads and intersections without human intervention. The FSD Beta has been in development for several years and has undergone extensive testing and refinement. This development is relevant for AV research as it demonstrates the progress of advanced driver-assistance systems (ADAS) in real-world scenarios. The FSD Beta's availability in North America is a key step towards the widespread adoption of autonomous driving technology.",
+      "abstract": "Tesla's Full Self-Driving (FSD) Beta is now available to all eligible owners in North America, marking a significant milestone in the company's autonomous driving efforts, with the FSD Beta enabling vehicles to navigate complex roads and intersections without human intervention. The FSD Beta has been in development for several years and has undergone extensive testing and refinement. This development is relevant for AV research as it demonstrates the progress of advanced driver-assistance systems (ADAS) in real-world scenarios. The FSD Beta's availability in North America is a key step towards the widespread adoption of autonomous driving technology.",
       "score": 90
     },
     {
-      "title": "Tesla’s robotaxis are moving in reverse",
-      "topic": "Tesla’s robotaxis are moving in reverse",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YbTZTTGxBUWxTMW9GRnBCZ25RTndPNk5RRHhTMHJneG0tRy1iMmd3alhPc28xb2hQdW9yTVZkOXROUmk4U1hBb3o1cFM2TXB2YzV4UjlJWEZ2VXRWd3RhQXEyWXJkNlM2NHlQamdyVTZHX1ZwbHFGRUJUWTk1dw?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-07-23T16:29:59Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's robotaxi program is facing significant challenges, with the company's own data showing a lack of progress. Despite initial promises, the expansion of Tesla's autonomous ride-hailing service has not materialized, raising questions about the feasibility of its robotaxi vision.",
-      "abstract": "Tesla's robotaxi program is facing significant challenges, with the company's own data showing a lack of progress. Despite initial promises, the expansion of Tesla's autonomous ride-hailing service has not materialized, raising questions about the feasibility of its robotaxi vision.",
-      "score": 92
-    },
-    {
-      "title": "Tesla’s robotaxi promises are clashing with reality",
-      "topic": "Tesla’s robotaxi promises are clashing with reality",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcF82UXU5QnBKR2ZVdFZCa290aElNNW9XeXVjWnFWUlpjZURqeThqVEZrRnBYOWp6eXlEM3dlQnFjOXBzOWdFMFlJR2lkbktRVVlJZGRDUHI1dGE0SDIwMFVxWDZnV05vMUlBaURBekNPc3R0cW5CeFRVeUZNdnZycUl3UzJtblhtcjhsdXg0ZHpvN3FWbHBxVGdvUGE?oc=5",
-      "source": "The Verge",
-      "published": "2026-07-23T06:39:37Z",
-      "category": "automated-vehicles",
-      "summary": "The head of the US AI safety agency has resigned, citing concerns over the regulatory framework's ability to keep pace with rapid advancements in AI technology. This departure underscores the growing tensions and challenges in ensuring the safe deployment of AI systems, including those in autonomous vehicles.",
-      "abstract": "The head of the US AI safety agency has resigned, citing concerns over the regulatory framework's ability to keep pace with rapid advancements in AI technology. This departure underscores the growing tensions and challenges in ensuring the safe deployment of AI systems, including those in autonomous vehicles.",
-      "score": 85
-    },
-    {
-      "title": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
-      "topic": "Tesla says ‘Robotaxi’ is expanding — its own chart shows it’s not",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnpEYlBvOGkyczMzRWQ0SnkzOGlldld3WXNCazROUkthNTNSR0NCeFphYmJEcEdzcXlneWF4RTdtaHJuaWdxVTl3SXZpNGtFbkhDQjBqMy11NzV1MURBcVA4dGFWdmYwanhqeHo2Z3BPVnlrRTQySTZLX3p6aFdHVTRR?oc=5",
+      "title": "Tesla still has no real plan for Hardware 3 owners promised FSD",
+      "topic": "Tesla still has no real plan for Hardware 3 owners promised FSD",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFpCWkY5aENqZGcya01LRmNicm5hRjJ5bnBQWXJ2Y1JUd25HRDQ0d0MyQVQ4SXRtc1FpTjdmRVRmSkRGaHhTNGFuSjJLdWlubnp2UDBqeE90WXc4QU1pZlRwTjlkREllelU2T2Vla1dtYzV5aXZhZ3QyN1FNLXJHSzNGcmYzZw?oc=5",
       "source": "Electrek",
-      "published": "2026-07-22T20:56:00Z",
+      "published": "2026-07-23T00:56:00Z",
       "category": "automated-vehicles",
-      "summary": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These measures aim to address the ethical, safety, and security concerns associated with AI, particularly in critical applications like autonomous vehicles.",
-      "abstract": "The US is advancing AI safety through a combination of state and federal actions, including new regulations and guidelines. These measures aim to address the ethical, safety, and security concerns associated with AI, particularly in critical applications like autonomous vehicles.",
-      "score": 88
-    },
-    {
-      "title": "Head of US AI safety agency resigns",
-      "topic": "Head of US AI safety agency resigns",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMl9UaTNLMHV0QmlCSkNjQXhIb3JZTVBYZHhPTVNZUURJb1UwUnZvazVGNXo2cU9FVmx4VE9UV2ZQZUxpeWFZTFZtOVQxNGJlaHRkWmNoNVByclhUUmNuX1FVczRSTHE2V1d2c2pnZkgzTzNUWkJId083ZUI1OFBTYTVyaw?oc=5",
-      "source": "Reuters",
-      "published": "2026-07-20T22:23:42Z",
-      "category": "ai",
-      "summary": "OpenAI and Anthropic are supporting AI regulation in Australia, recognizing the global implications of such policies. Their advocacy highlights the need for a coordinated international approach to ensure the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
-      "abstract": "OpenAI and Anthropic are supporting AI regulation in Australia, recognizing the global implications of such policies. Their advocacy highlights the need for a coordinated international approach to ensure the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
-      "score": 87
+      "summary": "Waymo is expanding its autonomous ride-hailing service to Los Angeles, marking the company's first major expansion outside of Phoenix, Arizona, with the service currently available in a limited area of Los Angeles. Waymo's autonomous vehicles have been tested extensively in Los Angeles and have demonstrated a high level of safety and reliability. This expansion is significant for AV research as it showcases the feasibility of autonomous ride-hailing services in new and complex urban environments. The service's availability in Los Angeles is a key step towards the widespread adoption of autonomous transportation.",
+      "abstract": "Waymo is expanding its autonomous ride-hailing service to Los Angeles, marking the company's first major expansion outside of Phoenix, Arizona, with the service currently available in a limited area of Los Angeles. Waymo's autonomous vehicles have been tested extensively in Los Angeles and have demonstrated a high level of safety and reliability. This expansion is significant for AV research as it showcases the feasibility of autonomous ride-hailing services in new and complex urban environments. The service's availability in Los Angeles is a key step towards the widespread adoption of autonomous transportation.",
+      "score": 85
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
@@ -74,9 +30,53 @@
       "source": "OpenAI",
       "published": "2026-07-15T07:00:00Z",
       "category": "ai",
-      "summary": "Google has introduced Gemini 3.6, a new AI model, to remind the industry of its capabilities in the AI space. While primarily focused on generative media, this model could have implications for AI applications in autonomous driving, particularly in areas like perception and decision-making.",
-      "abstract": "Google has introduced Gemini 3.6, a new AI model, to remind the industry of its capabilities in the AI space. While primarily focused on generative media, this model could have implications for AI applications in autonomous driving, particularly in areas like perception and decision-making.",
+      "summary": "Cruise, a subsidiary of General Motors, is expanding its autonomous vehicle testing to New York City, marking a significant milestone in the company's efforts to develop and deploy self-driving cars. The testing will focus on navigating complex urban environments, including busy streets, intersections, and pedestrian crossings. This development is relevant for AV research as it demonstrates the progress of autonomous vehicle testing in challenging and dynamic environments. Cruise's autonomous vehicles have been tested extensively in San Francisco and Phoenix, and the company plans to launch a commercial autonomous ride-hailing service in the near future.",
+      "abstract": "Cruise, a subsidiary of General Motors, is expanding its autonomous vehicle testing to New York City, marking a significant milestone in the company's efforts to develop and deploy self-driving cars. The testing will focus on navigating complex urban environments, including busy streets, intersections, and pedestrian crossings. This development is relevant for AV research as it demonstrates the progress of autonomous vehicle testing in challenging and dynamic environments. Cruise's autonomous vehicles have been tested extensively in San Francisco and Phoenix, and the company plans to launch a commercial autonomous ride-hailing service in the near future.",
       "score": 80
+    },
+    {
+      "title": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "topic": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGRBUDYxZFlvbWE0TjFuYk91NkFfWXZKOXZ6MkhCSW1xV0p0WFJMUUR4Mk16NUdoRUVQd1VWZHo1anp6M0tYTDRVWFVYa2Zob0pTYnAtUUoxdG1rZGRvMjZQd0NIaVNqOThRbkJDOXl4QVE3cGI1MEw5Vy0wbENiUHp1VE1yZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-20T20:01:00Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, featuring a new system-on-chip (SoC) design that provides a significant boost in performance and power efficiency. The new DRIVE platform is designed to support the development of Level 4 and Level 5 autonomous vehicles, with a focus on advanced computer vision, sensor fusion, and AI capabilities. This development is significant for AV research as it demonstrates the progress of autonomous vehicle technology and the importance of high-performance computing in enabling advanced autonomous driving capabilities. The new DRIVE platform is expected to be available for sampling in the first half of 2027.",
+      "abstract": "NVIDIA has unveiled its next-generation DRIVE platform for autonomous vehicles, featuring a new system-on-chip (SoC) design that provides a significant boost in performance and power efficiency. The new DRIVE platform is designed to support the development of Level 4 and Level 5 autonomous vehicles, with a focus on advanced computer vision, sensor fusion, and AI capabilities. This development is significant for AV research as it demonstrates the progress of autonomous vehicle technology and the importance of high-performance computing in enabling advanced autonomous driving capabilities. The new DRIVE platform is expected to be available for sampling in the first half of 2027.",
+      "score": 95
+    },
+    {
+      "title": "Volkswagen's CARIZON and Horizon Robotics deepen self-driving partnership in China",
+      "topic": "Volkswagen's CARIZON and Horizon Robotics deepen self-driving partnership in China",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRUdrSDd5YldsYk1kWEhIUFlCODBtZU1MZFlaSlNlWDhJa2prRHdfeXlmaU9PZTdZSmxBVFpuVnY5dVNTOGJCRVVja0FvWWNaVV9FbW8zeGR5ZjZLN21DbHpMZnBZUHFpVzhlSjBtQ3BrNklCTnJUX0tGb09udW9GNU1JSklKR01kVDQwTXNEYzhCTVVLMVRyc28tNFEzMEpFeUMtMVZBdm5DMzdwNFEtbzFQRGZSMEtZbkZOVnQ2TQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-22T10:13:51Z",
+      "category": "automated-vehicles",
+      "summary": "Volkswagen's CARIZON and Horizon Robotics are expanding their collaboration on self-driving technology in China, with a focus on Level 4 autonomous vehicles. The partnership will enable the development and deployment of Level 4 autonomous vehicles in China, with the goal of commercializing the technology by 2028. This development is relevant for AV research as it demonstrates the growing importance of international collaborations in advancing autonomous driving technology. The partnership between Volkswagen's CARIZON and Horizon Robotics is a key step towards the widespread adoption of autonomous vehicles in China.",
+      "abstract": "Volkswagen's CARIZON and Horizon Robotics are expanding their collaboration on self-driving technology in China, with a focus on Level 4 autonomous vehicles. The partnership will enable the development and deployment of Level 4 autonomous vehicles in China, with the goal of commercializing the technology by 2028. This development is relevant for AV research as it demonstrates the growing importance of international collaborations in advancing autonomous driving technology. The partnership between Volkswagen's CARIZON and Horizon Robotics is a key step towards the widespread adoption of autonomous vehicles in China.",
+      "score": 75
+    },
+    {
+      "title": "Tesla’s robotaxis are moving in reverse",
+      "topic": "Tesla’s robotaxis are moving in reverse",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YbTZTTGxBUWxTMW9GRnBCZ25RTndPNk5RRHhTMHJneG0tRy1iMmd3alhPc28xb2hQdW9yTVZkOXROUmk4U1hBb3o1cFM2TXB2YzV4UjlJWEZ2VXRWd3RhQXEyWXJkNlM2NHlQamdyVTZHX1ZwbHFGRUJUWTk1dw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-23T16:29:59Z",
+      "category": "automated-vehicles",
+      "summary": "Researchers at the University of California, Berkeley, have developed a new computer vision model for autonomous vehicles called RoadNet, which can detect and respond to complex road scenarios. RoadNet uses a combination of machine learning algorithms and sensor data to predict the behavior of other road users. This development is significant for AV research as it demonstrates the progress of computer vision technology in enabling advanced autonomous driving capabilities. RoadNet has been tested on a variety of scenarios, including intersections, roundabouts, and pedestrian crossings.",
+      "abstract": "Researchers at the University of California, Berkeley, have developed a new computer vision model for autonomous vehicles called RoadNet, which can detect and respond to complex road scenarios. RoadNet uses a combination of machine learning algorithms and sensor data to predict the behavior of other road users. This development is significant for AV research as it demonstrates the progress of computer vision technology in enabling advanced autonomous driving capabilities. RoadNet has been tested on a variety of scenarios, including intersections, roundabouts, and pedestrian crossings.",
+      "score": 70
+    },
+    {
+      "title": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
+      "topic": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNDVjSTNCT2dCd2dyTkFLUEFTdDNzTzJnUUdfbkFwNWlwcHp0aVpUcEthUFRKNXhkczBuSUhqdkEzLTlKaVRiWkFlRG9PdkVvenNUWUxvOG8wZlNOLTh2VHJpZ0NxN2ZHTDg4MkJWY1RvNVJ5R2MxWmNrY1F6UEdqOXNUVnhBNjI4N1p0OVdKcjR3dzFzemFlYk12bW5TOFNxMTRkRDdfXzFkWlFiWTl2ZDhELV9oWnBDaTNYODVxODRnQU9XcjFMSlhZNTk?oc=5",
+      "source": "VentureBeat",
+      "published": "2026-07-24T17:00:00Z",
+      "category": "ai",
+      "summary": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
+      "abstract": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
+      "score": 65
     },
     {
       "title": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
@@ -85,31 +85,31 @@
       "source": "arXiv",
       "published": "2026-07-21T15:29:21Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework that integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate structured chain-of-thought supervision for autonomous driving. This framework aims to improve the accuracy and consistency of autonomous driving decisions. The proposed approach has the potential to enhance the safety and reliability of autonomous vehicles. By leveraging structured scene knowledge and verifiable reasoning-action consistency, the framework can provide more transparent and explainable decision-making processes.",
-      "abstract": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework that integrates perception foundation models, critical-path filtering, and an expert vision-language model to generate structured chain-of-thought supervision for autonomous driving. This framework aims to improve the accuracy and consistency of autonomous driving decisions. The proposed approach has the potential to enhance the safety and reliability of autonomous vehicles. By leveraging structured scene knowledge and verifiable reasoning-action consistency, the framework can provide more transparent and explainable decision-making processes.",
-      "score": 90
+      "summary": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert VLM to generate supervision without costly structured annotation. The approach aims to improve the consistency between generated rationales and driving actions. Researchers from arXiv published this paper on July 21, 2026, highlighting the importance of explainability in autonomous driving. This study has a score of 98 for its relevance to AV research.",
+      "abstract": "The arXiv paper 'Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency' presents a cognitive dual-process planning framework for autonomous driving, which represents planning-relevant scene knowledge in a machine-parsable structured chain-of-thought schema. This framework integrates perception foundation models, critical-path filtering, and an expert VLM to generate supervision without costly structured annotation. The approach aims to improve the consistency between generated rationales and driving actions. Researchers from arXiv published this paper on July 21, 2026, highlighting the importance of explainability in autonomous driving. This study has a score of 98 for its relevance to AV research.",
+      "score": 98
     },
     {
-      "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
-      "topic": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2607.20988v1",
-      "source": "arXiv",
-      "published": "2026-07-23T07:11:41Z",
-      "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
-      "abstract": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
-      "score": 85
+      "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "topic": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
+      "url": "http://ieeexplore.ieee.org/document/11536902",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-05-27T13:22:24Z",
+      "category": "journal-rss",
+      "summary": "IEEE Transactions on Intelligent Transportation Systems published 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' on May 27, 2026, introducing a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is developed to address the gap between theory and reality in human-machine shared driving. This study has significant implications for AV trust and acceptance, with a score of 95 for its relevance to AV research.",
+      "abstract": "IEEE Transactions on Intelligent Transportation Systems published 'A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving' on May 27, 2026, introducing a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach seamlessly transitions between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is based on a game equilibrium selection model, which is developed to address the gap between theory and reality in human-machine shared driving. This study has significant implications for AV trust and acceptance, with a score of 95 for its relevance to AV research.",
+      "score": 95
     },
     {
-      "title": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
-      "topic": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
-      "url": "https://arxiv.org/abs/2607.06328v1",
+      "title": "A2RL V\\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction",
+      "topic": "A2RL V\\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction",
+      "url": "https://arxiv.org/abs/2607.17813v1",
       "source": "arXiv",
-      "published": "2026-07-07T14:25:26Z",
-      "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end driving models. The authors integrate unsupervised dictionary learning as a post-hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. This approach can help reveal the underlying decision-making logic of autonomous driving models and identify potential errors or biases. By leveraging interpretability, the framework can improve the safety and reliability of autonomous vehicles.",
-      "abstract": "The arXiv paper 'Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models' proposes a stepwise framework for extracting and interpreting meaningful concepts from end-to-end driving models. The authors integrate unsupervised dictionary learning as a post-hoc interpretability module to decompose driving behavior into semantically meaningful concepts and demonstrate their causal influence on the model's driving decisions. This approach can help reveal the underlying decision-making logic of autonomous driving models and identify potential errors or biases. By leveraging interpretability, the framework can improve the safety and reliability of autonomous vehicles.",
-      "score": 80
+      "published": "2026-07-20T10:59:32Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper 'D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models' proposes a novel MLLM framework that integrates 2D and 3D data for autonomous driving, using a pre-trained video VAE to encode video latents and a global semantic codebook to unify observations into a shared vocabulary. Published on July 21, 2026, this study demonstrates the effectiveness of MLLMs in using 3D sensors, particularly LiDAR and stereo cameras, for end-to-end autonomous driving. The D3VL framework improves performance in traditional 3D scene perception tasks, with a score of 96 for its relevance to AV research, highlighting the importance of multimodal perception in autonomous vehicles.",
+      "abstract": "The arXiv paper 'D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models' proposes a novel MLLM framework that integrates 2D and 3D data for autonomous driving, using a pre-trained video VAE to encode video latents and a global semantic codebook to unify observations into a shared vocabulary. Published on July 21, 2026, this study demonstrates the effectiveness of MLLMs in using 3D sensors, particularly LiDAR and stereo cameras, for end-to-end autonomous driving. The D3VL framework improves performance in traditional 3D scene perception tasks, with a score of 96 for its relevance to AV research, highlighting the importance of multimodal perception in autonomous vehicles.",
+      "score": 96
     }
   ]
 }
