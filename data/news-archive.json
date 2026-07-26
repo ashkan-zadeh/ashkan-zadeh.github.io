@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-25T08:26:01.208087Z",
+  "updated_at": "2026-07-26T08:40:45.251400Z",
   "items": [
+    {
+      "title": "Anthropic rolls out Opus 5 AI model in efficiency upgrade",
+      "topic": "Anthropic rolls out Opus 5 AI model in efficiency upgrade",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1RuSzYtNnpnN0M4VlpzeWp4azFmbWVyQTNlSXVfSlY5UTU2RGVsQ19ucGd2VlFEMGFEMG5J?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-24T17:02:42Z",
+      "category": "ai",
+      "summary": "Anthropic has launched Claude Opus 5, a more efficient AI model designed for coding, agents, and enterprise workflows. The new model is cheaper and more powerful, making it a significant upgrade for developers and businesses. This advancement in AI efficiency could have implications for the development of autonomous driving systems, particularly in areas like perception and decision-making.",
+      "abstract": "Anthropic has launched Claude Opus 5, a more efficient AI model designed for coding, agents, and enterprise workflows. The new model is cheaper and more powerful, making it a significant upgrade for developers and businesses. This advancement in AI efficiency could have implications for the development of autonomous driving systems, particularly in areas like perception and decision-making.",
+      "score": 85
+    },
     {
       "title": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
       "topic": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
