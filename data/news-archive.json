@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-26T08:40:45.251400Z",
+  "updated_at": "2026-07-27T10:12:36.280305Z",
   "items": [
+    {
+      "title": "Waymo explores ending Uber partnership, Financial Times reports",
+      "topic": "Waymo explores ending Uber partnership, Financial Times reports",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVXA5Mmg4UmkxSlRsRlN2TVhtcWFKa0dXWHZRQ01Ba0xwNnc5dlhQbnZGX01LN1M0NXdfeG9adVpPand6c1R4U2VKWXh2UzdjNWRUQ0NUYjIxX3VqUUI5ZU9iQ2RFYXZaNG1zcFoxUjNDWWxTNXBOempBZ0tVdmVmZl91dEZTblhPY19jMnhwRzhzUF8tUUFVTGVrZVVIV01EMjJkU2FMeXpZbmc?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-24T20:14:09Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo is reportedly considering ending its partnership with Uber, a move that could signal a strategic shift in the company's approach to robotaxi services. The partnership, which began in 2021, has been a key part of Waymo's strategy to expand its autonomous vehicle operations.",
+      "abstract": "Waymo is reportedly considering ending its partnership with Uber, a move that could signal a strategic shift in the company's approach to robotaxi services. The partnership, which began in 2021, has been a key part of Waymo's strategy to expand its autonomous vehicle operations.",
+      "score": 85
+    },
     {
       "title": "Anthropic rolls out Opus 5 AI model in efficiency upgrade",
       "topic": "Anthropic rolls out Opus 5 AI model in efficiency upgrade",
@@ -1144,6 +1155,17 @@
       "summary": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
       "abstract": "Waymo has purchased Apple's self-driving car proving ground for $220 million. This acquisition will provide Waymo with a dedicated facility to test and refine its autonomous driving technology, enhancing its capabilities and accelerating its development timeline.",
       "score": 70
+    },
+    {
+      "title": "Toward Unified Interpretable Decision-Making for Autonomous Driving: A Safety Interval Reserve Approach",
+      "topic": "Toward Unified Interpretable Decision-Making for Autonomous Driving: A Safety Interval Reserve Approach",
+      "url": "http://ieeexplore.ieee.org/document/11554451",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-06-08T13:18:56Z",
+      "category": "journal-rss",
+      "summary": "The IEEE Transactions on Intelligent Transportation Systems published a paper on June 8, 2026, proposing a Safety Interval Reserve (SIR) model to quantify safety time margin in autonomous driving. The SIR model is inspired by human driving behavior and is designed to unify macro path planning and micro behavior decision-making. The study develops a SIR network to parametrically delineate the changes of SIR under dynamic traffic conditions. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex traffic environments.",
+      "abstract": "The IEEE Transactions on Intelligent Transportation Systems published a paper on June 8, 2026, proposing a Safety Interval Reserve (SIR) model to quantify safety time margin in autonomous driving. The SIR model is inspired by human driving behavior and is designed to unify macro path planning and micro behavior decision-making. The study develops a SIR network to parametrically delineate the changes of SIR under dynamic traffic conditions. The proposed approach has the potential to enhance the safety and efficiency of autonomous vehicles in complex traffic environments.",
+      "score": 95
     },
     {
       "title": "Uber, Wayve and Waymo are headed towards a robotaxi showdown in London",
