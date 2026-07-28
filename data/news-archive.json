@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-27T10:12:36.280305Z",
+  "updated_at": "2026-07-28T09:07:41.355651Z",
   "items": [
+    {
+      "title": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness",
+      "topic": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness",
+      "url": "https://arxiv.org/abs/2607.23537v1",
+      "source": "arXiv",
+      "published": "2026-07-26T08:13:46Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper introduces ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, which evaluates vision-language models under real-world adverse weather conditions with multi-modal inputs. ObsDriveBench is designed with three capability dimensions: observability, cross-modal consistency, and scene understanding. The benchmark is essential for evaluating the performance of autonomous driving systems in adverse weather conditions, which is a critical challenge in the development of autonomous vehicles. The ObsDriveBench dataset provides a comprehensive evaluation of vision-language models in adverse weather conditions, enabling the development of more robust autonomous driving systems.",
+      "abstract": "The arXiv paper introduces ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, which evaluates vision-language models under real-world adverse weather conditions with multi-modal inputs. ObsDriveBench is designed with three capability dimensions: observability, cross-modal consistency, and scene understanding. The benchmark is essential for evaluating the performance of autonomous driving systems in adverse weather conditions, which is a critical challenge in the development of autonomous vehicles. The ObsDriveBench dataset provides a comprehensive evaluation of vision-language models in adverse weather conditions, enabling the development of more robust autonomous driving systems.",
+      "score": 90
+    },
     {
       "title": "Waymo explores ending Uber partnership, Financial Times reports",
       "topic": "Waymo explores ending Uber partnership, Financial Times reports",
@@ -33,6 +44,17 @@
       "summary": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
       "abstract": "Zoox has unveiled a new autonomous vehicle design with enhanced safety features, including a unique bi-directional design and a robust sensor suite. The new design is intended to provide a safe and comfortable ride for passengers, while also reducing the risk of accidents. This development is relevant for AV research as it demonstrates the importance of safety considerations in the design of autonomous vehicles. Zoox's new autonomous vehicle design is expected to be deployed in the company's ride-hailing service in the near future.",
       "score": 65
+    },
+    {
+      "title": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+      "topic": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+      "url": "https://arxiv.org/abs/2607.22078v1",
+      "source": "arXiv",
+      "published": "2026-07-24T08:23:07Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 on the CommandLM-nuScenes dataset. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is essential for safety, trust, and regulation in autonomous driving systems. The CommandLM-nuScenes dataset is used to train CommandLM, which produces intent-aware, interpretable captions suitable for planner supervision and safety auditing.",
+      "abstract": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 on the CommandLM-nuScenes dataset. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is essential for safety, trust, and regulation in autonomous driving systems. The CommandLM-nuScenes dataset is used to train CommandLM, which produces intent-aware, interpretable captions suitable for planner supervision and safety auditing.",
+      "score": 95
     },
     {
       "title": "Tesla's once-bullish tone on robotaxis shifts",
