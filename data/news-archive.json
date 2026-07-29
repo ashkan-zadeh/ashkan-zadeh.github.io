@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-28T09:07:41.355651Z",
+  "updated_at": "2026-07-29T09:12:52.813456Z",
   "items": [
+    {
+      "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
+      "topic": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWDNIVXpEeTBwdnlhWXFEcElncFkyb2V6d2ppVVB3cGVmWGNKd2lud2k5bmVLaVpSUFIza0EzWFNBcHQ1ME9vVzRISFZXWHRzaWNLRjlzLVN4dGs1M3JPaU90N2s2Nll4cjZYSUE1ckR1RjZPcjZQZ2U5bnpSeEhaV1lNYkNvR2dZV0JXSXhEaFNkY3JQcU00QlVQZi1nZw?oc=5",
+      "source": "Engadget",
+      "published": "2026-07-28T22:14:23Z",
+      "category": "automated-vehicles",
+      "summary": "A former Tesla manager, who was fired, claims that Tesla's Full Self-Driving (FSD) cars were 'rolling hazards' during testing. The manager's allegations highlight safety concerns and potential risks associated with the deployment of FSD technology.",
+      "abstract": "A former Tesla manager, who was fired, claims that Tesla's Full Self-Driving (FSD) cars were 'rolling hazards' during testing. The manager's allegations highlight safety concerns and potential risks associated with the deployment of FSD technology.",
+      "score": 85
+    },
+    {
+      "title": "Tesla self-driving manager describes scary conditions in robotaxi testing",
+      "topic": "Tesla self-driving manager describes scary conditions in robotaxi testing",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTTBhUVFETmxPZzZvQ0k5SGdXOEhyNUhOYW00WXFPODAtSk40bXNSQ0VhWGEwd0NfV2lGYU0tNVE4U2FXRzNxcUdUYUxCbFhyV28teURmeHpaZXZWcktkY1BycXVlRGE0NnhmMmpyZ0EweDN3NHlkNHAzbi1FVHhzNkVLV3ZwS2g4aEE?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-28T20:49:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla self-driving manager described the conditions during robotaxi testing as 'scary,' raising concerns about the safety and reliability of the company's autonomous driving technology. The manager's account highlights the challenges and potential risks in the development and deployment of FSD systems.",
+      "abstract": "A Tesla self-driving manager described the conditions during robotaxi testing as 'scary,' raising concerns about the safety and reliability of the company's autonomous driving technology. The manager's account highlights the challenges and potential risks in the development and deployment of FSD systems.",
+      "score": 85
+    },
+    {
+      "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
+      "topic": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN29hRWNERVplZkc0T0dWMnVmTUUzZC1iaVVaRlRWdUdudDEzODdkcERHX3k1dzE5RWJGcWVaTHhudnNnQ3N3WTN4Y2pGcmtiampVMVlHVE1NMXUzbHpvZnpxdWZDQ1B0OEV1SkN2RmJvSXdJNnVpTzZocWRUaVlzN09mSEhkRnpQdm9OaGhWbm9DaWc5VFMyQzVCcDdVUWZMSGNNXzJCeldxNGF6NnBST2Fn?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-07-28T19:06:33Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo and other robotaxi operators are facing increased scrutiny over failures in emergency response. The issues highlight the need for improved safety protocols and emergency handling in autonomous vehicle operations.",
+      "abstract": "Waymo and other robotaxi operators are facing increased scrutiny over failures in emergency response. The issues highlight the need for improved safety protocols and emergency handling in autonomous vehicle operations.",
+      "score": 90
+    },
+    {
+      "title": "Baidu’s Apollo Go begins London robotaxi testing with Uber and Lyft",
+      "topic": "Baidu’s Apollo Go begins London robotaxi testing with Uber and Lyft",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSUpmLURjY3hVTGIxLTI0TTRkMDA3ZlFfREY0OXk3WXFLSUFKSlU0cUNxNjQwMHRBTzhsOTFxc3dKTkFJM2EyNmhLT2ZhcnY0TzNPbEZHdnBZVEVUTEl0Zi0xMTJHbWFLMWJFQ3hqWFJLekE2Uk9iQkNzM0pvbkJWN3pWdmdUcXpB?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-28T17:20:00Z",
+      "category": "automated-vehicles",
+      "summary": "Baidu’s Apollo Go has begun robotaxi testing in London in collaboration with Uber and Lyft. This deployment marks a significant expansion of Baidu's autonomous driving technology into international markets, demonstrating the growing global reach of AV services.",
+      "abstract": "Baidu’s Apollo Go has begun robotaxi testing in London in collaboration with Uber and Lyft. This deployment marks a significant expansion of Baidu's autonomous driving technology into international markets, demonstrating the growing global reach of AV services.",
+      "score": 95
+    },
+    {
+      "title": "Microsoft's new AI model beats Mythos on security benchmark",
+      "topic": "Microsoft's new AI model beats Mythos on security benchmark",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
+      "source": "ZDNET",
+      "published": "2026-07-28T16:59:00Z",
+      "category": "ai",
+      "summary": "Microsoft's new AI model has outperformed Mythos on a security benchmark, showcasing advancements in AI safety and security. This development is crucial for ensuring the reliability and trustworthiness of AI systems, particularly in critical applications like autonomous vehicles.",
+      "abstract": "Microsoft's new AI model has outperformed Mythos on a security benchmark, showcasing advancements in AI safety and security. This development is crucial for ensuring the reliability and trustworthiness of AI systems, particularly in critical applications like autonomous vehicles.",
+      "score": 80
+    },
     {
       "title": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness",
       "topic": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness",
@@ -88,6 +143,17 @@
       "summary": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
       "abstract": "The arXiv paper 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving' introduces a hybrid world-VLA framework that unifies pixel-level supervision and latent representation learning for end-to-end autonomous driving. The proposed HyWorldVLA model predicts video latents encoded by a pre-trained video VAE and reconstructs video frames to provide precise pixel-level grounding. This approach aims to reconcile the trade-off between robustness and interpretability in autonomous driving. By combining the strengths of pixel-level and latent-based world models, HyWorldVLA can improve the performance and safety of autonomous vehicles.",
       "score": 85
+    },
+    {
+      "title": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model",
+      "topic": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmY0Q290R1pzVG54MlJLSVpQVjhuUFFjRmpSTXpDSEdrWDRIUWNxMWdqNWxsZ21KX3BMWURaQzByVVZZTHVrRzJNX2dMSENoNXhUS0xvNUhoeHhrV0d2ckthc3d6YkNnM2NoV2ZjOTlna05ZbksyZjAyZDY4Q18wT2JDak5HbjFXVy1YalN1aU1nZGFTVVpheWFiemQ5WGhhUDNyN3UyWVZkVjhSMDl5UHFvSQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-07-23T07:00:00Z",
+      "category": "ai",
+      "summary": "The US has accused China's Moonshot of stealing intellectual property from Anthropic's Fable to develop its latest AI model. The allegations highlight the ongoing tensions and competitive dynamics in the global AI landscape, with implications for the development and regulation of AI technologies.",
+      "abstract": "The US has accused China's Moonshot of stealing intellectual property from Anthropic's Fable to develop its latest AI model. The allegations highlight the ongoing tensions and competitive dynamics in the global AI landscape, with implications for the development and regulation of AI technologies.",
+      "score": 75
     },
     {
       "title": "Tesla’s robotaxi promises are clashing with reality",
