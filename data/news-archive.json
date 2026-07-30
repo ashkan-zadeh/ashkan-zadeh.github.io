@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-29T09:12:52.813456Z",
+  "updated_at": "2026-07-30T09:05:07.700081Z",
   "items": [
+    {
+      "title": "Waymo adds Google’s Gemini AI assistant and new UI to Ojai robotaxi",
+      "topic": "Waymo adds Google’s Gemini AI assistant and new UI to Ojai robotaxi",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWN3QVlpTEYtT0tNdGpFS1NTVHY1VDh3WlU1RjNOT2lBUUNqZmR0SFlQMll3eUJOeGFwSlNtMk1yemd2blh6Nlo3bkcwbW4yOHlDRDlCOTdXUFMxbER6NFdCWF9pdUhXU2VBeTlac0t5aE1YVDNrWkZCU1hGTk5pTGVuUWJSNEpHU1E?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-29T16:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has integrated Google’s Gemini AI assistant and a new user interface into its Ojai robotaxi service. The enhancements aim to improve passenger interaction and overall user experience. This deployment showcases Waymo's ongoing efforts to refine its robotaxi technology and enhance customer satisfaction.",
+      "abstract": "Waymo has integrated Google’s Gemini AI assistant and a new user interface into its Ojai robotaxi service. The enhancements aim to improve passenger interaction and overall user experience. This deployment showcases Waymo's ongoing efforts to refine its robotaxi technology and enhance customer satisfaction.",
+      "score": 95
+    },
+    {
+      "title": "We’re running out of reasons to ignore AI safety",
+      "topic": "We’re running out of reasons to ignore AI safety",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRWZOOTN2ekhQbGw3SnA4YzlkeWdlRWR2SFlrSmtGNGdfSU5mVjF4c1U1Mi1JQmVqOGNvUnFTV3dIVDZIUGo4c3ZnRmFqMWVyckdERzVkWEdWdzhOWHFjVDIwbS1NbGJqaFZWNkh5NVEyZ1dLUzdRbDVxNWd4WEFLajQycGpXWHBSemNyN0lFUFRjTVBXVjZ5SWN0QVBSX2NBam1RRw?oc=5",
+      "source": "The Verge",
+      "published": "2026-07-29T11:00:00Z",
+      "category": "ai",
+      "summary": "A recent article argues that the urgency of addressing AI safety cannot be ignored. The piece highlights the increasing risks associated with AI, including potential failures in autonomous systems. This discussion is particularly relevant to the AV industry, where safety is a paramount concern and the consequences of AI failures can be severe.",
+      "abstract": "A recent article argues that the urgency of addressing AI safety cannot be ignored. The piece highlights the increasing risks associated with AI, including potential failures in autonomous systems. This discussion is particularly relevant to the AV industry, where safety is a paramount concern and the consequences of AI failures can be severe.",
+      "score": 65
+    },
     {
       "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
       "topic": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",

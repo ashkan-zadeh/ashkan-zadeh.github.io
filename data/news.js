@@ -1,27 +1,16 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-07-29T09:12:52.809187Z",
+  "generated_at": "2026-07-30T09:05:07.695580Z",
   "items": [
     {
-      "title": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
-      "topic": "Fired Tesla Manager Says Full Self-Driving Cars Were 'Rolling Hazards'",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWDNIVXpEeTBwdnlhWXFEcElncFkyb2V6d2ppVVB3cGVmWGNKd2lud2k5bmVLaVpSUFIza0EzWFNBcHQ1ME9vVzRISFZXWHRzaWNLRjlzLVN4dGs1M3JPaU90N2s2Nll4cjZYSUE1ckR1RjZPcjZQZ2U5bnpSeEhaV1lNYkNvR2dZV0JXSXhEaFNkY3JQcU00QlVQZi1nZw?oc=5",
-      "source": "Engadget",
-      "published": "2026-07-28T22:14:23Z",
-      "category": "automated-vehicles",
-      "summary": "A former Tesla manager, who was fired, claims that Tesla's Full Self-Driving (FSD) cars were 'rolling hazards' during testing. The manager's allegations highlight safety concerns and potential risks associated with the deployment of FSD technology.",
-      "abstract": "A former Tesla manager, who was fired, claims that Tesla's Full Self-Driving (FSD) cars were 'rolling hazards' during testing. The manager's allegations highlight safety concerns and potential risks associated with the deployment of FSD technology.",
-      "score": 85
-    },
-    {
-      "title": "Tesla self-driving manager describes scary conditions in robotaxi testing",
-      "topic": "Tesla self-driving manager describes scary conditions in robotaxi testing",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTTBhUVFETmxPZzZvQ0k5SGdXOEhyNUhOYW00WXFPODAtSk40bXNSQ0VhWGEwd0NfV2lGYU0tNVE4U2FXRzNxcUdUYUxCbFhyV28teURmeHpaZXZWcktkY1BycXVlRGE0NnhmMmpyZ0EweDN3NHlkNHAzbi1FVHhzNkVLV3ZwS2g4aEE?oc=5",
+      "title": "Waymo adds Google’s Gemini AI assistant and new UI to Ojai robotaxi",
+      "topic": "Waymo adds Google’s Gemini AI assistant and new UI to Ojai robotaxi",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWN3QVlpTEYtT0tNdGpFS1NTVHY1VDh3WlU1RjNOT2lBUUNqZmR0SFlQMll3eUJOeGFwSlNtMk1yemd2blh6Nlo3bkcwbW4yOHlDRDlCOTdXUFMxbER6NFdCWF9pdUhXU2VBeTlac0t5aE1YVDNrWkZCU1hGTk5pTGVuUWJSNEpHU1E?oc=5",
       "source": "Electrek",
-      "published": "2026-07-28T20:49:00Z",
+      "published": "2026-07-29T16:30:00Z",
       "category": "automated-vehicles",
-      "summary": "A Tesla self-driving manager described the conditions during robotaxi testing as 'scary,' raising concerns about the safety and reliability of the company's autonomous driving technology. The manager's account highlights the challenges and potential risks in the development and deployment of FSD systems.",
-      "abstract": "A Tesla self-driving manager described the conditions during robotaxi testing as 'scary,' raising concerns about the safety and reliability of the company's autonomous driving technology. The manager's account highlights the challenges and potential risks in the development and deployment of FSD systems.",
-      "score": 85
+      "summary": "Waymo has integrated Google’s Gemini AI assistant and a new user interface into its Ojai robotaxi service. The enhancements aim to improve passenger interaction and overall user experience. This deployment showcases Waymo's ongoing efforts to refine its robotaxi technology and enhance customer satisfaction.",
+      "abstract": "Waymo has integrated Google’s Gemini AI assistant and a new user interface into its Ojai robotaxi service. The enhancements aim to improve passenger interaction and overall user experience. This deployment showcases Waymo's ongoing efforts to refine its robotaxi technology and enhance customer satisfaction.",
+      "score": 95
     },
     {
       "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
@@ -30,20 +19,31 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-07-28T19:06:33Z",
       "category": "automated-vehicles",
-      "summary": "Waymo and other robotaxi operators are facing increased scrutiny over failures in emergency response. The issues highlight the need for improved safety protocols and emergency handling in autonomous vehicle operations.",
-      "abstract": "Waymo and other robotaxi operators are facing increased scrutiny over failures in emergency response. The issues highlight the need for improved safety protocols and emergency handling in autonomous vehicle operations.",
+      "summary": "Waymo and other robotaxi operators are facing increased scrutiny over their emergency response failures. Regulatory bodies are investigating incidents where robotaxis failed to handle emergencies effectively, raising concerns about the safety and reliability of autonomous vehicle services. This scrutiny highlights the need for improved safety protocols in the AV industry.",
+      "abstract": "Waymo and other robotaxi operators are facing increased scrutiny over their emergency response failures. Regulatory bodies are investigating incidents where robotaxis failed to handle emergencies effectively, raising concerns about the safety and reliability of autonomous vehicle services. This scrutiny highlights the need for improved safety protocols in the AV industry.",
       "score": 90
     },
     {
-      "title": "Baidu’s Apollo Go begins London robotaxi testing with Uber and Lyft",
-      "topic": "Baidu’s Apollo Go begins London robotaxi testing with Uber and Lyft",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSUpmLURjY3hVTGIxLTI0TTRkMDA3ZlFfREY0OXk3WXFLSUFKSlU0cUNxNjQwMHRBTzhsOTFxc3dKTkFJM2EyNmhLT2ZhcnY0TzNPbEZHdnBZVEVUTEl0Zi0xMTJHbWFLMWJFQ3hqWFJLekE2Uk9iQkNzM0pvbkJWN3pWdmdUcXpB?oc=5",
+      "title": "Tesla self-driving manager describes scary conditions in robotaxi testing",
+      "topic": "Tesla self-driving manager describes scary conditions in robotaxi testing",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTTBhUVFETmxPZzZvQ0k5SGdXOEhyNUhOYW00WXFPODAtSk40bXNSQ0VhWGEwd0NfV2lGYU0tNVE4U2FXRzNxcUdUYUxCbFhyV28teURmeHpaZXZWcktkY1BycXVlRGE0NnhmMmpyZ0EweDN3NHlkNHAzbi1FVHhzNkVLV3ZwS2g4aEE?oc=5",
       "source": "Electrek",
-      "published": "2026-07-28T17:20:00Z",
+      "published": "2026-07-28T20:49:00Z",
       "category": "automated-vehicles",
-      "summary": "Baidu’s Apollo Go has begun robotaxi testing in London in collaboration with Uber and Lyft. This deployment marks a significant expansion of Baidu's autonomous driving technology into international markets, demonstrating the growing global reach of AV services.",
-      "abstract": "Baidu’s Apollo Go has begun robotaxi testing in London in collaboration with Uber and Lyft. This deployment marks a significant expansion of Baidu's autonomous driving technology into international markets, demonstrating the growing global reach of AV services.",
-      "score": 95
+      "summary": "A former Tesla self-driving manager has described the conditions during robotaxi testing as 'scary.' The manager, who was fired, detailed instances of dangerous behavior and systemic issues within Tesla's testing program. This testimony raises significant concerns about the safety and reliability of Tesla's Full Self-Driving (FSD) technology.",
+      "abstract": "A former Tesla self-driving manager has described the conditions during robotaxi testing as 'scary.' The manager, who was fired, detailed instances of dangerous behavior and systemic issues within Tesla's testing program. This testimony raises significant concerns about the safety and reliability of Tesla's Full Self-Driving (FSD) technology.",
+      "score": 85
+    },
+    {
+      "title": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "topic": "Tesla ‘Full Self-Driving’ got me a speeding ticket, and Tesla killed the fix",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGRBUDYxZFlvbWE0TjFuYk91NkFfWXZKOXZ6MkhCSW1xV0p0WFJMUUR4Mk16NUdoRUVQd1VWZHo1anp6M0tYTDRVWFVYa2Zob0pTYnAtUUoxdG1rZGRvMjZQd0NIaVNqOThRbkJDOXl4QVE3cGI1MEw5Vy0wbENiUHp1VE1yZw?oc=5",
+      "source": "Electrek",
+      "published": "2026-07-20T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla owner reported receiving a speeding ticket while using the Full Self-Driving (FSD) feature. Tesla subsequently disabled the feature that allowed the car to exceed speed limits, but the incident highlights ongoing issues with the FSD system's ability to adhere to traffic laws. This event underscores the need for more robust safety measures in autonomous driving systems.",
+      "abstract": "A Tesla owner reported receiving a speeding ticket while using the Full Self-Driving (FSD) feature. Tesla subsequently disabled the feature that allowed the car to exceed speed limits, but the incident highlights ongoing issues with the FSD system's ability to adhere to traffic laws. This event underscores the need for more robust safety measures in autonomous driving systems.",
+      "score": 80
     },
     {
       "title": "Microsoft's new AI model beats Mythos on security benchmark",
@@ -52,31 +52,42 @@ window.NEWS_FEED = {
       "source": "ZDNET",
       "published": "2026-07-28T16:59:00Z",
       "category": "ai",
-      "summary": "Microsoft's new AI model has outperformed Mythos on a security benchmark, showcasing advancements in AI safety and security. This development is crucial for ensuring the reliability and trustworthiness of AI systems, particularly in critical applications like autonomous vehicles.",
-      "abstract": "Microsoft's new AI model has outperformed Mythos on a security benchmark, showcasing advancements in AI safety and security. This development is crucial for ensuring the reliability and trustworthiness of AI systems, particularly in critical applications like autonomous vehicles.",
-      "score": 80
-    },
-    {
-      "title": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model",
-      "topic": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmY0Q290R1pzVG54MlJLSVpQVjhuUFFjRmpSTXpDSEdrWDRIUWNxMWdqNWxsZ21KX3BMWURaQzByVVZZTHVrRzJNX2dMSENoNXhUS0xvNUhoeHhrV0d2ckthc3d6YkNnM2NoV2ZjOTlna05ZbksyZjAyZDY4Q18wT2JDak5HbjFXVy1YalN1aU1nZGFTVVpheWFiemQ5WGhhUDNyN3UyWVZkVjhSMDl5UHFvSQ?oc=5",
-      "source": "Reuters",
-      "published": "2026-07-23T07:00:00Z",
-      "category": "ai",
-      "summary": "The US has accused China's Moonshot of stealing intellectual property from Anthropic's Fable to develop its latest AI model. The allegations highlight the ongoing tensions and competitive dynamics in the global AI landscape, with implications for the development and regulation of AI technologies.",
-      "abstract": "The US has accused China's Moonshot of stealing intellectual property from Anthropic's Fable to develop its latest AI model. The allegations highlight the ongoing tensions and competitive dynamics in the global AI landscape, with implications for the development and regulation of AI technologies.",
+      "summary": "Microsoft's new AI model has achieved top performance on the Mythos security benchmark, outperforming existing models. The benchmark evaluates AI models' ability to detect and mitigate security threats. This advancement is significant for the development of safer and more secure AI systems, particularly in the context of autonomous vehicles where security is paramount.",
+      "abstract": "Microsoft's new AI model has achieved top performance on the Mythos security benchmark, outperforming existing models. The benchmark evaluates AI models' ability to detect and mitigate security threats. This advancement is significant for the development of safer and more secure AI systems, particularly in the context of autonomous vehicles where security is paramount.",
       "score": 75
     },
     {
-      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-      "topic": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
+      "title": "Head of US AI safety agency resigns",
+      "topic": "Head of US AI safety agency resigns",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMl9UaTNLMHV0QmlCSkNjQXhIb3JZTVBYZHhPTVNZUURJb1UwUnZvazVGNXo2cU9FVmx4VE9UV2ZQZUxpeWFZTFZtOVQxNGJlaHRkWmNoNVByclhUUmNuX1FVczRSTHE2V1d2c2pnZkgzTzNUWkJId083ZUI1OFBTYTVyaw?oc=5",
       "source": "Reuters",
-      "published": "2026-07-17T07:00:00Z",
+      "published": "2026-07-20T07:00:00Z",
       "category": "ai",
-      "summary": "China's Moonshot has unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the rapid advancements in AI technology and the increasing competition between global tech leaders.",
-      "abstract": "China's Moonshot has unveiled the world's largest open AI model, closing the gap with US rivals. This development underscores the rapid advancements in AI technology and the increasing competition between global tech leaders.",
+      "summary": "The head of the US AI safety agency has resigned, citing concerns over the agency's ability to effectively regulate AI technologies. The resignation highlights the ongoing challenges in ensuring the safety and ethical use of AI, particularly in critical applications like autonomous vehicles. This event underscores the need for robust regulatory frameworks in the AI and AV industries.",
+      "abstract": "The head of the US AI safety agency has resigned, citing concerns over the agency's ability to effectively regulate AI technologies. The resignation highlights the ongoing challenges in ensuring the safety and ethical use of AI, particularly in critical applications like autonomous vehicles. This event underscores the need for robust regulatory frameworks in the AI and AV industries.",
       "score": 70
+    },
+    {
+      "title": "We’re running out of reasons to ignore AI safety",
+      "topic": "We’re running out of reasons to ignore AI safety",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRWZOOTN2ekhQbGw3SnA4YzlkeWdlRWR2SFlrSmtGNGdfSU5mVjF4c1U1Mi1JQmVqOGNvUnFTV3dIVDZIUGo4c3ZnRmFqMWVyckdERzVkWEdWdzhOWHFjVDIwbS1NbGJqaFZWNkh5NVEyZ1dLUzdRbDVxNWd4WEFLajQycGpXWHBSemNyN0lFUFRjTVBXVjZ5SWN0QVBSX2NBam1RRw?oc=5",
+      "source": "The Verge",
+      "published": "2026-07-29T11:00:00Z",
+      "category": "ai",
+      "summary": "A recent article argues that the urgency of addressing AI safety cannot be ignored. The piece highlights the increasing risks associated with AI, including potential failures in autonomous systems. This discussion is particularly relevant to the AV industry, where safety is a paramount concern and the consequences of AI failures can be severe.",
+      "abstract": "A recent article argues that the urgency of addressing AI safety cannot be ignored. The piece highlights the increasing risks associated with AI, including potential failures in autonomous systems. This discussion is particularly relevant to the AV industry, where safety is a paramount concern and the consequences of AI failures can be severe.",
+      "score": 65
+    },
+    {
+      "title": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+      "topic": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+      "url": "https://arxiv.org/abs/2607.22078v1",
+      "source": "arXiv",
+      "published": "2026-07-24T08:23:07Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 on the CommandLM-nuScenes dataset. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is essential for safety, trust, and regulation in autonomous driving systems. The CommandLM-nuScenes dataset was used to train the model, demonstrating strong linguistic and behavioral alignment.",
+      "abstract": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 on the CommandLM-nuScenes dataset. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is essential for safety, trust, and regulation in autonomous driving systems. The CommandLM-nuScenes dataset was used to train the model, demonstrating strong linguistic and behavioral alignment.",
+      "score": 95
     },
     {
       "title": "A Large Language Model-Based Game Equilibrium Selection Approach for Human-Machine Shared Driving",
@@ -85,9 +96,9 @@ window.NEWS_FEED = {
       "source": "IEEE Transactions on Intelligent Transportation Systems",
       "published": "2026-05-27T13:22:24Z",
       "category": "journal-rss",
-      "summary": "The IEEE Transactions on Intelligent Transportation Systems has published a study on a large language model-based game equilibrium selection approach for human-machine shared driving, which proposes a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships, respectively. This approach is designed to allocate human-machine shared driving authority, considering the alternating relationships between human and machine during driving. The study aims to bridge the gap between theory and reality in human-machine shared driving. The proposed approach has the potential to improve the safety and efficiency of autonomous vehicles.",
-      "abstract": "The IEEE Transactions on Intelligent Transportation Systems has published a study on a large language model-based game equilibrium selection approach for human-machine shared driving, which proposes a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships, respectively. This approach is designed to allocate human-machine shared driving authority, considering the alternating relationships between human and machine during driving. The study aims to bridge the gap between theory and reality in human-machine shared driving. The proposed approach has the potential to improve the safety and efficiency of autonomous vehicles.",
-      "score": 90
+      "summary": "The IEEE Transactions on Intelligent Transportation Systems paper proposes a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is crucial for human-machine shared driving, as it alternates between these two relationships during driving. The proposed approach is significant for the widespread adoption of fully autonomous vehicles, as human-machine shared driving is a transitional paradigm. The study's findings have implications for the development of autonomous vehicles.",
+      "abstract": "The IEEE Transactions on Intelligent Transportation Systems paper proposes a large language model-based game equilibrium selection approach for human-machine shared driving authority allocation. This approach develops a game equilibrium selection model to seamlessly transition between Stackelberg equilibrium and Nash equilibrium, addressing human-dominated and human-machine equal relationships. The selection process is crucial for human-machine shared driving, as it alternates between these two relationships during driving. The proposed approach is significant for the widespread adoption of fully autonomous vehicles, as human-machine shared driving is a transitional paradigm. The study's findings have implications for the development of autonomous vehicles.",
+      "score": 92
     },
     {
       "title": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness",
@@ -96,20 +107,9 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-07-26T08:13:46Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv preprint server has released a paper on ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, which evaluates vision-language models under real-world adverse weather conditions with multi-modal inputs. The benchmark is designed with three capability dimensions, including scene understanding, object detection, and motion forecasting, to assess the performance of vision-language models in adverse weather conditions. The introduction of ObsDriveBench is expected to promote the development of more robust and reliable autonomous driving systems. The benchmark has the potential to improve the safety and efficiency of autonomous vehicles in various weather conditions.",
-      "abstract": "The arXiv preprint server has released a paper on ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, which evaluates vision-language models under real-world adverse weather conditions with multi-modal inputs. The benchmark is designed with three capability dimensions, including scene understanding, object detection, and motion forecasting, to assess the performance of vision-language models in adverse weather conditions. The introduction of ObsDriveBench is expected to promote the development of more robust and reliable autonomous driving systems. The benchmark has the potential to improve the safety and efficiency of autonomous vehicles in various weather conditions.",
-      "score": 92
-    },
-    {
-      "title": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
-      "topic": "Large language models for enhancing human-machine interaction in autonomous vehicles: A comprehensive survey",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26003074?dgcid=rss_sd_all",
-      "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-07-29T09:11:32.112852Z",
-      "category": "journal-rss",
-      "summary": "The Transportation Research Part C: Emerging Technologies journal has published a comprehensive survey on large language models for enhancing human-machine interaction in autonomous vehicles, which reviews the recent advances in large language models and their applications in human-machine interaction for autonomous vehicles. The survey, authored by Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, provides an overview of the current state of research in this area and identifies future directions for improving human-machine interaction in autonomous vehicles. The survey highlights the potential of large language models to enhance the safety, efficiency, and user experience of autonomous vehicles. The study is expected to contribute to the development of more advanced and user-friendly autonomous vehicles.",
-      "abstract": "The Transportation Research Part C: Emerging Technologies journal has published a comprehensive survey on large language models for enhancing human-machine interaction in autonomous vehicles, which reviews the recent advances in large language models and their applications in human-machine interaction for autonomous vehicles. The survey, authored by Zixuan Xu, Zihao Sheng, Sikai Chen, and Tiantian Chen, provides an overview of the current state of research in this area and identifies future directions for improving human-machine interaction in autonomous vehicles. The survey highlights the potential of large language models to enhance the safety, efficiency, and user experience of autonomous vehicles. The study is expected to contribute to the development of more advanced and user-friendly autonomous vehicles.",
-      "score": 95
+      "summary": "The arXiv paper introduces ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, designed with three capability dimensions: perception, prediction, and planning. ObsDriveBench evaluates vision-language models under real-world adverse weather conditions, such as fog, rain, snow, and low illumination, which pose challenges to scene understanding and decision-making. The benchmark is essential for studying the behavior of vision-language models in adverse weather conditions, as existing benchmarks mainly evaluate under standard conditions or synthetic corruptions. The ObsDriveBench benchmark has the potential to improve the safety and efficiency of autonomous vehicles in various weather conditions.",
+      "abstract": "The arXiv paper introduces ObsDriveBench, a real-world multi-modal benchmark for adverse-weather autonomous driving, designed with three capability dimensions: perception, prediction, and planning. ObsDriveBench evaluates vision-language models under real-world adverse weather conditions, such as fog, rain, snow, and low illumination, which pose challenges to scene understanding and decision-making. The benchmark is essential for studying the behavior of vision-language models in adverse weather conditions, as existing benchmarks mainly evaluate under standard conditions or synthetic corruptions. The ObsDriveBench benchmark has the potential to improve the safety and efficiency of autonomous vehicles in various weather conditions.",
+      "score": 90
     }
   ]
 };
