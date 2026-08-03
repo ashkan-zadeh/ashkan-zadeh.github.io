@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-08-02T08:38:33.999936Z",
+  "updated_at": "2026-08-03T10:08:05.723109Z",
   "items": [
+    {
+      "title": "OpenAI Smuggled the Announcement of Astra, Its Next AI Model, Into a Blog Post About Math",
+      "topic": "OpenAI Smuggled the Announcement of Astra, Its Next AI Model, Into a Blog Post About Math",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjRxVEJ0YVIyTFBhRHpXaWw0V0xVRnFsT3REanBuRDFBWkZDeTJ2OWRPZk5CR3pjMjBVXzhNRzlQN1M5bE1pQUpONHN3TC0zQnJWVEpVZkVtNnA3Y2h4ang4SVlDYnEtTzlJNzBITHBacWN5MnRPejFONUVJZFZWM3RpYVpwLW5rVnhLTmE1b1hibW5FSG9kYjB2NDVUWGVWVzRhLUUwZzFvWDBiN0tZZ0JISVZmTGJTMUE?oc=5",
+      "source": "gizmodo.com",
+      "published": "2026-08-02T09:00:45Z",
+      "category": "ai",
+      "summary": "OpenAI has quietly announced the release of Astra, its next AI model, in a blog post about mathematical advancements. Astra is expected to build on the capabilities of previous models like GPT-4, potentially offering improved performance and efficiency. The discreet announcement highlights the company's strategy to balance innovation with public perception and regulatory concerns.",
+      "abstract": "OpenAI has quietly announced the release of Astra, its next AI model, in a blog post about mathematical advancements. Astra is expected to build on the capabilities of previous models like GPT-4, potentially offering improved performance and efficiency. The discreet announcement highlights the company's strategy to balance innovation with public perception and regulatory concerns.",
+      "score": 65
+    },
     {
       "title": "OpenAI’s Rogue AI Hack Urgently Needs Federal Investigation, AI Safety Researchers Warn",
       "topic": "OpenAI’s Rogue AI Hack Urgently Needs Federal Investigation, AI Safety Researchers Warn",
@@ -33,6 +44,17 @@
       "summary": "The Transportation Research Part C: Emerging Technologies paper proposes a semantics-guided hierarchical decision-making framework for autonomous driving via LLM-assisted reinforcement learning, which enables the model to make decisions based on semantic information. The framework uses a large language model to guide the decision-making process and provide interpretable results. The authors demonstrate the effectiveness of the framework in improving the decision-making process in autonomous driving. The proposed framework can be used to improve the safety and efficiency of autonomous vehicles. The use of LLM-assisted reinforcement learning enables the model to learn from experience and adapt to new situations.",
       "abstract": "The Transportation Research Part C: Emerging Technologies paper proposes a semantics-guided hierarchical decision-making framework for autonomous driving via LLM-assisted reinforcement learning, which enables the model to make decisions based on semantic information. The framework uses a large language model to guide the decision-making process and provide interpretable results. The authors demonstrate the effectiveness of the framework in improving the decision-making process in autonomous driving. The proposed framework can be used to improve the safety and efficiency of autonomous vehicles. The use of LLM-assisted reinforcement learning enables the model to learn from experience and adapt to new situations.",
       "score": 94
+    },
+    {
+      "title": "Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving",
+      "topic": "Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.29052v1",
+      "source": "arXiv",
+      "published": "2026-07-31T06:10:24Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The Outcome-Guided Distillation framework, proposed by researchers on arXiv, integrates structured reasoning and geometric precision through a teacher-student architecture for Vision-Language Models in autonomous driving. The teacher model generates logical explanations and reflectively refines the reasoning, enhancing interpretability and driving robustness. This framework addresses the limitations of pre-generated annotations and costly human labor, providing a new approach for advancing VLM reasoning in autonomous driving. The Outcome-Guided Distillation framework demonstrates its potential for improving the safety and trustworthiness of autonomous vehicles.",
+      "abstract": "The Outcome-Guided Distillation framework, proposed by researchers on arXiv, integrates structured reasoning and geometric precision through a teacher-student architecture for Vision-Language Models in autonomous driving. The teacher model generates logical explanations and reflectively refines the reasoning, enhancing interpretability and driving robustness. This framework addresses the limitations of pre-generated annotations and costly human labor, providing a new approach for advancing VLM reasoning in autonomous driving. The Outcome-Guided Distillation framework demonstrates its potential for improving the safety and trustworthiness of autonomous vehicles.",
+      "score": 90
     },
     {
       "title": "OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue",
