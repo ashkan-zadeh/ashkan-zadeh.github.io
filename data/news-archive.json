@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-08-03T10:08:05.723109Z",
+  "updated_at": "2026-08-04T09:11:12.992431Z",
   "items": [
+    {
+      "title": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
+      "topic": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.02449v1",
+      "source": "arXiv",
+      "published": "2026-08-03T16:24:17Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "MoRAL, a two-stage fine-tuning pipeline, teaches Cosmos-Reason2-2B to read a physics-encoded Bird's Eye View (BEV) representation and reason over it for driving decisions, enabling compact model size and reliable metric grounding for autonomous driving. The BEV image encodes LiDAR metric distance, object class, and radar Doppler velocity, externalizing spatial perception into the input image. Stage 1 fine-tunes the vision encoder on 60,000 grounding records, and MoRAL achieves zero-shot baselines, making it suitable for resource-constrained autonomous driving platforms. This approach is crucial for safety-critical spatial reasoning in autonomous vehicles.",
+      "abstract": "MoRAL, a two-stage fine-tuning pipeline, teaches Cosmos-Reason2-2B to read a physics-encoded Bird's Eye View (BEV) representation and reason over it for driving decisions, enabling compact model size and reliable metric grounding for autonomous driving. The BEV image encodes LiDAR metric distance, object class, and radar Doppler velocity, externalizing spatial perception into the input image. Stage 1 fine-tunes the vision encoder on 60,000 grounding records, and MoRAL achieves zero-shot baselines, making it suitable for resource-constrained autonomous driving platforms. This approach is crucial for safety-critical spatial reasoning in autonomous vehicles.",
+      "score": 92
+    },
+    {
+      "title": "TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving",
+      "topic": "TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.01998v1",
+      "source": "arXiv",
+      "published": "2026-08-03T09:58:20Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "TALSC, a Timeliness-Aware Large-Small VLM Collaboration framework, balances the accuracy gains of large VLMs with their latency-induced timeliness degradation, enabling collaboration between large VLMs at edge servers and small VLMs on-board vehicles. TALSC models the Age of Information (AoI) evolution for VLM inference and characterizes the coupling between AoI and VLM performance, making it essential for infrastructure-assisted autonomous driving. This framework is critical for dynamic vehicular environments where the utility of sensory data decays rapidly. By addressing the timeliness concern, TALSC improves the overall performance and safety of autonomous driving systems.",
+      "abstract": "TALSC, a Timeliness-Aware Large-Small VLM Collaboration framework, balances the accuracy gains of large VLMs with their latency-induced timeliness degradation, enabling collaboration between large VLMs at edge servers and small VLMs on-board vehicles. TALSC models the Age of Information (AoI) evolution for VLM inference and characterizes the coupling between AoI and VLM performance, making it essential for infrastructure-assisted autonomous driving. This framework is critical for dynamic vehicular environments where the utility of sensory data decays rapidly. By addressing the timeliness concern, TALSC improves the overall performance and safety of autonomous driving systems.",
+      "score": 90
+    },
     {
       "title": "OpenAI Smuggled the Announcement of Astra, Its Next AI Model, Into a Blog Post About Math",
       "topic": "OpenAI Smuggled the Announcement of Astra, Its Next AI Model, Into a Blog Post About Math",
