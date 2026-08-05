@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-08-04T09:11:12.992431Z",
+  "updated_at": "2026-08-05T09:08:19.438201Z",
   "items": [
+    {
+      "title": "Waymo opens up robotaxi service in Dallas to everyone",
+      "topic": "Waymo opens up robotaxi service in Dallas to everyone",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSXE3XzFyblZfYjAwcEk2WWRDYTY3WERhTlhjcDRIa1owUXRiLWtVSlFuYmlzbVJqZW1mY3BlRmR2X2hCQ0NxenhHUVBITm5pQVhXdVNaUTlxVTZkeUhqYllOaWVDeVJMZEtMc3FkWjdYYzItV1ZvY2R2QVVRY2NlbW5vUDRkVUsyWVQ4YndYUG5zUQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-04T17:31:01Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA has released a new AI model for autonomous vehicle perception, which is designed to improve the accuracy and efficiency of object detection and tracking. This model is part of NVIDIA's efforts to provide advanced AI models for the autonomous vehicle industry, and it is expected to accelerate the development of autonomous driving technology. The new AI model uses a combination of computer vision and machine learning algorithms to enable accurate and efficient object detection and tracking. NVIDIA's release of this model is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
+      "abstract": "NVIDIA has released a new AI model for autonomous vehicle perception, which is designed to improve the accuracy and efficiency of object detection and tracking. This model is part of NVIDIA's efforts to provide advanced AI models for the autonomous vehicle industry, and it is expected to accelerate the development of autonomous driving technology. The new AI model uses a combination of computer vision and machine learning algorithms to enable accurate and efficient object detection and tracking. NVIDIA's release of this model is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
+      "score": 91
+    },
+    {
+      "title": "Waymo CEO explains why Tesla’s camera-only self-driving falls short",
+      "topic": "Waymo CEO explains why Tesla’s camera-only self-driving falls short",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbm5MMFhDUDVVMmJxYzZSX1BKQ3VzaVdsZkp1bnJDVGJqNXVLdmp4d21VcEJyaHk0LUVFMTFhMlhsazJ5NUtzTVVLVU9acmkzbG1JTTB5Y3NfSEFoOXJsY2l2V2RtNE1vV0ZiQXpJYk94SGVkYVQybWNSYVZoM3hnMw?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-04T15:31:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo is expanding its robotaxi service to Los Angeles, with plans to launch a fully autonomous ride-hailing service in the city. This expansion marks a significant milestone for Waymo, which has been testing its autonomous vehicles in various locations. The company's decision to launch its service in Los Angeles demonstrates its confidence in its technology and its ability to operate safely and efficiently in complex urban environments. Waymo's expansion is expected to increase the adoption of autonomous ride-hailing services and provide a new transportation option for residents and visitors in Los Angeles.",
+      "abstract": "Waymo is expanding its robotaxi service to Los Angeles, with plans to launch a fully autonomous ride-hailing service in the city. This expansion marks a significant milestone for Waymo, which has been testing its autonomous vehicles in various locations. The company's decision to launch its service in Los Angeles demonstrates its confidence in its technology and its ability to operate safely and efficiently in complex urban environments. Waymo's expansion is expected to increase the adoption of autonomous ride-hailing services and provide a new transportation option for residents and visitors in Los Angeles.",
+      "score": 95
+    },
+    {
+      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "topic": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UcldGcWwyYlZROHhjVGRWVnl6YTRsdkhXdjFld0N2OTFUYTJZY0VDU0FiOTlMeW1vTUQ5VGFnUEJndVVzYTZ4dEtYOXFhZFNBdE9mMjdsTWNCcXNaQ3h6NFBTVmNTcjNGWEk2ZTRGZzViMnkwSWdwcE9ya1Y?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-08-04T15:07:02Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA has made its Alpamayo 2 Super model available for commercial use, with Zoox engineers already working on integrating it into their robotaxi fleet. This model is designed for robotaxis and autonomous vehicles, and its availability is expected to accelerate the development of autonomous driving technology. The Alpamayo 2 Super model is part of NVIDIA's Frontier Open Model initiative, which aims to provide open and accessible AI models for the autonomous vehicle industry. This development is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
+      "abstract": "NVIDIA has made its Alpamayo 2 Super model available for commercial use, with Zoox engineers already working on integrating it into their robotaxi fleet. This model is designed for robotaxis and autonomous vehicles, and its availability is expected to accelerate the development of autonomous driving technology. The Alpamayo 2 Super model is part of NVIDIA's Frontier Open Model initiative, which aims to provide open and accessible AI models for the autonomous vehicle industry. This development is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
+      "score": 90
+    },
     {
       "title": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
       "topic": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
@@ -33,6 +66,17 @@
       "summary": "OpenAI has quietly announced the release of Astra, its next AI model, in a blog post about mathematical advancements. Astra is expected to build on the capabilities of previous models like GPT-4, potentially offering improved performance and efficiency. The discreet announcement highlights the company's strategy to balance innovation with public perception and regulatory concerns.",
       "abstract": "OpenAI has quietly announced the release of Astra, its next AI model, in a blog post about mathematical advancements. Astra is expected to build on the capabilities of previous models like GPT-4, potentially offering improved performance and efficiency. The discreet announcement highlights the company's strategy to balance innovation with public perception and regulatory concerns.",
       "score": 65
+    },
+    {
+      "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
+      "topic": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5OVXhmNjNaVUFiUk9LWWJhTmJ6QllXX0xfTW91RDk1QV9BN2dBQ2t6aUZiaVRRcUd5RUtDTVJBWkxlNW81T1JFSW1FQnRyN0tuYXhMMjdqNHUzM2E0X3hJUEw2ZE9sUDVaR0pRTC0wRmpZLVRjTm4xRGJHbUU?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-01T15:05:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has released FSD Beta 11.4.1, which includes improved vision and enhanced safety features. This update is available to a limited number of users in the US and Canada, and it marks a significant improvement in Tesla's autonomous driving technology. The updated FSD Beta 11.4.1 includes new features and capabilities that are designed to improve the safety and efficiency of Tesla's autonomous vehicles. Tesla's release of FSD Beta 11.4.1 demonstrates the company's ongoing efforts to improve its autonomous driving technology and provide a safe and efficient transportation option for its customers.",
+      "abstract": "Tesla has released FSD Beta 11.4.1, which includes improved vision and enhanced safety features. This update is available to a limited number of users in the US and Canada, and it marks a significant improvement in Tesla's autonomous driving technology. The updated FSD Beta 11.4.1 includes new features and capabilities that are designed to improve the safety and efficiency of Tesla's autonomous vehicles. Tesla's release of FSD Beta 11.4.1 demonstrates the company's ongoing efforts to improve its autonomous driving technology and provide a safe and efficient transportation option for its customers.",
+      "score": 88
     },
     {
       "title": "OpenAI’s Rogue AI Hack Urgently Needs Federal Investigation, AI Safety Researchers Warn",
