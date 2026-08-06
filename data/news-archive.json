@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-08-05T09:08:19.438201Z",
+  "updated_at": "2026-08-06T09:08:53.300076Z",
   "items": [
+    {
+      "title": "Amazon's Zoox to start paid robotaxi rides in Vegas next week",
+      "topic": "Amazon's Zoox to start paid robotaxi rides in Vegas next week",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNDFDVHdZTjdQQVlOaEd2b1ZVU2ZEYW1lQzJNb0ZwTTBhREp5Y25jSkROQ3AxSlhRN0d3MzlobnYzNHpTMGhwUHBieVNPdDZzYkNVM3FjdHFDZDBuZVdjcDdNdDVSV1pKN09jSllrUWxXQl9ZZk15WThkSXpDUllHWEtGQXpldXdXMFdfbDZBNExGTGkyczVaX1FFeC1yb2d2aVFQVkpXU3dFNEwyY1BrV3dGdVh6eC0ySU1UQg?oc=5",
+      "source": "reuters.com",
+      "published": "2026-08-05T15:09:21Z",
+      "category": "automated-vehicles",
+      "summary": "Amazon's Zoox will initiate paid robotaxi services in Las Vegas starting next week. This deployment marks a significant milestone for Zoox, expanding its autonomous vehicle operations to a new city and offering real-world rides to the public.",
+      "abstract": "Amazon's Zoox will initiate paid robotaxi services in Las Vegas starting next week. This deployment marks a significant milestone for Zoox, expanding its autonomous vehicle operations to a new city and offering real-world rides to the public.",
+      "score": 95
+    },
     {
       "title": "Waymo opens up robotaxi service in Dallas to everyone",
       "topic": "Waymo opens up robotaxi service in Dallas to everyone",
@@ -33,6 +44,17 @@
       "summary": "NVIDIA has made its Alpamayo 2 Super model available for commercial use, with Zoox engineers already working on integrating it into their robotaxi fleet. This model is designed for robotaxis and autonomous vehicles, and its availability is expected to accelerate the development of autonomous driving technology. The Alpamayo 2 Super model is part of NVIDIA's Frontier Open Model initiative, which aims to provide open and accessible AI models for the autonomous vehicle industry. This development is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
       "abstract": "NVIDIA has made its Alpamayo 2 Super model available for commercial use, with Zoox engineers already working on integrating it into their robotaxi fleet. This model is designed for robotaxis and autonomous vehicles, and its availability is expected to accelerate the development of autonomous driving technology. The Alpamayo 2 Super model is part of NVIDIA's Frontier Open Model initiative, which aims to provide open and accessible AI models for the autonomous vehicle industry. This development is significant for the industry as it provides a powerful tool for companies to improve their autonomous driving capabilities.",
       "score": 90
+    },
+    {
+      "title": "Britain says it is open to AI regulation if voluntary safeguards fall short",
+      "topic": "Britain says it is open to AI regulation if voluntary safeguards fall short",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUW5VRkFDZTMxWE91ZnQzVjFRUEFra0dCb1Nnek1BQU9VbWZHUGtzQURhZlN5QUhNZUEzeHg0amI5SU5qUFpJX2lkMUt3V0FILVFWWVc5NW9yOHMxSk10REtJYjM5R1MyZllpMHVQNWFWakY2eElRSl9hbVI4MEdhNFVFdms4LVRzOEZ1Z2lkSG1fOTJCWHJuZkNDbzRXeTFhblJuc2RTVHYzNzI2MWF5Sm9vWlNNQU14LW16ZFpwdXF3TUdPV2hGNTF4WQ?oc=5",
+      "source": "reuters.com",
+      "published": "2026-08-03T17:27:08Z",
+      "category": "ai",
+      "summary": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about the potential risks and ethical implications of AI technologies, particularly in critical applications.",
+      "abstract": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about the potential risks and ethical implications of AI technologies, particularly in critical applications.",
+      "score": 70
     },
     {
       "title": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
@@ -253,6 +275,17 @@
       "summary": "Waymo is reportedly considering ending its partnership with Uber, a move that could signal a strategic shift in the company's approach to robotaxi services. The partnership, which began in 2021, has been a key part of Waymo's strategy to expand its autonomous vehicle operations.",
       "abstract": "Waymo is reportedly considering ending its partnership with Uber, a move that could signal a strategic shift in the company's approach to robotaxi services. The partnership, which began in 2021, has been a key part of Waymo's strategy to expand its autonomous vehicle operations.",
       "score": 85
+    },
+    {
+      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "topic": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+      "url": "https://arxiv.org/abs/2607.22525v1",
+      "source": "arXiv",
+      "published": "2026-07-24T17:56:38Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The arXiv paper proposes CARA, an intrinsically interpretable spatio-temporal framework for collision anticipation in autonomous driving. CARA derives domain-grounded risk concepts from accident narratives and aligns them with video frames via vision-language similarity, providing explicit risk evidence. The framework organizes risk concepts into evolving concept trajectories, enabling the anticipation of potential collisions. CARA's approach addresses the need for interpretable reasoning in autonomous driving, making it a valuable tool for improving safety and trust in autonomous vehicles. The paper demonstrates the effectiveness of CARA in anticipating collisions and providing insights into the decision-making process.",
+      "abstract": "The arXiv paper proposes CARA, an intrinsically interpretable spatio-temporal framework for collision anticipation in autonomous driving. CARA derives domain-grounded risk concepts from accident narratives and aligns them with video frames via vision-language similarity, providing explicit risk evidence. The framework organizes risk concepts into evolving concept trajectories, enabling the anticipation of potential collisions. CARA's approach addresses the need for interpretable reasoning in autonomous driving, making it a valuable tool for improving safety and trust in autonomous vehicles. The paper demonstrates the effectiveness of CARA in anticipating collisions and providing insights into the decision-making process.",
+      "score": 90
     },
     {
       "title": "CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation",
