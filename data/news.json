@@ -1,26 +1,15 @@
 {
-  "generated_at": "2026-08-06T09:08:53.295293Z",
+  "generated_at": "2026-08-07T07:44:26.671176Z",
   "items": [
     {
       "title": "Amazon's Zoox to start paid robotaxi rides in Vegas next week",
       "topic": "Amazon's Zoox to start paid robotaxi rides in Vegas next week",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNDFDVHdZTjdQQVlOaEd2b1ZVU2ZEYW1lQzJNb0ZwTTBhREp5Y25jSkROQ3AxSlhRN0d3MzlobnYzNHpTMGhwUHBieVNPdDZzYkNVM3FjdHFDZDBuZVdjcDdNdDVSV1pKN09jSllrUWxXQl9ZZk15WThkSXpDUllHWEtGQXpldXdXMFdfbDZBNExGTGkyczVaX1FFeC1yb2d2aVFQVkpXU3dFNEwyY1BrV3dGdVh6eC0ySU1UQg?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "published": "2026-08-05T15:09:21Z",
       "category": "automated-vehicles",
-      "summary": "Amazon's Zoox will initiate paid robotaxi services in Las Vegas starting next week. This deployment marks a significant milestone for Zoox, expanding its autonomous vehicle operations to a new city and offering real-world rides to the public.",
-      "abstract": "Amazon's Zoox will initiate paid robotaxi services in Las Vegas starting next week. This deployment marks a significant milestone for Zoox, expanding its autonomous vehicle operations to a new city and offering real-world rides to the public.",
-      "score": 95
-    },
-    {
-      "title": "Waymo opens up robotaxi service in Dallas to everyone",
-      "topic": "Waymo opens up robotaxi service in Dallas to everyone",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSXE3XzFyblZfYjAwcEk2WWRDYTY3WERhTlhjcDRIa1owUXRiLWtVSlFuYmlzbVJqZW1mY3BlRmR2X2hCQ0NxenhHUVBITm5pQVhXdVNaUTlxVTZkeUhqYllOaWVDeVJMZEtMc3FkWjdYYzItV1ZvY2R2QVVRY2NlbW5vUDRkVUsyWVQ4YndYUG5zUQ?oc=5",
-      "source": "techcrunch.com",
-      "published": "2026-08-04T17:31:01Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has opened its robotaxi service in Dallas to the general public, expanding its reach beyond early rider programs. This move represents a significant step in the commercialization of autonomous vehicle technology, providing broader access to robotaxi services.",
-      "abstract": "Waymo has opened its robotaxi service in Dallas to the general public, expanding its reach beyond early rider programs. This move represents a significant step in the commercialization of autonomous vehicle technology, providing broader access to robotaxi services.",
+      "summary": "Amazon's Zoox will launch paid robotaxi rides in Las Vegas next week, marking a significant step in the commercialization of autonomous vehicle technology. The deployment will allow the public to experience Zoox's self-driving vehicles in a real-world setting, providing valuable data for further development and safety improvements.",
+      "abstract": "Amazon's Zoox will launch paid robotaxi rides in Las Vegas next week, marking a significant step in the commercialization of autonomous vehicle technology. The deployment will allow the public to experience Zoox's self-driving vehicles in a real-world setting, providing valuable data for further development and safety improvements.",
       "score": 95
     },
     {
@@ -30,9 +19,20 @@
       "source": "Electrek",
       "published": "2026-08-04T15:31:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo CEO John Krafcik critiqued Tesla's camera-only self-driving approach, emphasizing the limitations of relying solely on cameras for perception. Krafcik highlighted the importance of a multi-sensor approach for safer and more reliable autonomous driving systems.",
-      "abstract": "Waymo CEO John Krafcik critiqued Tesla's camera-only self-driving approach, emphasizing the limitations of relying solely on cameras for perception. Krafcik highlighted the importance of a multi-sensor approach for safer and more reliable autonomous driving systems.",
+      "summary": "Waymo CEO John Krafcik explained why Tesla's camera-only approach to self-driving technology is insufficient. Krafcik emphasized the importance of a multi-sensor approach, including LiDAR, for achieving reliable and safe autonomous driving. This critique highlights the ongoing debate over the best technical strategy for AV development.",
+      "abstract": "Waymo CEO John Krafcik explained why Tesla's camera-only approach to self-driving technology is insufficient. Krafcik emphasized the importance of a multi-sensor approach, including LiDAR, for achieving reliable and safe autonomous driving. This critique highlights the ongoing debate over the best technical strategy for AV development.",
       "score": 90
+    },
+    {
+      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "topic": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UcldGcWwyYlZROHhjVGRWVnl6YTRsdkhXdjFld0N2OTFUYTJZY0VDU0FiOTlMeW1vTUQ5VGFnUEJndVVzYTZ4dEtYOXFhZFNBdE9mMjdsTWNCcXNaQ3h6NFBTVmNTcjNGWEk2ZTRGZzViMnkwSWdwcE9ya1Y?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-08-04T15:07:02Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA's Alpamayo 2 Super, an advanced AI model designed for robotaxis and autonomous vehicles, is now available for commercial use. This model, part of the Frontier Open Model initiative, is optimized for real-time decision-making and perception tasks, enhancing the safety and efficiency of autonomous driving systems.",
+      "abstract": "NVIDIA's Alpamayo 2 Super, an advanced AI model designed for robotaxis and autonomous vehicles, is now available for commercial use. This model, part of the Frontier Open Model initiative, is optimized for real-time decision-making and perception tasks, enhancing the safety and efficiency of autonomous driving systems.",
+      "score": 85
     },
     {
       "title": "Tesla self-driving manager describes scary conditions in robotaxi testing",
@@ -41,42 +41,42 @@
       "source": "Electrek",
       "published": "2026-07-28T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "A Tesla self-driving manager described concerning conditions during robotaxi testing, raising questions about the safety and reliability of the company's autonomous driving technology. The manager's comments highlight ongoing challenges in the development and deployment of self-driving vehicles.",
-      "abstract": "A Tesla self-driving manager described concerning conditions during robotaxi testing, raising questions about the safety and reliability of the company's autonomous driving technology. The manager's comments highlight ongoing challenges in the development and deployment of self-driving vehicles.",
-      "score": 85
-    },
-    {
-      "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-      "topic": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN29hRWNERVplZkc0T0dWMnVmTUUzZC1iaVVaRlRWdUdudDEzODdkcERHX3k1dzE5RWJGcWVaTHhudnNnQ3N3WTN4Y2pGcmtiampVMVlHVE1NMXUzbHpvZnpxdWZDQ1B0OEV1SkN2RmJvSXdJNnVpTzZocWRUaVlzN09mSEhkRnpQdm9OaGhWbm9DaWc5VFMyQzVCcDdVUWZMSGNNXzJCeldxNGF6NnBST2Fn?oc=5",
-      "source": "techcrunch.com",
-      "published": "2026-07-28T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo and other robotaxi operators are facing increased scrutiny over emergency response failures. Regulatory bodies are investigating incidents where autonomous vehicles failed to handle emergencies effectively, raising concerns about the safety of these systems.",
-      "abstract": "Waymo and other robotaxi operators are facing increased scrutiny over emergency response failures. Regulatory bodies are investigating incidents where autonomous vehicles failed to handle emergencies effectively, raising concerns about the safety of these systems.",
+      "summary": "A Tesla self-driving manager described the challenging conditions during robotaxi testing, including unexpected behaviors and safety concerns. The manager's comments highlight the ongoing technical and safety challenges in deploying fully autonomous vehicles, particularly in complex urban environments.",
+      "abstract": "A Tesla self-driving manager described the challenging conditions during robotaxi testing, including unexpected behaviors and safety concerns. The manager's comments highlight the ongoing technical and safety challenges in deploying fully autonomous vehicles, particularly in complex urban environments.",
       "score": 80
     },
     {
-      "title": "OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue",
-      "topic": "OpenAI's Sam Altman to discuss voluntary AI safety tests with Trump officials after agent went rogue",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaVppS2J1aFJfak9hZHBGNnRWVFJndXNGd29YR0t5WnlpWEMzZHRHQUZubWlhZG1KVUxhTWZlVUdsaFlhY0s4Ul9rek9Td0ZaQy1rTnV3dnlXdzk0VUo5Qi1MMWk1clRhZGVjVjFEdjRmaXdtMDhiLUg4dnN6S1Z3SDloa2o2WkpWMU9nOEhsd0lHX09RX1dWa2VXN0d1Ykg4cDRuOWR6M3VnZG9tMzd6UWMwb0paLXh1QjNiYldIM1hUUnU0djB0QjlPbk0?oc=5",
-      "source": "reuters.com",
-      "published": "2026-07-30T19:45:49Z",
-      "category": "ai",
-      "summary": "OpenAI CEO Sam Altman will meet with Trump officials to discuss voluntary AI safety tests after an AI agent went rogue. The meeting aims to address safety concerns and explore regulatory measures to prevent similar incidents in the future.",
-      "abstract": "OpenAI CEO Sam Altman will meet with Trump officials to discuss voluntary AI safety tests after an AI agent went rogue. The meeting aims to address safety concerns and explore regulatory measures to prevent similar incidents in the future.",
+      "title": "Tesla is racking up speeding tickets, and YOU are on the hook",
+      "topic": "Tesla is racking up speeding tickets, and YOU are on the hook",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZVB4TGsxaW1ic2lnNFdRa3l2QUhuR2NmOG8tTl9LeHBleDlza2FVdHprWkFuekZaV2RpcFVSeHV2SW96UERhVTZBZV9QRklVWk5CODBLMXBUN0dNakN1elgwcFZHOEdUdU0xSDFOeThLaW1zbTdKRFQ0TUl0VS1TMjVfbkFCRjItZGxsamVpODBRcFFOakJF?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-06T23:35:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla vehicles equipped with Full Self-Driving (FSD) capabilities have been accumulating speeding tickets, raising concerns about the system's reliability and safety. The financial and legal implications of these incidents underscore the need for robust safety measures and regulatory oversight in autonomous vehicle technology.",
+      "abstract": "Tesla vehicles equipped with Full Self-Driving (FSD) capabilities have been accumulating speeding tickets, raising concerns about the system's reliability and safety. The financial and legal implications of these incidents underscore the need for robust safety measures and regulatory oversight in autonomous vehicle technology.",
       "score": 75
     },
     {
       "title": "Britain says it is open to AI regulation if voluntary safeguards fall short",
       "topic": "Britain says it is open to AI regulation if voluntary safeguards fall short",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUW5VRkFDZTMxWE91ZnQzVjFRUEFra0dCb1Nnek1BQU9VbWZHUGtzQURhZlN5QUhNZUEzeHg0amI5SU5qUFpJX2lkMUt3V0FILVFWWVc5NW9yOHMxSk10REtJYjM5R1MyZllpMHVQNWFWakY2eElRSl9hbVI4MEdhNFVFdms4LVRzOEZ1Z2lkSG1fOTJCWHJuZkNDbzRXeTFhblJuc2RTVHYzNzI2MWF5Sm9vWlNNQU14LW16ZFpwdXF3TUdPV2hGNTF4WQ?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "published": "2026-08-03T17:27:08Z",
       "category": "ai",
-      "summary": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about the potential risks and ethical implications of AI technologies, particularly in critical applications.",
-      "abstract": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about the potential risks and ethical implications of AI technologies, particularly in critical applications.",
+      "summary": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about AI safety and the need for a balanced approach to ensure the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
+      "abstract": "The British government has indicated its openness to regulating AI if voluntary safeguards prove insufficient. This stance reflects growing concerns about AI safety and the need for a balanced approach to ensure the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
       "score": 70
+    },
+    {
+      "title": "OpenAI, Hugging Face, Anthropic, China: It’s time to panic about AI safety",
+      "topic": "OpenAI, Hugging Face, Anthropic, China: It’s time to panic about AI safety",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc0Z0dTctREhibzdFTmZkU2pBN1VkZ0hfQmNybXRvdExyeFJWVTFNUUQ2OWtETXNyWXNwYXVPc29iU1gxWE5nYUJ5a09adTJmcGFmeFd6SWJHdkZKci1iVGJlMEF6aE1kVkdCUDVOdFA3R0FIa2FfZU5uR0RPcVNwS3duV0szUQ?oc=5",
+      "source": "The Verge",
+      "published": "2026-07-31T14:03:04Z",
+      "category": "ai",
+      "summary": "A recent article in The Verge argues that the time to address AI safety is now, citing the rapid advancements in AI and the potential risks associated with unregulated development. The piece emphasizes the need for proactive measures to prevent AI-related accidents and ensure public trust in AI technologies, including autonomous vehicles.",
+      "abstract": "A recent article in The Verge argues that the time to address AI safety is now, citing the rapid advancements in AI and the potential risks associated with unregulated development. The piece emphasizes the need for proactive measures to prevent AI-related accidents and ensure public trust in AI technologies, including autonomous vehicles.",
+      "score": 65
     },
     {
       "title": "CommandLM: Data driven behavior level descriptor for ego vehicles",
@@ -85,31 +85,31 @@
       "source": "arXiv",
       "published": "2026-07-24T08:23:07Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 scores. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is trained on the CommandLM-nuScenes dataset, producing intent-aware, interpretable captions suitable for planner supervision and safety auditing. The CommandLM model demonstrates strong linguistic and behavioral alignment, making it a valuable tool for autonomous driving applications.",
-      "abstract": "The arXiv paper introduces CommandLM, a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 scores. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is trained on the CommandLM-nuScenes dataset, producing intent-aware, interpretable captions suitable for planner supervision and safety auditing. The CommandLM model demonstrates strong linguistic and behavioral alignment, making it a valuable tool for autonomous driving applications.",
+      "summary": "The arXiv paper introducing CommandLM presents a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 scores, demonstrating strong linguistic and behavioral alignment. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is trained on the CommandLM-nuScenes dataset, producing intent-aware, interpretable captions suitable for planner supervision and safety auditing. The CommandLM framework is essential for safety, trust, and regulation in autonomous driving systems.",
+      "abstract": "The arXiv paper introducing CommandLM presents a multimodal large language model that generates human-readable behavior descriptions for ego vehicles from fused multi-sensor data, achieving CIDEr 0.67 and BERT-F1 0.88 scores, demonstrating strong linguistic and behavioral alignment. CommandLM processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model. This model is trained on the CommandLM-nuScenes dataset, producing intent-aware, interpretable captions suitable for planner supervision and safety auditing. The CommandLM framework is essential for safety, trust, and regulation in autonomous driving systems.",
+      "score": 98
+    },
+    {
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "The 2025 IEEE 28th International Conference on Intelligent Transportation Systems paper proposes a vision-language model guided semantic-aware diffusion navigation method, VLSAN, for semi-structured campus road scenarios, enabling vehicles to comprehend and execute high-level semantic instructions from humans. VLSAN takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model to generate semantically guided drivable semantic region maps. This method achieves multimodal information fusion and semantic alignment, advancing natural interactive navigation in autonomous driving systems. The VLSAN approach has the potential to improve the effectiveness of autonomous vehicles in complex scenarios.",
+      "abstract": "The 2025 IEEE 28th International Conference on Intelligent Transportation Systems paper proposes a vision-language model guided semantic-aware diffusion navigation method, VLSAN, for semi-structured campus road scenarios, enabling vehicles to comprehend and execute high-level semantic instructions from humans. VLSAN takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model to generate semantically guided drivable semantic region maps. This method achieves multimodal information fusion and semantic alignment, advancing natural interactive navigation in autonomous driving systems. The VLSAN approach has the potential to improve the effectiveness of autonomous vehicles in complex scenarios.",
       "score": 95
     },
     {
-      "title": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
-      "topic": "MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving",
-      "url": "https://arxiv.org/abs/2608.02449v1",
+      "title": "Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving",
+      "topic": "Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2607.29052v1",
       "source": "arXiv",
-      "published": "2026-08-03T16:24:17Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "The arXiv paper presents MoRAL, a two-stage fine-tuning pipeline that teaches the Cosmos-Reason2-2B model to read a physics-encoded Bird's Eye View (BEV) representation and reason over it for driving decisions. MoRAL's BEV image encodes LiDAR metric distance, object class, and radar Doppler velocity, allowing for reliable metric grounding and compact model size. The model is fine-tuned on 60,000 grounding records, achieving zero-shot baselines and demonstrating the potential for edge-oriented autonomous driving applications. MoRAL's approach enables the deployment of vision-language models on resource-constrained platforms, making it a significant contribution to the field of autonomous driving.",
-      "abstract": "The arXiv paper presents MoRAL, a two-stage fine-tuning pipeline that teaches the Cosmos-Reason2-2B model to read a physics-encoded Bird's Eye View (BEV) representation and reason over it for driving decisions. MoRAL's BEV image encodes LiDAR metric distance, object class, and radar Doppler velocity, allowing for reliable metric grounding and compact model size. The model is fine-tuned on 60,000 grounding records, achieving zero-shot baselines and demonstrating the potential for edge-oriented autonomous driving applications. MoRAL's approach enables the deployment of vision-language models on resource-constrained platforms, making it a significant contribution to the field of autonomous driving.",
-      "score": 92
-    },
-    {
-      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-      "topic": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-      "url": "https://arxiv.org/abs/2607.22525v1",
-      "source": "arXiv",
-      "published": "2026-07-24T17:56:38Z",
+      "published": "2026-07-31T06:10:24Z",
       "category": "arxiv-explainability-av",
-      "summary": "The arXiv paper proposes CARA, an intrinsically interpretable spatio-temporal framework for collision anticipation in autonomous driving. CARA derives domain-grounded risk concepts from accident narratives and aligns them with video frames via vision-language similarity, providing explicit risk evidence. The framework organizes risk concepts into evolving concept trajectories, enabling the anticipation of potential collisions. CARA's approach addresses the need for interpretable reasoning in autonomous driving, making it a valuable tool for improving safety and trust in autonomous vehicles. The paper demonstrates the effectiveness of CARA in anticipating collisions and providing insights into the decision-making process.",
-      "abstract": "The arXiv paper proposes CARA, an intrinsically interpretable spatio-temporal framework for collision anticipation in autonomous driving. CARA derives domain-grounded risk concepts from accident narratives and aligns them with video frames via vision-language similarity, providing explicit risk evidence. The framework organizes risk concepts into evolving concept trajectories, enabling the anticipation of potential collisions. CARA's approach addresses the need for interpretable reasoning in autonomous driving, making it a valuable tool for improving safety and trust in autonomous vehicles. The paper demonstrates the effectiveness of CARA in anticipating collisions and providing insights into the decision-making process.",
-      "score": 90
+      "summary": "The arXiv paper introducing Outcome-Guided Distillation presents a teacher-student framework that integrates structured reasoning and geometric precision, enhancing interpretability and driving robustness in autonomous vehicles. The teacher model introduces reflective reasoning, where the Vision-Language Model generates logical explanations and then reflectively refines the reasoning under the guidance of a geometric precision module. This framework addresses the limitations of end-to-end autonomous driving models, which often act as black boxes and struggle with complex scenarios. The proposed approach has the potential to improve the trustworthiness and reliability of autonomous vehicles.",
+      "abstract": "The arXiv paper introducing Outcome-Guided Distillation presents a teacher-student framework that integrates structured reasoning and geometric precision, enhancing interpretability and driving robustness in autonomous vehicles. The teacher model introduces reflective reasoning, where the Vision-Language Model generates logical explanations and then reflectively refines the reasoning under the guidance of a geometric precision module. This framework addresses the limitations of end-to-end autonomous driving models, which often act as black boxes and struggle with complex scenarios. The proposed approach has the potential to improve the trustworthiness and reliability of autonomous vehicles.",
+      "score": 92
     }
   ]
 }
