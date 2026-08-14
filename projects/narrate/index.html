@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lidar">
+<head>
+  <meta charset="UTF-8">
+  <script>document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||"lidar");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NARRATE — A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving. ECCV 2026, DriveX Workshop.">
+  <meta name="author" content="Ashkan Yousefi Zadeh">
+  <meta property="og:title" content="NARRATE Dataset | Ashkan Yousefi Zadeh">
+  <meta property="og:description" content="2,050 annotated driving events from 35 drivers. Multimodal sensors + natural language explanations.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ashkan-zadeh/NARRATE/main/assets/narrate_sample.png">
+  <title>NARRATE — Ashkan Yousefi Zadeh</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+
+  <style>
+    /* ── Project page overrides ── */
+    .project-shell { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+
+    .breadcrumb {
+      display: flex; align-items: center; gap: .5rem;
+      padding: 1rem 0; font-size: .82rem; color: var(--muted);
+    }
+    .breadcrumb a { color: #e4b634; text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb-sep { opacity: .4; }
+
+    /* Hero */
+    .proj-hero {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--line);
+    }
+    /* ── Project accent palette (high-contrast against dark blue bg) ── */
+    --proj-gold:  #e4b634;
+    --proj-white: #f0f4ff;
+
+    .proj-kicker {
+      font-family: var(--mono);
+      font-size: .75rem; letter-spacing: .12em; text-transform: uppercase;
+      color: #e4b634; margin-bottom: 1rem;
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .proj-kicker::before {
+      content: ""; display: block; width: 28px; height: 1px; background: #e4b634;
+    }
+    .proj-title {
+      font-size: clamp(2.4rem, 5vw, 3.6rem);
+      font-weight: 900; line-height: 1.08;
+      letter-spacing: -.03em; margin-bottom: 1rem;
+    }
+    .proj-title span { color: #ffffff; }
+    .proj-subtitle {
+      font-size: 1.05rem; color: #f0f4ff; line-height: 1.55;
+      max-width: 700px; margin-bottom: 1.8rem; opacity: .92;
+    }
+    .proj-authors { font-size: .9rem; color: #f0f4ff; margin-bottom: .4rem; line-height: 1.7; }
+    .proj-authors strong { color: #ffffff; font-weight: 700; }
+    .proj-venue { font-size: .85rem; color: #c8d8f0; font-style: italic; margin-bottom: 1.6rem; }
+    .proj-venue em { color: #e4b634; font-style: normal; font-weight: 600; }
+
+    /* Badges */
+    .badge-row { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 2rem; }
+    .badge {
+      display: inline-flex; align-items: center; gap: .35rem;
+      padding: .28rem .72rem; border-radius: 4px;
+      font-size: .75rem; font-weight: 600; text-decoration: none;
+      font-family: var(--mono); white-space: nowrap;
+      border: 1px solid rgba(255,255,255,.1);
+    }
+    .badge-blue { background: rgba(228,182,52,.15); color: #e4b634; border-color: rgba(228,182,52,.4); }
+    .badge-gold { background: rgba(228,182,52,.18); color: #f2c84b; border-color: rgba(228,182,52,.4); }
+    .badge-muted { background: rgba(255,255,255,.07); color: #c8d8f0; border-color: rgba(255,255,255,.15); }
+    .badge-teal { background: rgba(228,182,52,.15); color: #e4b634; border-color: rgba(228,182,52,.4); }
+
+    /* Video */
+    .video-section { padding: 2.5rem 0; }
+    .video-section h2 { font-size: 1rem; font-weight: 600; color: #e4b634; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .08em; font-family: var(--mono); }
+    .video-wrap {
+      position: relative; border-radius: 10px; overflow: hidden;
+      background: #000; border: 1px solid var(--line);
+      box-shadow: 0 24px 80px rgba(0,0,0,.5);
+    }
+    .video-wrap video { display: block; width: 100%; max-height: 540px; object-fit: contain; }
+    .video-caption { margin-top: .75rem; font-size: .78rem; color: var(--muted); text-align: center; }
+
+    /* Stats band */
+    .stat-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1px; background: var(--line); border-radius: 8px; overflow: hidden;
+      margin: 2.5rem 0;
+    }
+    .stat-cell {
+      background: var(--panel-solid); padding: 1.4rem 1.2rem;
+    }
+    .stat-num { font-size: 2rem; font-weight: 800; color: #ffffff; line-height: 1; margin-bottom: .3rem; }
+    .stat-label { font-size: .78rem; color: #c8d8f0; line-height: 1.4; }
+
+    /* Sections */
+    .proj-section { padding: 2rem 0; border-top: 1px solid var(--line); }
+    .proj-section h2 {
+      font-size: .75rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: .12em; color: #e4b634; font-family: var(--mono);
+      margin-bottom: 1.2rem; display: flex; align-items: center; gap: .6rem;
+    }
+    .proj-section h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+    .proj-section p { color: #f0f4ff; line-height: 1.75; margin-bottom: 1rem; font-size: .95rem; opacity: .9; }
+    .proj-section p strong { color: #ffffff; opacity: 1; }
+
+    /* Feature grid */
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .feature-item {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+      padding: 1.1rem 1rem;
+    }
+    .feature-item .fi-icon { font-size: 1.4rem; margin-bottom: .5rem; }
+    .feature-item strong { display: block; font-size: .88rem; color: var(--text); margin-bottom: .25rem; }
+    .feature-item span { font-size: .78rem; color: #c8d8f0; line-height: 1.5; }
+
+    /* Annotation types */
+    .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .8rem; }
+    .tag {
+      padding: .2rem .65rem; border-radius: 4px; font-size: .75rem;
+      background: rgba(255,255,255,.06); color: var(--muted);
+      border: 1px solid var(--line); font-family: var(--mono);
+    }
+
+    /* Acknowledgement */
+    .ackl-box {
+      background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--amber);
+      border-radius: 8px; padding: 1.2rem 1.4rem; margin-top: 1rem;
+    }
+    .ackl-box p { margin: 0; font-size: .9rem; color: #f0f4ff; }
+
+    /* Links section */
+    .link-grid { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+    .proj-link {
+      display: inline-flex; align-items: center; gap: .45rem;
+      padding: .5rem 1rem; border-radius: 6px; font-size: .85rem; font-weight: 500;
+      text-decoration: none; border: 1px solid var(--line);
+      color: var(--text); background: var(--panel);
+      transition: border-color .2s, background .2s;
+    }
+    .proj-link:hover { border-color: #e4b634; background: rgba(228,182,52,.1); }
+    .proj-link.primary { background: #e4b634; color: #0a0800; border-color: #e4b634; font-weight: 700; }
+    .proj-link.primary:hover { opacity: .88; }
+    .proj-link svg { flex-shrink: 0; }
+
+    /* Citation */
+    .citation-box {
+      background: var(--panel-solid); border: 1px solid var(--line); border-radius: 8px;
+      padding: 1.2rem; margin-top: 1rem; position: relative;
+    }
+    .citation-box pre { font-family: var(--mono); font-size: .76rem; color: var(--muted); white-space: pre-wrap; word-break: break-all; line-height: 1.7; }
+    .copy-btn {
+      position: absolute; top: .7rem; right: .7rem;
+      padding: .25rem .6rem; border-radius: 4px; border: 1px solid var(--line);
+      background: var(--panel); color: var(--muted); font-size: .72rem; cursor: pointer;
+      font-family: var(--mono);
+    }
+    .copy-btn:hover { color: var(--teal); border-color: var(--teal); }
+
+    /* Back to top */
+    .proj-footer { padding: 2.5rem 0; text-align: center; border-top: 1px solid var(--line); margin-top: 2rem; }
+    .proj-footer a { color: #c8d8f0; text-decoration: none; font-size: .85rem; }
+    .proj-footer a:hover { color: #e4b634; }
+
+    @media (max-width: 600px) {
+      .proj-title { font-size: 2rem; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header" data-header>
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="/" aria-label="Ashkan Yousefi Zadeh homepage">
+        <span class="brand-mark">AZ</span>
+        <span class="brand-text">
+          <strong>Ashkan</strong>
+          <small>Yousefi Zadeh</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <ul class="nav-links" id="primary-menu" data-nav-menu>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#research">Research</a></li>
+        <li><a href="/#publications">Publications</a></li>
+        <li><a href="/projects/" aria-current="page">Projects</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li class="theme-wrap">
+          <button class="theme-toggle" type="button" aria-label="Color theme" title="Color theme" aria-expanded="false" data-theme-toggle>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <circle cx="4.5" cy="4.5" r="2.5" fill="var(--teal)"/>
+              <circle cx="9.5" cy="4.5" r="2.5" fill="var(--amber)"/>
+              <circle cx="4.5" cy="9.5" r="2.5" fill="var(--coral)"/>
+              <circle cx="9.5" cy="9.5" r="2.5" fill="var(--blue)"/>
+            </svg>
+          </button>
+          <div class="theme-panel" data-theme-panel hidden>
+            <p class="theme-panel-label">Color theme</p>
+            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Lidar</span></button>
+            <button class="theme-option" data-theme-pick="horizon"><span class="theme-swatch theme-swatch--horizon"></span><span>Horizon</span></button>
+            <button class="theme-option" data-theme-pick="neural"><span class="theme-swatch theme-swatch--neural"></span><span>Neural</span></button>
+            <button class="theme-option" data-theme-pick="carbon"><span class="theme-swatch theme-swatch--carbon"></span><span>Carbon</span></button>
+            <button class="theme-option" data-theme-pick="spectrum"><span class="theme-swatch theme-swatch--spectrum"></span><span>Spectrum</span></button>
+            <button class="theme-option" data-theme-pick="aurora"><span class="theme-swatch theme-swatch--aurora"></span><span>Aurora</span></button>
+            <button class="theme-option" data-theme-pick="crimson"><span class="theme-swatch theme-swatch--crimson"></span><span>Crimson</span></button>
+            <button class="theme-option" data-theme-pick="dusk"><span class="theme-swatch theme-swatch--dusk"></span><span>Dusk</span></button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" style="padding-top: 72px;">
+    <div class="project-shell">
+
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="/projects/">Projects</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>NARRATE</span>
+      </nav>
+
+      <!-- ── Hero ── -->
+      <div class="proj-hero">
+        <p class="proj-kicker">Dataset &amp; Publication · ECCV 2026</p>
+        <h1 class="proj-title"><span>NARRATE</span></h1>
+        <p class="proj-subtitle">
+          A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving
+        </p>
+
+        <p class="proj-authors">
+          <strong>Ashkan Yousefi Zadeh</strong> &nbsp;·&nbsp;
+          Zishuo Zhu &nbsp;·&nbsp; Xiaomeng Li &nbsp;·&nbsp; Andry Rakotonirainy &nbsp;·&nbsp;
+          Sebastien Glaser &nbsp;·&nbsp; Ronald Schroeter &nbsp;·&nbsp;
+          Patricia Delhomme &nbsp;·&nbsp; Zahra Mehraban
+        </p>
+        <p class="proj-venue">
+          <em>ECCV 2026</em> &nbsp;—&nbsp; DriveX: 6th Workshop on Foundation Models for Autonomous Driving &nbsp;·&nbsp; Archival Track
+        </p>
+
+        <div class="badge-row">
+          <a href="https://eccv.ecva.net" class="badge badge-blue" target="_blank" rel="noopener">ECCV 2026</a>
+          <span class="badge badge-teal">DriveX Workshop</span>
+          <span class="badge badge-muted">Paper PDF &nbsp;<small>coming soon</small></span>
+          <a href="https://doi.org/10.25912/RDF_1786669427992" class="badge badge-gold" target="_blank" rel="noopener">Dataset &nbsp;·&nbsp; QUT RDF</a>
+          <a href="https://doi.org/10.25912/RDF_1786669427992" class="badge badge-gold" target="_blank" rel="noopener">DOI &nbsp;10.25912/RDF_1786669427992</a>
+          <span class="badge badge-muted">License &nbsp;<small>coming soon</small></span>
+        </div>
+
+        <div class="link-grid">
+          <a href="https://github.com/ashkan-zadeh/NARRATE" class="proj-link primary" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub Repository
+          </a>
+          <a href="https://doi.org/10.25912/RDF_1786669427992" class="proj-link" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            QUT Research Data Finder
+          </a>
+        </div>
+      </div>
+
+      <!-- ── Video ── -->
+      <div class="video-section">
+        <h2>Dataset Showcase</h2>
+        <div class="video-wrap">
+          <video
+            controls
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="/asset/img/narrate/narrate_sample.png">
+            <source src="/asset/video/NARRATE.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <p class="video-caption">
+          NARRATE dataset showcase — 5 annotated driving events with multimodal sensor data and natural language explanations.
+          <br>Full HD · Stereo audio narration · 91 seconds
+        </p>
+      </div>
+
+      <!-- ── Stats ── -->
+      <div class="stat-grid">
+        <div class="stat-cell">
+          <div class="stat-num">2,050</div>
+          <div class="stat-label">Annotated driving events</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">35</div>
+          <div class="stat-label">Drivers &amp; driving instructors</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">4</div>
+          <div class="stat-label">Synchronised camera feeds</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num">Brisbane</div>
+          <div class="stat-label">CBD, Queensland, Australia</div>
+        </div>
+      </div>
+
+      <!-- ── About ── -->
+      <div class="proj-section">
+        <h2>About</h2>
+        <p>
+          NARRATE is a multimodal real-world driving dataset collected in Brisbane CBD, Queensland, Australia by
+          <strong>Queensland University of Technology</strong>. The dataset was developed through the
+          <strong>ARC Training Centre for Automated Vehicles in Rural and Remote Regions (AVR3)</strong>.
+        </p>
+        <p>
+          NARRATE is designed to support research on <strong>human-centred explanations for automated driving</strong>.
+          It captures driving events from experienced drivers and driving instructors on public roads, pairing
+          synchronised vehicle sensor data with driver-produced explanations collected
+          <strong>during the drive</strong> (in-vehicle) and/or during a
+          <strong>post-drive video-cued interview</strong>.
+        </p>
+        <p>
+          Each of the 2,050 annotated events is grounded in multimodal sensor streams and includes annotations for
+          driver action, driving scenario context, and <strong>Situational Awareness (SA)</strong> levels.
+        </p>
+      </div>
+
+      <!-- ── Modalities ── -->
+      <div class="proj-section">
+        <h2>Sensor Modalities</h2>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <div class="fi-icon">📷</div>
+            <strong>4 Camera Feeds</strong>
+            <span>Front, front-left, front-right, rear — synchronised event-level clips</span>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">📡</div>
+            <strong>LiDAR Point Clouds</strong>
+            <span>3D spatial data from rosbag recordings for each driving event</span>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">💬</div>
+            <strong>Natural Language</strong>
+            <span>In-vehicle and post-drive driver explanations in natural language</span>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">🗂️</div>
+            <strong>Rich Metadata</strong>
+            <span>JSON per event: speed, acceleration, SA levels, scenario context, action labels</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Annotation ── -->
+      <div class="proj-section">
+        <h2>Annotation Schema</h2>
+        <p>Each event in NARRATE is annotated with a comprehensive schema covering:</p>
+        <div class="tag-list">
+          <span class="tag">Driver action</span>
+          <span class="tag">Scenario category</span>
+          <span class="tag">Situational Awareness (SA1–SA3)</span>
+          <span class="tag">In-vehicle explanation</span>
+          <span class="tag">Post-drive explanation</span>
+          <span class="tag">Speed telemetry</span>
+          <span class="tag">Acceleration telemetry</span>
+          <span class="tag">Event timestamp</span>
+          <span class="tag">Explanation source</span>
+          <span class="tag">Grammar quality rating</span>
+        </div>
+      </div>
+
+      <!-- ── Dataset Contents ── -->
+      <div class="proj-section">
+        <h2>Dataset Structure</h2>
+        <p>The mediated-access release is organised as an anonymised publication package. All event files use non-identifying anonymised event identifiers.</p>
+        <div class="citation-box" style="position:relative;">
+          <pre>NARRATE/
+├── front_camera/          # Forward-facing centre camera clips
+├── front_left_camera/     # Forward-left camera clips
+├── front_right_camera/    # Forward-right camera clips
+├── rear_camera/           # Rear-facing camera clips
+├── metadata_json/         # Per-event JSON (speed, accel, SA, labels, text)
+└── sensor_bags/           # LiDAR rosbag recordings</pre>
+        </div>
+      </div>
+
+      <!-- ── Access ── -->
+      <div class="proj-section">
+        <h2>Dataset Access</h2>
+        <p>
+          The dataset files are not hosted directly in the GitHub repository.
+          Access is provided through <strong>mediated access via QUT Research Data Finder</strong> to support responsible data sharing.
+        </p>
+        <p>
+          <strong>QUT Research Data Finder:</strong> <a href="https://doi.org/10.25912/RDF_1786669427992" style="color:#e4b634;" target="_blank" rel="noopener">https://doi.org/10.25912/RDF_1786669427992</a>
+        </p>
+        <div class="link-grid">
+          <a href="https://github.com/ashkan-zadeh/NARRATE" class="proj-link" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            Documentation on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- ── Acknowledgements ── -->
+      <div class="proj-section">
+        <h2>Acknowledgements</h2>
+        <div class="ackl-box">
+          <p>
+            This research was supported by <strong>Queensland University of Technology (QUT)</strong> and the
+            <strong>Australian Research Council Discovery Project (DP220102598)</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- ── Citation ── -->
+      <div class="proj-section">
+        <h2>Citation</h2>
+        <p>If you use NARRATE in your research, please cite:</p>
+        <div class="citation-box">
+          <button class="copy-btn" onclick="navigator.clipboard.writeText(document.querySelector('.citation-box pre').textContent).then(()=>{this.textContent='Copied!';setTimeout(()=>{this.textContent='Copy'},1500)})">Copy</button>
+          <pre>@article{yousefizadeh2026narrate,
+  title   = {NARRATE: A Multimodal Real-World Australian Driving Dataset
+             for Human-Centred Explanations in Automated Driving},
+  author  = {Yousefi Zadeh, Ashkan and Zhu, Zishuo and Li, Xiaomeng and
+             Rakotonirainy, Andry and Glaser, Sebastien and Schroeter, Ronald
+             and Delhomme, Patricia and Mehraban, Zahra},
+  year    = {2026},
+  note    = {ECCV 2026, DriveX Workshop}
+}</pre>
+        </div>
+      </div>
+
+      <div class="proj-footer">
+        <a href="/projects/">← Back to Projects</a>
+        &nbsp;&nbsp;·&nbsp;&nbsp;
+        <a href="/">ashkan-zadeh.github.io</a>
+      </div>
+
+    </div><!-- /project-shell -->
+  </main>
+
+  <script>
+    /* ── Minimal theme switcher for project pages ── */
+    const THEMES = ["lidar","horizon","neural","carbon","spectrum","aurora","crimson","dusk"];
+    const themeToggle = document.querySelector("[data-theme-toggle]");
+    const themePanel  = document.querySelector("[data-theme-panel]");
+    const navToggle   = document.querySelector("[data-nav-toggle]");
+    const navMenu     = document.querySelector("[data-nav-menu]");
+
+    function applyTheme(name) {
+      if (!THEMES.includes(name)) return;
+      document.documentElement.setAttribute("data-theme", name);
+      localStorage.setItem("theme", name);
+      document.querySelectorAll("[data-theme-pick]").forEach(b =>
+        b.classList.toggle("is-active", b.dataset.themePick === name));
+    }
+    applyTheme(localStorage.getItem("theme") || "lidar");
+
+    themeToggle?.addEventListener("click", e => {
+      e.stopPropagation();
+      const open = themePanel.hidden;
+      themePanel.hidden = !open;
+      themeToggle.setAttribute("aria-expanded", String(open));
+    });
+    document.querySelectorAll("[data-theme-pick]").forEach(btn =>
+      btn.addEventListener("click", () => { applyTheme(btn.dataset.themePick); themePanel.hidden = true; }));
+    document.addEventListener("click", () => { if (themePanel) themePanel.hidden = true; });
+
+    navToggle?.addEventListener("click", () => {
+      const open = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!open));
+      navMenu?.classList.toggle("is-open", !open);
+    });
+
+    /* Sticky header */
+    const header = document.querySelector("[data-header]");
+    window.addEventListener("scroll", () => header?.classList.toggle("is-scrolled", window.scrollY > 20));
+  </script>
+</body>
+</html>

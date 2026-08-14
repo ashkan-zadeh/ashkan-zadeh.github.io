@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lidar">
+<head>
+  <meta charset="UTF-8">
+  <script>document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||"lidar");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research projects by Ashkan Yousefi Zadeh — datasets, publications, and tools for human-centred XAI in automated driving.">
+  <title>Projects — Ashkan Yousefi Zadeh</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <style>
+    .page-shell { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+
+    .page-hero { padding: 4rem 0 2.5rem; border-bottom: 1px solid var(--line); }
+    .page-kicker {
+      font-family: var(--mono); font-size: .75rem; letter-spacing: .12em;
+      text-transform: uppercase; color: #e4b634; margin-bottom: 1rem;
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .page-kicker::before { content: ""; display: block; width: 28px; height: 1px; background: #e4b634; }
+    .page-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 900; letter-spacing: -.03em; margin-bottom: .8rem; color: #ffffff; }
+    .page-sub { font-size: 1rem; color: #c8d8f0; max-width: 580px; line-height: 1.6; }
+
+    .projects-grid { padding: 2.5rem 0; display: grid; gap: 1.5rem; }
+
+    .project-card {
+      display: grid; grid-template-columns: 1fr;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+      overflow: hidden; text-decoration: none; color: inherit;
+      transition: border-color .25s, transform .25s, box-shadow .25s;
+    }
+    .project-card:hover {
+      border-color: #e4b634;
+      transform: translateY(-3px);
+      box-shadow: 0 16px 48px rgba(0,0,0,.3);
+    }
+    @media (min-width: 640px) {
+      .project-card { grid-template-columns: 280px 1fr; }
+    }
+
+    .card-thumb {
+      background: #000; overflow: hidden; aspect-ratio: 16/9;
+      position: relative;
+    }
+    .card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .card-thumb-overlay {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,.35); opacity: 0; transition: opacity .25s;
+    }
+    .project-card:hover .card-thumb-overlay { opacity: 1; }
+    .card-thumb-overlay span {
+      background: var(--teal); color: #000; font-weight: 700; font-size: .82rem;
+      padding: .35rem .8rem; border-radius: 4px; font-family: var(--mono);
+    }
+
+    .card-body { padding: 1.6rem; display: flex; flex-direction: column; }
+    .card-kicker { font-family: var(--mono); font-size: .72rem; color: #e4b634; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .6rem; }
+    .card-title { font-size: 1.3rem; font-weight: 800; margin-bottom: .5rem; line-height: 1.2; color: #ffffff; }
+    .card-desc { font-size: .875rem; color: #c8d8f0; line-height: 1.65; margin-bottom: 1rem; flex: 1; }
+    .card-badges { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+    .card-badge {
+      font-family: var(--mono); font-size: .68rem; font-weight: 600;
+      padding: .18rem .55rem; border-radius: 3px; border: 1px solid var(--line);
+      background: rgba(255,255,255,.05); color: var(--muted);
+    }
+    .card-badge.hi { background: rgba(228,182,52,.15); color: #e4b634; border-color: rgba(228,182,52,.35); }
+    .card-arrow { font-size: .85rem; color: #e4b634; font-weight: 600; margin-top: auto; }
+
+    .page-footer { padding: 2.5rem 0; border-top: 1px solid var(--line); text-align: center; }
+    .page-footer a { color: #c8d8f0; font-size: .85rem; text-decoration: none; }
+    .page-footer a:hover { color: #e4b634; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header" data-header>
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="/" aria-label="Ashkan Yousefi Zadeh homepage">
+        <span class="brand-mark">AZ</span>
+        <span class="brand-text">
+          <strong>Ashkan</strong>
+          <small>Yousefi Zadeh</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu" data-nav-menu>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#research">Research</a></li>
+        <li><a href="/#publications">Publications</a></li>
+        <li><a href="/projects/" aria-current="page">Projects</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li class="theme-wrap">
+          <button class="theme-toggle" type="button" aria-label="Color theme" title="Color theme" aria-expanded="false" data-theme-toggle>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <circle cx="4.5" cy="4.5" r="2.5" fill="var(--teal)"/>
+              <circle cx="9.5" cy="4.5" r="2.5" fill="var(--amber)"/>
+              <circle cx="4.5" cy="9.5" r="2.5" fill="var(--coral)"/>
+              <circle cx="9.5" cy="9.5" r="2.5" fill="var(--blue)"/>
+            </svg>
+          </button>
+          <div class="theme-panel" data-theme-panel hidden>
+            <p class="theme-panel-label">Color theme</p>
+            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Lidar</span></button>
+            <button class="theme-option" data-theme-pick="horizon"><span class="theme-swatch theme-swatch--horizon"></span><span>Horizon</span></button>
+            <button class="theme-option" data-theme-pick="neural"><span class="theme-swatch theme-swatch--neural"></span><span>Neural</span></button>
+            <button class="theme-option" data-theme-pick="carbon"><span class="theme-swatch theme-swatch--carbon"></span><span>Carbon</span></button>
+            <button class="theme-option" data-theme-pick="spectrum"><span class="theme-swatch theme-swatch--spectrum"></span><span>Spectrum</span></button>
+            <button class="theme-option" data-theme-pick="aurora"><span class="theme-swatch theme-swatch--aurora"></span><span>Aurora</span></button>
+            <button class="theme-option" data-theme-pick="crimson"><span class="theme-swatch theme-swatch--crimson"></span><span>Crimson</span></button>
+            <button class="theme-option" data-theme-pick="dusk"><span class="theme-swatch theme-swatch--dusk"></span><span>Dusk</span></button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" style="padding-top: 72px;">
+    <div class="page-shell">
+
+      <div class="page-hero">
+        <p class="page-kicker">Research output</p>
+        <h1 class="page-title">Projects</h1>
+        <p class="page-sub">Datasets, tools, and publications from my research on human-centred explainable AI for automated driving.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- NARRATE -->
+        <a class="project-card" href="/projects/narrate/">
+          <div class="card-thumb">
+            <img src="/asset/img/narrate/narrate_sample.png"
+                 alt="NARRATE dataset sample" loading="lazy">
+            <div class="card-thumb-overlay"><span>View project →</span></div>
+          </div>
+          <div class="card-body">
+            <p class="card-kicker">Dataset · ECCV 2026</p>
+            <h2 class="card-title">NARRATE</h2>
+            <p class="card-desc">
+              A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving.
+              2,050 annotated events from 35 drivers — cameras, LiDAR, and natural language explanations.
+            </p>
+            <div class="card-badges">
+              <span class="card-badge hi">ECCV 2026</span>
+              <span class="card-badge hi">DriveX Workshop</span>
+              <span class="card-badge">2,050 events</span>
+              <span class="card-badge">Multimodal</span>
+              <span class="card-badge">Brisbane, AU</span>
+            </div>
+            <span class="card-arrow">Explore project →</span>
+          </div>
+        </a>
+
+      </div><!-- /projects-grid -->
+
+      <div class="page-footer">
+        <a href="/">← Back to homepage</a>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    const THEMES = ["lidar","horizon","neural","carbon","spectrum","aurora","crimson","dusk"];
+    const themeToggle = document.querySelector("[data-theme-toggle]");
+    const themePanel  = document.querySelector("[data-theme-panel]");
+    const navToggle   = document.querySelector("[data-nav-toggle]");
+    const navMenu     = document.querySelector("[data-nav-menu]");
+
+    function applyTheme(name) {
+      if (!THEMES.includes(name)) return;
+      document.documentElement.setAttribute("data-theme", name);
+      localStorage.setItem("theme", name);
+      document.querySelectorAll("[data-theme-pick]").forEach(b =>
+        b.classList.toggle("is-active", b.dataset.themePick === name));
+    }
+    applyTheme(localStorage.getItem("theme") || "lidar");
+
+    themeToggle?.addEventListener("click", e => {
+      e.stopPropagation();
+      const open = themePanel.hidden;
+      themePanel.hidden = !open;
+      themeToggle.setAttribute("aria-expanded", String(open));
+    });
+    document.querySelectorAll("[data-theme-pick]").forEach(btn =>
+      btn.addEventListener("click", () => { applyTheme(btn.dataset.themePick); themePanel.hidden = true; }));
+    document.addEventListener("click", () => { if (themePanel) themePanel.hidden = true; });
+
+    navToggle?.addEventListener("click", () => {
+      const open = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!open));
+      navMenu?.classList.toggle("is-open", !open);
+    });
+
+    const header = document.querySelector("[data-header]");
+    window.addEventListener("scroll", () => header?.classList.toggle("is-scrolled", window.scrollY > 20));
+  </script>
+</body>
+</html>
