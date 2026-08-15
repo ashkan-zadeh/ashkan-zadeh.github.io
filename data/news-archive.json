@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-08-13T07:56:09.772289Z",
+  "updated_at": "2026-08-15T07:00:12.896974Z",
   "items": [
+    {
+      "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
+      "topic": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2608.13450v1",
+      "source": "arXiv",
+      "published": "2026-08-13T16:33:44Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper proposes XCoT-VLA, a framework that replaces descriptive rationales with compact executable Chain-of-Thought tokens learned from automatically constructed Reason-Action supervision. XCoT-VLA connects scene understanding, semantic reasoning, and trajectory generation for autonomous driving, and the predicted XCoT sequence remains in context and conditions fixed trajectory queries through shared multimodal self-attention. This approach is crucial for real-time control in autonomous driving. The XCoT-VLA model is evaluated on logged trajectories, providing action evidence, while scene context supplies causal semantics.",
+      "abstract": "The arXiv paper proposes XCoT-VLA, a framework that replaces descriptive rationales with compact executable Chain-of-Thought tokens learned from automatically constructed Reason-Action supervision. XCoT-VLA connects scene understanding, semantic reasoning, and trajectory generation for autonomous driving, and the predicted XCoT sequence remains in context and conditions fixed trajectory queries through shared multimodal self-attention. This approach is crucial for real-time control in autonomous driving. The XCoT-VLA model is evaluated on logged trajectories, providing action evidence, while scene context supplies causal semantics.",
+      "score": 92
+    },
+    {
+      "title": "Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences",
+      "topic": "Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences",
+      "url": "https://arxiv.org/abs/2608.12615v1",
+      "source": "arXiv",
+      "published": "2026-08-12T21:54:18Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The arXiv paper presents BrainWAM, a unified planner that leverages both semantic priors and predictive dynamics for autonomous driving. BrainWAM coordinates action-space semantic priors and predictive dynamics through a novel attention-allocation mechanism, inspired by neuroscience evidence on complex behavior. This approach addresses the attention-allocation mismatch in naive combinations of Vision-Language-Action models and World Action Models. The BrainWAM model is designed to provide a more comprehensive understanding of the driving environment, enhancing the decision-making capabilities of autonomous vehicles.",
+      "abstract": "The arXiv paper presents BrainWAM, a unified planner that leverages both semantic priors and predictive dynamics for autonomous driving. BrainWAM coordinates action-space semantic priors and predictive dynamics through a novel attention-allocation mechanism, inspired by neuroscience evidence on complex behavior. This approach addresses the attention-allocation mismatch in naive combinations of Vision-Language-Action models and World Action Models. The BrainWAM model is designed to provide a more comprehensive understanding of the driving environment, enhancing the decision-making capabilities of autonomous vehicles.",
+      "score": 90
+    },
     {
       "title": "As AI safety concerns mount, three pioneers make the case for staying open",
       "topic": "As AI safety concerns mount, three pioneers make the case for staying open",
