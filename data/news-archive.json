@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-08-19T07:07:58.997951Z",
+  "updated_at": "2026-08-20T07:08:48.406188Z",
   "items": [
+    {
+      "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+      "topic": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSlBIcjVwN3NMcS0zUUtHZDZxNl9YcVdHbHZfYUFUQVNXSjR6UVVOR2NRQ0w4ZzlFMkhmekNHNmdVams5QmpULWhQZEk4UWozRG1iLU9QbEpmYzY2VEVqYWlhbUdQZFY3WlFqVXU4enlOZ2NSeEY5R0UzUG5LazlGWUJqQlhiNDFlY0FkaTFhQmZOM2RlWFlJSGUyUW8tWVdxb2MtdkFFcDF1OVFFbk8zdVN1SGtOUQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-19T22:25:01Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has launched its next-generation robotaxi, which is now available to all riders in Phoenix, San Francisco, and Los Angeles. The new model is reportedly more affordable and features advanced autonomous driving technology, marking a significant step towards wider public adoption of robotaxis.",
+      "abstract": "Waymo has launched its next-generation robotaxi, which is now available to all riders in Phoenix, San Francisco, and Los Angeles. The new model is reportedly more affordable and features advanced autonomous driving technology, marking a significant step towards wider public adoption of robotaxis.",
+      "score": 95
+    },
+    {
+      "title": "GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning",
+      "topic": "GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning",
+      "url": "https://arxiv.org/abs/2608.18254v1",
+      "source": "arXiv",
+      "published": "2026-08-18T19:09:32Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers from the University of Oxford proposed GAPL, a framework that integrates LLM-based effect estimation, simulation-based effect grounding, and policy optimization for trajectory planning in autonomous driving. GAPL addresses the limitations of LLMs in high-level reasoning and precise control, enhancing both interpretability and robustness in complex driving scenarios.",
+      "abstract": "Researchers from the University of Oxford proposed GAPL, a framework that integrates LLM-based effect estimation, simulation-based effect grounding, and policy optimization for trajectory planning in autonomous driving. GAPL addresses the limitations of LLMs in high-level reasoning and precise control, enhancing both interpretability and robustness in complex driving scenarios.",
+      "score": 90
+    },
     {
       "title": "Tesla ‘Robotaxi’ rams through bollards weeks after ‘impeccable’ claim",
       "topic": "Tesla ‘Robotaxi’ rams through bollards weeks after ‘impeccable’ claim",
@@ -11,6 +33,28 @@
       "summary": "Tesla’s Robotaxi, which the company claimed to be 'impeccable,' was involved in an incident where it rammed through bollards. This event raises questions about the reliability and safety of Tesla's autonomous driving technology, particularly in real-world scenarios.",
       "abstract": "Tesla’s Robotaxi, which the company claimed to be 'impeccable,' was involved in an incident where it rammed through bollards. This event raises questions about the reliability and safety of Tesla's autonomous driving technology, particularly in real-world scenarios.",
       "score": 95
+    },
+    {
+      "title": "China's Pony.ai plans to deploy more than 4,000 robotaxis abroad",
+      "topic": "China's Pony.ai plans to deploy more than 4,000 robotaxis abroad",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaUZLRVdHWnB1NFFOenZ4SHRKYmljRV9HWE9OTFMzSlBmaXNlNnFaQVNpclJjRXFCQ3V4LWxuTThwaHROd0NmeU5yc1l1QTQtOEVUNGYyX1lTM0dueHZkVGE0Y3lqbUk5QzR4d3NQZzhkcjdvWlhmMEpGd3BsRFJwd2EwMXhtWUV2a0RCMkFKei1hRUwzOGlndnlDcjBJOVlNQ19fTXJLMTBVLVVMMml4UjA2VHdQUWx5d3dtLVFxc1drc3VSVG14cGJQLXRXa2s?oc=5",
+      "source": "reuters.com",
+      "published": "2026-08-18T10:54:22Z",
+      "category": "automated-vehicles",
+      "summary": "Pony.ai, a Chinese autonomous vehicle company, plans to deploy over 4,000 robotaxis in international markets. This ambitious expansion aims to bring advanced autonomous driving technology to a broader audience, potentially accelerating the global adoption of robotaxis.",
+      "abstract": "Pony.ai, a Chinese autonomous vehicle company, plans to deploy over 4,000 robotaxis in international markets. This ambitious expansion aims to bring advanced autonomous driving technology to a broader audience, potentially accelerating the global adoption of robotaxis.",
+      "score": 88
+    },
+    {
+      "title": "The Powerful Chinese AI Model Experts Warned About—and Waited for—Is Here",
+      "topic": "The Powerful Chinese AI Model Experts Warned About—and Waited for—Is Here",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX0QxcFZOYUpXNWVMZ284dGpQRGJIZ2d0WlFleUk5QlFDZXE3eV9kTXVmN0tYUlg5NEJSWGI2eXYyQ2ZsbWRzRDI4bDZHVGpvSEt1bVU5c0JEWnRHSTN2SFpXRUZPZy1JQVhmT2dmMkVmUzV4VDVOTTBCcVdtMURrZC1Cdzh6X3NsZlBQYw?oc=5",
+      "source": "WIRED",
+      "published": "2026-08-18T09:00:00Z",
+      "category": "ai",
+      "summary": "A powerful Chinese AI model, previously warned about by experts, has been developed and is now operational. The model's capabilities and potential implications for global AI competition and safety are drawing significant attention from the international community.",
+      "abstract": "A powerful Chinese AI model, previously warned about by experts, has been developed and is now operational. The model's capabilities and potential implications for global AI competition and safety are drawing significant attention from the international community.",
+      "score": 86
     },
     {
       "title": "Tesla grows Robotaxi fleet by 50%, Einride gets a partner, and China goes BIG",
