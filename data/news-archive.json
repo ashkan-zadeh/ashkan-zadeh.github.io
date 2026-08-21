@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-08-20T07:08:48.406188Z",
+  "updated_at": "2026-08-21T07:10:33.518494Z",
   "items": [
+    {
+      "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+      "topic": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.20129v1",
+      "source": "arXiv",
+      "published": "2026-08-20T14:56:15Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A hybrid framework for autonomous driving, proposed by researchers, integrates PPO-trained reinforcement learning, PID control, and LLM common-sense reasoning. The system uses an orchestrator to coordinate these components, enhancing robust perception and decision-making in diverse and unseen scenarios.",
+      "abstract": "A hybrid framework for autonomous driving, proposed by researchers, integrates PPO-trained reinforcement learning, PID control, and LLM common-sense reasoning. The system uses an orchestrator to coordinate these components, enhancing robust perception and decision-making in diverse and unseen scenarios.",
+      "score": 90
+    },
     {
       "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
       "topic": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
