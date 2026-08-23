@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-08-22T07:02:17.799566Z",
+  "updated_at": "2026-08-23T07:04:10.817388Z",
   "items": [
+    {
+      "title": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
+      "topic": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUktSRUZlaXlGY0cxeHZJT0ltazNHUV8wTlpBQVJfckQyZW9yOVpKeHgwenNvdXlydEZhSzBOSXJPcHJQRzc2dTRaS05lRU9ZXy1pRTJRc2pZdlhKVWZpZFpqVzVrdVhUN0FlLUpyUlc3S291Y19ndGVEY3prWV8zMXN6NjlzUVhyRkMzc1NYLWZIRDBJ?oc=5",
+      "source": "Engadget",
+      "published": "2026-08-22T19:27:04Z",
+      "category": "ai",
+      "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
+      "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
+      "score": 80
+    },
     {
       "title": "Waymo hands over documents in NHTSA’s child collision probe",
       "topic": "Waymo hands over documents in NHTSA’s child collision probe",
@@ -24,6 +35,17 @@
       "score": 93
     },
     {
+      "title": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
+      "topic": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2pPUnhBdmZpNm5VRG9tSjZ3R2d3OWF3ZlhUMlluX3RDUDJsa1otaUJJc0hNQzRTSTVVbFlFYWlSS0dnYWtrZDJIemQtOHdoancyWVJjZWlSWDJpS05QWHh5OHA5OVlIblRwQldpUDRMTUctcGVSeGNZbXg2cHlUTzlYa3ZBbHJHQm5FVks5bw?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-08-21T11:59:00Z",
+      "category": "automated-vehicles",
+      "summary": "Nevada has approved Uber, Tesla, and Waymo to launch paid robotaxi services, potentially allowing thousands of autonomous vehicles to operate in the state. This decision marks a significant step towards the commercialization of autonomous driving technology, providing a real-world testbed for these companies.",
+      "abstract": "Nevada has approved Uber, Tesla, and Waymo to launch paid robotaxi services, potentially allowing thousands of autonomous vehicles to operate in the state. This decision marks a significant step towards the commercialization of autonomous driving technology, providing a real-world testbed for these companies.",
+      "score": 95
+    },
+    {
       "title": "Nevada Allows Uber, Tesla And Waymo To Start Paid Robotaxi Service",
       "topic": "Nevada Allows Uber, Tesla And Waymo To Start Paid Robotaxi Service",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcXhyYVVCRmN5RUE2OE9qZk9WLTdOWTFsUFRlSFJkMXk2Y2w0NDZkZnhtX1p2QXphSHMyNDAzZ01vMGpiRDdfbnprcFA0Y1RxWU9CaXB4MXRWM2VCRm9hdjdLdDROcHZoM1pVRjhjZDdBWWRNRWx4anphT0IwRlptZFV5V3pTUQ?oc=5",
@@ -33,6 +55,17 @@
       "summary": "Nevada has granted permission to Uber, Tesla, and Waymo to start paid robotaxi services. This regulatory approval marks a significant milestone in the commercial deployment of autonomous vehicles, allowing these companies to offer rides to the public for a fee.",
       "abstract": "Nevada has granted permission to Uber, Tesla, and Waymo to start paid robotaxi services. This regulatory approval marks a significant milestone in the commercial deployment of autonomous vehicles, allowing these companies to offer rides to the public for a fee.",
       "score": 90
+    },
+    {
+      "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
+      "topic": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjlGY3BSZFQwQURJTnlDbFZlY1pKN28xandVX0NURjY4bVF2WnQyMmRiUXJjcUhrc1RZUmJGZUkzUWJ3X2pnd3NZa3phYjBWM0s1OGctdVlVaGZ2c1VmRFZSWWhPaHlsbjUwSFVia2RGUk9UZWNKV1NVYU93Y0N0V3VWbUJfWkRURm1mbjRCdXlQTXEzY1hrTllrd3o5ZlppOVk5VnI3blUtUkZ3NHl5OGJqMjQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-21T00:23:36Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla, Uber, and Waymo have received approval to operate thousands of robotaxis in Nevada, marking a significant step towards the commercialization of autonomous driving technology. This decision will allow these companies to test and refine their autonomous systems in a real-world setting.",
+      "abstract": "Tesla, Uber, and Waymo have received approval to operate thousands of robotaxis in Nevada, marking a significant step towards the commercialization of autonomous driving technology. This decision will allow these companies to test and refine their autonomous systems in a real-world setting.",
+      "score": 95
     },
     {
       "title": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
