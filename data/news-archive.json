@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T07:04:10.817388Z",
+  "updated_at": "2026-08-24T07:30:44.292333Z",
   "items": [
     {
       "title": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
@@ -10,6 +10,17 @@
       "category": "ai",
       "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
       "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
+      "score": 80
+    },
+    {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "topic": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEtxYVJNZVpadnhFd05FSUowYlhmaXhHN0pZWUhUU3dCTnFyZVBZM2JsS2NxcDVkNUJ0a2NocGd0UlZpaGlNNFBFWlNEeGZBaU5ibFd3bXh5cl8zNFJVZDJYQkZ0SE9INkpoN0N5VGhEOXoySzdUNXhoY0lxelRWbXRaTkl1dEM4S2tEOE5HbXdNYUVXZ3lSRkd3?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-22T16:30:34Z",
+      "category": "ai",
+      "summary": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
+      "abstract": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
       "score": 80
     },
     {
@@ -2365,6 +2376,17 @@
       "summary": "Headline tracked from Bloomberg.com as a recent automated vehicle signal.",
       "abstract": "Commercial autonomous-driving programs continue to face deployment, safety, and operational scrutiny.",
       "score": 51
+    },
+    {
+      "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "topic": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "url": "http://ieeexplore.ieee.org/document/11478733",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-04-10T13:16:09Z",
+      "category": "journal-rss",
+      "summary": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
+      "abstract": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
+      "score": 84
     },
     {
       "title": "Handling the Hidden: Occlusion-Aware Motion Prediction for Autonomous Vehicles",

@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-23T07:04:10.813309Z",
+  "generated_at": "2026-08-24T07:30:44.288168Z",
   "items": [
+    {
+      "title": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
+      "topic": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYldaNlZvMlFFdm9TZjZnem81MjJ4Y3hIa2FyY2tNUGlQb1d3Y2o1UUtmVnM2TnRfZWZHRV9GWFVBc1M2ZjZmNGFnTFZnMHd1eHk2NUFNRU5GckYweWhMeW5BTE53Vy1NWHdYdWhWWGoyQlY4aUF2SmhKeGxZOUFoQzNmdUFXWjRLTk5WTENBRU9QTzFoWlhWVzRBallfMmZkMkVhZnBnUktUQQ?oc=5",
+      "source": "Engadget",
+      "published": "2026-08-20T15:50:56Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's robotaxi fleet is reportedly operating unsupervised in Austin, marking a significant milestone in the deployment of autonomous vehicles. The company's Full Self-Driving (FSD) technology is being tested in real-world conditions, which could accelerate the commercialization of robotaxis. This deployment is crucial for validating the safety and reliability of Tesla's AV systems.",
+      "abstract": "Tesla's robotaxi fleet is reportedly operating unsupervised in Austin, marking a significant milestone in the deployment of autonomous vehicles. The company's Full Self-Driving (FSD) technology is being tested in real-world conditions, which could accelerate the commercialization of robotaxis. This deployment is crucial for validating the safety and reliability of Tesla's AV systems.",
+      "score": 95
+    },
     {
       "title": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
       "topic": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
@@ -8,9 +19,9 @@
       "source": "InsideEVs",
       "published": "2026-08-21T11:59:00Z",
       "category": "automated-vehicles",
-      "summary": "Nevada has approved Uber, Tesla, and Waymo to launch paid robotaxi services, potentially allowing thousands of autonomous vehicles to operate in the state. This decision marks a significant step towards the commercialization of autonomous driving technology, providing a real-world testbed for these companies.",
-      "abstract": "Nevada has approved Uber, Tesla, and Waymo to launch paid robotaxi services, potentially allowing thousands of autonomous vehicles to operate in the state. This decision marks a significant step towards the commercialization of autonomous driving technology, providing a real-world testbed for these companies.",
-      "score": 95
+      "summary": "Nevada has approved Tesla, Uber, and Waymo to launch paid robotaxi services, potentially deploying thousands of autonomous vehicles. This regulatory green light is a major step forward for the commercialization of AVs, allowing these companies to test and refine their technologies in a real-world setting. The move could set a precedent for other states to follow.",
+      "abstract": "Nevada has approved Tesla, Uber, and Waymo to launch paid robotaxi services, potentially deploying thousands of autonomous vehicles. This regulatory green light is a major step forward for the commercialization of AVs, allowing these companies to test and refine their technologies in a real-world setting. The move could set a precedent for other states to follow.",
+      "score": 90
     },
     {
       "title": "Nevada Allows Uber, Tesla And Waymo To Start Paid Robotaxi Service",
@@ -19,9 +30,9 @@
       "source": "Engadget",
       "published": "2026-08-21T08:47:02Z",
       "category": "automated-vehicles",
-      "summary": "Nevada has granted permission to Uber, Tesla, and Waymo to start paid robotaxi services, enabling the deployment of thousands of autonomous vehicles. This regulatory move is a major milestone for the commercialization of autonomous driving technology, offering a large-scale real-world test environment.",
-      "abstract": "Nevada has granted permission to Uber, Tesla, and Waymo to start paid robotaxi services, enabling the deployment of thousands of autonomous vehicles. This regulatory move is a major milestone for the commercialization of autonomous driving technology, offering a large-scale real-world test environment.",
-      "score": 95
+      "summary": "Nevada has granted permission to Uber, Tesla, and Waymo to begin paid robotaxi services, paving the way for the widespread deployment of autonomous vehicles. This decision allows these companies to operate thousands of robotaxis, which will help them gather valuable data and improve their AV technologies. The move is expected to accelerate the adoption of autonomous ride-hailing services.",
+      "abstract": "Nevada has granted permission to Uber, Tesla, and Waymo to begin paid robotaxi services, paving the way for the widespread deployment of autonomous vehicles. This decision allows these companies to operate thousands of robotaxis, which will help them gather valuable data and improve their AV technologies. The move is expected to accelerate the adoption of autonomous ride-hailing services.",
+      "score": 90
     },
     {
       "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
@@ -30,41 +41,19 @@
       "source": "TechCrunch",
       "published": "2026-08-21T00:23:36Z",
       "category": "automated-vehicles",
-      "summary": "Tesla, Uber, and Waymo have received approval to operate thousands of robotaxis in Nevada, marking a significant step towards the commercialization of autonomous driving technology. This decision will allow these companies to test and refine their autonomous systems in a real-world setting.",
-      "abstract": "Tesla, Uber, and Waymo have received approval to operate thousands of robotaxis in Nevada, marking a significant step towards the commercialization of autonomous driving technology. This decision will allow these companies to test and refine their autonomous systems in a real-world setting.",
-      "score": 95
-    },
-    {
-      "title": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
-      "topic": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYldaNlZvMlFFdm9TZjZnem81MjJ4Y3hIa2FyY2tNUGlQb1d3Y2o1UUtmVnM2TnRfZWZHRV9GWFVBc1M2ZjZmNGFnTFZnMHd1eHk2NUFNRU5GckYweWhMeW5BTE53Vy1NWHdYdWhWWGoyQlY4aUF2SmhKeGxZOUFoQzNmdUFXWjRLTk5WTENBRU9QTzFoWlhWVzRBallfMmZkMkVhZnBnUktUQQ?oc=5",
-      "source": "Engadget",
-      "published": "2026-08-20T15:50:56Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's robotaxi fleet appears to be operating unsupervised in Austin, Texas, ahead of the Cybercab launch. This development suggests that Tesla's Full Self-Driving (FSD) technology is advancing towards full autonomy, a critical milestone for the company's AV ambitions.",
-      "abstract": "Tesla's robotaxi fleet appears to be operating unsupervised in Austin, Texas, ahead of the Cybercab launch. This development suggests that Tesla's Full Self-Driving (FSD) technology is advancing towards full autonomy, a critical milestone for the company's AV ambitions.",
+      "summary": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, marking a significant step in the commercialization of autonomous vehicles. The state's decision will enable these companies to test and refine their technologies in real-world conditions, potentially leading to safer and more efficient AV systems.",
+      "abstract": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, marking a significant step in the commercialization of autonomous vehicles. The state's decision will enable these companies to test and refine their technologies in real-world conditions, potentially leading to safer and more efficient AV systems.",
       "score": 90
     },
     {
-      "title": "Tesla Robotaxis appear to go fully unsupervised in Austin ahead of Cybercab launch",
-      "topic": "Tesla Robotaxis appear to go fully unsupervised in Austin ahead of Cybercab launch",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ19yQld6MnRPOFB6d3BpcG5EcWhBTVQxY3FySjBXWFpXaElCWkZ1V3U4djdTcl9LOGxlLUkwTXVfa1JxX2UyWE05d0k1cW9lVldnX19jUklReE1XRUxiSk5ueklBWkIzR05ISEYtVHJVanRkcmJyYUljazllTzdzT2xGUWJmMXBNcTA2VFliVWUyemlsSF9xZjd6RjlMeEU?oc=5",
-      "source": "The Verge",
-      "published": "2026-08-20T14:09:31Z",
+      "title": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
+      "topic": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0oxZE92cmNScVl3T2NfNTRtbF8taGFEeEtFZVB4U2RMR1E2Y2NmN3VhZ1BRSURRUnJVamhxZl8wUWV2X3R3VU9zLVVEUV95Y2pHMnpEbHBlbHpWSlJlaGd0dHctTXVHcEp1a0swV1E1dGw1ZEFKNEFIWlhYOE1kX09yVWhpUQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-20T14:46:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's robotaxis are reportedly operating unsupervised in Austin, Texas, ahead of the Cybercab launch. This indicates significant progress in Tesla's Full Self-Driving (FSD) technology, moving closer to full autonomy and commercial deployment.",
-      "abstract": "Tesla's robotaxis are reportedly operating unsupervised in Austin, Texas, ahead of the Cybercab launch. This indicates significant progress in Tesla's Full Self-Driving (FSD) technology, moving closer to full autonomy and commercial deployment.",
-      "score": 90
-    },
-    {
-      "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents | NVIDIA Technical Blog -...",
-      "topic": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents | NVIDIA Technical Blog -...",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeWdoMm9yUFVic2RHYzhQdkZobHFiZmp5YTRYV193V1ZyaEhLX2ZaS3JRbDI1b3AtdVgyU0Q4R004MXByVjJTa2E0b20tbjJSMnpTY3BtV3ZtcmtyZkNNUUJGTnU4T0lveExzS3ZiSDBuQVozRHpxcmV1UVUyUm9USDdqZm9BUEFjcm5aM0pQQzE3TzZPZWMtU3AxQjBZN2txbEVYclh6R1Ixa2dyalpfMU9XX1lXdzVpUTRBSmpFRlc0Ulh0Y1lGM3IxaFJLcV9JNDBWbEFTd08wNDFyQ3hlZnN4ckNLODV3d0J3TzRORGZhaUlKSDNsQg?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2026-08-21T13:03:45Z",
-      "category": "llm",
-      "summary": "NVIDIA's AVO architecture has achieved 100% on the ARC-AGI-3 benchmark, demonstrating its capabilities as a general-purpose architecture for long-horizon autonomous agents. This breakthrough highlights NVIDIA's advancements in AI for autonomous driving, emphasizing the importance of robust and adaptable AI models.",
-      "abstract": "NVIDIA's AVO architecture has achieved 100% on the ARC-AGI-3 benchmark, demonstrating its capabilities as a general-purpose architecture for long-horizon autonomous agents. This breakthrough highlights NVIDIA's advancements in AI for autonomous driving, emphasizing the importance of robust and adaptable AI models.",
+      "summary": "Waymo has opened its Zeekr Ojai robotaxis to the public in the United States, allowing riders to experience the Chinese EV in a fully autonomous setting. This deployment is part of Waymo's broader strategy to expand its robotaxi fleet and test the integration of different vehicle models into its autonomous driving system.",
+      "abstract": "Waymo has opened its Zeekr Ojai robotaxis to the public in the United States, allowing riders to experience the Chinese EV in a fully autonomous setting. This deployment is part of Waymo's broader strategy to expand its robotaxi fleet and test the integration of different vehicle models into its autonomous driving system.",
       "score": 85
     },
     {
@@ -74,8 +63,19 @@
       "source": "Engadget",
       "published": "2026-08-22T19:27:04Z",
       "category": "ai",
-      "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
-      "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for more stringent regulations to address growing concerns about AI safety. This advocacy reflects the increasing importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies.",
+      "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address growing concerns about AI safety. The organization's stance highlights the importance of legislative measures to ensure the responsible development and deployment of AI technologies, particularly in areas like autonomous vehicles.",
+      "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address growing concerns about AI safety. The organization's stance highlights the importance of legislative measures to ensure the responsible development and deployment of AI technologies, particularly in areas like autonomous vehicles.",
+      "score": 80
+    },
+    {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "topic": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEtxYVJNZVpadnhFd05FSUowYlhmaXhHN0pZWUhUU3dCTnFyZVBZM2JsS2NxcDVkNUJ0a2NocGd0UlZpaGlNNFBFWlNEeGZBaU5ibFd3bXh5cl8zNFJVZDJYQkZ0SE9INkpoN0N5VGhEOXoySzdUNXhoY0lxelRWbXRaTkl1dEM4S2tEOE5HbXdNYUVXZ3lSRkd3?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-08-22T16:30:34Z",
+      "category": "ai",
+      "summary": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
+      "abstract": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
       "score": 80
     },
     {
@@ -85,9 +85,20 @@
       "source": "arXiv",
       "published": "2026-07-24T08:23:07Z",
       "category": "arxiv-explainability-av",
-      "summary": "The CommandLM model, developed by a research group, generates human-readable behavior descriptions for ego vehicles using fused multi-sensor data. Trained on the CommandLM-nuScenes dataset, CommandLM achieves CIDEr 0.67 and BERT-F1 0.88, providing interpretable captions for planner supervision and safety auditing.",
-      "abstract": "The CommandLM model, developed by a research group, generates human-readable behavior descriptions for ego vehicles using fused multi-sensor data. Trained on the CommandLM-nuScenes dataset, CommandLM achieves CIDEr 0.67 and BERT-F1 0.88, providing interpretable captions for planner supervision and safety auditing.",
-      "score": 95
+      "summary": "As autonomous driving systems move toward real-world deployment, interpretable, behavior-level decision-making is essential for safety, trust, and regulation. We introduce CommandLM, a multimodal large language model that generates concise, human-readable behavior descriptions for ego vehicles from fused multi-sensor data. Our model processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model.",
+      "abstract": "As autonomous driving systems move toward real-world deployment, interpretable, behavior-level decision-making is essential for safety, trust, and regulation. We introduce CommandLM, a multimodal large language model that generates concise, human-readable behavior descriptions for ego vehicles from fused multi-sensor data. Our model processes temporally fused bird's-eye view representations from LiDAR and multi-camera inputs via a Q-Former adapter connected to a quantized, LoRA-fine-tuned large language model.",
+      "score": 85
+    },
+    {
+      "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "topic": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "url": "http://ieeexplore.ieee.org/document/11478733",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-04-10T13:16:09Z",
+      "category": "journal-rss",
+      "summary": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
+      "abstract": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
+      "score": 84
     },
     {
       "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
@@ -96,20 +107,9 @@
       "source": "arXiv",
       "published": "2026-08-20T14:56:15Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "A hybrid framework for autonomous driving, proposed by researchers, uses an orchestrator to coordinate PPO-trained reinforcement learning and PID control, enhanced by LLM common-sense reasoning. This approach addresses limitations in contextual reasoning and latency, improving decision-making in diverse scenarios.",
-      "abstract": "A hybrid framework for autonomous driving, proposed by researchers, uses an orchestrator to coordinate PPO-trained reinforcement learning and PID control, enhanced by LLM common-sense reasoning. This approach addresses limitations in contextual reasoning and latency, improving decision-making in diverse scenarios.",
-      "score": 90
-    },
-    {
-      "title": "CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation",
-      "topic": "CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation",
-      "url": "https://arxiv.org/abs/2607.22494v1",
-      "source": "arXiv",
-      "published": "2026-07-24T17:06:05Z",
-      "category": "arxiv-explainability-av",
-      "summary": "CARA, a framework developed by researchers, provides interpretable collision anticipation in autonomous driving. CARA uses domain-grounded risk concepts derived from accident narratives, aligning them with video frames to generate explicit risk evidence, enhancing both safety and interpretability.",
-      "abstract": "CARA, a framework developed by researchers, provides interpretable collision anticipation in autonomous driving. CARA uses domain-grounded risk concepts derived from accident narratives, aligning them with video frames to generate explicit risk evidence, enhancing both safety and interpretability.",
-      "score": 88
+      "summary": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks.",
+      "abstract": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks.",
+      "score": 75
     }
   ]
 }
