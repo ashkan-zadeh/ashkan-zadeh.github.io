@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-08-24T07:30:44.292333Z",
+  "updated_at": "2026-08-25T07:11:00.179364Z",
   "items": [
+    {
+      "title": "Tesla ‘Robotaxi’ sold a 66-minute 2.3-mile ride and left a rider 3 miles from his destination",
+      "topic": "Tesla ‘Robotaxi’ sold a 66-minute 2.3-mile ride and left a rider 3 miles from his destination",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZUFdPTzZSVW5pZE0yM001ZC14NEhhY0x6TGFoNnZnMFJUeU50dTk0RF85bnZscE93TkdHb0ZSLUxVYnpTQXNVRmF1ckszejV2RmVNU2FzQi04cVB4VHVpZ2pzUTk1VnBXOVZ0OFo2N0FFajA?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-24T21:43:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla robotaxi in Austin, Texas, reportedly completed a 2.3-mile ride but left the rider 3 miles from the intended destination. This incident highlights the ongoing challenges and potential risks associated with fully unsupervised autonomous vehicles.",
+      "abstract": "A Tesla robotaxi in Austin, Texas, reportedly completed a 2.3-mile ride but left the rider 3 miles from the intended destination. This incident highlights the ongoing challenges and potential risks associated with fully unsupervised autonomous vehicles.",
+      "score": 90
+    },
+    {
+      "title": "Robotaxis are real now — so is the pushback",
+      "topic": "Robotaxis are real now — so is the pushback",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1FKcWw1VnIxUWJkY1BnWWVXTS1QVjdaOU5sd2p0WGk1MTdYeHc4MWtCMUFqSDgxMmdUMFJUVG9oZEZGYXdtaEN6ckxuSzVQMFpoTnRHQnRRZW92ell6a3FnN2hTdTJVQ3hqSXpXLUwtNmg5OTBseE4tUGVuYS1udlBXRU5qUGxQMW5uTU10bEYzWFRuZTJ4YQ?oc=5",
+      "source": "The Verge",
+      "published": "2026-08-24T16:42:37Z",
+      "category": "automated-vehicles",
+      "summary": "The deployment of robotaxis by companies like Waymo, Tesla, and Uber is facing increasing public scrutiny and pushback. Concerns over safety, job displacement, and regulatory oversight are driving a growing debate about the role of autonomous vehicles in urban transportation.",
+      "abstract": "The deployment of robotaxis by companies like Waymo, Tesla, and Uber is facing increasing public scrutiny and pushback. Concerns over safety, job displacement, and regulatory oversight are driving a growing debate about the role of autonomous vehicles in urban transportation.",
+      "score": 75
+    },
     {
       "title": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
       "topic": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
@@ -92,6 +114,17 @@
     {
       "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
       "topic": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.20129v2",
+      "source": "arXiv",
+      "published": "2026-08-20T14:56:15Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks.",
+      "abstract": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks.",
+      "score": 75
+    },
+    {
+      "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+      "topic": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
       "url": "https://arxiv.org/abs/2608.20129v1",
       "source": "arXiv",
       "published": "2026-08-20T14:56:15Z",
@@ -143,6 +176,17 @@
       "summary": "Waymo has launched its next-generation robotaxi, which is now available to all riders in Phoenix, San Francisco, and Los Angeles. The new model is reportedly more affordable and features advanced autonomous driving technology, marking a significant step towards wider public adoption of robotaxis.",
       "abstract": "Waymo has launched its next-generation robotaxi, which is now available to all riders in Phoenix, San Francisco, and Los Angeles. The new model is reportedly more affordable and features advanced autonomous driving technology, marking a significant step towards wider public adoption of robotaxis.",
       "score": 95
+    },
+    {
+      "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE | NVIDIA Technical Blog",
+      "topic": "Building Federated Multimodal AI Workflows with NVIDIA FLARE | NVIDIA Technical Blog",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGQwWlNNZkhNNlRUMkR6Mnc3aEc2Y182VnA4b0c2elFraGNKX1VNOUhOM25jQmFFMkpGbzdfTlhLVXFKMUZrajhOWnIxa0RkTDVGNEdiZmlVTXVZRkVaWDVfVktmSzlMelEtcFJiSHRFQTM2WHVORFY5YkN2TlE3RGpBbDNoY0JsOTJEQW12WnUzckZVUmhNdDJQNA?oc=5",
+      "source": "NVIDIA Developer",
+      "published": "2026-08-19T17:54:15Z",
+      "category": "vlm",
+      "summary": "NVIDIA has introduced a new framework, FLARE, for building federated multimodal AI workflows. This technology enables the training of AI models across multiple data sources while maintaining data privacy, which is crucial for advancing autonomous driving systems that require diverse and large datasets.",
+      "abstract": "NVIDIA has introduced a new framework, FLARE, for building federated multimodal AI workflows. This technology enables the training of AI models across multiple data sources while maintaining data privacy, which is crucial for advancing autonomous driving systems that require diverse and large datasets.",
+      "score": 80
     },
     {
       "title": "GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning",

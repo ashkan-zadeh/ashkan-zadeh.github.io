@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-08-24T07:30:44.288168Z",
+  "generated_at": "2026-08-25T07:11:00.174493Z",
   "items": [
-    {
-      "title": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
-      "topic": "Tesla's Robotaxi Fleet Might Finally Be Driving Around Austin Unsupervised",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYldaNlZvMlFFdm9TZjZnem81MjJ4Y3hIa2FyY2tNUGlQb1d3Y2o1UUtmVnM2TnRfZWZHRV9GWFVBc1M2ZjZmNGFnTFZnMHd1eHk2NUFNRU5GckYweWhMeW5BTE53Vy1NWHdYdWhWWGoyQlY4aUF2SmhKeGxZOUFoQzNmdUFXWjRLTk5WTENBRU9QTzFoWlhWVzRBallfMmZkMkVhZnBnUktUQQ?oc=5",
-      "source": "Engadget",
-      "published": "2026-08-20T15:50:56Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's robotaxi fleet is reportedly operating unsupervised in Austin, marking a significant milestone in the deployment of autonomous vehicles. The company's Full Self-Driving (FSD) technology is being tested in real-world conditions, which could accelerate the commercialization of robotaxis. This deployment is crucial for validating the safety and reliability of Tesla's AV systems.",
-      "abstract": "Tesla's robotaxi fleet is reportedly operating unsupervised in Austin, marking a significant milestone in the deployment of autonomous vehicles. The company's Full Self-Driving (FSD) technology is being tested in real-world conditions, which could accelerate the commercialization of robotaxis. This deployment is crucial for validating the safety and reliability of Tesla's AV systems.",
-      "score": 95
-    },
-    {
-      "title": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
-      "topic": "Nevada Opens The Door To Thousands Of Paid Robotaxis, And Tesla Has The Edge",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2pPUnhBdmZpNm5VRG9tSjZ3R2d3OWF3ZlhUMlluX3RDUDJsa1otaUJJc0hNQzRTSTVVbFlFYWlSS0dnYWtrZDJIemQtOHdoancyWVJjZWlSWDJpS05QWHh5OHA5OVlIblRwQldpUDRMTUctcGVSeGNZbXg2cHlUTzlYa3ZBbHJHQm5FVks5bw?oc=5",
-      "source": "InsideEVs",
-      "published": "2026-08-21T11:59:00Z",
-      "category": "automated-vehicles",
-      "summary": "Nevada has approved Tesla, Uber, and Waymo to launch paid robotaxi services, potentially deploying thousands of autonomous vehicles. This regulatory green light is a major step forward for the commercialization of AVs, allowing these companies to test and refine their technologies in a real-world setting. The move could set a precedent for other states to follow.",
-      "abstract": "Nevada has approved Tesla, Uber, and Waymo to launch paid robotaxi services, potentially deploying thousands of autonomous vehicles. This regulatory green light is a major step forward for the commercialization of AVs, allowing these companies to test and refine their technologies in a real-world setting. The move could set a precedent for other states to follow.",
-      "score": 90
-    },
     {
       "title": "Nevada Allows Uber, Tesla And Waymo To Start Paid Robotaxi Service",
       "topic": "Nevada Allows Uber, Tesla And Waymo To Start Paid Robotaxi Service",
@@ -30,9 +8,9 @@
       "source": "Engadget",
       "published": "2026-08-21T08:47:02Z",
       "category": "automated-vehicles",
-      "summary": "Nevada has granted permission to Uber, Tesla, and Waymo to begin paid robotaxi services, paving the way for the widespread deployment of autonomous vehicles. This decision allows these companies to operate thousands of robotaxis, which will help them gather valuable data and improve their AV technologies. The move is expected to accelerate the adoption of autonomous ride-hailing services.",
-      "abstract": "Nevada has granted permission to Uber, Tesla, and Waymo to begin paid robotaxi services, paving the way for the widespread deployment of autonomous vehicles. This decision allows these companies to operate thousands of robotaxis, which will help them gather valuable data and improve their AV technologies. The move is expected to accelerate the adoption of autonomous ride-hailing services.",
-      "score": 90
+      "summary": "Nevada has granted permission to Uber, Tesla, and Waymo to operate thousands of robotaxis in the state. This marks a significant step towards the commercialization of autonomous vehicle services, allowing these companies to expand their fleets and offer paid rides to the public.",
+      "abstract": "Nevada has granted permission to Uber, Tesla, and Waymo to operate thousands of robotaxis in the state. This marks a significant step towards the commercialization of autonomous vehicle services, allowing these companies to expand their fleets and offer paid rides to the public.",
+      "score": 95
     },
     {
       "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
@@ -41,20 +19,53 @@
       "source": "TechCrunch",
       "published": "2026-08-21T00:23:36Z",
       "category": "automated-vehicles",
-      "summary": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, marking a significant step in the commercialization of autonomous vehicles. The state's decision will enable these companies to test and refine their technologies in real-world conditions, potentially leading to safer and more efficient AV systems.",
-      "abstract": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, marking a significant step in the commercialization of autonomous vehicles. The state's decision will enable these companies to test and refine their technologies in real-world conditions, potentially leading to safer and more efficient AV systems.",
+      "summary": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, enabling these companies to provide paid autonomous rides. This regulatory approval is a major milestone in the deployment of commercial robotaxi services, potentially transforming urban transportation.",
+      "abstract": "Nevada has approved Tesla, Uber, and Waymo to operate thousands of robotaxis, enabling these companies to provide paid autonomous rides. This regulatory approval is a major milestone in the deployment of commercial robotaxi services, potentially transforming urban transportation.",
+      "score": 95
+    },
+    {
+      "title": "Tesla ‘Robotaxi’ sold a 66-minute 2.3-mile ride and left a rider 3 miles from his destination",
+      "topic": "Tesla ‘Robotaxi’ sold a 66-minute 2.3-mile ride and left a rider 3 miles from his destination",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZUFdPTzZSVW5pZE0yM001ZC14NEhhY0x6TGFoNnZnMFJUeU50dTk0RF85bnZscE93TkdHb0ZSLUxVYnpTQXNVRmF1ckszejV2RmVNU2FzQi04cVB4VHVpZ2pzUTk1VnBXOVZ0OFo2N0FFajA?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-24T21:43:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla robotaxi in Austin, Texas, reportedly completed a 2.3-mile ride but left the rider 3 miles from the intended destination. This incident highlights the ongoing challenges and potential risks associated with fully unsupervised autonomous vehicles.",
+      "abstract": "A Tesla robotaxi in Austin, Texas, reportedly completed a 2.3-mile ride but left the rider 3 miles from the intended destination. This incident highlights the ongoing challenges and potential risks associated with fully unsupervised autonomous vehicles.",
       "score": 90
     },
     {
-      "title": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
-      "topic": "You can now ride a Chinese EV in the US as Waymo opens Zeekr Ojai to all",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0oxZE92cmNScVl3T2NfNTRtbF8taGFEeEtFZVB4U2RMR1E2Y2NmN3VhZ1BRSURRUnJVamhxZl8wUWV2X3R3VU9zLVVEUV95Y2pHMnpEbHBlbHpWSlJlaGd0dHctTXVHcEp1a0swV1E1dGw1ZEFKNEFIWlhYOE1kX09yVWhpUQ?oc=5",
-      "source": "Electrek",
-      "published": "2026-08-20T14:46:00Z",
+      "title": "Tesla Robotaxis appear to go fully unsupervised in Austin ahead of Cybercab launch",
+      "topic": "Tesla Robotaxis appear to go fully unsupervised in Austin ahead of Cybercab launch",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ19yQld6MnRPOFB6d3BpcG5EcWhBTVQxY3FySjBXWFpXaElCWkZ1V3U4djdTcl9LOGxlLUkwTXVfa1JxX2UyWE05d0k1cW9lVldnX19jUklReE1XRUxiSk5ueklBWkIzR05ISEYtVHJVanRkcmJyYUljazllTzdzT2xGUWJmMXBNcTA2VFliVWUyemlsSF9xZjd6RjlMeEU?oc=5",
+      "source": "The Verge",
+      "published": "2026-08-20T14:09:31Z",
       "category": "automated-vehicles",
-      "summary": "Waymo has opened its Zeekr Ojai robotaxis to the public in the United States, allowing riders to experience the Chinese EV in a fully autonomous setting. This deployment is part of Waymo's broader strategy to expand its robotaxi fleet and test the integration of different vehicle models into its autonomous driving system.",
-      "abstract": "Waymo has opened its Zeekr Ojai robotaxis to the public in the United States, allowing riders to experience the Chinese EV in a fully autonomous setting. This deployment is part of Waymo's broader strategy to expand its robotaxi fleet and test the integration of different vehicle models into its autonomous driving system.",
+      "summary": "Tesla's robotaxis in Austin, Texas, appear to be operating without human supervision ahead of the Cybercab launch. This development suggests significant progress in Tesla's autonomous driving technology, but also raises questions about safety and regulatory oversight.",
+      "abstract": "Tesla's robotaxis in Austin, Texas, appear to be operating without human supervision ahead of the Cybercab launch. This development suggests significant progress in Tesla's autonomous driving technology, but also raises questions about safety and regulatory oversight.",
       "score": 85
+    },
+    {
+      "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE | NVIDIA Technical Blog",
+      "topic": "Building Federated Multimodal AI Workflows with NVIDIA FLARE | NVIDIA Technical Blog",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGQwWlNNZkhNNlRUMkR6Mnc3aEc2Y182VnA4b0c2elFraGNKX1VNOUhOM25jQmFFMkpGbzdfTlhLVXFKMUZrajhOWnIxa0RkTDVGNEdiZmlVTXVZRkVaWDVfVktmSzlMelEtcFJiSHRFQTM2WHVORFY5YkN2TlE3RGpBbDNoY0JsOTJEQW12WnUzckZVUmhNdDJQNA?oc=5",
+      "source": "NVIDIA Developer",
+      "published": "2026-08-19T17:54:15Z",
+      "category": "vlm",
+      "summary": "NVIDIA has introduced a new framework, FLARE, for building federated multimodal AI workflows. This technology enables the training of AI models across multiple data sources while maintaining data privacy, which is crucial for advancing autonomous driving systems that require diverse and large datasets.",
+      "abstract": "NVIDIA has introduced a new framework, FLARE, for building federated multimodal AI workflows. This technology enables the training of AI models across multiple data sources while maintaining data privacy, which is crucial for advancing autonomous driving systems that require diverse and large datasets.",
+      "score": 80
+    },
+    {
+      "title": "Robotaxis are real now — so is the pushback",
+      "topic": "Robotaxis are real now — so is the pushback",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1FKcWw1VnIxUWJkY1BnWWVXTS1QVjdaOU5sd2p0WGk1MTdYeHc4MWtCMUFqSDgxMmdUMFJUVG9oZEZGYXdtaEN6ckxuSzVQMFpoTnRHQnRRZW92ell6a3FnN2hTdTJVQ3hqSXpXLUwtNmg5OTBseE4tUGVuYS1udlBXRU5qUGxQMW5uTU10bEYzWFRuZTJ4YQ?oc=5",
+      "source": "The Verge",
+      "published": "2026-08-24T16:42:37Z",
+      "category": "automated-vehicles",
+      "summary": "The deployment of robotaxis by companies like Waymo, Tesla, and Uber is facing increasing public scrutiny and pushback. Concerns over safety, job displacement, and regulatory oversight are driving a growing debate about the role of autonomous vehicles in urban transportation.",
+      "abstract": "The deployment of robotaxis by companies like Waymo, Tesla, and Uber is facing increasing public scrutiny and pushback. Concerns over safety, job displacement, and regulatory oversight are driving a growing debate about the role of autonomous vehicles in urban transportation.",
+      "score": 75
     },
     {
       "title": "OpenAI Calls For California To Strengthen Its AI Safety Laws",
@@ -63,20 +74,9 @@
       "source": "Engadget",
       "published": "2026-08-22T19:27:04Z",
       "category": "ai",
-      "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address growing concerns about AI safety. The organization's stance highlights the importance of legislative measures to ensure the responsible development and deployment of AI technologies, particularly in areas like autonomous vehicles.",
-      "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address growing concerns about AI safety. The organization's stance highlights the importance of legislative measures to ensure the responsible development and deployment of AI technologies, particularly in areas like autonomous vehicles.",
-      "score": 80
-    },
-    {
-      "title": "OpenAI says California should strengthen its AI safety bill",
-      "topic": "OpenAI says California should strengthen its AI safety bill",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEtxYVJNZVpadnhFd05FSUowYlhmaXhHN0pZWUhUU3dCTnFyZVBZM2JsS2NxcDVkNUJ0a2NocGd0UlZpaGlNNFBFWlNEeGZBaU5ibFd3bXh5cl8zNFJVZDJYQkZ0SE9INkpoN0N5VGhEOXoySzdUNXhoY0lxelRWbXRaTkl1dEM4S2tEOE5HbXdNYUVXZ3lSRkd3?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-08-22T16:30:34Z",
-      "category": "ai",
-      "summary": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
-      "abstract": "OpenAI has urged California to strengthen its AI safety bill, advocating for stricter regulations to mitigate potential risks associated with AI. The organization's call for action underscores the need for comprehensive legal frameworks to ensure the safe and ethical development of AI, including applications in autonomous vehicles.",
-      "score": 80
+      "summary": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address the growing concerns around AI safety. This advocacy highlights the importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
+      "abstract": "OpenAI has called for California to strengthen its AI safety laws, emphasizing the need for robust regulations to address the growing concerns around AI safety. This advocacy highlights the importance of regulatory frameworks in ensuring the responsible development and deployment of AI technologies, including those used in autonomous vehicles.",
+      "score": 70
     },
     {
       "title": "CommandLM: Data driven behavior level descriptor for ego vehicles",
@@ -103,7 +103,7 @@
     {
       "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
       "topic": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2608.20129v1",
+      "url": "https://arxiv.org/abs/2608.20129v2",
       "source": "arXiv",
       "published": "2026-08-20T14:56:15Z",
       "category": "arxiv-llm-vlm-av",
