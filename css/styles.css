@@ -15,6 +15,7 @@
     --mouse-x: 50%;
     --mouse-y: 18%;
     --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
     --mono: "JetBrains Mono", SFMono-Regular, Consolas, monospace;
     /* Derived glow colors — auto-adapt to any theme */
     --glow-primary: color-mix(in srgb, var(--teal), transparent 82%);
@@ -3025,18 +3026,18 @@ main img:not(.lightbox-img) {
    network motion retained as a background signal.
 */
 html[data-theme="academic"] {
-    --bg: #f6f8fb;
-    --bg-2: #e9eef4;
-    --panel: rgba(255, 255, 255, 0.96);
+    --bg: #f8f7fb;
+    --bg-2: #f0edf7;
+    --panel: rgba(255, 255, 255, 0.98);
     --panel-solid: #ffffff;
-    --text: #172033;
-    --muted: #5a6678;
-    --line: #d8e0ea;
-    --teal: #147d77;
-    --amber: #8a6200;
-    --coral: #a2463f;
-    --blue: #245f91;
-    --shadow: 0 16px 42px rgba(23, 32, 51, 0.08);
+    --text: #111018;
+    --muted: #5a5368;
+    --line: #ded8e8;
+    --teal: #6f3fb5;
+    --amber: #80622a;
+    --coral: #9b4867;
+    --blue: #5b3d99;
+    --shadow: 0 14px 34px rgba(32, 24, 48, 0.07);
     --radius: 8px;
     --glow-primary: rgba(47, 111, 143, 0.08);
     --glow-secondary: rgba(86, 107, 127, 0.06);
@@ -3047,9 +3048,13 @@ html[data-theme="academic"] {
 
 html[data-theme="academic"] body {
     background:
-        linear-gradient(180deg, #ffffff 0%, #f6f8fb 44%, #e9eef4 100%);
+        linear-gradient(180deg, #ffffff 0%, #f8f7fb 48%, #f0edf7 100%);
     color: var(--text);
+    font-family: var(--sans);
     font-size: 16px;
+    line-height: 1.68;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
 
@@ -4246,7 +4251,7 @@ html[data-theme="academic"] .archive-item-title:hover {
 }
 
 html[data-theme="academic"] .archive-item-abstract {
-    color: #a0b0c0;
+    color: #5a5368;
     font-size: 12.5px;
     line-height: 1.52;
     display: -webkit-box;
@@ -4258,4 +4263,175 @@ html[data-theme="academic"] .archive-item-abstract {
 @media (max-width: 640px) {
     html[data-theme="academic"] .news-archive-content { max-height: 520px; }
     html[data-theme="academic"] .archive-item-header { flex-direction: column; align-items: flex-start; }
+}
+
+/* ── Academic typography and polish ─────────────────────── */
+html[data-theme="academic"] h1,
+html[data-theme="academic"] .section-head h2,
+html[data-theme="academic"] .publication-card h3,
+html[data-theme="academic"] .timeline-item h3,
+html[data-theme="academic"] .feature-card h3,
+html[data-theme="academic"] .panel h3,
+html[data-theme="academic"] .memorial-id h3 {
+    font-family: var(--serif);
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+html[data-theme="academic"] h1 {
+    max-width: 820px;
+    font-size: clamp(48px, 7vw, 82px);
+    line-height: 1.02;
+}
+
+html[data-theme="academic"] .section-head h2 {
+    font-size: clamp(30px, 3.2vw, 44px);
+    line-height: 1.14;
+}
+
+html[data-theme="academic"] .hero-copy,
+html[data-theme="academic"] .section-head p:last-child,
+html[data-theme="academic"] .panel p,
+html[data-theme="academic"] .feature-card p,
+html[data-theme="academic"] .publication-card p,
+html[data-theme="academic"] .timeline-item p,
+html[data-theme="academic"] .news-card p {
+    color: #4f485d;
+    line-height: 1.72;
+}
+
+html[data-theme="academic"] .eyebrow,
+html[data-theme="academic"] .section-kicker,
+html[data-theme="academic"] .profile-label,
+html[data-theme="academic"] .about-focus-grid span,
+html[data-theme="academic"] .feature-card span,
+html[data-theme="academic"] .supervisor-card span,
+html[data-theme="academic"] .publication-meta span,
+html[data-theme="academic"] .timeline-item time,
+html[data-theme="academic"] .rl-label,
+html[data-theme="academic"] .moment-tag {
+    color: #5b3d99;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+
+html[data-theme="academic"] .hero-stats div,
+html[data-theme="academic"] .feature-card,
+html[data-theme="academic"] .panel,
+html[data-theme="academic"] .quick-info,
+html[data-theme="academic"] .publication-card,
+html[data-theme="academic"] .timeline-item,
+html[data-theme="academic"] .contact-card,
+html[data-theme="academic"] .supervisor-card,
+html[data-theme="academic"] .news-card,
+html[data-theme="academic"] .memorial-card {
+    border-color: #ded8e8;
+    border-radius: 7px;
+    box-shadow: 0 10px 28px rgba(20, 28, 43, .055);
+}
+
+html[data-theme="academic"] .publication-card,
+html[data-theme="academic"] .timeline-item,
+html[data-theme="academic"] .feature-card,
+html[data-theme="academic"] .panel {
+    background: rgba(255, 255, 255, .99);
+}
+
+html[data-theme="academic"] .publication-card:hover,
+html[data-theme="academic"] .timeline-item:hover,
+html[data-theme="academic"] .feature-card:hover,
+html[data-theme="academic"] .news-card:hover {
+    border-color: #c8b7e4;
+    box-shadow: 0 16px 38px rgba(20, 28, 43, .075);
+}
+
+html[data-theme="academic"] .button,
+html[data-theme="academic"] .nav-links a,
+html[data-theme="academic"] .social-links a,
+html[data-theme="academic"] .theme-option {
+    letter-spacing: 0;
+}
+
+html[data-theme="academic"] .button.primary {
+    background: #5b3d99;
+    border-color: #5b3d99;
+}
+
+html[data-theme="academic"] .button.primary:hover {
+    background: #4a3180;
+}
+
+@media (max-width: 820px) {
+    html[data-theme="academic"],
+    html[data-theme="academic"] body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    html[data-theme="academic"] .hero.shell {
+        width: calc(100vw - 28px);
+        max-width: calc(100vw - 28px);
+        overflow: hidden;
+    }
+
+    html[data-theme="academic"] .hero,
+    html[data-theme="academic"] .hero *,
+    html[data-theme="academic"] .section,
+    html[data-theme="academic"] .section * {
+        min-width: 0;
+    }
+
+    html[data-theme="academic"] .hero-content,
+    html[data-theme="academic"] .section > .shell,
+    html[data-theme="academic"] .hero-copy,
+    html[data-theme="academic"] .typed-line,
+    html[data-theme="academic"] .eyebrow {
+        min-width: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    html[data-theme="academic"] h1 {
+        font-size: clamp(38px, 11vw, 54px);
+        overflow-wrap: anywhere;
+    }
+
+    html[data-theme="academic"] .eyebrow {
+        display: grid;
+        grid-template-columns: 8px minmax(0, 1fr);
+        align-items: start;
+        gap: 8px;
+        line-height: 1.45;
+    }
+
+    html[data-theme="academic"] .eyebrow::before {
+        margin-top: .45em;
+    }
+
+    html[data-theme="academic"] .typed-line,
+    html[data-theme="academic"] .typed-line strong,
+    html[data-theme="academic"] [data-typed-text],
+    html[data-theme="academic"] .hero-copy {
+        display: inline;
+        white-space: normal;
+        word-break: normal;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    html[data-theme="academic"] .eyebrow {
+        font-size: 11px;
+    }
+
+    html[data-theme="academic"] .typed-line {
+        display: block;
+        font-size: 14px;
+    }
+
+    html[data-theme="academic"] .hero-copy {
+        display: block;
+        font-size: 16px;
+        line-height: 1.62;
+    }
 }
