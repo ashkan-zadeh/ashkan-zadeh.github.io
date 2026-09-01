@@ -20,7 +20,7 @@ const sections = navLinks
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* ── Theme switcher ─────────────────────────────────────── */
-const THEMES = ["lidar", "horizon", "neural", "carbon", "spectrum", "aurora", "crimson", "dusk"];
+const THEMES = ["academic", "lidar"];
 const themeToggle = document.querySelector("[data-theme-toggle]");
 const themePanel = document.querySelector("[data-theme-panel]");
 const themeOptions = [...document.querySelectorAll("[data-theme-pick]")];
@@ -48,7 +48,8 @@ function closeThemePanel() {
 }
 
 if (themeToggle && themePanel) {
-    const saved = localStorage.getItem("theme") || "lidar";
+    const saved = localStorage.getItem("theme") === "lidar" ? "lidar" : "academic";
+    applyTheme(saved, false);
     themeOptions.forEach((btn) => btn.classList.toggle("is-active", btn.dataset.themePick === saved));
 
     themeToggle.addEventListener("click", (e) => {
