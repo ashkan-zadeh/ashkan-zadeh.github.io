@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="lidar">
+<html lang="en" data-theme="academic">
 <head>
   <meta charset="UTF-8">
-  <script>document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||"lidar");</script>
+  <script>const savedTheme=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",savedTheme==="lidar"?"lidar":"academic");</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="NARRATE — A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving. ECCV 2026, DriveX Workshop.">
   <meta name="author" content="Ashkan Yousefi Zadeh">
@@ -171,6 +171,43 @@
       .proj-title { font-size: 2rem; }
       .stat-grid { grid-template-columns: repeat(2, 1fr); }
     }
+
+    html[data-theme="academic"] .breadcrumb a,
+    html[data-theme="academic"] .proj-kicker,
+    html[data-theme="academic"] .proj-section h2,
+    html[data-theme="academic"] .video-section h2,
+    html[data-theme="academic"] .proj-footer a:hover { color: var(--teal); }
+    html[data-theme="academic"] .proj-kicker::before { background: var(--teal); }
+    html[data-theme="academic"] .proj-title span,
+    html[data-theme="academic"] .proj-authors strong,
+    html[data-theme="academic"] .proj-section p strong,
+    html[data-theme="academic"] .stat-num { color: var(--text); }
+    html[data-theme="academic"] .proj-subtitle,
+    html[data-theme="academic"] .proj-authors,
+    html[data-theme="academic"] .proj-venue,
+    html[data-theme="academic"] .proj-section p,
+    html[data-theme="academic"] .feature-item span,
+    html[data-theme="academic"] .ackl-box p,
+    html[data-theme="academic"] .proj-footer a,
+    html[data-theme="academic"] .stat-label { color: var(--muted); opacity: 1; }
+    html[data-theme="academic"] .proj-venue em { color: var(--teal); }
+    html[data-theme="academic"] .badge { border-color: #d6e0ea; }
+    html[data-theme="academic"] .badge-blue,
+    html[data-theme="academic"] .badge-teal { background: #e9f5f3; color: #0f6f68; border-color: #b9ded8; }
+    html[data-theme="academic"] .badge-gold { background: #fff4d5; color: #6d5200; border-color: #e5cf82; }
+    html[data-theme="academic"] .badge-muted { background: #eef3f8; color: #4d5d70; border-color: #d6e0ea; }
+    html[data-theme="academic"] .video-wrap { box-shadow: 0 18px 48px rgba(23, 32, 51, .12); }
+    html[data-theme="academic"] .stat-grid { background: #d6e0ea; box-shadow: 0 10px 28px rgba(23, 32, 51, .06); }
+    html[data-theme="academic"] .stat-cell,
+    html[data-theme="academic"] .feature-item,
+    html[data-theme="academic"] .ackl-box,
+    html[data-theme="academic"] .citation-box { background: #ffffff; border-color: var(--line); }
+    html[data-theme="academic"] .tag { background: #eef3f8; color: #4d5d70; border-color: #d6e0ea; }
+    html[data-theme="academic"] .proj-link { background: #ffffff; color: var(--text); border-color: var(--line); }
+    html[data-theme="academic"] .proj-link:hover { background: #e9f5f3; border-color: var(--teal); }
+    html[data-theme="academic"] .proj-link.primary { background: var(--teal); color: #ffffff; border-color: var(--teal); }
+    html[data-theme="academic"] .citation-box pre { color: #334155; }
+    html[data-theme="academic"] .copy-btn { background: #ffffff; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -208,14 +245,8 @@
           </button>
           <div class="theme-panel" data-theme-panel hidden>
             <p class="theme-panel-label">Color theme</p>
-            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Lidar</span></button>
-            <button class="theme-option" data-theme-pick="horizon"><span class="theme-swatch theme-swatch--horizon"></span><span>Horizon</span></button>
-            <button class="theme-option" data-theme-pick="neural"><span class="theme-swatch theme-swatch--neural"></span><span>Neural</span></button>
-            <button class="theme-option" data-theme-pick="carbon"><span class="theme-swatch theme-swatch--carbon"></span><span>Carbon</span></button>
-            <button class="theme-option" data-theme-pick="spectrum"><span class="theme-swatch theme-swatch--spectrum"></span><span>Spectrum</span></button>
-            <button class="theme-option" data-theme-pick="aurora"><span class="theme-swatch theme-swatch--aurora"></span><span>Aurora</span></button>
-            <button class="theme-option" data-theme-pick="crimson"><span class="theme-swatch theme-swatch--crimson"></span><span>Crimson</span></button>
-            <button class="theme-option" data-theme-pick="dusk"><span class="theme-swatch theme-swatch--dusk"></span><span>Dusk</span></button>
+            <button class="theme-option" data-theme-pick="academic"><span class="theme-swatch theme-swatch--academic"></span><span>Academic</span></button>
+            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Colorful</span></button>
           </div>
         </li>
       </ul>
@@ -408,7 +439,7 @@
           Access is provided through <strong>mediated access via QUT Research Data Finder</strong> to support responsible data sharing.
         </p>
         <p>
-          <strong>QUT Research Data Finder:</strong> <a href="https://doi.org/10.25912/RDF_1786669427992" style="color:#e4b634;" target="_blank" rel="noopener">https://doi.org/10.25912/RDF_1786669427992</a>
+          <strong>QUT Research Data Finder:</strong> <a href="https://doi.org/10.25912/RDF_1786669427992" style="color:var(--teal); font-weight:600;" target="_blank" rel="noopener">https://doi.org/10.25912/RDF_1786669427992</a>
         </p>
         <div class="link-grid">
           <a href="https://github.com/ashkan-zadeh/NARRATE" class="proj-link" target="_blank" rel="noopener">
@@ -458,7 +489,7 @@
 
   <script>
     /* ── Minimal theme switcher for project pages ── */
-    const THEMES = ["lidar","horizon","neural","carbon","spectrum","aurora","crimson","dusk"];
+    const THEMES = ["academic","lidar"];
     const themeToggle = document.querySelector("[data-theme-toggle]");
     const themePanel  = document.querySelector("[data-theme-panel]");
     const navToggle   = document.querySelector("[data-nav-toggle]");
@@ -471,7 +502,7 @@
       document.querySelectorAll("[data-theme-pick]").forEach(b =>
         b.classList.toggle("is-active", b.dataset.themePick === name));
     }
-    applyTheme(localStorage.getItem("theme") || "lidar");
+    applyTheme(localStorage.getItem("theme") === "lidar" ? "lidar" : "academic");
 
     themeToggle?.addEventListener("click", e => {
       e.stopPropagation();

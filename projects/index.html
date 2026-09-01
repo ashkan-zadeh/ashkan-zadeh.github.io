@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="lidar">
+<html lang="en" data-theme="academic">
 <head>
   <meta charset="UTF-8">
-  <script>document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||"lidar");</script>
+  <script>const savedTheme=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",savedTheme==="lidar"?"lidar":"academic");</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Research projects by Ashkan Yousefi Zadeh — datasets, publications, and tools for human-centred XAI in automated driving.">
   <title>Projects — Ashkan Yousefi Zadeh</title>
@@ -73,6 +73,37 @@
     .page-footer { padding: 2.5rem 0; border-top: 1px solid var(--line); text-align: center; }
     .page-footer a { color: #c8d8f0; font-size: .85rem; text-decoration: none; }
     .page-footer a:hover { color: #e4b634; }
+
+    html[data-theme="academic"] .page-kicker,
+    html[data-theme="academic"] .card-kicker,
+    html[data-theme="academic"] .card-arrow { color: var(--teal); }
+    html[data-theme="academic"] .page-kicker::before { background: var(--teal); }
+    html[data-theme="academic"] .page-title,
+    html[data-theme="academic"] .card-title { color: var(--text); }
+    html[data-theme="academic"] .page-sub,
+    html[data-theme="academic"] .card-desc,
+    html[data-theme="academic"] .page-footer a { color: var(--muted); }
+    html[data-theme="academic"] .project-card {
+      background: #ffffff;
+      border-color: var(--line);
+      box-shadow: 0 10px 28px rgba(23, 32, 51, .07);
+    }
+    html[data-theme="academic"] .project-card:hover {
+      border-color: var(--teal);
+      box-shadow: 0 18px 42px rgba(23, 32, 51, .12);
+    }
+    html[data-theme="academic"] .card-badge {
+      background: #eef3f8;
+      color: #4d5d70;
+      border-color: #d6e0ea;
+    }
+    html[data-theme="academic"] .card-badge.hi {
+      background: #e9f5f3;
+      color: #0f6f68;
+      border-color: #b9ded8;
+    }
+    html[data-theme="academic"] .card-thumb-overlay span { background: var(--teal); color: #ffffff; }
+    html[data-theme="academic"] .page-footer a:hover { color: var(--teal); }
   </style>
 </head>
 <body>
@@ -107,14 +138,8 @@
           </button>
           <div class="theme-panel" data-theme-panel hidden>
             <p class="theme-panel-label">Color theme</p>
-            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Lidar</span></button>
-            <button class="theme-option" data-theme-pick="horizon"><span class="theme-swatch theme-swatch--horizon"></span><span>Horizon</span></button>
-            <button class="theme-option" data-theme-pick="neural"><span class="theme-swatch theme-swatch--neural"></span><span>Neural</span></button>
-            <button class="theme-option" data-theme-pick="carbon"><span class="theme-swatch theme-swatch--carbon"></span><span>Carbon</span></button>
-            <button class="theme-option" data-theme-pick="spectrum"><span class="theme-swatch theme-swatch--spectrum"></span><span>Spectrum</span></button>
-            <button class="theme-option" data-theme-pick="aurora"><span class="theme-swatch theme-swatch--aurora"></span><span>Aurora</span></button>
-            <button class="theme-option" data-theme-pick="crimson"><span class="theme-swatch theme-swatch--crimson"></span><span>Crimson</span></button>
-            <button class="theme-option" data-theme-pick="dusk"><span class="theme-swatch theme-swatch--dusk"></span><span>Dusk</span></button>
+            <button class="theme-option" data-theme-pick="academic"><span class="theme-swatch theme-swatch--academic"></span><span>Academic</span></button>
+            <button class="theme-option" data-theme-pick="lidar"><span class="theme-swatch theme-swatch--lidar"></span><span>Colorful</span></button>
           </div>
         </li>
       </ul>
@@ -167,7 +192,7 @@
   </main>
 
   <script>
-    const THEMES = ["lidar","horizon","neural","carbon","spectrum","aurora","crimson","dusk"];
+    const THEMES = ["academic","lidar"];
     const themeToggle = document.querySelector("[data-theme-toggle]");
     const themePanel  = document.querySelector("[data-theme-panel]");
     const navToggle   = document.querySelector("[data-nav-toggle]");
@@ -180,7 +205,7 @@
       document.querySelectorAll("[data-theme-pick]").forEach(b =>
         b.classList.toggle("is-active", b.dataset.themePick === name));
     }
-    applyTheme(localStorage.getItem("theme") || "lidar");
+    applyTheme(localStorage.getItem("theme") === "lidar" ? "lidar" : "academic");
 
     themeToggle?.addEventListener("click", e => {
       e.stopPropagation();
