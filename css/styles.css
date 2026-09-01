@@ -3025,18 +3025,18 @@ main img:not(.lightbox-img) {
    network motion retained as a background signal.
 */
 html[data-theme="academic"] {
-    --bg: #f7f8fa;
-    --bg-2: #eef1f5;
-    --panel: rgba(255, 255, 255, 0.94);
+    --bg: #f6f8fb;
+    --bg-2: #e9eef4;
+    --panel: rgba(255, 255, 255, 0.96);
     --panel-solid: #ffffff;
-    --text: #18212f;
-    --muted: #5f6b7a;
-    --line: #dce2ea;
-    --teal: #2f6f8f;
-    --amber: #566b7f;
-    --coral: #8a4f4a;
-    --blue: #366f9f;
-    --shadow: 0 16px 42px rgba(18, 33, 47, 0.08);
+    --text: #172033;
+    --muted: #5a6678;
+    --line: #d8e0ea;
+    --teal: #147d77;
+    --amber: #8a6200;
+    --coral: #a2463f;
+    --blue: #245f91;
+    --shadow: 0 16px 42px rgba(23, 32, 51, 0.08);
     --radius: 8px;
     --glow-primary: rgba(47, 111, 143, 0.08);
     --glow-secondary: rgba(86, 107, 127, 0.06);
@@ -3047,9 +3047,10 @@ html[data-theme="academic"] {
 
 html[data-theme="academic"] body {
     background:
-        linear-gradient(180deg, #ffffff 0%, #f7f8fa 38%, #eef1f5 100%);
+        linear-gradient(180deg, #ffffff 0%, #f6f8fb 44%, #e9eef4 100%);
     color: var(--text);
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 html[data-theme="academic"] body::before {
@@ -3061,20 +3062,12 @@ html[data-theme="academic"] body::before {
 }
 
 html[data-theme="academic"] body::after,
-html[data-theme="academic"] .cursor-glow,
-html[data-theme="academic"] .news-ticker,
-html[data-theme="academic"] .signal-band,
-html[data-theme="academic"] .research-life-section,
-html[data-theme="academic"] .research-map-section,
-html[data-theme="academic"] .news-section,
-html[data-theme="academic"] .memorial-section,
-html[data-theme="academic"] .terminal-card,
-html[data-theme="academic"] .profile-card {
+html[data-theme="academic"] .cursor-glow {
     display: none !important;
 }
 
 html[data-theme="academic"] .nav-extra {
-    display: none;
+    display: list-item;
 }
 
 html[data-theme="academic"] .site-background {
@@ -3096,6 +3089,20 @@ html[data-theme="academic"] .site-header {
     border-bottom: 1px solid rgba(220, 226, 234, 0.92);
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(14px);
+}
+
+html[data-theme="academic"] .news-ticker {
+    background: rgba(245, 248, 251, 0.96);
+}
+
+html[data-theme="academic"] .ticker-label,
+html[data-theme="academic"] .ticker-all,
+html[data-theme="academic"] .ticker-item-cat {
+    color: var(--blue);
+}
+
+html[data-theme="academic"] .ticker-item {
+    color: #354253;
 }
 
 html[data-theme="academic"] .site-header.is-scrolled {
@@ -3201,6 +3208,12 @@ html[data-theme="academic"] .hero {
     padding: 92px 0 64px;
 }
 
+html[data-theme="academic"] .hero-content,
+html[data-theme="academic"] .hero-visual,
+html[data-theme="academic"] .section > .shell {
+    min-width: 0;
+}
+
 html[data-theme="academic"] .hero::before {
     display: none;
 }
@@ -3221,6 +3234,8 @@ html[data-theme="academic"] .profile-label {
 html[data-theme="academic"] .eyebrow {
     margin-bottom: 16px;
     text-transform: none;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 }
 
 html[data-theme="academic"] .eyebrow::before {
@@ -3236,10 +3251,11 @@ html[data-theme="academic"] h1 {
     font-size: clamp(44px, 7vw, 78px);
     line-height: 0.98;
     font-weight: 800;
+    overflow-wrap: anywhere;
 }
 
 html[data-theme="academic"] h1 span {
-    display: inline;
+    display: block;
     color: var(--text);
 }
 
@@ -3261,6 +3277,12 @@ html[data-theme="academic"] .typed-line {
     font-family: var(--sans);
     font-size: 15px;
     font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+html[data-theme="academic"] .typed-line strong {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 html[data-theme="academic"] .typing-caret {
@@ -3274,6 +3296,7 @@ html[data-theme="academic"] .hero-copy {
     color: #354253;
     font-size: clamp(17px, 2vw, 20px);
     line-height: 1.72;
+    overflow-wrap: anywhere;
 }
 
 html[data-theme="academic"] .hero-actions,
@@ -3366,9 +3389,9 @@ html[data-theme="academic"] .hero-stats span {
 }
 
 html[data-theme="academic"] .portrait-stage {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 16 / 10;
     border-color: var(--line);
-    background: #eef2f5;
+    background: #eef3f8;
     box-shadow: var(--shadow);
 }
 
@@ -3378,17 +3401,36 @@ html[data-theme="academic"] .portrait-stage::after {
 }
 
 html[data-theme="academic"] .portrait-main {
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center bottom;
 }
 
 html[data-theme="academic"] .hero-note-grid {
-    display: none;
+    grid-template-columns: 1fr;
+}
+
+html[data-theme="academic"] .profile-card,
+html[data-theme="academic"] .terminal-card {
+    border-color: var(--line);
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    backdrop-filter: none;
+}
+
+html[data-theme="academic"] .profile-card p:last-child,
+html[data-theme="academic"] .terminal-card,
+html[data-theme="academic"] .terminal-card p {
+    color: #4f5e6e;
+}
+
+html[data-theme="academic"] .terminal-card span {
+    color: var(--teal);
 }
 
 html[data-theme="academic"] .section {
     padding: 58px 0;
     border-top: 1px solid #e4e9ef;
-    background: transparent !important;
+    background: transparent;
 }
 
 html[data-theme="academic"] .section-head {
@@ -3473,6 +3515,8 @@ html[data-theme="academic"] .panel p,
 html[data-theme="academic"] .feature-card p,
 html[data-theme="academic"] .publication-card p,
 html[data-theme="academic"] .timeline-item p,
+html[data-theme="academic"] .news-card p,
+html[data-theme="academic"] .news-source,
 html[data-theme="academic"] .moment-card figcaption p,
 html[data-theme="academic"] .rl-vehicle figcaption p,
 html[data-theme="academic"] .rl-gallery-item figcaption {
@@ -3544,11 +3588,11 @@ html[data-theme="academic"] .quick-info a {
 }
 
 html[data-theme="academic"] .moment-card {
-    display: none;
+    background: #ffffff;
 }
 
 html[data-theme="academic"] .supervisors-section {
-    background: #f9fafb !important;
+    background: #f9fbfd;
 }
 
 html[data-theme="academic"] .supervisor-grid {
@@ -3604,26 +3648,29 @@ html[data-theme="academic"] .feature-card {
 }
 
 html[data-theme="academic"] .image-card {
-    padding: 18px;
+    padding: 0;
 }
 
 html[data-theme="academic"] .image-card img {
-    display: none;
+    display: block;
+    aspect-ratio: 16 / 8.8;
+    border-bottom-color: var(--line);
+    object-fit: cover;
 }
 
 html[data-theme="academic"] .image-card span,
 html[data-theme="academic"] .image-card h3,
 html[data-theme="academic"] .image-card p {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 html[data-theme="academic"] .image-card span {
-    margin-top: 0;
+    margin-top: 16px;
 }
 
 html[data-theme="academic"] .image-card p {
-    margin-bottom: 0;
+    margin-bottom: 18px;
 }
 
 html[data-theme="academic"] .image-card:hover img {
@@ -3663,7 +3710,23 @@ html[data-theme="academic"] .feature-card p {
 }
 
 html[data-theme="academic"] .research-console {
-    display: none;
+    display: grid;
+    background: #ffffff;
+}
+
+html[data-theme="academic"] .console-tabs button,
+html[data-theme="academic"] .console-body {
+    border-color: var(--line);
+    background: #f8fafc;
+    color: #4f5e6e;
+}
+
+html[data-theme="academic"] .console-body p {
+    color: #4f5e6e;
+}
+
+html[data-theme="academic"] .console-body strong {
+    color: var(--blue);
 }
 
 html[data-theme="academic"] .interest-matrix {
@@ -3768,13 +3831,172 @@ html[data-theme="academic"] .timeline-item-body {
 html[data-theme="academic"] .timeline-gallery,
 html[data-theme="academic"] .timeline-portrait,
 html[data-theme="academic"] .timeline-video {
-    display: none;
+    display: grid;
+}
+
+html[data-theme="academic"] .timeline-portrait {
+    display: block;
+}
+
+html[data-theme="academic"] .timeline-video {
+    display: block;
 }
 
 html[data-theme="academic"] .timeline-item p {
     margin-top: 6px;
     font-size: 14px;
     line-height: 1.65;
+}
+
+html[data-theme="academic"] .news-section {
+    background: #f6f8fb;
+}
+
+html[data-theme="academic"] .news-panel,
+html[data-theme="academic"] .news-archive-panel {
+    background: #ffffff;
+}
+
+html[data-theme="academic"] .news-panel-top,
+html[data-theme="academic"] .news-archive-header,
+html[data-theme="academic"] .news-archive-filters {
+    background: #f5f8fb;
+}
+
+html[data-theme="academic"] .news-tabs button,
+html[data-theme="academic"] .news-archive-trigger button,
+html[data-theme="academic"] .news-archive-close {
+    border-color: #d2dbe6;
+    background: #ffffff;
+    color: #4d5b6b;
+}
+
+html[data-theme="academic"] .news-tabs button:hover,
+html[data-theme="academic"] .news-tabs button.is-active,
+html[data-theme="academic"] .news-archive-trigger button:hover {
+    border-color: #9fb6c9;
+    background: #e9f2f8;
+    color: var(--blue);
+}
+
+html[data-theme="academic"] .news-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+html[data-theme="academic"] .news-card {
+    background: #ffffff;
+    min-height: 260px;
+}
+
+html[data-theme="academic"] .news-card:hover {
+    transform: none;
+    border-color: #b8c8d7;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+}
+
+html[data-theme="academic"] .news-card h3,
+html[data-theme="academic"] .archive-item-title {
+    color: var(--text);
+}
+
+html[data-theme="academic"] .news-card-visual {
+    background:
+        linear-gradient(135deg, rgba(36, 95, 145, 0.18), rgba(20, 125, 119, 0.12)),
+        url('../asset/img/xai-av-hero.png') center / cover;
+}
+
+html[data-theme="academic"] .news-read-more,
+html[data-theme="academic"] .news-count {
+    color: var(--teal);
+}
+
+html[data-theme="academic"] .news-badge--automated-vehicles {
+    background: #fff7e6;
+    color: #7a5600;
+    border-color: #e1c98e;
+}
+
+html[data-theme="academic"] .news-badge--ai {
+    background: #fff0ef;
+    color: #994039;
+    border-color: #e2b4b0;
+}
+
+html[data-theme="academic"] .news-badge--llm {
+    background: #e9f7f5;
+    color: #0f706b;
+    border-color: #a7d4cf;
+}
+
+html[data-theme="academic"] .news-badge--nlp {
+    background: #edf5fb;
+    color: #245f91;
+    border-color: #b4cadc;
+}
+
+html[data-theme="academic"] .news-badge--vlm {
+    background: #f3effb;
+    color: #6650a8;
+    border-color: #c7bce6;
+}
+
+html[data-theme="academic"] .news-badge--computer-vision {
+    background: #eef8ef;
+    color: #3f7d45;
+    border-color: #b9d6bc;
+}
+
+html[data-theme="academic"] .research-life-section {
+    background: #ffffff;
+}
+
+html[data-theme="academic"] .research-map-section {
+    background: #f6f8fb;
+}
+
+html[data-theme="academic"] .rl-vehicle,
+html[data-theme="academic"] .rl-gallery-item {
+    box-shadow: var(--shadow);
+}
+
+html[data-theme="academic"] .rl-vehicle figcaption,
+html[data-theme="academic"] .rl-gallery-item figcaption {
+    background: rgba(255, 255, 255, 0.92);
+    color: #4f5e6e;
+}
+
+html[data-theme="academic"] .rl-gallery-item figcaption {
+    transform: translateY(0);
+}
+
+html[data-theme="academic"] .memorial-section {
+    background: #f9fafb;
+}
+
+html[data-theme="academic"] .memorial-card,
+html[data-theme="academic"] .memorial-header,
+html[data-theme="academic"] .memorial-portrait-col {
+    background: #ffffff;
+}
+
+html[data-theme="academic"] .memorial-kicker::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #8a95a3;
+}
+
+html[data-theme="academic"] .memorial-id h3,
+html[data-theme="academic"] .memorial-lead {
+    color: var(--text) !important;
+}
+
+html[data-theme="academic"] .memorial-id p,
+html[data-theme="academic"] .memorial-tribute p,
+html[data-theme="academic"] .memorial-closing {
+    color: #4f5e6e !important;
 }
 
 html[data-theme="academic"] .split-grid,
@@ -3882,7 +4104,17 @@ html[data-theme="academic"] main img:not(.lightbox-img) {
     }
 
     html[data-theme="academic"] h1 {
-        font-size: clamp(40px, 13vw, 62px);
+        font-size: clamp(38px, 12vw, 52px);
+        line-height: 1.04;
+    }
+
+    html[data-theme="academic"] .eyebrow,
+    html[data-theme="academic"] .typed-line,
+    html[data-theme="academic"] .hero-copy {
+        display: block;
+        max-width: 100%;
+        word-break: normal;
+        overflow-wrap: anywhere;
     }
 
     html[data-theme="academic"] .hero {
@@ -3901,7 +4133,7 @@ html[data-theme="academic"] main img:not(.lightbox-img) {
     }
 
     html[data-theme="academic"] .portrait-stage {
-        max-width: 360px;
+        max-width: 100%;
     }
 
     html[data-theme="academic"] .section {
