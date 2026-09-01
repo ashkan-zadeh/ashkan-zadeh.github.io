@@ -14,6 +14,7 @@ Optionally set HF_MODEL to override the default model.
 from __future__ import annotations
 
 import email.utils
+import gzip
 import html
 import json
 import os
@@ -24,6 +25,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+import zlib
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -455,6 +457,20 @@ def _html_to_text(raw_html: str) -> str:
     return text
 
 
+def _decode_response_body(raw_bytes: bytes, headers: email.message.Message) -> str:
+    content_encoding = (headers.get("Content-Encoding") or "").lower()
+    if "gzip" in content_encoding:
+        raw_bytes = gzip.decompress(raw_bytes)
+    elif "deflate" in content_encoding:
+        try:
+            raw_bytes = zlib.decompress(raw_bytes)
+        except zlib.error:
+            raw_bytes = zlib.decompress(raw_bytes, -zlib.MAX_WBITS)
+
+    encoding = headers.get_content_charset("utf-8")
+    return raw_bytes.decode(encoding, errors="replace")
+
+
 def fetch_article_text(url: str, timeout: int = 12) -> str:
     """Fetch article body text using trafilatura, falling back to plain HTML parse."""
     # Try trafilatura first (handles most well-structured pages)
@@ -463,8 +479,7 @@ def fetch_article_text(url: str, timeout: int = 12) -> str:
         req = urllib.request.Request(url, headers=_BROWSER_HEADERS)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             raw_bytes = resp.read(131072)  # 128 KB max
-        encoding = resp.headers.get_content_charset("utf-8")
-        raw_html = raw_bytes.decode(encoding, errors="ignore")
+            raw_html = _decode_response_body(raw_bytes, resp.headers)
         text = trafilatura.extract(
             raw_html,
             include_comments=False,
@@ -475,7 +490,9 @@ def fetch_article_text(url: str, timeout: int = 12) -> str:
         if text and len(text) > 120:
             snippet = text[:1400]
             cut = max(snippet.rfind(". "), snippet.rfind(".\n"))
-            return (snippet[: cut + 1] if cut > 250 else snippet).strip()
+            snippet = (snippet[: cut + 1] if cut > 250 else snippet).strip()
+            if is_probably_readable_text(snippet):
+                return snippet
     except Exception:
         pass
 
@@ -484,13 +501,14 @@ def fetch_article_text(url: str, timeout: int = 12) -> str:
         req2 = urllib.request.Request(url, headers=_BROWSER_HEADERS)
         with urllib.request.urlopen(req2, timeout=timeout) as resp2:
             raw_bytes2 = resp2.read(131072)
-        encoding2 = resp2.headers.get_content_charset("utf-8")
-        text2 = _html_to_text(raw_bytes2.decode(encoding2, errors="ignore"))
+            text2 = _html_to_text(_decode_response_body(raw_bytes2, resp2.headers))
         if len(text2) > 200:
             # Skip the first 150 chars (usually site nav) and take the next 1200
             chunk = text2[150:1350]
             cut2 = chunk.rfind(". ")
-            return (chunk[: cut2 + 1] if cut2 > 200 else chunk).strip()
+            chunk = (chunk[: cut2 + 1] if cut2 > 200 else chunk).strip()
+            if is_probably_readable_text(chunk):
+                return chunk
     except Exception:
         pass
 
@@ -506,10 +524,54 @@ def leading_sentences(text: str, n: int = 3) -> str:
 def clean_text(value: str | None, limit: int = 400) -> str:
     text = html.unescape(value or "")
     text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     if len(text) <= limit:
         return text
     return text[: limit - 1].rsplit(" ", 1)[0] + "..."
+
+
+_COMMON_ENGLISH_WORDS = {
+    "a", "an", "and", "are", "as", "at", "by", "for", "from", "has", "have",
+    "in", "into", "is", "it", "its", "of", "on", "or", "that", "the", "their",
+    "this", "to", "was", "were", "with",
+}
+
+
+def is_probably_readable_text(value: str | None, *, min_len: int = 40) -> bool:
+    text = clean_text(value, 1400)
+    if not text:
+        return False
+    if len(text) < min_len:
+        return bool(re.search(r"[A-Za-z]{3,}", text))
+
+    non_space = [ch for ch in text if not ch.isspace()]
+    if not non_space:
+        return False
+
+    printable_ratio = sum(ch.isprintable() for ch in non_space) / len(non_space)
+    alpha_ratio = sum(ch.isalpha() for ch in text) / len(text)
+    ascii_text_ratio = sum((ord(ch) < 128 and (ch.isprintable() or ch.isspace())) for ch in text) / len(text)
+    allowed_punctuation = {"–", "—", "’", "‘", "“", "”", "…", "°", "£", "€"}
+    suspicious_ratio = sum(
+        (
+            ord(ch) < 32
+            or ord(ch) == 127
+            or (ord(ch) > 0x024F and ch not in allowed_punctuation)
+        )
+        for ch in text
+    ) / len(text)
+    words = re.findall(r"[A-Za-z][A-Za-z'-]{1,}", text)
+    common_hits = sum(1 for word in words if word.lower() in _COMMON_ENGLISH_WORDS)
+
+    return (
+        printable_ratio >= 0.96
+        and alpha_ratio >= 0.35
+        and ascii_text_ratio >= 0.90
+        and suspicious_ratio <= 0.01
+        and len(words) >= 6
+        and common_hits >= 2
+    )
 
 
 def strip_source_suffix(title: str, source: str) -> str:
@@ -717,6 +779,26 @@ def build_abstract(title: str, description: str, category: str) -> str:
         "Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. "
         "Tracking such developments provides important context for situating individual research contributions within the broader field."
     )
+
+
+def sanitize_item_text(item: dict) -> dict:
+    """Keep generated feeds readable even when a fetched article body is malformed."""
+    title = clean_text(item.get("title", ""), 200)
+    source = clean_text(item.get("source", "the source"), 120)
+    category = item.get("category", "")
+    fallback = build_abstract(title, "", category)
+
+    summary = clean_text(item.get("summary", ""), 700)
+    abstract = clean_text(item.get("abstract", ""), 1400)
+
+    if not is_probably_readable_text(summary, min_len=25):
+        summary = build_summary(title, "", source, category)
+    if not is_probably_readable_text(abstract, min_len=25):
+        abstract = fallback
+
+    item["summary"] = summary
+    item["abstract"] = abstract
+    return item
 
 
 def parse_feed(feed: Feed, payload: bytes) -> list[dict]:
@@ -1279,11 +1361,11 @@ def build_news() -> dict:
                 item["summary"] = item["abstract"]
 
     print(f"Final: {len(news_final)} news + {len(acad_final)} academic", file=sys.stderr)
-    final_items = news_final + acad_final
+    final_items = [sanitize_item_text(item) for item in news_final + acad_final]
 
     # Strip internal scaffolding fields before writing to JSON
     output_fields = {"title", "topic", "url", "source", "published", "category", "summary", "abstract", "score"}
-    clean_items = [{k: v for k, v in item.items() if k in output_fields} for item in final_items]
+    clean_items = [sanitize_item_text({k: v for k, v in item.items() if k in output_fields}) for item in final_items]
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -1302,7 +1384,7 @@ def update_archive(new_items: list[dict]) -> None:
 
     seen_urls = {item["url"] for item in existing}
     added = [item for item in new_items if item["url"] not in seen_urls]
-    merged = added + existing
+    merged = [sanitize_item_text(item) for item in added + existing]
     merged.sort(key=lambda item: item["published"], reverse=True)
 
     payload = json.dumps(
