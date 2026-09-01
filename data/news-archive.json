@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-08-31T13:57:31.552335Z",
+  "updated_at": "2026-09-01T11:43:31.612505Z",
   "items": [
+    {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "topic": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0puazl3MjhZNm1TdmpZZnRleXRud0NLMEFETVJVeE96d29BcmIwRmRRbmVOdE5GaGZTOUJidkk1c0xOSG9XSm5NR3lnbURta2NJN0JwSnduMUJBaDVPNWNPTkVXaHc3TFpUY3NUMEhKNXlFaHROMXRfUmFxbEFhQkV3?oc=5",
+      "source": "OpenAI",
+      "published": "2026-09-01T04:51:11Z",
+      "category": "ai",
+      "summary": "OpenAI has expressed support for California's bill aimed at enhancing youth AI safety. The company's backing underscores the growing importance of regulatory frameworks to ensure that AI technologies, including those used in autonomous vehicles, are developed and deployed responsibly.",
+      "abstract": "OpenAI has expressed support for California's bill aimed at enhancing youth AI safety. The company's backing underscores the growing importance of regulatory frameworks to ensure that AI technologies, including those used in autonomous vehicles, are developed and deployed responsibly.",
+      "score": 70
+    },
+    {
+      "title": "A second Tesla driver died stopped on a freeway with Autopilot/Self-Driving on",
+      "topic": "A second Tesla driver died stopped on a freeway with Autopilot/Self-Driving on",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxamZtREF1ay1CS0pubEhWRXZmQTFQdkVIcGw0ZGdER0lLNjJVRTlTSk1rUzZCS0FSZjlKQWFxQTg3Q0JHLXNNQ1hJWjFiMWpSOVJoSllFRDJuN2dHVHh0NVd4ZllKaWpudkNLN3BnbG4xNlg1ZzRqekpZbGk?oc=5",
+      "source": "Electrek",
+      "published": "2026-08-31T20:40:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla driver died while the vehicle was stopped on a freeway with Autopilot and Full Self-Driving (FSD) engaged. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's advanced driver-assistance systems, particularly in scenarios where the system may not adequately handle stationary objects.",
+      "abstract": "A Tesla driver died while the vehicle was stopped on a freeway with Autopilot and Full Self-Driving (FSD) engaged. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's advanced driver-assistance systems, particularly in scenarios where the system may not adequately handle stationary objects.",
+      "score": 90
+    },
+    {
+      "title": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
+      "topic": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
+      "url": "https://arxiv.org/abs/2608.30144v1",
+      "source": "arXiv",
+      "published": "2026-08-31T01:51:51Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Vision-Language-Action (VLA) models are reshaping autonomous driving by unifying perception, reasoning, and control through language, enabling semantic grounding and interpretable decisions. However, the computational cost of language models at inference time is a significant challenge. This work introduces the Language Residue taxonomy to categorize methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. The taxonomy aims to optimize the balance between computational efficiency and interpretability in VLA models for autonomous vehicles.",
+      "abstract": "Vision-Language-Action (VLA) models are reshaping autonomous driving by unifying perception, reasoning, and control through language, enabling semantic grounding and interpretable decisions. However, the computational cost of language models at inference time is a significant challenge. This work introduces the Language Residue taxonomy to categorize methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. The taxonomy aims to optimize the balance between computational efficiency and interpretability in VLA models for autonomous vehicles.",
+      "score": 95
+    },
     {
       "title": "Tesla Full Self-Driving likes trains a bit too much",
       "topic": "Tesla Full Self-Driving likes trains a bit too much",
@@ -11,6 +44,17 @@
       "summary": "C\u0013Y\u0011R+ \b\u000e[gOlCUKK^b\u0010 6/v\u000eZ*Vckcp^\\jF\u0014h>UǂYwvO\u0014o9VNW\u0016TST\u0005\u0006E\u0012\u0004Ně9Qb`'Y&b%\u0013K\u0013YZ i.N\u0000mԽ& i\u0018 \u0001#ɬK%VivYFG] # S{W4\u0003uG ț˂, m,(\be^!}m\u0019\u00078mg\u000f8\u0014V*\b\u0002\u000eTf9 A s\u0000#KZ9N\u00101\"+\u0012ϕt\u0011huRT aE^\u0015#hHJj\u0002\u001bVhg#D\u0013!\b~51\u00025F\u001bSώO{ų]nS\u000f\u000fyc^` p\u000fhlFc \u0016\u0007\u000eHA\u0003m\u0002 \u000e\u001acfZ\u0000@$'h)\u0013H \u00038T5ͻ\bd iHDI0AZ2 \u0018h\u0012;\u0014=I \" :w\u0002/PMeKrX6L[nA*(M0\"6zhZ[wxJ4z?|ݗ8_\u0000cR?߽SUy\u0003H|$\b4 l}R\u00117?_::) #\u000e N,R CMDLI랡zXwuD8w>\u0006 ? f\u0010KǶB\u001b~ I\u0004v\u0006\u0014.VҌ`SBn⬤ȇ *,)6g;恦#gna@SYFf$ej3K\u0006g$\u0006 [×N/4]Fׯ ʧ\u0011#ep'v%ϧ @DomnkZ4_\u0003\u0016Jh>\u00138&cYx7aw\u0012|ît\u0018'Տn|\u0012ד [V=\u0018mֻg¼\u0003ZND%?\bŨJ3!qp*\b\u0006+XX' ig!H6L\u001b\"+ōhH\u00148F\u0005V$)!\u0012T4\u0014 e\u0001p& XXꂈc\u0018.\u0012KĒ\u0016/BD[IK'- \u0006I YS-/Cx#-A\u0012ʸ%C\u0002Fq+,\b2P \u0016Dbq \u0004\u0017>86W\u00182:m^ .h.: |r#ޖGeU 7UNeE4A\u0005ܷizȷ*ߪ4\u000fC\u0001^tf&n65\u0001 86vXze/u&sMYgיe:LAl39$Ǭ/\u0001U \u0001\u0010\u0007\u0003h\u0012cr K\u0014:\u001b d?~\u0000\u0003;ݭshݖc\u0007ƅk̝A:Fm\u00187{hЇ \"߃Mlpvn=\u000f\u000e?b=U/噏\u0010[\u0015L\u0006:Zk)-й ޥߛKnǽKs#~| E*a.7Fӗi:Y>ف&+ I'G0 H\u0016[=|\u0007\u0016ԨF4G#uc\u0013#o C7#fS \u0015\u0005^7%\u0003Q:S6J\u0014j}t\u0006;I)\u0019ݢ\u0015o6v\u0010zf^/1\u0013\u0015%]{[]qkH~3vuz,\u0002H)˺ϲǶ%\u0002KC\u0002>s\u0004eFE\u0016Zo\u0011Fy\"Ʊ{\u0001{}\u0015{\\\u000em\u0007mۅaIc\u0004\b&-!8T҂rǬr,w7͛ѷ| }qoʷqI7#fe9D~'𬀖3ReF}驣\\3 17Z/l0B Y@r/4\u0013a` 7\u0012sj0C\u0018\u0005o\u001bzAsZ\u0016\u0019ȷ {\u001b'7 0\u000e\u0010R(Px\u000e4l\u0014G3 T\u0018F ZY Γomo\u0003rs,\u0000\u000elIHG\u0007ⱦi|nȋJ>\u0019[\\O\u0018UK7TmǊf}ka\u0011m{.p r \u0019a Vk3@\u0005Z +'x P/\u00168ͰjAwuޫ\u0017-\"d@\\\u001a;Xl N\\a\u0018\u0006\"\u0003A^2\b1ĸ 䒊\u0017?m뛍SwjjZzْf\u0007h kG\u001aT\u0019Da\u0005%\u0005\u0011\u001bU|Zq\u0004dYmb\u0005p\u0006\u0011Q&GV&k\u00075k\u0013=\u0005\u0013= [\u0000jE.\u0003&\u0004 \\\u0001d춰v8f\u0012j4}\u0003\u0001F.\u000e;\u0003O\u0016.XoF~\u0002\u0005kL\u0017f]\u0004@ch\\(\u0019l\u0010@ ?S> / wxnӈo}r {9>~>#\\@A=W:\u0011#:9-W\u0003\u0005D\u0018Aq_B",
       "abstract": "C\u0013Y\u0011R+ \b\u000e[gOlCUKK^b\u0010 6/v\u000eZ*Vckcp^\\jF\u0014h>UǂYwvO\u0014o9VNW\u0016TST\u0005\u0006E\u0012\u0004Ně9Qb`'Y&b%\u0013K\u0013YZ i.N\u0000mԽ& i\u0018 \u0001#ɬK%VivYFG] # S{W4\u0003uG ț˂, m,(\be^!}m\u0019\u00078mg\u000f8\u0014V*\b\u0002\u000eTf9 A s\u0000#KZ9N\u00101\"+\u0012ϕt\u0011huRT aE^\u0015#hHJj\u0002\u001bVhg#D\u0013!\b~51\u00025F\u001bSώO{ų]nS\u000f\u000fyc^` p\u000fhlFc \u0016\u0007\u000eHA\u0003m\u0002 \u000e\u001acfZ\u0000@$'h)\u0013H \u00038T5ͻ\bd iHDI0AZ2 \u0018h\u0012;\u0014=I \" :w\u0002/PMeKrX6L[nA*(M0\"6zhZ[wxJ4z?|ݗ8_\u0000cR?߽SUy\u0003H|$\b4 l}R\u00117?_::) #\u000e N,R CMDLI랡zXwuD8w>\u0006 ? f\u0010KǶB\u001b~ I\u0004v\u0006\u0014.VҌ`SBn⬤ȇ *,)6g;恦#gna@SYFf$ej3K\u0006g$\u0006 [×N/4]Fׯ ʧ\u0011#ep'v%ϧ @DomnkZ4_\u0003\u0016Jh>\u00138&cYx7aw\u0012|ît\u0018'Տn|\u0012ד [V=\u0018mֻg¼\u0003ZND%?\bŨJ3!qp*\b\u0006+XX' ig!H6L\u001b\"+ōhH\u00148F\u0005V$)!\u0012T4\u0014 e\u0001p& XXꂈc\u0018.\u0012KĒ\u0016/BD[IK'- \u0006I YS-/Cx#-A\u0012ʸ%C\u0002Fq+,\b2P \u0016Dbq \u0004\u0017>86W\u00182:m^ .h.: |r#ޖGeU 7UNeE4A\u0005ܷizȷ*ߪ4\u000fC\u0001^tf&n65\u0001 86vXze/u&sMYgיe:LAl39$Ǭ/\u0001U \u0001\u0010\u0007\u0003h\u0012cr K\u0014:\u001b d?~\u0000\u0003;ݭshݖc\u0007ƅk̝A:Fm\u00187{hЇ \"߃Mlpvn=\u000f\u000e?b=U/噏\u0010[\u0015L\u0006:Zk)-й ޥߛKnǽKs#~| E*a.7Fӗi:Y>ف&+ I'G0 H\u0016[=|\u0007\u0016ԨF4G#uc\u0013#o C7#fS \u0015\u0005^7%\u0003Q:S6J\u0014j}t\u0006;I)\u0019ݢ\u0015o6v\u0010zf^/1\u0013\u0015%]{[]qkH~3vuz,\u0002H)˺ϲǶ%\u0002KC\u0002>s\u0004eFE\u0016Zo\u0011Fy\"Ʊ{\u0001{}\u0015{\\\u000em\u0007mۅaIc\u0004\b&-!8T҂rǬr,w7͛ѷ| }qoʷqI7#fe9D~'𬀖3ReF}驣\\3 17Z/l0B Y@r/4\u0013a` 7\u0012sj0C\u0018\u0005o\u001bzAsZ\u0016\u0019ȷ {\u001b'7 0\u000e\u0010R(Px\u000e4l\u0014G3 T\u0018F ZY Γomo\u0003rs,\u0000\u000elIHG\u0007ⱦi|nȋJ>\u0019[\\O\u0018UK7TmǊf}ka\u0011m{.p r \u0019a Vk3@\u0005Z +'x P/\u00168ͰjAwuޫ\u0017-\"d@\\\u001a;Xl N\\a\u0018\u0006\"\u0003A^2\b1ĸ 䒊\u0017?m뛍SwjjZzْf\u0007h kG\u001aT\u0019Da\u0005%\u0005\u0011\u001bU|Zq\u0004dYmb\u0005p\u0006\u0011Q&GV&k\u00075k\u0013=\u0005\u0013= [\u0000jE.\u0003&\u0004 \\\u0001d춰v8f\u0012j4}\u0003\u0001F.\u000e;\u0003O\u0016.XoF~\u0002\u0005kL\u0017f]\u0004@ch\\(\u0019l\u0010@ ?S> / wxnӈo}r {9>~>#\\@A=W:\u0011#:9-W\u0003\u0005D\u0018Aq_B",
       "score": 49
+    },
+    {
+      "title": "In a swipe at Tesla, Waymo says ‘cameras… aren’t enough’",
+      "topic": "In a swipe at Tesla, Waymo says ‘cameras… aren’t enough’",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLU1YVTh6QnlldjJqdnN5WTI4d1JhdHNkMHdvZjF6SVpyZkU4dUZrVUliUjVVS2VEM3FNQkI5Y0ZhcER0aXZuLTRDUlBfdHAzd2ZJVV9ycHBHc0FBUlJMbk41Q3VZbUstQkRwZ1h0OHV6Q3pJTWRhOWZaSUtmX1VYRGNjbUVnWDBENm5UbDV6NzVtd0toaVRhUXV3?oc=5",
+      "source": "The Verge",
+      "published": "2026-08-27T14:55:20Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo CEO John Krafcik stated that cameras alone are not enough for safe autonomous driving, directly challenging Tesla's camera-centric approach. Waymo's stance underscores the importance of multi-sensor fusion, including LiDAR and radar, in building reliable and safe autonomous vehicles.",
+      "abstract": "Waymo CEO John Krafcik stated that cameras alone are not enough for safe autonomous driving, directly challenging Tesla's camera-centric approach. Waymo's stance underscores the importance of multi-sensor fusion, including LiDAR and radar, in building reliable and safe autonomous vehicles.",
+      "score": 80
     },
     {
       "title": "Waymo takes a shot at Tesla’s self-driving: it’s a ‘false summit’",
