@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-01T11:43:31.612505Z",
+  "updated_at": "2026-09-02T11:23:49.327009Z",
   "items": [
+    {
+      "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
+      "topic": "US urges hands-off approach to AI regulation at G20 tech meeting",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVmNEZEtiMUprakFZdzJZc1ByWHZFSDBOWk1PUlZzdjRnLUhRajdvVHQ3LWQ4YkVTcDFDTmVGc2FiSTQ1Q2lqRU0tR0xfYVN3QXVwQWN3Z0E1RURlTVhzWU1fbHBLbURkQksyWjdseTdqUFRDbkxjZWswUzdNalNPcm9peVBuUjRldjlTZU9rZkRraWFNbVNFT3QtSEdaLWFDSjBYS2pyTnY2OTFGWUxvag?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-01T20:29:00Z",
+      "category": "ai",
+      "summary": "The United States is urging a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the need for innovation and flexibility in the development of AI technologies. This stance could influence global policies and standards for autonomous vehicles and other AI applications.",
+      "abstract": "The United States is urging a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the need for innovation and flexibility in the development of AI technologies. This stance could influence global policies and standards for autonomous vehicles and other AI applications.",
+      "score": 70
+    },
+    {
+      "title": "Amazon's Zoox, Alphabet's Waymo expand robotaxi services to more US cities",
+      "topic": "Amazon's Zoox, Alphabet's Waymo expand robotaxi services to more US cities",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVlpQZzFKRlVjWkZKMVJJaVNGQ0YycC1Wb3Y0LUdzV2pTaVp2bWNHSF8zUThnc0xRNmJETUVSSGNiM1lSUTZJZzRmdmxJNHBiVnhTREtwZ010X01Sc3AwWHdQWHR3b212c18ycVE5WUpFWi1ZM3BKUVFNMlFvc1ZsS1d6enFRZC1pa2tkdEtCeDJQSzVHMU1LRDZpdEdrRzJrVGxXbjNWaUVzeHR1MzhxeFRMWQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-01T19:37:55Z",
+      "category": "automated-vehicles",
+      "summary": "Amazon's Zoox and Alphabet's Waymo are expanding their robotaxi services to additional U.S. cities, enhancing their reach and providing more opportunities for public interaction with autonomous vehicle technology. This expansion underscores the growing commercial viability of robotaxi services.",
+      "abstract": "Amazon's Zoox and Alphabet's Waymo are expanding their robotaxi services to additional U.S. cities, enhancing their reach and providing more opportunities for public interaction with autonomous vehicle technology. This expansion underscores the growing commercial viability of robotaxi services.",
+      "score": 88
+    },
     {
       "title": "OpenAI supports California’s bill to advance youth AI safety",
       "topic": "OpenAI supports California’s bill to advance youth AI safety",
@@ -21,6 +43,28 @@
       "category": "automated-vehicles",
       "summary": "A Tesla driver died while the vehicle was stopped on a freeway with Autopilot and Full Self-Driving (FSD) engaged. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's advanced driver-assistance systems, particularly in scenarios where the system may not adequately handle stationary objects.",
       "abstract": "A Tesla driver died while the vehicle was stopped on a freeway with Autopilot and Full Self-Driving (FSD) engaged. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's advanced driver-assistance systems, particularly in scenarios where the system may not adequately handle stationary objects.",
+      "score": 90
+    },
+    {
+      "title": "LLM-Driven Autonomous Vehicles Inherit Human Driver Biases in Pedestrian Yielding: Results and Implications From A New Benchmark",
+      "topic": "LLM-Driven Autonomous Vehicles Inherit Human Driver Biases in Pedestrian Yielding: Results and Implications From A New Benchmark",
+      "url": "https://arxiv.org/abs/2609.00192v1",
+      "source": "arXiv",
+      "published": "2026-08-31T18:11:49Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A study by arXiv researchers reveals that large language models (LLMs) and visual-language models (VLMs) used in autonomous vehicles (AVs) can inherit human driver biases, such as lower pedestrian-yielding rates to Black pedestrians in the US. The paper introduces two new bias testing methodologies, 'All Else Being Equal' and 'Self-Consistency' tests, to assess and mitigate these biases, emphasizing the importance of fairness in AV decision-making.",
+      "abstract": "A study by arXiv researchers reveals that large language models (LLMs) and visual-language models (VLMs) used in autonomous vehicles (AVs) can inherit human driver biases, such as lower pedestrian-yielding rates to Black pedestrians in the US. The paper introduces two new bias testing methodologies, 'All Else Being Equal' and 'Self-Consistency' tests, to assess and mitigate these biases, emphasizing the importance of fairness in AV decision-making.",
+      "score": 92
+    },
+    {
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "topic": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.00111v1",
+      "source": "arXiv",
+      "published": "2026-08-31T17:59:54Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Qwen-Drive-1.0, a vision-language foundation model for autonomous driving, is introduced by arXiv researchers. This model integrates 3D perception, visual question answering, and motion planning within a unified framework. It includes a bird's-eye-view (BEV) perception head for 3D object detection and a Planning Expert for generating future ego trajectories, trained using a combination of driving supervision and general-purpose vision-language data.",
+      "abstract": "Qwen-Drive-1.0, a vision-language foundation model for autonomous driving, is introduced by arXiv researchers. This model integrates 3D perception, visual question answering, and motion planning within a unified framework. It includes a bird's-eye-view (BEV) perception head for 3D object detection and a Planning Expert for generating future ego trajectories, trained using a combination of driving supervision and general-purpose vision-language data.",
       "score": 90
     },
     {
