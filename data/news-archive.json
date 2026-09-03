@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-09-02T11:23:49.327009Z",
+  "updated_at": "2026-09-03T11:21:02.592041Z",
   "items": [
+    {
+      "title": "Uber beats Waymo as first to launch robotaxis in London",
+      "topic": "Uber beats Waymo as first to launch robotaxis in London",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQNURNa1FQYVFkeURyVFBHQUdoNjYyb3QxZWlfUGFvUTVxYjV5Q0lONFRxYVdaWkdORnpjUWlZWllHMVlFUmpyT3lBLXZwV0xaNmlRMmNUUlNqWTdmakNmaFlIRzV4VTNiamxmbVBtYzZwSlU2RlpmT3dB?oc=5",
+      "source": "The Verge",
+      "published": "2026-09-02T23:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Uber has launched its robotaxi service in London, becoming the first company to do so in the city. This deployment marks a significant milestone in the expansion of autonomous vehicle services in Europe, potentially challenging established players like Waymo.",
+      "abstract": "Uber has launched its robotaxi service in London, becoming the first company to do so in the city. This deployment marks a significant milestone in the expansion of autonomous vehicle services in Europe, potentially challenging established players like Waymo.",
+      "score": 95
+    },
+    {
+      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "topic": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnVrQ0VqZ1FpRW9jTDdTaG1wS3FUc0VsODlDbFlqdjdhbWlsT1B0QjNwWHVISW1renJyZFAxMUpRVkl2bHd4MnJpc2tzajM1M2lTdm5wWEs5S0RRQXU0OEd6YW8zeWlZVUZXdUFJT3lYbE9YbEJMU1Qya1ZGVWtvbVZBNUVLTnRNNjIyOUdKc2FFSXpHNlE?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-02T20:19:14Z",
+      "category": "ai",
+      "summary": "OpenAI's new reasoning technique has raised concerns among AI safety experts, highlighting the potential risks associated with advanced AI models. The technique, while innovative, may pose significant safety challenges that need to be addressed to ensure responsible AI development.",
+      "abstract": "OpenAI's new reasoning technique has raised concerns among AI safety experts, highlighting the potential risks associated with advanced AI models. The technique, while innovative, may pose significant safety challenges that need to be addressed to ensure responsible AI development.",
+      "score": 80
+    },
+    {
+      "title": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model",
+      "topic": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbktxaDhHaTRqMWctQkIycW1SVlE1WkZfSTlLVndVdFZzTE9RTDJVYzQ5NUlFMGRRNF9ieW9IaWJ6YW1lM2ZBc1BHN2pqbUtNeFZzcjNYXzJ5UXJjTUZZVl9McDY4R19SU3lvZjRTakxia3lvRF9fRGRrLWU0Qlpwb2N6RU52M2hMTUMtUU1BY2xLY3Y5Z0JFUnRob0NCYnlUdFNxdzJrRmRKN3YweTJEc0trZw?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-09-02T02:12:43Z",
+      "category": "ai",
+      "summary": "Google is reportedly on the verge of releasing a new coding-first AI model, which is expected to significantly enhance the capabilities of developers and researchers. This model could have far-reaching implications for various AI applications, including autonomous vehicle systems.",
+      "abstract": "Google is reportedly on the verge of releasing a new coding-first AI model, which is expected to significantly enhance the capabilities of developers and researchers. This model could have far-reaching implications for various AI applications, including autonomous vehicle systems.",
+      "score": 70
+    },
     {
       "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
       "topic": "US urges hands-off approach to AI regulation at G20 tech meeting",
@@ -22,6 +55,50 @@
       "summary": "Amazon's Zoox and Alphabet's Waymo are expanding their robotaxi services to additional U.S. cities, enhancing their reach and providing more opportunities for public interaction with autonomous vehicle technology. This expansion underscores the growing commercial viability of robotaxi services.",
       "abstract": "Amazon's Zoox and Alphabet's Waymo are expanding their robotaxi services to additional U.S. cities, enhancing their reach and providing more opportunities for public interaction with autonomous vehicle technology. This expansion underscores the growing commercial viability of robotaxi services.",
       "score": 88
+    },
+    {
+      "title": "Waymo Robotaxi Rides Are Now Open To The Public In Denver, San Diego And Tampa",
+      "topic": "Waymo Robotaxi Rides Are Now Open To The Public In Denver, San Diego And Tampa",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWERfN0ozOFBXV0tqbkVSYUlkYmZUYkFCWDl5ZThzLURyZkhrVk1yY1c2SUx1TTNiWEY1Z3UwdVpqX3BSTVNEb2trM1J0aURydHZSaDA1T1ZocUE3cEM4SU1HemxFSm95NXRWLVRpcllpYVltQjh1VEpsT2tjRk41WGhKTElmemx4UXBjWjk4dlo3alJKeTlWWDFudEY0S2xDaUhnWFZlajc4OU5jeFFaQQ?oc=5",
+      "source": "engadget.com",
+      "published": "2026-09-01T16:24:24Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has expanded its robotaxi service to the public in Denver, San Diego, and Tampa, bringing the total number of cities with Waymo robotaxis to 14. This expansion underscores Waymo's commitment to widespread deployment of autonomous vehicles and enhances public access to the technology.",
+      "abstract": "Waymo has expanded its robotaxi service to the public in Denver, San Diego, and Tampa, bringing the total number of cities with Waymo robotaxis to 14. This expansion underscores Waymo's commitment to widespread deployment of autonomous vehicles and enhances public access to the technology.",
+      "score": 95
+    },
+    {
+      "title": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
+      "topic": "Waymo opens robotaxi rides to the public in 3 new cities, now 14 total",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDlSQzduTGFBYXRxcE5IdnVvd0hCZVE0ZVg5Q0tPdDFmSjdOazRxSkJiYndrcGVjNG1HYjhxZ3ktX0M3ZG5tQmVrNnlxTGtiNzV6MVJYTk1fVml6VTNRcTFoaFZLb2N4UUZ4WFR4Wmt6N0hmc0Z4YkNlam9NTzhMYWhB?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-01T15:22:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has opened its robotaxi service to the public in three new cities—Denver, San Diego, and Tampa—increasing the total number of cities with Waymo robotaxis to 14. This expansion highlights Waymo's rapid progress in deploying autonomous vehicles across multiple urban environments.",
+      "abstract": "Waymo has opened its robotaxi service to the public in three new cities—Denver, San Diego, and Tampa—increasing the total number of cities with Waymo robotaxis to 14. This expansion highlights Waymo's rapid progress in deploying autonomous vehicles across multiple urban environments.",
+      "score": 95
+    },
+    {
+      "title": "Tesla touts European supervised self-driving safety data ahead of EU vote",
+      "topic": "Tesla touts European supervised self-driving safety data ahead of EU vote",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RIaDZpWVJKOWMzRm1hUmpRMFBHVDRkeHpEcHFWcDlHMDBNajYtZzA2LUp5YnNLNDVjYmtZUlZlbXJyQ1F0ZEItWUF6ZDIwNzkzMzhhZ016RDFRQ0xlVUFGZkdPTDlyM1ZRNExka3o5UGdCLW9jLTVkeDZFdUVnWXF2VGpPNDY2bTdzdmw3YXNTbjJrT1FSLVo3X2dRUGF1TnVMdWZVb2hSNzZoamVhcERjVFhnNjB3OHBUVFZtNU5sS2JwMnVaSjZXcDJRaVlpMmc?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-01T15:20:25Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's technology, which is critical for gaining regulatory approval and public trust.",
+      "abstract": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's technology, which is critical for gaining regulatory approval and public trust.",
+      "score": 85
+    },
+    {
+      "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
+      "topic": "US urges hands-off approach to AI regulation at G20 tech meeting",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmFFcTlLcU1BTjFTOXBjTE80ZGFzSUc5ZUtPREdXX2tDcTJZODd4UTNwekU1M3JFdXlZdUhPcFl6Z0RqcWhjQ3VvLW92cmtZMHlLY0ZmTktxNlUtVXJLRlFfTXhWWXpvbGRBTU1Vb0FEY0dVNWE1Y3VNZTJ5SVhoU19hU0lsU0xmUnpoSkJrMVY5T1ZIaHlzTHRBS2JRTjdRU0U0R0tB?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-01T10:06:00Z",
+      "category": "ai",
+      "summary": "The United States has advocated for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation without excessive regulatory constraints. This stance reflects a broader debate on the balance between AI advancement and regulatory oversight.",
+      "abstract": "The United States has advocated for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation without excessive regulatory constraints. This stance reflects a broader debate on the balance between AI advancement and regulatory oversight.",
+      "score": 75
     },
     {
       "title": "OpenAI supports California’s bill to advance youth AI safety",
