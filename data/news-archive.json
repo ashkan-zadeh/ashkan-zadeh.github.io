@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-09-03T11:21:02.592041Z",
+  "updated_at": "2026-09-04T11:23:29.015958Z",
   "items": [
+    {
+      "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "topic": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-03T21:43:43Z",
+      "category": "ai",
+      "summary": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
+      "abstract": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
+      "score": 65
+    },
+    {
+      "title": "France starts tests on Tesla's self-driving tech",
+      "topic": "France starts tests on Tesla's self-driving tech",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2Z6cHJwdzVFWlFBVTA3ZnZqa2FodnJTVnRRNGNrckx4MHdjdExEZlJMNHE5SS1LT2lRZmxNSmxRcndqbmJUZ3ZDbXJEWU1zQlIxY2lyb19TZ3RLaVpLRHJvWXljbUNyZFBjVzdVUG5vUnpVNy1tM2IzcFVLbm5LUkU0RUpPR2dDcE9kMDYxZXl2Q1FOTmc?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-03T13:28:53Z",
+      "category": "automated-vehicles",
+      "summary": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
+      "abstract": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
+      "score": 85
+    },
+    {
+      "title": "Tesla starts Cybercab rides in Austin, drawing US safety agency interest",
+      "topic": "Tesla starts Cybercab rides in Austin, drawing US safety agency interest",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkZILWtfRnRVVS1iTERiNHlmYlAzOXptQld0WU1ncEtVaC01V2NvSTI5S0ZUbkh4V0hqRjNCTmkxSWFnQ1pabG9JbTBnVkxDdlIwR3dXd2dWMVJ2WFRidUN3b1FNV1VRdlRDcVhWZUxEamFPQkp5Tl9MRXJUQ2xacFAxR1NDb1gwYnRhRENrcl94ZHd2bFFtakp6OXh3WDBLQ21VMTh5Vnk0WTJGdjlXVnAtNU5rZEJG?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-03T10:14:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has launched Cybercab rides in Austin, Texas, a move that has attracted the attention of the US safety agency. The Cybercab service, which uses Tesla's Full Self-Driving (FSD) technology, is a significant step towards commercializing Tesla's autonomous driving capabilities and will be closely monitored for safety and performance.",
+      "abstract": "Tesla has launched Cybercab rides in Austin, Texas, a move that has attracted the attention of the US safety agency. The Cybercab service, which uses Tesla's Full Self-Driving (FSD) technology, is a significant step towards commercializing Tesla's autonomous driving capabilities and will be closely monitored for safety and performance.",
+      "score": 90
+    },
     {
       "title": "Uber beats Waymo as first to launch robotaxis in London",
       "topic": "Uber beats Waymo as first to launch robotaxis in London",
@@ -22,6 +55,17 @@
       "summary": "OpenAI's new reasoning technique has raised concerns among AI safety experts, highlighting the potential risks associated with advanced AI models. The technique, while innovative, may pose significant safety challenges that need to be addressed to ensure responsible AI development.",
       "abstract": "OpenAI's new reasoning technique has raised concerns among AI safety experts, highlighting the potential risks associated with advanced AI models. The technique, while innovative, may pose significant safety challenges that need to be addressed to ensure responsible AI development.",
       "score": 80
+    },
+    {
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "topic": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTNzQ3pES3RSaGdWSDc5ME50N3VEcE8yNTZQOW14enBQeEpTZHhnZEJVbjFuVWYzOWpESmZLOWdVOU0yLUpvNzZMZmltR25KaXdMbXRIa2JhT1NldzBubnFabUxncmd6WC14NE9ZQzdwSDh6TXNQQ0FUTkdka09rUDVwVklLaFhiXzdrajlkUGE0TG5LeHpB?oc=5",
+      "source": "The Verge",
+      "published": "2026-09-02T16:40:50Z",
+      "category": "ai",
+      "summary": "Researchers are expressing concerns about the potential safety risks associated with OpenAI's upcoming Astra release. The release of Astra, a powerful AI model, has raised fears about its potential misuse and the need for stringent safety measures to prevent unintended consequences.",
+      "abstract": "Researchers are expressing concerns about the potential safety risks associated with OpenAI's upcoming Astra release. The release of Astra, a powerful AI model, has raised fears about its potential misuse and the need for stringent safety measures to prevent unintended consequences.",
+      "score": 70
     },
     {
       "title": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model",
@@ -88,6 +132,17 @@
       "summary": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's technology, which is critical for gaining regulatory approval and public trust.",
       "abstract": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's technology, which is critical for gaining regulatory approval and public trust.",
       "score": 85
+    },
+    {
+      "title": "Tesla confirms Full Self-Driving was active in a crash that killed a mother of five",
+      "topic": "Tesla confirms Full Self-Driving was active in a crash that killed a mother of five",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlQWxISnhSbkNqcmkzaHlUUFdXdW5ueWw5QWJ6Tk15MkI2QUYwX0tRNlVQczZSbk9KUzlUUE41NEZZWlpqanF6OFZRMUZZb185emltVngyMzBkYWF0RG14cGpwQTF3YWRzd2xFR3FydjJjcDhDWU9Ubw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-01T14:52:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has confirmed that its Full Self-Driving (FSD) system was active in a crash that resulted in the death of a mother of five. This incident highlights the critical need for rigorous safety testing and regulatory oversight of autonomous driving technologies to prevent such tragedies.",
+      "abstract": "Tesla has confirmed that its Full Self-Driving (FSD) system was active in a crash that resulted in the death of a mother of five. This incident highlights the critical need for rigorous safety testing and regulatory oversight of autonomous driving technologies to prevent such tragedies.",
+      "score": 80
     },
     {
       "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
