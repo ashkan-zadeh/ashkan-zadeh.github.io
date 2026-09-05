@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-04T11:23:29.015958Z",
+  "updated_at": "2026-09-05T10:40:45.354347Z",
   "items": [
+    {
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "topic": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd0dTWnZWcm1zc3pGR2l0R0c3YWhnUWFZa2JQeDFSeDA0OHNBdXlULTgya3ZKQ192OXI3NU0xZEEyRmdYb01zaHRQTEt6N01CNFZxU1NnOEZ3WVI0MGtkOUNQSmI3UTJyaWVVTE1hY19NOGJMOWJESVYycVpRU3NvaTdIamVWX2k4dXlIUXVhMUtzZXo4SWV6S01JblIwMGJ5UDF1VA?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-04T22:57:32Z",
+      "category": "ai",
+      "summary": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
+      "abstract": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
+      "score": 70
+    },
+    {
+      "title": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
+      "topic": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMHpXOUlqZzU5UTNwSmdNUW9MNE1ac0ZJbmRsc1pOVms5a2ZYUzFtVDIyYkNid1VFMnhjNExLcTBOYkVPS3h4TmJ2UGZBYVJaQlNzVk9fcDZYd1YwSmY1RG1KcWc3R3JvNlg4UUtRUGkxNDUzTGRXaG5DRVZ4VmtoMA?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-04T13:56:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
+      "abstract": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
+      "score": 85
+    },
     {
       "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
       "topic": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",

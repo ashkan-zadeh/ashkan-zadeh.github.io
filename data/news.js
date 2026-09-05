@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-04T11:23:28.969901Z",
+  "generated_at": "2026-09-05T10:40:45.277879Z",
   "items": [
     {
       "title": "Waymo to begin testing autonomous vehicles in Munich",
@@ -8,8 +8,8 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-08-25T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo will begin testing its autonomous vehicles in Munich, expanding its European presence and gathering data to refine its technology. This deployment is part of Waymo's strategy to validate its AV systems in diverse urban environments, which is crucial for achieving robust and reliable self-driving capabilities.",
-      "abstract": "Waymo will begin testing its autonomous vehicles in Munich, expanding its European presence and gathering data to refine its technology. This deployment is part of Waymo's strategy to validate its AV systems in diverse urban environments, which is crucial for achieving robust and reliable self-driving capabilities.",
+      "summary": "Waymo will initiate autonomous vehicle testing in Munich, expanding its global presence and gathering crucial data for European road conditions. This deployment marks a significant step in Waymo's strategy to refine its AV technology for diverse urban environments.",
+      "abstract": "Waymo will initiate autonomous vehicle testing in Munich, expanding its global presence and gathering crucial data for European road conditions. This deployment marks a significant step in Waymo's strategy to refine its AV technology for diverse urban environments.",
       "score": 95
     },
     {
@@ -19,9 +19,20 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-03T10:14:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has launched Cybercab rides in Austin, Texas, a move that has attracted the attention of the US safety agency. The Cybercab service, which uses Tesla's Full Self-Driving (FSD) technology, is a significant step towards commercializing Tesla's autonomous driving capabilities and will be closely monitored for safety and performance.",
-      "abstract": "Tesla has launched Cybercab rides in Austin, Texas, a move that has attracted the attention of the US safety agency. The Cybercab service, which uses Tesla's Full Self-Driving (FSD) technology, is a significant step towards commercializing Tesla's autonomous driving capabilities and will be closely monitored for safety and performance.",
+      "summary": "Tesla has launched Cybercab rides in Austin, Texas, attracting the attention of the US safety agency. This deployment is a critical milestone for Tesla's Full Self-Driving (FSD) technology, as it marks the first public robotaxi service in the United States.",
+      "abstract": "Tesla has launched Cybercab rides in Austin, Texas, attracting the attention of the US safety agency. This deployment is a critical milestone for Tesla's Full Self-Driving (FSD) technology, as it marks the first public robotaxi service in the United States.",
       "score": 90
+    },
+    {
+      "title": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
+      "topic": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMHpXOUlqZzU5UTNwSmdNUW9MNE1ac0ZJbmRsc1pOVms5a2ZYUzFtVDIyYkNid1VFMnhjNExLcTBOYkVPS3h4TmJ2UGZBYVJaQlNzVk9fcDZYd1YwSmY1RG1KcWc3R3JvNlg4UUtRUGkxNDUzTGRXaG5DRVZ4VmtoMA?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-04T13:56:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
+      "abstract": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
+      "score": 85
     },
     {
       "title": "France starts tests on Tesla's self-driving tech",
@@ -30,31 +41,9 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-03T13:28:53Z",
       "category": "automated-vehicles",
-      "summary": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
-      "abstract": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
-      "score": 85
-    },
-    {
-      "title": "Tesla confirms Full Self-Driving was active in a crash that killed a mother of five",
-      "topic": "Tesla confirms Full Self-Driving was active in a crash that killed a mother of five",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlQWxISnhSbkNqcmkzaHlUUFdXdW5ueWw5QWJ6Tk15MkI2QUYwX0tRNlVQczZSbk9KUzlUUE41NEZZWlpqanF6OFZRMUZZb185emltVngyMzBkYWF0RG14cGpwQTF3YWRzd2xFR3FydjJjcDhDWU9Ubw?oc=5",
-      "source": "Electrek",
-      "published": "2026-09-01T14:52:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has confirmed that its Full Self-Driving (FSD) system was active in a crash that resulted in the death of a mother of five. This incident highlights the critical need for rigorous safety testing and regulatory oversight of autonomous driving technologies to prevent such tragedies.",
-      "abstract": "Tesla has confirmed that its Full Self-Driving (FSD) system was active in a crash that resulted in the death of a mother of five. This incident highlights the critical need for rigorous safety testing and regulatory oversight of autonomous driving technologies to prevent such tragedies.",
+      "summary": "France has commenced testing Tesla's self-driving technology, a move that could influence European regulatory standards for autonomous vehicles. The tests will provide valuable insights into the performance and safety of Tesla's FSD in a European context.",
+      "abstract": "France has commenced testing Tesla's self-driving technology, a move that could influence European regulatory standards for autonomous vehicles. The tests will provide valuable insights into the performance and safety of Tesla's FSD in a European context.",
       "score": 80
-    },
-    {
-      "title": "Large-language-model-driven adaptive search space definition for autonomous closed-loop materials exploration",
-      "topic": "Large-language-model-driven adaptive search space definition for autonomous closed-loop materials exploration",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RcTc0NHFOdU5GdDNuQ21qdi1wR0hNeVlPaUQ0UlZnNzFQV1dHNmNEQmxNZ3FsM3cyZ3hOS2xRTWJhSk10RklULUlRMFJNNlVxRkc5dHZFQTl5QlVmLXZn?oc=5",
-      "source": "Nature",
-      "published": "2026-08-25T17:33:02Z",
-      "category": "llm",
-      "summary": "A research paper published in Nature describes a large-language-model-driven adaptive search space definition for autonomous closed-loop materials exploration. This approach leverages LLMs to optimize the search for new materials, which could have significant implications for the development of advanced sensors and materials in autonomous vehicles.",
-      "abstract": "A research paper published in Nature describes a large-language-model-driven adaptive search space definition for autonomous closed-loop materials exploration. This approach leverages LLMs to optimize the search for new materials, which could have significant implications for the development of advanced sensors and materials in autonomous vehicles.",
-      "score": 75
     },
     {
       "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
@@ -63,8 +52,19 @@ window.NEWS_FEED = {
       "source": "The Verge",
       "published": "2026-09-02T16:40:50Z",
       "category": "ai",
-      "summary": "Researchers are expressing concerns about the potential safety risks associated with OpenAI's upcoming Astra release. The release of Astra, a powerful AI model, has raised fears about its potential misuse and the need for stringent safety measures to prevent unintended consequences.",
-      "abstract": "Researchers are expressing concerns about the potential safety risks associated with OpenAI's upcoming Astra release. The release of Astra, a powerful AI model, has raised fears about its potential misuse and the need for stringent safety measures to prevent unintended consequences.",
+      "summary": "Researchers express concerns over the potential safety risks associated with OpenAI's upcoming Astra release. The model's advanced capabilities raise questions about its impact on public safety and the need for robust regulatory frameworks.",
+      "abstract": "Researchers express concerns over the potential safety risks associated with OpenAI's upcoming Astra release. The model's advanced capabilities raise questions about its impact on public safety and the need for robust regulatory frameworks.",
+      "score": 75
+    },
+    {
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "topic": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd0dTWnZWcm1zc3pGR2l0R0c3YWhnUWFZa2JQeDFSeDA0OHNBdXlULTgya3ZKQ192OXI3NU0xZEEyRmdYb01zaHRQTEt6N01CNFZxU1NnOEZ3WVI0MGtkOUNQSmI3UTJyaWVVTE1hY19NOGJMOWJESVYycVpRU3NvaTdIamVWX2k4dXlIUXVhMUtzZXo4SWV6S01JblIwMGJ5UDF1VA?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-04T22:57:32Z",
+      "category": "ai",
+      "summary": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
+      "abstract": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
       "score": 70
     },
     {
@@ -74,8 +74,8 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-03T21:43:43Z",
       "category": "ai",
-      "summary": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
-      "abstract": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
+      "summary": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is part of a broader strategy to enhance the security and reliability of AI systems.",
+      "abstract": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is part of a broader strategy to enhance the security and reliability of AI systems.",
       "score": 65
     },
     {
@@ -85,8 +85,8 @@ window.NEWS_FEED = {
       "source": "IEEE Transactions on Vehicular Technology",
       "published": "2026-04-10T13:16:09Z",
       "category": "journal-rss",
-      "summary": "IEEE Transactions on Vehicular Technology researchers propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. This method aims to improve LLMs' performance in safety-critical tasks by integrating structured textual rules and visual traffic signs, addressing the limitations of smaller LLMs in passing driving theory tests.",
-      "abstract": "IEEE Transactions on Vehicular Technology researchers propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. This method aims to improve LLMs' performance in safety-critical tasks by integrating structured textual rules and visual traffic signs, addressing the limitations of smaller LLMs in passing driving theory tests.",
+      "summary": "IEEE Transactions on Vehicular Technology researchers propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities in realistic scenarios, addressing the limitations of current LLMs in passing driving theory tests.",
+      "abstract": "IEEE Transactions on Vehicular Technology researchers propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities in realistic scenarios, addressing the limitations of current LLMs in passing driving theory tests.",
       "score": 95
     },
     {
@@ -96,8 +96,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-08-21T09:06:16Z",
       "category": "arxiv-explainability-av",
-      "summary": "A team from arXiv introduces a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. This system addresses the limitations of existing VLA models, which often formulate driving as a visual question-answering task, leading to unreliable and less interpretable decision-making. The proposed framework enhances reliable scene perception and driving reasoning in complex scenarios.",
-      "abstract": "A team from arXiv introduces a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. This system addresses the limitations of existing VLA models, which often formulate driving as a visual question-answering task, leading to unreliable and less interpretable decision-making. The proposed framework enhances reliable scene perception and driving reasoning in complex scenarios.",
+      "summary": "A team from arXiv introduces a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. This approach addresses the limitations of existing VLA models, which often result in unreliable and less interpretable decision-making, by enhancing robust scene perception and reliable driving reasoning in long-tail driving scenarios.",
+      "abstract": "A team from arXiv introduces a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. This approach addresses the limitations of existing VLA models, which often result in unreliable and less interpretable decision-making, by enhancing robust scene perception and reliable driving reasoning in long-tail driving scenarios.",
       "score": 92
     },
     {
@@ -107,8 +107,8 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-08-31T01:51:51Z",
       "category": "arxiv-explainability-av",
-      "summary": "Researchers from arXiv present a taxonomy of Language Residue methods to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. This work aims to balance the computational efficiency and interpretability of VLA models, addressing the challenges of latency and memory constraints in onboard systems.",
-      "abstract": "Researchers from arXiv present a taxonomy of Language Residue methods to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. This work aims to balance the computational efficiency and interpretability of VLA models, addressing the challenges of latency and memory constraints in onboard systems.",
+      "summary": "Researchers from arXiv present a taxonomy of Language Residue methods to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. This work aims to balance the computational efficiency and interpretability of VLA models, crucial for real-time autonomous driving applications.",
+      "abstract": "Researchers from arXiv present a taxonomy of Language Residue methods to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, ranging from train-time-only supervision to full per-frame generation. This work aims to balance the computational efficiency and interpretability of VLA models, crucial for real-time autonomous driving applications.",
       "score": 90
     }
   ]
