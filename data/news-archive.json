@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:02:19.782718Z",
+  "updated_at": "2026-09-07T12:39:59.212975Z",
   "items": [
     {
       "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
@@ -33,6 +33,17 @@
       "summary": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
       "abstract": "OpenAI has committed $1 billion to a cyberdefense effort, reflecting the company's commitment to addressing AI safety concerns. This investment is aimed at enhancing cybersecurity measures and protecting against potential threats, which is crucial for the responsible development and deployment of AI technologies.",
       "score": 65
+    },
+    {
+      "title": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+      "topic": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.04070v1",
+      "source": "arXiv",
+      "published": "2026-09-03T16:42:11Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The paper introduces LaPla, a Vision-Language-Action (VLA) framework that uses latent-aligned planning to bridge the gap between discrete reasoning and continuous actions in autonomous driving. LaPla employs a residual vector-quantized variational autoencoder (VQ-VAE) to capture vehicle kinematics and encode trajectory features, enhancing the precision of motion execution.",
+      "abstract": "The paper introduces LaPla, a Vision-Language-Action (VLA) framework that uses latent-aligned planning to bridge the gap between discrete reasoning and continuous actions in autonomous driving. LaPla employs a residual vector-quantized variational autoencoder (VQ-VAE) to capture vehicle kinematics and encode trajectory features, enhancing the precision of motion execution.",
+      "score": 90
     },
     {
       "title": "France starts tests on Tesla's self-driving tech",
