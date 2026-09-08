@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-07T12:39:59.212975Z",
+  "updated_at": "2026-09-08T11:24:32.649577Z",
   "items": [
+    {
+      "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
+      "topic": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4YWFSbmRwN1QzLTI1MVNFbEZ0UTRWWGFuTTF4RG1SVVlzOTk3UTdFRmdrN2ptMUgzRWRKcm5PZ0VnV1g1MVJLa1ViaEJnTzF3cUs5LTFwZVFXZ0RQQmFaUUhEVUFuSjNsbXF2WHJYNkxfaEJpWGNRdUQ4M0tIUQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-07T18:41:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Tesla vehicle equipped with Full Self-Driving (FSD) and Autopilot features was involved in a fatal accident after running a stop sign, according to confirmed records. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's autonomous driving technology. This event underscores the need for rigorous testing and oversight of FSD systems.",
+      "abstract": "A Tesla vehicle equipped with Full Self-Driving (FSD) and Autopilot features was involved in a fatal accident after running a stop sign, according to confirmed records. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's autonomous driving technology. This event underscores the need for rigorous testing and oversight of FSD systems.",
+      "score": 90
+    },
     {
       "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
       "topic": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
@@ -22,6 +33,17 @@
       "summary": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
       "abstract": "Tesla's Full Self-Driving (FSD) system now includes a feature that allows the vehicle to take over manual driving to avoid collisions. This enhancement aims to improve safety and reliability, addressing concerns from regulators and consumers.",
       "score": 85
+    },
+    {
+      "title": "CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Driving",
+      "topic": "CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.04807v1",
+      "source": "arXiv",
+      "published": "2026-09-04T07:03:29Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
+      "abstract": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
+      "score": 95
     },
     {
       "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
