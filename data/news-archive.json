@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-08T11:24:32.649577Z",
+  "updated_at": "2026-09-09T11:28:59.365682Z",
   "items": [
+    {
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "topic": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.08965v1",
+      "source": "arXiv",
+      "published": "2026-09-08T16:19:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
+      "abstract": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
+      "score": 92
+    },
     {
       "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
       "topic": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
@@ -44,6 +55,28 @@
       "summary": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
       "abstract": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
       "score": 95
+    },
+    {
+      "title": "Tesla Starts Offering Cybercab Robotaxi Rides",
+      "topic": "Tesla Starts Offering Cybercab Robotaxi Rides",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LX2lXdGhMaDZSQ1RTdkQxVTV3RFRtTkRWQ0t2aDNtb1VCY0FFdUxLNkEwTHZ2cTh2WkNBdjJGY1UtRDZDV3FJN0gyUlN6SDkzM0Q0U0llRG9vOHZ0VTJIcmlPWHpOVU1weTZOYm10X3dJVzl2d2N5T2V6UXo?oc=5",
+      "source": "Engadget",
+      "published": "2026-09-04T06:41:33Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has launched its Cybercab robotaxi service, offering rides to the public. The service operates without human drivers, marking a significant step in the deployment of autonomous vehicles. This development underscores Tesla's commitment to advancing self-driving technology and expanding its presence in the robotaxi market.",
+      "abstract": "Tesla has launched its Cybercab robotaxi service, offering rides to the public. The service operates without human drivers, marking a significant step in the deployment of autonomous vehicles. This development underscores Tesla's commitment to advancing self-driving technology and expanding its presence in the robotaxi market.",
+      "score": 95
+    },
+    {
+      "title": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "topic": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXBiV2hXcFdaclpkU0sySWFKQWg5bHA3Q1FBZjVLeUlzNS1EQWt1Nm1jZmplM19QUWg4ZlV2NjRWNEdYdlhRZ0N1UUg4UEJjOVo5RnFlb1NlTEVPbXlCUzA5R1l1WTlvZDljTnhDcW9PWEF1d2lnT3Y2ZWJZcUl5eTFDOVExbG84Z3hFS2dOaFE3c3Vyb0VsMW9Kaw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-04T05:04:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's Robotaxi has achieved a milestone by driving 1 million unsupervised miles. This significant achievement highlights the progress in Tesla's autonomous driving capabilities and the reliability of its Full Self-Driving (FSD) system. The data will be crucial for regulatory approval and public trust in autonomous vehicle technology.",
+      "abstract": "Tesla's Robotaxi has achieved a milestone by driving 1 million unsupervised miles. This significant achievement highlights the progress in Tesla's autonomous driving capabilities and the reliability of its Full Self-Driving (FSD) system. The data will be crucial for regulatory approval and public trust in autonomous vehicle technology.",
+      "score": 90
     },
     {
       "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",

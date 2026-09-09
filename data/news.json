@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-09-08T11:24:32.556380Z",
+  "generated_at": "2026-09-09T11:28:59.272479Z",
   "items": [
+    {
+      "title": "Tesla Starts Offering Cybercab Robotaxi Rides",
+      "topic": "Tesla Starts Offering Cybercab Robotaxi Rides",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LX2lXdGhMaDZSQ1RTdkQxVTV3RFRtTkRWQ0t2aDNtb1VCY0FFdUxLNkEwTHZ2cTh2WkNBdjJGY1UtRDZDV3FJN0gyUlN6SDkzM0Q0U0llRG9vOHZ0VTJIcmlPWHpOVU1weTZOYm10X3dJVzl2d2N5T2V6UXo?oc=5",
+      "source": "Engadget",
+      "published": "2026-09-04T06:41:33Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla has launched its Cybercab robotaxi service, offering rides to the public. The service operates without human drivers, marking a significant step in the deployment of autonomous vehicles. This development underscores Tesla's commitment to advancing self-driving technology and expanding its presence in the robotaxi market.",
+      "abstract": "Tesla has launched its Cybercab robotaxi service, offering rides to the public. The service operates without human drivers, marking a significant step in the deployment of autonomous vehicles. This development underscores Tesla's commitment to advancing self-driving technology and expanding its presence in the robotaxi market.",
+      "score": 95
+    },
+    {
+      "title": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "topic": "Tesla announces Robotaxi has driven 1 million unsupervised miles",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXBiV2hXcFdaclpkU0sySWFKQWg5bHA3Q1FBZjVLeUlzNS1EQWt1Nm1jZmplM19QUWg4ZlV2NjRWNEdYdlhRZ0N1UUg4UEJjOVo5RnFlb1NlTEVPbXlCUzA5R1l1WTlvZDljTnhDcW9PWEF1d2lnT3Y2ZWJZcUl5eTFDOVExbG84Z3hFS2dOaFE3c3Vyb0VsMW9Kaw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-04T05:04:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's Robotaxi has achieved a milestone by driving 1 million unsupervised miles. This significant achievement highlights the progress in Tesla's autonomous driving capabilities and the reliability of its Full Self-Driving (FSD) system. The data will be crucial for regulatory approval and public trust in autonomous vehicle technology.",
+      "abstract": "Tesla's Robotaxi has achieved a milestone by driving 1 million unsupervised miles. This significant achievement highlights the progress in Tesla's autonomous driving capabilities and the reliability of its Full Self-Driving (FSD) system. The data will be crucial for regulatory approval and public trust in autonomous vehicle technology.",
+      "score": 90
+    },
     {
       "title": "Tesla touts European supervised self-driving safety data ahead of EU vote",
       "topic": "Tesla touts European supervised self-driving safety data ahead of EU vote",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RIaDZpWVJKOWMzRm1hUmpRMFBHVDRkeHpEcHFWcDlHMDBNajYtZzA2LUp5YnNLNDVjYmtZUlZlbXJyQ1F0ZEItWUF6ZDIwNzkzMzhhZ016RDFRQ0xlVUFGZkdPTDlyM1ZRNExka3o5UGdCLW9jLTVkeDZFdUVnWXF2VGpPNDY2bTdzdmw3YXNTbjJrT1FSLVo3X2dRUGF1TnVMdWZVb2hSNzZoamVhcERjVFhnNjB3OHBUVFZtNU5sS2JwMnVaSjZXcDJRaVlpMmc?oc=5",
       "source": "Reuters",
-      "published": "2026-09-01T15:20:25Z",
+      "published": "2026-09-01T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has shared safety data from its supervised self-driving tests in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's Full Self-Driving (FSD) technology, which is currently in beta testing. This submission is critical for Tesla's efforts to gain regulatory approval and expand FSD deployment in the European market.",
-      "abstract": "Tesla has shared safety data from its supervised self-driving tests in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data aims to demonstrate the safety and reliability of Tesla's Full Self-Driving (FSD) technology, which is currently in beta testing. This submission is critical for Tesla's efforts to gain regulatory approval and expand FSD deployment in the European market.",
-      "score": 95
+      "summary": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote. The data aims to demonstrate the safety and reliability of Tesla's Full Self-Driving (FSD) technology, which is under scrutiny by European regulators. This submission is part of Tesla's efforts to gain regulatory approval for its autonomous driving features in the European market.",
+      "abstract": "Tesla has shared safety data from its supervised self-driving system in Europe, ahead of a crucial EU vote. The data aims to demonstrate the safety and reliability of Tesla's Full Self-Driving (FSD) technology, which is under scrutiny by European regulators. This submission is part of Tesla's efforts to gain regulatory approval for its autonomous driving features in the European market.",
+      "score": 85
     },
     {
       "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
@@ -19,30 +41,8 @@
       "source": "Electrek",
       "published": "2026-09-07T18:41:00Z",
       "category": "automated-vehicles",
-      "summary": "A Tesla vehicle equipped with Full Self-Driving (FSD) and Autopilot features was involved in a fatal accident after running a stop sign, according to confirmed records. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's autonomous driving technology. This event underscores the need for rigorous testing and oversight of FSD systems.",
-      "abstract": "A Tesla vehicle equipped with Full Self-Driving (FSD) and Autopilot features was involved in a fatal accident after running a stop sign, according to confirmed records. The incident highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's autonomous driving technology. This event underscores the need for rigorous testing and oversight of FSD systems.",
-      "score": 90
-    },
-    {
-      "title": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
-      "topic": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMHpXOUlqZzU5UTNwSmdNUW9MNE1ac0ZJbmRsc1pOVms5a2ZYUzFtVDIyYkNid1VFMnhjNExLcTBOYkVPS3h4TmJ2UGZBYVJaQlNzVk9fcDZYd1YwSmY1RG1KcWc3R3JvNlg4UUtRUGkxNDUzTGRXaG5DRVZ4VmtoMA?oc=5",
-      "source": "Electrek",
-      "published": "2026-09-04T13:56:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's Full Self-Driving (FSD) system has been updated to allow the vehicle to take over manual driving to avoid collisions. This new feature enhances the system's ability to intervene in critical situations, potentially improving safety. The update is part of Tesla's ongoing efforts to refine and expand the capabilities of its FSD technology.",
-      "abstract": "Tesla's Full Self-Driving (FSD) system has been updated to allow the vehicle to take over manual driving to avoid collisions. This new feature enhances the system's ability to intervene in critical situations, potentially improving safety. The update is part of Tesla's ongoing efforts to refine and expand the capabilities of its FSD technology.",
-      "score": 85
-    },
-    {
-      "title": "France starts tests on Tesla's self-driving tech",
-      "topic": "France starts tests on Tesla's self-driving tech",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2Z6cHJwdzVFWlFBVTA3ZnZqa2FodnJTVnRRNGNrckx4MHdjdExEZlJMNHE5SS1LT2lRZmxNSmxRcndqbmJUZ3ZDbXJEWU1zQlIxY2lyb19TZ3RLaVpLRHJvWXljbUNyZFBjVzdVUG5vUnpVNy1tM2IzcFVLbm5LUkU0RUpPR2dDcE9kMDYxZXl2Q1FOTmc?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-03T13:28:53Z",
-      "category": "automated-vehicles",
-      "summary": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the evaluation of autonomous vehicles in the European market. The tests aim to assess the safety and performance of Tesla's Full Self-Driving (FSD) system under various driving conditions. This development could influence future regulatory decisions and the deployment of autonomous vehicles in France.",
-      "abstract": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the evaluation of autonomous vehicles in the European market. The tests aim to assess the safety and performance of Tesla's Full Self-Driving (FSD) system under various driving conditions. This development could influence future regulatory decisions and the deployment of autonomous vehicles in France.",
+      "summary": "A Tesla vehicle operating with Full Self-Driving (FSD) and Autopilot engaged ran a stop sign and struck a pedestrian, resulting in a fatality. The incident highlights the ongoing safety concerns and regulatory challenges surrounding Tesla's autonomous driving technology. This event is likely to influence public perception and regulatory scrutiny of FSD and Autopilot systems.",
+      "abstract": "A Tesla vehicle operating with Full Self-Driving (FSD) and Autopilot engaged ran a stop sign and struck a pedestrian, resulting in a fatality. The incident highlights the ongoing safety concerns and regulatory challenges surrounding Tesla's autonomous driving technology. This event is likely to influence public perception and regulatory scrutiny of FSD and Autopilot systems.",
       "score": 80
     },
     {
@@ -52,42 +52,53 @@
       "source": "Electrek",
       "published": "2026-08-27T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo, a leading autonomous vehicle company, has criticized Tesla's Full Self-Driving (FSD) technology, describing it as a 'false summit' in the development of autonomous driving. Waymo argues that Tesla's approach, which relies heavily on cameras and neural networks, is not as robust or safe as its own sensor-fusion and redundancy-based systems. This critique highlights the ongoing debate over the best technical approach to achieving true autonomy.",
-      "abstract": "Waymo, a leading autonomous vehicle company, has criticized Tesla's Full Self-Driving (FSD) technology, describing it as a 'false summit' in the development of autonomous driving. Waymo argues that Tesla's approach, which relies heavily on cameras and neural networks, is not as robust or safe as its own sensor-fusion and redundancy-based systems. This critique highlights the ongoing debate over the best technical approach to achieving true autonomy.",
+      "summary": "Waymo has criticized Tesla's approach to self-driving technology, describing it as a 'false summit.' Waymo argues that Tesla's Full Self-Driving (FSD) system is not as advanced or reliable as claimed, emphasizing the importance of rigorous testing and validation in the development of autonomous vehicles. This critique reflects the ongoing debate between different approaches to achieving true autonomy in the AV industry.",
+      "abstract": "Waymo has criticized Tesla's approach to self-driving technology, describing it as a 'false summit.' Waymo argues that Tesla's Full Self-Driving (FSD) system is not as advanced or reliable as claimed, emphasizing the importance of rigorous testing and validation in the development of autonomous vehicles. This critique reflects the ongoing debate between different approaches to achieving true autonomy in the AV industry.",
       "score": 75
     },
     {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "topic": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnVrQ0VqZ1FpRW9jTDdTaG1wS3FUc0VsODlDbFlqdjdhbWlsT1B0QjNwWHVISW1renJyZFAxMUpRVkl2bHd4MnJpc2tzajM1M2lTdm5wWEs5S0RRQXU0OEd6YW8zeWlZVUZXdUFJT3lYbE9YbEJMU1Qya1ZGVWtvbVZBNUVLTnRNNjIyOUdKc2FFSXpHNlE?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-09-02T20:19:14Z",
+      "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "topic": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-03T21:43:43Z",
       "category": "ai",
-      "summary": "OpenAI's new reasoning technique has raised concerns among AI safety experts, who warn of potential risks and unintended consequences. The technique, which is designed to enhance the decision-making capabilities of AI systems, has sparked debates about the need for stricter safety protocols and oversight. This development underscores the ongoing challenges in ensuring the safe and ethical deployment of advanced AI technologies.",
-      "abstract": "OpenAI's new reasoning technique has raised concerns among AI safety experts, who warn of potential risks and unintended consequences. The technique, which is designed to enhance the decision-making capabilities of AI systems, has sparked debates about the need for stricter safety protocols and oversight. This development underscores the ongoing challenges in ensuring the safe and ethical deployment of advanced AI technologies.",
+      "summary": "OpenAI has committed $1 billion to a cyberdefense effort amid increased scrutiny of AI safety. The investment aims to enhance the security and ethical use of AI technologies, addressing concerns about potential misuse and vulnerabilities. This move underscores OpenAI's commitment to responsible AI development and aligns with broader industry efforts to ensure AI safety.",
+      "abstract": "OpenAI has committed $1 billion to a cyberdefense effort amid increased scrutiny of AI safety. The investment aims to enhance the security and ethical use of AI technologies, addressing concerns about potential misuse and vulnerabilities. This move underscores OpenAI's commitment to responsible AI development and aligns with broader industry efforts to ensure AI safety.",
       "score": 70
     },
     {
-      "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
-      "topic": "US urges hands-off approach to AI regulation at G20 tech meeting",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmFFcTlLcU1BTjFTOXBjTE80ZGFzSUc5ZUtPREdXX2tDcTJZODd4UTNwekU1M3JFdXlZdUhPcFl6Z0RqcWhjQ3VvLW92cmtZMHlLY0ZmTktxNlUtVXJLRlFfTXhWWXpvbGRBTU1Vb0FEY0dVNWE1Y3VNZTJ5SVhoU19hU0lsU0xmUnpoSkJrMVY5T1ZIaHlzTHRBS2JRTjdRU0U0R0tB?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-01T10:06:00Z",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "topic": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0puazl3MjhZNm1TdmpZZnRleXRud0NLMEFETVJVeE96d29BcmIwRmRRbmVOdE5GaGZTOUJidkk1c0xOSG9XSm5NR3lnbURta2NJN0JwSnduMUJBaDVPNWNPTkVXaHc3TFpUY3NUMEhKNXlFaHROMXRfUmFxbEFhQkV3?oc=5",
+      "source": "OpenAI",
+      "published": "2026-08-31T07:00:00Z",
       "category": "ai",
-      "summary": "The United States has advocated for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation and avoiding overly restrictive policies. This stance contrasts with calls for more stringent regulations from other countries and organizations, highlighting the global debate over the balance between innovation and safety in AI governance.",
-      "abstract": "The United States has advocated for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation and avoiding overly restrictive policies. This stance contrasts with calls for more stringent regulations from other countries and organizations, highlighting the global debate over the balance between innovation and safety in AI governance.",
+      "summary": "OpenAI has announced its support for a California bill aimed at advancing youth AI safety. The bill seeks to establish guidelines and protections for young users of AI technologies, reflecting growing concerns about the impact of AI on children. OpenAI's backing of the legislation demonstrates the company's commitment to ethical AI practices and public safety.",
+      "abstract": "OpenAI has announced its support for a California bill aimed at advancing youth AI safety. The bill seeks to establish guidelines and protections for young users of AI technologies, reflecting growing concerns about the impact of AI on children. OpenAI's backing of the legislation demonstrates the company's commitment to ethical AI practices and public safety.",
       "score": 65
     },
     {
-      "title": "CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Driving",
-      "topic": "CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Driving",
-      "url": "https://arxiv.org/abs/2609.04807v1",
-      "source": "arXiv",
-      "published": "2026-09-04T07:03:29Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
-      "abstract": "CoLMIN, proposed by researchers at an unnamed institution, is an LLM-based multi-decision path negotiation framework for cooperative autonomous driving. It addresses the challenge of premature convergence to suboptimal solutions in complex traffic scenarios by leveraging the reasoning capabilities of LLMs to enhance inter-vehicle negotiation and improve overall driving performance.",
+      "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "topic": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "url": "http://ieeexplore.ieee.org/document/11478733",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-04-10T13:16:09Z",
+      "category": "journal-rss",
+      "summary": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities in realistic driving scenarios, addressing the limitations of current LLMs in passing driving theory tests.",
+      "abstract": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities in realistic driving scenarios, addressing the limitations of current LLMs in passing driving theory tests.",
       "score": 95
+    },
+    {
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "topic": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.08965v1",
+      "source": "arXiv",
+      "published": "2026-09-08T16:19:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
+      "abstract": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
+      "score": 92
     },
     {
       "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
@@ -96,20 +107,9 @@
       "source": "arXiv",
       "published": "2026-08-21T09:06:16Z",
       "category": "arxiv-explainability-av",
-      "summary": "A collaborative multi-modality interaction system for VLA-based end-to-end autonomous driving, developed by an unnamed research group, integrates multi-trajectory planning and optimization to improve the reliability and interpretability of decision-making. This system addresses the limitations of existing VLA models in handling long-tail driving scenarios by establishing effective multi-modal interaction across heterogeneous sensors.",
-      "abstract": "A collaborative multi-modality interaction system for VLA-based end-to-end autonomous driving, developed by an unnamed research group, integrates multi-trajectory planning and optimization to improve the reliability and interpretability of decision-making. This system addresses the limitations of existing VLA models in handling long-tail driving scenarios by establishing effective multi-modal interaction across heterogeneous sensors.",
+      "summary": "Researchers at arXiv propose a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. The model addresses the limitations of existing VLA models, which often fail to establish effective multi-modal interaction and reliable decision-making in long-tail driving scenarios, by integrating structured textual rules and visual traffic signs.",
+      "abstract": "Researchers at arXiv propose a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that combines multi-modality interaction with multi-trajectory planning and optimization. The model addresses the limitations of existing VLA models, which often fail to establish effective multi-modal interaction and reliable decision-making in long-tail driving scenarios, by integrating structured textual rules and visual traffic signs.",
       "score": 90
-    },
-    {
-      "title": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
-      "topic": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
-      "url": "https://arxiv.org/abs/2608.30144v1",
-      "source": "arXiv",
-      "published": "2026-08-31T01:51:51Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Researchers at an unnamed institution have introduced a taxonomy called Language Residue to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, aiming to balance computational efficiency with the benefits of semantic grounding and interpretable decisions.",
-      "abstract": "Researchers at an unnamed institution have introduced a taxonomy called Language Residue to optimize the use of language in Vision-Language-Action (VLA) models for autonomous driving. The taxonomy categorizes methods by their inference-time use of language, aiming to balance computational efficiency with the benefits of semantic grounding and interpretable decisions.",
-      "score": 85
     }
   ]
 }
