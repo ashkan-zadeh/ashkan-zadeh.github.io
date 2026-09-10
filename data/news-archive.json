@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-09T11:28:59.365682Z",
+  "updated_at": "2026-09-10T11:25:25.731164Z",
   "items": [
+    {
+      "title": "OpenAI pushes for mandatory national AI safety rules",
+      "topic": "OpenAI pushes for mandatory national AI safety rules",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1BGN3ZBNTNDNW5DeGNuUmhNSnM3M1JfZ1NGaWF1ZFpvNHg3THdibUkzRkNrSkMwX2g2bDRzaUdmcklQNW9tNDZNTWREV2M0c0I1bXlFejQwZkFhTzRybzFjd1UzWS1BbFFyeWoxbzlWMXpyQTN3MF9ydzZxQ0ktYjhLY1dPRlM1alU1UUdGd0psUFBPOE5KU0VNSTdzNWs4RWFRYlpVaHJMd0Nt?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-09T23:47:00Z",
+      "category": "ai",
+      "summary": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks associated with AI systems.",
+      "abstract": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks associated with AI systems.",
+      "score": 75
+    },
     {
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
       "topic": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
@@ -11,6 +22,17 @@
       "summary": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
       "abstract": "PlannerForge, an LLM-agent framework developed by researchers at arXiv, extends all stages of scenario-based testing for autonomous driving systems (ADSs) and adds two new LLM-enhanced stages: ADS Enhancement and ADS Assessment. This unified framework aims to improve the safety and reliability of ADSs by systematically validating and enhancing their performance across various scenarios.",
       "score": 92
+    },
+    {
+      "title": "Inside Rivian’s Bid to Build Level 4 Robotaxis—and Then Passenger Cars",
+      "topic": "Inside Rivian’s Bid to Build Level 4 Robotaxis—and Then Passenger Cars",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WSEFveVpkdGdUMHREeVVwQTVKUmd5M2xqT0pRUC10cmlwZy1rOEJ1Z2FJWWNBYjdzZ0I2ZHBLS2hCT0wyTU5Rb3NqWHh0QlpzTXFuZXpnYWQ?oc=5",
+      "source": "IEEE Spectrum",
+      "published": "2026-09-08T13:11:19Z",
+      "category": "automated-vehicles",
+      "summary": "Rivian is developing Level 4 robotaxis as part of its broader strategy to enter the autonomous vehicle market. The company aims to leverage this technology to eventually produce advanced passenger cars, highlighting its commitment to innovation in the AV sector.",
+      "abstract": "Rivian is developing Level 4 robotaxis as part of its broader strategy to enter the autonomous vehicle market. The company aims to leverage this technology to eventually produce advanced passenger cars, highlighting its commitment to innovation in the AV sector.",
+      "score": 80
     },
     {
       "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
@@ -33,6 +55,17 @@
       "summary": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
       "abstract": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions are crucial for addressing global concerns about the ethical and safe deployment of AI technologies.",
       "score": 70
+    },
+    {
+      "title": "Musk pushes regulatory limits with Tesla's Cybercab robotaxi service",
+      "topic": "Musk pushes regulatory limits with Tesla's Cybercab robotaxi service",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYmtOa3E1eVZxWmlvUHp3eUM5OE44YW1TMWNwMldpUnpyMVZMclEzQkxuV0dYTnBSWl9VZnB5aHFxVS0xcXNURjhKZFNDaTZvSWZXQUNKdTZ4M0s2TmVRTGhqelg1QUFpTnBqSGhUaVlGbUR4eHZUcFVGM2wtX0w0RFk5bXY5VHFkRHZ5Snk3cUllVTF1SEpTMWZDNTZrNzlveHE4eHRjNWwtclBTR2hvSDN6eXdha2JWRmxmMg?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-04T15:20:00Z",
+      "category": "automated-vehicles",
+      "summary": "Elon Musk is pushing the boundaries of regulatory oversight with Tesla's Cybercab robotaxi service. The service, which offers autonomous rides, is facing scrutiny from regulators due to concerns over safety and compliance with existing laws.",
+      "abstract": "Elon Musk is pushing the boundaries of regulatory oversight with Tesla's Cybercab robotaxi service. The service, which offers autonomous rides, is facing scrutiny from regulators due to concerns over safety and compliance with existing laws.",
+      "score": 90
     },
     {
       "title": "Tesla Full Self-Driving can now take over manual driving to avoid a collision",
