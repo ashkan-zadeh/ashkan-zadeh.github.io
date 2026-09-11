@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-10T11:25:25.731164Z",
+  "updated_at": "2026-09-11T11:27:20.175812Z",
   "items": [
+    {
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "topic": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PS0dRS1VTd2tEclNkZUFfLUVGejRNTWF1MWxwZkNIcDc2cE5CRWFzTVphdmNpSVRSLXNCcjl2MUN0b0NyUjh4WFpGbEtFY1FpTlVQNE84aFIxNDJIUlBQMkZ0emhJZWdxU1dKZTVhSll5ZXlZT18xMkRWM1A?oc=5",
+      "source": "NVIDIA Blog",
+      "published": "2026-09-10T18:00:06Z",
+      "category": "automated-vehicles",
+      "summary": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
+      "abstract": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
+      "score": 88
+    },
     {
       "title": "OpenAI pushes for mandatory national AI safety rules",
       "topic": "OpenAI pushes for mandatory national AI safety rules",
@@ -11,6 +22,17 @@
       "summary": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks associated with AI systems.",
       "abstract": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks associated with AI systems.",
       "score": 75
+    },
+    {
+      "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
+      "topic": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2609.09386v1",
+      "source": "arXiv",
+      "published": "2026-09-08T19:39:25Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
+      "abstract": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
+      "score": 92
     },
     {
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
