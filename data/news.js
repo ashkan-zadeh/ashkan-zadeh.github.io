@@ -1,17 +1,6 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-11T11:27:20.081492Z",
+  "generated_at": "2026-09-12T10:52:16.372671Z",
   "items": [
-    {
-      "title": "Tesla touts European supervised self-driving safety data ahead of EU vote",
-      "topic": "Tesla touts European supervised self-driving safety data ahead of EU vote",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1RIaDZpWVJKOWMzRm1hUmpRMFBHVDRkeHpEcHFWcDlHMDBNajYtZzA2LUp5YnNLNDVjYmtZUlZlbXJyQ1F0ZEItWUF6ZDIwNzkzMzhhZ016RDFRQ0xlVUFGZkdPTDlyM1ZRNExka3o5UGdCLW9jLTVkeDZFdUVnWXF2VGpPNDY2bTdzdmw3YXNTbjJrT1FSLVo3X2dRUGF1TnVMdWZVb2hSNzZoamVhcERjVFhnNjB3OHBUVFZtNU5sS2JwMnVaSjZXcDJRaVlpMmc?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-01T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has shared safety data from its supervised self-driving tests in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data, which includes details on the performance and safety of Tesla's Full Self-Driving (FSD) system, aims to support the company's case for broader deployment in the European market.",
-      "abstract": "Tesla has shared safety data from its supervised self-driving tests in Europe, ahead of a crucial EU vote on autonomous vehicle regulations. The data, which includes details on the performance and safety of Tesla's Full Self-Driving (FSD) system, aims to support the company's case for broader deployment in the European market.",
-      "score": 85
-    },
     {
       "title": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
       "topic": "A Tesla ran a stop sign and killed a man, record confirms Full Self-Driving/Autopilot was on",
@@ -19,9 +8,9 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-07T18:41:00Z",
       "category": "automated-vehicles",
-      "summary": "A Tesla vehicle operating with Full Self-Driving (FSD) and Autopilot engaged ran a stop sign and struck and killed a pedestrian in an incident confirmed by official records. This event highlights the ongoing concerns and risks associated with the deployment of autonomous driving technologies.",
-      "abstract": "A Tesla vehicle operating with Full Self-Driving (FSD) and Autopilot engaged ran a stop sign and struck and killed a pedestrian in an incident confirmed by official records. This event highlights the ongoing concerns and risks associated with the deployment of autonomous driving technologies.",
-      "score": 90
+      "summary": "A Tesla vehicle operating on Full Self-Driving (FSD) mode ran a stop sign and struck a pedestrian, resulting in a fatality. The incident, which occurred in an unspecified location, highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's FSD technology.",
+      "abstract": "A Tesla vehicle operating on Full Self-Driving (FSD) mode ran a stop sign and struck a pedestrian, resulting in a fatality. The incident, which occurred in an unspecified location, highlights the ongoing safety concerns and regulatory scrutiny surrounding Tesla's FSD technology.",
+      "score": 95
     },
     {
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
@@ -30,20 +19,42 @@ window.NEWS_FEED = {
       "source": "NVIDIA Blog",
       "published": "2026-09-10T18:00:06Z",
       "category": "automated-vehicles",
-      "summary": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
-      "abstract": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
-      "score": 88
+      "summary": "NVIDIA is collaborating with leading robotaxi companies to integrate its AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computer vision.",
+      "abstract": "NVIDIA is collaborating with leading robotaxi companies to integrate its AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computer vision.",
+      "score": 90
+    },
+    {
+      "title": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
+      "topic": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0R1UDNoVTdLd3Z4NjNxbGFMdVRJbTNUWWRDUXFESlpCbWpXN01FR1p0WHVEMUZHbm1DMldTU2k1SG1lYnBvZ0g2S1VBZFBTZE14RFU0aGlNbWpBaW9qdFFYN1c3U3l0WjFKblIzSWR5NGJLMm1mZldsRlBjRy10SDkwOEpUMDZodHp0ZTRCWlhBYm1rR1E?oc=5",
+      "source": "The Verge",
+      "published": "2026-09-09T14:41:07Z",
+      "category": "automated-vehicles",
+      "summary": "A journalist from The Verge spent an hour riding in Tesla’s steering-wheel-free Cybercab, a prototype designed for fully autonomous operation. The experience provided insights into Tesla’s progress in developing a vehicle that can navigate urban environments without human intervention.",
+      "abstract": "A journalist from The Verge spent an hour riding in Tesla’s steering-wheel-free Cybercab, a prototype designed for fully autonomous operation. The experience provided insights into Tesla’s progress in developing a vehicle that can navigate urban environments without human intervention.",
+      "score": 85
+    },
+    {
+      "title": "Cleaner Crash Data Could Prove That Human Drivers Are the Risky Ones",
+      "topic": "Cleaner Crash Data Could Prove That Human Drivers Are the Risky Ones",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VMHFhc19oU1hjbjdMV3JxMWlUMkdObmplWFp2bWdaSnpMNXpOSWV0MExIdDVSbG5hRzVsUHBpTzl1Z2hlSjNzR1F2anFzSlpyZVo3OGgyUnZlZlFOYVlZX2l3?oc=5",
+      "source": "IEEE Spectrum",
+      "published": "2026-09-08T18:06:45Z",
+      "category": "automated-vehicles",
+      "summary": "IEEE Spectrum discusses the potential for cleaner crash data to demonstrate the superior safety of autonomous vehicles compared to human-driven cars. The article highlights the importance of accurate data in advancing the adoption and regulation of AVs.",
+      "abstract": "IEEE Spectrum discusses the potential for cleaner crash data to demonstrate the superior safety of autonomous vehicles compared to human-driven cars. The article highlights the importance of accurate data in advancing the adoption and regulation of AVs.",
+      "score": 80
     },
     {
       "title": "OpenAI pushes for mandatory national AI safety rules",
       "topic": "OpenAI pushes for mandatory national AI safety rules",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1BGN3ZBNTNDNW5DeGNuUmhNSnM3M1JfZ1NGaWF1ZFpvNHg3THdibUkzRkNrSkMwX2g2bDRzaUdmcklQNW9tNDZNTWREV2M0c0I1bXlFejQwZkFhTzRybzFjd1UzWS1BbFFyeWoxbzlWMXpyQTN3MF9ydzZxQ0ktYjhLY1dPRlM1alU1UUdGd0psUFBPOE5KU0VNSTdzNWs4RWFRYlpVaHJMd0Nt?oc=5",
       "source": "Reuters",
-      "published": "2026-09-09T23:47:00Z",
+      "published": "2026-09-10T09:44:24Z",
       "category": "ai",
-      "summary": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects the growing concerns about the potential risks and ethical implications of AI systems.",
-      "abstract": "OpenAI is advocating for the implementation of mandatory national AI safety rules to ensure the responsible development and deployment of AI technologies. This push for regulation reflects the growing concerns about the potential risks and ethical implications of AI systems.",
-      "score": 80
+      "summary": "OpenAI is advocating for mandatory national AI safety rules, emphasizing the need for standardized regulations to ensure the responsible development and deployment of AI technologies. This push comes amid growing concerns about AI safety and ethical implications.",
+      "abstract": "OpenAI is advocating for mandatory national AI safety rules, emphasizing the need for standardized regulations to ensure the responsible development and deployment of AI technologies. This push comes amid growing concerns about AI safety and ethical implications.",
+      "score": 75
     },
     {
       "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
@@ -52,31 +63,20 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-04T22:57:32Z",
       "category": "ai",
-      "summary": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to address the growing concerns and challenges associated with the rapid development and deployment of AI technologies. These discussions are expected to cover regulatory frameworks and international cooperation.",
-      "abstract": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to address the growing concerns and challenges associated with the rapid development and deployment of AI technologies. These discussions are expected to cover regulatory frameworks and international cooperation.",
-      "score": 78
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "topic": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnVrQ0VqZ1FpRW9jTDdTaG1wS3FUc0VsODlDbFlqdjdhbWlsT1B0QjNwWHVISW1renJyZFAxMUpRVkl2bHd4MnJpc2tzajM1M2lTdm5wWEs5S0RRQXU0OEd6YW8zeWlZVUZXdUFJT3lYbE9YbEJMU1Qya1ZGVWtvbVZBNUVLTnRNNjIyOUdKc2FFSXpHNlE?oc=5",
-      "source": "techcrunch.com",
-      "published": "2026-09-02T07:00:00Z",
-      "category": "ai",
-      "summary": "OpenAI's introduction of a new reasoning technique has raised alarms among AI safety experts, who are concerned about the potential risks and unintended consequences of this technology. The technique, which is designed to enhance AI decision-making, has sparked debates about the need for stricter safety measures.",
-      "abstract": "OpenAI's introduction of a new reasoning technique has raised alarms among AI safety experts, who are concerned about the potential risks and unintended consequences of this technology. The technique, which is designed to enhance AI decision-making, has sparked debates about the need for stricter safety measures.",
-      "score": 75
-    },
-    {
-      "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
-      "topic": "US urges hands-off approach to AI regulation at G20 tech meeting",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmFFcTlLcU1BTjFTOXBjTE80ZGFzSUc5ZUtPREdXX2tDcTJZODd4UTNwekU1M3JFdXlZdUhPcFl6Z0RqcWhjQ3VvLW92cmtZMHlLY0ZmTktxNlUtVXJLRlFfTXhWWXpvbGRBTU1Vb0FEY0dVNWE1Y3VNZTJ5SVhoU19hU0lsU0xmUnpoSkJrMVY5T1ZIaHlzTHRBS2JRTjdRU0U0R0tB?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-01T07:00:00Z",
-      "category": "ai",
-      "summary": "The United States is advocating for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation and avoiding overly restrictive policies. This stance contrasts with calls for more stringent regulations from other countries and organizations.",
-      "abstract": "The United States is advocating for a hands-off approach to AI regulation at the G20 tech meeting, emphasizing the importance of fostering innovation and avoiding overly restrictive policies. This stance contrasts with calls for more stringent regulations from other countries and organizations.",
+      "summary": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions reflect the global importance of addressing AI safety and regulatory challenges.",
+      "abstract": "The United States and China are preparing for mid-September talks focused on AI safety, aiming to establish international standards and cooperation. These discussions reflect the global importance of addressing AI safety and regulatory challenges.",
       "score": 70
+    },
+    {
+      "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "topic": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnEtVl8wdXF1ZEgxSzF4VFI4OUZoT1JHa0ZTU2drVHAtWU9LRWplUjNNdEZPaUJ2U2VZUHJiQjh3TEVTbmRKVnZMT3pRVGFHbG0xajNVclZhQTdaanQ2elBPaXVSTXJsZ2ZFSm5YYnh3ajJoZ2RRbnNaTnlfbnhRTnBkRi02enZZdjRJVmNSWUdwa1RVTzh6Uy1GQkt6emhKYXdNbk15UzZVc1l5dHgxT2VzUzlCUnI4RVpEMGJn?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-03T07:00:00Z",
+      "category": "ai",
+      "summary": "OpenAI has committed $1 billion to a cyberdefense effort, responding to increased scrutiny over AI safety. This investment underscores the company's commitment to enhancing the security and reliability of AI systems, particularly in the context of autonomous vehicles and other critical applications.",
+      "abstract": "OpenAI has committed $1 billion to a cyberdefense effort, responding to increased scrutiny over AI safety. This investment underscores the company's commitment to enhancing the security and reliability of AI systems, particularly in the context of autonomous vehicles and other critical applications.",
+      "score": 65
     },
     {
       "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
@@ -85,20 +85,9 @@ window.NEWS_FEED = {
       "source": "IEEE Transactions on Vehicular Technology",
       "published": "2026-04-10T13:16:09Z",
       "category": "journal-rss",
-      "summary": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method integrates structured textual rules and visual traffic signs to improve LLMs' hazard perception and decision-making capabilities, addressing the limitations of smaller LLMs in passing driving theory tests.",
-      "abstract": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method integrates structured textual rules and visual traffic signs to improve LLMs' hazard perception and decision-making capabilities, addressing the limitations of smaller LLMs in passing driving theory tests.",
+      "summary": "The IEEE Transactions on Vehicular Technology published a study on enhancing large language models (LLMs) for practical autonomous driving decision-making. The paper introduces a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to improve the theoretical driving knowledge of LLMs, addressing the need for safety-critical autonomous driving tasks. The method leverages structured textual rules and visual traffic signs to enhance LLMs' hazard perception and decision-making capabilities.",
+      "abstract": "The IEEE Transactions on Vehicular Technology published a study on enhancing large language models (LLMs) for practical autonomous driving decision-making. The paper introduces a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to improve the theoretical driving knowledge of LLMs, addressing the need for safety-critical autonomous driving tasks. The method leverages structured textual rules and visual traffic signs to enhance LLMs' hazard perception and decision-making capabilities.",
       "score": 95
-    },
-    {
-      "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
-      "topic": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
-      "url": "https://arxiv.org/abs/2609.09386v1",
-      "source": "arXiv",
-      "published": "2026-09-08T19:39:25Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
-      "abstract": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
-      "score": 92
     },
     {
       "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
@@ -107,9 +96,20 @@ window.NEWS_FEED = {
       "source": "arXiv",
       "published": "2026-08-21T09:06:16Z",
       "category": "arxiv-explainability-av",
-      "summary": "Researchers from arXiv propose a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that integrates multi-modality interaction with multi-trajectory planning and optimization. The model addresses the limitations of existing VLA models, which often formulate driving as a visual question-answering task, leading to unreliable and less interpretable decision-making. The proposed system enhances robust scene perception and reliable driving reasoning in complex scenarios.",
-      "abstract": "Researchers from arXiv propose a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that integrates multi-modality interaction with multi-trajectory planning and optimization. The model addresses the limitations of existing VLA models, which often formulate driving as a visual question-answering task, leading to unreliable and less interpretable decision-making. The proposed system enhances robust scene perception and reliable driving reasoning in complex scenarios.",
+      "summary": "A study published in arXiv proposes a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that integrates multi-modality interaction with multi-trajectory planning and optimization. The model aims to improve reliable and interpretable decision-making in long-tail driving scenarios by combining perception, reasoning, and decision-making within a unified multimodal framework.",
+      "abstract": "A study published in arXiv proposes a robust Vision-Language-Action (VLA) model for end-to-end autonomous driving that integrates multi-modality interaction with multi-trajectory planning and optimization. The model aims to improve reliable and interpretable decision-making in long-tail driving scenarios by combining perception, reasoning, and decision-making within a unified multimodal framework.",
       "score": 90
+    },
+    {
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "topic": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.08965v1",
+      "source": "arXiv",
+      "published": "2026-09-08T16:19:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "PlannerForge, an LLM-agent framework for scenario-based testing of Autonomous Driving Systems (ADSs), was introduced in arXiv. The framework extends all stages of scenario-based testing, from generation to assessment, and adds two new stages: ADS Enhancement and ADS Assessment. By integrating LLMs across the entire pipeline, PlannerForge aims to improve the systematic validation and safety of ADSs.",
+      "abstract": "PlannerForge, an LLM-agent framework for scenario-based testing of Autonomous Driving Systems (ADSs), was introduced in arXiv. The framework extends all stages of scenario-based testing, from generation to assessment, and adds two new stages: ADS Enhancement and ADS Assessment. By integrating LLMs across the entire pipeline, PlannerForge aims to improve the systematic validation and safety of ADSs.",
+      "score": 88
     }
   ]
 };

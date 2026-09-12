@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:27:20.175812Z",
+  "updated_at": "2026-09-12T10:52:16.467450Z",
   "items": [
     {
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
@@ -24,6 +24,17 @@
       "score": 75
     },
     {
+      "title": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
+      "topic": "I spent an hour riding inside Tesla’s steering-wheel-free Cybercab",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0R1UDNoVTdLd3Z4NjNxbGFMdVRJbTNUWWRDUXFESlpCbWpXN01FR1p0WHVEMUZHbm1DMldTU2k1SG1lYnBvZ0g2S1VBZFBTZE14RFU0aGlNbWpBaW9qdFFYN1c3U3l0WjFKblIzSWR5NGJLMm1mZldsRlBjRy10SDkwOEpUMDZodHp0ZTRCWlhBYm1rR1E?oc=5",
+      "source": "The Verge",
+      "published": "2026-09-09T14:41:07Z",
+      "category": "automated-vehicles",
+      "summary": "A journalist from The Verge spent an hour riding in Tesla’s steering-wheel-free Cybercab, a prototype designed for fully autonomous operation. The experience provided insights into Tesla’s progress in developing a vehicle that can navigate urban environments without human intervention.",
+      "abstract": "A journalist from The Verge spent an hour riding in Tesla’s steering-wheel-free Cybercab, a prototype designed for fully autonomous operation. The experience provided insights into Tesla’s progress in developing a vehicle that can navigate urban environments without human intervention.",
+      "score": 85
+    },
+    {
       "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
       "topic": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
       "url": "https://arxiv.org/abs/2609.09386v1",
@@ -33,6 +44,17 @@
       "summary": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
       "abstract": "In a study published on arXiv, researchers developed LLMSec-AV, a large language model (LLM)-driven framework for identifying software vulnerabilities in autonomous vehicles (AVs). The framework uses an AV-specific vulnerability taxonomy and was evaluated on Autoware, decomposing 770 translation units into 4,673 functions and analyzing 161 functions under various prompting conditions. LLMSec-AV outperformed rule-based tools in detecting security weaknesses.",
       "score": 92
+    },
+    {
+      "title": "Cleaner Crash Data Could Prove That Human Drivers Are the Risky Ones",
+      "topic": "Cleaner Crash Data Could Prove That Human Drivers Are the Risky Ones",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VMHFhc19oU1hjbjdMV3JxMWlUMkdObmplWFp2bWdaSnpMNXpOSWV0MExIdDVSbG5hRzVsUHBpTzl1Z2hlSjNzR1F2anFzSlpyZVo3OGgyUnZlZlFOYVlZX2l3?oc=5",
+      "source": "IEEE Spectrum",
+      "published": "2026-09-08T18:06:45Z",
+      "category": "automated-vehicles",
+      "summary": "IEEE Spectrum discusses the potential for cleaner crash data to demonstrate the superior safety of autonomous vehicles compared to human-driven cars. The article highlights the importance of accurate data in advancing the adoption and regulation of AVs.",
+      "abstract": "IEEE Spectrum discusses the potential for cleaner crash data to demonstrate the superior safety of autonomous vehicles compared to human-driven cars. The article highlights the importance of accurate data in advancing the adoption and regulation of AVs.",
+      "score": 80
     },
     {
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
