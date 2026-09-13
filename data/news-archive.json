@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T10:52:16.467450Z",
+  "updated_at": "2026-09-13T11:59:03.933509Z",
   "items": [
     {
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
@@ -2948,6 +2948,17 @@
       "summary": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
       "abstract": "Theoretical driving knowledge and hazard perception capability are essential for large language models (LLMs) to be qualified for driving or assisting autonomous vehicles. Our prior study found that the mainstream LLMs with relatively small size suitable for onboard or edge deployment failed driving theory tests. That raised several important research questions on application of LLMs for safety critical autonomous driving tasks: how to enhance the theoretical driving knowledge of LLMs and how to assess its impact on driving decision-making and safety in realistic scenarios.",
       "score": 84
+    },
+    {
+      "title": "Foundation Model-Based Adaptive Semantic Image Transmission for Dynamic Wireless Environments",
+      "topic": "Foundation Model-Based Adaptive Semantic Image Transmission for Dynamic Wireless Environments",
+      "url": "http://ieeexplore.ieee.org/document/11458721",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-03-31T13:16:19Z",
+      "category": "journal-rss",
+      "summary": "IEEE Transactions on Vehicular Technology published a paper in 2026-03-31 by a research group proposing a foundation model-based adaptive semantic image transmission system for dynamic wireless environments, including autonomous driving. The system decomposes images into a semantic segmentation map and a compressed representation, enabling task-aware prioritization of critical objects and enhancing robustness under varying channel conditions.",
+      "abstract": "IEEE Transactions on Vehicular Technology published a paper in 2026-03-31 by a research group proposing a foundation model-based adaptive semantic image transmission system for dynamic wireless environments, including autonomous driving. The system decomposes images into a semantic segmentation map and a compressed representation, enabling task-aware prioritization of critical objects and enhancing robustness under varying channel conditions.",
+      "score": 85
     },
     {
       "title": "Mutual Distillation Attribute Fusion Network for Multimodal Vehicle Object Detection",
