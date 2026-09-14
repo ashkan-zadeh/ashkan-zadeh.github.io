@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-13T11:59:03.933509Z",
+  "updated_at": "2026-09-14T12:54:13.514417Z",
   "items": [
+    {
+      "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004420?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-09-14T12:53:27.835507Z",
+      "category": "journal-rss",
+      "summary": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies published a paper in December 2026, presenting a federated meta attentive interpretable tabular learning approach for predicting driver takeover time in autonomous driving. The method ensures privacy preservation and sample efficiency, addressing critical issues in the transition from automated to manual driving.",
+      "abstract": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies published a paper in December 2026, presenting a federated meta attentive interpretable tabular learning approach for predicting driver takeover time in autonomous driving. The method ensures privacy preservation and sample efficiency, addressing critical issues in the transition from automated to manual driving.",
+      "score": 90
+    },
+    {
+      "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
+      "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-09-14T12:53:27.834188Z",
+      "category": "journal-rss",
+      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies published a paper in January 2027, introducing an LLM distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method enhances the robustness of AV systems by simulating complex pedestrian behaviors, crucial for improving safety and reliability in real-world scenarios.",
+      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies published a paper in January 2027, introducing an LLM distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method enhances the robustness of AV systems by simulating complex pedestrian behaviors, crucial for improving safety and reliability in real-world scenarios.",
+      "score": 95
+    },
     {
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
       "topic": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
