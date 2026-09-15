@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-14T12:54:13.514417Z",
+  "updated_at": "2026-09-15T11:49:56.088238Z",
   "items": [
+    {
+      "title": "Waymo opens robotaxi service in Las Vegas",
+      "topic": "Waymo opens robotaxi service in Las Vegas",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVDRidnM4S3JQOERUR0Z4VUtfdERybjc1UXA4Rkd2U09mX0Q1VGJHM2IwYmJuVlRWZHJXZzVfaXU3QVVwcElrTzd1R0JZQ1pnekIyMWM4ZHgzZW5sQjVfNWU3US1uQmpWeXVORWxseXpiWXd0dVl1ZFFPX2NRQnR0Z1hB?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-14T16:04:16Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo has launched its robotaxi service in Las Vegas, expanding its autonomous vehicle operations to a new major city. This deployment marks a significant step in the company's efforts to commercialize self-driving technology and provide reliable, driverless transportation options to the public.",
+      "abstract": "Waymo has launched its robotaxi service in Las Vegas, expanding its autonomous vehicle operations to a new major city. This deployment marks a significant step in the company's efforts to commercialize self-driving technology and provide reliable, driverless transportation options to the public.",
+      "score": 95
+    },
+    {
+      "title": "Palantir, Nvidia curb AI model use over data fears, The Information reports",
+      "topic": "Palantir, Nvidia curb AI model use over data fears, The Information reports",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONWNhdEVPc1dqTGMyRWxhWWFrWF9wM2J3NmhWRW1HS3VQT1U3ZjV5M1R1Qi1faVE0cVJzaXZEWHhac25nT1J4bFlGaVdkVHFOZklJcWxydE5OWk04anFNZURQeEVxZklRYk5rRDN0dXdMWlZSOC13RHY0eXJqVi1VQ2x1WHRWemZXMElNVm5JWHZBS3d3UmNGWXJwa2poV0VGdjBfRjM5WUNHZFhWTW5oRkZVaU4?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-14T15:11:30Z",
+      "category": "ai",
+      "summary": "Palantir and NVIDIA have restricted the use of their AI models due to data privacy concerns, reflecting a growing trend of caution in the tech industry. This move highlights the increasing importance of data security and ethical considerations in AI development.",
+      "abstract": "Palantir and NVIDIA have restricted the use of their AI models due to data privacy concerns, reflecting a growing trend of caution in the tech industry. This move highlights the increasing importance of data security and ethical considerations in AI development.",
+      "score": 70
+    },
     {
       "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
       "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
@@ -33,6 +55,17 @@
       "summary": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
       "abstract": "NVIDIA is collaborating with leading robotaxi companies to integrate its advanced AI technologies, including the NVIDIA DRIVE platform, into their autonomous vehicles. This partnership aims to enhance the safety and efficiency of robotaxi services, leveraging NVIDIA's expertise in AI and computational hardware.",
       "score": 88
+    },
+    {
+      "title": "IBM, NASA launch AI model to help map ice, craters on Moon",
+      "topic": "IBM, NASA launch AI model to help map ice, craters on Moon",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaHVoaUpvT3dtcTlFZHJyUWV2TWUtSU5xcmpMTVNkTzN2dHF6ZGpzMzZrbThHUmNXU3hRV2IxNk5XQVFFMFVJMDBTZUpsWThDdXNscnFyTW5IREtyYi1vSEFGQ2hOdFJSbTBPUXBUMURiSnRvbzFmTlRCTXpFY3B0cXR3UXVGclJWa1JyenNJYjRPZGNUd0JvQldR?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-10T13:50:51Z",
+      "category": "ai",
+      "summary": "IBM and NASA have jointly launched an AI model designed to map ice and craters on the Moon, advancing space exploration and scientific research. This collaboration leverages AI to enhance the accuracy and efficiency of lunar mapping, supporting future missions and discoveries.",
+      "abstract": "IBM and NASA have jointly launched an AI model designed to map ice and craters on the Moon, advancing space exploration and scientific research. This collaboration leverages AI to enhance the accuracy and efficiency of lunar mapping, supporting future missions and discoveries.",
+      "score": 65
     },
     {
       "title": "OpenAI pushes for mandatory national AI safety rules",
