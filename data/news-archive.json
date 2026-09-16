@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-15T11:49:56.088238Z",
+  "updated_at": "2026-09-16T11:41:06.377394Z",
   "items": [
+    {
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "topic": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaEsxMFYwMkNyVXR5cjZjNERGREFUenN6YWNuOU5oTEpkZElOdlQxMVQ0Q0ZUMF9aNlFqSmNYWUVOZ2VHS0pBYmM3bnhFbjhHYXB1eUQ1TDg3NE55blEtdEU0eDZ2SXM2OVFWbHp3X05fdEtEazI0SmxhSmJ0R040WGRralJxTFZXQjlKV2tOT2pKamUtNmNmc1pFZTAxdzJRd3c?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-15T15:47:03Z",
+      "category": "ai",
+      "summary": "OpenAI, Anthropic, and Google have been in ongoing talks to address AI safety concerns, collaborating on best practices and standards. These discussions aim to mitigate risks and ensure the responsible development of AI technologies.",
+      "abstract": "OpenAI, Anthropic, and Google have been in ongoing talks to address AI safety concerns, collaborating on best practices and standards. These discussions aim to mitigate risks and ensure the responsible development of AI technologies.",
+      "score": 75
+    },
+    {
+      "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+      "topic": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2609.16909v1",
+      "source": "arXiv",
+      "published": "2026-09-15T09:40:37Z",
+      "category": "arxiv-explainability-av",
+      "summary": "ArXiv researchers present PiPS, a post-hoc prototypical explanation framework for interpretable semantic segmentation in autonomous vehicles. PiPS uses prototype-based reasoning to explain model decisions based on visual similarity, enhancing trust in critical systems by providing clear, human-understandable explanations of object localization.",
+      "abstract": "ArXiv researchers present PiPS, a post-hoc prototypical explanation framework for interpretable semantic segmentation in autonomous vehicles. PiPS uses prototype-based reasoning to explain model decisions based on visual similarity, enhancing trust in critical systems by providing clear, human-understandable explanations of object localization.",
+      "score": 85
+    },
     {
       "title": "Waymo opens robotaxi service in Las Vegas",
       "topic": "Waymo opens robotaxi service in Las Vegas",
