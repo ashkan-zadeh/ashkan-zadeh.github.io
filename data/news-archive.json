@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-16T11:41:06.377394Z",
+  "updated_at": "2026-09-17T11:47:46.361952Z",
   "items": [
+    {
+      "title": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
+      "topic": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUUY0bTJQODAyZzZaZkRaRHYtMEJCTXBWZF9OUXB3cXpEbThnVnIwdEdCRGZDVHp5SHB6Vkp2YXgxb2JFLThYU1IwdG5sZ1VuWVZmZHQyWXhDbm9jbnZHTmQwZzhmT1BXM3FlLWJXWWhfSTktYjFObHZ3QzF0NHlKblFXd1M2ZkZWemtUZEExYXE4QTBoMXlDV3p5SFN1WmM3Qll1T1RkMndPT1Vva0VycjN3?oc=5",
+      "source": "Engadget",
+      "published": "2026-09-17T10:50:20Z",
+      "category": "ai",
+      "summary": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
+      "abstract": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
+      "score": 65
+    },
+    {
+      "title": "US agency orders Tesla to answer questions on Cybercab certification",
+      "topic": "US agency orders Tesla to answer questions on Cybercab certification",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDl2VHNCWFlwUjVSZFRZZUVsZ1JLejFVVnlXdldIbkFFMDNmVDB3cFdCZ090SW5jU2cxcGJuQy05a0R6V2tqSENRMThjOEJERUduM0Q1ODNLNDhGTHFRQ2NfUkdicFZob1cwdm5senhqOElMUlR1N2h1MjdrakdTemhybUZWSGxBdmYwcHNyOFdvOTFGdlBYbnZGOUQzUk9WX1E1a1dfOFJYaEh5YmJOVlJLQmRBVFppZUJWYlpBMU1jLUhlQndB?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-15T19:54:47Z",
+      "category": "automated-vehicles",
+      "summary": "The National Highway Traffic Safety Administration (NHTSA) has ordered Tesla to provide detailed information on the certification of its Cybercab, a new electric vehicle designed for autonomous ride-hailing. The agency's request comes amid growing concerns about the safety and regulatory compliance of Tesla's autonomous driving technologies.",
+      "abstract": "The National Highway Traffic Safety Administration (NHTSA) has ordered Tesla to provide detailed information on the certification of its Cybercab, a new electric vehicle designed for autonomous ride-hailing. The agency's request comes amid growing concerns about the safety and regulatory compliance of Tesla's autonomous driving technologies.",
+      "score": 80
+    },
     {
       "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
       "topic": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
@@ -11,6 +33,17 @@
       "summary": "OpenAI, Anthropic, and Google have been in ongoing talks to address AI safety concerns, collaborating on best practices and standards. These discussions aim to mitigate risks and ensure the responsible development of AI technologies.",
       "abstract": "OpenAI, Anthropic, and Google have been in ongoing talks to address AI safety concerns, collaborating on best practices and standards. These discussions aim to mitigate risks and ensure the responsible development of AI technologies.",
       "score": 75
+    },
+    {
+      "title": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
+      "topic": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMTRaOURVYk5xQ0ZCeDdDalQxVnkwdm1VZDQ1LWVCcnBOUXBaRWxvVjJJVWdSMzRnMHJXS3pDNjUyRUt6M3E2a1E5bDE2eGhZTGJlUUFZSnd6VDBHS0d5bC1oLXpRMGQxQ1A3Wl93RWJKNnZXdnhNMUNrQjJFMGFGdjVGNkx1bkU?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-15T14:05:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising serious concerns about the safety and reliability of these technologies. The incidents have prompted increased scrutiny from regulators and the public, highlighting the need for more rigorous testing and oversight in the development of autonomous driving systems.",
+      "abstract": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising serious concerns about the safety and reliability of these technologies. The incidents have prompted increased scrutiny from regulators and the public, highlighting the need for more rigorous testing and oversight in the development of autonomous driving systems.",
+      "score": 90
     },
     {
       "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
@@ -32,6 +65,17 @@
       "category": "automated-vehicles",
       "summary": "Waymo has launched its robotaxi service in Las Vegas, expanding its autonomous vehicle operations to a new major city. This deployment marks a significant step in the company's efforts to commercialize self-driving technology and provide reliable, driverless transportation options to the public.",
       "abstract": "Waymo has launched its robotaxi service in Las Vegas, expanding its autonomous vehicle operations to a new major city. This deployment marks a significant step in the company's efforts to commercialize self-driving technology and provide reliable, driverless transportation options to the public.",
+      "score": 95
+    },
+    {
+      "title": "Waymo to bring autonomous ride-hailing to Las Vegas",
+      "topic": "Waymo to bring autonomous ride-hailing to Las Vegas",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUFPcmpkS0pfaEQ5Vlg2Qzd1eHIxMzlaV0FWVXlZVFMxWGozYTFUNmRhLUNIVklrLWtPRVFDZlNMdkJZVXU0OXhJTVlZZkFaTGRHUEV6OEd4enM4RS1uSnRwbXBkMldLLXBsaVBORUpWU0tPSldQdDBuZ1FqMm1oRXdTdnJINDRSUF9mVnN3QnViM29FNFVuMVZEY1FobTlCTTZwa2pwVkxSN05HejJ5cg?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-14T16:03:07Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo is expanding its autonomous ride-hailing service to Las Vegas, marking a significant step in the company's efforts to deploy self-driving vehicles in new urban environments. The deployment will leverage Waymo's advanced AV technology, which has been tested and refined in multiple cities, to provide a safe and reliable transportation option for residents and visitors.",
+      "abstract": "Waymo is expanding its autonomous ride-hailing service to Las Vegas, marking a significant step in the company's efforts to deploy self-driving vehicles in new urban environments. The deployment will leverage Waymo's advanced AV technology, which has been tested and refined in multiple cities, to provide a safe and reliable transportation option for residents and visitors.",
       "score": 95
     },
     {
