@@ -1,27 +1,49 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-17T11:47:46.260662Z",
+  "generated_at": "2026-09-18T11:24:34.372368Z",
   "items": [
     {
-      "title": "Waymo to bring autonomous ride-hailing to Las Vegas",
-      "topic": "Waymo to bring autonomous ride-hailing to Las Vegas",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUFPcmpkS0pfaEQ5Vlg2Qzd1eHIxMzlaV0FWVXlZVFMxWGozYTFUNmRhLUNIVklrLWtPRVFDZlNMdkJZVXU0OXhJTVlZZkFaTGRHUEV6OEd4enM4RS1uSnRwbXBkMldLLXBsaVBORUpWU0tPSldQdDBuZ1FqMm1oRXdTdnJINDRSUF9mVnN3QnViM29FNFVuMVZEY1FobTlCTTZwa2pwVkxSN05HejJ5cg?oc=5",
+      "title": "China targets mass deployment of self-driving vehicles by 2030",
+      "topic": "China targets mass deployment of self-driving vehicles by 2030",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHE2c1o4d3RHUGJFRXFuZldubXlNd3gtSnhMUGFFeTJVUVpBQTVuZnE3RHplaTVfZFNPSDhDc2pZZF9vQUFQdXdtTDFSZi14ZkxfanU1RW80WDBoOWZ0NGRramNxUzdLeWYwaWxwRWl2MFBVQVRaa3lkTkc0YU5FOGhuNU05a2YxNVc2a29STF9rb1JYdHYzQWJTY1RPckZiamhLcFB2ZldWVklXZzM0aFdsU2xWcl9GTzlWT3h5SnRyUGc?oc=5",
       "source": "Reuters",
-      "published": "2026-09-14T16:03:07Z",
+      "published": "2026-09-11T03:23:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo is expanding its autonomous ride-hailing service to Las Vegas, marking a significant step in the company's efforts to deploy self-driving vehicles in new urban environments. The deployment will leverage Waymo's advanced AV technology, which has been tested and refined in multiple cities, to provide a safe and reliable transportation option for residents and visitors.",
-      "abstract": "Waymo is expanding its autonomous ride-hailing service to Las Vegas, marking a significant step in the company's efforts to deploy self-driving vehicles in new urban environments. The deployment will leverage Waymo's advanced AV technology, which has been tested and refined in multiple cities, to provide a safe and reliable transportation option for residents and visitors.",
-      "score": 95
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 54
     },
     {
-      "title": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
-      "topic": "Tesla’s record month: 4 fatal Autopilot and Full Self-Driving crashes",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMTRaOURVYk5xQ0ZCeDdDalQxVnkwdm1VZDQ1LWVCcnBOUXBaRWxvVjJJVWdSMzRnMHJXS3pDNjUyRUt6M3E2a1E5bDE2eGhZTGJlUUFZSnd6VDBHS0d5bC1oLXpRMGQxQ1A3Wl93RWJKNnZXdnhNMUNrQjJFMGFGdjVGNkx1bkU?oc=5",
-      "source": "Electrek",
-      "published": "2026-09-15T14:05:00Z",
+      "title": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
+      "topic": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN1VrMUdBa2prejBnaE9Cd0IzLTdqUTh2eFhHMmtPQzFUR3lBWWh3dkZzQnpKbUlvWkJGNXdmaWp1MzZYWWtPbG9MdUJHbGFWZUdVbFM4ZG1tWWVaN1FiT0gzSkhZSzYxSDJLdEpSdGEzYkVNbTJ0X3hJb2w1MlhJVE9oWW0tVnVkZ3JfbWtTYUtUaVltbXlZUDFrQ1VzM0I5UmRXQ0Vn?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-17T12:09:41Z",
       "category": "automated-vehicles",
-      "summary": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising serious concerns about the safety and reliability of these technologies. The incidents have prompted increased scrutiny from regulators and the public, highlighting the need for more rigorous testing and oversight in the development of autonomous driving systems.",
-      "abstract": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising serious concerns about the safety and reliability of these technologies. The incidents have prompted increased scrutiny from regulators and the public, highlighting the need for more rigorous testing and oversight in the development of autonomous driving systems.",
-      "score": 90
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 49
+    },
+    {
+      "title": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "topic": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-16T19:02:49Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "topic": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-16T00:20:39Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 32
     },
     {
       "title": "Inside Rivian’s Bid to Build Level 4 Robotaxis—and Then Passenger Cars",
@@ -30,86 +52,64 @@ window.NEWS_FEED = {
       "source": "IEEE Spectrum",
       "published": "2026-09-08T07:00:00Z",
       "category": "computer-vision",
-      "summary": "Rivian is developing Level 4 robotaxis, aiming to build fully autonomous vehicles that can operate without human intervention. The company's strategy involves leveraging advanced sensor fusion and computer vision technologies to achieve this goal, with plans to eventually transition to producing passenger cars. This initiative underscores Rivian's commitment to advancing the state of autonomous vehicle technology.",
-      "abstract": "Rivian is developing Level 4 robotaxis, aiming to build fully autonomous vehicles that can operate without human intervention. The company's strategy involves leveraging advanced sensor fusion and computer vision technologies to achieve this goal, with plans to eventually transition to producing passenger cars. This initiative underscores Rivian's commitment to advancing the state of autonomous vehicle technology.",
-      "score": 85
+      "summary": "Headline tracked from IEEE Spectrum as a recent computer vision signal.",
+      "abstract": "A computer vision or perception system has been published with direct relevance to autonomous vehicle scene understanding or environmental sensing. The approach advances capabilities in object detection, depth estimation, semantic segmentation, or sensor fusion using camera, lidar, or radar inputs. Benchmark results demonstrate improvements in accuracy, latency, or robustness under challenging conditions such as adverse weather, occlusion, or nighttime driving. Deploying such systems in production AV stacks requires further validation across diverse geographic and weather conditions before safety certification.",
+      "score": 28
     },
     {
-      "title": "US agency orders Tesla to answer questions on Cybercab certification",
-      "topic": "US agency orders Tesla to answer questions on Cybercab certification",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDl2VHNCWFlwUjVSZFRZZUVsZ1JLejFVVnlXdldIbkFFMDNmVDB3cFdCZ090SW5jU2cxcGJuQy05a0R6V2tqSENRMThjOEJERUduM0Q1ODNLNDhGTHFRQ2NfUkdicFZob1cwdm5senhqOElMUlR1N2h1MjdrakdTemhybUZWSGxBdmYwcHNyOFdvOTFGdlBYbnZGOUQzUk9WX1E1a1dfOFJYaEh5YmJOVlJLQmRBVFppZUJWYlpBMU1jLUhlQndB?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-15T19:54:47Z",
-      "category": "automated-vehicles",
-      "summary": "The National Highway Traffic Safety Administration (NHTSA) has ordered Tesla to provide detailed information on the certification of its Cybercab, a new electric vehicle designed for autonomous ride-hailing. The agency's request comes amid growing concerns about the safety and regulatory compliance of Tesla's autonomous driving technologies.",
-      "abstract": "The National Highway Traffic Safety Administration (NHTSA) has ordered Tesla to provide detailed information on the certification of its Cybercab, a new electric vehicle designed for autonomous ride-hailing. The agency's request comes amid growing concerns about the safety and regulatory compliance of Tesla's autonomous driving technologies.",
-      "score": 80
-    },
-    {
-      "title": "OpenAI pushes for mandatory national AI safety rules",
-      "topic": "OpenAI pushes for mandatory national AI safety rules",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1BGN3ZBNTNDNW5DeGNuUmhNSnM3M1JfZ1NGaWF1ZFpvNHg3THdibUkzRkNrSkMwX2g2bDRzaUdmcklQNW9tNDZNTWREV2M0c0I1bXlFejQwZkFhTzRybzFjd1UzWS1BbFFyeWoxbzlWMXpyQTN3MF9ydzZxQ0ktYjhLY1dPRlM1alU1UUdGd0psUFBPOE5KU0VNSTdzNWs4RWFRYlpVaHJMd0Nt?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-10T09:44:24Z",
-      "category": "ai",
-      "summary": "OpenAI is advocating for the implementation of mandatory national AI safety rules, emphasizing the need for standardized regulations to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks and ethical implications of advanced AI systems.",
-      "abstract": "OpenAI is advocating for the implementation of mandatory national AI safety rules, emphasizing the need for standardized regulations to ensure the responsible development and deployment of AI technologies. This push for regulation reflects growing concerns about the potential risks and ethical implications of advanced AI systems.",
-      "score": 75
-    },
-    {
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "topic": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaEsxMFYwMkNyVXR5cjZjNERGREFUenN6YWNuOU5oTEpkZElOdlQxMVQ0Q0ZUMF9aNlFqSmNYWUVOZ2VHS0pBYmM3bnhFbjhHYXB1eUQ1TDg3NE55blEtdEU0eDZ2SXM2OVFWbHp3X05fdEtEazI0SmxhSmJ0R040WGRralJxTFZXQjlKV2tOT2pKamUtNmNmc1pFZTAxdzJRd3c?oc=5",
+      "title": "Is the AI safety debate about safety or control?",
+      "topic": "Is the AI safety debate about safety or control?",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMURObkJHczZyemlYaDFiWGttc2ZvWmlTR1cxWTd0YVgxaHVSSWlnSHRlS3lrcmwyWTllUVhhakY4MTNrS1dyS2lBbUFDY3FZTmw0dDFURDR0bEhlV09XdzB6UHBfS2NHZVhuNUg2aEZiUzNlRWJrcEdqNnFvNVBSVVI0aXo3RkI3MWc?oc=5",
       "source": "TechCrunch",
-      "published": "2026-09-15T15:47:03Z",
+      "published": "2026-09-17T20:19:37Z",
       "category": "ai",
-      "summary": "OpenAI, Anthropic, and Google have been engaged in ongoing discussions about AI safety, focusing on collaborative efforts to address the ethical and technical challenges associated with advanced AI systems. These talks highlight the industry's commitment to developing safe and reliable AI technologies, despite differing approaches and perspectives among the companies.",
-      "abstract": "OpenAI, Anthropic, and Google have been engaged in ongoing discussions about AI safety, focusing on collaborative efforts to address the ethical and technical challenges associated with advanced AI systems. These talks highlight the industry's commitment to developing safe and reliable AI technologies, despite differing approaches and perspectives among the companies.",
-      "score": 70
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
-      "title": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
-      "topic": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUUY0bTJQODAyZzZaZkRaRHYtMEJCTXBWZF9OUXB3cXpEbThnVnIwdEdCRGZDVHp5SHB6Vkp2YXgxb2JFLThYU1IwdG5sZ1VuWVZmZHQyWXhDbm9jbnZHTmQwZzhmT1BXM3FlLWJXWWhfSTktYjFObHZ3QzF0NHlKblFXd1M2ZkZWemtUZEExYXE4QTBoMXlDV3p5SFN1WmM3Qll1T1RkMndPT1Vva0VycjN3?oc=5",
-      "source": "Engadget",
-      "published": "2026-09-17T10:50:20Z",
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "topic": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHdrYld6WDItWEtXWE80TmFEWU9Gc1QybU1DZ3dWaUx0aGVKT09sNE9ZR1dSQXlRa1p4SXlSQ3JFckFtb1NzTl9VcDVUYmlVRzJaTHBnal9yUFpnRm9jNXdJZGR3WDducGhNOGNlcGttZmlOaDZhNFFybkhyRHlNSzJoS1FDdVI2S1cwa1M5LXhYQ0lHUVZvZVpkYjBFOXdCUHloU2dFdlp3Q2laUm5nUXdwdWJjalFFcEtIZExR?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-17T17:15:59Z",
       "category": "ai",
-      "summary": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
-      "abstract": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
-      "score": 65
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-17T11:46:02.951792Z",
+      "published": "2026-09-18T11:20:06.434138Z",
       "category": "journal-rss",
-      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. The study, published in January 2027, demonstrates how LLMs can enhance the testing and safety of AVs by simulating complex pedestrian scenarios, improving the robustness of AV systems.",
-      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. The study, published in January 2027, demonstrates how LLMs can enhance the testing and safety of AVs by simulating complex pedestrian scenarios, improving the robustness of AV systems.",
-      "score": 95
-    },
-    {
-      "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
-      "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004420?dgcid=rss_sd_all",
-      "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-17T11:46:02.952957Z",
-      "category": "journal-rss",
-      "summary": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies developed a federated meta attentive interpretable tabular learning approach to predict driver takeover time in autonomous driving. Published in December 2026, the study achieves accurate and sample-efficient predictions while preserving privacy, enhancing the interpretability and reliability of AV systems.",
-      "abstract": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies developed a federated meta attentive interpretable tabular learning approach to predict driver takeover time in autonomous driving. Published in December 2026, the study achieves accurate and sample-efficient predictions while preserving privacy, enhancing the interpretability and reliability of AV systems.",
-      "score": 90
+      "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 57
     },
     {
       "title": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
       "topic": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
       "url": "https://www.sciencedirect.com/science/article/pii/S1369847826002500?dgcid=rss_sd_all",
       "source": "Transportation Research Part F: Traffic Psychology and Behaviour",
-      "published": "2026-09-17T11:46:03.488571Z",
+      "published": "2026-09-18T11:20:07.072153Z",
       "category": "journal-rss",
-      "summary": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory stimuli, influence drivers' pre-takeover readiness in automated driving. Published in August 2026, the study provides insights into the affective multimodal interactions that can improve driver engagement and trust in AVs.",
-      "abstract": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory stimuli, influence drivers' pre-takeover readiness in automated driving. Published in August 2026, the study provides insights into the affective multimodal interactions that can improve driver engagement and trust in AVs.",
-      "score": 85
+      "summary": "Headline tracked from Transportation Research Part F: Traffic Psychology and Behaviour as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 55
+    },
+    {
+      "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004420?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-09-18T11:20:06.435668Z",
+      "category": "journal-rss",
+      "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 46
     }
   ]
 };

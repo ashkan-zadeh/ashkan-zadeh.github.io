@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-09-17T11:47:46.361952Z",
+  "updated_at": "2026-09-18T11:24:34.472953Z",
   "items": [
+    {
+      "title": "Is the AI safety debate about safety or control?",
+      "topic": "Is the AI safety debate about safety or control?",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMURObkJHczZyemlYaDFiWGttc2ZvWmlTR1cxWTd0YVgxaHVSSWlnSHRlS3lrcmwyWTllUVhhakY4MTNrS1dyS2lBbUFDY3FZTmw0dDFURDR0bEhlV09XdzB6UHBfS2NHZVhuNUg2aEZiUzNlRWJrcEdqNnFvNVBSVVI0aXo3RkI3MWc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-17T20:19:37Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "topic": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHdrYld6WDItWEtXWE80TmFEWU9Gc1QybU1DZ3dWaUx0aGVKT09sNE9ZR1dSQXlRa1p4SXlSQ3JFckFtb1NzTl9VcDVUYmlVRzJaTHBnal9yUFpnRm9jNXdJZGR3WDducGhNOGNlcGttZmlOaDZhNFFybkhyRHlNSzJoS1FDdVI2S1cwa1M5LXhYQ0lHUVZvZVpkYjBFOXdCUHloU2dFdlp3Q2laUm5nUXdwdWJjalFFcEtIZExR?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-17T17:15:59Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
+      "topic": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN1VrMUdBa2prejBnaE9Cd0IzLTdqUTh2eFhHMmtPQzFUR3lBWWh3dkZzQnpKbUlvWkJGNXdmaWp1MzZYWWtPbG9MdUJHbGFWZUdVbFM4ZG1tWWVaN1FiT0gzSkhZSzYxSDJLdEpSdGEzYkVNbTJ0X3hJb2w1MlhJVE9oWW0tVnVkZ3JfbWtTYUtUaVltbXlZUDFrQ1VzM0I5UmRXQ0Vn?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-17T12:09:41Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 49
+    },
     {
       "title": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
       "topic": "OpenAI Reveals More Instances Of Concerning AI Model Behaviors During Testing",
@@ -11,6 +44,28 @@
       "summary": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
       "abstract": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
       "score": 65
+    },
+    {
+      "title": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "topic": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-16T19:02:49Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "topic": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-16T00:20:39Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 32
     },
     {
       "title": "US agency orders Tesla to answer questions on Cybercab certification",
@@ -110,6 +165,17 @@
       "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies published a paper in January 2027, introducing an LLM distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method enhances the robustness of AV systems by simulating complex pedestrian behaviors, crucial for improving safety and reliability in real-world scenarios.",
       "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies published a paper in January 2027, introducing an LLM distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method enhances the robustness of AV systems by simulating complex pedestrian behaviors, crucial for improving safety and reliability in real-world scenarios.",
       "score": 95
+    },
+    {
+      "title": "China targets mass deployment of self-driving vehicles by 2030",
+      "topic": "China targets mass deployment of self-driving vehicles by 2030",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHE2c1o4d3RHUGJFRXFuZldubXlNd3gtSnhMUGFFeTJVUVpBQTVuZnE3RHplaTVfZFNPSDhDc2pZZF9vQUFQdXdtTDFSZi14ZkxfanU1RW80WDBoOWZ0NGRramNxUzdLeWYwaWxwRWl2MFBVQVRaa3lkTkc0YU5FOGhuNU05a2YxNVc2a29STF9rb1JYdHYzQWJTY1RPckZiamhLcFB2ZldWVklXZzM0aFdsU2xWcl9GTzlWT3h5SnRyUGc?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-11T03:23:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 54
     },
     {
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
