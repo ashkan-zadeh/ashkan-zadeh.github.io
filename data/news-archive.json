@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-18T11:24:34.472953Z",
+  "updated_at": "2026-09-19T11:04:52.134125Z",
   "items": [
+    {
+      "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
+      "topic": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1ltbFppd1NjUUhaSTZ4TUs2bzFNY0lfaTd5bG5mVmw1X3NiV2lsWTNJQ0pyUWJ0SHhOZjBmd0x4b0pMOWlpSDd2VGEweDFTTnU4YW1QTFJhNG00ZXFUSHN1OENaeVFaWXZwbTlsTEI4RGphekZtRTIzclZ1ak5wcXhDU05TX1VHVFBJUnBUQVZmZjhjTHFqNXNqREhGajRFZ3lsaW5tWmxrSWNzNWNhR1ZVbkZ2S2ppRkFlWXlKOA?oc=5",
+      "source": "reuters.com",
+      "published": "2026-09-18T22:38:11Z",
+      "category": "ai",
+      "summary": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
+      "abstract": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
+      "score": 80
+    },
+    {
+      "title": "Waymo says Singapore will be its next international robotaxi city",
+      "topic": "Waymo says Singapore will be its next international robotaxi city",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR0VnQmxibk5TczB1cWx6ZUR4VExNWjlwZXo3SzgzZTRjdlg1XzRtZk0wSWtqVFBaVGswRks5OXFKYi1YMGhCUTc3LWhjOWFQZ1FfSzJmS1R6bXFuX3JFSWd4R01ybjVXWWN0T0tMblNDNGdiNGVWNVl5UnFWQmxhTWF0cGZhWVJzZmxN?oc=5",
+      "source": "The Verge",
+      "published": "2026-09-18T02:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Waymo, a leading autonomous vehicle company, has announced that Singapore will be its next international city for robotaxi deployment. This expansion marks Waymo's commitment to globalizing its self-driving technology and services, potentially increasing the availability of autonomous ride-hailing in urban areas.",
+      "abstract": "Waymo, a leading autonomous vehicle company, has announced that Singapore will be its next international city for robotaxi deployment. This expansion marks Waymo's commitment to globalizing its self-driving technology and services, potentially increasing the availability of autonomous ride-hailing in urban areas.",
+      "score": 95
+    },
     {
       "title": "Is the AI safety debate about safety or control?",
       "topic": "Is the AI safety debate about safety or control?",
@@ -22,6 +44,17 @@
       "summary": "Headline tracked from TechCrunch as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
+    },
+    {
+      "title": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
+      "topic": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZlc0aEIyZmgxVURSZXZnVWNic05GQW9SVmI1Y1JvbGVtYzR6RmFvMTFKUTBFNWNOaENqckFIdjY3NXh2dWNkZF9UUUY3VXpNbEVPYnZhZnk0N2kwWFNfWS1lNzlEdXNvTlkzRXFmM1dpTHMyOG9GTVdwZ3FkZGt1UXUwUklrWEtaeUdSdVR0WWxCTHdYNi00WFVKbmZRMWJXRFhDblNNM01HQXpGVHVrVFhUUlpHUDRiT1pVbHMyVlc?oc=5",
+      "source": "reuters.com",
+      "published": "2026-09-17T14:33:55Z",
+      "category": "ai",
+      "summary": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards. This move reflects the growing industry consensus on the importance of ensuring AI systems, including those used in autonomous vehicles, are safe and reliable.",
+      "abstract": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards. This move reflects the growing industry consensus on the importance of ensuring AI systems, including those used in autonomous vehicles, are safe and reliable.",
+      "score": 75
     },
     {
       "title": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
