@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-19T11:04:52.033091Z",
+  "generated_at": "2026-09-20T11:29:46.948874Z",
   "items": [
     {
       "title": "Waymo says Singapore will be its next international robotaxi city",
@@ -8,8 +8,8 @@ window.NEWS_FEED = {
       "source": "The Verge",
       "published": "2026-09-18T02:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo, a leading autonomous vehicle company, has announced that Singapore will be its next international city for robotaxi deployment. This expansion marks Waymo's commitment to globalizing its self-driving technology and services, potentially increasing the availability of autonomous ride-hailing in urban areas.",
-      "abstract": "Waymo, a leading autonomous vehicle company, has announced that Singapore will be its next international city for robotaxi deployment. This expansion marks Waymo's commitment to globalizing its self-driving technology and services, potentially increasing the availability of autonomous ride-hailing in urban areas.",
+      "summary": "Waymo, a leading autonomous vehicle company, announced that Singapore will be its next international city for robotaxi deployment, expanding its global footprint and bringing self-driving technology to a new market.",
+      "abstract": "Waymo, a leading autonomous vehicle company, announced that Singapore will be its next international city for robotaxi deployment, expanding its global footprint and bringing self-driving technology to a new market.",
       "score": 95
     },
     {
@@ -19,42 +19,31 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-15T14:05:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems. This highlights the ongoing safety concerns and the need for rigorous testing and regulation of autonomous driving technologies.",
-      "abstract": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems. This highlights the ongoing safety concerns and the need for rigorous testing and regulation of autonomous driving technologies.",
+      "summary": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising significant concerns about the safety and reliability of these advanced driver assistance systems.",
+      "abstract": "Tesla experienced a record month with four fatal crashes involving its Autopilot and Full Self-Driving (FSD) systems, raising significant concerns about the safety and reliability of these advanced driver assistance systems.",
       "score": 90
     },
     {
       "title": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
       "topic": "Bolt, Lucid target at least 25,000 self-driving vehicles in Europe",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN1VrMUdBa2prejBnaE9Cd0IzLTdqUTh2eFhHMmtPQzFUR3lBWWh3dkZzQnpKbUlvWkJGNXdmaWp1MzZYWWtPbG9MdUJHbGFWZUdVbFM4ZG1tWWVaN1FiT0gzSkhZSzYxSDJLdEpSdGEzYkVNbTJ0X3hJb2w1MlhJVE9oWW0tVnVkZ3JfbWtTYUtUaVltbXlZUDFrQ1VzM0I5UmRXQ0Vn?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "published": "2026-09-17T12:09:41Z",
       "category": "automated-vehicles",
-      "summary": "Bolt and Lucid have set a target to deploy at least 25,000 self-driving vehicles in Europe. This ambitious plan underscores the growing interest in autonomous vehicle technology and its potential to transform urban transportation.",
-      "abstract": "Bolt and Lucid have set a target to deploy at least 25,000 self-driving vehicles in Europe. This ambitious plan underscores the growing interest in autonomous vehicle technology and its potential to transform urban transportation.",
+      "summary": "Bolt and Lucid, two prominent electric vehicle manufacturers, have set a target to deploy at least 25,000 self-driving vehicles in Europe, marking a significant step towards mass adoption of autonomous technology in the region.",
+      "abstract": "Bolt and Lucid, two prominent electric vehicle manufacturers, have set a target to deploy at least 25,000 self-driving vehicles in Europe, marking a significant step towards mass adoption of autonomous technology in the region.",
       "score": 85
     },
     {
       "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
       "topic": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1ltbFppd1NjUUhaSTZ4TUs2bzFNY0lfaTd5bG5mVmw1X3NiV2lsWTNJQ0pyUWJ0SHhOZjBmd0x4b0pMOWlpSDd2VGEweDFTTnU4YW1QTFJhNG00ZXFUSHN1OENaeVFaWXZwbTlsTEI4RGphekZtRTIzclZ1ak5wcXhDU05TX1VHVFBJUnBUQVZmZjhjTHFqNXNqREhGajRFZ3lsaW5tWmxrSWNzNWNhR1ZVbkZ2S2ppRkFlWXlKOA?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "published": "2026-09-18T22:38:11Z",
       "category": "ai",
-      "summary": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
-      "abstract": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
+      "summary": "Anthropic and Accenture announced a $2 billion investment in AI model evaluation, aimed at addressing rising safety concerns and ensuring the reliability of AI systems, particularly in critical applications like autonomous vehicles.",
+      "abstract": "Anthropic and Accenture announced a $2 billion investment in AI model evaluation, aimed at addressing rising safety concerns and ensuring the reliability of AI systems, particularly in critical applications like autonomous vehicles.",
       "score": 80
-    },
-    {
-      "title": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
-      "topic": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZlc0aEIyZmgxVURSZXZnVWNic05GQW9SVmI1Y1JvbGVtYzR6RmFvMTFKUTBFNWNOaENqckFIdjY3NXh2dWNkZF9UUUY3VXpNbEVPYnZhZnk0N2kwWFNfWS1lNzlEdXNvTlkzRXFmM1dpTHMyOG9GTVdwZ3FkZGt1UXUwUklrWEtaeUdSdVR0WWxCTHdYNi00WFVKbmZRMWJXRFhDblNNM01HQXpGVHVrVFhUUlpHUDRiT1pVbHMyVlc?oc=5",
-      "source": "reuters.com",
-      "published": "2026-09-17T14:33:55Z",
-      "category": "ai",
-      "summary": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards. This move reflects the growing industry consensus on the importance of ensuring AI systems, including those used in autonomous vehicles, are safe and reliable.",
-      "abstract": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards. This move reflects the growing industry consensus on the importance of ensuring AI systems, including those used in autonomous vehicles, are safe and reliable.",
-      "score": 75
     },
     {
       "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
@@ -63,9 +52,9 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-09-17T17:15:59Z",
       "category": "ai",
-      "summary": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire. This collaboration aims to develop and promote best practices for AI safety, which is crucial for the advancement and deployment of autonomous vehicle technologies.",
-      "abstract": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire. This collaboration aims to develop and promote best practices for AI safety, which is crucial for the advancement and deployment of autonomous vehicle technologies.",
-      "score": 70
+      "summary": "Base Labs, a leading AI safety company, launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing rigorous evaluation methods and safety standards for AI models.",
+      "abstract": "Base Labs, a leading AI safety company, launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing rigorous evaluation methods and safety standards for AI models.",
+      "score": 75
     },
     {
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
@@ -74,41 +63,52 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-09-16T00:20:39Z",
       "category": "ai",
-      "summary": "Nvidia CEO Jensen Huang argues against AI regulation, stating that safety should be left to industry leaders. This stance highlights the ongoing debate between industry self-regulation and government oversight in the development of autonomous vehicle technologies.",
-      "abstract": "Nvidia CEO Jensen Huang argues against AI regulation, stating that safety should be left to industry leaders. This stance highlights the ongoing debate between industry self-regulation and government oversight in the development of autonomous vehicle technologies.",
+      "summary": "Nvidia CEO Jensen Huang stated that AI regulation is unnecessary, arguing that safety should be left to industry leaders, a stance that highlights the ongoing debate over the role of government in ensuring AI safety.",
+      "abstract": "Nvidia CEO Jensen Huang stated that AI regulation is unnecessary, arguing that safety should be left to industry leaders, a stance that highlights the ongoing debate over the role of government in ensuring AI safety.",
+      "score": 70
+    },
+    {
+      "title": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "topic": "Former Waymo CFO jumps to self-driving startup Wayve",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-16T19:02:49Z",
+      "category": "automated-vehicles",
+      "summary": "Former Waymo CFO, who played a crucial role in the company's financial strategy, has joined Wayve, a self-driving startup, bringing significant expertise to the growing autonomous vehicle sector.",
+      "abstract": "Former Waymo CFO, who played a crucial role in the company's financial strategy, has joined Wayve, a self-driving startup, bringing significant expertise to the growing autonomous vehicle sector.",
       "score": 65
+    },
+    {
+      "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "topic": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
+      "url": "http://ieeexplore.ieee.org/document/11478733",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-04-10T13:16:09Z",
+      "category": "journal-rss",
+      "summary": "Researchers from IEEE Transactions on Vehicular Technology propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities, addressing the limitations of current models in passing driving theory tests. This advancement is crucial for ensuring the safety and reliability of LLMs in autonomous vehicle applications.",
+      "abstract": "Researchers from IEEE Transactions on Vehicular Technology propose a novel question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' hazard perception and decision-making capabilities, addressing the limitations of current models in passing driving theory tests. This advancement is crucial for ensuring the safety and reliability of LLMs in autonomous vehicle applications.",
+      "score": 95
     },
     {
       "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-19T11:04:06.600376Z",
+      "published": "2026-09-20T11:28:59.004254Z",
       "category": "journal-rss",
-      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. Their approach, published in January 2027, enhances the robustness of AV systems by simulating complex pedestrian behaviors, improving safety and reliability in real-world scenarios.",
-      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. Their approach, published in January 2027, enhances the robustness of AV systems by simulating complex pedestrian behaviors, improving safety and reliability in real-world scenarios.",
-      "score": 95
+      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies present a large language model (LLM) distillation approach to adaptively stress test autonomous vehicle-pedestrian interactions. The method uses LLMs to simulate complex and stressful scenarios, enhancing the robustness and safety of autonomous vehicles in real-world pedestrian interactions. This research is vital for improving the reliability and trustworthiness of autonomous driving systems.",
+      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies present a large language model (LLM) distillation approach to adaptively stress test autonomous vehicle-pedestrian interactions. The method uses LLMs to simulate complex and stressful scenarios, enhancing the robustness and safety of autonomous vehicles in real-world pedestrian interactions. This research is vital for improving the reliability and trustworthiness of autonomous driving systems.",
+      "score": 90
     },
     {
       "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
       "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004420?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-19T11:04:06.601607Z",
+      "published": "2026-09-20T11:28:59.004974Z",
       "category": "journal-rss",
-      "summary": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies developed a federated meta attentive interpretable tabular learning approach to predict driver takeover time accurately and efficiently while preserving privacy. Published in December 2026, their method improves the interpretability and efficiency of driver takeover predictions, crucial for enhancing the safety and trustworthiness of autonomous driving systems.",
-      "abstract": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies developed a federated meta attentive interpretable tabular learning approach to predict driver takeover time accurately and efficiently while preserving privacy. Published in December 2026, their method improves the interpretability and efficiency of driver takeover predictions, crucial for enhancing the safety and trustworthiness of autonomous driving systems.",
-      "score": 90
-    },
-    {
-      "title": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
-      "topic": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1369847826002500?dgcid=rss_sd_all",
-      "source": "Transportation Research Part F: Traffic Psychology and Behaviour",
-      "published": "2026-09-19T11:04:07.132285Z",
-      "category": "journal-rss",
-      "summary": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory signals, influence drivers' pre-takeover readiness in automated driving. Their August 2026 study provides insights into the affective multimodal interactions that can enhance driver engagement and readiness, contributing to safer and more reliable human-vehicle interactions.",
-      "abstract": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory signals, influence drivers' pre-takeover readiness in automated driving. Their August 2026 study provides insights into the affective multimodal interactions that can enhance driver engagement and readiness, contributing to safer and more reliable human-vehicle interactions.",
+      "summary": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies introduce a federated meta attentive interpretable tabular learning approach to predict driver takeover time in autonomous driving while preserving privacy. The method achieves high accuracy and sample efficiency, crucial for ensuring timely and safe transitions between automated and manual driving modes. This research addresses a critical aspect of human-vehicle interaction and trust in autonomous systems.",
+      "abstract": "Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang from Transportation Research Part C: Emerging Technologies introduce a federated meta attentive interpretable tabular learning approach to predict driver takeover time in autonomous driving while preserving privacy. The method achieves high accuracy and sample efficiency, crucial for ensuring timely and safe transitions between automated and manual driving modes. This research addresses a critical aspect of human-vehicle interaction and trust in autonomous systems.",
       "score": 85
     }
   ]
