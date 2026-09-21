@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-20T11:29:46.999111Z",
+  "updated_at": "2026-09-21T12:54:37.994293Z",
   "items": [
+    {
+      "title": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "topic": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDhlbkM4N1NRMjZYdkFnclBwZUlLTWFvelg4dUpkZzVkTnZ5TVJ6Yjl5NUlfQjMtTVdMOEc3ZUdzaHpLNjZrcUk0Y3JMNXdfVmh3VnZjdkN5cTJoZXJGNDJ6ZkoteGhiU3huNnVTa0p4VXpZcU9LVTRMLTVJREYyQ3VBTEtlYWVxLTgwNzdnSkFkcjZpaFZZZXBpclVpazhrbkJFdG1zTEVsaGZPLXV6d3NSdk03amxqRHNMTDdnUFQ?oc=5",
+      "source": "reuters.com",
+      "published": "2026-09-20T05:06:00Z",
+      "category": "ai",
+      "summary": "US National AI Coordinator Lynne Parker Bessent has proposed a system for US-China AI safety notifications during talks with Chinese Vice Premier He Lifeng. The proposal aims to enhance communication and cooperation between the two countries on AI safety issues, reflecting the global importance of ensuring the responsible development and deployment of AI technologies.",
+      "abstract": "US National AI Coordinator Lynne Parker Bessent has proposed a system for US-China AI safety notifications during talks with Chinese Vice Premier He Lifeng. The proposal aims to enhance communication and cooperation between the two countries on AI safety issues, reflecting the global importance of ensuring the responsible development and deployment of AI technologies.",
+      "score": 65
+    },
     {
       "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
       "topic": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
@@ -1056,6 +1067,17 @@
       "summary": "The arXiv paper proposes XCoT-VLA, a framework that replaces descriptive rationales with compact executable Chain-of-Thought tokens learned from automatically constructed Reason-Action supervision. XCoT-VLA connects scene understanding, semantic reasoning, and trajectory generation for autonomous driving, and the predicted XCoT sequence remains in context and conditions fixed trajectory queries through shared multimodal self-attention. This approach is crucial for real-time control in autonomous driving. The XCoT-VLA model is evaluated on logged trajectories, providing action evidence, while scene context supplies causal semantics.",
       "abstract": "The arXiv paper proposes XCoT-VLA, a framework that replaces descriptive rationales with compact executable Chain-of-Thought tokens learned from automatically constructed Reason-Action supervision. XCoT-VLA connects scene understanding, semantic reasoning, and trajectory generation for autonomous driving, and the predicted XCoT sequence remains in context and conditions fixed trajectory queries through shared multimodal self-attention. This approach is crucial for real-time control in autonomous driving. The XCoT-VLA model is evaluated on logged trajectories, providing action evidence, while scene context supplies causal semantics.",
       "score": 92
+    },
+    {
+      "title": "Edge Case Detection in Automated Driving: Methods, Challenges, and Future Directions",
+      "topic": "Edge Case Detection in Automated Driving: Methods, Challenges, and Future Directions",
+      "url": "http://ieeexplore.ieee.org/document/11655425",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-08-13T13:17:36Z",
+      "category": "journal-rss",
+      "summary": "IEEE Transactions on Intelligent Transportation Systems published a comprehensive survey by a research team on edge case detection in automated driving. The paper classifies and reviews various methodologies for detecting and assessing edge cases across different AV modules, including perception, prediction, planning, and control. The study highlights the importance of addressing rare and unexpected situations to enhance the reliability and safety of AVs in real-world conditions.",
+      "abstract": "IEEE Transactions on Intelligent Transportation Systems published a comprehensive survey by a research team on edge case detection in automated driving. The paper classifies and reviews various methodologies for detecting and assessing edge cases across different AV modules, including perception, prediction, planning, and control. The study highlights the importance of addressing rare and unexpected situations to enhance the reliability and safety of AVs in real-world conditions.",
+      "score": 85
     },
     {
       "title": "Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences",
