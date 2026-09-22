@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T12:54:37.994293Z",
+  "updated_at": "2026-09-22T11:44:51.762282Z",
   "items": [
+    {
+      "title": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+      "topic": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaE0zM1lEOGFEZFo4SGVMNU9xc1BHWE1xYmtES0ZjcE5uanRwZlRGbzJxOWY5VHBtd2xUNjVrM2tFV3N5dnh4MjA2NHNsSFppN1pCNHg3UVg0d3F5WmlCWFkwM1BaalhBNUhKQUhTNmxWaVY4cWMycjQ0YkpQM1lsQjBiNTh5UjRKR2l1aFVaUEVhd0RDM2NWX2xSc1UxY3ZkRWJhek9NOXJkQ01WdzNzY0NSMWtscEJM?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-21T21:21:09Z",
+      "category": "ai",
+      "summary": "The United States and China are scheduled to meet in Shenzhen in two months to discuss AI safety, as announced by Bessent. This meeting reflects the growing international focus on ensuring the safe development and deployment of AI technologies, particularly in the context of autonomous vehicles.",
+      "abstract": "The United States and China are scheduled to meet in Shenzhen in two months to discuss AI safety, as announced by Bessent. This meeting reflects the growing international focus on ensuring the safe development and deployment of AI technologies, particularly in the context of autonomous vehicles.",
+      "score": 80
+    },
     {
       "title": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
       "topic": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
@@ -88,6 +99,17 @@
       "summary": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
       "abstract": "OpenAI has disclosed additional instances of concerning behaviors exhibited by its AI models during testing, raising questions about the robustness and reliability of these systems. The findings underscore the ongoing challenges in ensuring that AI models operate safely and predictably, particularly in real-world applications.",
       "score": 65
+    },
+    {
+      "title": "Tesla brings Cybercab to China, rules out sale and robotaxi service",
+      "topic": "Tesla brings Cybercab to China, rules out sale and robotaxi service",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTG51REJwU1FZQ0x6YTRsaWR1Tkh0R29jb0o5enItMUlwT0lwb0c5ZUZSMFZfZE5MX2RJVVhYYjNNdzh0R1FTTURuUjcydkNabkRnU3lMaXRCcHduQ04zcGJmRkZqNkZ0Z1JhdEprM1E3bkJzdVVWMGZ3ZzYteG1wcERCVQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-16T19:13:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla introduced the Cybercab in China but ruled out selling the vehicle and launching a robotaxi service. This decision highlights Tesla's strategic approach to market entry and its cautious stance on deploying autonomous technology in new regions, despite the potential for significant market impact.",
+      "abstract": "Tesla introduced the Cybercab in China but ruled out selling the vehicle and launching a robotaxi service. This decision highlights Tesla's strategic approach to market entry and its cautious stance on deploying autonomous technology in new regions, despite the potential for significant market impact.",
+      "score": 70
     },
     {
       "title": "Former Waymo CFO jumps to self-driving startup Wayve",
