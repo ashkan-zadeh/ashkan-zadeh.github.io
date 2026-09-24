@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-23T11:42:55.579831Z",
+  "updated_at": "2026-09-24T11:51:06.861456Z",
   "items": [
+    {
+      "title": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
+      "topic": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcmdielJadExCU3hsWXdFYjZneTVyd182VzRBMElJaWMxTU1qblZ1VlQ3UlJjLWw3YVd4OGxwZ25FZUloNHY2RTNMMnAwRm5UMmpUZ3hfd0drVGNKNG5fa1N6ZzdHMmpvLWVKeHBiZzMwUExJcDl4SlNVLVJNRnpCX2g3MA?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-22T14:26:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's Full Self-Driving (FSD) system has encountered a bug that falsely flags cameras as dirty and demands unnecessary service. This issue can lead to user frustration and increased maintenance costs. The bug underscores the ongoing challenges in developing and deploying robust autonomous driving systems that can accurately interpret sensor data and environmental conditions.",
+      "abstract": "Tesla's Full Self-Driving (FSD) system has encountered a bug that falsely flags cameras as dirty and demands unnecessary service. This issue can lead to user frustration and increased maintenance costs. The bug underscores the ongoing challenges in developing and deploying robust autonomous driving systems that can accurately interpret sensor data and environmental conditions.",
+      "score": 80
+    },
+    {
+      "title": "Tesla’s active robotaxi fleet in Austin crashes back to 8 vehicles after Cybercab pump",
+      "topic": "Tesla’s active robotaxi fleet in Austin crashes back to 8 vehicles after Cybercab pump",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWVWV3ZndmRvSk9jWW44ajIwdU9WTHJRRnhGWnJhWXlkdnFrMnFobTZaSG5HMm94Y0czTkx5dXRrc2g4bTQ0djJ3dGVuY2dmNWtZNnlxbkZPQVBkTTdWODJWTl8wT1VaVVVHcTVmLWxzemNNRFpobl82eFQ5YUpGYnI4UG80b1hQTEg2elJn?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-22T13:45:00Z",
+      "category": "automated-vehicles",
+      "summary": "Tesla's active robotaxi fleet in Austin, Texas, has decreased to 8 vehicles following a surge in demand and subsequent adjustments. The reduction highlights the challenges in maintaining a consistent fleet size while balancing operational costs and service availability. This fluctuation in fleet size is a critical factor in the real-world deployment and scalability of autonomous ride-hailing services.",
+      "abstract": "Tesla's active robotaxi fleet in Austin, Texas, has decreased to 8 vehicles following a surge in demand and subsequent adjustments. The reduction highlights the challenges in maintaining a consistent fleet size while balancing operational costs and service availability. This fluctuation in fleet size is a critical factor in the real-world deployment and scalability of autonomous ride-hailing services.",
+      "score": 85
+    },
     {
       "title": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
       "topic": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
