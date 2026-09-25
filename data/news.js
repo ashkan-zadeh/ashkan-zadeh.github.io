@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-24T11:51:06.782745Z",
+  "generated_at": "2026-09-25T11:56:20.125796Z",
   "items": [
     {
       "title": "Waymo says Singapore will be its next international robotaxi city",
@@ -8,9 +8,20 @@ window.NEWS_FEED = {
       "source": "The Verge",
       "published": "2026-09-18T02:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Waymo, a leading autonomous vehicle company, announced that Singapore will be its next international city for robotaxi deployment. This expansion follows successful operations in Phoenix, Arizona, and aims to bring advanced self-driving technology to a new market. The move underscores Waymo's commitment to global expansion and the potential for widespread adoption of autonomous ride-hailing services.",
-      "abstract": "Waymo, a leading autonomous vehicle company, announced that Singapore will be its next international city for robotaxi deployment. This expansion follows successful operations in Phoenix, Arizona, and aims to bring advanced self-driving technology to a new market. The move underscores Waymo's commitment to global expansion and the potential for widespread adoption of autonomous ride-hailing services.",
+      "summary": "Waymo announced that Singapore will be its next international robotaxi city, expanding its autonomous vehicle operations. This deployment will bring Waymo's advanced self-driving technology to a new market, potentially enhancing urban mobility and reducing traffic congestion.",
+      "abstract": "Waymo announced that Singapore will be its next international robotaxi city, expanding its autonomous vehicle operations. This deployment will bring Waymo's advanced self-driving technology to a new market, potentially enhancing urban mobility and reducing traffic congestion.",
       "score": 95
+    },
+    {
+      "title": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
+      "topic": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVNFdko3aEg5amFUWUpBT2M5a01DZXFvQTF5Q1JfalNYd2lQaW05T3JkQ3ZlUWR4Sm96cURIT2Y0SGZLeTB1RmN3WFJmVEVUTkFRNml6MTVDS0JaUlRvRjQ0X2RSV09zT2M1NGR2MHZfQzN0emlad083OTl4U2ppZ1U5Snh4b3NoT1ktZzNDTGpiX0I2NGNDNURqb1NQUEx3aFlob2VvZGJBSVZWWGN4Y0s1WElxcmI2bWJlUWNld2pEN2oyR1E?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-23T22:03:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Belgian safety group found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the reliability and safety of the technology. This issue could lead to increased risks of traffic violations and accidents, highlighting the need for further testing and improvements.",
+      "abstract": "A Belgian safety group found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the reliability and safety of the technology. This issue could lead to increased risks of traffic violations and accidents, highlighting the need for further testing and improvements.",
+      "score": 90
     },
     {
       "title": "Tesla’s active robotaxi fleet in Austin crashes back to 8 vehicles after Cybercab pump",
@@ -19,9 +30,31 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-22T13:45:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's active robotaxi fleet in Austin, Texas, has decreased to 8 vehicles following a surge in demand and subsequent adjustments. The reduction highlights the challenges in maintaining a consistent fleet size while balancing operational costs and service availability. This fluctuation in fleet size is a critical factor in the real-world deployment and scalability of autonomous ride-hailing services.",
-      "abstract": "Tesla's active robotaxi fleet in Austin, Texas, has decreased to 8 vehicles following a surge in demand and subsequent adjustments. The reduction highlights the challenges in maintaining a consistent fleet size while balancing operational costs and service availability. This fluctuation in fleet size is a critical factor in the real-world deployment and scalability of autonomous ride-hailing services.",
+      "summary": "Tesla's active robotaxi fleet in Austin has decreased to 8 vehicles following a surge in the number of Cybercabs. This reduction may impact the availability and reliability of Tesla's robotaxi service in the city, affecting user experience and the company's operational goals.",
+      "abstract": "Tesla's active robotaxi fleet in Austin has decreased to 8 vehicles following a surge in the number of Cybercabs. This reduction may impact the availability and reliability of Tesla's robotaxi service in the city, affecting user experience and the company's operational goals.",
       "score": 85
+    },
+    {
+      "title": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+      "topic": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaE0zM1lEOGFEZFo4SGVMNU9xc1BHWE1xYmtES0ZjcE5uanRwZlRGbzJxOWY5VHBtd2xUNjVrM2tFV3N5dnh4MjA2NHNsSFppN1pCNHg3UVg0d3F5WmlCWFkwM1BaalhBNUhKQUhTNmxWaVY4cWMycjQ0YkpQM1lsQjBiNTh5UjRKR2l1aFVaUEVhd0RDM2NWX2xSc1UxY3ZkRWJhek9NOXJkQ01WdzNzY0NSMWtscEJM?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-21T21:21:09Z",
+      "category": "ai",
+      "summary": "The United States and China have scheduled another meeting on AI safety in Shenzhen within two months. This meeting aims to address international concerns and collaborate on establishing safety standards for AI technologies, including autonomous vehicles.",
+      "abstract": "The United States and China have scheduled another meeting on AI safety in Shenzhen within two months. This meeting aims to address international concerns and collaborate on establishing safety standards for AI technologies, including autonomous vehicles.",
+      "score": 80
+    },
+    {
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "topic": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHdrYld6WDItWEtXWE80TmFEWU9Gc1QybU1DZ3dWaUx0aGVKT09sNE9ZR1dSQXlRa1p4SXlSQ3JFckFtb1NzTl9VcDVUYmlVRzJaTHBnal9yUFpnRm9jNXdJZGR3WDducGhNOGNlcGttZmlOaDZhNFFybkhyRHlNSzJoS1FDdVI2S1cwa1M5LXhYQ0lHUVZvZVpkYjBFOXdCUHloU2dFdlp3Q2laUm5nUXdwdWJjalFFcEtIZExR?oc=5",
+      "source": "techcrunch.com",
+      "published": "2026-09-17T07:00:00Z",
+      "category": "ai",
+      "summary": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing safer AI models. This collaboration aims to enhance the transparency and reliability of AI systems, which is crucial for the deployment of autonomous vehicles and other safety-critical applications.",
+      "abstract": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing safer AI models. This collaboration aims to enhance the transparency and reliability of AI systems, which is crucial for the deployment of autonomous vehicles and other safety-critical applications.",
+      "score": 75
     },
     {
       "title": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
@@ -30,63 +63,30 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-22T14:26:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's Full Self-Driving (FSD) system has encountered a bug that falsely flags cameras as dirty and demands unnecessary service. This issue can lead to user frustration and increased maintenance costs. The bug underscores the ongoing challenges in developing and deploying robust autonomous driving systems that can accurately interpret sensor data and environmental conditions.",
-      "abstract": "Tesla's Full Self-Driving (FSD) system has encountered a bug that falsely flags cameras as dirty and demands unnecessary service. This issue can lead to user frustration and increased maintenance costs. The bug underscores the ongoing challenges in developing and deploying robust autonomous driving systems that can accurately interpret sensor data and environmental conditions.",
-      "score": 80
-    },
-    {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "topic": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHdrYld6WDItWEtXWE80TmFEWU9Gc1QybU1DZ3dWaUx0aGVKT09sNE9ZR1dSQXlRa1p4SXlSQ3JFckFtb1NzTl9VcDVUYmlVRzJaTHBnal9yUFpnRm9jNXdJZGR3WDducGhNOGNlcGttZmlOaDZhNFFybkhyRHlNSzJoS1FDdVI2S1cwa1M5LXhYQ0lHUVZvZVpkYjBFOXdCUHloU2dFdlp3Q2laUm5nUXdwdWJjalFFcEtIZExR?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-09-17T17:15:59Z",
-      "category": "ai",
-      "summary": "Base Labs, an AI safety company, has launched a partnership with Hugging Face and Goodfire to develop open-weight AI safety solutions. The collaboration aims to enhance the transparency and reliability of AI models, particularly in critical applications like autonomous vehicles. This partnership addresses the growing need for robust safety measures in AI systems to ensure public trust and regulatory compliance.",
-      "abstract": "Base Labs, an AI safety company, has launched a partnership with Hugging Face and Goodfire to develop open-weight AI safety solutions. The collaboration aims to enhance the transparency and reliability of AI models, particularly in critical applications like autonomous vehicles. This partnership addresses the growing need for robust safety measures in AI systems to ensure public trust and regulatory compliance.",
-      "score": 75
+      "summary": "Tesla's Full Self-Driving (FSD) system has a bug that falsely flags cameras as dirty and demands service, causing inconvenience for users. This issue highlights the need for more robust and accurate sensor diagnostics in autonomous driving systems.",
+      "abstract": "Tesla's Full Self-Driving (FSD) system has a bug that falsely flags cameras as dirty and demands service, causing inconvenience for users. This issue highlights the need for more robust and accurate sensor diagnostics in autonomous driving systems.",
+      "score": 70
     },
     {
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
       "topic": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
-      "source": "TechCrunch",
+      "source": "techcrunch.com",
       "published": "2026-09-15T07:00:00Z",
       "category": "ai",
-      "summary": "Nvidia CEO Jensen Huang has stated that AI regulation is unnecessary and that safety should be left to industry leaders. Huang's stance emphasizes the company's commitment to self-regulation and rigorous testing of AI technologies, including those used in autonomous vehicles. This perspective highlights the ongoing debate between industry self-governance and government oversight in ensuring AI safety.",
-      "abstract": "Nvidia CEO Jensen Huang has stated that AI regulation is unnecessary and that safety should be left to industry leaders. Huang's stance emphasizes the company's commitment to self-regulation and rigorous testing of AI technologies, including those used in autonomous vehicles. This perspective highlights the ongoing debate between industry self-governance and government oversight in ensuring AI safety.",
-      "score": 70
-    },
-    {
-      "title": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
-      "topic": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZlc0aEIyZmgxVURSZXZnVWNic05GQW9SVmI1Y1JvbGVtYzR6RmFvMTFKUTBFNWNOaENqckFIdjY3NXh2dWNkZF9UUUY3VXpNbEVPYnZhZnk0N2kwWFNfWS1lNzlEdXNvTlkzRXFmM1dpTHMyOG9GTVdwZ3FkZGt1UXUwUklrWEtaeUdSdVR0WWxCTHdYNi00WFVKbmZRMWJXRFhDblNNM01HQXpGVHVrVFhUUlpHUDRiT1pVbHMyVlc?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-17T14:33:55Z",
-      "category": "ai",
-      "summary": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards in the development and deployment of AI technologies. The company's stance reflects a growing industry consensus on the importance of ensuring the safety and reliability of AI systems, particularly in applications like autonomous vehicles where safety is paramount.",
-      "abstract": "Amazon has entered the AI safety debate, calling for rigorous testing and safeguards in the development and deployment of AI technologies. The company's stance reflects a growing industry consensus on the importance of ensuring the safety and reliability of AI systems, particularly in applications like autonomous vehicles where safety is paramount.",
+      "summary": "Nvidia CEO Jensen Huang stated that AI regulation is unnecessary and that safety should be left to industry leaders. This stance could influence the regulatory landscape for autonomous vehicles, where safety and reliability are paramount.",
+      "abstract": "Nvidia CEO Jensen Huang stated that AI regulation is unnecessary and that safety should be left to industry leaders. This stance could influence the regulatory landscape for autonomous vehicles, where safety and reliability are paramount.",
       "score": 65
     },
     {
-      "title": "China targets mass deployment of self-driving vehicles by 2030",
-      "topic": "China targets mass deployment of self-driving vehicles by 2030",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHE2c1o4d3RHUGJFRXFuZldubXlNd3gtSnhMUGFFeTJVUVpBQTVuZnE3RHplaTVfZFNPSDhDc2pZZF9vQUFQdXdtTDFSZi14ZkxfanU1RW80WDBoOWZ0NGRramNxUzdLeWYwaWxwRWl2MFBVQVRaa3lkTkc0YU5FOGhuNU05a2YxNVc2a29STF9rb1JYdHYzQWJTY1RPckZiamhLcFB2ZldWVklXZzM0aFdsU2xWcl9GTzlWT3h5SnRyUGc?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-11T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "China has set a target for the mass deployment of self-driving vehicles by 2030, aiming to establish a robust autonomous vehicle ecosystem. This ambitious goal is part of the country's broader strategy to lead in advanced technologies and reduce traffic accidents and congestion. The initiative highlights the significant role of government policy in driving the adoption of autonomous driving technologies.",
-      "abstract": "China has set a target for the mass deployment of self-driving vehicles by 2030, aiming to establish a robust autonomous vehicle ecosystem. This ambitious goal is part of the country's broader strategy to lead in advanced technologies and reduce traffic accidents and congestion. The initiative highlights the significant role of government policy in driving the adoption of autonomous driving technologies.",
-      "score": 60
-    },
-    {
-      "title": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
-      "topic": "Enhancement of Large Language Models Driving Knowledge for Practical Autonomous Driving Decision Making",
-      "url": "http://ieeexplore.ieee.org/document/11478733",
-      "source": "IEEE Transactions on Vehicular Technology",
-      "published": "2026-04-10T13:16:09Z",
-      "category": "journal-rss",
-      "summary": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' performance in driving theory tests and decision-making in realistic scenarios, addressing critical safety concerns.",
-      "abstract": "IEEE Transactions on Vehicular Technology researchers propose a question-guided multimodal graph-based retrieval-augmented generation (QGM-GRAG) approach to enhance the theoretical driving knowledge of large language models (LLMs) for autonomous driving. The method aims to improve LLMs' performance in driving theory tests and decision-making in realistic scenarios, addressing critical safety concerns.",
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "The 2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC) presents a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios. Developed by researchers, VLSAN translates natural language instructions into vehicle motion control, leveraging a vision-language model (VLM) to generate semantically guided drivable region maps, achieving multimodal information fusion and semantic alignment.",
+      "abstract": "The 2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC) presents a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios. Developed by researchers, VLSAN translates natural language instructions into vehicle motion control, leveraging a vision-language model (VLM) to generate semantically guided drivable region maps, achieving multimodal information fusion and semantic alignment.",
       "score": 95
     },
     {
@@ -94,21 +94,21 @@ window.NEWS_FEED = {
       "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-24T11:50:25.563945Z",
+      "published": "2026-09-25T11:54:38.537466Z",
       "category": "journal-rss",
-      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies introduce a large language model (LLM) distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method aims to improve the robustness and safety of AVs in complex pedestrian environments by simulating challenging scenarios.",
-      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies introduce a large language model (LLM) distillation approach for adaptive stress testing of autonomous vehicle-pedestrian interactions. The method aims to improve the robustness and safety of AVs in complex pedestrian environments by simulating challenging scenarios.",
+      "summary": "Transportation Research Part C: Emerging Technologies, Volume 194, Part A, published in January 2027, features a paper by Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian. The paper introduces an adaptive stress testing approach for autonomous vehicle-pedestrian interactions using a large language model (LLM) distillation method, enhancing the robustness and safety of AV systems in complex urban environments.",
+      "abstract": "Transportation Research Part C: Emerging Technologies, Volume 194, Part A, published in January 2027, features a paper by Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian. The paper introduces an adaptive stress testing approach for autonomous vehicle-pedestrian interactions using a large language model (LLM) distillation method, enhancing the robustness and safety of AV systems in complex urban environments.",
       "score": 90
     },
     {
-      "title": "Mutual Distillation Attribute Fusion Network for Multimodal Vehicle Object Detection",
-      "topic": "Mutual Distillation Attribute Fusion Network for Multimodal Vehicle Object Detection",
-      "url": "http://ieeexplore.ieee.org/document/11458616",
-      "source": "IEEE Transactions on Vehicular Technology",
-      "published": "2026-03-31T13:16:19Z",
+      "title": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "topic": "Accurate and sample efficient driver takeover time prediction in autonomous driving with privacy preservation: A federated meta attentive interpretable tabular learning approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004420?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-09-25T11:54:38.538199Z",
       "category": "journal-rss",
-      "summary": "IEEE Transactions on Vehicular Technology researchers propose the Mutual Distillation Attribute Fusion Network (MDAFN) for multimodal vehicle object detection. The framework uses cross-modal mutual distillation to reduce noise interference and attribute decomposition to isolate diverse features, enhancing the adaptability of autonomous driving systems to complex real-world scenarios.",
-      "abstract": "IEEE Transactions on Vehicular Technology researchers propose the Mutual Distillation Attribute Fusion Network (MDAFN) for multimodal vehicle object detection. The framework uses cross-modal mutual distillation to reduce noise interference and attribute decomposition to isolate diverse features, enhancing the adaptability of autonomous driving systems to complex real-world scenarios.",
+      "summary": "Transportation Research Part C: Emerging Technologies, Volume 193, published in December 2026, includes a study by Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang. The paper presents a federated meta attentive interpretable tabular learning approach for accurate and sample-efficient driver takeover time prediction in autonomous driving, ensuring privacy preservation and improving the reliability of human-vehicle interaction.",
+      "abstract": "Transportation Research Part C: Emerging Technologies, Volume 193, published in December 2026, includes a study by Weida Yang, Zhizhou Wu, Yinhai Wang, and Yunyi Liang. The paper presents a federated meta attentive interpretable tabular learning approach for accurate and sample-efficient driver takeover time prediction in autonomous driving, ensuring privacy preservation and improving the reliability of human-vehicle interaction.",
       "score": 85
     }
   ]

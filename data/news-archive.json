@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-24T11:51:06.861456Z",
+  "updated_at": "2026-09-25T11:56:20.178153Z",
   "items": [
+    {
+      "title": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
+      "topic": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVNFdko3aEg5amFUWUpBT2M5a01DZXFvQTF5Q1JfalNYd2lQaW05T3JkQ3ZlUWR4Sm96cURIT2Y0SGZLeTB1RmN3WFJmVEVUTkFRNml6MTVDS0JaUlRvRjQ0X2RSV09zT2M1NGR2MHZfQzN0emlad083OTl4U2ppZ1U5Snh4b3NoT1ktZzNDTGpiX0I2NGNDNURqb1NQUEx3aFlob2VvZGJBSVZWWGN4Y0s1WElxcmI2bWJlUWNld2pEN2oyR1E?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-23T22:03:00Z",
+      "category": "automated-vehicles",
+      "summary": "A Belgian safety group found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the reliability and safety of the technology. This issue could lead to increased risks of traffic violations and accidents, highlighting the need for further testing and improvements.",
+      "abstract": "A Belgian safety group found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the reliability and safety of the technology. This issue could lead to increased risks of traffic violations and accidents, highlighting the need for further testing and improvements.",
+      "score": 90
+    },
     {
       "title": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
       "topic": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
