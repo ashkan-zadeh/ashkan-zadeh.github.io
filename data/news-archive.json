@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-09-25T11:56:20.178153Z",
+  "updated_at": "2026-09-26T11:29:50.535799Z",
   "items": [
+    {
+      "title": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
+      "topic": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001457526003908?dgcid=rss_sd_all",
+      "source": "Accident Analysis and Prevention",
+      "published": "2026-09-26T11:29:06.032345Z",
+      "category": "journal-rss",
+      "summary": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention developed a multimodal accident scenario database for end-to-end autonomous vehicle testing. Published in December 2026, the method integrates various sensor data to create realistic accident scenarios, improving the testing and validation of AV perception and decision-making systems.",
+      "abstract": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention developed a multimodal accident scenario database for end-to-end autonomous vehicle testing. Published in December 2026, the method integrates various sensor data to create realistic accident scenarios, improving the testing and validation of AV perception and decision-making systems.",
+      "score": 85
+    },
+    {
+      "title": "EU delays Tesla ‘Full Self-Driving’ vote to December at the earliest",
+      "topic": "EU delays Tesla ‘Full Self-Driving’ vote to December at the earliest",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbnUxaFlFM0NzQ0l1NUFJNnlEMkd3azd2QVpfbUUxTGUwZXUyOWVueXNWT196bnlUWW9tb0szTW9ucnR2V0xIdjVjSmhNSEx6MGI4d1I3bEdFbURKNmhKQ2t3UFhlWUMxY2pxYVM5TjlVSWNySlJmYkl6X0F5cDRMOHJmdw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-25T17:31:00Z",
+      "category": "automated-vehicles",
+      "summary": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
+      "abstract": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
+      "score": 80
+    },
+    {
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
+      "source": "NVIDIA Developer",
+      "published": "2026-09-23T22:55:39Z",
+      "category": "vlm",
+      "summary": "NVIDIA has introduced NV-Reason-CT, an open 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning, enhancing the explainability and accuracy of medical imaging AI.",
+      "abstract": "NVIDIA has introduced NV-Reason-CT, an open 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning, enhancing the explainability and accuracy of medical imaging AI.",
+      "score": 90
+    },
     {
       "title": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
       "topic": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
