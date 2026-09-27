@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-26T11:29:50.430575Z",
+  "generated_at": "2026-09-27T12:08:08.443339Z",
   "items": [
     {
       "title": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
@@ -8,8 +8,8 @@ window.NEWS_FEED = {
       "source": "reuters.com",
       "published": "2026-09-23T22:07:09Z",
       "category": "automated-vehicles",
-      "summary": "Belgian safety group identified frequent misreadings of speed limits by Tesla's supervised self-driving system, raising concerns about the system's reliability and safety in real-world conditions.",
-      "abstract": "Belgian safety group identified frequent misreadings of speed limits by Tesla's supervised self-driving system, raising concerns about the system's reliability and safety in real-world conditions.",
+      "summary": "Belgian safety group ADAC found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the system's reliability and safety. The findings highlight the ongoing challenges in ensuring the accuracy of autonomous driving systems, particularly in critical areas like speed limit recognition.",
+      "abstract": "Belgian safety group ADAC found that Tesla's supervised self-driving system frequently misreads speed limits, raising concerns about the system's reliability and safety. The findings highlight the ongoing challenges in ensuring the accuracy of autonomous driving systems, particularly in critical areas like speed limit recognition.",
       "score": 85
     },
     {
@@ -19,8 +19,8 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-25T17:31:00Z",
       "category": "automated-vehicles",
-      "summary": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
-      "abstract": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
+      "summary": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' (FSD) system to December at the earliest, indicating regulatory scrutiny and potential concerns over the technology's readiness. This delay underscores the cautious approach regulators are taking with advanced autonomous driving systems.",
+      "abstract": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' (FSD) system to December at the earliest, indicating regulatory scrutiny and potential concerns over the technology's readiness. This delay underscores the cautious approach regulators are taking with advanced autonomous driving systems.",
       "score": 80
     },
     {
@@ -30,8 +30,8 @@ window.NEWS_FEED = {
       "source": "Electrek",
       "published": "2026-09-22T14:26:00Z",
       "category": "automated-vehicles",
-      "summary": "Tesla's Full Self-Driving system has a bug that falsely flags cameras as dirty, leading to unnecessary service alerts and potentially affecting user trust in the system's accuracy.",
-      "abstract": "Tesla's Full Self-Driving system has a bug that falsely flags cameras as dirty, leading to unnecessary service alerts and potentially affecting user trust in the system's accuracy.",
+      "summary": "Tesla's Full Self-Driving (FSD) system has a bug that falsely flags cameras as dirty and demands service, causing unnecessary maintenance alerts. This issue highlights the need for more robust sensor management and error handling in autonomous vehicle systems.",
+      "abstract": "Tesla's Full Self-Driving (FSD) system has a bug that falsely flags cameras as dirty and demands service, causing unnecessary maintenance alerts. This issue highlights the need for more robust sensor management and error handling in autonomous vehicle systems.",
       "score": 75
     },
     {
@@ -41,31 +41,31 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-09-16T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Former Waymo CFO Gerri Martin-Flickinger has joined self-driving startup Wayve, bringing significant financial and operational expertise to the company's leadership team.",
-      "abstract": "Former Waymo CFO Gerri Martin-Flickinger has joined self-driving startup Wayve, bringing significant financial and operational expertise to the company's leadership team.",
+      "summary": "Former Waymo CFO Gerald Wilson has joined self-driving startup Wayve, bringing his financial expertise to the growing autonomous vehicle sector. This move underscores the importance of strong leadership and financial management in the development and commercialization of AV technologies.",
+      "abstract": "Former Waymo CFO Gerald Wilson has joined self-driving startup Wayve, bringing his financial expertise to the growing autonomous vehicle sector. This move underscores the importance of strong leadership and financial management in the development and commercialization of AV technologies.",
       "score": 70
     },
     {
-      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2026-09-23T22:55:39Z",
-      "category": "vlm",
-      "summary": "NVIDIA has introduced NV-Reason-CT, an open 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning, enhancing the explainability and accuracy of medical imaging AI.",
-      "abstract": "NVIDIA has introduced NV-Reason-CT, an open 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning, enhancing the explainability and accuracy of medical imaging AI.",
-      "score": 90
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "topic": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-09-15T07:00:00Z",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang argues against AI regulation, emphasizing that safety should be left to industry leaders. This stance reflects the ongoing debate between industry self-regulation and government oversight in ensuring the safe development and deployment of AI technologies, including autonomous vehicles.",
+      "abstract": "Nvidia CEO Jensen Huang argues against AI regulation, emphasizing that safety should be left to industry leaders. This stance reflects the ongoing debate between industry self-regulation and government oversight in ensuring the safe development and deployment of AI technologies, including autonomous vehicles.",
+      "score": 65
     },
     {
-      "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
-      "topic": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1ltbFppd1NjUUhaSTZ4TUs2bzFNY0lfaTd5bG5mVmw1X3NiV2lsWTNJQ0pyUWJ0SHhOZjBmd0x4b0pMOWlpSDd2VGEweDFTTnU4YW1QTFJhNG00ZXFUSHN1OENaeVFaWXZwbTlsTEI4RGphekZtRTIzclZ1ak5wcXhDU05TX1VHVFBJUnBUQVZmZjhjTHFqNXNqREhGajRFZ3lsaW5tWmxrSWNzNWNhR1ZVbkZ2S2ppRkFlWXlKOA?oc=5",
+      "title": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "topic": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDhlbkM4N1NRMjZYdkFnclBwZUlLTWFvelg4dUpkZzVkTnZ5TVJ6Yjl5NUlfQjMtTVdMOEc3ZUdzaHpLNjZrcUk0Y3JMNXdfVmh3VnZjdkN5cTJoZXJGNDJ6ZkoteGhiU3huNnVTa0p4VXpZcU9LVTRMLTVJREYyQ3VBTEtlYWVxLTgwNzdnSkFkcjZpaFZZZXBpclVpazhrbkJFdG1zTEVsaGZPLXV6d3NSdk03amxqRHNMTDdnUFQ?oc=5",
       "source": "reuters.com",
-      "published": "2026-09-18T07:00:00Z",
+      "published": "2026-09-21T03:32:02Z",
       "category": "ai",
-      "summary": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns, focusing on rigorous testing and validation of AI systems.",
-      "abstract": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns, focusing on rigorous testing and validation of AI systems.",
-      "score": 85
+      "summary": "US National Security Advisor Jake Sullivan proposed a framework for US-China AI safety notifications during talks with Chinese Vice Premier Liu He. This initiative aims to enhance transparency and cooperation in AI safety, which is crucial for the responsible development of autonomous systems globally.",
+      "abstract": "US National Security Advisor Jake Sullivan proposed a framework for US-China AI safety notifications during talks with Chinese Vice Premier Liu He. This initiative aims to enhance transparency and cooperation in AI safety, which is crucial for the responsible development of autonomous systems globally.",
+      "score": 60
     },
     {
       "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
@@ -74,19 +74,19 @@ window.NEWS_FEED = {
       "source": "TechCrunch",
       "published": "2026-09-17T07:00:00Z",
       "category": "ai",
-      "summary": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, aiming to develop more transparent and accountable AI safety practices.",
-      "abstract": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, aiming to develop more transparent and accountable AI safety practices.",
-      "score": 80
+      "summary": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing robust safety measures for AI models. This collaboration aims to address the growing concerns around AI safety and reliability, which are essential for the advancement of autonomous driving technologies.",
+      "abstract": "Base Labs has launched an open-weight AI safety partnership with Hugging Face and Goodfire, focusing on developing robust safety measures for AI models. This collaboration aims to address the growing concerns around AI safety and reliability, which are essential for the advancement of autonomous driving technologies.",
+      "score": 55
     },
     {
       "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-26T11:29:03.869933Z",
+      "published": "2026-09-27T12:07:01.622274Z",
       "category": "journal-rss",
-      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. The study, published in January 2027, demonstrates how LLMs can enhance the robustness of AV systems by simulating complex pedestrian behaviors, contributing to safer and more reliable autonomous driving.",
-      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies used a large language model (LLM) to distill and adaptively test autonomous vehicle-pedestrian interactions. The study, published in January 2027, demonstrates how LLMs can enhance the robustness of AV systems by simulating complex pedestrian behaviors, contributing to safer and more reliable autonomous driving.",
+      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies developed an adaptive stress testing method for autonomous vehicle-pedestrian interactions using large language model (LLM) distillation. The approach enhances the testing of AVs by simulating complex pedestrian behaviors, improving the robustness and safety of AV systems.",
+      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies developed an adaptive stress testing method for autonomous vehicle-pedestrian interactions using large language model (LLM) distillation. The approach enhances the testing of AVs by simulating complex pedestrian behaviors, improving the robustness and safety of AV systems.",
       "score": 95
     },
     {
@@ -94,22 +94,22 @@ window.NEWS_FEED = {
       "topic": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
       "url": "https://www.sciencedirect.com/science/article/pii/S1369847826002500?dgcid=rss_sd_all",
       "source": "Transportation Research Part F: Traffic Psychology and Behaviour",
-      "published": "2026-09-26T11:29:04.405178Z",
+      "published": "2026-09-27T12:07:02.181434Z",
       "category": "journal-rss",
-      "summary": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory signals, influence drivers' pre-takeover readiness in automated driving. The study, published in August 2026, found that olfactory cues can significantly improve drivers' readiness to take control, enhancing the safety and trust in AV systems.",
-      "abstract": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory signals, influence drivers' pre-takeover readiness in automated driving. The study, published in August 2026, found that olfactory cues can significantly improve drivers' readiness to take control, enhancing the safety and trust in AV systems.",
-      "score": 88
+      "summary": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory stimuli, affect drivers' pre-takeover readiness in automated driving. The study found that positive emotional cues can significantly improve drivers' readiness to take control, enhancing the safety and trust in AVs.",
+      "abstract": "Yinjie Lv, Chunhui Jing, Guanyu Lei, and Teng Zhao from Transportation Research Part F: Traffic Psychology and Behaviour investigated how emotional cues, particularly olfactory stimuli, affect drivers' pre-takeover readiness in automated driving. The study found that positive emotional cues can significantly improve drivers' readiness to take control, enhancing the safety and trust in AVs.",
+      "score": 85
     },
     {
       "title": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
       "topic": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
       "url": "https://www.sciencedirect.com/science/article/pii/S0001457526003908?dgcid=rss_sd_all",
       "source": "Accident Analysis and Prevention",
-      "published": "2026-09-26T11:29:06.032345Z",
+      "published": "2026-09-27T12:07:03.908656Z",
       "category": "journal-rss",
-      "summary": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention developed a multimodal accident scenario database for end-to-end autonomous vehicle testing. Published in December 2026, the method integrates various sensor data to create realistic accident scenarios, improving the testing and validation of AV perception and decision-making systems.",
-      "abstract": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention developed a multimodal accident scenario database for end-to-end autonomous vehicle testing. Published in December 2026, the method integrates various sensor data to create realistic accident scenarios, improving the testing and validation of AV perception and decision-making systems.",
-      "score": 85
+      "summary": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention proposed a method for constructing a multimodal accident scenario database for end-to-end autonomous vehicle testing. The database includes various sensor data and accident scenarios, providing a comprehensive resource for testing and improving AV safety and reliability.",
+      "abstract": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from Accident Analysis & Prevention proposed a method for constructing a multimodal accident scenario database for end-to-end autonomous vehicle testing. The database includes various sensor data and accident scenarios, providing a comprehensive resource for testing and improving AV safety and reliability.",
+      "score": 80
     }
   ]
 };
