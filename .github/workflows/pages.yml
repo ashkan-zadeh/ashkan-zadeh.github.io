@@ -1,4 +1,4 @@
-name: Deploy static site to GitHub Pages
+name: Build and deploy Gatsby site to GitHub Pages
 
 on:
   push:
@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  NODE_OPTIONS: --openssl-legacy-provider
 
 jobs:
   deploy:
@@ -26,12 +26,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+      - name: Build Gatsby site
+        run: npm run build
+      - name: Copy static legacy assets
+        run: |
+          cp -R asset public/asset
+          cp -R data public/data
+          cp -R css public/css
+          cp -R js public/js
+          cp CNAME public/CNAME
+          cp .nojekyll public/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "public"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

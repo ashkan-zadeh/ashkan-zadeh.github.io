@@ -1,0 +1,39 @@
+- profile:
+  initials: AZ
+  name: Ashkan Y. Zadeh
+  profession: PhD Researcher | Applied AI
+  image: images/profile-ashkan.jpeg
+  location: Brisbane, Australia
+  relocation: false
+  company: Queensland University of Technology
+  for_hire: false
+  focus: Human-centred explainable AI for automated vehicles
+  focus_url: https://avr3.org.au/
+  about: |
+    Applied AI researcher building and evaluating Human-Centred and eXplainable AI solutions, currently focused on their applications for autonomous driving. Curiosity leads me, challenge shapes me, and impact drives me. Hi, I am Ashkan.
+
+    I am a PhD Candidate in Computer Science at Queensland University of Technology, affiliated with the ARC Training Centre for Automated Vehicles in Rural and Remote Regions (AVR3). My thesis develops AI models for generating human-centric natural language explanations for automated vehicles.
+
+    My work connects Human-Centred Artificial Intelligence, Explainable AI, Natural Language Processing, multimodal systems, computer vision, and autonomous driving to improve transparency and trust in safety-critical systems.
+  skills:
+    - Machine Learning
+    - Deep Learning
+    - Vision Language Models
+    - NLP
+    - Human Factors
+    - AI and Autonomous Vehicles
+  tools:
+    - Python
+    - PyTorch
+    - MongoDB
+    - ROS2
+    - PostgreSQL
+    - spaCy
+    - Redis
+    - Elasticsearch
+    - Docker
+  budget:
+    currency: ""
+    min: 0
+    max: 0
+    default: 0

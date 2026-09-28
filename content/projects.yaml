@@ -1,0 +1,66 @@
+- name: NARRATE
+  url: /projects/narrate/
+  description: A multimodal real-world Australian driving dataset for human-centred explanations in automated driving, with 2,050 annotated events from 35 drivers using cameras, LiDAR, and natural language explanations.
+  status: live
+  tags:
+    - ECCV 2026
+    - DriveX Workshop
+    - Multimodal Dataset
+    - Automated Driving
+  icon: website
+  image: images/narrate.png
+
+- name: X-Blocks
+  url: /projects/#x-blocks
+  description: Linguistic building blocks of natural language explanations for automated vehicles.
+  status: in progress
+  tags:
+    - XAI
+    - NLP
+    - Automated Vehicles
+  icon: website
+  image: images/xblocks.png
+
+- name: PsyLingXAV
+  url: /projects/#psylingxav
+  description: A psycholinguistics design framework for explainable AI in automated vehicles.
+  status: live
+  tags:
+    - XAI Conference
+    - Psycholinguistics
+    - Human-Centred AI
+  icon: website
+  image: images/psylingxav.png
+
+- name: Explainability in Automated Driving
+  url: /projects/#explainability-in-automated-driving
+  description: Research connecting spatial attention, automated driving evidence, and human-centred reasoning.
+  status: live
+  tags:
+    - AHFE IHIET
+    - Explainability
+    - Safety-Critical AI
+  icon: website
+  image: images/xai-av.png
+
+- name: Eco and Safe Driving Control
+  url: /projects/#eco-and-safe-driving-control
+  description: Integrated intelligent control systems for eco and safe driving in autonomous vehicles.
+  status: live
+  tags:
+    - IEEE T-ITS
+    - Autonomous Vehicles
+    - Control Systems
+  icon: website
+  image: images/ieee-tits.png
+
+- name: Fuzzy Adaptive Cruise Control
+  url: /projects/#fuzzy-adaptive-cruise-control
+  description: Fuzzy adaptive cruise control with model predictive control for automated driving.
+  status: live
+  tags:
+    - EAAI
+    - Fuzzy Logic
+    - Model Predictive Control
+  icon: website
+  image: images/fuzzy-acc.png
