@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-27T12:08:08.547008Z",
+  "updated_at": "2026-09-28T14:02:02.485418Z",
   "items": [
+    {
+      "title": "Nvidia releases AI safety software it says could have stopped Hugging Face hack",
+      "topic": "Nvidia releases AI safety software it says could have stopped Hugging Face hack",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSVREakRaN2V6OWo0bzNFcVBHb1VZMzRVS29mcWF4XzZwSmdxLVRublBqSTE5ZlNBaHBKb0lTU1o2SWV0V0t1U3M3TVl1ZnlJWGVJRGxKclM5RkphYzhzU3FlNkZHNDk3TUZhdW54dGtydmR3MFR2ZFVZdWItaVpsNjZYX2hIbjVHcTM0ZTVqLVd6UHV2OGY4eFM4ZW1va1pCSF90VzlZd3BSUjVkY1RJRzV2ZGFEUnlnbDY1d0ZjOFZoYXBVRU5YZEM0Zmk?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-28T09:56:29Z",
+      "category": "ai",
+      "summary": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack, highlighting the company's focus on enhancing AI security measures.",
+      "abstract": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack, highlighting the company's focus on enhancing AI security measures.",
+      "score": 75
+    },
+    {
+      "title": "Mazda adds LiDAR to CX-6e, rolls out \"self driving\" tech in China",
+      "topic": "Mazda adds LiDAR to CX-6e, rolls out \"self driving\" tech in China",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbHBxN0EwQ0JWMEVsSVdhLXRyZXBYc21LdU5CelN4MEVYalR1dmF3YlZXMlh1UlhZd2VlWWtKYkxWUFdYbDN6clVLTHUxYXdnNXJLZnRMTVJNVC16YjVja0dxbEM0bmlyODlydlVKQW84LUVDZExFbV9NVk5tOUdqbk5Hd0t3NzNRaXQ3OW1lelhWa0NidFlWd0Jn?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-27T16:40:00Z",
+      "category": "automated-vehicles",
+      "summary": "Mazda has integrated LiDAR technology into its CX-6e model and is rolling out advanced 'self-driving' features in China, expanding its autonomous driving capabilities in a key market.",
+      "abstract": "Mazda has integrated LiDAR technology into its CX-6e model and is rolling out advanced 'self-driving' features in China, expanding its autonomous driving capabilities in a key market.",
+      "score": 70
+    },
     {
       "title": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
       "topic": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
@@ -99,6 +121,17 @@
       "summary": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
       "abstract": "Anthropic and Accenture are investing $2 billion in AI model evaluation to address rising safety concerns. This significant investment aims to enhance the reliability and safety of AI systems, particularly in critical applications like autonomous driving.",
       "score": 80
+    },
+    {
+      "title": "XPeng shops its self-driving tech to automakers — Tesla found no takers",
+      "topic": "XPeng shops its self-driving tech to automakers — Tesla found no takers",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVnJZRUNVQlV2bF9fUjQxcHBIMGtLQkxCZDZFbnVCSk9LTWxDNkVJbzhYZHNkWlh0aEtfemVJdVpOZzRKUHFFaXJGQ3ZwWWxJVWVpSnBaSnhTbkVSd2FXMWd1c2lpR0dDbndSVXdURjZDMm9xdC1hN3dxbkUyOHlPUngzNUJFMmJGSXBFcw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-18T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "XPeng is actively marketing its self-driving technology to other automakers, but Tesla has not found any takers for its own self-driving solutions, indicating a competitive landscape in AV technology.",
+      "abstract": "XPeng is actively marketing its self-driving technology to other automakers, but Tesla has not found any takers for its own self-driving solutions, indicating a competitive landscape in AV technology.",
+      "score": 65
     },
     {
       "title": "Waymo says Singapore will be its next international robotaxi city",
@@ -968,6 +1001,17 @@
       "summary": "Tesla's robotaxis in Austin, Texas, appear to be operating fully unsupervised ahead of the Cybercab launch. This development suggests that Tesla's Full Self-Driving (FSD) technology is progressing towards commercial readiness, with vehicles navigating urban environments without human intervention.",
       "abstract": "Tesla's robotaxis in Austin, Texas, appear to be operating fully unsupervised ahead of the Cybercab launch. This development suggests that Tesla's Full Self-Driving (FSD) technology is progressing towards commercial readiness, with vehicles navigating urban environments without human intervention.",
       "score": 92
+    },
+    {
+      "title": "What If I Cannot Always See: Misdetection-Aware MPC for Autonomous Vehicles",
+      "topic": "What If I Cannot Always See: Misdetection-Aware MPC for Autonomous Vehicles",
+      "url": "http://ieeexplore.ieee.org/document/11660858",
+      "source": "IEEE Open Journal of Intelligent Transportation Systems",
+      "published": "2026-08-20T13:16:08Z",
+      "category": "journal-rss",
+      "summary": "IEEE Open Journal of Intelligent Transportation Systems (2026) investigates misdetection-aware model predictive control (MPC) for autonomous vehicles. The paper identifies a critical detection-rate threshold below which collision risk increases sharply, particularly for conventional controllers. This research highlights the importance of addressing intermittent perception errors to ensure AV safety.",
+      "abstract": "IEEE Open Journal of Intelligent Transportation Systems (2026) investigates misdetection-aware model predictive control (MPC) for autonomous vehicles. The paper identifies a critical detection-rate threshold below which collision risk increases sharply, particularly for conventional controllers. This research highlights the importance of addressing intermittent perception errors to ensure AV safety.",
+      "score": 85
     },
     {
       "title": "Waymo’s New Robotaxi Minivans Are Now Taking Paying Passengers",
