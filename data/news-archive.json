@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-29T12:58:27.519906Z",
+  "updated_at": "2026-09-30T12:40:30.254348Z",
   "items": [
+    {
+      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "topic": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
+      "source": "The Guardian",
+      "published": "2026-09-30T01:53:00Z",
+      "category": "ai",
+      "summary": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
+      "abstract": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
+      "score": 75
+    },
+    {
+      "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+      "topic": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.37871v1",
+      "source": "arXiv",
+      "published": "2026-09-29T15:48:16Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers from an unspecified institution proposed ExceptionDrive, a counterfactual planning benchmark for autonomous driving. ExceptionDrive uses VLM-assisted screening and multi-view editing to insert safety-critical hazards into real-world driving scenarios. The benchmark evaluates planner reliability under rare, high-risk conditions, providing a comprehensive assessment of AV planning capabilities.",
+      "abstract": "Researchers from an unspecified institution proposed ExceptionDrive, a counterfactual planning benchmark for autonomous driving. ExceptionDrive uses VLM-assisted screening and multi-view editing to insert safety-critical hazards into real-world driving scenarios. The benchmark evaluates planner reliability under rare, high-risk conditions, providing a comprehensive assessment of AV planning capabilities.",
+      "score": 85
+    },
     {
       "title": "Tesla receives approval to roll out self-driving software in Croatia",
       "topic": "Tesla receives approval to roll out self-driving software in Croatia",
@@ -11,6 +33,17 @@
       "summary": "Tesla has received approval to roll out its self-driving software in Croatia, expanding its autonomous driving capabilities to a new European market. This deployment marks a significant step in Tesla's global expansion of its Full Self-Driving (FSD) system, which aims to enhance the safety and efficiency of autonomous vehicles.",
       "abstract": "Tesla has received approval to roll out its self-driving software in Croatia, expanding its autonomous driving capabilities to a new European market. This deployment marks a significant step in Tesla's global expansion of its Full Self-Driving (FSD) system, which aims to enhance the safety and efficiency of autonomous vehicles.",
       "score": 85
+    },
+    {
+      "title": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+      "topic": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.37046v1",
+      "source": "arXiv",
+      "published": "2026-09-29T08:54:45Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A study by researchers at an unspecified institution evaluated the velocity understanding capabilities of Vision-Language Models (VLMs) in autonomous driving systems. The study, conducted on the nuScenes dataset, assessed three tasks: surrounding-agent speed, current ego speed, and short-horizon future ego-speed. The findings highlight distinct failure modes and the need for improved dynamic perception in VLMs, crucial for safe and reliable AV operation.",
+      "abstract": "A study by researchers at an unspecified institution evaluated the velocity understanding capabilities of Vision-Language Models (VLMs) in autonomous driving systems. The study, conducted on the nuScenes dataset, assessed three tasks: surrounding-agent speed, current ego speed, and short-horizon future ego-speed. The findings highlight distinct failure modes and the need for improved dynamic perception in VLMs, crucial for safe and reliable AV operation.",
+      "score": 90
     },
     {
       "title": "OpenAI shelves new AI model release over safety concerns",

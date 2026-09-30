@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-09-29T12:58:27.412526Z",
+  "generated_at": "2026-09-30T12:40:30.168986Z",
   "items": [
     {
       "title": "Tesla receives approval to roll out self-driving software in Croatia",
@@ -8,42 +8,20 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-29T09:16:08Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has received approval to roll out its self-driving software in Croatia, expanding its autonomous driving capabilities to a new European market. This deployment marks a significant step in Tesla's global expansion of its Full Self-Driving (FSD) system, which aims to enhance the safety and efficiency of autonomous vehicles.",
-      "abstract": "Tesla has received approval to roll out its self-driving software in Croatia, expanding its autonomous driving capabilities to a new European market. This deployment marks a significant step in Tesla's global expansion of its Full Self-Driving (FSD) system, which aims to enhance the safety and efficiency of autonomous vehicles.",
+      "summary": "Tesla has received regulatory approval to deploy its self-driving software in Croatia, expanding the geographic reach of its Full Self-Driving (FSD) system. This deployment marks a significant step in Tesla's global rollout strategy, potentially accelerating the adoption of autonomous driving technology in European markets.",
+      "abstract": "Tesla has received regulatory approval to deploy its self-driving software in Croatia, expanding the geographic reach of its Full Self-Driving (FSD) system. This deployment marks a significant step in Tesla's global rollout strategy, potentially accelerating the adoption of autonomous driving technology in European markets.",
+      "score": 90
+    },
+    {
+      "title": "EU delays Tesla ‘Full Self-Driving’ vote to December at the earliest",
+      "topic": "EU delays Tesla ‘Full Self-Driving’ vote to December at the earliest",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbnUxaFlFM0NzQ0l1NUFJNnlEMkd3azd2QVpfbUUxTGUwZXUyOWVueXNWT196bnlUWW9tb0szTW9ucnR2V0xIdjVjSmhNSEx6MGI4d1I3bEdFbURKNmhKQ2t3UFhlWUMxY2pxYVM5TjlVSWNySlJmYkl6X0F5cDRMOHJmdw?oc=5",
+      "source": "Electrek",
+      "published": "2026-09-25T17:31:00Z",
+      "category": "automated-vehicles",
+      "summary": "The European Union has delayed the vote on Tesla's supervised self-driving system, Full Self-Driving (FSD), to December at the earliest. This delay reflects ongoing regulatory scrutiny and the need for thorough safety evaluations, which are crucial for the responsible deployment of autonomous vehicle technology.",
+      "abstract": "The European Union has delayed the vote on Tesla's supervised self-driving system, Full Self-Driving (FSD), to December at the earliest. This delay reflects ongoing regulatory scrutiny and the need for thorough safety evaluations, which are crucial for the responsible deployment of autonomous vehicle technology.",
       "score": 85
-    },
-    {
-      "title": "Waymo is scaling fast: Here’s what the fleet data shows",
-      "topic": "Waymo is scaling fast: Here’s what the fleet data shows",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaHl5bFBSbVlXWmNuN292ZU9UQUZCblZQTXVucHhuekZ5V1I2WS02V0RLbGo5cW1BWHQyZW16MXRUWnBWMVhaaTc5X0Z6MzZxS1Vwc1lIODhVa0lCaXpzMTY3SzUzcHY4cll6bXRRemI3Z09QRzFwTnhVYnRFSWdGTld5V0t0ZXdBOFRzRjJWbmNZZw?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-09-24T23:24:33Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo's fleet data indicates rapid scaling of its autonomous vehicle operations, with significant increases in the number of vehicles and miles driven. This expansion underscores Waymo's commitment to deploying a robust and reliable robotaxi service, contributing to the advancement of autonomous driving technology.",
-      "abstract": "Waymo's fleet data indicates rapid scaling of its autonomous vehicle operations, with significant increases in the number of vehicles and miles driven. This expansion underscores Waymo's commitment to deploying a robust and reliable robotaxi service, contributing to the advancement of autonomous driving technology.",
-      "score": 80
-    },
-    {
-      "title": "Waymo says Singapore will be its next international robotaxi city",
-      "topic": "Waymo says Singapore will be its next international robotaxi city",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR0VnQmxibk5TczB1cWx6ZUR4VExNWjlwZXo3SzgzZTRjdlg1XzRtZk0wSWtqVFBaVGswRks5OXFKYi1YMGhCUTc3LWhjOWFQZ1FfSzJmS1R6bXFuX3JFSWd4R01ybjVXWWN0T0tMblNDNGdiNGVWNVl5UnFWQmxhTWF0cGZhWVJzZmxN?oc=5",
-      "source": "The Verge",
-      "published": "2026-09-17T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Waymo has announced that Singapore will be its next international city for robotaxi operations, following successful deployments in other regions. This move highlights Waymo's strategic expansion into key global markets, aiming to provide reliable and safe autonomous transportation services.",
-      "abstract": "Waymo has announced that Singapore will be its next international city for robotaxi operations, following successful deployments in other regions. This move highlights Waymo's strategic expansion into key global markets, aiming to provide reliable and safe autonomous transportation services.",
-      "score": 82
-    },
-    {
-      "title": "OpenAI shelves new AI model release over safety concerns",
-      "topic": "OpenAI shelves new AI model release over safety concerns",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-28T22:34:00Z",
-      "category": "ai",
-      "summary": "OpenAI has shelved the release of a new AI model due to safety concerns, emphasizing the company's commitment to responsible AI development. This decision reflects the growing importance of safety and ethical considerations in the deployment of advanced AI systems, particularly in autonomous vehicles.",
-      "abstract": "OpenAI has shelved the release of a new AI model due to safety concerns, emphasizing the company's commitment to responsible AI development. This decision reflects the growing importance of safety and ethical considerations in the deployment of advanced AI systems, particularly in autonomous vehicles.",
-      "score": 75
     },
     {
       "title": "Nvidia releases AI safety software it says could have stopped Hugging Face hack",
@@ -52,9 +30,20 @@ window.NEWS_FEED = {
       "source": "Reuters",
       "published": "2026-09-28T14:46:16Z",
       "category": "ai",
-      "summary": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack. This software aims to enhance the security and reliability of AI systems, which is crucial for the safe operation of autonomous vehicles and other critical applications.",
-      "abstract": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack. This software aims to enhance the security and reliability of AI systems, which is crucial for the safe operation of autonomous vehicles and other critical applications.",
-      "score": 78
+      "summary": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack. The software, which includes advanced threat detection and mitigation features, aims to enhance the security of AI systems and protect against malicious attacks.",
+      "abstract": "Nvidia has released new AI safety software designed to prevent security breaches like the recent Hugging Face hack. The software, which includes advanced threat detection and mitigation features, aims to enhance the security of AI systems and protect against malicious attacks.",
+      "score": 80
+    },
+    {
+      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "topic": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
+      "source": "The Guardian",
+      "published": "2026-09-30T01:53:00Z",
+      "category": "ai",
+      "summary": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
+      "abstract": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
+      "score": 75
     },
     {
       "title": "Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it’s controlled",
@@ -63,52 +52,63 @@ window.NEWS_FEED = {
       "source": "AP News",
       "published": "2026-09-27T23:51:00Z",
       "category": "ai",
-      "summary": "Anthropic and OpenAI are advocating for stronger AI safety measures and seeking to influence regulatory frameworks. Their efforts highlight the need for robust safety protocols in AI development, especially in areas like autonomous driving where safety is paramount.",
-      "abstract": "Anthropic and OpenAI are advocating for stronger AI safety measures and seeking to influence regulatory frameworks. Their efforts highlight the need for robust safety protocols in AI development, especially in areas like autonomous driving where safety is paramount.",
-      "score": 76
+      "summary": "Anthropic and OpenAI have jointly called for increased regulation and oversight of AI safety, emphasizing the need for a coordinated approach to managing the risks associated with advanced AI systems. Both companies are advocating for policies that ensure the responsible development and deployment of AI technologies.",
+      "abstract": "Anthropic and OpenAI have jointly called for increased regulation and oversight of AI safety, emphasizing the need for a coordinated approach to managing the risks associated with advanced AI systems. Both companies are advocating for policies that ensure the responsible development and deployment of AI technologies.",
+      "score": 70
     },
     {
-      "title": "China and US agree to establish AI safety channel and continue trade and military talks",
-      "topic": "China and US agree to establish AI safety channel and continue trade and military talks",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
-      "source": "AP News",
-      "published": "2026-09-26T17:42:00Z",
+      "title": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "topic": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDhlbkM4N1NRMjZYdkFnclBwZUlLTWFvelg4dUpkZzVkTnZ5TVJ6Yjl5NUlfQjMtTVdMOEc3ZUdzaHpLNjZrcUk0Y3JMNXdfVmh3VnZjdkN5cTJoZXJGNDJ6ZkoteGhiU3huNnVTa0p4VXpZcU9LVTRMLTVJREYyQ3VBTEtlYWVxLTgwNzdnSkFkcjZpaFZZZXBpclVpazhrbkJFdG1zTEVsaGZPLXV6d3NSdk03amxqRHNMTDdnUFQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-21T07:00:00Z",
       "category": "ai",
-      "summary": "China and the United States have agreed to establish a dedicated AI safety channel to facilitate cooperation and dialogue on AI safety issues. This agreement underscores the global importance of ensuring the safe and ethical development of AI technologies, including those used in autonomous vehicles.",
-      "abstract": "China and the United States have agreed to establish a dedicated AI safety channel to facilitate cooperation and dialogue on AI safety issues. This agreement underscores the global importance of ensuring the safe and ethical development of AI technologies, including those used in autonomous vehicles.",
-      "score": 77
+      "summary": "US AI safety expert Bessent proposed a framework for US-China AI safety notifications during talks with a Chinese vice premier. The proposal aims to establish a bilateral notification system to enhance transparency and cooperation in managing AI safety risks between the two countries.",
+      "abstract": "US AI safety expert Bessent proposed a framework for US-China AI safety notifications during talks with a Chinese vice premier. The proposal aims to establish a bilateral notification system to enhance transparency and cooperation in managing AI safety risks between the two countries.",
+      "score": 65
     },
     {
-      "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
-      "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
-      "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-09-29T12:57:40.140081Z",
-      "category": "journal-rss",
-      "summary": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies propose an adaptive stress testing approach for autonomous vehicle-pedestrian interactions using large language model (LLM) distillation. The method aims to enhance the safety and reliability of AVs by simulating and testing various pedestrian interaction scenarios, which is crucial for improving the robustness of autonomous driving systems.",
-      "abstract": "Xiao Wen, Wentao Huang, Zhiyong Cui, and Sisi Jian from Transportation Research Part C: Emerging Technologies propose an adaptive stress testing approach for autonomous vehicle-pedestrian interactions using large language model (LLM) distillation. The method aims to enhance the safety and reliability of AVs by simulating and testing various pedestrian interaction scenarios, which is crucial for improving the robustness of autonomous driving systems.",
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
+      "source": "NVIDIA Developer",
+      "published": "2026-09-23T22:55:39Z",
+      "category": "vlm",
+      "summary": "NVIDIA has introduced NV-Reason-CT, an open-source 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning. This model leverages advanced AI techniques to improve the accuracy and efficiency of medical imaging analysis, potentially enhancing the diagnostic capabilities of healthcare professionals.",
+      "abstract": "NVIDIA has introduced NV-Reason-CT, an open-source 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning. This model leverages advanced AI techniques to improve the accuracy and efficiency of medical imaging analysis, potentially enhancing the diagnostic capabilities of healthcare professionals.",
+      "score": 60
+    },
+    {
+      "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+      "topic": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2609.16909v1",
+      "source": "arXiv",
+      "published": "2026-09-15T09:40:37Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Researchers from an unspecified institution introduced PiPS, a post-hoc prototypical explanation method for interpretable semantic segmentation in autonomous vehicles. PiPS leverages prototype-based reasoning to enhance the interpretability of dense predictions, addressing a critical gap in the field. The method uses visual similarity to explain model decisions, which is essential for building trust in AV decision-making systems.",
+      "abstract": "Researchers from an unspecified institution introduced PiPS, a post-hoc prototypical explanation method for interpretable semantic segmentation in autonomous vehicles. PiPS leverages prototype-based reasoning to enhance the interpretability of dense predictions, addressing a critical gap in the field. The method uses visual similarity to explain model decisions, which is essential for building trust in AV decision-making systems.",
       "score": 95
     },
     {
-      "title": "Beyond Retrieval Relevance: Scene-Grounded Risk Entailment for Vision-Language Driving",
-      "topic": "Beyond Retrieval Relevance: Scene-Grounded Risk Entailment for Vision-Language Driving",
-      "url": "https://arxiv.org/abs/2609.34145v1",
+      "title": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+      "topic": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.37046v1",
       "source": "arXiv",
-      "published": "2026-09-28T02:26:15Z",
+      "published": "2026-09-29T08:54:45Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from arXiv introduce a method for constructing a multimodal accident scenario database for end-to-end autonomous vehicle testing. The database integrates various sensor data to create realistic and diverse driving scenarios, which is essential for comprehensive testing and validation of autonomous driving systems.",
-      "abstract": "Jian Zhao, Wenxu Li, Bing Zhu, Peixing Zhang, Shizheng Jia, and Yinzi Huang from arXiv introduce a method for constructing a multimodal accident scenario database for end-to-end autonomous vehicle testing. The database integrates various sensor data to create realistic and diverse driving scenarios, which is essential for comprehensive testing and validation of autonomous driving systems.",
+      "summary": "A study by researchers at an unspecified institution evaluated the velocity understanding capabilities of Vision-Language Models (VLMs) in autonomous driving systems. The study, conducted on the nuScenes dataset, assessed three tasks: surrounding-agent speed, current ego speed, and short-horizon future ego-speed. The findings highlight distinct failure modes and the need for improved dynamic perception in VLMs, crucial for safe and reliable AV operation.",
+      "abstract": "A study by researchers at an unspecified institution evaluated the velocity understanding capabilities of Vision-Language Models (VLMs) in autonomous driving systems. The study, conducted on the nuScenes dataset, assessed three tasks: surrounding-agent speed, current ego speed, and short-horizon future ego-speed. The findings highlight distinct failure modes and the need for improved dynamic perception in VLMs, crucial for safe and reliable AV operation.",
       "score": 90
     },
     {
-      "title": "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
-      "topic": "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
-      "url": "https://arxiv.org/abs/2609.10377v2",
+      "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+      "topic": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.37871v1",
       "source": "arXiv",
-      "published": "2026-09-09T16:05:17Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Zhiyong Cui, Xiao Wen, Wentao Huang, and Sisi Jian from arXiv present DRiF, a data-driven risk-field framework for safer end-to-end autonomous driving. DRiF learns a shared bird's-eye view (BEV) feature with static map segmentation, dynamic risk prediction, and vehicle planning, addressing the limitations of rule-based risk models and enhancing the safety of autonomous driving systems.",
-      "abstract": "Zhiyong Cui, Xiao Wen, Wentao Huang, and Sisi Jian from arXiv present DRiF, a data-driven risk-field framework for safer end-to-end autonomous driving. DRiF learns a shared bird's-eye view (BEV) feature with static map segmentation, dynamic risk prediction, and vehicle planning, addressing the limitations of rule-based risk models and enhancing the safety of autonomous driving systems.",
+      "published": "2026-09-29T15:48:16Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers from an unspecified institution proposed ExceptionDrive, a counterfactual planning benchmark for autonomous driving. ExceptionDrive uses VLM-assisted screening and multi-view editing to insert safety-critical hazards into real-world driving scenarios. The benchmark evaluates planner reliability under rare, high-risk conditions, providing a comprehensive assessment of AV planning capabilities.",
+      "abstract": "Researchers from an unspecified institution proposed ExceptionDrive, a counterfactual planning benchmark for autonomous driving. ExceptionDrive uses VLM-assisted screening and multi-view editing to insert safety-critical hazards into real-world driving scenarios. The benchmark evaluates planner reliability under rare, high-risk conditions, providing a comprehensive assessment of AV planning capabilities.",
       "score": 85
     }
   ]
