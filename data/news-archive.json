@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-30T12:40:30.254348Z",
+  "updated_at": "2026-10-01T05:35:59.049140Z",
   "items": [
+    {
+      "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
+      "topic": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.39995v1",
+      "source": "arXiv",
+      "published": "2026-09-30T15:46:21Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers propose Rule-Aligned Diffusion Planning, a method that integrates driving rules into the trajectory generation process of diffusion planners. This approach ensures that trajectories are not only statistically sound but also rule-compliant, enhancing safety and interpretability. The method addresses the limitations of existing planners that lack rule-level explanations, making it a critical advancement for autonomous driving safety and validation.",
+      "abstract": "Researchers propose Rule-Aligned Diffusion Planning, a method that integrates driving rules into the trajectory generation process of diffusion planners. This approach ensures that trajectories are not only statistically sound but also rule-compliant, enhancing safety and interpretability. The method addresses the limitations of existing planners that lack rule-level explanations, making it a critical advancement for autonomous driving safety and validation.",
+      "score": 90
+    },
+    {
+      "title": "Comparative study of adapting pre-trained models for driving behavior video captioning",
+      "topic": "Comparative study of adapting pre-trained models for driving behavior video captioning",
+      "url": "https://arxiv.org/abs/2609.39542v1",
+      "source": "arXiv",
+      "published": "2026-09-30T11:41:16Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A study by researchers compares various fine-tuning and prompting methods for adapting Large Language Models (LLMs) to driving behavior video captioning. The study, using the BDD-X dataset, demonstrates that full fine-tuning of SpaceTimeGPT outperforms the baseline in several automatic metrics. The research also explores the limitations of Low-Rank Adaptation (LoRA) and prompt engineering on the VideoLLaVA model, providing insights into the effective use of LLMs in autonomous driving.",
+      "abstract": "A study by researchers compares various fine-tuning and prompting methods for adapting Large Language Models (LLMs) to driving behavior video captioning. The study, using the BDD-X dataset, demonstrates that full fine-tuning of SpaceTimeGPT outperforms the baseline in several automatic metrics. The research also explores the limitations of Low-Rank Adaptation (LoRA) and prompt engineering on the VideoLLaVA model, providing insights into the effective use of LLMs in autonomous driving.",
+      "score": 85
+    },
     {
       "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
       "topic": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
@@ -11,6 +33,17 @@
       "summary": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
       "abstract": "OpenAI has announced the development of a new agent called 'dots' after deciding to shelve the launch of a more advanced AI model due to safety concerns. This decision underscores the company's commitment to prioritizing safety over rapid deployment in AI research.",
       "score": 75
+    },
+    {
+      "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
+      "topic": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
+      "url": "https://arxiv.org/abs/2609.38641v1",
+      "source": "arXiv",
+      "published": "2026-09-29T23:00:01Z",
+      "category": "arxiv-explainability-av",
+      "summary": "The Vision-Language-Action (VLA) foundation models, developed by researchers, address the memory limitations of existing VLA models in autonomous driving. AD-Memo, the proposed agent, uses language-based memory to enhance interpretability and portability, crucial for tasks like determining arrival order at all-way stops and long-horizon driving scene understanding. This advancement is significant for improving the reliability and explainability of autonomous driving systems.",
+      "abstract": "The Vision-Language-Action (VLA) foundation models, developed by researchers, address the memory limitations of existing VLA models in autonomous driving. AD-Memo, the proposed agent, uses language-based memory to enhance interpretability and portability, crucial for tasks like determining arrival order at all-way stops and long-horizon driving scene understanding. This advancement is significant for improving the reliability and explainability of autonomous driving systems.",
+      "score": 95
     },
     {
       "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
