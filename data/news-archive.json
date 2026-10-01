@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T05:35:59.049140Z",
+  "updated_at": "2026-10-01T13:24:03.500147Z",
   "items": [
     {
       "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
@@ -165,6 +165,17 @@
       "summary": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
       "abstract": "The European Union has delayed the vote on Tesla's 'Full Self-Driving' system to December at the earliest, indicating ongoing regulatory scrutiny and potential safety concerns.",
       "score": 80
+    },
+    {
+      "title": "EU vote on Tesla's supervised self-driving system pushed back",
+      "topic": "EU vote on Tesla's supervised self-driving system pushed back",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3kyR0hybTd3aUd1MjM0elllN0hrYlZQaTVralVDUlVNQUI0eXpNOW5rM3kwRGREcm5JNElkVmprN21FYjl0Nmh5V0FEVUZrV05YUkZPdHNkTDRJSFFmeUNabXl2QXZTYnQyY3NSY0ZPUThJOXViUjkzV1ZRbEV6Tm8wb3VNR1FMSzhjV2VJOUhrdHhpQ0R2Nkd0V3YxeUpDYWV4cw?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-25T17:06:15Z",
+      "category": "automated-vehicles",
+      "summary": "The EU has postponed the vote on Tesla's supervised self-driving system, delaying the regulatory decision on its deployment in Europe. This delay reflects ongoing concerns and the need for thorough evaluation of the system's safety and performance, which is crucial for the responsible rollout of autonomous driving technologies.",
+      "abstract": "The EU has postponed the vote on Tesla's supervised self-driving system, delaying the regulatory decision on its deployment in Europe. This delay reflects ongoing concerns and the need for thorough evaluation of the system's safety and performance, which is crucial for the responsible rollout of autonomous driving technologies.",
+      "score": 55
     },
     {
       "title": "Waymo is scaling fast: Here’s what the fleet data shows",
