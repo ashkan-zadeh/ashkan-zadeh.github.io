@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-01T13:24:03.500147Z",
+  "updated_at": "2026-10-02T12:41:47.203497Z",
   "items": [
+    {
+      "title": "OpenAI Fires Three Employees Who Allegedly Shared Info With An External AI Safety Group",
+      "topic": "OpenAI Fires Three Employees Who Allegedly Shared Info With An External AI Safety Group",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWW9lZGNTZkFiZXpxM01KLUlmMWZ4QTZuWmNIRVRJOURPNW40RDJXX3NVb0FDRjJkbWhNV1hvLVFxXy1rUWFtdElJZEtiMDlLUGg3UE12VEF0Sk9icG9PbjVrWjJ0Q0FZR0FxbkNlcWpoWFRtNHE4UlVXY0hKTEhvY2pYZEtuekJxX09pQjhVYlEyUjdaN0FENlY3NGxSTkdIZlQ1M2ZHWGNQY0kwSUlrRG5Gb1ZHMU9hWHhEb2t3?oc=5",
+      "source": "Engadget",
+      "published": "2026-10-01T22:05:43Z",
+      "category": "ai",
+      "summary": "OpenAI has terminated the employment of three employees who allegedly shared confidential information with an external AI safety group. This incident highlights the tensions between transparency and security in the development of AI technologies.",
+      "abstract": "OpenAI has terminated the employment of three employees who allegedly shared confidential information with an external AI safety group. This incident highlights the tensions between transparency and security in the development of AI technologies.",
+      "score": 55
+    },
+    {
+      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
+      "topic": "Google rolls out new Gemini AI model but restricts access over safety concerns",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5",
+      "source": "The Guardian",
+      "published": "2026-10-01T16:57:00Z",
+      "category": "ai",
+      "summary": "Google has introduced its new Gemini AI model but has restricted access due to safety concerns. The company is taking a cautious approach to ensure the model's reliability and ethical use, reflecting the growing emphasis on AI safety in the tech industry.",
+      "abstract": "Google has introduced its new Gemini AI model but has restricted access due to safety concerns. The company is taking a cautious approach to ensure the model's reliability and ethical use, reflecting the growing emphasis on AI safety in the tech industry.",
+      "score": 75
+    },
+    {
+      "title": "Towards Reliable Vision-Language Models for Autonomous Driving",
+      "topic": "Towards Reliable Vision-Language Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.01531v1",
+      "source": "arXiv",
+      "published": "2026-10-01T12:06:13Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A team of researchers evaluated five Vision-Language Models (VLMs) for their reliability in autonomous driving tasks, including scene understanding and decision-making. The study, published in arXiv, highlights the importance of robustness and reliability in VLMs, especially under real-world conditions with degraded visual inputs, and provides benchmark scores for models like Qwen3.5-9B and LLaVA-OneVision-7B.",
+      "abstract": "A team of researchers evaluated five Vision-Language Models (VLMs) for their reliability in autonomous driving tasks, including scene understanding and decision-making. The study, published in arXiv, highlights the importance of robustness and reliability in VLMs, especially under real-world conditions with degraded visual inputs, and provides benchmark scores for models like Qwen3.5-9B and LLaVA-OneVision-7B.",
+      "score": 90
+    },
+    {
+      "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
+      "topic": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.39995v2",
+      "source": "arXiv",
+      "published": "2026-09-30T15:46:21Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers introduced Rule-Aligned Diffusion Planning (RADP), a method that enhances diffusion planners by aligning trajectory generation with driving rules. This approach, published in arXiv, addresses the limitations of existing methods that rely solely on statistical correlations, improving safety and compliance in long-tail scenarios where expert data is scarce and rule-level explanations are crucial for failure diagnosis and safety validation.",
+      "abstract": "Researchers introduced Rule-Aligned Diffusion Planning (RADP), a method that enhances diffusion planners by aligning trajectory generation with driving rules. This approach, published in arXiv, addresses the limitations of existing methods that rely solely on statistical correlations, improving safety and compliance in long-tail scenarios where expert data is scarce and rule-level explanations are crucial for failure diagnosis and safety validation.",
+      "score": 88
+    },
     {
       "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
       "topic": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
@@ -22,6 +66,17 @@
       "summary": "A study by researchers compares various fine-tuning and prompting methods for adapting Large Language Models (LLMs) to driving behavior video captioning. The study, using the BDD-X dataset, demonstrates that full fine-tuning of SpaceTimeGPT outperforms the baseline in several automatic metrics. The research also explores the limitations of Low-Rank Adaptation (LoRA) and prompt engineering on the VideoLLaVA model, providing insights into the effective use of LLMs in autonomous driving.",
       "abstract": "A study by researchers compares various fine-tuning and prompting methods for adapting Large Language Models (LLMs) to driving behavior video captioning. The study, using the BDD-X dataset, demonstrates that full fine-tuning of SpaceTimeGPT outperforms the baseline in several automatic metrics. The research also explores the limitations of Low-Rank Adaptation (LoRA) and prompt engineering on the VideoLLaVA model, providing insights into the effective use of LLMs in autonomous driving.",
       "score": 85
+    },
+    {
+      "title": "Mercedes-backed Momenta targets Dubai and Europe for robotaxi expansion",
+      "topic": "Mercedes-backed Momenta targets Dubai and Europe for robotaxi expansion",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd3FjRE9WRlF3Mm8xRElBMkNyanI1MDJhVFVjcXBOMmRpeFluZVdOWkJ3dGVscDNkSUd4aW9lT0JlbV84am5IZU9xNWNYcEQ1bnpWbW5PeG42WWpaRUx0dXd1WDhRQmpQZ1lzakJ4VTlJcUdzQjVoTzNLZ3FaWGN2akZjaUVWVm05OFh2U3ZWOFFvbUpYc3FDM0RhN0JINGUtb2lXR1ZCTEFVQUhwY05QZ3RmX1l0TVJvRGc?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-30T07:13:45Z",
+      "category": "automated-vehicles",
+      "summary": "Mercedes-backed autonomous driving company Momenta is planning to expand its robotaxi operations to Dubai and Europe. This move underscores Momenta's strategic focus on international markets and its commitment to deploying advanced autonomous vehicle technology in diverse urban environments.",
+      "abstract": "Mercedes-backed autonomous driving company Momenta is planning to expand its robotaxi operations to Dubai and Europe. This move underscores Momenta's strategic focus on international markets and its commitment to deploying advanced autonomous vehicle technology in diverse urban environments.",
+      "score": 80
     },
     {
       "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
