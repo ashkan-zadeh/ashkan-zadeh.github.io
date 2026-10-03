@@ -26,6 +26,30 @@ const NarratePage = ({ data }) => {
         alt="NARRATE dataset sample"
       />
 
+      <section className="border-t border-line pt-8 mb-10">
+        <h2 className="font-header font-light text-3xl text-front leading-tight mb-4">
+          Dataset Showcase
+        </h2>
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          poster="/asset/img/narrate/narrate_sample.png"
+          style={{ display: "block", width: "100%", borderRadius: "0.75rem" }}
+        >
+          <source src="/asset/video/NARRATE.mp4" type="video/mp4" />
+          Your browser does not support embedded video.{' '}
+          <a href="/asset/video/NARRATE.mp4">Watch the NARRATE dataset video</a>.
+        </video>
+        <p className="font-text text-sm mt-3">
+          Five annotated driving events with multimodal sensor data and natural
+          language explanations.
+        </p>
+        <a className="underline font-text text-sm" href="/asset/video/NARRATE.mp4">
+          Open dataset video
+        </a>
+      </section>
+
       <div className="grid md:grid-cols-4 gap-3 mb-10">
         {metrics.map(([value, label]) => (
           <div className="bg-back-light p-4 border-t-4 border-line" key={value}>

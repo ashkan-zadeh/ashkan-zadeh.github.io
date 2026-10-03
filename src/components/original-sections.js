@@ -1,5 +1,6 @@
 import React from "react";
 import newsData from "../../data/news.json";
+import YouTubeVideo from "./youtube-video";
 
 const img = (path) => `/asset/img/${path}`;
 
@@ -358,6 +359,29 @@ const OriginalSections = () => (
       >
         View news archive
       </a>
+    </Section>
+
+    <Section id="videos" kicker="Videos" title="Research and community highlights.">
+      <div className="space-y-6">
+        <article className="bg-back-light border-t-4 border-line p-4">
+          <h3 className="font-header font-bold text-front mb-3">
+            Visualise Your Thesis 2023
+          </h3>
+          <p className="font-text text-sm mb-4">
+            My QUT runner-up entry, A Human-Centric eXplainable Automated Vehicle (XAV).
+          </p>
+          <YouTubeVideo videoId="gLMgbKoO8_U" title="Visualise Your Thesis 2023 — Ashkan Yousefi Zadeh" />
+        </article>
+        <article className="bg-back-light border-t-4 border-line p-4">
+          <h3 className="font-header font-bold text-front mb-3">
+            Nudgeathon 2023
+          </h3>
+          <p className="font-text text-sm mb-4">
+            Highlights from QUT's behavioural change competition, in which I participated.
+          </p>
+          <YouTubeVideo videoId="-C-p83ck5Ok" title="Nudgeathon 2023 event highlights" />
+        </article>
+      </div>
     </Section>
 
     <Section id="experience" kicker="Experience" title="Roles and jobs.">
