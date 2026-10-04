@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-03T11:44:46.366497Z",
+  "updated_at": "2026-10-04T12:26:51.127754Z",
   "items": [
+    {
+      "title": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
+      "topic": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3cXAwVFFWZ0RRZFY1VkRKVnNYVWxuRDFxUGdzamxobGE4cERfSFZUdm1xa3JnUVFMdHRMN2hlNlBaaHNyN3NVbHFLb1h3dzg4UEQxY1BVZTBWNEJqRnlRWUJqa2h0el9QMTVtY0RWSmV3bmx0SHNR?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-03T14:36:00Z",
+      "category": "automated-vehicles",
+      "summary": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
+      "abstract": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
+      "score": 85
+    },
     {
       "title": "OpenAI Fires Three Employees Who Allegedly Shared Info With An External AI Safety Group",
       "topic": "OpenAI Fires Three Employees Who Allegedly Shared Info With An External AI Safety Group",
@@ -11,6 +22,17 @@
       "summary": "OpenAI has terminated the employment of three employees who allegedly shared confidential information with an external AI safety group. This incident highlights the tensions between transparency and security in the development of AI technologies.",
       "abstract": "OpenAI has terminated the employment of three employees who allegedly shared confidential information with an external AI safety group. This incident highlights the tensions between transparency and security in the development of AI technologies.",
       "score": 55
+    },
+    {
+      "title": "Google Is Already Having Problems With Its Latest AI Model",
+      "topic": "Google Is Already Having Problems With Its Latest AI Model",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQzA2SzFtRU0wSGZ1TEQ5a2pOUEZlNTRDQm1fR0V1T1RrU3o5Vm5hZ2lUb01oc3JXY0pwSy1faWxxTWt6Tkl0MU5zaEVsZEdLS0NGR1MxZVRxY1Z1MUVfT1FqLWlMVVhFTjJVWkNWQmVlcWNSeC02ZE4xdlNnMldOcWgtSjJuM3o5Tkktd3ZkMkxUbW8?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-10-01T17:10:00Z",
+      "category": "ai",
+      "summary": "Google is encountering issues with its latest AI model, which has raised concerns about the reliability and safety of the technology. These problems highlight the ongoing challenges in developing and deploying advanced AI systems, particularly in ensuring they operate safely and effectively in real-world scenarios.",
+      "abstract": "Google is encountering issues with its latest AI model, which has raised concerns about the reliability and safety of the technology. These problems highlight the ongoing challenges in developing and deploying advanced AI systems, particularly in ensuring they operate safely and effectively in real-world scenarios.",
+      "score": 75
     },
     {
       "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
@@ -33,6 +55,17 @@
       "summary": "A team of researchers evaluated five Vision-Language Models (VLMs) for their reliability in autonomous driving tasks, including scene understanding and decision-making. The study, published in arXiv, highlights the importance of robustness and reliability in VLMs, especially under real-world conditions with degraded visual inputs, and provides benchmark scores for models like Qwen3.5-9B and LLaVA-OneVision-7B.",
       "abstract": "A team of researchers evaluated five Vision-Language Models (VLMs) for their reliability in autonomous driving tasks, including scene understanding and decision-making. The study, published in arXiv, highlights the importance of robustness and reliability in VLMs, especially under real-world conditions with degraded visual inputs, and provides benchmark scores for models like Qwen3.5-9B and LLaVA-OneVision-7B.",
       "score": 90
+    },
+    {
+      "title": "Google announces Gemini 4 flagship AI model after months of delays",
+      "topic": "Google announces Gemini 4 flagship AI model after months of delays",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-30T22:16:26Z",
+      "category": "ai",
+      "summary": "Google has announced the release of Gemini 4, its flagship AI model, after several months of delays. The model is designed to advance the state of the art in AI, but the delays suggest that developing and refining such models is a complex and time-consuming process, with significant implications for AI research and development.",
+      "abstract": "Google has announced the release of Gemini 4, its flagship AI model, after several months of delays. The model is designed to advance the state of the art in AI, but the delays suggest that developing and refining such models is a complex and time-consuming process, with significant implications for AI research and development.",
+      "score": 70
     },
     {
       "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",

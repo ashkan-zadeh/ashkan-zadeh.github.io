@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:44:46.306755Z",
+  "generated_at": "2026-10-04T12:26:51.014975Z",
   "items": [
     {
       "title": "Tesla receives approval to roll out self-driving software in Croatia",
@@ -8,31 +8,20 @@
       "source": "Reuters",
       "published": "2026-09-29T09:16:08Z",
       "category": "automated-vehicles",
-      "summary": "Tesla has received regulatory approval to deploy its self-driving software in Croatia, expanding its autonomous vehicle capabilities to a new European market. This deployment is significant as it marks Tesla's continued global expansion of its autonomous driving technology, which is crucial for the company's long-term strategy in the AV industry.",
-      "abstract": "Tesla has received regulatory approval to deploy its self-driving software in Croatia, expanding its autonomous vehicle capabilities to a new European market. This deployment is significant as it marks Tesla's continued global expansion of its autonomous driving technology, which is crucial for the company's long-term strategy in the AV industry.",
-      "score": 85
+      "summary": "Tesla has received approval to deploy its self-driving software in Croatia, expanding its autonomous vehicle capabilities to a new European market. This deployment is significant as it marks Tesla's continued global expansion and regulatory acceptance of its autonomous driving technology.",
+      "abstract": "Tesla has received approval to deploy its self-driving software in Croatia, expanding its autonomous vehicle capabilities to a new European market. This deployment is significant as it marks Tesla's continued global expansion and regulatory acceptance of its autonomous driving technology.",
+      "score": 90
     },
     {
-      "title": "Mercedes-backed Momenta targets Dubai and Europe for robotaxi expansion",
-      "topic": "Mercedes-backed Momenta targets Dubai and Europe for robotaxi expansion",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd3FjRE9WRlF3Mm8xRElBMkNyanI1MDJhVFVjcXBOMmRpeFluZVdOWkJ3dGVscDNkSUd4aW9lT0JlbV84am5IZU9xNWNYcEQ1bnpWbW5PeG42WWpaRUx0dXd1WDhRQmpQZ1lzakJ4VTlJcUdzQjVoTzNLZ3FaWGN2akZjaUVWVm05OFh2U3ZWOFFvbUpYc3FDM0RhN0JINGUtb2lXR1ZCTEFVQUhwY05QZ3RmX1l0TVJvRGc?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-30T07:13:45Z",
+      "title": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
+      "topic": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3cXAwVFFWZ0RRZFY1VkRKVnNYVWxuRDFxUGdzamxobGE4cERfSFZUdm1xa3JnUVFMdHRMN2hlNlBaaHNyN3NVbHFLb1h3dzg4UEQxY1BVZTBWNEJqRnlRWUJqa2h0el9QMTVtY0RWSmV3bmx0SHNR?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-03T14:36:00Z",
       "category": "automated-vehicles",
-      "summary": "Mercedes-backed autonomous driving company Momenta is planning to expand its robotaxi operations to Dubai and Europe. This move underscores Momenta's ambition to become a global leader in autonomous mobility services, leveraging its advanced technology and strategic partnerships.",
-      "abstract": "Mercedes-backed autonomous driving company Momenta is planning to expand its robotaxi operations to Dubai and Europe. This move underscores Momenta's ambition to become a global leader in autonomous mobility services, leveraging its advanced technology and strategic partnerships.",
-      "score": 80
-    },
-    {
-      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-      "topic": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5",
-      "source": "The Guardian",
-      "published": "2026-10-01T16:57:00Z",
-      "category": "ai",
-      "summary": "Google has released its new Gemini AI model but has restricted access due to safety concerns. The model, which is designed for a variety of applications including autonomous driving, highlights the ongoing tension between innovation and safety in the AI and AV industries.",
-      "abstract": "Google has released its new Gemini AI model but has restricted access due to safety concerns. The model, which is designed for a variety of applications including autonomous driving, highlights the ongoing tension between innovation and safety in the AI and AV industries.",
-      "score": 75
+      "summary": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
+      "abstract": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
+      "score": 85
     },
     {
       "title": "OpenAI shelves new AI model release over safety concerns",
@@ -41,20 +30,31 @@
       "source": "Reuters",
       "published": "2026-09-29T12:20:29Z",
       "category": "ai",
-      "summary": "OpenAI has decided to shelve the release of a new AI model over safety concerns, reflecting the company's cautious approach to deploying advanced AI technologies. This decision underscores the growing importance of safety and ethical considerations in the development of AI models, particularly those with applications in autonomous driving.",
-      "abstract": "OpenAI has decided to shelve the release of a new AI model over safety concerns, reflecting the company's cautious approach to deploying advanced AI technologies. This decision underscores the growing importance of safety and ethical considerations in the development of AI models, particularly those with applications in autonomous driving.",
-      "score": 70
+      "summary": "OpenAI has decided to shelve the release of a new AI model due to safety concerns, reflecting the company's cautious approach to deploying advanced AI systems. This decision underscores the growing emphasis on AI safety and the potential risks associated with premature deployment of powerful AI models.",
+      "abstract": "OpenAI has decided to shelve the release of a new AI model due to safety concerns, reflecting the company's cautious approach to deploying advanced AI systems. This decision underscores the growing emphasis on AI safety and the potential risks associated with premature deployment of powerful AI models.",
+      "score": 80
     },
     {
-      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2026-09-23T07:00:00Z",
-      "category": "vlm",
-      "summary": "NVIDIA has introduced NV-Reason-CT, a new 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning. While primarily aimed at medical imaging, the model's advanced reasoning capabilities could have implications for perception and explainability in autonomous driving systems.",
-      "abstract": "NVIDIA has introduced NV-Reason-CT, a new 3D CT Vision-Language Model (VLM) designed for radiologist chain-of-thought reasoning. While primarily aimed at medical imaging, the model's advanced reasoning capabilities could have implications for perception and explainability in autonomous driving systems.",
-      "score": 65
+      "title": "Google Is Already Having Problems With Its Latest AI Model",
+      "topic": "Google Is Already Having Problems With Its Latest AI Model",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQzA2SzFtRU0wSGZ1TEQ5a2pOUEZlNTRDQm1fR0V1T1RrU3o5Vm5hZ2lUb01oc3JXY0pwSy1faWxxTWt6Tkl0MU5zaEVsZEdLS0NGR1MxZVRxY1Z1MUVfT1FqLWlMVVhFTjJVWkNWQmVlcWNSeC02ZE4xdlNnMldOcWgtSjJuM3o5Tkktd3ZkMkxUbW8?oc=5",
+      "source": "Gizmodo",
+      "published": "2026-10-01T17:10:00Z",
+      "category": "ai",
+      "summary": "Google is encountering issues with its latest AI model, which has raised concerns about the reliability and safety of the technology. These problems highlight the ongoing challenges in developing and deploying advanced AI systems, particularly in ensuring they operate safely and effectively in real-world scenarios.",
+      "abstract": "Google is encountering issues with its latest AI model, which has raised concerns about the reliability and safety of the technology. These problems highlight the ongoing challenges in developing and deploying advanced AI systems, particularly in ensuring they operate safely and effectively in real-world scenarios.",
+      "score": 75
+    },
+    {
+      "title": "Google announces Gemini 4 flagship AI model after months of delays",
+      "topic": "Google announces Gemini 4 flagship AI model after months of delays",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+      "source": "Reuters",
+      "published": "2026-09-30T22:16:26Z",
+      "category": "ai",
+      "summary": "Google has announced the release of Gemini 4, its flagship AI model, after several months of delays. The model is designed to advance the state of the art in AI, but the delays suggest that developing and refining such models is a complex and time-consuming process, with significant implications for AI research and development.",
+      "abstract": "Google has announced the release of Gemini 4, its flagship AI model, after several months of delays. The model is designed to advance the state of the art in AI, but the delays suggest that developing and refining such models is a complex and time-consuming process, with significant implications for AI research and development.",
+      "score": 70
     },
     {
       "title": "EU vote on Tesla's supervised self-driving system pushed back",
@@ -63,20 +63,20 @@
       "source": "Reuters",
       "published": "2026-09-25T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "The European Union has postponed its vote on Tesla's supervised self-driving system, delaying the regulatory approval process. This delay could impact Tesla's plans to roll out its autonomous driving technology in the EU, highlighting the complex regulatory landscape for AV deployments.",
-      "abstract": "The European Union has postponed its vote on Tesla's supervised self-driving system, delaying the regulatory approval process. This delay could impact Tesla's plans to roll out its autonomous driving technology in the EU, highlighting the complex regulatory landscape for AV deployments.",
-      "score": 60
+      "summary": "The European Union has postponed its vote on Tesla's supervised self-driving system, indicating ongoing regulatory scrutiny and potential concerns about the technology's safety and reliability. This delay reflects the cautious approach regulators are taking towards autonomous vehicle systems, especially in densely populated areas.",
+      "abstract": "The European Union has postponed its vote on Tesla's supervised self-driving system, indicating ongoing regulatory scrutiny and potential concerns about the technology's safety and reliability. This delay reflects the cautious approach regulators are taking towards autonomous vehicle systems, especially in densely populated areas.",
+      "score": 65
     },
     {
-      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
-      "topic": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
-      "source": "The Guardian",
-      "published": "2026-09-30T16:13:00Z",
-      "category": "ai",
-      "summary": "OpenAI has announced a new 'dots' agent after scrapping the launch of a more advanced AI model due to safety concerns. The decision to focus on a simpler agent underscores the company's commitment to prioritizing safety over rapid deployment, which is a critical consideration for AI applications in autonomous vehicles.",
-      "abstract": "OpenAI has announced a new 'dots' agent after scrapping the launch of a more advanced AI model due to safety concerns. The decision to focus on a simpler agent underscores the company's commitment to prioritizing safety over rapid deployment, which is a critical consideration for AI applications in autonomous vehicles.",
-      "score": 55
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
+      "source": "NVIDIA Developer",
+      "published": "2026-09-23T07:00:00Z",
+      "category": "vlm",
+      "summary": "NVIDIA has introduced NV-Reason-CT, an open 3D CT VLM designed for radiologist chain-of-thought reasoning. This model aims to enhance the interpretability and accuracy of medical imaging analysis, demonstrating the potential of VLMs in specialized AI applications and their broader implications for AI research in healthcare and beyond.",
+      "abstract": "NVIDIA has introduced NV-Reason-CT, an open 3D CT VLM designed for radiologist chain-of-thought reasoning. This model aims to enhance the interpretability and accuracy of medical imaging analysis, demonstrating the potential of VLMs in specialized AI applications and their broader implications for AI research in healthcare and beyond.",
+      "score": 60
     },
     {
       "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
@@ -85,8 +85,8 @@
       "source": "arXiv",
       "published": "2026-09-29T23:00:01Z",
       "category": "arxiv-explainability-av",
-      "summary": "The Vision-Language-Action (VLA) foundation models, developed by researchers at an unnamed institution, address the limitations of existing VLA models in handling memory-dependent tasks in autonomous driving. AD-Memo, the proposed VLA driving agent, uses language-based memory to extend its Chain-of-Thought (CoT) for better interpretability and long-horizon driving scene understanding. This advancement is crucial for improving the reliability and transparency of autonomous driving systems.",
-      "abstract": "The Vision-Language-Action (VLA) foundation models, developed by researchers at an unnamed institution, address the limitations of existing VLA models in handling memory-dependent tasks in autonomous driving. AD-Memo, the proposed VLA driving agent, uses language-based memory to extend its Chain-of-Thought (CoT) for better interpretability and long-horizon driving scene understanding. This advancement is crucial for improving the reliability and transparency of autonomous driving systems.",
+      "summary": "The AD-Memo, proposed by researchers in a 2026 arXiv paper, addresses the limitations of Vision-Language-Action (VLA) models in autonomous driving by introducing a language-based memory system. This system extends the Chain-of-Thought (CoT) mechanism to handle memory-dependent tasks, such as determining arrival order at all-way stops and long-horizon driving scene understanding, enhancing the interpretability and reliability of VLA models.",
+      "abstract": "The AD-Memo, proposed by researchers in a 2026 arXiv paper, addresses the limitations of Vision-Language-Action (VLA) models in autonomous driving by introducing a language-based memory system. This system extends the Chain-of-Thought (CoT) mechanism to handle memory-dependent tasks, such as determining arrival order at all-way stops and long-horizon driving scene understanding, enhancing the interpretability and reliability of VLA models.",
       "score": 95
     },
     {
@@ -96,8 +96,8 @@
       "source": "arXiv",
       "published": "2026-10-01T12:06:13Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "Researchers from multiple institutions evaluated five Vision-Language Models (VLMs) for their robustness and reliability in autonomous driving tasks. The study, published in arXiv, highlights the importance of ensuring VLMs can handle degraded visual inputs due to sensor imperfections and environmental conditions. The findings are critical for enhancing the safety and trustworthiness of autonomous driving systems.",
-      "abstract": "Researchers from multiple institutions evaluated five Vision-Language Models (VLMs) for their robustness and reliability in autonomous driving tasks. The study, published in arXiv, highlights the importance of ensuring VLMs can handle degraded visual inputs due to sensor imperfections and environmental conditions. The findings are critical for enhancing the safety and trustworthiness of autonomous driving systems.",
+      "summary": "A 2026 arXiv paper evaluates five Vision-Language Models (VLMs) for autonomous driving, including Qwen3.5-9B, Gemma4-E4B, LLaVA-OneVision-7B, DriveFusion/DriveFusionQA-4B, and NVIDIA models, focusing on their robustness and reliability under real-world conditions. The study highlights the importance of these models recognizing when their predictions may be unreliable, which is crucial for safety-critical decisions in autonomous driving.",
+      "abstract": "A 2026 arXiv paper evaluates five Vision-Language Models (VLMs) for autonomous driving, including Qwen3.5-9B, Gemma4-E4B, LLaVA-OneVision-7B, DriveFusion/DriveFusionQA-4B, and NVIDIA models, focusing on their robustness and reliability under real-world conditions. The study highlights the importance of these models recognizing when their predictions may be unreliable, which is crucial for safety-critical decisions in autonomous driving.",
       "score": 90
     },
     {
@@ -107,8 +107,8 @@
       "source": "arXiv",
       "published": "2026-09-30T15:46:21Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "A team of researchers introduced Rule-Aligned Diffusion Planning (RADP), a method that enhances the interpretability and safety of diffusion planners in autonomous driving. RADP explicitly models driving rules to generate trajectories that are compliant and explainable, addressing the limitations of existing methods that rely solely on statistical correlations. This approach is essential for improving the safety and reliability of autonomous driving systems, particularly in long-tail scenarios.",
-      "abstract": "A team of researchers introduced Rule-Aligned Diffusion Planning (RADP), a method that enhances the interpretability and safety of diffusion planners in autonomous driving. RADP explicitly models driving rules to generate trajectories that are compliant and explainable, addressing the limitations of existing methods that rely solely on statistical correlations. This approach is essential for improving the safety and reliability of autonomous driving systems, particularly in long-tail scenarios.",
+      "summary": "Researchers in a 2026 arXiv paper propose Rule-Aligned Diffusion Planning (RADP) for autonomous driving, which integrates driving rules into the trajectory generation process. This approach addresses the limitations of existing diffusion planners, which often lack rule-level explanations, making it difficult to diagnose failures and ensure safety. RADP enhances the interpretability and reliability of trajectory planning in long-tail scenarios.",
+      "abstract": "Researchers in a 2026 arXiv paper propose Rule-Aligned Diffusion Planning (RADP) for autonomous driving, which integrates driving rules into the trajectory generation process. This approach addresses the limitations of existing diffusion planners, which often lack rule-level explanations, making it difficult to diagnose failures and ensure safety. RADP enhances the interpretability and reliability of trajectory planning in long-tail scenarios.",
       "score": 88
     }
   ]
