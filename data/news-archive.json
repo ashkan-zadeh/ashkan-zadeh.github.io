@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T12:26:51.127754Z",
+  "updated_at": "2026-10-05T14:47:44.486747Z",
   "items": [
     {
       "title": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
@@ -11,6 +11,17 @@
       "summary": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
       "abstract": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
       "score": 85
+    },
+    {
+      "title": "Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
+      "topic": "Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.02765v1",
+      "source": "arXiv",
+      "published": "2026-10-02T03:46:07Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Researchers from a 2026 arXiv paper introduced Split Label-Localized Conformal Prediction (SLLCP), a post-hoc calibration layer for vision-language models (VLMs) in autonomous driving. SLLCP transforms unreliable VLM predictions into probabilistically calibrated safety assessments, improving the reliability and safety of trajectory monitoring in autonomous vehicles.",
+      "abstract": "Researchers from a 2026 arXiv paper introduced Split Label-Localized Conformal Prediction (SLLCP), a post-hoc calibration layer for vision-language models (VLMs) in autonomous driving. SLLCP transforms unreliable VLM predictions into probabilistically calibrated safety assessments, improving the reliability and safety of trajectory monitoring in autonomous vehicles.",
+      "score": 92
     },
     {
       "title": "OpenAI Fires Three Employees Who Allegedly Shared Info With An External AI Safety Group",
