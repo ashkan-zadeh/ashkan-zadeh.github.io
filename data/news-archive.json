@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T14:47:44.486747Z",
+  "updated_at": "2026-10-06T13:23:45.524015Z",
   "items": [
     {
       "title": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
@@ -11,6 +11,17 @@
       "summary": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
       "abstract": "Elon Musk explained that Tesla's Robotaxi service is not operating at night due to limitations in its sensor suite, specifically the lack of LiDAR. Musk indicated that incorporating LiDAR technology is crucial for improving the vehicle's performance in low-light conditions, highlighting the ongoing challenges in sensor technology for autonomous vehicles.",
       "score": 85
+    },
+    {
+      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "topic": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "url": "https://arxiv.org/abs/2610.03948v1",
+      "source": "arXiv",
+      "published": "2026-10-02T19:07:28Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "A research team proposes Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a retrieval-augmented generation (RAG) framework that integrates value principles from Chinese Confucian thought into autonomous driving decision-making. CPW-Drive uses LLM-extracted keywords from classical texts to guide driving decisions, balancing safety, efficiency, and social norms in complex traffic interactions. This approach aims to enhance the ethical and philosophical considerations in autonomous driving systems.",
+      "abstract": "A research team proposes Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a retrieval-augmented generation (RAG) framework that integrates value principles from Chinese Confucian thought into autonomous driving decision-making. CPW-Drive uses LLM-extracted keywords from classical texts to guide driving decisions, balancing safety, efficiency, and social norms in complex traffic interactions. This approach aims to enhance the ethical and philosophical considerations in autonomous driving systems.",
+      "score": 90
     },
     {
       "title": "Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
