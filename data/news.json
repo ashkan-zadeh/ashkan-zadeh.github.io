@@ -1,38 +1,49 @@
 {
-  "generated_at": "2026-10-06T13:23:45.412970Z",
+  "generated_at": "2026-10-07T13:29:42.200124Z",
   "items": [
     {
-      "title": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
-      "topic": "Tesla's supervised self-driving system often misreads speed limits, Belgian safety group finds",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVNFdko3aEg5amFUWUpBT2M5a01DZXFvQTF5Q1JfalNYd2lQaW05T3JkQ3ZlUWR4Sm96cURIT2Y0SGZLeTB1RmN3WFJmVEVUTkFRNml6MTVDS0JaUlRvRjQ0X2RSV09zT2M1NGR2MHZfQzN0emlad083OTl4U2ppZ1U5Snh4b3NoT1ktZzNDTGpiX0I2NGNDNURqb1NQUEx3aFlob2VvZGJBSVZWWGN4Y0s1WElxcmI2bWJlUWNld2pEN2oyR1E?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-24T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla's supervised self-driving system has been found to frequently misread speed limits, according to a Belgian safety group. The findings highlight potential safety issues with Tesla's Full Self-Driving (FSD) technology, which could lead to regulatory scrutiny and impact the company's deployment plans.",
-      "abstract": "Tesla's supervised self-driving system has been found to frequently misread speed limits, according to a Belgian safety group. The findings highlight potential safety issues with Tesla's Full Self-Driving (FSD) technology, which could lead to regulatory scrutiny and impact the company's deployment plans.",
-      "score": 85
-    },
-    {
-      "title": "Tesla receives approval to roll out self-driving software in Croatia",
-      "topic": "Tesla receives approval to roll out self-driving software in Croatia",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNblN1RjdSMFdsX0t4a2sxLVV2VHNqeEpfY01LLURydGdacDRBNm0xSWZVYVpBcHFNTUJKU08wclRmMDFEdzRrVUtkNG13UXpVeUpDNnpHZnlJdEZFZ0plU3FIYUJPaFdUcEFFNGJQcjdRM05JZWVwMDc0VFVROEFXWWU5V0VTYzk1QjRQMVdrYmZhVkFBejJYU2p1SlFGUEtqUVhEcXhKVHFCM1FoLTdpdWZUUGM1cjM2LTMyMkRTZ0QzRTdMWFVV?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-29T09:16:08Z",
-      "category": "automated-vehicles",
-      "summary": "Tesla has received regulatory approval to roll out its self-driving software in Croatia. This expansion marks a significant step for Tesla's FSD technology, allowing the company to test and refine its autonomous driving capabilities in a new European market.",
-      "abstract": "Tesla has received regulatory approval to roll out its self-driving software in Croatia. This expansion marks a significant step for Tesla's FSD technology, allowing the company to test and refine its autonomous driving capabilities in a new European market.",
-      "score": 80
-    },
-    {
-      "title": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
-      "topic": "Musk explains why Tesla Robotaxi is not running at night, and lidar is the answer",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3cXAwVFFWZ0RRZFY1VkRKVnNYVWxuRDFxUGdzamxobGE4cERfSFZUdm1xa3JnUVFMdHRMN2hlNlBaaHNyN3NVbHFLb1h3dzg4UEQxY1BVZTBWNEJqRnlRWUJqa2h0el9QMTVtY0RWSmV3bmx0SHNR?oc=5",
+      "title": "Autonomous Orange: YMX adds self-driving tech to its electric yard trucks",
+      "topic": "Autonomous Orange: YMX adds self-driving tech to its electric yard trucks",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkYtN2xPY1M4dFd0N1R4ZnNMV0s1NE1vYXpNMVV6ZktXY29Ga1FXNEJnV2lsanlPWmhCYTFTbEEydmNqR0VSMDZjNEgyM3lIcGx2REVCZTRnOFNPdzAwemxVYXJGdzNnQ0k1bWRFUDcwYmRrYW1vYlB1Vm1OejUxQW56d0FOS2YwRml6UDhEYnhIclFIM3ZOTUdNSUtxck1nOEJXRlJyYUJBX2xNTzFneXh0RQ?oc=5",
       "source": "Electrek",
-      "published": "2026-10-03T14:36:00Z",
+      "published": "2026-10-04T13:48:00Z",
       "category": "automated-vehicles",
-      "summary": "Elon Musk explained that Tesla's Robotaxi service is not operational at night due to limitations in its sensor technology, specifically the lack of lidar. This revelation underscores the ongoing challenges in achieving full autonomy and the importance of sensor diversity in autonomous vehicle systems.",
-      "abstract": "Elon Musk explained that Tesla's Robotaxi service is not operational at night due to limitations in its sensor technology, specifically the lack of lidar. This revelation underscores the ongoing challenges in achieving full autonomy and the importance of sensor diversity in autonomous vehicle systems.",
-      "score": 75
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 57
+    },
+    {
+      "title": "Inside Tesla's pressure campaign to win EU approval for 'Full Self-Driving'",
+      "topic": "Inside Tesla's pressure campaign to win EU approval for 'Full Self-Driving'",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aSXZZaERSSjlPclVwTk1TRW5XRHdUaXliZmZYMGt4WmtvcnlQOTRpN3dVQVcyRUN2Zzg4eWJRMHpOeDNxVGZ5ZTUxWW0zQUctWWlmZEV1MjJtOVAzUDE2QXNwSE9STUk?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-07T06:32:33Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Tesla is browbeating the EU to approve its ‘Full Self-Driving’ tech. The pressure is working.",
+      "topic": "Tesla is browbeating the EU to approve its ‘Full Self-Driving’ tech. The pressure is working.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdjBuOTVpakJxeU9NUm55Z2xWcU42ellEeUI4XzhuaGdNWWViVkFqSGJwVGg5Y3NPNmFlTFVBdVBiWGh3TmdCbjF1UnhGM00tQXFPSS1lOHB2YVk1d3ZGbnEwMkRuWGJFREdOcmFaZ3VOYm4tTHkydlZEOEJrTGNqVDZHSk5IZFkxSGFHREhFcm9ZamZNU2YxbmRfVVpmYUJwYm5Wc2Zhdm9yUnlZYW1UM2xjcXVtWGNsQlZsTjh2eXBjQWRaSm9OQg?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-07T06:13:18Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Whatever AI Safety Is, It’s Not This",
+      "topic": "Whatever AI Safety Is, It’s Not This",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4X0h0SzFmS0JnYk10b29nTlZTcFdfZFM5cXhJbW5IS2wtaGNQOVRyM0hvUERTNVZfQzh2akNLWUt0NmRqOEVweWg1NWtEQXVUdlA5VlZlcDJ5SWRLbDB2eFJSSVRQVGFRMU5SRHZodVZqaW1qdWJGZVdJVQ?oc=5",
+      "source": "WIRED",
+      "published": "2026-10-01T22:10:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
@@ -41,42 +52,42 @@
       "source": "The Guardian",
       "published": "2026-10-01T16:57:00Z",
       "category": "ai",
-      "summary": "Google has introduced the Gemini AI model but restricted its access due to safety concerns. The model's capabilities and potential applications in various fields, including autonomous driving, are significant, but the company's cautious approach highlights the ongoing debate over AI safety and regulation.",
-      "abstract": "Google has introduced the Gemini AI model but restricted its access due to safety concerns. The model's capabilities and potential applications in various fields, including autonomous driving, are significant, but the company's cautious approach highlights the ongoing debate over AI safety and regulation.",
-      "score": 70
+      "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
-      "title": "OpenAI shelves new AI model release over safety concerns",
-      "topic": "OpenAI shelves new AI model release over safety concerns",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
-      "source": "Reuters",
-      "published": "2026-09-29T12:20:29Z",
+      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+      "topic": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkx5d1RMWVJHSW1kaVhqOG81c3dvTHplelc1Tm1GVi16dmVkZjE3bDNEdTB2WUJrS1hzalM5WGkzcnd3UXFUOEo2XzA0LXQwUlJ6dzBOOExlLWVHU3l2QVlQOWlvSWJQeUtTMHVxbTNLc3NNTzMtbjRta0tJUmwybw?oc=5",
+      "source": "WIRED",
+      "published": "2026-09-30T20:30:00Z",
       "category": "ai",
-      "summary": "OpenAI has decided to shelve the release of a new AI model over safety concerns. This decision reflects the growing emphasis on responsible AI development and the need to address potential risks before deploying advanced models in real-world applications, including autonomous vehicles.",
-      "abstract": "OpenAI has decided to shelve the release of a new AI model over safety concerns. This decision reflects the growing emphasis on responsible AI development and the need to address potential risks before deploying advanced models in real-world applications, including autonomous vehicles.",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "url": "http://ieeexplore.ieee.org/document/11603845",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-07-13T13:18:34Z",
+      "category": "journal-rss",
+      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "score": 66
+    },
+    {
+      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "url": "http://ieeexplore.ieee.org/document/11676400",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-09-03T13:17:08Z",
+      "category": "journal-rss",
+      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
+      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
       "score": 65
-    },
-    {
-      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning | NVIDIA Technical Blog",
-      "topic": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning | NVIDIA Technical Blog",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSlBkbzRtRVRhc3dyTWNrUVpLeTV5dHFSSTk2ZXFsT3h3dUYwZlpqb3h6NkU5VlRSWjd2dFo4dGMyUXdmLWpMS2F5RE5ZY3hoSGZvOTlneHFTNlZJRTlCRTR2QVFJTEFFZXlXU0dWYnNtcFNMWW4xd3pqdlpIWGd0ZHNIakdVX2ZsWXRFZllhbFZ2dEZXM0xpMGlIdEpHR2FocDVoWGZ3bGF0TFpuUm1KaW40QXVsdi1f?oc=5",
-      "source": "NVIDIA Developer",
-      "published": "2026-09-23T07:00:00Z",
-      "category": "vlm",
-      "summary": "NVIDIA has introduced NV-Reason-CT, an open 3D CT VLM designed for radiologist chain-of-thought reasoning. While primarily aimed at medical imaging, the model's advanced reasoning capabilities could have implications for perception and decision-making in autonomous driving systems.",
-      "abstract": "NVIDIA has introduced NV-Reason-CT, an open 3D CT VLM designed for radiologist chain-of-thought reasoning. While primarily aimed at medical imaging, the model's advanced reasoning capabilities could have implications for perception and decision-making in autonomous driving systems.",
-      "score": 60
-    },
-    {
-      "title": "Mazda adds LiDAR to CX-6e, rolls out \"self driving\" tech in China",
-      "topic": "Mazda adds LiDAR to CX-6e, rolls out \"self driving\" tech in China",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbHBxN0EwQ0JWMEVsSVdhLXRyZXBYc21LdU5CelN4MEVYalR1dmF3YlZXMlh1UlhZd2VlWWtKYkxWUFdYbDN6clVLTHUxYXdnNXJLZnRMTVJNVC16YjVja0dxbEM0bmlyODlydlVKQW84LUVDZExFbV9NVk5tOUdqbk5Hd0t3NzNRaXQ3OW1lelhWa0NidFlWd0Jn?oc=5",
-      "source": "Electrek",
-      "published": "2026-09-27T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Mazda has added LiDAR to its CX-6e model and rolled out self-driving technology in China. This move enhances the vehicle's perception capabilities and marks Mazda's entry into the competitive market of autonomous driving, particularly in a region with growing demand for advanced mobility solutions.",
-      "abstract": "Mazda has added LiDAR to its CX-6e model and rolled out self-driving technology in China. This move enhances the vehicle's perception capabilities and marks Mazda's entry into the competitive market of autonomous driving, particularly in a region with growing demand for advanced mobility solutions.",
-      "score": 55
     },
     {
       "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
@@ -85,31 +96,9 @@
       "source": "arXiv",
       "published": "2026-09-29T23:00:01Z",
       "category": "arxiv-explainability-av",
-      "summary": "The Vision-Language-Action (VLA) foundation models, developed by a research group, address the challenge of limited visual input in autonomous driving by introducing AD-Memo, a VLA driving agent with language-based memory. AD-Memo extends the Chain-of-Thought (CoT) to enhance interpretability and memory for tasks like determining arrival order at all-way stops and long-horizon driving scene understanding. This approach improves the agent's ability to handle memory-dependent tasks while maintaining interpretability.",
-      "abstract": "The Vision-Language-Action (VLA) foundation models, developed by a research group, address the challenge of limited visual input in autonomous driving by introducing AD-Memo, a VLA driving agent with language-based memory. AD-Memo extends the Chain-of-Thought (CoT) to enhance interpretability and memory for tasks like determining arrival order at all-way stops and long-horizon driving scene understanding. This approach improves the agent's ability to handle memory-dependent tasks while maintaining interpretability.",
-      "score": 95
-    },
-    {
-      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
-      "topic": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
-      "url": "https://arxiv.org/abs/2610.03948v1",
-      "source": "arXiv",
-      "published": "2026-10-02T19:07:28Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "A research team proposes Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a retrieval-augmented generation (RAG) framework that integrates value principles from Chinese Confucian thought into autonomous driving decision-making. CPW-Drive uses LLM-extracted keywords from classical texts to guide driving decisions, balancing safety, efficiency, and social norms in complex traffic interactions. This approach aims to enhance the ethical and philosophical considerations in autonomous driving systems.",
-      "abstract": "A research team proposes Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a retrieval-augmented generation (RAG) framework that integrates value principles from Chinese Confucian thought into autonomous driving decision-making. CPW-Drive uses LLM-extracted keywords from classical texts to guide driving decisions, balancing safety, efficiency, and social norms in complex traffic interactions. This approach aims to enhance the ethical and philosophical considerations in autonomous driving systems.",
-      "score": 90
-    },
-    {
-      "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
-      "topic": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
-      "url": "https://arxiv.org/abs/2609.16909v1",
-      "source": "arXiv",
-      "published": "2026-09-15T09:40:37Z",
-      "category": "arxiv-explainability-av",
-      "summary": "A research group introduces PiPS (Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation), a method to enhance the interpretability of dense predictions in autonomous vehicles. PiPS uses prototype-based reasoning to explain model decisions based on visual similarity, addressing the gap in interpretability for tasks requiring precise object localization. This approach is crucial for building trust in decision-making systems in safety-critical environments.",
-      "abstract": "A research group introduces PiPS (Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation), a method to enhance the interpretability of dense predictions in autonomous vehicles. PiPS uses prototype-based reasoning to explain model decisions based on visual similarity, addressing the gap in interpretability for tasks requiring precise object localization. This approach is crucial for building trust in decision-making systems in safety-critical environments.",
-      "score": 85
+      "summary": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
+      "abstract": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
+      "score": 61
     }
   ]
 }
