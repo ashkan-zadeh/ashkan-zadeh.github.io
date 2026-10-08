@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-07T13:29:42.256946Z",
+  "updated_at": "2026-10-08T13:35:34.777988Z",
   "items": [
+    {
+      "title": "Slovakia to approve Tesla's self-driving tech",
+      "topic": "Slovakia to approve Tesla's self-driving tech",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMDlLVUhMaWcwdk1wSFQtMGc2eE9SVHNLZE9teUZWTEVHWE9sNjU4bnprQUJzMHEzLUJmZUU1U3ZVdXV4Y2lKbjJqVEFJMXFzNzVSWU1KQ21NWDM4bWFoLTA0MmZ1dXdqTnhDSzZkNXd5S1d0QUpEWWZvRDJ5VFlCS252OEtzY2xIUnNITVN2cw?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-08T10:37:54Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "US grants Aurora exemption for self-driving trucks safety feature",
+      "topic": "US grants Aurora exemption for self-driving trucks safety feature",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONnE4aU1ld3FwRG93N0JmVUhpT1AzcWx0cDkwWXRzbG81VmNGTE9GTHh1ZHVsajZmTDZGUXJockJMLXV5ZFN4emtGZE8yTFU3T2UzU2VkdWVXZGgyX2ZETmdTamhZa1pZbmVjNk9jUU9YRmNTelpfZVBoNDY4Y0xqM3FBSTFMUTgzMWFlaVVVaW5lWHVWN1J6bXRUeEd0eU5HM0o1T1BvcnRTUQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-08T01:39:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 56
+    },
+    {
+      "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
+      "topic": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.10390v1",
+      "source": "arXiv",
+      "published": "2026-10-07T16:47:17Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner.",
+      "abstract": "Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner.",
+      "score": 61
+    },
     {
       "title": "Inside Tesla's pressure campaign to win EU approval for 'Full Self-Driving'",
       "topic": "Inside Tesla's pressure campaign to win EU approval for 'Full Self-Driving'",
@@ -22,6 +55,28 @@
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
+    },
+    {
+      "title": "Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving",
+      "topic": "Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.08331v1",
+      "source": "arXiv",
+      "published": "2026-10-06T13:30:06Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomous driving scenes named Spatial Temporal Coherence Adversarial Attack (STCA).",
+      "abstract": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomous driving scenes named Spatial Temporal Coherence Adversarial Attack (STCA).",
+      "score": 59
+    },
+    {
+      "title": "An open vision-language model for diverse medical applications",
+      "topic": "An open vision-language model for diverse medical applications",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12S1R2MXpxNnpkQnEzUHVlcEtBNmxpdnNueFB6ck13Nmx4UkowTVpqMXVRb0VlZ0xLcW5LbEZkWGlSaTBOdV9pWkFFQTVrMnJJRU1mNzV3MDFtOERTREFZ?oc=5",
+      "source": "Nature",
+      "published": "2026-10-06T11:13:51Z",
+      "category": "vlm",
+      "summary": "Headline tracked from Nature as a recent vision-language model signal.",
+      "abstract": "A new vision-language model or multimodal AI system has been introduced or evaluated, extending joint understanding of visual scenes and natural language. The architecture achieves strong performance on benchmarks requiring visual question answering, image captioning, or grounded instruction following in complex visual environments. For autonomous vehicle research, VLMs offer a path toward perception modules that can interpret scenes semantically and generate natural-language justifications for driving decisions. The model's zero-shot and few-shot generalisation capabilities are particularly relevant for handling rare or novel driving scenarios not covered by training distributions.",
+      "score": 38
     },
     {
       "title": "Autonomous Orange: YMX adds self-driving tech to its electric yard trucks",
