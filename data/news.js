@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-10-08T13:35:34.662777Z",
+  "generated_at": "2026-10-09T13:22:20.855006Z",
   "items": [
     {
       "title": "Autonomous Orange: YMX adds self-driving tech to its electric yard trucks",
@@ -24,13 +24,13 @@ window.NEWS_FEED = {
       "score": 56
     },
     {
-      "title": "Slovakia to approve Tesla's self-driving tech",
-      "topic": "Slovakia to approve Tesla's self-driving tech",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMDlLVUhMaWcwdk1wSFQtMGc2eE9SVHNLZE9teUZWTEVHWE9sNjU4bnprQUJzMHEzLUJmZUU1U3ZVdXV4Y2lKbjJqVEFJMXFzNzVSWU1KQ21NWDM4bWFoLTA0MmZ1dXdqTnhDSzZkNXd5S1d0QUpEWWZvRDJ5VFlCS252OEtzY2xIUnNITVN2cw?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-08T10:37:54Z",
+      "title": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
+      "topic": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbjNhRVlHWHNKTzZFQlV5SS1UaHp2cnBEdnNvYVVscFY2NFVzNjhkbHlId19WYkdXUFJPMGQxSU14a1hvN3lUYklCa0VxUzMxcHQ3dFkwQmpBNkRIU1lYODR0cXh3MjJJM1JvcHZ3WmdJN1F0SF9QSjVYZk5ISTZuV1Z5OW1kdmFhU0F2OUdUMnU0RW1na1JxbVhWY2VsMU45U0c4V0hVMVFlZVhYY1M1VV90T1hHcW55SUVvREZHdjhTMldHTFZnenhDcVlTV2FYZ29CSlZNcFZNMlRqbWdieEdBYmY5RFNMeEJiTGtGVDVSbS0yMTBKUkNQa3hvWTNPbGx5X3BYZk4zUy1nSFpkX0pYVl9uQ28wb2xldHVPZ1V1M3k0VF9sNGhBUXZPaVZlMkxZNlBDWUNhUEZoOGdka0tIRUtiSEk?oc=5",
+      "source": "TechRadar",
+      "published": "2026-10-08T16:30:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "summary": "Headline tracked from TechRadar as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -46,11 +46,22 @@ window.NEWS_FEED = {
       "score": 38
     },
     {
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "topic": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNXFDYkV2a0RmeF9ScTZKLWFUYmFnMEpZSHZZaXZQT01NRE9lMTl2b2Q2Q1k5cFJkckltZGNmd0hYUlRDakdfdGlBRHpiSTYtWFRhZGdfYWpRMGtYaGlYbXowQzBQcWtremlEU05xQXF5WnJBRXoxZV9EMnF4eF9pd3d6RWFzTDR1VjFVbnpETWlPN01Da2RZYVo4XzdXNTdibVFfYWljSmN0UU0?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-09T09:48:26Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Verge as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 31
+    },
+    {
       "title": "Whatever AI Safety Is, It’s Not This",
       "topic": "Whatever AI Safety Is, It’s Not This",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4X0h0SzFmS0JnYk10b29nTlZTcFdfZFM5cXhJbW5IS2wtaGNQOVRyM0hvUERTNVZfQzh2akNLWUt0NmRqOEVweWg1NWtEQXVUdlA5VlZlcDJ5SWRLbDB2eFJSSVRQVGFRMU5SRHZodVZqaW1qdWJGZVdJVQ?oc=5",
       "source": "WIRED",
-      "published": "2026-10-01T22:10:00Z",
+      "published": "2026-10-01T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from WIRED as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
@@ -61,22 +72,22 @@ window.NEWS_FEED = {
       "topic": "Google rolls out new Gemini AI model but restricts access over safety concerns",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5",
       "source": "The Guardian",
-      "published": "2026-10-01T16:57:00Z",
+      "published": "2026-10-01T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from The Guardian as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
     },
     {
-      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-      "topic": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkx5d1RMWVJHSW1kaVhqOG81c3dvTHplelc1Tm1GVi16dmVkZjE3bDNEdTB2WUJrS1hzalM5WGkzcnd3UXFUOEo2XzA0LXQwUlJ6dzBOOExlLWVHU3l2QVlQOWlvSWJQeUtTMHVxbTNLc3NNTzMtbjRta0tJUmwybw?oc=5",
-      "source": "WIRED",
-      "published": "2026-09-30T20:30:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from WIRED as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 27
+      "title": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
+      "topic": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
+      "url": "https://arxiv.org/abs/2610.12266v1",
+      "source": "arXiv",
+      "published": "2026-10-08T16:32:28Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with unbounded spatial range and high localization accuracy requirements. To address these challenges, we propose a dynamic vector decoding method named DVD, which unifies the representation of 2D and 3D perception tasks.",
+      "abstract": "Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with unbounded spatial range and high localization accuracy requirements. To address these challenges, we propose a dynamic vector decoding method named DVD, which unifies the representation of 2D and 3D perception tasks.",
+      "score": 61
     },
     {
       "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
@@ -99,17 +110,6 @@ window.NEWS_FEED = {
       "summary": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
       "abstract": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
       "score": 61
-    },
-    {
-      "title": "Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving",
-      "topic": "Transferable Spatial Temporal Coherence Adversarial Attack on Black-Box Vision Language Models for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2610.08331v1",
-      "source": "arXiv",
-      "published": "2026-10-06T13:30:06Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomous driving scenes named Spatial Temporal Coherence Adversarial Attack (STCA).",
-      "abstract": "The rapid integration of Vision Language Models (VLMs) into sensitive systems introduces critical safety vulnerabilities that remain unexplored in exist studies. While adversarial attack robustness has been extensively studied for image-based models, the susceptibility of VLMs to temporally-aware adversarial attacks against video in driving context poses a distinct and under examined threat. In this paper, we introduce novel adversarial attack against video targeting VLM models used for autonomous driving scenes named Spatial Temporal Coherence Adversarial Attack (STCA).",
-      "score": 59
     }
   ]
 };

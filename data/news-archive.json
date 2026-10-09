@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-08T13:35:34.777988Z",
+  "updated_at": "2026-10-09T13:22:20.969500Z",
   "items": [
+    {
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "topic": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNXFDYkV2a0RmeF9ScTZKLWFUYmFnMEpZSHZZaXZQT01NRE9lMTl2b2Q2Q1k5cFJkckltZGNmd0hYUlRDakdfdGlBRHpiSTYtWFRhZGdfYWpRMGtYaGlYbXowQzBQcWtremlEU05xQXF5WnJBRXoxZV9EMnF4eF9pd3d6RWFzTDR1VjFVbnpETWlPN01Da2RZYVo4XzdXNTdibVFfYWljSmN0UU0?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-09T09:48:26Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Verge as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 31
+    },
+    {
+      "title": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
+      "topic": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
+      "url": "https://arxiv.org/abs/2610.12266v1",
+      "source": "arXiv",
+      "published": "2026-10-08T16:32:28Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with unbounded spatial range and high localization accuracy requirements. To address these challenges, we propose a dynamic vector decoding method named DVD, which unifies the representation of 2D and 3D perception tasks.",
+      "abstract": "Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with unbounded spatial range and high localization accuracy requirements. To address these challenges, we propose a dynamic vector decoding method named DVD, which unifies the representation of 2D and 3D perception tasks.",
+      "score": 61
+    },
+    {
+      "title": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
+      "topic": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbjNhRVlHWHNKTzZFQlV5SS1UaHp2cnBEdnNvYVVscFY2NFVzNjhkbHlId19WYkdXUFJPMGQxSU14a1hvN3lUYklCa0VxUzMxcHQ3dFkwQmpBNkRIU1lYODR0cXh3MjJJM1JvcHZ3WmdJN1F0SF9QSjVYZk5ISTZuV1Z5OW1kdmFhU0F2OUdUMnU0RW1na1JxbVhWY2VsMU45U0c4V0hVMVFlZVhYY1M1VV90T1hHcW55SUVvREZHdjhTMldHTFZnenhDcVlTV2FYZ29CSlZNcFZNMlRqbWdieEdBYmY5RFNMeEJiTGtGVDVSbS0yMTBKUkNQa3hvWTNPbGx5X3BYZk4zUy1nSFpkX0pYVl9uQ28wb2xldHVPZ1V1M3k0VF9sNGhBUXZPaVZlMkxZNlBDWUNhUEZoOGdka0tIRUtiSEk?oc=5",
+      "source": "TechRadar",
+      "published": "2026-10-08T16:30:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechRadar as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "Slovakia to approve Tesla's self-driving tech",
       "topic": "Slovakia to approve Tesla's self-driving tech",
