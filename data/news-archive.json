@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-09T13:22:20.969500Z",
+  "updated_at": "2026-10-10T12:37:03.612067Z",
   "items": [
+    {
+      "title": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
+      "topic": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdy1iSkc0ZEdYRzVOZDZtNndUbThKSmdMRlo4M3Bwd2hWdld4ajB3SFBUMmRhWXd4WG45V3VCY284TmpSam5FVkFheHNCN2VrNzRXcnN0MFpkb0ZXbDN4SWZmLU5pd0ZXU1c5c25sYmdOV3ltSXV4NHZNUENqZ2VieWctSFBCMExFdWFpa0kxaDA?oc=5",
+      "source": "WIRED",
+      "published": "2026-10-09T20:18:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "OpenAI doubles down on decision to fire three AI safety researchers",
       "topic": "OpenAI doubles down on decision to fire three AI safety researchers",

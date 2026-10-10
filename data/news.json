@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:22:20.855006Z",
+  "generated_at": "2026-10-10T12:37:03.488398Z",
   "items": [
     {
       "title": "Autonomous Orange: YMX adds self-driving tech to its electric yard trucks",
@@ -24,13 +24,13 @@
       "score": 56
     },
     {
-      "title": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
-      "topic": "Germany could force Tesla to ditch its misleading ‘Full Self Driving’ name — and it’s about time other countries followed suit",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbjNhRVlHWHNKTzZFQlV5SS1UaHp2cnBEdnNvYVVscFY2NFVzNjhkbHlId19WYkdXUFJPMGQxSU14a1hvN3lUYklCa0VxUzMxcHQ3dFkwQmpBNkRIU1lYODR0cXh3MjJJM1JvcHZ3WmdJN1F0SF9QSjVYZk5ISTZuV1Z5OW1kdmFhU0F2OUdUMnU0RW1na1JxbVhWY2VsMU45U0c4V0hVMVFlZVhYY1M1VV90T1hHcW55SUVvREZHdjhTMldHTFZnenhDcVlTV2FYZ29CSlZNcFZNMlRqbWdieEdBYmY5RFNMeEJiTGtGVDVSbS0yMTBKUkNQa3hvWTNPbGx5X3BYZk4zUy1nSFpkX0pYVl9uQ28wb2xldHVPZ1V1M3k0VF9sNGhBUXZPaVZlMkxZNlBDWUNhUEZoOGdka0tIRUtiSEk?oc=5",
-      "source": "TechRadar",
-      "published": "2026-10-08T16:30:00Z",
+      "title": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
+      "topic": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdy1iSkc0ZEdYRzVOZDZtNndUbThKSmdMRlo4M3Bwd2hWdld4ajB3SFBUMmRhWXd4WG45V3VCY284TmpSam5FVkFheHNCN2VrNzRXcnN0MFpkb0ZXbDN4SWZmLU5pd0ZXU1c5c25sYmdOV3ltSXV4NHZNUENqZ2VieWctSFBCMExFdWFpa0kxaDA?oc=5",
+      "source": "WIRED",
+      "published": "2026-10-09T20:18:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from TechRadar as a recent automated vehicle signal.",
+      "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -79,6 +79,17 @@
       "score": 27
     },
     {
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information...",
+      "abstract": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information fusion and semantic alignment.",
+      "score": 76
+    },
+    {
       "title": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
       "topic": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
       "url": "https://arxiv.org/abs/2610.12266v1",
@@ -98,17 +109,6 @@
       "category": "arxiv-llm-vlm-av",
       "summary": "Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner.",
       "abstract": "Vision-language-action~(VLA) models have emerged as a promising paradigm for autonomous driving. However, existing VLA models still suffer from a fundamental mismatch: driving actions require precise 3D geometric cues, while visual-language understanding and reasoning are largely conducted in a 2D semantic space. In this paper, we propose GeoCoTDrive, an explicit geometric chain-of-thought framework that grounds geometry in a planning-oriented manner.",
-      "score": 61
-    },
-    {
-      "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
-      "topic": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
-      "url": "https://arxiv.org/abs/2609.38641v1",
-      "source": "arXiv",
-      "published": "2026-09-29T23:00:01Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
-      "abstract": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
       "score": 61
     }
   ]
