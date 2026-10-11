@@ -108,7 +108,9 @@ const timeline = [
   [
     "Apr 2022 - Present",
     "Peer Reviewer",
-    "Reviewing for IEEE Transactions on Intelligent Transportation Systems and IEEE Access.",
+    "Reviewing for IEEE Transactions on Intelligent Transportation Systems, IEEE Access, and Transportation Research Part F: Traffic Psychology and Behaviour (Elsevier).",
+    "/asset/img/certificate-trf-1.png",
+    "/asset/pdf/Certificate_TRF_Recognised.pdf",
   ],
   [
     "Nov 2022 - Mar 2023",
@@ -386,7 +388,7 @@ const OriginalSections = () => (
 
     <Section id="experience" kicker="Experience" title="Roles and jobs.">
       <div className="space-y-4">
-        {timeline.map(([period, title, text]) => (
+        {timeline.map(([period, title, text, image, link]) => (
           <article
             className="grid md:grid-cols-4 gap-3 border-t border-line pt-4"
             key={`${period}-${title}`}
@@ -397,6 +399,15 @@ const OriginalSections = () => (
             <div className="md:col-span-3">
               <h3 className="font-header font-bold text-front">{title}</h3>
               <p className="font-text text-sm mt-1">{text}</p>
+              {image && (
+                <a href={link} target="_blank" rel="noreferrer noopener">
+                  <img
+                    className="mt-3 w-full max-w-md border border-line"
+                    src={image}
+                    alt={`${title} certificate`}
+                  />
+                </a>
+              )}
             </div>
           </article>
         ))}
