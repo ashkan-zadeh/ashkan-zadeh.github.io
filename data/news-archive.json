@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-10T12:37:03.612067Z",
+  "updated_at": "2026-10-11T12:55:55.514229Z",
   "items": [
+    {
+      "title": "Tesla's Full Self-Driving Is Now Called Assisted Driving In Europe",
+      "topic": "Tesla's Full Self-Driving Is Now Called Assisted Driving In Europe",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNek9fUklOeEVGYmhHMzZmOEYxWEdxWkNGeUlWRFpYckZ4QVM0aDlkUC1OU3BZWllrSWFsQWR3eHR1SHlvTm04U3ZFNTl5eUNqT2dUS1BKOVpCLU1sMnl0UGJPVDhZWU04aC00ZW1sUjVubm15blRnZDREUGcwVjcxMUQ2aFpyNlk1?oc=5",
+      "source": "Engadget",
+      "published": "2026-10-10T11:12:55Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Engadget as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
       "topic": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
@@ -9,6 +20,17 @@
       "published": "2026-10-09T20:18:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from WIRED as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
+      "topic": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnJEV3lEaHZrclRXcmRvamIzWE9TSktyUDI2bjJKdkJNamtYWkpqVE0yOVVhaDJjcThTd1FDc2VLY1NvQ3VaQVdSQllNM3pHOHJpQTZ5djI0X3JOQVhoNTloeG5KZ0Z2TlBpRVN2dTc1WnM3S1VaWllRcklRYlE5Y1lrNEtWZjNkX2RORDBCU2JjNWtUZ0tWczJ6VHJwNENtSjF0Qw?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-09T16:07:26Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
