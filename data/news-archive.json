@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-14T11:58:21.597516Z",
+  "updated_at": "2026-10-15T11:34:41.461461Z",
   "items": [
+    {
+      "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
+      "topic": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GZTlIVXVnazYxNTFrWEppcUVrV3ZIVUVNY2RQQURkSGtDR29wcnJ1SUxqSnNlc0ZTVFpnN0RORDBqNFRHWFZBTXZiMWp0TnBPMC1uZnZIWkJwTHI2UGJn?oc=5",
+      "source": "Nature",
+      "published": "2026-10-14T22:55:28Z",
+      "category": "ai",
+      "summary": "Headline tracked from Nature as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "Nvidia pledges $250 million to UK AI safety research",
       "topic": "Nvidia pledges $250 million to UK AI safety research",
@@ -35,6 +46,17 @@
       "score": 66
     },
     {
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "topic": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkdWMWdtZHpPVGw2ckJseDNGd1FVVGE5ZVo2cUd6TEpSTE1xRlJNNXY2X1RLRWo0ZTAtOTc2VFRaQTBuMjNrX2ZjYkZyNUphUlBrWnNwb1hmWGNmRDN1bHFkMVRuelNRSHdXNFN3WWVzSXpTLWk4eldfNEVRTDdvVWttZ19zOEFjZjlLbkpKWXpZVlVHV3RyQW1RZ0NfMTBSTHc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-12T15:31:19Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
+      "score": 25
+    },
+    {
       "title": "Tesla's Full Self-Driving Is Now Called Assisted Driving In Europe",
       "topic": "Tesla's Full Self-Driving Is Now Called Assisted Driving In Europe",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNek9fUklOeEVGYmhHMzZmOEYxWEdxWkNGeUlWRFpYckZ4QVM0aDlkUC1OU3BZWllrSWFsQWR3eHR1SHlvTm04U3ZFNTl5eUNqT2dUS1BKOVpCLU1sMnl0UGJPVDhZWU04aC00ZW1sUjVubm15blRnZDREUGcwVjcxMUQ2aFpyNlk1?oc=5",
@@ -64,6 +86,17 @@
       "published": "2026-10-09T16:07:26Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe as it chases clearance for software",
+      "topic": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe as it chases clearance for software",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV250TWJ1ZlRmak0zTWREOUloN0VqTXBaMUFDM25yRENjSllTdHNMZ0RrSF91WTBOUVhMYkxXVkswQWJGaWhKaV8wLXdOYVJ2bXEyZkliMlpmMDlYU3I1YVFuYWw4V0N6dEpyNnoybTBXOUVFX1ktSEZxQ19IaGxEUk1PT1dQOHVBdWpyOUg2WWM3OUdPNVZMQWdRRktzYWFaR1JSZGREQXJJZGdYQnpfUGM4YkF6RTh0M1dpNkwxUUlIcDctVjhvNzV4dUxjeUdNSkJ4Mm43MDI?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-09T14:56:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
