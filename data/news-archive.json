@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-15T11:34:41.461461Z",
+  "updated_at": "2026-10-16T11:29:17.926518Z",
   "items": [
+    {
+      "title": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "topic": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUh6d0NyZGxfYjd4bDhwRWdkT0wxOG4xUUlrQkZFZ0JMTlNJMzVUVWRHNDhyYWR2Vzh0RGRsUk9YdDhHeE92NlBPTWlnU1htMHotSVhfRGoydXVjM21UcEV6Z3dsSGtSSGhOcExMaFBud3ZVcGJDU1NNUXFUcFBCdDNwZUFfWVY4QnJjNEhaWHQ2Z01PUUt4enJJVWRxWjA5aTNVUncwSW1XcFB5c2VzYXBmR3RNZVZxNHpzd1c1bHhUSzZIa1E?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-15T10:52:58Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
     {
       "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
       "topic": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
