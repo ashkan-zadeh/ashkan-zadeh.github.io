@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:34:41.344149Z",
+  "generated_at": "2026-10-16T11:29:17.804583Z",
   "items": [
     {
       "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
@@ -50,11 +50,22 @@
       "topic": "Nvidia pledges $250 million to UK AI safety research",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
       "source": "Reuters",
-      "published": "2026-10-14T06:19:00Z",
+      "published": "2026-10-14T09:56:33Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 31
+    },
+    {
+      "title": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "topic": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUh6d0NyZGxfYjd4bDhwRWdkT0wxOG4xUUlrQkZFZ0JMTlNJMzVUVWRHNDhyYWR2Vzh0RGRsUk9YdDhHeE92NlBPTWlnU1htMHotSVhfRGoydXVjM21UcEV6Z3dsSGtSSGhOcExMaFBud3ZVcGJDU1NNUXFUcFBCdDNwZUFfWVY4QnJjNEhaWHQ2Z01PUUt4enJJVWRxWjA5aTNVUncwSW1XcFB5c2VzYXBmR3RNZVZxNHpzd1c1bHhUSzZIa1E?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-15T10:52:58Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "Microsoft president says UK is best placed to drive AI regulation",
@@ -68,26 +79,15 @@
       "score": 25
     },
     {
-      "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
-      "topic": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GZTlIVXVnazYxNTFrWEppcUVrV3ZIVUVNY2RQQURkSGtDR29wcnJ1SUxqSnNlc0ZTVFpnN0RORDBqNFRHWFZBTXZiMWp0TnBPMC1uZnZIWkJwTHI2UGJn?oc=5",
-      "source": "Nature",
-      "published": "2026-10-14T22:55:28Z",
-      "category": "ai",
-      "summary": "Headline tracked from Nature as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
-      "title": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
-      "topic": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
-      "url": "https://arxiv.org/abs/2610.16985v1",
-      "source": "arXiv",
-      "published": "2026-10-12T15:42:09Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "Vision-language-action (VLA) models show strong potential for end-to-end autonomous driving by leveraging world knowledge and understanding to excel in long-tail scenarios. However, current VLAs have two limitations: 1) Degeneration into vision-action (VA) models. For low latency, regression/flow-based methods directly generate actions but underuse VLM understanding, causing unsafe, unexplainable actions.",
-      "abstract": "Vision-language-action (VLA) models show strong potential for end-to-end autonomous driving by leveraging world knowledge and understanding to excel in long-tail scenarios. However, current VLAs have two limitations: 1) Degeneration into vision-action (VA) models. For low latency, regression/flow-based methods directly generate actions but underuse VLM understanding, causing unsafe, unexplainable actions.",
-      "score": 66
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information...",
+      "abstract": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information fusion and semantic alignment.",
+      "score": 76
     },
     {
       "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
