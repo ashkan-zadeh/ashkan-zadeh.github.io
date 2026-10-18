@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:49:29.052827Z",
+  "generated_at": "2026-10-18T11:12:32.740286Z",
   "items": [
     {
       "title": "US appeals court blocks class actions over Tesla's self-driving claims",
@@ -24,13 +24,13 @@
       "score": 49
     },
     {
-      "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
-      "topic": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnJEV3lEaHZrclRXcmRvamIzWE9TSktyUDI2bjJKdkJNamtYWkpqVE0yOVVhaDJjcThTd1FDc2VLY1NvQ3VaQVdSQllNM3pHOHJpQTZ5djI0X3JOQVhoNTloeG5KZ0Z2TlBpRVN2dTc1WnM3S1VaWllRcklRYlE5Y1lrNEtWZjNkX2RORDBCU2JjNWtUZ0tWczJ6VHJwNENtSjF0Qw?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-09T16:07:26Z",
+      "title": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe as it chases clearance for software",
+      "topic": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe as it chases clearance for software",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV250TWJ1ZlRmak0zTWREOUloN0VqTXBaMUFDM25yRENjSllTdHNMZ0RrSF91WTBOUVhMYkxXVkswQWJGaWhKaV8wLXdOYVJ2bXEyZkliMlpmMDlYU3I1YVFuYWw4V0N6dEpyNnoybTBXOUVFX1ktSEZxQ19IaGxEUk1PT1dQOHVBdWpyOUg2WWM3OUdPNVZMQWdRRktzYWFaR1JSZGREQXJJZGdYQnpfUGM4YkF6RTh0M1dpNkwxUUlIcDctVjhvNzV4dUxjeUdNSkJ4Mm43MDI?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-09T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -79,28 +79,6 @@
       "score": 27
     },
     {
-      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "url": "http://ieeexplore.ieee.org/document/11603845",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-07-13T13:18:34Z",
-      "category": "journal-rss",
-      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "score": 66
-    },
-    {
-      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "url": "http://ieeexplore.ieee.org/document/11676400",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-09-03T13:17:08Z",
-      "category": "journal-rss",
-      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "score": 65
-    },
-    {
       "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
       "topic": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
       "url": "https://arxiv.org/abs/2610.20609v1",
@@ -110,6 +88,28 @@
       "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness.",
       "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness.",
       "score": 62
+    },
+    {
+      "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
+      "topic": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
+      "url": "https://arxiv.org/abs/2609.38641v1",
+      "source": "arXiv",
+      "published": "2026-09-29T23:00:01Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
+      "abstract": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
+      "score": 61
+    },
+    {
+      "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
+      "topic": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
+      "url": "https://arxiv.org/abs/2610.21067v1",
+      "source": "arXiv",
+      "published": "2026-10-15T01:14:33Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inaccessible to many domain researchers. Current workflows require proficiency in game engines such as Unity or Unreal Engine, imposing significant barriers to rapid scenario prototyping and iterative experiment design. This paper presents XARA, a novel system that integrates a dual large language model (LLM) architecture with an immersive XR environment to enable voice driven experiment generation for transportation research.",
+      "abstract": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inaccessible to many domain researchers. Current workflows require proficiency in game engines such as Unity or Unreal Engine, imposing significant barriers to rapid scenario prototyping and iterative experiment design. This paper presents XARA, a novel system that integrates a dual large language model (LLM) architecture with an immersive XR environment to enable voice driven experiment generation for transportation research.",
+      "score": 59
     }
   ]
 }
