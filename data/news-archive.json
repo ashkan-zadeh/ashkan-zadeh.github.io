@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T11:12:32.857429Z",
+  "updated_at": "2026-10-19T13:23:56.240378Z",
   "items": [
     {
       "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
@@ -33,6 +33,17 @@
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
+    },
+    {
+      "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "topic": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "url": "https://arxiv.org/abs/2610.23356v1",
+      "source": "arXiv",
+      "published": "2026-10-16T12:01:05Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
+      "abstract": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
+      "score": 65
     },
     {
       "title": "China's ByteDance sets up AI safety team, launches global hiring drive",

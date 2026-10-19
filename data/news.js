@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-10-18T11:12:32.740286Z",
+  "generated_at": "2026-10-19T13:23:56.120000Z",
   "items": [
     {
       "title": "US appeals court blocks class actions over Tesla's self-driving claims",
@@ -46,17 +46,6 @@ window.NEWS_FEED = {
       "score": 38
     },
     {
-      "title": "Nvidia pledges $250 million to UK AI safety research",
-      "topic": "Nvidia pledges $250 million to UK AI safety research",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-14T09:56:33Z",
-      "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 31
-    },
-    {
       "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
       "topic": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGgzckNkaE5BdjZxdVMta2hsdVczMHFrZ2U4aFgzY2VsLVF5VEFpd1FMQVc1V084YTZQU0IyMkdWbXZTbEtpdlhFWHR2SUI1SDdsczFmeERfNHhfOXRpR2NLTVhjRWF4YWNYaDBPWXJDSXpqLUgtSERBY1lHejU3MTl0T2pPMzlKRDlsdmFNM3kwQk1YSFlyMnpDN1FSVG0xM2xqNTZrbnNxQTVkT3drcVJSVm0zNFlYOUstZzlDYldrc1p5OWJR?oc=5",
@@ -79,37 +68,48 @@ window.NEWS_FEED = {
       "score": 27
     },
     {
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "topic": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "url": "https://arxiv.org/abs/2610.20609v1",
-      "source": "arXiv",
-      "published": "2026-10-14T17:59:56Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness.",
-      "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness.",
-      "score": 62
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "topic": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkdWMWdtZHpPVGw2ckJseDNGd1FVVGE5ZVo2cUd6TEpSTE1xRlJNNXY2X1RLRWo0ZTAtOTc2VFRaQTBuMjNrX2ZjYkZyNUphUlBrWnNwb1hmWGNmRDN1bHFkMVRuelNRSHdXNFN3WWVzSXpTLWk4eldfNEVRTDdvVWttZ19zOEFjZjlLbkpKWXpZVlVHV3RyQW1RZ0NfMTBSTHc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-12T15:31:19Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
+      "score": 25
     },
     {
-      "title": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
-      "topic": "Vision-Language-Action Autonomous Driving Agent with Language-based Memory",
-      "url": "https://arxiv.org/abs/2609.38641v1",
-      "source": "arXiv",
-      "published": "2026-09-29T23:00:01Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
-      "abstract": "Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable.",
-      "score": 61
+      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "url": "http://ieeexplore.ieee.org/document/11603845",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-07-13T13:18:34Z",
+      "category": "journal-rss",
+      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "score": 66
     },
     {
-      "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
-      "topic": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
-      "url": "https://arxiv.org/abs/2610.21067v1",
+      "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "topic": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
+      "url": "https://arxiv.org/abs/2610.23356v1",
       "source": "arXiv",
-      "published": "2026-10-15T01:14:33Z",
+      "published": "2026-10-16T12:01:05Z",
       "category": "arxiv-llm-vlm-av",
-      "summary": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inaccessible to many domain researchers. Current workflows require proficiency in game engines such as Unity or Unreal Engine, imposing significant barriers to rapid scenario prototyping and iterative experiment design. This paper presents XARA, a novel system that integrates a dual large language model (LLM) architecture with an immersive XR environment to enable voice driven experiment generation for transportation research.",
-      "abstract": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inaccessible to many domain researchers. Current workflows require proficiency in game engines such as Unity or Unreal Engine, imposing significant barriers to rapid scenario prototyping and iterative experiment design. This paper presents XARA, a novel system that integrates a dual large language model (LLM) architecture with an immersive XR environment to enable voice driven experiment generation for transportation research.",
-      "score": 59
+      "summary": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
+      "abstract": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
+      "score": 65
+    },
+    {
+      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "url": "http://ieeexplore.ieee.org/document/11676400",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-09-03T13:17:08Z",
+      "category": "journal-rss",
+      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
+      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
+      "score": 65
     }
   ]
 };
