@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:23:56.120000Z",
+  "generated_at": "2026-10-20T11:43:50.459274Z",
   "items": [
     {
       "title": "US appeals court blocks class actions over Tesla's self-driving claims",
@@ -35,17 +35,6 @@
       "score": 49
     },
     {
-      "title": "An open vision-language model for diverse medical applications",
-      "topic": "An open vision-language model for diverse medical applications",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12S1R2MXpxNnpkQnEzUHVlcEtBNmxpdnNueFB6ck13Nmx4UkowTVpqMXVRb0VlZ0xLcW5LbEZkWGlSaTBOdV9pWkFFQTVrMnJJRU1mNzV3MDFtOERTREFZ?oc=5",
-      "source": "Nature",
-      "published": "2026-10-06T07:00:00Z",
-      "category": "vlm",
-      "summary": "Headline tracked from Nature as a recent vision-language model signal.",
-      "abstract": "A new vision-language model or multimodal AI system has been introduced or evaluated, extending joint understanding of visual scenes and natural language. The architecture achieves strong performance on benchmarks requiring visual question answering, image captioning, or grounded instruction following in complex visual environments. For autonomous vehicle research, VLMs offer a path toward perception modules that can interpret scenes semantically and generate natural-language justifications for driving decisions. The model's zero-shot and few-shot generalisation capabilities are particularly relevant for handling rare or novel driving scenarios not covered by training distributions.",
-      "score": 38
-    },
-    {
       "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
       "topic": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGgzckNkaE5BdjZxdVMta2hsdVczMHFrZ2U4aFgzY2VsLVF5VEFpd1FMQVc1V084YTZQU0IyMkdWbXZTbEtpdlhFWHR2SUI1SDdsczFmeERfNHhfOXRpR2NLTVhjRWF4YWNYaDBPWXJDSXpqLUgtSERBY1lHejU3MTl0T2pPMzlKRDlsdmFNM3kwQk1YSFlyMnpDN1FSVG0xM2xqNTZrbnNxQTVkT3drcVJSVm0zNFlYOUstZzlDYldrc1p5OWJR?oc=5",
@@ -72,44 +61,44 @@
       "topic": "Microsoft president says UK is best placed to drive AI regulation",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkdWMWdtZHpPVGw2ckJseDNGd1FVVGE5ZVo2cUd6TEpSTE1xRlJNNXY2X1RLRWo0ZTAtOTc2VFRaQTBuMjNrX2ZjYkZyNUphUlBrWnNwb1hmWGNmRDN1bHFkMVRuelNRSHdXNFN3WWVzSXpTLWk4eldfNEVRTDdvVWttZ19zOEFjZjlLbkpKWXpZVlVHV3RyQW1RZ0NfMTBSTHc?oc=5",
       "source": "TechCrunch",
-      "published": "2026-10-12T15:31:19Z",
+      "published": "2026-10-12T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from TechCrunch as a recent AI signal.",
       "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
       "score": 25
     },
     {
-      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "url": "http://ieeexplore.ieee.org/document/11603845",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-07-13T13:18:34Z",
-      "category": "journal-rss",
-      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "score": 66
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information...",
+      "abstract": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information fusion and semantic alignment.",
+      "score": 76
     },
     {
-      "title": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
-      "topic": "STC-MGNet: Spatial-Temporal-Channel Attention-Enhanced Multimodal Graph Network for Pedestrian Intention Prediction",
-      "url": "https://arxiv.org/abs/2610.23356v1",
-      "source": "arXiv",
-      "published": "2026-10-16T12:01:05Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
-      "abstract": "Accurate prediction of pedestrian crossing intentions plays a critical role in enhancing the safety of pedestrian-vehicle interactions in autonomous driving. However, effectively capturing subtle spatiotemporal patterns in pedestrian pose sequences and integrating complementary visual and ego-vehicle motion information remain challenging. This paper proposes a spatial-temporal-channel attention-enhanced multimodal graph network (STC-MGNet) for pedestrian crossing intention prediction.",
-      "score": 65
+      "title": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
+      "topic": "Adaptive stress testing of autonomous vehicle-pedestrian interactions: A large language model (LLM) distillation approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26004869?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-10-20T11:43:26.845112Z",
+      "category": "journal-rss",
+      "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 57
     },
     {
-      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "url": "http://ieeexplore.ieee.org/document/11676400",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-09-03T13:17:08Z",
+      "title": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
+      "topic": "How do emotional cues influence drivers' pre-takeover readiness in automated driving? Evidence from olfaction-involved affective multimodal interaction",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1369847826002500?dgcid=rss_sd_all",
+      "source": "Transportation Research Part F: Traffic Psychology and Behaviour",
+      "published": "2026-10-20T11:43:27.493831Z",
       "category": "journal-rss",
-      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "score": 65
+      "summary": "Headline tracked from Transportation Research Part F: Traffic Psychology and Behaviour as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 55
     }
   ]
 }
