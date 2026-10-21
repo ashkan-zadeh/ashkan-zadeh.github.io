@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-20T11:43:50.578967Z",
+  "updated_at": "2026-10-21T11:56:11.673332Z",
   "items": [
+    {
+      "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+      "topic": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEFIVWxsdm9QSkVrWDY4UTgzc3RXRUE5YWZTVmRkaWlzZHR2THozNnA0Rkx6dWp2QndzaXdoMllsM0V4WDZEZW9XZUVKVnFicHp5eEhEbkNNNXVvZFlJZW5hVjhMcklwY0tnWHhsTWx2amd6V2RZSGY2RmVGNFpJVnRIcG1jQ2ZEYWZNd0xfeTRmRGhRSkN5WWpoQjhqM00tenZ3U3VvUXdmTUhpTVNvUVZXWUQ4aW9yVlFvWHNmdXpKeEk?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-21T10:57:43Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 49
+    },
+    {
+      "title": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
+      "topic": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWGJVNHZWcFp1b0U5bk9CYktzTFQ0dWtxU0lGaW0zVGVpeGVsazdKeTMwLV9LT0FhRTQxWFhyUHB5N3M2dnloekE0UThjb2dINVQyb1B5WEdhTFNidElPdnNWZ1RWSy1IeGxzYS14M3BCZFBuNmxTSFVFdW9TdUxMY3VsbzNNQ1VHdGdPaWVKOVBJNm5IQWk3YmxwTUNhNlJEUmlaMkQxYlp5b01hM0cxMjVmaHR6R3dQa05r?oc=5",
+      "source": "NVIDIA Newsroom",
+      "published": "2026-10-21T10:23:51Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from NVIDIA Newsroom as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-20T23:01:23Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Cities want to put the boot on robotaxis",
+      "topic": "Cities want to put the boot on robotaxis",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWNPTXFLNUFXYUNEZ1pvWWlQRW5oWGxoSkZ6cm44NjUxaTRTWklvOEp0V1ZPdC03VFZOVVZ3OGJ3TnFoY1NMZVJfR05xMlVNSEJ0aG5kUEdhcHVlbEtCZWNSenJQUHhlVW9oWHZwQ3VrbkkyVHRpTUEtWXUyWi1pYzZnYXg?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-18T12:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
     {
       "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
       "topic": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
@@ -3828,6 +3872,17 @@
       "summary": "Headline tracked from The Verge as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
+    },
+    {
+      "title": "A Distributed Consensus Algorithm for Prioritizing Autonomous Vehicle Passing at Unsignalized Intersections Under Mixed Traffic",
+      "topic": "A Distributed Consensus Algorithm for Prioritizing Autonomous Vehicle Passing at Unsignalized Intersections Under Mixed Traffic",
+      "url": "http://ieeexplore.ieee.org/document/11534416",
+      "source": "IEEE Transactions on Vehicular Technology",
+      "published": "2026-05-22T13:16:29Z",
+      "category": "journal-rss",
+      "summary": "We propose a methodology for connected autonomous vehicles (CAVs) to determine their passing priority at unsignalized intersections where they coexist with human-driven vehicles (HVs). Assuming that CAVs can perceive the entry order of surrounding vehicles using computer vision technology and are capable of avoiding collisions, we introduce a voting-based distributed consensus algorithm inspired by Raft to resolve tie-breaking among simultaneously arriving CAVs. The algorithm is structured around the candidate and leader election processes and incorporates a minimal consensus quorum to ensure both safety and liveness among CAVs under typical asynchronous communication conditions.",
+      "abstract": "We propose a methodology for connected autonomous vehicles (CAVs) to determine their passing priority at unsignalized intersections where they coexist with human-driven vehicles (HVs). Assuming that CAVs can perceive the entry order of surrounding vehicles using computer vision technology and are capable of avoiding collisions, we introduce a voting-based distributed consensus algorithm inspired by Raft to resolve tie-breaking among simultaneously arriving CAVs. The algorithm is structured around the candidate and leader election processes and incorporates a minimal consensus quorum to ensure both safety and liveness among CAVs under typical asynchronous communication conditions.",
+      "score": 58
     },
     {
       "title": "Waymo suspends freeway rides, pauses Atlanta operations amid safety fixes",
