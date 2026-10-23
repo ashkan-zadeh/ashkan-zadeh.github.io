@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-22T11:59:12.348893Z",
+  "updated_at": "2026-10-23T03:32:35.059030Z",
   "items": [
+    {
+      "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpMMVEzYmpXbnI0RXZKeG5rWW04dzNLbVp4S1ZGV0hJUmdfS24xZ0R1dTdsUHYwdk5DVHF5RzhaVV9QaW9oNW9zckJOLUFVaGFMMHlEV2VXYUlZMkRlRjV2QmRiUHlvZXN1LVVkX1VSTlU2ZHF5X2ZlOUdNQ2NucFlNdWxNRC1WMF9QSlhMWkVvZkd2TlNDOFVR?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-22T18:07:02Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "url": "https://arxiv.org/abs/2610.30953v1",
+      "source": "arXiv",
+      "published": "2026-10-22T09:04:06Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "score": 64
+    },
     {
       "title": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
       "topic": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
