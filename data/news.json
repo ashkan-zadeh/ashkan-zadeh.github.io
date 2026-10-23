@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-22T11:59:12.279800Z",
+  "generated_at": "2026-10-23T03:32:34.960108Z",
   "items": [
+    {
+      "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpMMVEzYmpXbnI0RXZKeG5rWW04dzNLbVp4S1ZGV0hJUmdfS24xZ0R1dTdsUHYwdk5DVHF5RzhaVV9QaW9oNW9zckJOLUFVaGFMMHlEV2VXYUlZMkRlRjV2QmRiUHlvZXN1LVVkX1VSTlU2ZHF5X2ZlOUdNQ2NucFlNdWxNRC1WMF9QSlhMWkVvZkd2TlNDOFVR?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-22T18:07:02Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
       "topic": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
@@ -24,17 +35,6 @@
       "score": 49
     },
     {
-      "title": "US appeals court blocks class actions over Tesla's self-driving claims",
-      "topic": "US appeals court blocks class actions over Tesla's self-driving claims",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSi1jRE51Z3VxRjhwUXZnVmc5UncxU1h1VEJLMWtJV3JCRk44WEE1MWNvY0I3RGFONU51OHhWczRnb2R2UVA1WU9ZQi1sWDVCLXBCbXlXM1hsejJUazVNWDJsUWs1RXVuY3NucVpMQmhDazd1Y1dzREo2QUhRZ0RkTVhlT2g1RGZiWjBqbXg1U3YtOExkLXNfcVVhWTBOQ2M0am9wdTlrQmdVUHJkMDlaWEItSmZOaUR2eWZlQlUwSXlVbGpORkhN?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-16T19:21:06Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
-    },
-    {
       "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
@@ -46,26 +46,26 @@
       "score": 27
     },
     {
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "topic": "Microsoft president says UK is best placed to drive AI regulation",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkdWMWdtZHpPVGw2ckJseDNGd1FVVGE5ZVo2cUd6TEpSTE1xRlJNNXY2X1RLRWo0ZTAtOTc2VFRaQTBuMjNrX2ZjYkZyNUphUlBrWnNwb1hmWGNmRDN1bHFkMVRuelNRSHdXNFN3WWVzSXpTLWk4eldfNEVRTDdvVWttZ19zOEFjZjlLbkpKWXpZVlVHV3RyQW1RZ0NfMTBSTHc?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-12T07:00:00Z",
+      "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
+      "topic": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGgzckNkaE5BdjZxdVMta2hsdVczMHFrZ2U4aFgzY2VsLVF5VEFpd1FMQVc1V084YTZQU0IyMkdWbXZTbEtpdlhFWHR2SUI1SDdsczFmeERfNHhfOXRpR2NLTVhjRWF4YWNYaDBPWXJDSXpqLUgtSERBY1lHejU3MTl0T2pPMzlKRDlsdmFNM3kwQk1YSFlyMnpDN1FSVG0xM2xqNTZrbnNxQTVkT3drcVJSVm0zNFlYOUstZzlDYldrc1p5OWJR?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-16T23:23:52Z",
       "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
-      "score": 25
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
-      "title": "Exclusive: Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "topic": "Exclusive: Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORmdhRjMyV2xlNUowWGN6eHJZRnNWbTJ2Z1dkQXNpUjNxVmN2V1BVTEJHekt4YnFITlVMOWtUYWhOSnQ0UzI5ZHNUdnU2NkUwS2FMT0ZCWmUtajdtWkVQZHZvR2JFZHZlLXRab0E0d3RmUmVJTExxWS0tUFg4cE1DSWhRbU43M2c1bnYyVlhobDZtMTNXRW8zcGtGaGk1TFF0ZmhnS21kSEZDajllV0JmbHF5aGNqeWM5NWltM1czNW1mNnJKZlZYeTlR?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-20T16:00:00Z",
+      "title": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "topic": "China's ByteDance sets up AI safety team, launches global hiring drive",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUh6d0NyZGxfYjd4bDhwRWdkT0wxOG4xUUlrQkZFZ0JMTlNJMzVUVWRHNDhyYWR2Vzh0RGRsUk9YdDhHeE92NlBPTWlnU1htMHotSVhfRGoydXVjM21UcEV6Z3dsSGtSSGhOcExMaFBud3ZVcGJDU1NNUXFUcFBCdDNwZUFfWVY4QnJjNEhaWHQ2Z01PUUt4enJJVWRxWjA5aTNVUncwSW1XcFB5c2VzYXBmR3RNZVZxNHpzd1c1bHhUSzZIa1E?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-15T10:52:58Z",
       "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
@@ -90,15 +90,15 @@
       "score": 65
     },
     {
-      "title": "A Distributed Consensus Algorithm for Prioritizing Autonomous Vehicle Passing at Unsignalized Intersections Under Mixed Traffic",
-      "topic": "A Distributed Consensus Algorithm for Prioritizing Autonomous Vehicle Passing at Unsignalized Intersections Under Mixed Traffic",
-      "url": "http://ieeexplore.ieee.org/document/11534416",
-      "source": "IEEE Transactions on Vehicular Technology",
-      "published": "2026-05-22T13:16:29Z",
-      "category": "journal-rss",
-      "summary": "We propose a methodology for connected autonomous vehicles (CAVs) to determine their passing priority at unsignalized intersections where they coexist with human-driven vehicles (HVs). Assuming that CAVs can perceive the entry order of surrounding vehicles using computer vision technology and are capable of avoiding collisions, we introduce a voting-based distributed consensus algorithm inspired by Raft to resolve tie-breaking among simultaneously arriving CAVs. The algorithm is structured around the candidate and leader election processes and incorporates a minimal consensus quorum to ensure both safety and liveness among CAVs under typical asynchronous communication conditions.",
-      "abstract": "We propose a methodology for connected autonomous vehicles (CAVs) to determine their passing priority at unsignalized intersections where they coexist with human-driven vehicles (HVs). Assuming that CAVs can perceive the entry order of surrounding vehicles using computer vision technology and are capable of avoiding collisions, we introduce a voting-based distributed consensus algorithm inspired by Raft to resolve tie-breaking among simultaneously arriving CAVs. The algorithm is structured around the candidate and leader election processes and incorporates a minimal consensus quorum to ensure both safety and liveness among CAVs under typical asynchronous communication conditions.",
-      "score": 58
+      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "url": "https://arxiv.org/abs/2610.30953v1",
+      "source": "arXiv",
+      "published": "2026-10-22T09:04:06Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "score": 64
     }
   ]
 }
