@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:07:17.883853Z",
+  "generated_at": "2026-10-25T11:37:01.881445Z",
   "items": [
     {
       "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
@@ -24,15 +24,15 @@
       "score": 49
     },
     {
-      "title": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
-      "topic": "Einride expands Nvidia partnership to deploy AI reasoning model for self-driving trucks",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEFIVWxsdm9QSkVrWDY4UTgzc3RXRUE5YWZTVmRkaWlzZHR2THozNnA0Rkx6dWp2QndzaXdoMllsM0V4WDZEZW9XZUVKVnFicHp5eEhEbkNNNXVvZFlJZW5hVjhMcklwY0tnWHhsTWx2amd6V2RZSGY2RmVGNFpJVnRIcG1jQ2ZEYWZNd0xfeTRmRGhRSkN5WWpoQjhqM00tenZ3U3VvUXdmTUhpTVNvUVZXWUQ4aW9yVlFvWHNmdXpKeEk?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-21T10:57:43Z",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "topic": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWhUal96SUMzM0RCbURnU0FPWnNfYzF2Qmtjc09PbjcwUmgzTmFyR1lyOHdtbUNFV0tuX3hMTzhIamtJTGk2cVBFeGI5dXJYOW04NERCU005LVp3NkdUMlVwSjVGYzJJcGZDTElfRVhfYjJYNnpPdmNVNjhlRUtHQ1hwbjZKc1NDNXc3cUdGbWtmNVJrRW1oR2d3SGtmemZfV0s0dmhVT2tqQWtQWHoySEN1SFpiYk5yUnc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-23T04:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
-      "score": 49
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
     },
     {
       "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
