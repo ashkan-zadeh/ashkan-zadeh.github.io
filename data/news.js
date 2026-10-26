@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-10-25T11:37:01.881445Z",
+  "generated_at": "2026-10-26T13:10:33.814052Z",
   "items": [
     {
       "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
@@ -24,22 +24,22 @@ window.NEWS_FEED = {
       "score": 49
     },
     {
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "topic": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWhUal96SUMzM0RCbURnU0FPWnNfYzF2Qmtjc09PbjcwUmgzTmFyR1lyOHdtbUNFV0tuX3hMTzhIamtJTGk2cVBFeGI5dXJYOW04NERCU005LVp3NkdUMlVwSjVGYzJJcGZDTElfRVhfYjJYNnpPdmNVNjhlRUtHQ1hwbjZKc1NDNXc3cUdGbWtmNVJrRW1oR2d3SGtmemZfV0s0dmhVT2tqQWtQWHoySEN1SFpiYk5yUnc?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-23T04:00:00Z",
+      "title": "Tesla receives approval for self-driving tech in Slovakia",
+      "topic": "Tesla receives approval for self-driving tech in Slovakia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYkpLcVpZWEc2dGRtc0pJdW1YX1RrS2ZTZmxRWWl2b20tNEIxdlNQQ1VzeTdVaTN1SnZMQ3M5WFF5akUydzl1elFqVmp4elJoaUF6NHhRRGEtaFdScFRkbjlyWllHRDN6ZFdvT3BBTzFlTkF2Vm1SRGVuRnVnbl9RUXpSNmQtX0ZtVU9jajdFX1hfS2ZOcVM0VUFMYw?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-16T07:00:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
+      "score": 49
     },
     {
       "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
       "topic": "OpenAI and Poland’s NASK collaborate on AI safety research",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5",
       "source": "Reuters",
-      "published": "2026-10-23T06:25:00Z",
+      "published": "2026-10-23T06:27:55Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
@@ -90,15 +90,15 @@ window.NEWS_FEED = {
       "score": 65
     },
     {
-      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "url": "https://arxiv.org/abs/2610.30953v1",
-      "source": "arXiv",
-      "published": "2026-10-22T09:04:06Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "score": 64
+      "title": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
+      "topic": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
+      "url": "http://ieeexplore.ieee.org/document/11666996",
+      "source": "IEEE Open Journal of Intelligent Transportation Systems",
+      "published": "2026-08-25T13:16:24Z",
+      "category": "journal-rss",
+      "summary": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
+      "abstract": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
+      "score": 57
     }
   ]
 };

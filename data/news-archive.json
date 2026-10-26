@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:37:01.978772Z",
+  "updated_at": "2026-10-26T13:10:33.942874Z",
   "items": [
     {
       "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
@@ -1518,6 +1518,17 @@
       "summary": "Headline tracked from Reuters as a recent automated-vehicle signal.",
       "abstract": "Waymo to begin testing autonomous vehicles in Munich is included as a recent automated-vehicle update relevant to autonomous systems research. The item is useful for tracking developments in deployment, safety, perception, language interfaces, or explainable AI. The original source should be consulted for the full details and context.",
       "score": 51
+    },
+    {
+      "title": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
+      "topic": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
+      "url": "http://ieeexplore.ieee.org/document/11666996",
+      "source": "IEEE Open Journal of Intelligent Transportation Systems",
+      "published": "2026-08-25T13:16:24Z",
+      "category": "journal-rss",
+      "summary": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
+      "abstract": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
+      "score": 57
     },
     {
       "title": "China proposes road traffic law amendment with autonomous vehicles section, Xinhua says",
