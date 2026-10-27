@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-26T13:10:33.942874Z",
+  "updated_at": "2026-10-27T12:17:39.555802Z",
   "items": [
+    {
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "topic": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-26T20:40:18Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
+      "topic": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTT0tHZ0EyX0pTVTgyTGUyZG81US1PeWw0Q1dmTmwySWo2cG1UZjJnRXBUeXhaMl91Szl1OFpPaDBOMGtpQ1B1RzFQVS1IcUg4YjFVV3o1R2x1eWxiN0ZxRTZ0emZuLXg4VktxWllfZkYwT3Utb211ZXpFRkE?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-26T17:22:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
+      "topic": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
+      "url": "https://arxiv.org/abs/2610.35629v1",
+      "source": "arXiv",
+      "published": "2026-10-26T15:40:38Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of...",
+      "abstract": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of robot missions and drives that guide the behavior of the robot.",
+      "score": 63
+    },
+    {
+      "title": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
+      "topic": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeElPVkNER05wRW5DQWNtdWtLSnFYNmF2TDN5NzNnanZwaGtMbWZCcWt3dG40S0hheHo3emo1aWpIM192TUxINWlRZlRmcWZ1WmJhc2JDU3pXdFVRWGhBblNMUTh1NUIxRmRKMjJqSFFFcFpaZzRnemljWFpEdTN0eDA0WjdqY1lmZFRCOFozbHBGRHJMOURmMC1hQ3dQV3FOTmlodFJjRQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-26T12:58:40Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "topic": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEZiX0YxaWdzSkFoZjVyMDFnZk9XVDlPZzNRSXpFZFM1LThYekZ3YW5EOHExSGdGZm1YbUdfdHNFRFJjbXJaVmo2MFJtclp0WVdQTkNfYTR3X3hrQzdZcEZkU3hBUUJXZXVrZkJkbEFjeFo2eTlsa2dPckR5cWNaLUdGUklMOTcyTk5UY2ZFSVBYY2k1N2hUODNkZlkwaHppOEF3UVprOHZ0aGtY?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-24T15:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
       "topic": "OpenAI and Poland’s NASK collaborate on AI safety research",
@@ -121,6 +176,17 @@
       "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
+    },
+    {
+      "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
+      "topic": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
+      "url": "https://arxiv.org/abs/2610.24590v1",
+      "source": "arXiv",
+      "published": "2026-10-17T09:53:47Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
+      "abstract": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
+      "score": 63
     },
     {
       "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",

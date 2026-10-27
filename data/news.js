@@ -1,6 +1,28 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-10-26T13:10:33.814052Z",
+  "generated_at": "2026-10-27T12:17:39.425384Z",
   "items": [
+    {
+      "title": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
+      "topic": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTT0tHZ0EyX0pTVTgyTGUyZG81US1PeWw0Q1dmTmwySWo2cG1UZjJnRXBUeXhaMl91Szl1OFpPaDBOMGtpQ1B1RzFQVS1IcUg4YjFVV3o1R2x1eWxiN0ZxRTZ0emZuLXg4VktxWllfZkYwT3Utb211ZXpFRkE?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-26T17:22:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
+      "topic": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeElPVkNER05wRW5DQWNtdWtLSnFYNmF2TDN5NzNnanZwaGtMbWZCcWt3dG40S0hheHo3emo1aWpIM192TUxINWlRZlRmcWZ1WmJhc2JDU3pXdFVRWGhBblNMUTh1NUIxRmRKMjJqSFFFcFpaZzRnemljWFpEdTN0eDA0WjdqY1lmZFRCOFozbHBGRHJMOURmMC1hQ3dQV3FOTmlodFJjRQ?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-26T12:58:40Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
       "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
@@ -11,39 +33,6 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
-    },
-    {
-      "title": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
-      "topic": "Lucid’s 25,000 Bolt robotaxis will run on Nvidia’s self-driving software",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUGpGbmVka0h0MG5Ga05zQjNfNklHV0xJV2syTm9DaVFjLVlyRjd3NlNPTVp5OXZIa3NuNGxCMmRQcGhkc0RaZ1JqTmwyT01lc1cycGx0eDRCTWtPd0Z4SFk2TF9HRjEzOGRHcHlVVURBVmlGMXRwaV8wVndFS3VPeklTbm9zdw?oc=5",
-      "source": "Electrek",
-      "published": "2026-10-21T17:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
-    },
-    {
-      "title": "Tesla receives approval for self-driving tech in Slovakia",
-      "topic": "Tesla receives approval for self-driving tech in Slovakia",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYkpLcVpZWEc2dGRtc0pJdW1YX1RrS2ZTZmxRWWl2b20tNEIxdlNQQ1VzeTdVaTN1SnZMQ3M5WFF5akUydzl1elFqVmp4elJoaUF6NHhRRGEtaFdScFRkbjlyWllHRDN6ZFdvT3BBTzFlTkF2Vm1SRGVuRnVnbl9RUXpSNmQtX0ZtVU9jajdFX1hfS2ZOcVM0VUFMYw?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-16T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
-    },
-    {
-      "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
-      "topic": "OpenAI and Poland’s NASK collaborate on AI safety research",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-23T06:27:55Z",
-      "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 31
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -57,48 +46,59 @@ window.NEWS_FEED = {
       "score": 27
     },
     {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "topic": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHVNeUo5OThtcHVOdE1HTHhlQjV0TXR0RkVpMEk2Qm1hQjdPNzlkaXZaZU5oX1Y3eFoyUW1FZGZ5YmJOX0d0eGRHUUtRaEtvbzRvcWtOenFzSWowam1ZMlQyTmJleGN3dU1JbVhiemduMnZRY0E0a3U4V1N2bUZhLXBRTXNySFdNeE92S3pPeWRmUDRRd0VLYWRCNklpZ2c2NDhOckpzTE5tbnItcXV5VVE2ajJwRG9UeHFOcWpsNmRqbUh0bVpR?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-26T20:40:18Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "topic": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEZiX0YxaWdzSkFoZjVyMDFnZk9XVDlPZzNRSXpFZFM1LThYekZ3YW5EOHExSGdGZm1YbUdfdHNFRFJjbXJaVmo2MFJtclp0WVdQTkNfYTR3X3hrQzdZcEZkU3hBUUJXZXVrZkJkbEFjeFo2eTlsa2dPckR5cWNaLUdGUklMOTcyTk5UY2ZFSVBYY2k1N2hUODNkZlkwaHppOEF3UVprOHZ0aGtY?oc=5",
       "source": "TechCrunch",
-      "published": "2026-10-20T23:01:23Z",
+      "published": "2026-10-24T15:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 27
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     },
     {
-      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
-      "url": "http://ieeexplore.ieee.org/document/11603845",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-07-13T13:18:34Z",
-      "category": "journal-rss",
-      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
-      "score": 66
+      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
+      "url": "https://arxiv.org/abs/2610.30953v1",
+      "source": "arXiv",
+      "published": "2026-10-22T09:04:06Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
+      "score": 64
     },
     {
-      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
-      "url": "http://ieeexplore.ieee.org/document/11676400",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-09-03T13:17:08Z",
-      "category": "journal-rss",
-      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
-      "score": 65
+      "title": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
+      "topic": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
+      "url": "https://arxiv.org/abs/2610.35629v1",
+      "source": "arXiv",
+      "published": "2026-10-26T15:40:38Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of...",
+      "abstract": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of robot missions and drives that guide the behavior of the robot.",
+      "score": 63
     },
     {
-      "title": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
-      "topic": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
-      "url": "http://ieeexplore.ieee.org/document/11666996",
-      "source": "IEEE Open Journal of Intelligent Transportation Systems",
-      "published": "2026-08-25T13:16:24Z",
-      "category": "journal-rss",
-      "summary": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
-      "abstract": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
-      "score": 57
+      "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
+      "topic": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
+      "url": "https://arxiv.org/abs/2610.24590v1",
+      "source": "arXiv",
+      "published": "2026-10-17T09:53:47Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
+      "abstract": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
+      "score": 63
     }
   ]
 };
