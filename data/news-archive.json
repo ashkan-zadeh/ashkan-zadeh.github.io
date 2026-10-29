@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-28T13:00:26.952790Z",
+  "updated_at": "2026-10-29T13:07:58.586231Z",
   "items": [
+    {
+      "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
+      "topic": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYjh3SVB5QkI5b2FUQ0ptMFpDNWRsTU9yVVd3Q0kxZnJUWG1wUDZnYXVzeEt5T1ZLVHJQcHBTV3V0SkRFNGc2NnkyQ0haTGhVcU9HWkJqRTFzY1MzWFNCMTF4Tjl5S09BeG5CN3dDTzhJY1RGRHlSaTBOb3FtdDNTRWRUYThoYXJXRVlud050R29xTVVMSUhMTHFWWm16T3l6RF9hcWhyMTBLeHk4cWxkRWp0dlp1N1c3RXN3eWFfemljc01ZTnBseW5aU3VDUlZleDlhSDAtUVBJUWFXaEE?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-29T02:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "DeepSeek AI model shows safety gaps in independent tests",
       "topic": "DeepSeek AI model shows safety gaps in independent tests",
