@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-30T13:00:48.668962Z",
+  "updated_at": "2026-10-31T12:38:56.522046Z",
   "items": [
+    {
+      "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "topic": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NSkFyeDNuT2J1ME9SdzgyaURJNG5QQlEyVnRiaXpQZ1ZZVlVvVS1USnBrcm82VWp4TEkyamJldi1oS1BRZlBTdC1lV2ZlYlFJMkV3ZWN5VHFfWU9kT2ZZ?oc=5",
+      "source": "Nature",
+      "published": "2026-10-29T11:01:56Z",
+      "category": "llm",
+      "summary": "Headline tracked from Nature as a recent LLM signal.",
+      "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
+      "score": 56
+    },
     {
       "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
       "topic": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",

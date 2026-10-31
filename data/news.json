@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-30T13:00:48.553690Z",
+  "generated_at": "2026-10-31T12:38:56.396045Z",
   "items": [
+    {
+      "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "topic": "A clinical multimodal vision language foundation model with fine-grain explainability",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NSkFyeDNuT2J1ME9SdzgyaURJNG5QQlEyVnRiaXpQZ1ZZVlVvVS1USnBrcm82VWp4TEkyamJldi1oS1BRZlBTdC1lV2ZlYlFJMkV3ZWN5VHFfWU9kT2ZZ?oc=5",
+      "source": "Nature",
+      "published": "2026-10-29T11:01:56Z",
+      "category": "llm",
+      "summary": "Headline tracked from Nature as a recent LLM signal.",
+      "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
+      "score": 56
+    },
     {
       "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
       "topic": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
@@ -9,17 +20,6 @@
       "published": "2026-10-29T05:23:03Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
-    },
-    {
-      "title": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
-      "topic": "Tesla turns to car rental platform Turo for Full Self-Driving test drives",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTT0tHZ0EyX0pTVTgyTGUyZG81US1PeWw0Q1dmTmwySWo2cG1UZjJnRXBUeXhaMl91Szl1OFpPaDBOMGtpQ1B1RzFQVS1IcUg4YjFVV3o1R2x1eWxiN0ZxRTZ0emZuLXg4VktxWllfZkYwT3Utb211ZXpFRkE?oc=5",
-      "source": "Electrek",
-      "published": "2026-10-26T17:22:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -35,15 +35,15 @@
       "score": 49
     },
     {
-      "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
-      "topic": "OpenAI and Poland’s NASK collaborate on AI safety research",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-23T06:27:55Z",
-      "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 31
+      "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpMMVEzYmpXbnI0RXZKeG5rWW04dzNLbVp4S1ZGV0hJUmdfS24xZ0R1dTdsUHYwdk5DVHF5RzhaVV9QaW9oNW9zckJOLUFVaGFMMHlEV2VXYUlZMkRlRjV2QmRiUHlvZXN1LVVkX1VSTlU2ZHF5X2ZlOUdNQ2NucFlNdWxNRC1WMF9QSlhMWkVvZkd2TlNDOFVR?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-22T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
     },
     {
       "title": "DeepSeek AI model shows safety gaps in independent tests",
@@ -64,6 +64,17 @@
       "published": "2026-10-23T05:11:03Z",
       "category": "ai",
       "summary": "Headline tracked from OpenAI as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-20T07:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
     },
