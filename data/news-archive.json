@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-31T12:38:56.522046Z",
+  "updated_at": "2026-11-01T13:30:19.144654Z",
   "items": [
+    {
+      "title": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
+      "topic": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FTnkxdFlNY3lsV2xkeGNBN05Nd3BMM0FiVDBOdGUzNmxJaU9sR1I0alFOaHVKdkVlLWZXM1haYTV0WWQ0OUF2YllzaWphbW8wTU9vRF9BdmlmRTlUb0JTMFh0NTkzS2hHbld2Sjhnc0FSV09sWXdZNQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-30T14:22:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
+      "topic": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHBySWZ6THhnWVV5dlhYSzJNUXlPR3NvVGVPUDFkRmFROEJCQkxfUHdzSEdtbXdoOU1KNWd3azZwbURmMklLMTRJM0VTejRQNklQdjNXaFB0cTRrQWlDbDFpdkYwX2FOTVVVY2JVQm02NFduYjJnNV9FZ3MwMGE4WmdOUERIX01iSnZ4N21RZ3JmXzNjTzdwSUpGRTBlb1Jz?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-30T13:52:14Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
       "topic": "A clinical multimodal vision language foundation model with fine-grain explainability",

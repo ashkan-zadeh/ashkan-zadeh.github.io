@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-10-31T12:38:56.396045Z",
+  "generated_at": "2026-11-01T13:30:19.079300Z",
   "items": [
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
@@ -24,26 +24,26 @@ window.NEWS_FEED = {
       "score": 49
     },
     {
-      "title": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
-      "topic": "Tesla turns to Turo to boost adoption of Full Self-Driving (Supervised)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeElPVkNER05wRW5DQWNtdWtLSnFYNmF2TDN5NzNnanZwaGtMbWZCcWt3dG40S0hheHo3emo1aWpIM192TUxINWlRZlRmcWZ1WmJhc2JDU3pXdFVRWGhBblNMUTh1NUIxRmRKMjJqSFFFcFpaZzRnemljWFpEdTN0eDA0WjdqY1lmZFRCOFozbHBGRHJMOURmMC1hQ3dQV3FOTmlodFJjRQ?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-26T12:58:40Z",
+      "title": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
+      "topic": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FTnkxdFlNY3lsV2xkeGNBN05Nd3BMM0FiVDBOdGUzNmxJaU9sR1I0alFOaHVKdkVlLWZXM1haYTV0WWQ0OUF2YllzaWphbW8wTU9vRF9BdmlmRTlUb0JTMFh0NTkzS2hHbld2Sjhnc0FSV09sWXdZNQ?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-30T14:22:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
+      "score": 43
     },
     {
-      "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
-      "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpMMVEzYmpXbnI0RXZKeG5rWW04dzNLbVp4S1ZGV0hJUmdfS24xZ0R1dTdsUHYwdk5DVHF5RzhaVV9QaW9oNW9zckJOLUFVaGFMMHlEV2VXYUlZMkRlRjV2QmRiUHlvZXN1LVVkX1VSTlU2ZHF5X2ZlOUdNQ2NucFlNdWxNRC1WMF9QSlhMWkVvZkd2TlNDOFVR?oc=5",
+      "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
+      "topic": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHBySWZ6THhnWVV5dlhYSzJNUXlPR3NvVGVPUDFkRmFROEJCQkxfUHdzSEdtbXdoOU1KNWd3azZwbURmMklLMTRJM0VTejRQNklQdjNXaFB0cTRrQWlDbDFpdkYwX2FOTVVVY2JVQm02NFduYjJnNV9FZ3MwMGE4WmdOUERIX01iSnZ4N21RZ3JmXzNjTzdwSUpGRTBlb1Jz?oc=5",
       "source": "The Verge",
-      "published": "2026-10-22T07:00:00Z",
+      "published": "2026-10-30T13:52:14Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
+      "score": 43
     },
     {
       "title": "DeepSeek AI model shows safety gaps in independent tests",
@@ -61,7 +61,7 @@ window.NEWS_FEED = {
       "topic": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RYWs0QVF6WTJBcXgyLUdwRndIbUhWZjNjTXRsc0xLOE9LMkZXNXZVQnlPaTU1ZF9lYUxuV2g3cjFjV1ZlNWcxeUFIajR3MVZXb0E1S2FvWVJXb0lWSHY1STdwUENWVUpXNmVKc3pUVWE2NzJSQWh3?oc=5",
       "source": "OpenAI",
-      "published": "2026-10-23T05:11:03Z",
+      "published": "2026-10-23T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from OpenAI as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
