@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T13:30:19.144654Z",
+  "updated_at": "2026-11-02T16:02:01.439451Z",
   "items": [
     {
       "title": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
@@ -22,6 +22,17 @@
       "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
+    },
+    {
+      "title": "Breakingviews - COMMENTARY: Artificial intelligence reaches its Napster moment",
+      "topic": "Breakingviews - COMMENTARY: Artificial intelligence reaches its Napster moment",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMEM3SHF5UUZnYkdJSE5hMWJaY1RQTWRpUG90YjhhWHhZcGtXT2FlcXpfdElleFRGbjdlVVZaR0J1cFpKRTJ3Vzc3ZFg4bG1rNDNvMG8zcVBxSTBPd1NxTTROemttQkN3clc0VUlIUElpenVHY2h3R2N2MXZoYlRXVkhIOUhRYU1YSzFxQXBlSXBiYXpTU0Z1Q0xEN2lQVnE5MDNQckNsYVFvQm9XdnVfMw?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-29T22:04:19Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     },
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
