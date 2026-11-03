@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-02T16:02:01.439451Z",
+  "updated_at": "2026-11-03T14:21:35.199424Z",
   "items": [
+    {
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-11-02T23:13:53Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
+      "topic": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
+      "url": "https://arxiv.org/abs/2611.01996v1",
+      "source": "arXiv",
+      "published": "2026-11-01T15:34:04Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Dynamic map (DM) is a core information infrastructure for vehicle-road-cloud (VRC) cooperative autonomous driving. It fuses perception data from multiple sources to overcome the inherent line-of-sight and field-of-view limits of single-vehicle perception. However, DM still falls short on driving safety in two ways.",
+      "abstract": "Dynamic map (DM) is a core information infrastructure for vehicle-road-cloud (VRC) cooperative autonomous driving. It fuses perception data from multiple sources to overcome the inherent line-of-sight and field-of-view limits of single-vehicle perception. However, DM still falls short on driving safety in two ways.",
+      "score": 74
+    },
     {
       "title": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
       "topic": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027",
@@ -31,6 +53,17 @@
       "published": "2026-10-29T22:04:19Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "topic": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-29T17:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
     },

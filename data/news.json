@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:02:01.311563Z",
+  "generated_at": "2026-11-03T14:21:35.075793Z",
   "items": [
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
@@ -57,26 +57,37 @@
       "score": 27
     },
     {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
       "source": "TechCrunch",
-      "published": "2026-10-20T07:00:00Z",
+      "published": "2026-11-02T23:13:53Z",
       "category": "ai",
       "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 27
-    },
-    {
-      "title": "Breakingviews - COMMENTARY: Artificial intelligence reaches its Napster moment",
-      "topic": "Breakingviews - COMMENTARY: Artificial intelligence reaches its Napster moment",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMEM3SHF5UUZnYkdJSE5hMWJaY1RQTWRpUG90YjhhWHhZcGtXT2FlcXpfdElleFRGbjdlVVZaR0J1cFpKRTJ3Vzc3ZFg4bG1rNDNvMG8zcVBxSTBPd1NxTTROemttQkN3clc0VUlIUElpenVHY2h3R2N2MXZoYlRXVkhIOUhRYU1YSzFxQXBlSXBiYXpTU0Z1Q0xEN2lQVnE5MDNQckNsYVFvQm9XdnVfMw?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-29T22:04:19Z",
-      "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "topic": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-29T17:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
+      "topic": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
+      "url": "https://arxiv.org/abs/2611.01996v1",
+      "source": "arXiv",
+      "published": "2026-11-01T15:34:04Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Dynamic map (DM) is a core information infrastructure for vehicle-road-cloud (VRC) cooperative autonomous driving. It fuses perception data from multiple sources to overcome the inherent line-of-sight and field-of-view limits of single-vehicle perception. However, DM still falls short on driving safety in two ways.",
+      "abstract": "Dynamic map (DM) is a core information infrastructure for vehicle-road-cloud (VRC) cooperative autonomous driving. It fuses perception data from multiple sources to overcome the inherent line-of-sight and field-of-view limits of single-vehicle perception. However, DM still falls short on driving safety in two ways.",
+      "score": 74
     },
     {
       "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
@@ -88,17 +99,6 @@
       "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
       "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
       "score": 64
-    },
-    {
-      "title": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
-      "topic": "From Language to Drives: A Multimodal Framework for Aligning Autonomous Robots with Human Purposes",
-      "url": "https://arxiv.org/abs/2610.35629v1",
-      "source": "arXiv",
-      "published": "2026-10-26T15:40:38Z",
-      "category": "arxiv-llm-vlm-av",
-      "summary": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of...",
-      "abstract": "This work explores a multimodal approach to the alignment of the behavior of open-ended learning autonomous robots with human purposes through the use of large language models as cultural enablers. While autonomous robots can generate their own skills and goals through interaction with the environment, they often lack mechanisms to ensure that these remain relevant and aligned to those of human users. The proposed approach makes use of the general and cultural knowledge contained in LLMs and VLMs to establish a multimodal interactive alignment process in which human purposes, expressed in natural language, are transformed into motivational components of a robot architecture in the form of robot missions and drives that guide the behavior of the robot.",
-      "score": 63
     },
     {
       "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
