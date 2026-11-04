@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:21:35.075793Z",
+  "generated_at": "2026-11-04T14:38:18.036832Z",
   "items": [
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
@@ -13,13 +13,24 @@
       "score": 56
     },
     {
-      "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
-      "topic": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYjh3SVB5QkI5b2FUQ0ptMFpDNWRsTU9yVVd3Q0kxZnJUWG1wUDZnYXVzeEt5T1ZLVHJQcHBTV3V0SkRFNGc2NnkyQ0haTGhVcU9HWkJqRTFzY1MzWFNCMTF4Tjl5S09BeG5CN3dDTzhJY1RGRHlSaTBOb3FtdDNTRWRUYThoYXJXRVlud050R29xTVVMSUhMTHFWWm16T3l6RF9hcWhyMTBLeHk4cWxkRWp0dlp1N1c3RXN3eWFfemljc01ZTnBseW5aU3VDUlZleDlhSDAtUVBJUWFXaEE?oc=5",
-      "source": "Reuters",
-      "published": "2026-10-29T05:23:03Z",
+      "title": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
+      "topic": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPSExtakw0VDBpSHBhVGFLQWtxZFN5VW5KWHdVV1BzaHkydDZVVDBwNVItZ2Y4aWRGVFdNTDVBX0VnVXRYandaLXZ4MGIyUXZ2YnlIZDJ2RUtEbjE2Q05XQndvbVhYU0t6UmNvY0I1YVlUTEEzVkxldjMzbTFMY3pGcElxRHkyTUNqb3RCOFh1Zk9qZGNGUGRmT2NGN1JyeXlnelpqc0E1X3BoOEJVLXBWdEpWRmhPQkgyMVBQUEhManEzb2lEQUs5QjZpTkxabS01a2xLd1otZXNGLWlaS1JBZktKdW8xakxpSXgxZzZubWV4TU9pSmNid2Rfdnc2Z19fU0dXVWxTTjc3UXhFWUVMTVBTMUQwSHNUOVNrVnFCSU9aQnN2SW9leXlQNA?oc=5",
+      "source": "TechRadar",
+      "published": "2026-11-03T17:06:52Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "summary": "Headline tracked from TechRadar as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "topic": "Tesla driver using Full Self-Driving struck and killed a man crossing I-80",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRkpMMVEzYmpXbnI0RXZKeG5rWW04dzNLbVp4S1ZGV0hJUmdfS24xZ0R1dTdsUHYwdk5DVHF5RzhaVV9QaW9oNW9zckJOLUFVaGFMMHlEV2VXYUlZMkRlRjV2QmRiUHlvZXN1LVVkX1VSTlU2ZHF5X2ZlOUdNQ2NucFlNdWxNRC1WMF9QSlhMWkVvZkd2TlNDOFVR?oc=5",
+      "source": "The Verge",
+      "published": "2026-10-22T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 49
     },
@@ -35,15 +46,26 @@
       "score": 43
     },
     {
-      "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
-      "topic": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHBySWZ6THhnWVV5dlhYSzJNUXlPR3NvVGVPUDFkRmFROEJCQkxfUHdzSEdtbXdoOU1KNWd3azZwbURmMklLMTRJM0VTejRQNklQdjNXaFB0cTRrQWlDbDFpdkYwX2FOTVVVY2JVQm02NFduYjJnNV9FZ3MwMGE4WmdOUERIX01iSnZ4N21RZ3JmXzNjTzdwSUpGRTBlb1Jz?oc=5",
-      "source": "The Verge",
-      "published": "2026-10-30T13:52:14Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from The Verge as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
+      "title": "OpenAI and Poland’s NASK collaborate on AI safety research",
+      "topic": "OpenAI and Poland’s NASK collaborate on AI safety research",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeXlMRjNfSEdNVUNrX29ZdW16eE9Ra1ZIbFZhTDFGSXNfSTlNSHZFc3k5MW5FbFdiVHU3Y0NzYkhrSTY0SDFKWXBaT1FXY1pXeDQ1SXZZTUFLMnRxbDhJWFJQWUlHOE1QWXRRei1QM19ySm9udl9FR2ZIQTJVZ014RHd5eDVDYjhnWDFQdDVrQ3pCSXllRmZURzU0UTZfSmJzZTVtM0Vn?oc=5",
+      "source": "Reuters",
+      "published": "2026-10-23T07:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 31
+    },
+    {
+      "title": "DeepSeek AI model shows safety gaps in independent tests",
+      "topic": "DeepSeek AI model shows safety gaps in independent tests",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-02T08:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -57,28 +79,6 @@
       "score": 27
     },
     {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-11-02T23:13:53Z",
-      "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "topic": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjNidjZYcnoxeE9Gc3NzX05BMlFMeDVwRjF2eWNNQ0FZTWR2amRmYm9YVzFKbmJteUR1TEZpallEUXBoeFVKeDBQemNhd3ExckNJUzYxMmFIXy1NNEhqNUdHeW1OVWdyVVRMa2ItV2pxOWhEdzlXRU80NVhOd1FPRFdGSDh0VHRTLWFXamJJUlNabTQyMlVNNjBqc3FMQkg1enB3TlBQcW1ESmhJa1lrcVRpeHJWRFNjdjhB?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-10-29T17:00:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
       "title": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
       "topic": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
       "url": "https://arxiv.org/abs/2611.01996v1",
@@ -90,26 +90,26 @@
       "score": 74
     },
     {
-      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "url": "https://arxiv.org/abs/2610.30953v1",
-      "source": "arXiv",
-      "published": "2026-10-22T09:04:06Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "score": 64
+      "title": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "topic": "Crosswalk Trajectory Prediction via an Intent-Trajectory Integrated Framework for Autonomous Driving",
+      "url": "http://ieeexplore.ieee.org/document/11603845",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-07-13T13:18:34Z",
+      "category": "journal-rss",
+      "summary": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "abstract": "The increasing complexity of automated urban environments demands accurate modeling of pedestrian crossing behavior. Existing approaches often rely on human annotations or vehicle-centric views, limiting their ability to predict pedestrian intentions in dynamic scenarios. In this paper, we propose an Intent-Trajectory Integrated Pedestrian Crossing Prediction framework (ITI-PCP) that explicitly couples high-level semantic intention inference with multimodal trajectory generation.",
+      "score": 66
     },
     {
-      "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
-      "topic": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
-      "url": "https://arxiv.org/abs/2610.24590v1",
-      "source": "arXiv",
-      "published": "2026-10-17T09:53:47Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
-      "abstract": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
-      "score": 63
+      "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "topic": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
+      "url": "http://ieeexplore.ieee.org/document/11676400",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-09-03T13:17:08Z",
+      "category": "journal-rss",
+      "summary": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
+      "abstract": "Environment perception based on multimodal data fusion is crucial for the development of autonomous driving (AD) technology. However, the existing fusion-based detection and tracking methods often struggle to efficiently utilize the multimodal complementary information. This limitation can significantly impact the safety of autonomous vehicles (AVs), especially in complex traffic scenarios and adverse weather conditions.",
+      "score": 65
     }
   ]
 }
