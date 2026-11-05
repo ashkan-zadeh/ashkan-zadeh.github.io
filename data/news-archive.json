@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-04T14:38:18.104822Z",
+  "updated_at": "2026-11-05T14:43:15.265328Z",
   "items": [
+    {
+      "title": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
+      "topic": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUlNFX3ZrUlJVOHZSR3RVX2NLY29RSFNIVE9Mb0dBM0lFWlNZRkVkejdBTnYzMTZUYjNST1dKeGh1bGNQeVUxZXhKeGRMZ1l3TlVvM2Rfd2VnWHllNWlObXpTQk5MZjQxRXNSV1ZWYTRNN2tzSWY0aXJFc0VCbzN3X2JB?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-11-04T21:59:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from InsideEVs as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "topic": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmctOGpnNzF6QjZkU1BvQ3VUSmhmb2I3bXRQQjQyeWRudFp4bHR2WXpIbDFpY0FLR2JTUnp4eTMzN3ozWDk5cGpydzkxZ205MzFWRThkb2ZLVXVjak5LaUNQaFZFeUllQ0YydHFoUWVWNVZ0Z2JNS19YUTR0TWYzNkw3YTVhY3VRRnRoM3NqYzBoWG5wdE94aktTcXp2OGE3czlRQnUtQm1Vd3RBQ1NJNExRLW1ndTlvckpwSFhzTDZ2MkYtbm9OVmNfa2M?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-04T12:40:12Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
+      "title": "Google says there’s no way to use Search without using artificial intelligence",
+      "topic": "Google says there’s no way to use Search without using artificial intelligence",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQejExRlAwVmpXSkJOMFppQ3NXOFRGT2lkOGQ3LURUVS16UjRQa3llY01OY3FxdW1TYWVHZUR4c3NXbTRIT0pUQ2hIZGxlYzRFS2Q1ZG5qRTNNbDV0cnZJMHJaOFRfU1RzTzkzWFF1OVhUaUVhWFh1anhEV0JTb2lSLWJ0UEo5X3pyeWhNTkFSMWMtUQ?oc=5",
+      "source": "The Guardian",
+      "published": "2026-11-03T21:47:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
       "topic": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
