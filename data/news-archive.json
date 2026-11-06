@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-05T14:43:15.265328Z",
+  "updated_at": "2026-11-06T14:20:59.846922Z",
   "items": [
+    {
+      "title": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",
+      "topic": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa2tiTkVnWkx3ZWdXa0tOTU1ZdFRlelRpN2R5bnR3Vmo5dHVqdDBycEVpUjJ1SmxScE54WmF6dWRUVF9keWVwdk5RYXdyZEpjV0pPMmVMbFM3ZDBza1NTS1Itb0NNUHYtc0RoUnBuOHJSakxxTzJ4Nk9vMjJVVEF2dGxRdXdRdW9IY2hfZmNVQ0g1VGFOTkVBbk1PdkQybTc2bnJteTJCMnZoUWtyT2hpYXYwY3RKbnk4YWQwVw?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-05T21:17:07Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "topic": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "url": "https://arxiv.org/abs/2611.08441v1",
+      "source": "arXiv",
+      "published": "2026-11-05T18:33:58Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each frame into structured traffic attributes through a single prompt, and an explainable boosting machine (EBM) combines them with OpenStreetMap road infrastructure and on-bike kinematics to predict a crowdsourced 1-9 safety score.",
+      "abstract": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each frame into structured traffic attributes through a single prompt, and an explainable boosting machine (EBM) combines them with OpenStreetMap road infrastructure and on-bike kinematics to predict a crowdsourced 1-9 safety score.",
+      "score": 69
+    },
+    {
+      "title": "Responsible use of artificial intelligence",
+      "topic": "Responsible use of artificial intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1MWNlUnlUc3NDTjV5dk5zQUZHYkU4aVk1N1B0ZFAxRVYyR3V4T2ttS2x2SEZhdXNfSnBrZElyM2J0OVJCUEdqX0pRaHhFa25MY2FxOGpodVZEX2ltYnVR?oc=5",
+      "source": "Nature",
+      "published": "2026-11-05T18:14:45Z",
+      "category": "ai",
+      "summary": "Headline tracked from Nature as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
       "topic": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
