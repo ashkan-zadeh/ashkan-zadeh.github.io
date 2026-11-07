@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-06T14:20:59.780342Z",
+  "generated_at": "2026-11-07T13:08:15.392129Z",
   "items": [
     {
       "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
@@ -11,17 +11,6 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from Nature as a recent LLM signal.",
       "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
       "score": 56
-    },
-    {
-      "title": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
-      "topic": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand — but BMW says its rival tech is coming in 2027",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPSExtakw0VDBpSHBhVGFLQWtxZFN5VW5KWHdVV1BzaHkydDZVVDBwNVItZ2Y4aWRGVFdNTDVBX0VnVXRYandaLXZ4MGIyUXZ2YnlIZDJ2RUtEbjE2Q05XQndvbVhYU0t6UmNvY0I1YVlUTEEzVkxldjMzbTFMY3pGcElxRHkyTUNqb3RCOFh1Zk9qZGNGUGRmT2NGN1JyeXlnelpqc0E1X3BoOEJVLXBWdEpWRmhPQkgyMVBQUEhManEzb2lEQUs5QjZpTkxabS01a2xLd1otZXNGLWlaS1JBZktKdW8xakxpSXgxZzZubWV4TU9pSmNid2Rfdnc2Z19fU0dXVWxTTjc3UXhFWUVMTVBTMUQwSHNUOVNrVnFCSU9aQnN2SW9leXlQNA?oc=5",
-      "source": "TechRadar",
-      "published": "2026-11-03T17:06:52Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from TechRadar as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
     },
     {
       "title": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",
@@ -46,6 +35,17 @@ window.NEWS_FEED = {
       "score": 43
     },
     {
+      "title": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
+      "topic": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBONFpuZ1RKX1dlamdJczRXYVZzd0VmMTkwV210RDdvdExlUzBrLVN6eTJGdGxmUzNacnNvRm5FcDNCeF9BRV9QRGtiaWNESlF1TFVwOFREVm80d3BGdFRTNmY4UXNkSFMzUTdvTWJQckhELWNjRXlNakdmUXA?oc=5",
+      "source": "Electrek",
+      "published": "2026-10-27T07:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
       "title": "Responsible use of artificial intelligence",
       "topic": "Responsible use of artificial intelligence",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1MWNlUnlUc3NDTjV5dk5zQUZHYkU4aVk1N1B0ZFAxRVYyR3V4T2ttS2x2SEZhdXNfSnBrZElyM2J0OVJCUEdqX0pRaHhFa25MY2FxOGpodVZEX2ltYnVR?oc=5",
@@ -57,6 +57,17 @@ window.NEWS_FEED = {
       "score": 20
     },
     {
+      "title": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "topic": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmctOGpnNzF6QjZkU1BvQ3VUSmhmb2I3bXRQQjQyeWRudFp4bHR2WXpIbDFpY0FLR2JTUnp4eTMzN3ozWDk5cGpydzkxZ205MzFWRThkb2ZLVXVjak5LaUNQaFZFeUllQ0YydHFoUWVWNVZ0Z2JNS19YUTR0TWYzNkw3YTVhY3VRRnRoM3NqYzBoWG5wdE94aktTcXp2OGE3czlRQnUtQm1Vd3RBQ1NJNExRLW1ndTlvckpwSFhzTDZ2MkYtbm9OVmNfa2M?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-04T12:40:12Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
+    {
       "title": "Google says there’s no way to use Search without using artificial intelligence",
       "topic": "Google says there’s no way to use Search without using artificial intelligence",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQejExRlAwVmpXSkJOMFppQ3NXOFRGT2lkOGQ3LURUVS16UjRQa3llY01OY3FxdW1TYWVHZUR4c3NXbTRIT0pUQ2hIZGxlYzRFS2Q1ZG5qRTNNbDV0cnZJMHJaOFRfU1RzTzkzWFF1OVhUaUVhWFh1anhEV0JTb2lSLWJ0UEo5X3pyeWhNTkFSMWMtUQ?oc=5",
@@ -64,17 +75,6 @@ window.NEWS_FEED = {
       "published": "2026-11-03T21:47:00Z",
       "category": "ai",
       "summary": "Headline tracked from The Guardian as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-11-02T23:13:53Z",
-      "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
     },
