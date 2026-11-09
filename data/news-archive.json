@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-08T13:29:55.906902Z",
+  "updated_at": "2026-11-09T16:28:02.943372Z",
   "items": [
+    {
+      "title": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
+      "topic": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15Sk05cXktRlZ4NWlsV1gydk43cWllcUVPYk4xUnhpUnRYYlhIZ0JUQlMwMC1EeVotR1VJRFFLOEp6cmtUbGdwM2pCNkxQczZwa045QTFpMVdxWlNOM0ZTUG9TczYwaGxkSUY4SFdTNkc3SnptdWM5LWZlWEF2NnM?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-09T14:36:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Tesla expands robotaxi service to San Antonio",
+      "topic": "Tesla expands robotaxi service to San Antonio",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFZBaDdmakZ5M0tfNGU4am85a2h6OXNNTGdacFY0TUZLOWlKd0hPRE5jaG54M3JjOU1lTHFJWTZ5aE5oVDhnT0FiZUNoa3I5TDllWHFYeFVXY2E2dG5McXBwVGNoSHdfTzQzU1NfaEZ2bnAtcUVBNzViak5CYUYyM3ljYkwxekU?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-11-09T11:30:24Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
     {
       "title": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",
       "topic": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",

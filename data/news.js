@@ -1,16 +1,27 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-08T13:29:55.840894Z",
+  "generated_at": "2026-11-09T16:28:02.877289Z",
   "items": [
     {
-      "title": "A clinical multimodal vision language foundation model with fine-grain explainability",
-      "topic": "A clinical multimodal vision language foundation model with fine-grain explainability",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NSkFyeDNuT2J1ME9SdzgyaURJNG5QQlEyVnRiaXpQZ1ZZVlVvVS1USnBrcm82VWp4TEkyamJldi1oS1BRZlBTdC1lV2ZlYlFJMkV3ZWN5VHFfWU9kT2ZZ?oc=5",
-      "source": "Nature",
-      "published": "2026-10-29T07:00:00Z",
-      "category": "llm",
-      "summary": "Headline tracked from Nature as a recent LLM signal.",
-      "abstract": "A new large language model capability, benchmark, or application has been reported, with potential relevance to automated vehicle research and deployment. The development advances LLM competence in areas such as instruction following, structured output generation, or domain-specific knowledge retrieval. AV researchers are increasingly leveraging LLMs for tasks including scene description, failure analysis, driver-communication interfaces, and code generation for simulation. Progress in this area reduces the engineering effort needed to build explainable and interactive AV systems.",
-      "score": 56
+      "title": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
+      "topic": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15Sk05cXktRlZ4NWlsV1gydk43cWllcUVPYk4xUnhpUnRYYlhIZ0JUQlMwMC1EeVotR1VJRFFLOEp6cmtUbGdwM2pCNkxQczZwa045QTFpMVdxWlNOM0ZTUG9TczYwaGxkSUY4SFdTNkc3SnptdWM5LWZlWEF2NnM?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-09T14:36:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Tesla expands robotaxi service to San Antonio",
+      "topic": "Tesla expands robotaxi service to San Antonio",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFZBaDdmakZ5M0tfNGU4am85a2h6OXNNTGdacFY0TUZLOWlKd0hPRE5jaG54M3JjOU1lTHFJWTZ5aE5oVDhnT0FiZUNoa3I5TDllWHFYeFVXY2E2dG5McXBwVGNoSHdfTzQzU1NfaEZ2bnAtcUVBNzViak5CYUYyM3ljYkwxekU?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-11-09T11:30:24Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
     },
     {
       "title": "Lyft to expand Waymo robotaxi fleet in Nashville by year-end",
@@ -24,48 +35,37 @@ window.NEWS_FEED = {
       "score": 43
     },
     {
-      "title": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
-      "topic": "Waymo And Uber's Robotaxi Partnership Is Officially Ending: Report",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUlNFX3ZrUlJVOHZSR3RVX2NLY29RSFNIVE9Mb0dBM0lFWlNZRkVkejdBTnYzMTZUYjNST1dKeGh1bGNQeVUxZXhKeGRMZ1l3TlVvM2Rfd2VnWHllNWlObXpTQk5MZjQxRXNSV1ZWYTRNN2tzSWY0aXJFc0VCbzN3X2JB?oc=5",
-      "source": "InsideEVs",
-      "published": "2026-11-04T21:59:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from InsideEVs as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
-    },
-    {
-      "title": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
-      "topic": "Musk declares Tesla Robotaxi win over Waymo, but Waymo still drives 7x more",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBONFpuZ1RKX1dlamdJczRXYVZzd0VmMTkwV210RDdvdExlUzBrLVN6eTJGdGxmUzNacnNvRm5FcDNCeF9BRV9QRGtiaWNESlF1TFVwOFREVm80d3BGdFRTNmY4UXNkSFMzUTdvTWJQckhELWNjRXlNakdmUXA?oc=5",
-      "source": "Electrek",
-      "published": "2026-10-27T07:00:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
-    },
-    {
-      "title": "Google says there’s no way to use Search without using artificial intelligence",
-      "topic": "Google says there’s no way to use Search without using artificial intelligence",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQejExRlAwVmpXSkJOMFppQ3NXOFRGT2lkOGQ3LURUVS16UjRQa3llY01OY3FxdW1TYWVHZUR4c3NXbTRIT0pUQ2hIZGxlYzRFS2Q1ZG5qRTNNbDV0cnZJMHJaOFRfU1RzTzkzWFF1OVhUaUVhWFh1anhEV0JTb2lSLWJ0UEo5X3pyeWhNTkFSMWMtUQ?oc=5",
-      "source": "The Guardian",
-      "published": "2026-11-03T21:47:00Z",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "topic": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RYWs0QVF6WTJBcXgyLUdwRndIbUhWZjNjTXRsc0xLOE9LMkZXNXZVQnlPaTU1ZF9lYUxuV2g3cjFjV1ZlNWcxeUFIajR3MVZXb0E1S2FvWVJXb0lWSHY1STdwUENWVUpXNmVKc3pUVWE2NzJSQWh3?oc=5",
+      "source": "OpenAI",
+      "published": "2026-10-23T07:00:00Z",
       "category": "ai",
-      "summary": "Headline tracked from The Guardian as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
+      "summary": "Headline tracked from OpenAI as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "topic": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaDFyYXc1VXhSNWszSTJjeHpqMzhfNnJyaU44UURVY2tKdl9PdVh1TXRnQ3lrRktDV1VhMEttU25ERGFKaXFKZmlsN0tZZDlGWVhPM0VKMXA1VHZlN0pja1BNSExXUnFTRUtES2xoM3hXdG95MDNSSjFDZTFOck1ZaXlVMDZwMW56VWlRVzVXTzY5TmdrZnoxVG51ZmhGQl8zeC1DeTcwalM3RzhISi1ncUE1Z2FXYUZOTXlB?oc=5",
       "source": "TechCrunch",
-      "published": "2026-11-02T23:13:53Z",
+      "published": "2026-10-20T07:00:00Z",
       "category": "ai",
       "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "topic": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkdWMWdtZHpPVGw2ckJseDNGd1FVVGE5ZVo2cUd6TEpSTE1xRlJNNXY2X1RLRWo0ZTAtOTc2VFRaQTBuMjNrX2ZjYkZyNUphUlBrWnNwb1hmWGNmRDN1bHFkMVRuelNRSHdXNFN3WWVzSXpTLWk4eldfNEVRTDdvVWttZ19zOEFjZjlLbkpKWXpZVlVHV3RyQW1RZ0NfMTBSTHc?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-10-12T07:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "Governments or regulatory bodies have published new proposals or rulings on the governance of artificial intelligence systems. The policy addresses issues such as liability, transparency requirements, prohibited use cases, or mandatory safety evaluations for high-risk AI. For AV researchers, the regulatory trajectory shapes which AI architectures and validation approaches will be permissible in production systems. Industry groups and academic researchers are actively engaging with the policy process to ensure technically sound requirements.",
+      "score": 25
     },
     {
       "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
