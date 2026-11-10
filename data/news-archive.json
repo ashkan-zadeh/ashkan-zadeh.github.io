@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-09T16:28:02.943372Z",
+  "updated_at": "2026-11-10T14:57:05.361794Z",
   "items": [
+    {
+      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+      "topic": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMjFHd0I3TEc4NDM2Vi04eHN1R1kxVXZId3ZzWTUtdkR4VGJhRmgzTF9hM092UFFhUHRpRWhRelBRdktCLXpPRU53UWVTX1pEVndIZlg3ZFZNRy1ZUjdkRXJuYlhHaS1qR3hwWWloMnpFN3hmbVpTN1hCa2N5WjVPSUhtS3FwaFM1cTMtQVVTdWlmWE9uZk50M1RRakFwMXZwbEc1WmQ3Q0dvY3gzY0RmUk5jdjlrQWhKQ2syNW1RQnVCOHlmX1lZOExFNklGZHdWYnVMd3RQdEFkeHhsRzRweEJGOW1IZnk0?oc=5",
+      "source": "The Guardian",
+      "published": "2026-11-10T05:29:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
+      "topic": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUml0MXFsTGhBZ1hKVWtqRkZjZTRwbzZsYVBvSWVxVm4tV0hqVkxsUEtiTVI4QkxJcFh6THMwNGJmUTF6ZlVzWlNOeUdSV205ZC1nU1d3MUNTOVlPZEhBQ04zeEw0TF9rcU9xNlVtc0loaUZ2a2FiVGdaNXhQRW4xTXRWa1IzOGx2N3lKY0xqRWhhQ0VLbmVNOTk3M3dtN1gtN3c?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-10T05:00:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+      "topic": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdnBiX0Z2cUluNEtMVUJhSG83U09OQUo0ZzVxSUQtTXpxa2FMOWNvN1JZNVdMT1FUbW9tenFYOGNIWmxuLWZpOFc1bkFSN1d6Nk9kaklCczUwYjZXNkktT3NkX2hDOTRzT1prb0pmWWlObm9nbGJVa0NmWlZ4dU5NRS1XNXNHMkFLbDFreGxmd05EY3BZczR5NS1aYkdtSTAyQXl2eA?oc=5",
+      "source": "The Guardian",
+      "published": "2026-11-10T02:31:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
       "topic": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
