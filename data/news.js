@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-10T14:57:05.297311Z",
+  "generated_at": "2026-11-11T14:28:32.811420Z",
   "items": [
     {
       "title": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
@@ -35,6 +35,28 @@ window.NEWS_FEED = {
       "score": 43
     },
     {
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "topic": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVhqV2gyYlFPU1FIZlNHRkp4SGJHQVJmMzB3cHE0a29DRHpzS09Obzh5NmlQRFFQd25aaE90ZlVxMXJCaUI0Y1FsOEltc09rX0VRTlJZZ01oUlZXN05KV3NxRXpYclhwb0g1VFE4WFEwZ2tZNllMTkpjdFQ3RVBLeWZMTWVJN3B1OVQtWVM1NkNYbER5a2NwNm1HVmI3R1pjOHFoSzJOdzBucW8tZU53?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-11-10T20:52:13Z",
+      "category": "ai",
+      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "topic": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaElINHVRSDR6TTZ1WWVhODA4UmM1Y3pUd191NWptTkROaTJ2MWU0OXNsNEMtdUFzSjNrbll3MXFwU0laTWVONWdxalI3a3J3dGE0UXp6VEZnSGZndGkxQUpoNk1lZzhBZWxrRE8zMXlYdDBuZDdfenZvbUY0S255MjJLQnNXNXVkMWladWxLZ3M5Q1ZKMW15bi1Pd2tDazB1Vmp2NlhyaERNb0ZWMk5uUUpKUmpzSDg?oc=5",
+      "source": "WIRED",
+      "published": "2026-11-10T11:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from WIRED as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
       "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
       "topic": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMjFHd0I3TEc4NDM2Vi04eHN1R1kxVXZId3ZzWTUtdkR4VGJhRmgzTF9hM092UFFhUHRpRWhRelBRdktCLXpPRU53UWVTX1pEVndIZlg3ZFZNRy1ZUjdkRXJuYlhHaS1qR3hwWWloMnpFN3hmbVpTN1hCa2N5WjVPSUhtS3FwaFM1cTMtQVVTdWlmWE9uZk50M1RRakFwMXZwbEc1WmQ3Q0dvY3gzY0RmUk5jdjlrQWhKQ2syNW1RQnVCOHlmX1lZOExFNklGZHdWYnVMd3RQdEFkeHhsRzRweEJGOW1IZnk0?oc=5",
@@ -44,28 +66,6 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from The Guardian as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
-    },
-    {
-      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-      "topic": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdnBiX0Z2cUluNEtMVUJhSG83U09OQUo0ZzVxSUQtTXpxa2FMOWNvN1JZNVdMT1FUbW9tenFYOGNIWmxuLWZpOFc1bkFSN1d6Nk9kaklCczUwYjZXNkktT3NkX2hDOTRzT1prb0pmWWlObm9nbGJVa0NmWlZ4dU5NRS1XNXNHMkFLbDFreGxmd05EY3BZczR5NS1aYkdtSTAyQXl2eA?oc=5",
-      "source": "The Guardian",
-      "published": "2026-11-10T02:31:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from The Guardian as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "topic": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXBXcWVNSnF4bHF6YndHbU1BVnlvVDZzVTNLZFZyTHZGSVZkRGNKVWxHaUc2UjUzODlmNVV6cHpwSUl6bGJKOFowd0dDZmZMUjdRWFBWb2hGcnZIR0tycGFkSTZrT0M0ZnNJN2RyVmc5ckNfc2c5eldTd3hFbGs2ZmFjOUpxSnBYaDVHSnlueHkzc2NNRW1ZdkFLMlloQ2ZTaGgxSWY4NU9NV1RPenl3UWhZem9QREZG?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-11-02T23:13:53Z",
-      "category": "ai",
-      "summary": "Headline tracked from TechCrunch as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
     },
     {
       "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
