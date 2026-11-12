@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-11T14:28:32.811420Z",
+  "generated_at": "2026-11-12T15:19:34.909284Z",
   "items": [
     {
       "title": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
@@ -57,13 +57,13 @@ window.NEWS_FEED = {
       "score": 27
     },
     {
-      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
-      "topic": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMjFHd0I3TEc4NDM2Vi04eHN1R1kxVXZId3ZzWTUtdkR4VGJhRmgzTF9hM092UFFhUHRpRWhRelBRdktCLXpPRU53UWVTX1pEVndIZlg3ZFZNRy1ZUjdkRXJuYlhHaS1qR3hwWWloMnpFN3hmbVpTN1hCa2N5WjVPSUhtS3FwaFM1cTMtQVVTdWlmWE9uZk50M1RRakFwMXZwbEc1WmQ3Q0dvY3gzY0RmUk5jdjlrQWhKQ2syNW1RQnVCOHlmX1lZOExFNklGZHdWYnVMd3RQdEFkeHhsRzRweEJGOW1IZnk0?oc=5",
-      "source": "The Guardian",
-      "published": "2026-11-10T05:29:00Z",
+      "title": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
+      "topic": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ01VX2RRcFVIUlZEYy1Ra3o1cjV1RkR1QlhhQ2FYdExZWFNtU0tBRW1zRVZrc1FEa2huTE1BMlNIWVJmTXoxemFyX1JwVVM2OXRnTzdsVjFvTjNSbE9xZXBaUG5NZDhwcnFRRnZ0R0xPaVVka3FQazFsaUNoa3F3NGphQXd5U2ZHYTZpSWE5MThRZUNhc0cySkZEQTVkcnR5TDRlM2ZFbkJfSC1aOEtHWWpLR2xmNUp4Ql9BQmhvS2o?oc=5",
+      "source": "AP News",
+      "published": "2026-11-10T05:02:00Z",
       "category": "ai",
-      "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "summary": "Headline tracked from AP News as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
     },

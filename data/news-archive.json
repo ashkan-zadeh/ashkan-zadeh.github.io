@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T14:28:32.907287Z",
+  "updated_at": "2026-11-12T15:19:35.034156Z",
   "items": [
     {
       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
@@ -31,6 +31,17 @@
       "published": "2026-11-10T05:29:00Z",
       "category": "ai",
       "summary": "Headline tracked from The Guardian as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
+    },
+    {
+      "title": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
+      "topic": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ01VX2RRcFVIUlZEYy1Ra3o1cjV1RkR1QlhhQ2FYdExZWFNtU0tBRW1zRVZrc1FEa2huTE1BMlNIWVJmTXoxemFyX1JwVVM2OXRnTzdsVjFvTjNSbE9xZXBaUG5NZDhwcnFRRnZ0R0xPaVVka3FQazFsaUNoa3F3NGphQXd5U2ZHYTZpSWE5MThRZUNhc0cySkZEQTVkcnR5TDRlM2ZFbkJfSC1aOEtHWWpLR2xmNUp4Ql9BQmhvS2o?oc=5",
+      "source": "AP News",
+      "published": "2026-11-10T05:02:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from AP News as a recent AI signal.",
       "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
       "score": 27
     },
