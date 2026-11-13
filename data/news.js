@@ -1,5 +1,5 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-12T15:19:34.909284Z",
+  "generated_at": "2026-11-13T14:39:11.731935Z",
   "items": [
     {
       "title": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
@@ -79,6 +79,17 @@ window.NEWS_FEED = {
       "score": 69
     },
     {
+      "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+      "topic": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2611.16767v1",
+      "source": "arXiv",
+      "published": "2026-11-12T13:15:27Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully...",
+      "abstract": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully curated driving videos spanning not only collision-related corner cases but also rare non-collision...",
+      "score": 67
+    },
+    {
       "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
       "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
       "url": "https://arxiv.org/abs/2610.30953v1",
@@ -88,17 +99,6 @@ window.NEWS_FEED = {
       "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
       "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
       "score": 64
-    },
-    {
-      "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
-      "topic": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
-      "url": "https://arxiv.org/abs/2610.24590v1",
-      "source": "arXiv",
-      "published": "2026-10-17T09:53:47Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
-      "abstract": "Vision-Language-Action (VLA) models offer a promising paradigm for autonomous driving. However, the massive parameter scale of VLAs strains onboard computational resources during real-time inference. This directly increases energy consumption and limits vehicle battery range, making it critical to minimize computational overhead without compromising driving capability and explainability.",
-      "score": 63
     }
   ]
 };
