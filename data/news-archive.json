@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-13T14:39:11.800509Z",
+  "updated_at": "2026-11-14T13:36:38.346961Z",
   "items": [
+    {
+      "title": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+      "topic": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbWFqT1hKOF9zREtBajN5cVUxaEpxLUdDUDRiX1hmV0V1cWV2QmZ4REFVdUdHTTRUZkFFUzdockVsUF9kZ2RPenV4X1U2bnBWdFA5QUJKZW1XZXJlalNRalVVYXNyOXRuQkY1cGFGN25jTG1SalFUbm0xZEY0SjAxaGJGeTVEWWZDekNnQg?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-14T13:33:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
+      "topic": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVFA3STVYaFRsY056bXBKdkJmS1Q1LVFWZl80RUluY0syZWZHTlFWOUV3dl85V1k5R2FRSFdfcXdSc09ZMkNjOWZCNjl5eEdhMHo4T3hHeVF1anZCMlBzTDNaenExQXFuN1hIcEpyWnM0RzBpV1c5OUhxUHJZOVFoY3NqQjVlQ05qT0YyM1lTRWVFTTAxYl9v?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-14T02:11:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
+      "topic": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pSWJ3bEQ2TDlJcExpUUQzWlAwb2pnV3g0ZHAyMEpjcmZTN3dEckZHRXFGREVBc3NvZ2ZsYk5UNTR6TVlqd2pTR0g1VlZtZm5vQWNua1dtenZxSGpvNHRfQVR6cGljY1JZakltNnd0YVJ6dVV6NnpuTmNTQzFoQQ?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-11-14T01:12:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from InsideEVs as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
       "topic": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
@@ -11,6 +44,17 @@
       "summary": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully...",
       "abstract": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully curated driving videos spanning not only collision-related corner cases but also rare non-collision...",
       "score": 67
+    },
+    {
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "topic": "Detecting sleeper agents hiding in AI model neurons",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHZpdjIteTl2WXJDSmFxeWE3cFZUS0N1Tlh3UXZQaU9DVnpLT2JrTGthcVR6UkItYmdYUExoSTByY1hJMTBDb0lBMlM2Tkp5Vms1bmxhVEJwZHQ0SUg3akFnRHlEcU5ESy1qdnpmalJCWGtPU19fa1A3TExiRE9rNXNiMlY0blJxdWhXaHdXZWZXZURuZ3RfdHZTRDFvV2ZwYmpvNG9ZVnE1SWxaUFE?oc=5",
+      "source": "Microsoft",
+      "published": "2026-11-10T23:00:00Z",
+      "category": "ai",
+      "summary": "Headline tracked from Microsoft as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     },
     {
       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",

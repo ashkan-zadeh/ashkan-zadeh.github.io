@@ -1,36 +1,36 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-13T14:39:11.731935Z",
+  "generated_at": "2026-11-14T13:36:38.247559Z",
   "items": [
     {
-      "title": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
-      "topic": "Breakingviews - COMMENTARY: Robotaxi wars will end in Uber-Waymo union",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUml0MXFsTGhBZ1hKVWtqRkZjZTRwbzZsYVBvSWVxVm4tV0hqVkxsUEtiTVI4QkxJcFh6THMwNGJmUTF6ZlVzWlNOeUdSV205ZC1nU1d3MUNTOVlPZEhBQ04zeEw0TF9rcU9xNlVtc0loaUZ2a2FiVGdaNXhQRW4xTXRWa1IzOGx2N3lKY0xqRWhhQ0VLbmVNOTk3M3dtN1gtN3c?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-10T05:00:00Z",
+      "title": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
+      "topic": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pSWJ3bEQ2TDlJcExpUUQzWlAwb2pnV3g0ZHAyMEpjcmZTN3dEckZHRXFGREVBc3NvZ2ZsYk5UNTR6TVlqd2pTR0g1VlZtZm5vQWNua1dtenZxSGpvNHRfQVR6cGljY1JZakltNnd0YVJ6dVV6NnpuTmNTQzFoQQ?oc=5",
+      "source": "InsideEVs",
+      "published": "2026-11-14T01:12:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "summary": "Headline tracked from InsideEVs as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
+      "score": 49
     },
     {
-      "title": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
-      "topic": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15Sk05cXktRlZ4NWlsV1gydk43cWllcUVPYk4xUnhpUnRYYlhIZ0JUQlMwMC1EeVotR1VJRFFLOEp6cmtUbGdwM2pCNkxQczZwa045QTFpMVdxWlNOM0ZTUG9TczYwaGxkSUY4SFdTNkc3SnptdWM5LWZlWEF2NnM?oc=5",
+      "title": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+      "topic": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbWFqT1hKOF9zREtBajN5cVUxaEpxLUdDUDRiX1hmV0V1cWV2QmZ4REFVdUdHTTRUZkFFUzdockVsUF9kZ2RPenV4X1U2bnBWdFA5QUJKZW1XZXJlalNRalVVYXNyOXRuQkY1cGFGN25jTG1SalFUbm0xZEY0SjAxaGJGeTVEWWZDekNnQg?oc=5",
       "source": "Electrek",
-      "published": "2026-11-09T14:36:00Z",
+      "published": "2026-11-14T13:33:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
     },
     {
-      "title": "Tesla expands robotaxi service to San Antonio",
-      "topic": "Tesla expands robotaxi service to San Antonio",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFZBaDdmakZ5M0tfNGU4am85a2h6OXNNTGdacFY0TUZLOWlKd0hPRE5jaG54M3JjOU1lTHFJWTZ5aE5oVDhnT0FiZUNoa3I5TDllWHFYeFVXY2E2dG5McXBwVGNoSHdfTzQzU1NfaEZ2bnAtcUVBNzViak5CYUYyM3ljYkwxekU?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-11-09T11:30:24Z",
+      "title": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
+      "topic": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVFA3STVYaFRsY056bXBKdkJmS1Q1LVFWZl80RUluY0syZWZHTlFWOUV3dl85V1k5R2FRSFdfcXdSc09ZMkNjOWZCNjl5eEdhMHo4T3hHeVF1anZCMlBzTDNaenExQXFuN1hIcEpyWnM0RzBpV1c5OUhxUHJZOVFoY3NqQjVlQ05qT0YyM1lTRWVFTTAxYl9v?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-14T02:11:00Z",
       "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
     },
@@ -57,15 +57,15 @@ window.NEWS_FEED = {
       "score": 27
     },
     {
-      "title": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
-      "topic": "Australia to launch AI safety regulator after OpenAI’s breach of a government portal",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ01VX2RRcFVIUlZEYy1Ra3o1cjV1RkR1QlhhQ2FYdExZWFNtU0tBRW1zRVZrc1FEa2huTE1BMlNIWVJmTXoxemFyX1JwVVM2OXRnTzdsVjFvTjNSbE9xZXBaUG5NZDhwcnFRRnZ0R0xPaVVka3FQazFsaUNoa3F3NGphQXd5U2ZHYTZpSWE5MThRZUNhc0cySkZEQTVkcnR5TDRlM2ZFbkJfSC1aOEtHWWpLR2xmNUp4Ql9BQmhvS2o?oc=5",
-      "source": "AP News",
-      "published": "2026-11-10T05:02:00Z",
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "topic": "Detecting sleeper agents hiding in AI model neurons",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHZpdjIteTl2WXJDSmFxeWE3cFZUS0N1Tlh3UXZQaU9DVnpLT2JrTGthcVR6UkItYmdYUExoSTByY1hJMTBDb0lBMlM2Tkp5Vms1bmxhVEJwZHQ0SUg3akFnRHlEcU5ESy1qdnpmalJCWGtPU19fa1A3TExiRE9rNXNiMlY0blJxdWhXaHdXZWZXZURuZ3RfdHZTRDFvV2ZwYmpvNG9ZVnE1SWxaUFE?oc=5",
+      "source": "Microsoft",
+      "published": "2026-11-10T23:00:00Z",
       "category": "ai",
-      "summary": "Headline tracked from AP News as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 27
+      "summary": "Headline tracked from Microsoft as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
     },
     {
       "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
