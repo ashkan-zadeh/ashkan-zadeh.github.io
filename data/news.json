@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-15T13:59:13.804312Z",
+  "generated_at": "2026-11-16T15:53:16.899292Z",
   "items": [
+    {
+      "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+      "topic": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3RwLW85OFh3UkQzRkRtOWtUOV9WLW1UMVZVUWhuM001SVRNMXBsZUI5YmVwRV9DYm02STdwd0M1TXlWNkVJMnJDbWpqMGxQN1liTXNxMW9ZNy1IenQyQ05Ta092LUdVTWJBTDJFWE96RHBXZExUQnQxNi1yOXBKNl9ES1k1TzNueHNJWDlVQU96bXBmbDZjZFRtbHBxSlFwNVpmd1d5ck0yd1ppVFdv?oc=5",
+      "source": "TechCrunch",
+      "published": "2026-11-15T17:05:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
+      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
+      "score": 49
+    },
     {
       "title": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
       "topic": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
@@ -18,17 +29,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbWFqT1hKOF9zREtBajN5cVUxaEpxLUdDUDRiX1hmV0V1cWV2QmZ4REFVdUdHTTRUZkFFUzdockVsUF9kZ2RPenV4X1U2bnBWdFA5QUJKZW1XZXJlalNRalVVYXNyOXRuQkY1cGFGN25jTG1SalFUbm0xZEY0SjAxaGJGeTVEWWZDekNnQg?oc=5",
       "source": "Electrek",
       "published": "2026-11-14T13:33:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 43
-    },
-    {
-      "title": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
-      "topic": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVFA3STVYaFRsY056bXBKdkJmS1Q1LVFWZl80RUluY0syZWZHTlFWOUV3dl85V1k5R2FRSFdfcXdSc09ZMkNjOWZCNjl5eEdhMHo4T3hHeVF1anZCMlBzTDNaenExQXFuN1hIcEpyWnM0RzBpV1c5OUhxUHJZOVFoY3NqQjVlQ05qT0YyM1lTRWVFTTAxYl9v?oc=5",
-      "source": "Electrek",
-      "published": "2026-11-14T02:11:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
@@ -57,13 +57,13 @@
       "score": 27
     },
     {
-      "title": "Detecting sleeper agents hiding in AI model neurons",
-      "topic": "Detecting sleeper agents hiding in AI model neurons",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHZpdjIteTl2WXJDSmFxeWE3cFZUS0N1Tlh3UXZQaU9DVnpLT2JrTGthcVR6UkItYmdYUExoSTByY1hJMTBDb0lBMlM2Tkp5Vms1bmxhVEJwZHQ0SUg3akFnRHlEcU5ESy1qdnpmalJCWGtPU19fa1A3TExiRE9rNXNiMlY0blJxdWhXaHdXZWZXZURuZ3RfdHZTRDFvV2ZwYmpvNG9ZVnE1SWxaUFE?oc=5",
-      "source": "Microsoft",
-      "published": "2026-11-10T23:00:00Z",
+      "title": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
+      "topic": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-16T04:29:00Z",
       "category": "ai",
-      "summary": "Headline tracked from Microsoft as a recent AI signal.",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
     },
