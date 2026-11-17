@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:53:16.899292Z",
+  "generated_at": "2026-11-17T16:05:08.299395Z",
   "items": [
     {
       "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
@@ -24,15 +24,26 @@
       "score": 49
     },
     {
-      "title": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
-      "topic": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbWFqT1hKOF9zREtBajN5cVUxaEpxLUdDUDRiX1hmV0V1cWV2QmZ4REFVdUdHTTRUZkFFUzdockVsUF9kZ2RPenV4X1U2bnBWdFA5QUJKZW1XZXJlalNRalVVYXNyOXRuQkY1cGFGN25jTG1SalFUbm0xZEY0SjAxaGJGeTVEWWZDekNnQg?oc=5",
+      "title": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+      "topic": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HS1pnU0tNMHpQSERUT0NsYW1SYU1oWThwRnJKQlZhbktiM0ludU9MejN3U0RObHZwbmNCeExvNWRWbVp5cW5XeUxGSG5zTWVoRjFHZkxjSkx6WVdnNW5rOUNKTE9HV0tTWlhSYkVkSU54RmF1U1FB?oc=5",
       "source": "Electrek",
-      "published": "2026-11-14T13:33:00Z",
+      "published": "2026-11-16T21:41:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
+    },
+    {
+      "title": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
+      "topic": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNnakh3bExOZ2t6SEtpNjloRHZndS13UTBFUXZMUVA4RGZCZE9DTUVxRWJBMmxRdndNX1Y3YXJ3NWMwUm5JQXlkdEFxMEZJcVhmaUZtd0tGTk4yRFBKOWtjT2pJaXQyX1JxZi1Sd2FTS0VWS3A0bDFmdk1RQTE3MnptQTVIa1o1UUFiRXExaFNETEtLcV9OV0dzWTBUcV9DNmptN1lEREgxd0dZLWdV?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-16T12:15:34Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
@@ -46,26 +57,26 @@
       "score": 27
     },
     {
-      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
-      "topic": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaElINHVRSDR6TTZ1WWVhODA4UmM1Y3pUd191NWptTkROaTJ2MWU0OXNsNEMtdUFzSjNrbll3MXFwU0laTWVONWdxalI3a3J3dGE0UXp6VEZnSGZndGkxQUpoNk1lZzhBZWxrRE8zMXlYdDBuZDdfenZvbUY0S255MjJLQnNXNXVkMWladWxLZ3M5Q1ZKMW15bi1Pd2tDazB1Vmp2NlhyaERNb0ZWMk5uUUpKUmpzSDg?oc=5",
-      "source": "WIRED",
-      "published": "2026-11-10T11:00:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from WIRED as a recent AI signal.",
-      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
-      "score": 27
-    },
-    {
-      "title": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
-      "topic": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5",
+      "title": "PODCAST: Where the artificial intelligence boom goes next",
+      "topic": "PODCAST: Where the artificial intelligence boom goes next",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVEZIcEhfemdqeHAyVmpEVnRwenVHTDBPRFEtNXlCWDBOZ1YxcGtwZ25USkFKSnk0bFRIZkUwQmozLVctZ2pwQmQ2OG9iNng4eUpSblJPUEtwUllCei1nTk5QZ3dDRE1xOUtvMjY2MUFEeE5rV3hzYUdrMGNQUGdVcHdMMHN0OGNySThPaWp4cmM2WURmU0FNVzBkeWZuUy1uSWVCaA?oc=5",
       "source": "Reuters",
-      "published": "2026-11-16T04:29:00Z",
+      "published": "2026-11-17T04:49:00Z",
       "category": "ai",
       "summary": "Headline tracked from Reuters as a recent AI signal.",
       "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
       "score": 20
+    },
+    {
+      "title": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "topic": "Real-Time Vision-Language Model Guided Semantic-Aware Diffusion Navigation with Intelligent Vehicle Validation",
+      "url": "https://doi.org/10.1109/ITSC60802.2025.11423092",
+      "source": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "published": "2025-11-18T00:00:00Z",
+      "category": "journal-llm-vlm-av",
+      "summary": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information...",
+      "abstract": "In autonomous driving systems, enabling vehicles to comprehend and execute high-level semantic instructions from humans is a crucial direction for advancing natural interactive navigation. To this end, this paper proposes a vision-language model guided semantic-aware diffusion navigation method (VLSAN) for semi-structured campus road scenarios, establishing a strategy for translating natural language instructions into vehicle motion control. The method takes natural language, raw images, and their high-dimensional visual features as joint inputs, leveraging the vision-language model (VLM) to generate semantically guided drivable semantic region maps, achieving multimodal information fusion and semantic alignment.",
+      "score": 76
     },
     {
       "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
@@ -79,26 +90,15 @@
       "score": 69
     },
     {
-      "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
-      "topic": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
-      "url": "https://arxiv.org/abs/2611.16767v1",
+      "title": "Competent Autonomous Driving Through Fine Tuning Vision Language Action Models with Symbolic Traffic Rules",
+      "topic": "Competent Autonomous Driving Through Fine Tuning Vision Language Action Models with Symbolic Traffic Rules",
+      "url": "https://arxiv.org/abs/2611.20648v1",
       "source": "arXiv",
-      "published": "2026-11-12T13:15:27Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully...",
-      "abstract": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully curated driving videos spanning not only collision-related corner cases but also rare non-collision...",
+      "published": "2026-11-16T07:06:44Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Vision-language-action (VLA) models offer a unified approach to perception, reasoning, and control for autonomous driving, but accurate action prediction alone does not establish compliance with traffic regulations. This paper presents a rule-guided VLA framework that incorporates symbolic traffic-rule feedback into policy optimisation. The framework combines supervised fine-tuning on expert demonstrations with reinforcement learning (RL) refinement using a reward that encourages encoded-rule compliance while penalising deviations from expert actions.",
+      "abstract": "Vision-language-action (VLA) models offer a unified approach to perception, reasoning, and control for autonomous driving, but accurate action prediction alone does not establish compliance with traffic regulations. This paper presents a rule-guided VLA framework that incorporates symbolic traffic-rule feedback into policy optimisation. The framework combines supervised fine-tuning on expert demonstrations with reinforcement learning (RL) refinement using a reward that encourages encoded-rule compliance while penalising deviations from expert actions.",
       "score": 67
-    },
-    {
-      "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "topic": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
-      "url": "https://arxiv.org/abs/2610.30953v1",
-      "source": "arXiv",
-      "published": "2026-10-22T09:04:06Z",
-      "category": "arxiv-explainability-av",
-      "summary": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "abstract": "Driving vision-language-action (VLA) models bring an appealing form of explainability to a safety-critical domain, since a system that can state the reasons for its maneuvers offers the transparency that deployment and public trust in autonomous driving demand. These models read the world into language before they act on it, describing the scene and reasoning over it in text that ranges from chain-of-thought to multi-stage question answering on the way to a trajectory. That framing quietly assumes two separable properties, namely that the trajectory follows the generated reasoning and that the generated reasoning tracks the causes that actually produce the trajectory.",
-      "score": 64
     }
   ]
 }
