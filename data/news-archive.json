@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-11-17T16:05:08.381801Z",
+  "updated_at": "2026-11-18T15:43:52.580940Z",
   "items": [
+    {
+      "title": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
+      "topic": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26006261?dgcid=rss_sd_all",
+      "source": "Transportation Research Part C: Emerging Technologies",
+      "published": "2026-11-18T15:43:30.979794Z",
+      "category": "journal-rss",
+      "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
+      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
+      "score": 57
+    },
+    {
+      "title": "Waymo pauses robotaxi rides on US freeways after California ban",
+      "topic": "Waymo pauses robotaxi rides on US freeways after California ban",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTkw0bE5kQUlYTVp4amxvbkwtbnc3ZmZTc0FUaWtiUmtmbkF6SldmOXpGOUt0T3BHRk0zOVN3QXpLQ0d3UDRwakVSblEwT3h1NHV5ekdyVHhCMDJBOGtsZEdaZDJzUGlYTlMxRGxXWjZmRDU5dnh1Y1NyY0duUlFmNEF5YjVxQV85aVBhTUw3UGptQ1hBSFJQSXpVRkg4VXd4VEdlak9MTDdjM1FOTVdzaHB4djl1Y21VSGtLU1hLcS1OTTdl?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-18T00:18:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
+      "score": 43
+    },
+    {
+      "title": "California bans Waymo self-driving cars from freeways",
+      "topic": "California bans Waymo self-driving cars from freeways",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmR5UUhZeVFoVUFwOGVkZDBwTEREd1V6dVhWTEhoTWdaQWhFbHhmbWNaWlByRFR5bzUxTzVxNTN5WXl4MUhYQXgyMlFpNDg3dWpxNE9hdjZvV2dzVVpSM2RHcHdjTUQ1aVZxUER1UzFmanVqZTVKbnhfVHV2ZmRGQXlUYzlTeGhVS2JB?oc=5",
+      "source": "The Guardian",
+      "published": "2026-11-17T23:17:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from The Guardian as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "Google is making it easier to opt out of Gemini AI model training – here’s how",
+      "topic": "Google is making it easier to opt out of Gemini AI model training – here’s how",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYVB0UndmUUR0cHN4YVhmMnlhb3JYQ2hlN2lWVm0tOUNyZnV3MDR5LThtMWpBTk9UUVVOT2FuWWpMTzhGRzQ3akpvdjVYOWxFZ0R2UjQ4bFlWc3JMYmM2QXg2NXFsWHhvdW1ibzZRUUZidVpEa1M2amt3bUFnOW1hWmZWUQ?oc=5",
+      "source": "ZDNET",
+      "published": "2026-11-17T18:01:38Z",
+      "category": "ai",
+      "summary": "Headline tracked from ZDNET as a recent AI signal.",
+      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
+      "score": 20
+    },
     {
       "title": "PODCAST: Where the artificial intelligence boom goes next",
       "topic": "PODCAST: Where the artificial intelligence boom goes next",
@@ -1705,6 +1749,17 @@
       "summary": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
       "abstract": "France has initiated tests on Tesla's self-driving technology, marking a significant step in the European validation of Tesla's autonomous systems. These tests aim to assess the safety and reliability of Tesla's FSD in a controlled European environment, which could influence regulatory decisions and public acceptance.",
       "score": 85
+    },
+    {
+      "title": "Smart Logistic System: A Multidisciplinary Integrated System for Driving Safety and Transportation Management",
+      "topic": "Smart Logistic System: A Multidisciplinary Integrated System for Driving Safety and Transportation Management",
+      "url": "http://ieeexplore.ieee.org/document/11676388",
+      "source": "IEEE Transactions on Intelligent Transportation Systems",
+      "published": "2026-09-03T13:17:08Z",
+      "category": "journal-rss",
+      "summary": "The logistics and transportation industry faces several critical challenges, including the absence of real-time vehicle data, inadequate safety measures, and inefficient resource management. This paper presents the Smart Logistic System (SLS), a unified intelligent transportation architecture that integrates embedded systems, Augmented Reality (AR), Machine Learning (ML), Internet of Things (IoT), and digital-twin technology within a single operational framework, rather than as independent subsystems. The system continuously monitors key vehicle parameters — location, speed, fuel consumption, and engine performance — to support proactive maintenance and minimize downtime.",
+      "abstract": "The logistics and transportation industry faces several critical challenges, including the absence of real-time vehicle data, inadequate safety measures, and inefficient resource management. This paper presents the Smart Logistic System (SLS), a unified intelligent transportation architecture that integrates embedded systems, Augmented Reality (AR), Machine Learning (ML), Internet of Things (IoT), and digital-twin technology within a single operational framework, rather than as independent subsystems. The system continuously monitors key vehicle parameters — location, speed, fuel consumption, and engine performance — to support proactive maintenance and minimize downtime.",
+      "score": 56
     },
     {
       "title": "HybridFusion: A Universal Multimodal Data Fusion Framework for 3-D Detection and Tracking",
