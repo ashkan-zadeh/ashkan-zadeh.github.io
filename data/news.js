@@ -1,26 +1,15 @@
 window.NEWS_FEED = {
-  "generated_at": "2026-11-18T15:43:52.449119Z",
+  "generated_at": "2026-11-19T15:49:34.830206Z",
   "items": [
     {
       "title": "California bans Waymo self-driving cars from freeways",
       "topic": "California bans Waymo self-driving cars from freeways",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmR5UUhZeVFoVUFwOGVkZDBwTEREd1V6dVhWTEhoTWdaQWhFbHhmbWNaWlByRFR5bzUxTzVxNTN5WXl4MUhYQXgyMlFpNDg3dWpxNE9hdjZvV2dzVVpSM2RHcHdjTUQ1aVZxUER1UzFmanVqZTVKbnhfVHV2ZmRGQXlUYzlTeGhVS2JB?oc=5",
       "source": "The Guardian",
-      "published": "2026-11-17T23:17:00Z",
+      "published": "2026-11-17T23:14:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from The Guardian as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
-      "score": 49
-    },
-    {
-      "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
-      "topic": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3RwLW85OFh3UkQzRkRtOWtUOV9WLW1UMVZVUWhuM001SVRNMXBsZUI5YmVwRV9DYm02STdwd0M1TXlWNkVJMnJDbWpqMGxQN1liTXNxMW9ZNy1IenQyQ05Ta092LUdVTWJBTDJFWE96RHBXZExUQnQxNi1yOXBKNl9ES1k1TzNueHNJWDlVQU96bXBmbDZjZFRtbHBxSlFwNVpmd1d5ck0yd1ppVFdv?oc=5",
-      "source": "TechCrunch",
-      "published": "2026-11-15T17:05:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from TechCrunch as a recent automated vehicle signal.",
-      "abstract": "A recent development in automated vehicle technology, operations, or policy has been reported by a major news outlet or research institution. The article covers progress or challenges in areas such as deployment readiness, safety validation, sensor technology, or regulatory compliance. Such updates are relevant to researchers studying the engineering, societal, and governance dimensions of autonomous mobility. Tracking these developments helps contextualise where the field stands relative to the milestones needed for widespread AV adoption.",
       "score": 49
     },
     {
@@ -33,6 +22,28 @@ window.NEWS_FEED = {
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
       "score": 43
+    },
+    {
+      "title": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+      "topic": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HS1pnU0tNMHpQSERUT0NsYW1SYU1oWThwRnJKQlZhbktiM0ludU9MejN3U0RObHZwbmNCeExvNWRWbVp5cW5XeUxGSG5zTWVoRjFHZkxjSkx6WVdnNW5rOUNKTE9HV0tTWlhSYkVkSU54RmF1U1FB?oc=5",
+      "source": "Electrek",
+      "published": "2026-11-16T21:41:00Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 43
+    },
+    {
+      "title": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
+      "topic": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkh0ckZncVlZLW10eldobVVJNEs3SHAwbGNnakh3bExOZ2t6SEtpNjloRHZndS13UTBFUXZMUVA4RGZCZE9DTUVxRWJBMmxRdndNX1Y3YXJ3NWMwUm5JQXlkdEFxMEZJcVhmaUZtd0tGTk4yRFBKOWtjT2pJaXQyX1JxZi1Sd2FTS0VWS3A0bDFmdk1RQTE3MnptQTVIa1o1UUFiRXExaFNETEtLcV9OV0dzWTBUcV9DNmptN1lEREgxd0dZLWdV?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-16T12:15:34Z",
+      "category": "ai",
+      "summary": "Headline tracked from Reuters as a recent AI signal.",
+      "abstract": "A new report or research publication has highlighted safety considerations for advanced AI systems operating in high-stakes environments. The work examines alignment, robustness, or evaluation challenges that arise as models are deployed beyond controlled benchmarks. These findings are directly relevant to automated vehicles, where AI safety failures can have physical consequences for passengers and bystanders. The research contributes to the growing body of work on building AI systems that behave reliably under distribution shift and adversarial conditions.",
+      "score": 27
     },
     {
       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
@@ -57,22 +68,11 @@ window.NEWS_FEED = {
       "score": 20
     },
     {
-      "title": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
-      "topic": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5",
-      "source": "Reuters",
-      "published": "2026-11-16T04:29:00Z",
-      "category": "ai",
-      "summary": "Headline tracked from Reuters as a recent AI signal.",
-      "abstract": "A significant AI research or industry development has been published, with implications for capability, safety, or deployment of intelligent systems. The work advances the state of the art in areas such as model reasoning, multimodal understanding, or large-scale training methodology. Connections to autonomous systems research include perception, decision-making, natural language explanation, and human-machine interaction. The finding is likely to influence near-term research agendas at major labs and universities working on applied AI.",
-      "score": 20
-    },
-    {
       "title": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
       "topic": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
       "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26006261?dgcid=rss_sd_all",
       "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-11-18T15:43:30.979794Z",
+      "published": "2026-11-19T15:49:14.953316Z",
       "category": "journal-rss",
       "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
       "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
