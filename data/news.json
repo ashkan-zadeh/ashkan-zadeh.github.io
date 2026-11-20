@@ -1,12 +1,23 @@
 {
-  "generated_at": "2026-11-19T15:49:34.830206Z",
+  "generated_at": "2026-11-20T15:30:48.734395Z",
   "items": [
+    {
+      "title": "Italy gives green light to Tesla self-driving system ahead of EU approval",
+      "topic": "Italy gives green light to Tesla self-driving system ahead of EU approval",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYUs2dGZKcXM0TldoNEJPdjNSbzVQMVB0UkpkTzhreFpwc2VuRjUteDZ2TzNtTGhNZDZkSEd4RTdFMzVsWkxpTWRDOTRzWVNpSlVXOVNkVlVYZU93ZzQ1aGVVUklHdUpLbWxuME1rWEU3WEFkUkgxa3E2TXkwdllpLVNPMjVKYVREV0NRVlFaRjJWQU1KMUxrX2hGRlZiZnJhQ3pLMlpTMk5XMDB5RWc?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-20T14:04:09Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
     {
       "title": "California bans Waymo self-driving cars from freeways",
       "topic": "California bans Waymo self-driving cars from freeways",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmR5UUhZeVFoVUFwOGVkZDBwTEREd1V6dVhWTEhoTWdaQWhFbHhmbWNaWlByRFR5bzUxTzVxNTN5WXl4MUhYQXgyMlFpNDg3dWpxNE9hdjZvV2dzVVpSM2RHcHdjTUQ1aVZxUER1UzFmanVqZTVKbnhfVHV2ZmRGQXlUYzlTeGhVS2JB?oc=5",
       "source": "The Guardian",
-      "published": "2026-11-17T23:14:00Z",
+      "published": "2026-11-18T16:51:00Z",
       "category": "automated-vehicles",
       "summary": "Headline tracked from The Guardian as a recent automated vehicle signal.",
       "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
@@ -21,17 +32,6 @@
       "category": "automated-vehicles",
       "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
       "abstract": "Waymo has temporarily suspended or paused robotaxi operations in response to an incident or adverse conditions, illustrating that commercial AV services remain sensitive to edge-case failures. Such pauses are part of standard safety protocols in which operators pull vehicles until the cause is diagnosed and the system is updated or validated. The episode underscores the challenge of maintaining continuous commercial operations while meeting rigorous safety standards. It also provides real-world data that feeds back into improved fault-detection and operational-design-domain policies.",
-      "score": 43
-    },
-    {
-      "title": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
-      "topic": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HS1pnU0tNMHpQSERUT0NsYW1SYU1oWThwRnJKQlZhbktiM0ludU9MejN3U0RObHZwbmNCeExvNWRWbVp5cW5XeUxGSG5zTWVoRjFHZkxjSkx6WVdnNW5rOUNKTE9HV0tTWlhSYkVkSU54RmF1U1FB?oc=5",
-      "source": "Electrek",
-      "published": "2026-11-16T21:41:00Z",
-      "category": "automated-vehicles",
-      "summary": "Headline tracked from Electrek as a recent automated vehicle signal.",
-      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
       "score": 43
     },
     {
@@ -68,37 +68,37 @@
       "score": 20
     },
     {
-      "title": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
-      "topic": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26006261?dgcid=rss_sd_all",
-      "source": "Transportation Research Part C: Emerging Technologies",
-      "published": "2026-11-19T15:49:14.953316Z",
-      "category": "journal-rss",
-      "summary": "Headline tracked from Transportation Research Part C: Emerging Technologies as a recent journal paper signal.",
-      "abstract": "A recent development at the intersection of AI, autonomous vehicles, and intelligent mobility has been covered by a reputable technical or news publication. The article addresses advances in perception, planning, language interfaces, or regulatory frameworks relevant to next-generation transport systems. Researchers in automated driving and applied AI will find the findings pertinent to ongoing work on safe, explainable, and human-centred autonomous systems. Tracking such developments provides important context for situating individual research contributions within the broader field.",
-      "score": 57
+      "title": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "topic": "Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception",
+      "url": "https://arxiv.org/abs/2611.08441v1",
+      "source": "arXiv",
+      "published": "2026-11-05T18:33:58Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each frame into structured traffic attributes through a single prompt, and an explainable boosting machine (EBM) combines them with OpenStreetMap road infrastructure and on-bike kinematics to predict a crowdsourced 1-9 safety score.",
+      "abstract": "Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensing system: handlebar cameras supply street-level frames, a vision-language model (VLM) turns each frame into structured traffic attributes through a single prompt, and an explainable boosting machine (EBM) combines them with OpenStreetMap road infrastructure and on-bike kinematics to predict a crowdsourced 1-9 safety score.",
+      "score": 69
     },
     {
-      "title": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
-      "topic": "Refining the Invisible: Cooperative Occlusion-Aware Planning for Connected and Automated Vehicles via Reachability Analysis",
-      "url": "http://ieeexplore.ieee.org/document/11666996",
-      "source": "IEEE Open Journal of Intelligent Transportation Systems",
-      "published": "2026-08-25T13:16:24Z",
-      "category": "journal-rss",
-      "summary": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
-      "abstract": "Achieving safe and efficient navigation in urban environments, where occlusions frequently occur, remains a persistent challenge for autonomous driving. Cooperative perception (CP) provides an effective way to enhance perception and mitigate occlusions. Nevertheless, for collision avoidance with potential hidden traffic participants (TPs) within residual occlusions shared among multiple connected agents, most studies still follow the worst-case assumption, forcing agents to remain overly conservative.",
-      "score": 57
+      "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+      "topic": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+      "url": "https://arxiv.org/abs/2611.26242v1",
+      "source": "arXiv",
+      "published": "2026-11-19T15:23:14Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution.",
+      "abstract": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution.",
+      "score": 68
     },
     {
-      "title": "Smart Logistic System: A Multidisciplinary Integrated System for Driving Safety and Transportation Management",
-      "topic": "Smart Logistic System: A Multidisciplinary Integrated System for Driving Safety and Transportation Management",
-      "url": "http://ieeexplore.ieee.org/document/11676388",
-      "source": "IEEE Transactions on Intelligent Transportation Systems",
-      "published": "2026-09-03T13:17:08Z",
-      "category": "journal-rss",
-      "summary": "The logistics and transportation industry faces several critical challenges, including the absence of real-time vehicle data, inadequate safety measures, and inefficient resource management. This paper presents the Smart Logistic System (SLS), a unified intelligent transportation architecture that integrates embedded systems, Augmented Reality (AR), Machine Learning (ML), Internet of Things (IoT), and digital-twin technology within a single operational framework, rather than as independent subsystems. The system continuously monitors key vehicle parameters — location, speed, fuel consumption, and engine performance — to support proactive maintenance and minimize downtime.",
-      "abstract": "The logistics and transportation industry faces several critical challenges, including the absence of real-time vehicle data, inadequate safety measures, and inefficient resource management. This paper presents the Smart Logistic System (SLS), a unified intelligent transportation architecture that integrates embedded systems, Augmented Reality (AR), Machine Learning (ML), Internet of Things (IoT), and digital-twin technology within a single operational framework, rather than as independent subsystems. The system continuously monitors key vehicle parameters — location, speed, fuel consumption, and engine performance — to support proactive maintenance and minimize downtime.",
-      "score": 56
+      "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+      "topic": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2611.16767v1",
+      "source": "arXiv",
+      "published": "2026-11-12T13:15:27Z",
+      "category": "arxiv-explainability-av",
+      "summary": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully...",
+      "abstract": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully curated driving videos spanning not only collision-related corner cases but also rare non-collision...",
+      "score": 67
     }
   ]
 }

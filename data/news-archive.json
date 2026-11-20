@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-19T15:49:34.900079Z",
+  "updated_at": "2026-11-20T15:30:48.805053Z",
   "items": [
+    {
+      "title": "Italy gives green light to Tesla self-driving system ahead of EU approval",
+      "topic": "Italy gives green light to Tesla self-driving system ahead of EU approval",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYUs2dGZKcXM0TldoNEJPdjNSbzVQMVB0UkpkTzhreFpwc2VuRjUteDZ2TzNtTGhNZDZkSEd4RTdFMzVsWkxpTWRDOTRzWVNpSlVXOVNkVlVYZU93ZzQ1aGVVUklHdUpLbWxuME1rWEU3WEFkUkgxa3E2TXkwdllpLVNPMjVKYVREV0NRVlFaRjJWQU1KMUxrX2hGRlZiZnJhQ3pLMlpTMk5XMDB5RWc?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-20T14:04:09Z",
+      "category": "automated-vehicles",
+      "summary": "Headline tracked from Reuters as a recent automated vehicle signal.",
+      "abstract": "A major AV operator has announced a significant operational, technical, or business development affecting its commercial autonomous-driving program. The update reflects ongoing competition among leading players to demonstrate fleet reliability, safety, and scalable unit economics. Technical details — such as sensor configurations, software stack updates, or safety driver policies — will determine long-term competitive positioning. Analysts and researchers are tracking these milestones as indicators of when full driverless commercialisation at scale becomes viable.",
+      "score": 49
+    },
+    {
+      "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+      "topic": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+      "url": "https://arxiv.org/abs/2611.26242v1",
+      "source": "arXiv",
+      "published": "2026-11-19T15:23:14Z",
+      "category": "arxiv-llm-vlm-av",
+      "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution.",
+      "abstract": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution.",
+      "score": 68
+    },
     {
       "title": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
       "topic": "Retraction notice to “Vision-language model-based scene understanding and decision-making for autonomous vehicles with a tailored augmented reality vehicle-in-the-loop testing platform” [Trans. Res....",
